@@ -1,463 +1,645 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
-import {
-  SixSquare,
-  Trash,
-  EightCircle,
-  ArrowRightCircle,
-  Basketball,
-  BatteryHalf,
-  BookOpen,
-  CalendarSix,
-  CheckCircle,
-  Clock,
-  Cloud,
-  Cube,
-  Delete,
-  Document,
-  DocumentText,
-  DocumentX,
-  Droid,
-  Folder,
-  FolderDip,
-  Heart,
-  Horse,
-  Intersect,
-  Mail,
-  Medium,
-  SmileyMeh,
-  Microphone,
-  MusicNotesAngled,
-  MusicNotesStraight,
-  PencilLine,
-  PenNib,
-  ProfileCircle,
-  Rewind,
-  Star,
-  Table,
-  VolumeOff,
-  Warning,
-  WifiFull,
-  WifiLow,
-  WifiNone
-} from 'phosphor-react'
-import 'phosphor-react/dist/index.css'
+import * as Icon from "phosphor-react";
+import "phosphor-react/dist/index.css";
 
 const App = () => {
-  const [weight, setWeight] = useState<'regular' | 'fill' | 'duotone'>(
-    'duotone'
-  )
+  const [color, setColor] = useState<string>("crimson");
+  const [weight, setWeight] = useState<
+    "thin" | "light" | "regular" | "bold" | "fill" | "duotone"
+  >("regular");
 
-  const onClick = () => {
-    switch (weight) {
-      case 'regular':
-        setWeight('fill')
-        break
-      case 'fill':
-        setWeight('duotone')
-        break
-      case 'duotone':
-        setWeight('regular')
-        break
-      default:
-        throw new Error('Invalid weight')
-    }
-  }
+  const onHeartClick = () => {
+    setColor(
+      `#${Math.floor(Math.random() * 16777216)
+        .toString(16)
+        .padStart(6, "0")}`
+    );
+  };
 
   return (
-    <div>
-      <SixSquare />
-      {/* <br /> */}
-      <SixSquare color='darkorange' size={24} />
-      <SixSquare color='darkmagenta' size={24} />
-      <SixSquare color='royalblue' size={24} />
-      {/* <br /> */}
-      <SixSquare size={48} />
-      <SixSquare color='crimson' size={48} />
-      <SixSquare color='teal' size={48} />
-      {/* <br /> */}
-      <Trash />
-      {/* <br /> */}
-      <Trash color='darkorange' size={24} />
-      <Trash color='darkmagenta' size={24} />
-      <Trash color='royalblue' size={24} />
-      {/* <br /> */}
-      <Trash size={48} />
-      <Trash color='crimson' size={48} weight='fill' />
-      <Trash color='teal' size={48} weight={weight} onClick={onClick} />
-      {/* <br /> */}
-      <EightCircle />
-      {/* <br /> */}
-      <EightCircle color='darkorange' size={24} />
-      <EightCircle color='darkmagenta' size={24} />
-      <EightCircle color='royalblue' size={24} />
-      {/* <br /> */}
-      <EightCircle size={48} />
-      <EightCircle color='crimson' size={48} />
-      <EightCircle color='teal' size={48} />
-      {/* <br /> */}
-      <ArrowRightCircle />
-      {/* <br /> */}
-      <ArrowRightCircle color='darkorange' size={24} />
-      <ArrowRightCircle color='darkmagenta' size={24} />
-      <ArrowRightCircle color='royalblue' size={24} />
-      {/* <br /> */}
-      <ArrowRightCircle size={48} />
-      <ArrowRightCircle color='crimson' size={48} />
-      <ArrowRightCircle color='teal' size={48} />
-      {/* <br /> */}
-      <Basketball />
-      {/* <br /> */}
-      <Basketball color='darkorange' size={24} />
-      <Basketball color='darkmagenta' size={24} />
-      <Basketball color='royalblue' size={24} />
-      {/* <br /> */}
-      <Basketball size={48} />
-      <Basketball color='crimson' size={48} />
-      <Basketball color='teal' size={48} />
-      {/* <br /> */}
-      <BatteryHalf weight='fill' />
-      {/* <br /> */}
-      <BatteryHalf color='darkorange' size={24} weight='fill' />
-      <BatteryHalf color='darkmagenta' size={24} />
-      <BatteryHalf color='royalblue' size={24} weight='fill' />
-      {/* <br /> */}
-      <BatteryHalf size={48} />
-      <BatteryHalf color='crimson' size={48} weight='fill' />
-      <BatteryHalf color='teal' size={48} />
-      {/* <br /> */}
-      <BookOpen />
-      {/* <br /> */}
-      <BookOpen color='darkorange' size={24} />
-      <BookOpen color='darkmagenta' size={24} />
-      <BookOpen color='royalblue' size={24} />
-      {/* <br /> */}
-      <BookOpen size={48} />
-      <BookOpen color='crimson' size={48} />
-      <BookOpen color='teal' size={48} />
-      {/* <br /> */}
-      <CalendarSix />
-      {/* <br /> */}
-      <CalendarSix color='darkorange' size={24} />
-      <CalendarSix color='darkmagenta' size={24} />
-      <CalendarSix color='royalblue' size={24} />
-      {/* <br /> */}
-      <CalendarSix size={48} />
-      <CalendarSix color='crimson' size={48} />
-      <CalendarSix color='teal' size={48} />
-      {/* <br /> */}
-      <CheckCircle />
-      {/* <br /> */}
-      <CheckCircle color='darkorange' size={24} />
-      <CheckCircle color='darkmagenta' size={24} />
-      <CheckCircle color='royalblue' size={24} />
-      {/* <br /> */}
-      <CheckCircle size={48} />
-      <CheckCircle color='crimson' size={48} />
-      <CheckCircle color='teal' size={48} />
-      {/* <br /> */}
-      <Clock />
-      {/* <br /> */}
-      <Clock color='darkorange' size={24} />
-      <Clock color='darkmagenta' size={24} />
-      <Clock color='royalblue' size={24} />
-      {/* <br /> */}
-      <Clock size={48} />
-      <Clock color='crimson' size={48} />
-      <Clock color='teal' size={48} />
-      {/* <br /> */}
-      <Cloud />
-      {/* <br /> */}
-      <Cloud color='darkorange' size={24} />
-      <Cloud color='darkmagenta' size={24} />
-      <Cloud color='royalblue' size={24} />
-      {/* <br /> */}
-      <Cloud size={48} />
-      <Cloud color='crimson' size={48} />
-      <Cloud color='teal' size={48} />
-      {/* <br /> */}
-      <Cube />
-      {/* <br /> */}
-      <Cube color='darkorange' size={24} />
-      <Cube color='darkmagenta' size={24} />
-      <Cube color='royalblue' size={24} />
-      {/* <br /> */}
-      <Cube size={48} />
-      <Cube color='crimson' size={48} />
-      <Cube color='teal' size={48} />
-      {/* <br /> */}
-      <Delete />
-      {/* <br /> */}
-      <Delete color='darkorange' size={24} />
-      <Delete color='darkmagenta' size={24} />
-      <Delete color='royalblue' size={24} />
-      {/* <br /> */}
-      <Delete size={48} />
-      <Delete color='crimson' size={48} />
-      <Delete color='teal' size={48} />
-      {/* <br /> */}
-      <Document />
-      {/* <br /> */}
-      <Document color='darkorange' size={24} />
-      <Document color='darkmagenta' size={24} />
-      <Document color='royalblue' size={24} />
-      {/* <br /> */}
-      <Document size={48} />
-      <Document color='crimson' size={48} />
-      <Document color='teal' size={48} />
-      {/* <br /> */}
-      <DocumentText />
-      {/* <br /> */}
-      <DocumentText color='darkorange' size={24} />
-      <DocumentText color='darkmagenta' size={24} />
-      <DocumentText color='royalblue' size={24} />
-      {/* <br /> */}
-      <DocumentText size={48} />
-      <DocumentText color='crimson' size={48} />
-      <DocumentText color='teal' size={48} />
-      {/* <br /> */}
-      <DocumentX />
-      {/* <br /> */}
-      <DocumentX color='darkorange' size={24} />
-      <DocumentX color='darkmagenta' size={24} />
-      <DocumentX color='royalblue' size={24} />
-      {/* <br /> */}
-      <DocumentX size={48} />
-      <DocumentX color='crimson' size={48} />
-      <DocumentX color='teal' size={48} />
-      {/* <br /> */}
-      <Droid />
-      {/* <br /> */}
-      <Droid color='darkorange' size={24} />
-      <Droid color='darkmagenta' size={24} />
-      <Droid color='royalblue' size={24} />
-      {/* <br /> */}
-      <Droid size={48} />
-      <Droid color='crimson' size={48} />
-      <Droid color='teal' size={48} />
-      {/* <br /> */}
-      <Folder />
-      {/* <br /> */}
-      <Folder color='darkorange' size={24} />
-      <Folder color='darkmagenta' size={24} />
-      <Folder color='royalblue' size={24} />
-      {/* <br /> */}
-      <Folder size={48} />
-      <Folder color='crimson' size={48} />
-      <Folder color='teal' size={48} />
-      {/* <br /> */}
-      <FolderDip />
-      {/* <br /> */}
-      <FolderDip color='darkorange' size={24} />
-      <FolderDip color='darkmagenta' size={24} />
-      <FolderDip color='royalblue' size={24} />
-      {/* <br /> */}
-      <FolderDip size={48} />
-      <FolderDip color='crimson' size={48} />
-      <FolderDip color='teal' size={48} />
-      {/* <br /> */}
-      <Heart />
-      {/* <br /> */}
-      <Heart color='darkorange' size={24} />
-      <Heart color='darkmagenta' size={24} />
-      <Heart color='royalblue' size={24} />
-      {/* <br /> */}
-      <Heart size={48} />
-      <Heart color='crimson' size={48} />
-      <Heart color='teal' size={48} />
-      {/* <br /> */}
-      <Horse />
-      {/* <br /> */}
-      <Horse color='darkorange' size={24} />
-      <Horse color='darkmagenta' size={24} />
-      <Horse color='royalblue' size={24} />
-      {/* <br /> */}
-      <Horse size={48} />
-      <Horse color='crimson' size={48} />
-      <Horse color='teal' size={48} />
-      {/* <br /> */}
-      <Intersect />
-      {/* <br /> */}
-      <Intersect color='darkorange' size={24} />
-      <Intersect color='darkmagenta' size={24} />
-      <Intersect color='royalblue' size={24} />
-      {/* <br /> */}
-      <Intersect size={48} />
-      <Intersect color='crimson' size={48} />
-      <Intersect color='teal' size={48} />
-      {/* <br /> */}
-      <Mail />
-      {/* <br /> */}
-      <Mail color='darkorange' size={24} />
-      <Mail color='darkmagenta' size={24} />
-      <Mail color='royalblue' size={24} />
-      {/* <br /> */}
-      <Mail size={48} />
-      <Mail color='crimson' size={48} />
-      <Mail color='teal' size={48} />
-      {/* <br /> */}
-      <Medium />
-      {/* <br /> */}
-      <Medium color='darkorange' size={24} />
-      <Medium color='darkmagenta' size={24} />
-      <Medium color='royalblue' size={24} />
-      {/* <br /> */}
-      <Medium size={48} />
-      <Medium color='crimson' size={48} />
-      <Medium color='teal' size={48} />
-      {/* <br /> */}
-      <Microphone />
-      {/* <br /> */}
-      <Microphone color='darkorange' size={24} />
-      <Microphone color='darkmagenta' size={24} />
-      <Microphone color='royalblue' size={24} />
-      {/* <br /> */}
-      <Microphone size={48} />
-      <Microphone color='crimson' size={48} />
-      <Microphone color='teal' size={48} />
-      {/* <br /> */}
-      <MusicNotesAngled />
-      {/* <br /> */}
-      <MusicNotesAngled color='darkorange' size={24} />
-      <MusicNotesAngled color='darkmagenta' size={24} />
-      <MusicNotesAngled color='royalblue' size={24} />
-      {/* <br /> */}
-      <MusicNotesAngled size={48} />
-      <MusicNotesAngled color='crimson' size={48} />
-      <MusicNotesAngled color='teal' size={48} />
-      {/* <br /> */}
-      <MusicNotesStraight />
-      {/* <br /> */}
-      <MusicNotesStraight color='darkorange' size={24} />
-      <MusicNotesStraight color='darkmagenta' size={24} />
-      <MusicNotesStraight color='royalblue' size={24} />
-      {/* <br /> */}
-      <MusicNotesStraight size={48} />
-      <MusicNotesStraight color='crimson' size={48} />
-      <MusicNotesStraight color='teal' size={48} />
-      {/* <br /> */}
-      <PencilLine />
-      {/* <br /> */}
-      <PencilLine color='darkorange' size={24} />
-      <PencilLine color='darkmagenta' size={24} />
-      <PencilLine color='royalblue' size={24} />
-      {/* <br /> */}
-      <PencilLine size={48} />
-      <PencilLine color='crimson' size={48} />
-      <PencilLine color='teal' size={48} />
-      {/* <br /> */}
-      <PenNib />
-      {/* <br /> */}
-      <PenNib color='darkorange' size={24} />
-      <PenNib color='darkmagenta' size={24} />
-      <PenNib color='royalblue' size={24} />
-      {/* <br /> */}
-      <PenNib size={48} />
-      <PenNib color='crimson' size={48} />
-      <PenNib color='teal' size={48} />
-      {/* <br /> */}
-      <ProfileCircle />
-      {/* <br /> */}
-      <ProfileCircle color='darkorange' size={24} />
-      <ProfileCircle color='darkmagenta' size={24} />
-      <ProfileCircle color='royalblue' size={24} />
-      {/* <br /> */}
-      <ProfileCircle size={48} />
-      <ProfileCircle color='crimson' size={48} />
-      <ProfileCircle color='teal' size={48} />
-      {/* <br /> */}
-      <Rewind />
-      {/* <br /> */}
-      <Rewind color='darkorange' size={24} />
-      <Rewind color='darkmagenta' size={24} />
-      <Rewind color='royalblue' size={24} />
-      {/* <br /> */}
-      <Rewind size={48} />
-      <Rewind color='crimson' size={48} />
-      <Rewind color='teal' size={48} />
-      {/* <br /> */}
-      <Star />
-      {/* <br /> */}
-      <Star color='darkorange' size={24} />
-      <Star color='darkmagenta' size={24} />
-      <Star color='royalblue' size={24} />
-      {/* <br /> */}
-      <Star size={48} />
-      <Star color='crimson' size={48} />
-      <Star color='teal' size={48} />
-      {/* <br /> */}
-      <Table />
-      {/* <br /> */}
-      <Table color='darkorange' size={24} />
-      <Table color='darkmagenta' size={24} />
-      <Table color='royalblue' size={24} />
-      {/* <br /> */}
-      <Table size={48} />
-      <Table color='crimson' size={48} />
-      <Table color='teal' size={48} />
-      {/* <br /> */}
-      <VolumeOff />
-      {/* <br /> */}
-      <VolumeOff color='darkorange' size={24} />
-      <VolumeOff color='darkmagenta' size={24} />
-      <VolumeOff color='royalblue' size={24} />
-      {/* <br /> */}
-      <VolumeOff size={48} />
-      <VolumeOff color='crimson' size={48} />
-      <VolumeOff color='teal' size={48} />
-      {/* <br /> */}
-      <Warning />
-      {/* <br /> */}
-      <Warning color='darkorange' size={24} />
-      <Warning color='darkmagenta' size={24} />
-      <Warning color='royalblue' size={24} />
-      {/* <br /> */}
-      <Warning size={48} />
-      <Warning color='crimson' size={48} />
-      <Warning color='teal' size={48} />
-      {/* <br /> */}
-      <WifiFull />
-      {/* <br /> */}
-      <WifiFull color='darkorange' size={24} />
-      <WifiFull color='darkmagenta' size={24} />
-      <WifiFull color='royalblue' size={24} />
-      {/* <br /> */}
-      <WifiFull size={48} />
-      <WifiFull color='crimson' size={48} />
-      <WifiFull color='teal' size={48} />
-      {/* <br /> */}
-      <WifiLow />
-      {/* <br /> */}
-      <WifiLow color='darkorange' size={24} />
-      <WifiLow color='darkmagenta' size={24} />
-      <WifiLow color='royalblue' size={24} />
-      {/* <br /> */}
-      <WifiLow size={48} />
-      <WifiLow color='crimson' size={48} />
-      <WifiLow color='teal' size={48} />
-      {/* <br /> */}
-      <WifiNone />
-      {/* <br /> */}
-      <WifiNone color='darkorange' size={24} />
-      <WifiNone color='darkmagenta' size={24} />
-      <WifiNone color='royalblue' size={24} />
-      {/* <br /> */}
-      <WifiNone size={48} />
-      <WifiNone color='crimson' size={48} />
-      <WifiNone color='teal' size={48} />
-
-      {/* <br /> */}
-      <SmileyMeh />
-      {/* <br /> */}
-      <SmileyMeh color='darkorange' size={24} />
-      <SmileyMeh color='darkmagenta' size={24} />
-      <SmileyMeh color='royalblue' size={24} />
-      {/* <br /> */}
-      <SmileyMeh size={48} />
-      <SmileyMeh color='crimson' size={48} />
-      <SmileyMeh color='teal' size={48} />
+    <div
+      style={{
+        backgroundColor: "#242424",
+        color: "white",
+        textAlign: "center",
+      }}
+    >
+      <div
+        style={{
+          verticalAlign: "middle",
+          cursor: "pointer",
+          userSelect: "none",
+        }}
+        onClick={onHeartClick}
+      >
+        <Icon.Heart size={48} color={color} />
+        <p style={{ verticalAlign: "center" }}>Made with Love from Bub Tub.</p>
+      </div>
+      <Icon.Horse
+        style={{ cursor: "pointer" }}
+        color="darkorange"
+        size={48}
+        weight="duotone"
+        onClick={() => setWeight("duotone")}
+      />
+      <Icon.Horse
+        style={{ cursor: "pointer" }}
+        color="darkmagenta"
+        size={48}
+        weight="fill"
+        onClick={() => setWeight("fill")}
+      />
+      <Icon.Horse
+        style={{ cursor: "pointer" }}
+        color="royalblue"
+        size={48}
+        weight="bold"
+        onClick={() => setWeight("bold")}
+      />
+      <Icon.Horse
+        style={{ cursor: "pointer" }}
+        size={48}
+        weight="regular"
+        onClick={() => setWeight("regular")}
+      />
+      <Icon.Horse
+        style={{ cursor: "pointer" }}
+        color="crimson"
+        size={48}
+        weight="light"
+        onClick={() => setWeight("light")}
+      />
+      <Icon.Horse
+        style={{ cursor: "pointer" }}
+        color="teal"
+        size={48}
+        weight="thin"
+        onClick={() => setWeight("thin")}
+      />
+      <br />
+      <Icon.ArrowUpRightCircle />
+      <Icon.ArrowUpRightCircle color="darkorange" size={24} />
+      <Icon.ArrowUpRightCircle color="darkmagenta" size={24} />
+      <Icon.ArrowUpRightCircle color="royalblue" size={24} />
+      <Icon.ArrowUpRightCircle weight={weight} size={48} />
+      <Icon.ArrowUpRightCircle weight={weight} color="crimson" size={48} />
+      <Icon.ArrowUpRightCircle weight={weight} color="teal" size={48} />
+      <Icon.ArrowUpRightCircle weight="thin" color={color} size={64} />
+      <Icon.ArrowUpRightCircle weight="light" color={color} size={64} />
+      <Icon.ArrowUpRightCircle weight="regular" color={color} size={64} />
+      <Icon.ArrowUpRightCircle weight="bold" color={color} size={64} />
+      <Icon.ArrowUpRightCircle weight="fill" color={color} size={64} />
+      <Icon.ArrowUpRightCircle weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Backspace />
+      <Icon.Backspace color="darkorange" size={24} />
+      <Icon.Backspace color="darkmagenta" size={24} />
+      <Icon.Backspace color="royalblue" size={24} />
+      <Icon.Backspace weight={weight} size={48} />
+      <Icon.Backspace weight={weight} color="crimson" size={48} />
+      <Icon.Backspace weight={weight} color="teal" size={48} />
+      <Icon.Backspace weight="thin" color={color} size={64} />
+      <Icon.Backspace weight="light" color={color} size={64} />
+      <Icon.Backspace weight="regular" color={color} size={64} />
+      <Icon.Backspace weight="bold" color={color} size={64} />
+      <Icon.Backspace weight="fill" color={color} size={64} />
+      <Icon.Backspace weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.BatteryHalf />
+      <Icon.BatteryHalf color="darkorange" size={24} />
+      <Icon.BatteryHalf color="darkmagenta" size={24} />
+      <Icon.BatteryHalf color="royalblue" size={24} />
+      <Icon.BatteryHalf weight={weight} size={48} />
+      <Icon.BatteryHalf weight={weight} color="crimson" size={48} />
+      <Icon.BatteryHalf weight={weight} color="teal" size={48} />
+      <Icon.BatteryHalf weight="thin" color={color} size={64} />
+      <Icon.BatteryHalf weight="light" color={color} size={64} />
+      <Icon.BatteryHalf weight="regular" color={color} size={64} />
+      <Icon.BatteryHalf weight="bold" color={color} size={64} />
+      <Icon.BatteryHalf weight="fill" color={color} size={64} />
+      <Icon.BatteryHalf weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.BookClosed />
+      <Icon.BookClosed color="darkorange" size={24} />
+      <Icon.BookClosed color="darkmagenta" size={24} />
+      <Icon.BookClosed color="royalblue" size={24} />
+      <Icon.BookClosed weight={weight} size={48} />
+      <Icon.BookClosed weight={weight} color="crimson" size={48} />
+      <Icon.BookClosed weight={weight} color="teal" size={48} />
+      <Icon.BookClosed weight="thin" color={color} size={64} />
+      <Icon.BookClosed weight="light" color={color} size={64} />
+      <Icon.BookClosed weight="regular" color={color} size={64} />
+      <Icon.BookClosed weight="bold" color={color} size={64} />
+      <Icon.BookClosed weight="fill" color={color} size={64} />
+      <Icon.BookClosed weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.CalendarX />
+      <Icon.CalendarX color="darkorange" size={24} />
+      <Icon.CalendarX color="darkmagenta" size={24} />
+      <Icon.CalendarX color="royalblue" size={24} />
+      <Icon.CalendarX weight={weight} size={48} />
+      <Icon.CalendarX weight={weight} color="crimson" size={48} />
+      <Icon.CalendarX weight={weight} color="teal" size={48} />
+      <Icon.CalendarX weight="thin" color={color} size={64} />
+      <Icon.CalendarX weight="light" color={color} size={64} />
+      <Icon.CalendarX weight="regular" color={color} size={64} />
+      <Icon.CalendarX weight="bold" color={color} size={64} />
+      <Icon.CalendarX weight="fill" color={color} size={64} />
+      <Icon.CalendarX weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.CheckCircle />
+      <Icon.CheckCircle color="darkorange" size={24} />
+      <Icon.CheckCircle color="darkmagenta" size={24} />
+      <Icon.CheckCircle color="royalblue" size={24} />
+      <Icon.CheckCircle weight={weight} size={48} />
+      <Icon.CheckCircle weight={weight} color="crimson" size={48} />
+      <Icon.CheckCircle weight={weight} color="teal" size={48} />
+      <Icon.CheckCircle weight="thin" color={color} size={64} />
+      <Icon.CheckCircle weight="light" color={color} size={64} />
+      <Icon.CheckCircle weight="regular" color={color} size={64} />
+      <Icon.CheckCircle weight="bold" color={color} size={64} />
+      <Icon.CheckCircle weight="fill" color={color} size={64} />
+      <Icon.CheckCircle weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Clock />
+      <Icon.Clock color="darkorange" size={24} />
+      <Icon.Clock color="darkmagenta" size={24} />
+      <Icon.Clock color="royalblue" size={24} />
+      <Icon.Clock weight={weight} size={48} />
+      <Icon.Clock weight={weight} color="crimson" size={48} />
+      <Icon.Clock weight={weight} color="teal" size={48} />
+      <Icon.Clock weight="thin" color={color} size={64} />
+      <Icon.Clock weight="light" color={color} size={64} />
+      <Icon.Clock weight="regular" color={color} size={64} />
+      <Icon.Clock weight="bold" color={color} size={64} />
+      <Icon.Clock weight="fill" color={color} size={64} />
+      <Icon.Clock weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Cloud />
+      <Icon.Cloud color="darkorange" size={24} />
+      <Icon.Cloud color="darkmagenta" size={24} />
+      <Icon.Cloud color="royalblue" size={24} />
+      <Icon.Cloud weight={weight} size={48} />
+      <Icon.Cloud weight={weight} color="crimson" size={48} />
+      <Icon.Cloud weight={weight} color="teal" size={48} />
+      <Icon.Cloud weight="thin" color={color} size={64} />
+      <Icon.Cloud weight="light" color={color} size={64} />
+      <Icon.Cloud weight="regular" color={color} size={64} />
+      <Icon.Cloud weight="bold" color={color} size={64} />
+      <Icon.Cloud weight="fill" color={color} size={64} />
+      <Icon.Cloud weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Copy />
+      <Icon.Copy color="darkorange" size={24} />
+      <Icon.Copy color="darkmagenta" size={24} />
+      <Icon.Copy color="royalblue" size={24} />
+      <Icon.Copy weight={weight} size={48} />
+      <Icon.Copy weight={weight} color="crimson" size={48} />
+      <Icon.Copy weight={weight} color="teal" size={48} />
+      <Icon.Copy weight="thin" color={color} size={64} />
+      <Icon.Copy weight="light" color={color} size={64} />
+      <Icon.Copy weight="regular" color={color} size={64} />
+      <Icon.Copy weight="bold" color={color} size={64} />
+      <Icon.Copy weight="fill" color={color} size={64} />
+      <Icon.Copy weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Cube />
+      <Icon.Cube color="darkorange" size={24} />
+      <Icon.Cube color="darkmagenta" size={24} />
+      <Icon.Cube color="royalblue" size={24} />
+      <Icon.Cube weight={weight} size={48} />
+      <Icon.Cube weight={weight} color="crimson" size={48} />
+      <Icon.Cube weight={weight} color="teal" size={48} />
+      <Icon.Cube weight="thin" color={color} size={64} />
+      <Icon.Cube weight="light" color={color} size={64} />
+      <Icon.Cube weight="regular" color={color} size={64} />
+      <Icon.Cube weight="bold" color={color} size={64} />
+      <Icon.Cube weight="fill" color={color} size={64} />
+      <Icon.Cube weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.DocumentText />
+      <Icon.DocumentText color="darkorange" size={24} />
+      <Icon.DocumentText color="darkmagenta" size={24} />
+      <Icon.DocumentText color="royalblue" size={24} />
+      <Icon.DocumentText weight={weight} size={48} />
+      <Icon.DocumentText weight={weight} color="crimson" size={48} />
+      <Icon.DocumentText weight={weight} color="teal" size={48} />
+      <Icon.DocumentText weight="thin" color={color} size={64} />
+      <Icon.DocumentText weight="light" color={color} size={64} />
+      <Icon.DocumentText weight="regular" color={color} size={64} />
+      <Icon.DocumentText weight="bold" color={color} size={64} />
+      <Icon.DocumentText weight="fill" color={color} size={64} />
+      <Icon.DocumentText weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Droid />
+      <Icon.Droid color="darkorange" size={24} />
+      <Icon.Droid color="darkmagenta" size={24} />
+      <Icon.Droid color="royalblue" size={24} />
+      <Icon.Droid weight={weight} size={48} />
+      <Icon.Droid weight={weight} color="crimson" size={48} />
+      <Icon.Droid weight={weight} color="teal" size={48} />
+      <Icon.Droid weight="thin" color={color} size={64} />
+      <Icon.Droid weight="light" color={color} size={64} />
+      <Icon.Droid weight="regular" color={color} size={64} />
+      <Icon.Droid weight="bold" color={color} size={64} />
+      <Icon.Droid weight="fill" color={color} size={64} />
+      <Icon.Droid weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Envelope />
+      <Icon.Envelope color="darkorange" size={24} />
+      <Icon.Envelope color="darkmagenta" size={24} />
+      <Icon.Envelope color="royalblue" size={24} />
+      <Icon.Envelope weight={weight} size={48} />
+      <Icon.Envelope weight={weight} color="crimson" size={48} />
+      <Icon.Envelope weight={weight} color="teal" size={48} />
+      <Icon.Envelope weight="thin" color={color} size={64} />
+      <Icon.Envelope weight="light" color={color} size={64} />
+      <Icon.Envelope weight="regular" color={color} size={64} />
+      <Icon.Envelope weight="bold" color={color} size={64} />
+      <Icon.Envelope weight="fill" color={color} size={64} />
+      <Icon.Envelope weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.EnvelopeAlt />
+      <Icon.EnvelopeAlt color="darkorange" size={24} />
+      <Icon.EnvelopeAlt color="darkmagenta" size={24} />
+      <Icon.EnvelopeAlt color="royalblue" size={24} />
+      <Icon.EnvelopeAlt weight={weight} size={48} />
+      <Icon.EnvelopeAlt weight={weight} color="crimson" size={48} />
+      <Icon.EnvelopeAlt weight={weight} color="teal" size={48} />
+      <Icon.EnvelopeAlt weight="thin" color={color} size={64} />
+      <Icon.EnvelopeAlt weight="light" color={color} size={64} />
+      <Icon.EnvelopeAlt weight="regular" color={color} size={64} />
+      <Icon.EnvelopeAlt weight="bold" color={color} size={64} />
+      <Icon.EnvelopeAlt weight="fill" color={color} size={64} />
+      <Icon.EnvelopeAlt weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Folder />
+      <Icon.Folder color="darkorange" size={24} />
+      <Icon.Folder color="darkmagenta" size={24} />
+      <Icon.Folder color="royalblue" size={24} />
+      <Icon.Folder weight={weight} size={48} />
+      <Icon.Folder weight={weight} color="crimson" size={48} />
+      <Icon.Folder weight={weight} color="teal" size={48} />
+      <Icon.Folder weight="thin" color={color} size={64} />
+      <Icon.Folder weight="light" color={color} size={64} />
+      <Icon.Folder weight="regular" color={color} size={64} />
+      <Icon.Folder weight="bold" color={color} size={64} />
+      <Icon.Folder weight="fill" color={color} size={64} />
+      <Icon.Folder weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.FolderDip />
+      <Icon.FolderDip color="darkorange" size={24} />
+      <Icon.FolderDip color="darkmagenta" size={24} />
+      <Icon.FolderDip color="royalblue" size={24} />
+      <Icon.FolderDip weight={weight} size={48} />
+      <Icon.FolderDip weight={weight} color="crimson" size={48} />
+      <Icon.FolderDip weight={weight} color="teal" size={48} />
+      <Icon.FolderDip weight="thin" color={color} size={64} />
+      <Icon.FolderDip weight="light" color={color} size={64} />
+      <Icon.FolderDip weight="regular" color={color} size={64} />
+      <Icon.FolderDip weight="bold" color={color} size={64} />
+      <Icon.FolderDip weight="fill" color={color} size={64} />
+      <Icon.FolderDip weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.FolderMinimal />
+      <Icon.FolderMinimal color="darkorange" size={24} />
+      <Icon.FolderMinimal color="darkmagenta" size={24} />
+      <Icon.FolderMinimal color="royalblue" size={24} />
+      <Icon.FolderMinimal weight={weight} size={48} />
+      <Icon.FolderMinimal weight={weight} color="crimson" size={48} />
+      <Icon.FolderMinimal weight={weight} color="teal" size={48} />
+      <Icon.FolderMinimal weight="thin" color={color} size={64} />
+      <Icon.FolderMinimal weight="light" color={color} size={64} />
+      <Icon.FolderMinimal weight="regular" color={color} size={64} />
+      <Icon.FolderMinimal weight="bold" color={color} size={64} />
+      <Icon.FolderMinimal weight="fill" color={color} size={64} />
+      <Icon.FolderMinimal weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Heart />
+      <Icon.Heart color="darkorange" size={24} />
+      <Icon.Heart color="darkmagenta" size={24} />
+      <Icon.Heart color="royalblue" size={24} />
+      <Icon.Heart weight={weight} size={48} />
+      <Icon.Heart weight={weight} color="crimson" size={48} />
+      <Icon.Heart weight={weight} color="teal" size={48} />
+      <Icon.Heart weight="thin" color={color} size={64} />
+      <Icon.Heart weight="light" color={color} size={64} />
+      <Icon.Heart weight="regular" color={color} size={64} />
+      <Icon.Heart weight="bold" color={color} size={64} />
+      <Icon.Heart weight="fill" color={color} size={64} />
+      <Icon.Heart weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Horse />
+      <Icon.Horse color="darkorange" size={24} />
+      <Icon.Horse color="darkmagenta" size={24} />
+      <Icon.Horse color="royalblue" size={24} />
+      <Icon.Horse weight={weight} size={48} />
+      <Icon.Horse weight={weight} color="crimson" size={48} />
+      <Icon.Horse weight={weight} color="teal" size={48} />
+      <Icon.Horse weight="thin" color={color} size={64} />
+      <Icon.Horse weight="light" color={color} size={64} />
+      <Icon.Horse weight="regular" color={color} size={64} />
+      <Icon.Horse weight="bold" color={color} size={64} />
+      <Icon.Horse weight="fill" color={color} size={64} />
+      <Icon.Horse weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Microphone />
+      <Icon.Microphone color="darkorange" size={24} />
+      <Icon.Microphone color="darkmagenta" size={24} />
+      <Icon.Microphone color="royalblue" size={24} />
+      <Icon.Microphone weight={weight} size={48} />
+      <Icon.Microphone weight={weight} color="crimson" size={48} />
+      <Icon.Microphone weight={weight} color="teal" size={48} />
+      <Icon.Microphone weight="thin" color={color} size={64} />
+      <Icon.Microphone weight="light" color={color} size={64} />
+      <Icon.Microphone weight="regular" color={color} size={64} />
+      <Icon.Microphone weight="bold" color={color} size={64} />
+      <Icon.Microphone weight="fill" color={color} size={64} />
+      <Icon.Microphone weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.MinusCircle />
+      <Icon.MinusCircle color="darkorange" size={24} />
+      <Icon.MinusCircle color="darkmagenta" size={24} />
+      <Icon.MinusCircle color="royalblue" size={24} />
+      <Icon.MinusCircle weight={weight} size={48} />
+      <Icon.MinusCircle weight={weight} color="crimson" size={48} />
+      <Icon.MinusCircle weight={weight} color="teal" size={48} />
+      <Icon.MinusCircle weight="thin" color={color} size={64} />
+      <Icon.MinusCircle weight="light" color={color} size={64} />
+      <Icon.MinusCircle weight="regular" color={color} size={64} />
+      <Icon.MinusCircle weight="bold" color={color} size={64} />
+      <Icon.MinusCircle weight="fill" color={color} size={64} />
+      <Icon.MinusCircle weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.MusicNotesSixteenth />
+      <Icon.MusicNotesSixteenth color="darkorange" size={24} />
+      <Icon.MusicNotesSixteenth color="darkmagenta" size={24} />
+      <Icon.MusicNotesSixteenth color="royalblue" size={24} />
+      <Icon.MusicNotesSixteenth weight={weight} size={48} />
+      <Icon.MusicNotesSixteenth weight={weight} color="crimson" size={48} />
+      <Icon.MusicNotesSixteenth weight={weight} color="teal" size={48} />
+      <Icon.MusicNotesSixteenth weight="thin" color={color} size={64} />
+      <Icon.MusicNotesSixteenth weight="light" color={color} size={64} />
+      <Icon.MusicNotesSixteenth weight="regular" color={color} size={64} />
+      <Icon.MusicNotesSixteenth weight="bold" color={color} size={64} />
+      <Icon.MusicNotesSixteenth weight="fill" color={color} size={64} />
+      <Icon.MusicNotesSixteenth weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.PencilClip />
+      <Icon.PencilClip color="darkorange" size={24} />
+      <Icon.PencilClip color="darkmagenta" size={24} />
+      <Icon.PencilClip color="royalblue" size={24} />
+      <Icon.PencilClip weight={weight} size={48} />
+      <Icon.PencilClip weight={weight} color="crimson" size={48} />
+      <Icon.PencilClip weight={weight} color="teal" size={48} />
+      <Icon.PencilClip weight="thin" color={color} size={64} />
+      <Icon.PencilClip weight="light" color={color} size={64} />
+      <Icon.PencilClip weight="regular" color={color} size={64} />
+      <Icon.PencilClip weight="bold" color={color} size={64} />
+      <Icon.PencilClip weight="fill" color={color} size={64} />
+      <Icon.PencilClip weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.PencilLine />
+      <Icon.PencilLine color="darkorange" size={24} />
+      <Icon.PencilLine color="darkmagenta" size={24} />
+      <Icon.PencilLine color="royalblue" size={24} />
+      <Icon.PencilLine weight={weight} size={48} />
+      <Icon.PencilLine weight={weight} color="crimson" size={48} />
+      <Icon.PencilLine weight={weight} color="teal" size={48} />
+      <Icon.PencilLine weight="thin" color={color} size={64} />
+      <Icon.PencilLine weight="light" color={color} size={64} />
+      <Icon.PencilLine weight="regular" color={color} size={64} />
+      <Icon.PencilLine weight="bold" color={color} size={64} />
+      <Icon.PencilLine weight="fill" color={color} size={64} />
+      <Icon.PencilLine weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.PenNib />
+      <Icon.PenNib color="darkorange" size={24} />
+      <Icon.PenNib color="darkmagenta" size={24} />
+      <Icon.PenNib color="royalblue" size={24} />
+      <Icon.PenNib weight={weight} size={48} />
+      <Icon.PenNib weight={weight} color="crimson" size={48} />
+      <Icon.PenNib weight={weight} color="teal" size={48} />
+      <Icon.PenNib weight="thin" color={color} size={64} />
+      <Icon.PenNib weight="light" color={color} size={64} />
+      <Icon.PenNib weight="regular" color={color} size={64} />
+      <Icon.PenNib weight="bold" color={color} size={64} />
+      <Icon.PenNib weight="fill" color={color} size={64} />
+      <Icon.PenNib weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Pin />
+      <Icon.Pin color="darkorange" size={24} />
+      <Icon.Pin color="darkmagenta" size={24} />
+      <Icon.Pin color="royalblue" size={24} />
+      <Icon.Pin weight={weight} size={48} />
+      <Icon.Pin weight={weight} color="crimson" size={48} />
+      <Icon.Pin weight={weight} color="teal" size={48} />
+      <Icon.Pin weight="thin" color={color} size={64} />
+      <Icon.Pin weight="light" color={color} size={64} />
+      <Icon.Pin weight="regular" color={color} size={64} />
+      <Icon.Pin weight="bold" color={color} size={64} />
+      <Icon.Pin weight="fill" color={color} size={64} />
+      <Icon.Pin weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.PlayCircle />
+      <Icon.PlayCircle color="darkorange" size={24} />
+      <Icon.PlayCircle color="darkmagenta" size={24} />
+      <Icon.PlayCircle color="royalblue" size={24} />
+      <Icon.PlayCircle weight={weight} size={48} />
+      <Icon.PlayCircle weight={weight} color="crimson" size={48} />
+      <Icon.PlayCircle weight={weight} color="teal" size={48} />
+      <Icon.PlayCircle weight="thin" color={color} size={64} />
+      <Icon.PlayCircle weight="light" color={color} size={64} />
+      <Icon.PlayCircle weight="regular" color={color} size={64} />
+      <Icon.PlayCircle weight="bold" color={color} size={64} />
+      <Icon.PlayCircle weight="fill" color={color} size={64} />
+      <Icon.PlayCircle weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.PlusCircle />
+      <Icon.PlusCircle color="darkorange" size={24} />
+      <Icon.PlusCircle color="darkmagenta" size={24} />
+      <Icon.PlusCircle color="royalblue" size={24} />
+      <Icon.PlusCircle weight={weight} size={48} />
+      <Icon.PlusCircle weight={weight} color="crimson" size={48} />
+      <Icon.PlusCircle weight={weight} color="teal" size={48} />
+      <Icon.PlusCircle weight="thin" color={color} size={64} />
+      <Icon.PlusCircle weight="light" color={color} size={64} />
+      <Icon.PlusCircle weight="regular" color={color} size={64} />
+      <Icon.PlusCircle weight="bold" color={color} size={64} />
+      <Icon.PlusCircle weight="fill" color={color} size={64} />
+      <Icon.PlusCircle weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Prohibit />
+      <Icon.Prohibit color="darkorange" size={24} />
+      <Icon.Prohibit color="darkmagenta" size={24} />
+      <Icon.Prohibit color="royalblue" size={24} />
+      <Icon.Prohibit weight={weight} size={48} />
+      <Icon.Prohibit weight={weight} color="crimson" size={48} />
+      <Icon.Prohibit weight={weight} color="teal" size={48} />
+      <Icon.Prohibit weight="thin" color={color} size={64} />
+      <Icon.Prohibit weight="light" color={color} size={64} />
+      <Icon.Prohibit weight="regular" color={color} size={64} />
+      <Icon.Prohibit weight="bold" color={color} size={64} />
+      <Icon.Prohibit weight="fill" color={color} size={64} />
+      <Icon.Prohibit weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Search />
+      <Icon.Search color="darkorange" size={24} />
+      <Icon.Search color="darkmagenta" size={24} />
+      <Icon.Search color="royalblue" size={24} />
+      <Icon.Search weight={weight} size={48} />
+      <Icon.Search weight={weight} color="crimson" size={48} />
+      <Icon.Search weight={weight} color="teal" size={48} />
+      <Icon.Search weight="thin" color={color} size={64} />
+      <Icon.Search weight="light" color={color} size={64} />
+      <Icon.Search weight="regular" color={color} size={64} />
+      <Icon.Search weight="bold" color={color} size={64} />
+      <Icon.Search weight="fill" color={color} size={64} />
+      <Icon.Search weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.SearchAlt />
+      <Icon.SearchAlt color="darkorange" size={24} />
+      <Icon.SearchAlt color="darkmagenta" size={24} />
+      <Icon.SearchAlt color="royalblue" size={24} />
+      <Icon.SearchAlt weight={weight} size={48} />
+      <Icon.SearchAlt weight={weight} color="crimson" size={48} />
+      <Icon.SearchAlt weight={weight} color="teal" size={48} />
+      <Icon.SearchAlt weight="thin" color={color} size={64} />
+      <Icon.SearchAlt weight="light" color={color} size={64} />
+      <Icon.SearchAlt weight="regular" color={color} size={64} />
+      <Icon.SearchAlt weight="bold" color={color} size={64} />
+      <Icon.SearchAlt weight="fill" color={color} size={64} />
+      <Icon.SearchAlt weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Smiley />
+      <Icon.Smiley color="darkorange" size={24} />
+      <Icon.Smiley color="darkmagenta" size={24} />
+      <Icon.Smiley color="royalblue" size={24} />
+      <Icon.Smiley weight={weight} size={48} />
+      <Icon.Smiley weight={weight} color="crimson" size={48} />
+      <Icon.Smiley weight={weight} color="teal" size={48} />
+      <Icon.Smiley weight="thin" color={color} size={64} />
+      <Icon.Smiley weight="light" color={color} size={64} />
+      <Icon.Smiley weight="regular" color={color} size={64} />
+      <Icon.Smiley weight="bold" color={color} size={64} />
+      <Icon.Smiley weight="fill" color={color} size={64} />
+      <Icon.Smiley weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.SmileyMeh />
+      <Icon.SmileyMeh color="darkorange" size={24} />
+      <Icon.SmileyMeh color="darkmagenta" size={24} />
+      <Icon.SmileyMeh color="royalblue" size={24} />
+      <Icon.SmileyMeh weight={weight} size={48} />
+      <Icon.SmileyMeh weight={weight} color="crimson" size={48} />
+      <Icon.SmileyMeh weight={weight} color="teal" size={48} />
+      <Icon.SmileyMeh weight="thin" color={color} size={64} />
+      <Icon.SmileyMeh weight="light" color={color} size={64} />
+      <Icon.SmileyMeh weight="regular" color={color} size={64} />
+      <Icon.SmileyMeh weight="bold" color={color} size={64} />
+      <Icon.SmileyMeh weight="fill" color={color} size={64} />
+      <Icon.SmileyMeh weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.SpeakerOff />
+      <Icon.SpeakerOff color="darkorange" size={24} />
+      <Icon.SpeakerOff color="darkmagenta" size={24} />
+      <Icon.SpeakerOff color="royalblue" size={24} />
+      <Icon.SpeakerOff weight={weight} size={48} />
+      <Icon.SpeakerOff weight={weight} color="crimson" size={48} />
+      <Icon.SpeakerOff weight={weight} color="teal" size={48} />
+      <Icon.SpeakerOff weight="thin" color={color} size={64} />
+      <Icon.SpeakerOff weight="light" color={color} size={64} />
+      <Icon.SpeakerOff weight="regular" color={color} size={64} />
+      <Icon.SpeakerOff weight="bold" color={color} size={64} />
+      <Icon.SpeakerOff weight="fill" color={color} size={64} />
+      <Icon.SpeakerOff weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Star />
+      <Icon.Star color="darkorange" size={24} />
+      <Icon.Star color="darkmagenta" size={24} />
+      <Icon.Star color="royalblue" size={24} />
+      <Icon.Star weight={weight} size={48} />
+      <Icon.Star weight={weight} color="crimson" size={48} />
+      <Icon.Star weight={weight} color="teal" size={48} />
+      <Icon.Star weight="thin" color={color} size={64} />
+      <Icon.Star weight="light" color={color} size={64} />
+      <Icon.Star weight="regular" color={color} size={64} />
+      <Icon.Star weight="bold" color={color} size={64} />
+      <Icon.Star weight="fill" color={color} size={64} />
+      <Icon.Star weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.Trash />
+      <Icon.Trash color="darkorange" size={24} />
+      <Icon.Trash color="darkmagenta" size={24} />
+      <Icon.Trash color="royalblue" size={24} />
+      <Icon.Trash weight={weight} size={48} />
+      <Icon.Trash weight={weight} color="crimson" size={48} />
+      <Icon.Trash weight={weight} color="teal" size={48} />
+      <Icon.Trash weight="thin" color={color} size={64} />
+      <Icon.Trash weight="light" color={color} size={64} />
+      <Icon.Trash weight="regular" color={color} size={64} />
+      <Icon.Trash weight="bold" color={color} size={64} />
+      <Icon.Trash weight="fill" color={color} size={64} />
+      <Icon.Trash weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.TwoCircle />
+      <Icon.TwoCircle color="darkorange" size={24} />
+      <Icon.TwoCircle color="darkmagenta" size={24} />
+      <Icon.TwoCircle color="royalblue" size={24} />
+      <Icon.TwoCircle weight={weight} size={48} />
+      <Icon.TwoCircle weight={weight} color="crimson" size={48} />
+      <Icon.TwoCircle weight={weight} color="teal" size={48} />
+      <Icon.TwoCircle weight="thin" color={color} size={64} />
+      <Icon.TwoCircle weight="light" color={color} size={64} />
+      <Icon.TwoCircle weight="regular" color={color} size={64} />
+      <Icon.TwoCircle weight="bold" color={color} size={64} />
+      <Icon.TwoCircle weight="fill" color={color} size={64} />
+      <Icon.TwoCircle weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.UserCircle />
+      <Icon.UserCircle color="darkorange" size={24} />
+      <Icon.UserCircle color="darkmagenta" size={24} />
+      <Icon.UserCircle color="royalblue" size={24} />
+      <Icon.UserCircle weight={weight} size={48} />
+      <Icon.UserCircle weight={weight} color="crimson" size={48} />
+      <Icon.UserCircle weight={weight} color="teal" size={48} />
+      <Icon.UserCircle weight="thin" color={color} size={64} />
+      <Icon.UserCircle weight="light" color={color} size={64} />
+      <Icon.UserCircle weight="regular" color={color} size={64} />
+      <Icon.UserCircle weight="bold" color={color} size={64} />
+      <Icon.UserCircle weight="fill" color={color} size={64} />
+      <Icon.UserCircle weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.WarningTriangle />
+      <Icon.WarningTriangle color="darkorange" size={24} />
+      <Icon.WarningTriangle color="darkmagenta" size={24} />
+      <Icon.WarningTriangle color="royalblue" size={24} />
+      <Icon.WarningTriangle weight={weight} size={48} />
+      <Icon.WarningTriangle weight={weight} color="crimson" size={48} />
+      <Icon.WarningTriangle weight={weight} color="teal" size={48} />
+      <Icon.WarningTriangle weight="thin" color={color} size={64} />
+      <Icon.WarningTriangle weight="light" color={color} size={64} />
+      <Icon.WarningTriangle weight="regular" color={color} size={64} />
+      <Icon.WarningTriangle weight="bold" color={color} size={64} />
+      <Icon.WarningTriangle weight="fill" color={color} size={64} />
+      <Icon.WarningTriangle weight="duotone" color={color} size={64} />
+      <br />
+      <Icon.WifiMedium />
+      <Icon.WifiMedium color="darkorange" size={24} />
+      <Icon.WifiMedium color="darkmagenta" size={24} />
+      <Icon.WifiMedium color="royalblue" size={24} />
+      <Icon.WifiMedium weight={weight} size={48} />
+      <Icon.WifiMedium weight={weight} color="crimson" size={48} />
+      <Icon.WifiMedium weight={weight} color="teal" size={48} />
+      <Icon.WifiMedium weight="thin" color={color} size={64} />
+      <Icon.WifiMedium weight="light" color={color} size={64} />
+      <Icon.WifiMedium weight="regular" color={color} size={64} />
+      <Icon.WifiMedium weight="bold" color={color} size={64} />
+      <Icon.WifiMedium weight="fill" color={color} size={64} />
+      <Icon.WifiMedium weight="duotone" color={color} size={64} />
+      <br />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
