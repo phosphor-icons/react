@@ -1,7 +1,7 @@
 {
   "name": "phosphor-react-example",
   "homepage": ".",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
