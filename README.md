@@ -1,11 +1,18 @@
+<img src="https://i.imgur.com/QKFwzHe.png" width="192" align="right" />
+
 # phosphor-react
+A clean and friendly icon family for React
 
-> A clean and friendly icon family for React
+[![NPM](https://img.shields.io/npm/v/phosphor-react.svg?style=flat-square)](https://www.npmjs.com/package/phosphor-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
 
-[![NPM](https://img.shields.io/npm/v/phosphor-react.svg)](https://www.npmjs.com/package/phosphor-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![GitHub stars](https://img.shields.io/github/stars/rektdeckard/phosphor-react?style=flat-square&label=Star)](https://github.com/rektdeckard/phosphor-react)
+[![GitHub forks](https://img.shields.io/github/forks/rektdeckard/phosphor-react?style=flat-square&label=Fork)](https://github.com/rektdeckard/phosphor-react/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/rektdeckard/phosphor-react?style=flat-square&label=Watch)](https://github.com/rektdeckard/phosphor-react)
+[![Follow on GitHub](https://img.shields.io/github/followers/rektdeckard?style=flat-square&label=Follow)](https://github.com/rektdeckard)
 
-## Install
+[![Twitter Follow](https://img.shields.io/twitter/follow/friedtm.svg?style=flat-square)](https://twitter.com/friedtm)
 
+## Installation
 ```bash
 npm install --save phosphor-react
 ```
@@ -15,9 +22,8 @@ yarn add phosphor-react
 ```
 
 ## Usage
-
 ```tsx
-import React from 'react';
+import React from "react";
 import ReactDOM from "react-dom";
 import { Horse, Heart, Cube } from "phosphor-react";
 
@@ -29,7 +35,7 @@ const App = () => {
       <Cube color="teal" weight="duotone" />
     </>
   )
-}
+};
 
 ReactDOM.render(<App />, document.getElementById("root"));
 ```
