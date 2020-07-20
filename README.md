@@ -10,8 +10,6 @@ A clean and friendly icon family for React
 [![GitHub watchers](https://img.shields.io/github/watchers/rektdeckard/phosphor-react?style=flat-square&label=Watch)](https://github.com/rektdeckard/phosphor-react)
 [![Follow on GitHub](https://img.shields.io/github/followers/rektdeckard?style=flat-square&label=Follow)](https://github.com/rektdeckard)
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/friedtm.svg?style=flat-square)](https://twitter.com/friedtm)
-
 ## Installation
 ```bash
 npm install --save phosphor-react
