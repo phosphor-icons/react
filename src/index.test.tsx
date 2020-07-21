@@ -1,7 +1,12 @@
-import { SixSquare } from ".";
+import * as Icons from ".";
 
-describe("ExampleComponent", () => {
-  it("is truthy", () => {
-    expect(SixSquare).toBeTruthy();
+describe("all icons exist", () => {
+  Object.entries(Icons).forEach(([name, Icon]) => {
+    it(`${name} is truthy`, () => {
+      expect(Icon).toBeTruthy();
+    });
+    it(`${name} is properly named`, () => {
+      expect(name).toEqual(Icon.displayName);
+    })
   });
 });
