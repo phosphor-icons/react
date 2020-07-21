@@ -28,7 +28,6 @@ export { default as PlayCircle } from "./icons/PlayCircle";
 export { default as PlusCircle } from "./icons/PlusCircle";
 export { default as Prohibit } from "./icons/Prohibit";
 export { default as Search } from "./icons/Search";
-export { default as SearchAlt } from "./icons/SearchAlt";
 export { default as Smiley } from "./icons/Smiley";
 export { default as SmileyMeh } from "./icons/SmileyMeh";
 export { default as SpeakerOff } from "./icons/SpeakerOff";

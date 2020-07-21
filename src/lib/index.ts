@@ -6,6 +6,7 @@ export interface IconProps
   color?: string;
   size?: string | number;
   weight?: "thin" | "light" | "regular" | "bold" | "fill" | "duotone";
+  mirrored?: boolean;
 }
 
 export type Icon = React.ForwardRefExoticComponent<
