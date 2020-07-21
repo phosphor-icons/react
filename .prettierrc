@@ -2,5 +2,6 @@
   "tabWidth": 2,
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
-  "arrowParens": "always"
+  "arrowParens": "always",
+  "endOfLine":"auto"
 }

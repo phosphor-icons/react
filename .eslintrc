@@ -4,6 +4,9 @@
     "standard",
     "standard-react",
     "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
     "prettier/standard",
     "prettier/react",
     "plugin:@typescript-eslint/eslint-recommended"
@@ -23,6 +26,7 @@
       "version": "16"
     }
   },
+  "plugins": ["react"],
   "rules": {
     "space-before-function-paren": 0,
     "react/prop-types": 0,

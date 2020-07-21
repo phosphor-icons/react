@@ -7,6 +7,6 @@ describe("all icons exist", () => {
     });
     it(`${name} is properly named`, () => {
       expect(name).toEqual(Icon.displayName);
-    })
+    });
   });
 });

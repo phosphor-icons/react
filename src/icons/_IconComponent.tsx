@@ -4,40 +4,30 @@ import { IconProps } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "thin":
-      return (
-        thin
-      );
+      return thin;
 
     case "light":
-      return (
-        light
-      );
+      return light;
 
     case "regular":
-      return (
-        regular
-      );
+      return regular;
 
     case "bold":
-      return (
-        bold
-      );
+      return bold;
 
     case "fill":
-      return (
-        fill
-      );
+      return fill;
 
     case "duotone":
-      return (
-        duotone
-      );
+      return duotone;
 
     default:
-      console.error('Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".');
+      console.error(
+        'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
+      );
       return null;
   }
-}
+};
 
 const name = forwardRef<SVGSVGElement, IconProps>(
   (
@@ -60,7 +50,6 @@ const name = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
 
 name.displayName = "name";
 
