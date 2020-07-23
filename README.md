@@ -61,4 +61,4 @@ import * as Icon from "phosphor-react";
 
 ## License
 
-MIT © [rektdeckard](https://github.com/rektdeckard)
+GPL-3.0 © [rektdeckard](https://github.com/rektdeckard)
