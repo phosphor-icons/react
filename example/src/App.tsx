@@ -610,6 +610,20 @@ const App = () => {
       <Icon.Backspace weight="fill" color={color} size={48} />
       <Icon.Backspace weight="duotone" color={color} size={48} />
       <br />
+      <Icon.ArrowUpLeftCircle />
+      <Icon.ArrowUpLeftCircle mirrored color="darkorange" size={24} />
+      <Icon.ArrowUpLeftCircle mirrored color="darkmagenta" size={24} />
+      <Icon.ArrowUpLeftCircle mirrored color="royalblue" size={24} />
+      <Icon.ArrowUpLeftCircle weight={weight} size={32} />
+      <Icon.ArrowUpLeftCircle weight={weight} color="crimson" size={32} />
+      <Icon.ArrowUpLeftCircle weight={weight} color="teal" size={32} />
+      <Icon.ArrowUpLeftCircle weight="thin" color={color} size={48} />
+      <Icon.ArrowUpLeftCircle weight="light" color={color} size={48} />
+      <Icon.ArrowUpLeftCircle weight="regular" color={color} size={48} />
+      <Icon.ArrowUpLeftCircle weight="bold" color={color} size={48} />
+      <Icon.ArrowUpLeftCircle weight="fill" color={color} size={48} />
+      <Icon.ArrowUpLeftCircle weight="duotone" color={color} size={48} />
+      <br />
       <Icon.ArrowUpRightCircle />
       <Icon.ArrowUpRightCircle mirrored color="darkorange" size={24} />
       <Icon.ArrowUpRightCircle mirrored color="darkmagenta" size={24} />

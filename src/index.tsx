@@ -1,4 +1,5 @@
 export { default as ArrowUpRightCircle } from "./icons/ArrowUpRightCircle";
+export { default as ArrowUpLeftCircle } from "./icons/ArrowUpLeftCircle";
 export { default as Backspace } from "./icons/Backspace";
 export { default as BatteryHalf } from "./icons/BatteryHalf";
 export { default as BookClosed } from "./icons/BookClosed";
