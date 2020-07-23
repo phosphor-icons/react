@@ -1,3 +1,5 @@
+export type { Icon, IconProps } from "./lib";
+
 export { default as ArrowUpRightCircle } from "./icons/ArrowUpRightCircle";
 export { default as ArrowUpLeftCircle } from "./icons/ArrowUpLeftCircle";
 export { default as Backspace } from "./icons/Backspace";
