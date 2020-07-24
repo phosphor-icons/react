@@ -1,4 +1,4 @@
-import * as Icons from ".";
+import * as Icons from "../src";
 
 describe("all icons exist", () => {
   Object.entries(Icons).forEach(([name, Icon]) => {

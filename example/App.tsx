@@ -1,9 +1,10 @@
-import React, { useState } from "react";
-import * as Icon from "phosphor-react";
+import React from "react";
+import * as Icon from "../dist";
+import "./index.css";
 
 const App = () => {
-  const [color, setColor] = useState<string>("crimson");
-  const [weight, setWeight] = useState<
+  const [color, setColor] = React.useState<string>("crimson");
+  const [weight, setWeight] = React.useState<
     "thin" | "light" | "regular" | "bold" | "fill" | "duotone"
   >("regular");
 
@@ -18,7 +19,6 @@ const App = () => {
   return (
     <div
       style={{
-        backgroundColor: "#242424",
         color: "white",
         textAlign: "center",
       }}
