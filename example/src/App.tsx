@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-
 import * as Icon from "phosphor-react";
-import "phosphor-react/dist/index.css";
 
 const App = () => {
   const [color, setColor] = useState<string>("crimson");

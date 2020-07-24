@@ -4,6 +4,7 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
     "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
     "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
