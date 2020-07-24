@@ -1,12 +1,13 @@
 {
   "name": "phosphor-react",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A clean and friendly icon family for React",
   "author": "rektdeckard",
   "license": "GPL-3.0",
   "repository": "rektdeckard/phosphor-react",
   "module": "dist/phosphor-react.esm.js",
   "main": "dist/index.js",
+  "sideEffects": false,
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
