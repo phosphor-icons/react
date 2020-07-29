@@ -14,12 +14,12 @@ export type Icon = React.ForwardRefExoticComponent<
   IconProps & React.RefAttributes<SVGSVGElement>
 >;
 
-export type IconContext = Required<
+export type IconContextProps = Required<
   Pick<IconProps, "color" | "size" | "weight" | "mirrored">
 > &
   SVGAttributes<SVGSVGElement>;
 
-export const IconContext = createContext<IconContext>({
+export const IconContext = createContext<IconContextProps>({
   color: "currentColor",
   size: "1em",
   weight: "regular",
