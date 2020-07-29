@@ -1,5 +1,5 @@
-import React, { forwardRef } from "react";
-import { IconProps } from "../lib";
+import React, { forwardRef, useContext } from "react";
+import { IconProps, IconContext } from "../lib";
 
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
@@ -80,34 +80,33 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   }
 };
 
-const Star = forwardRef<SVGSVGElement, IconProps>(
-  (
-    {
-      color = "currentColor",
-      size = "1.25em",
-      weight = "regular",
-      mirrored = false,
-      ...rest
-    },
-    ref
-  ) => {
-    return (
-      <svg
-        ref={ref}
-        xmlns="http://www.w3.org/2000/svg"
-        width={size}
-        height={size}
-        viewBox="0 0 16 16"
-        fill="none"
-        stroke={color}
-        transform={mirrored ? "scale(-1, 1)" : undefined}
-        {...rest}
-      >
-        {renderPathFor(weight, color)}
-      </svg>
-    );
-  }
-);
+const Star = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
+  const { color, size, weight, mirrored, ...rest } = props;
+  const {
+    color: contextColor,
+    size: contextSize,
+    weight: contextWeight,
+    mirrored: contextMirrored,
+    ...contextRest
+  } = useContext(IconContext);
+
+  return (
+    <svg
+      ref={ref}
+      xmlns="http://www.w3.org/2000/svg"
+      width={size ?? contextSize}
+      height={size ?? contextSize}
+      viewBox="0 0 16 16"
+      fill="none"
+      stroke={color ?? contextColor}
+      transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
+      {...contextRest}
+      {...rest}
+    >
+      {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
+    </svg>
+  );
+});
 
 Star.displayName = "Star";
 

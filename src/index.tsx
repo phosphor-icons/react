@@ -1,4 +1,5 @@
 export type { Icon, IconProps } from "./lib";
+export { IconContext } from "./lib";
 
 export { default as ArrowUpRightCircle } from "./icons/ArrowUpRightCircle";
 export { default as ArrowUpLeftCircle } from "./icons/ArrowUpLeftCircle";

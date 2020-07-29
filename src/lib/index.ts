@@ -1,4 +1,4 @@
-import { DOMAttributes, SVGAttributes } from "react";
+import { DOMAttributes, SVGAttributes, createContext } from "react";
 
 export interface IconProps
   extends DOMAttributes<SVGSVGElement>,
@@ -7,8 +7,21 @@ export interface IconProps
   size?: string | number;
   weight?: "thin" | "light" | "regular" | "bold" | "fill" | "duotone";
   mirrored?: boolean;
+  // context?: React.Context<IconContext>;
 }
 
 export type Icon = React.ForwardRefExoticComponent<
   IconProps & React.RefAttributes<SVGSVGElement>
 >;
+
+export type IconContext = Required<
+  Pick<IconProps, "color" | "size" | "weight" | "mirrored">
+> &
+  SVGAttributes<SVGSVGElement>;
+
+export const IconContext = createContext<IconContext>({
+  color: "currentColor",
+  size: "1em",
+  weight: "regular",
+  mirrored: false,
+});

@@ -1,5 +1,5 @@
 {
-  "include": ["src", "types", "test/index.test.tsx"],
+  "include": ["src", "types", "src/test/index.test.tsx"],
   "compilerOptions": {
     "module": "esnext",
     "lib": ["dom", "esnext"],
