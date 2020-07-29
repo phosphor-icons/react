@@ -16,6 +16,16 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "phosphor",
+    "design",
+    "interface",
+    "UI",
+    "UX"
+  ],
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",

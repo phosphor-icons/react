@@ -20,7 +20,7 @@ const App = () => {
   return (
     <IconContext.Provider
       value={{
-        color: "#40AAFE",
+        color: "currentColor",
         size: "1em",
         mirrored: false,
         weight: "regular",
