@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 const fs = require("fs");
 const path = require("path");
-const util = require("util");
-// const yargs = require("yargs");
 
 const assetsPath = path.join(__dirname, "../assets");
 const outputPath = path.join(__dirname, "icons");
@@ -12,7 +10,7 @@ const icons = {};
 function readFile(folder, pathname, weight) {
   const file = fs.readFileSync(pathname);
   icons[folder][weight] = file
-    .toString("utf8")
+    .toString("utf-8")
     .replace(
       `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">`,
       ""
