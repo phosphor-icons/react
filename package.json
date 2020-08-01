@@ -31,7 +31,8 @@
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
-    "prepare": "tsdx build"
+    "prepare": "tsdx build",
+    "assemble": "node bin/assemble.js"
   },
   "peerDependencies": {
     "react": ">=16"
