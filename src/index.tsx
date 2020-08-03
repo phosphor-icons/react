@@ -1,4 +1,4 @@
-
+/* GENERATED FILE */
 export type { Icon, IconProps } from "./lib";
 export { IconContext } from "./lib";
 
