@@ -18,13 +18,10 @@ function readFile(folder, pathname, weight) {
       `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">`,
       ""
     )
-    .replace(
-      `<g fill="none" fill-rule="evenodd">`,
-      `<g fill="none" fill-rule="evenodd" stroke="none" strokeWidth="1">`
-    )
     .replace(/fill\-rule/g, "fillRule")
+    .replace(/15\.999/g, "16")
     .replace("</svg>", "")
-    .replace(/fill="#000"/g, `fill=\{color\}`);
+    .replace(/fill="#000"/g, "fill={color}");
 }
 
 function readFiles() {
@@ -132,7 +129,7 @@ const ${name} = forwardRef<SVGSVGElement, IconProps>(
         height={size ?? contextSize}
         viewBox="0 0 16 16"
         fill="none"
-        stroke={color ?? contextColor}
+        stroke="none"
         transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
         {...contextRest}
         {...rest}
