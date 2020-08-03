@@ -32,7 +32,7 @@ const App = () => {
           textAlign: "center",
         }}
       >
-        <div
+        <p
           style={{
             verticalAlign: "middle",
             cursor: "pointer",
@@ -40,11 +40,14 @@ const App = () => {
           }}
           onClick={onHeartClick}
         >
-          <Icon.Heart size={32} color={color} />
-          <p style={{ verticalAlign: "center" }}>
-            Made with Love from Bub Tub.
-          </p>
-        </div>
+          Made with{" "}
+          <Icon.Heart
+            size={32}
+            color={color}
+            style={{ verticalAlign: "middle" }}
+          />{" "}
+          from Bub Tub.
+        </p>
         <Icon.Horse
           style={{ cursor: "pointer" }}
           color="darkorange"
