@@ -4,7 +4,7 @@ const path = require("path");
 const chalk = require("chalk");
 
 const assetsPath = path.join(__dirname, "../assets");
-const outputPath = path.join(__dirname, "icons");
+const outputPath = path.join(__dirname, "../src/icons");
 
 const icons = {};
 const weights = ["thin", "light", "regular", "bold", "fill", "duotone"];
@@ -150,7 +150,7 @@ export default ${name};
       fs.writeFileSync(path.join(outputPath, `${name}.tsx`), componentString, {
         flag: "w",
       });
-      console.log(`${chalk.inverse.green(" OK ")} ${name}`);
+      console.log(`${chalk.inverse.green(" DONE ")} ${name}`);
       passes += 1;
     } catch (err) {
       console.error(
