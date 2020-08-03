@@ -5,6 +5,7 @@ const chalk = require("chalk");
 
 const assetsPath = path.join(__dirname, "../assets");
 const outputPath = path.join(__dirname, "../src/icons");
+const indexPath = path.join(__dirname, "../src/index.tsx");
 
 const icons = {};
 const weights = ["thin", "light", "regular", "bold", "fill", "duotone"];
@@ -65,11 +66,11 @@ function checkFiles(icon) {
   );
 }
 
-function assembleComponents() {
+function generateComponents() {
   let passes = 0;
   let fails = 0;
 
-  if (!fs.existsSync(outputPath)){
+  if (!fs.existsSync(outputPath)) {
     fs.mkdirSync(outputPath);
   }
 
@@ -163,9 +164,43 @@ export default ${name};
     }
   }
   // TODO: implement logging with async writeFile()
-  if (passes > 0) console.log(chalk.green(`${passes} component${passes > 1 ? "s" : ""} generated`));
-  if (fails > 0) console.log(chalk.red(`${fails} component${fails > 1 ? "s" : ""} failed`));
+  if (passes > 0)
+    console.log(
+      chalk.green(`${passes} component${passes > 1 ? "s" : ""} generated`)
+    );
+  if (fails > 0)
+    console.log(chalk.red(`${fails} component${fails > 1 ? "s" : ""} failed`));
+}
+
+function generateExports() {
+  let indexString = `\
+/* GENERATED FILE */
+export type { Icon, IconProps } from "./lib";
+export { IconContext } from "./lib";
+
+`;
+  for (let key in icons) {
+    const name = key
+      .split("-")
+      .map(substr => substr.replace(/^\w/, c => c.toUpperCase()))
+      .join("");
+    indexString += `\
+export { default as ${name} } from "./icons/${name}";
+`;
+  }
+  try {
+    fs.writeFileSync(indexPath, indexString, {
+      flag: "w",
+    });
+    console.log(chalk.green("Export success"));
+  } catch (err) {
+    console.error(chalk.red("Export failed"));
+    console.group();
+    console.error(err);
+    console.groupEnd();
+  }
 }
 
 readFiles();
-assembleComponents();
+generateComponents();
+generateExports();
