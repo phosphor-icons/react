@@ -101,19 +101,19 @@ const App = () => {
         <Icon.WifiMedium weight="fill" color={color} size={48} />
         <Icon.WifiMedium weight="duotone" color={color} size={48} />
         <br />
-        <Icon.WarningTriangle />
-        <Icon.WarningTriangle mirrored color="darkorange" size={24} />
-        <Icon.WarningTriangle mirrored color="darkmagenta" size={24} />
-        <Icon.WarningTriangle mirrored color="royalblue" size={24} />
-        <Icon.WarningTriangle weight={weight} size={32} />
-        <Icon.WarningTriangle weight={weight} color="crimson" size={32} />
-        <Icon.WarningTriangle weight={weight} color="teal" size={32} />
-        <Icon.WarningTriangle weight="thin" color={color} size={48} />
-        <Icon.WarningTriangle weight="light" color={color} size={48} />
-        <Icon.WarningTriangle weight="regular" color={color} size={48} />
-        <Icon.WarningTriangle weight="bold" color={color} size={48} />
-        <Icon.WarningTriangle weight="fill" color={color} size={48} />
-        <Icon.WarningTriangle weight="duotone" color={color} size={48} />
+        <Icon.Warning />
+        <Icon.Warning mirrored color="darkorange" size={24} />
+        <Icon.Warning mirrored color="darkmagenta" size={24} />
+        <Icon.Warning mirrored color="royalblue" size={24} />
+        <Icon.Warning weight={weight} size={32} />
+        <Icon.Warning weight={weight} color="crimson" size={32} />
+        <Icon.Warning weight={weight} color="teal" size={32} />
+        <Icon.Warning weight="thin" color={color} size={48} />
+        <Icon.Warning weight="light" color={color} size={48} />
+        <Icon.Warning weight="regular" color={color} size={48} />
+        <Icon.Warning weight="bold" color={color} size={48} />
+        <Icon.Warning weight="fill" color={color} size={48} />
+        <Icon.Warning weight="duotone" color={color} size={48} />
         <br />
         <Icon.UserCircle />
         <Icon.UserCircle mirrored color="darkorange" size={24} />
@@ -311,19 +311,19 @@ const App = () => {
         <Icon.PencilLine weight="fill" color={color} size={48} />
         <Icon.PencilLine weight="duotone" color={color} size={48} />
         <br />
-        <Icon.PencilClip />
-        <Icon.PencilClip mirrored color="darkorange" size={24} />
-        <Icon.PencilClip mirrored color="darkmagenta" size={24} />
-        <Icon.PencilClip mirrored color="royalblue" size={24} />
-        <Icon.PencilClip weight={weight} size={32} />
-        <Icon.PencilClip weight={weight} color="crimson" size={32} />
-        <Icon.PencilClip weight={weight} color="teal" size={32} />
-        <Icon.PencilClip weight="thin" color={color} size={48} />
-        <Icon.PencilClip weight="light" color={color} size={48} />
-        <Icon.PencilClip weight="regular" color={color} size={48} />
-        <Icon.PencilClip weight="bold" color={color} size={48} />
-        <Icon.PencilClip weight="fill" color={color} size={48} />
-        <Icon.PencilClip weight="duotone" color={color} size={48} />
+        <Icon.Pen />
+        <Icon.Pen mirrored color="darkorange" size={24} />
+        <Icon.Pen mirrored color="darkmagenta" size={24} />
+        <Icon.Pen mirrored color="royalblue" size={24} />
+        <Icon.Pen weight={weight} size={32} />
+        <Icon.Pen weight={weight} color="crimson" size={32} />
+        <Icon.Pen weight={weight} color="teal" size={32} />
+        <Icon.Pen weight="thin" color={color} size={48} />
+        <Icon.Pen weight="light" color={color} size={48} />
+        <Icon.Pen weight="regular" color={color} size={48} />
+        <Icon.Pen weight="bold" color={color} size={48} />
+        <Icon.Pen weight="fill" color={color} size={48} />
+        <Icon.Pen weight="duotone" color={color} size={48} />
         <br />
         <Icon.MusicNotesSixteenth />
         <Icon.MusicNotesSixteenth mirrored color="darkorange" size={24} />
@@ -437,19 +437,19 @@ const App = () => {
         <Icon.Folder weight="fill" color={color} size={48} />
         <Icon.Folder weight="duotone" color={color} size={48} />
         <br />
-        <Icon.EnvelopeAlt />
-        <Icon.EnvelopeAlt mirrored color="darkorange" size={24} />
-        <Icon.EnvelopeAlt mirrored color="darkmagenta" size={24} />
-        <Icon.EnvelopeAlt mirrored color="royalblue" size={24} />
-        <Icon.EnvelopeAlt weight={weight} size={32} />
-        <Icon.EnvelopeAlt weight={weight} color="crimson" size={32} />
-        <Icon.EnvelopeAlt weight={weight} color="teal" size={32} />
-        <Icon.EnvelopeAlt weight="thin" color={color} size={48} />
-        <Icon.EnvelopeAlt weight="light" color={color} size={48} />
-        <Icon.EnvelopeAlt weight="regular" color={color} size={48} />
-        <Icon.EnvelopeAlt weight="bold" color={color} size={48} />
-        <Icon.EnvelopeAlt weight="fill" color={color} size={48} />
-        <Icon.EnvelopeAlt weight="duotone" color={color} size={48} />
+        <Icon.EnvelopeMinimal />
+        <Icon.EnvelopeMinimal mirrored color="darkorange" size={24} />
+        <Icon.EnvelopeMinimal mirrored color="darkmagenta" size={24} />
+        <Icon.EnvelopeMinimal mirrored color="royalblue" size={24} />
+        <Icon.EnvelopeMinimal weight={weight} size={32} />
+        <Icon.EnvelopeMinimal weight={weight} color="crimson" size={32} />
+        <Icon.EnvelopeMinimal weight={weight} color="teal" size={32} />
+        <Icon.EnvelopeMinimal weight="thin" color={color} size={48} />
+        <Icon.EnvelopeMinimal weight="light" color={color} size={48} />
+        <Icon.EnvelopeMinimal weight="regular" color={color} size={48} />
+        <Icon.EnvelopeMinimal weight="bold" color={color} size={48} />
+        <Icon.EnvelopeMinimal weight="fill" color={color} size={48} />
+        <Icon.EnvelopeMinimal weight="duotone" color={color} size={48} />
         <br />
         <Icon.Envelope />
         <Icon.Envelope mirrored color="darkorange" size={24} />
@@ -479,19 +479,19 @@ const App = () => {
         <Icon.Droid weight="fill" color={color} size={48} />
         <Icon.Droid weight="duotone" color={color} size={48} />
         <br />
-        <Icon.DocumentText />
-        <Icon.DocumentText mirrored color="darkorange" size={24} />
-        <Icon.DocumentText mirrored color="darkmagenta" size={24} />
-        <Icon.DocumentText mirrored color="royalblue" size={24} />
-        <Icon.DocumentText weight={weight} size={32} />
-        <Icon.DocumentText weight={weight} color="crimson" size={32} />
-        <Icon.DocumentText weight={weight} color="teal" size={32} />
-        <Icon.DocumentText weight="thin" color={color} size={48} />
-        <Icon.DocumentText weight="light" color={color} size={48} />
-        <Icon.DocumentText weight="regular" color={color} size={48} />
-        <Icon.DocumentText weight="bold" color={color} size={48} />
-        <Icon.DocumentText weight="fill" color={color} size={48} />
-        <Icon.DocumentText weight="duotone" color={color} size={48} />
+        <Icon.FileText />
+        <Icon.FileText mirrored color="darkorange" size={24} />
+        <Icon.FileText mirrored color="darkmagenta" size={24} />
+        <Icon.FileText mirrored color="royalblue" size={24} />
+        <Icon.FileText weight={weight} size={32} />
+        <Icon.FileText weight={weight} color="crimson" size={32} />
+        <Icon.FileText weight={weight} color="teal" size={32} />
+        <Icon.FileText weight="thin" color={color} size={48} />
+        <Icon.FileText weight="light" color={color} size={48} />
+        <Icon.FileText weight="regular" color={color} size={48} />
+        <Icon.FileText weight="bold" color={color} size={48} />
+        <Icon.FileText weight="fill" color={color} size={48} />
+        <Icon.FileText weight="duotone" color={color} size={48} />
         <br />
         <Icon.Cube />
         <Icon.Cube mirrored color="darkorange" size={24} />
