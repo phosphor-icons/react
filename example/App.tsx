@@ -11,9 +11,9 @@ const App = () => {
 
   const onHeartClick = useCallback(() => {
     setColor(
-      `#${Math.floor(Math.random() * 16777216)
-        .toString(16)
-        .padStart(6, "0")}`
+      `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(
+        Math.random() * 256
+      )}, ${Math.floor(Math.random() * 256)})`
     );
   }, [setColor]);
 
