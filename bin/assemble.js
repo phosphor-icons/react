@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require("fs");
 const path = require("path");
+const chalk = require("chalk");
 
 const assetsPath = path.join(__dirname, "../assets");
 const outputPath = path.join(__dirname, "icons");
@@ -17,8 +18,9 @@ function readFile(folder, pathname, weight) {
     )
     .replace(
       `<g fill="none" fill-rule="evenodd">`,
-      `<g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">`
+      `<g fill="none" fill-rule="evenodd" stroke="none" strokeWidth="1">`
     )
+    .replace(/fill\-rule/g, "fillRule")
     .replace("</svg>", "")
     .replace(/fill="#000"/g, `fill=\{color\}`);
 }
@@ -28,8 +30,10 @@ function readFiles() {
 
   folders.forEach(folder => {
     icons[folder] = {};
+
     const files = fs.readdirSync(path.join(assetsPath, folder));
     files.forEach(filename => {
+      const filepath = path.join(assetsPath, folder, filename);
       const weight = filename
         .split(".svg")[0]
         .split("-")
@@ -40,10 +44,10 @@ function readFiles() {
         case "bold":
         case "fill":
         case "duo":
-          readFile(folder, path.join(assetsPath, folder, filename), weight);
+          readFile(folder, filepath, weight);
           break;
         default:
-          readFile(folder, path.join(assetsPath, folder, filename), "regular");
+          readFile(folder, filepath, "regular");
           break;
       }
     });
@@ -51,6 +55,9 @@ function readFiles() {
 }
 
 function assemble() {
+  let passes = 0;
+  let fails = 0;
+
   for (let key in icons) {
     const icon = icons[key];
     const name = key
@@ -58,6 +65,7 @@ function assemble() {
       .map(substr => substr.replace(/^\w/, c => c.toUpperCase()))
       .join("");
     let componentString = `\
+/* GENERATED FILE */
 import React, { forwardRef, useContext } from "react";
 import { IconProps, IconContext } from "../lib";
 
@@ -116,11 +124,19 @@ export default ${name};`;
       { flag: "w" },
       err => {
         if (err) {
+          console.error(`${chalk.inverse.red(" FAIL ")} ${name}`);
           console.error(err);
+          fails += 1;
+        } else {
+          console.log(`${chalk.inverse.green(" OK ")} ${name}`);
+          passes += 1;
         }
       }
     );
   }
+  // FIXME: does not work with async writeFile()
+  if (passes > 0) console.log(chalk.green(`${passes} components generated`));
+  if (fails > 0) console.log(chalk.red(`${fails} components failed`));
 }
 
 readFiles();
