@@ -7,6 +7,7 @@ const assetsPath = path.join(__dirname, "../assets");
 const outputPath = path.join(__dirname, "icons");
 
 const icons = {};
+const weights = ["thin", "light", "regular", "bold", "fill", "duotone"];
 
 function readFile(folder, pathname, weight) {
   const file = fs.readFileSync(pathname);
@@ -43,8 +44,10 @@ function readFiles() {
         case "light":
         case "bold":
         case "fill":
-        case "duo":
           readFile(folder, filepath, weight);
+          break;
+        case "duo":
+          readFile(folder, filepath, "duotone");
           break;
         default:
           readFile(folder, filepath, "regular");
@@ -54,9 +57,21 @@ function readFiles() {
   });
 }
 
-function assemble() {
+function checkFiles(icon) {
+  const weightsPresent = Object.keys(icon);
+  return (
+    weightsPresent.length === 6 &&
+    weightsPresent.every(w => weights.includes(w))
+  );
+}
+
+function assembleComponents() {
   let passes = 0;
   let fails = 0;
+
+  if (!fs.existsSync(outputPath)){
+    fs.mkdirSync(outputPath);
+  }
 
   for (let key in icons) {
     const icon = icons[key];
@@ -71,6 +86,18 @@ import { IconProps, IconContext } from "../lib";
 
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {`;
+
+    if (!checkFiles(icon)) {
+      fails += 1;
+      console.error(
+        `${chalk.inverse.red(" FAIL ")} ${name} is missing weights`
+      );
+      console.group();
+      console.error(weights.filter(w => !Object.keys(icon).includes(w)));
+      console.groupEnd();
+      continue;
+    }
+
     for (let weight in icon) {
       componentString += `
     case "${weight}":
@@ -117,27 +144,28 @@ const ${name} = forwardRef<SVGSVGElement, IconProps>(
 
 ${name}.displayName = "${name}";
 
-export default ${name};`;
-    fs.writeFile(
-      path.join(outputPath, `${name}.tsx`),
-      componentString,
-      { flag: "w" },
-      err => {
-        if (err) {
-          console.error(`${chalk.inverse.red(" FAIL ")} ${name}`);
-          console.error(err);
-          fails += 1;
-        } else {
-          console.log(`${chalk.inverse.green(" OK ")} ${name}`);
-          passes += 1;
-        }
-      }
-    );
+export default ${name};
+`;
+    try {
+      fs.writeFileSync(path.join(outputPath, `${name}.tsx`), componentString, {
+        flag: "w",
+      });
+      console.log(`${chalk.inverse.green(" OK ")} ${name}`);
+      passes += 1;
+    } catch (err) {
+      console.error(
+        `${chalk.inverse.red(" FAIL ")} ${name} could not be saved`
+      );
+      console.group();
+      console.error(err);
+      console.groupEnd();
+      fails += 1;
+    }
   }
-  // FIXME: does not work with async writeFile()
-  if (passes > 0) console.log(chalk.green(`${passes} components generated`));
-  if (fails > 0) console.log(chalk.red(`${fails} components failed`));
+  // TODO: implement logging with async writeFile()
+  if (passes > 0) console.log(chalk.green(`${passes} component${passes > 1 ? "s" : ""} generated`));
+  if (fails > 0) console.log(chalk.red(`${fails} component${fails > 1 ? "s" : ""} failed`));
 }
 
 readFiles();
-assemble();
+assembleComponents();

@@ -7,7 +7,6 @@ export interface IconProps
   size?: string | number;
   weight?: "thin" | "light" | "regular" | "bold" | "fill" | "duotone";
   mirrored?: boolean;
-  // context?: React.Context<IconContext>;
 }
 
 export type Icon = React.ForwardRefExoticComponent<

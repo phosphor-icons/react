@@ -4,22 +4,22 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "thin":
-      return thin;
+      return null;
 
     case "light":
-      return light;
+      return null;
 
     case "regular":
-      return regular;
+      return null;
 
     case "bold":
-      return bold;
+      return null;
 
     case "fill":
-      return fill;
+      return null;
 
     case "duotone":
-      return duotone;
+      return null;
 
     default:
       console.error(
