@@ -14,14 +14,21 @@ function readFile(folder, pathname, weight) {
   const file = fs.readFileSync(pathname);
   icons[folder][weight] = file
     .toString("utf-8")
+    .replace(/^.*<\?xml.*/g, "")
     .replace(
-      `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">`,
+      // `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">`,
+      /<svg.*/g,
       ""
     )
+    .replace(/<title.*/g, "")
     .replace(/fill\-rule/g, "fillRule")
     .replace(/15\.999/g, "16")
     .replace("</svg>", "")
-    .replace(/fill="#000"/g, "fill={color}");
+    .replace(/fill="#0+"/g, "fill={color}")
+    .replace(/stroke="#0+"/g, "stroke={color}")
+    .replace(/stroke-linecap/g, "strokeLinecap")
+    .replace(/stroke-linejoin/g, "strokeLinejoin")
+    .replace(/stroke-width/g, "strokeWidth");
 }
 
 function readFiles() {
