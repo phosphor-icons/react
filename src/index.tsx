@@ -2,12 +2,12 @@
 export type { Icon, IconProps } from "./lib";
 export { IconContext } from "./lib";
 
-export { default as ArrowUpLeftCircle } from "./icons/ArrowUpLeftCircle";
 export { default as ArrowUpRightCircle } from "./icons/ArrowUpRightCircle";
 export { default as Backspace } from "./icons/Backspace";
 export { default as BatteryHalf } from "./icons/BatteryHalf";
 export { default as BookClosed } from "./icons/BookClosed";
 export { default as CalendarX } from "./icons/CalendarX";
+export { default as CaretUpCircle } from "./icons/CaretUpCircle";
 export { default as CheckCircle } from "./icons/CheckCircle";
 export { default as Clock } from "./icons/Clock";
 export { default as Cloud } from "./icons/Cloud";
