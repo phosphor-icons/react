@@ -20,12 +20,13 @@ function readFile(folder, pathname, weight) {
       /<svg.*/g,
       ""
     )
+    .replace(/<rect.*fill="#fff"\/>/g, "")
     .replace(/<title.*/g, "")
     .replace(/fill\-rule/g, "fillRule")
-    .replace(/15\.999/g, "16")
     .replace("</svg>", "")
     .replace(/fill="#0+"/g, "fill={color}")
     .replace(/stroke="#0+"/g, "stroke={color}")
+    .replace(/stroke="#f+"/g, "stroke={color}")
     .replace(/stroke-linecap/g, "strokeLinecap")
     .replace(/stroke-linejoin/g, "strokeLinejoin")
     .replace(/stroke-width/g, "strokeWidth");
@@ -35,6 +36,7 @@ function readFiles() {
   const folders = fs.readdirSync(assetsPath, "utf-8");
 
   folders.forEach(folder => {
+    if (!fs.lstatSync(path.join(assetsPath, folder)).isDirectory()) return;
     icons[folder] = {};
 
     const files = fs.readdirSync(path.join(assetsPath, folder));
@@ -51,7 +53,7 @@ function readFiles() {
         case "fill":
           readFile(folder, filepath, weight);
           break;
-        case "duo":
+        case "duotone":
           readFile(folder, filepath, "duotone");
           break;
         default:
@@ -106,7 +108,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     for (let weight in icon) {
       componentString += `
     case "${weight}":
-      return (${icon[weight]})`;
+      return (<g>${icon[weight]}</g>)`;
     }
     componentString += `
     default:
@@ -134,7 +136,7 @@ const ${name} = forwardRef<SVGSVGElement, IconProps>(
         xmlns="http://www.w3.org/2000/svg"
         width={size ?? contextSize}
         height={size ?? contextSize}
-        viewBox="0 0 16 16"
+        viewBox="0 0 256 256"
         fill="none"
         stroke="none"
         transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
