@@ -1,0 +1,13 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <g>
+    <rect width="256" height="256" fill="none"/>
+    <g>
+      <polygon points="128 160 96 160 96 128 192 32 224 64 128 160" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+      <line x1="168" y1="56" x2="200" y2="88" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    </g>
+    <path d="M216,120v88a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8h88" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  </g>
+  <g opacity="0.2">
+    <rect x="255.99348" width="256" height="256" fill="none"/>
+  </g>
+</svg>

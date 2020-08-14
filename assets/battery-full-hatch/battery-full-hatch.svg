@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <line x1="240" y1="96" x2="240" y2="160" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <rect x="44" y="36" width="144" height="184" rx="16" transform="translate(244 12) rotate(90)" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <g>
+    <line x1="23.99994" y1="108.00006" x2="75.99999" y2="56.00001" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    <line x1="23.99997" y1="164.00003" x2="131.74159" y2="56.25841" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    <line x1="43.99998" y1="200.00002" x2="187.74159" y2="56.25841" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    <line x1="99.99998" y1="200.00002" x2="207.99992" y2="92.00008" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    <line x1="155.99998" y1="200.00002" x2="207.99998" y2="148.00002" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  </g>
+</svg>

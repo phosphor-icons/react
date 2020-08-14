@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <g>
+    <g>
+      <rect width="256" height="256" fill="#fff"/>
+      <path d="M136,208H72A56,56,0,1,1,85.91924,97.74352" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+      <path d="M80,128a80,80,0,1,1,128.00118,64.005" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    </g>
+    <path d="M80.00586,128a80,80,0,1,1,80,80h-88A56,56,0,1,1,85.9251,97.74352" opacity="0.2"/>
+  </g>
+  <g>
+    <path d="M136,208H72A56,56,0,1,1,85.91924,97.74352" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    <path d="M80,128a80,80,0,1,1,128.00118,64.005" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  </g>
+  <line x1="160" y1="136" x2="144" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="184" y1="168" x2="168" y2="208" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+</svg>

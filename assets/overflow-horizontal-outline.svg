@@ -1,0 +1,8 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <g>
+    <rect width="256" height="256" fill="none"/>
+    <circle cx="128" cy="128" r="24" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="16"/>
+    <circle cx="48" cy="128" r="24" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="16"/>
+    <circle cx="208" cy="128" r="24" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="16"/>
+  </g>
+</svg>

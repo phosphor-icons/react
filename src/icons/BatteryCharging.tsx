@@ -1,0 +1,89 @@
+/* GENERATED FILE */
+import React, { forwardRef, useContext } from "react";
+import { IconProps, IconContext } from "../lib";
+
+const renderPathFor = (weight: string, color: string): JSX.Element | null => {
+  switch (weight) {
+    case "bold":
+      return (<g>
+  <line x1="240" y1="96" x2="240" y2="160" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+  <rect x="44" y="36" width="144" height="184" rx="16" transform="translate(244 12) rotate(90)" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <polyline points="116 168 132 128 100 128 116 88" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+
+</g>)
+    case "duotone":
+      return (<g>
+  <rect x="44" y="36" width="144" height="184" rx="16" transform="translate(244 12) rotate(90)" opacity="0.2"/>
+  <line x1="240" y1="96" x2="240" y2="160" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <rect x="44" y="36" width="144" height="184" rx="16" transform="translate(244 12) rotate(90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <polyline points="116 168 132 128 100 128 116 88" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+
+</g>)
+    case "fill":
+      return (<g>
+  <line x1="240" y1="96" x2="240" y2="160" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <path d="M192,47.99805H40a24.02624,24.02624,0,0,0-24,24v112a24.02625,24.02625,0,0,0,24,24H192a24.02624,24.02624,0,0,0,24-24v-112A24.02624,24.02624,0,0,0,192,47.99805ZM139.42188,130.9668l-16,40a7.99361,7.99361,0,1,1-14.84375-5.9375l11.60937-29.03125H100a7.9927,7.9927,0,0,1-7.42187-10.96875l16-40a7.99361,7.99361,0,1,1,14.84375,5.9375L111.8125,119.99805H132a7.99271,7.99271,0,0,1,7.42188,10.96875Z"/>
+
+</g>)
+    case "light":
+      return (<g>
+  <line x1="240" y1="96" x2="240" y2="160" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+  <rect x="44" y="36" width="144" height="184" rx="16" transform="translate(244 12) rotate(90)" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <polyline points="116 168 132 128 100 128 116 88" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+
+</g>)
+    case "thin":
+      return (<g>
+  <line x1="240" y1="96" x2="240" y2="160" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+  <rect x="44" y="36" width="144" height="184" rx="16" transform="translate(244 12) rotate(90)" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <polyline points="116 168 132 128 100 128 116 88" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+
+</g>)
+    case "regular":
+      return (<g>
+  <line x1="240" y1="96" x2="240" y2="160" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <rect x="44" y="36" width="144" height="184" rx="16" transform="translate(244 12) rotate(90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <polyline points="116 168 132 128 100 128 116 88" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+
+</g>)
+    default:
+      console.error(
+        'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
+      );
+      return null;
+  }
+};
+
+const BatteryCharging = forwardRef<SVGSVGElement, IconProps>(
+  (props, ref) => {
+    const { color, size, weight, mirrored, ...rest } = props;
+    const {
+      color: contextColor,
+      size: contextSize,
+      weight: contextWeight,
+      mirrored: contextMirrored,
+      ...contextRest
+    } = useContext(IconContext);
+
+    return (
+      <svg
+        ref={ref}
+        xmlns="http://www.w3.org/2000/svg"
+        width={size ?? contextSize}
+        height={size ?? contextSize}
+        viewBox="0 0 256 256"
+        fill="none"
+        stroke="none"
+        transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
+        {...contextRest}
+        {...rest}
+      >
+        {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
+      </svg>
+    );
+  }
+);
+
+BatteryCharging.displayName = "BatteryCharging";
+
+export default BatteryCharging;

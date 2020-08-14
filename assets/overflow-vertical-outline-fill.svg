@@ -1,0 +1,10 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <g>
+    <rect width="256" height="256" fill="none"/>
+    <g>
+      <circle cx="128" cy="128" r="32"/>
+      <circle cx="128" cy="48" r="32"/>
+      <circle cx="128" cy="208" r="32"/>
+    </g>
+  </g>
+</svg>

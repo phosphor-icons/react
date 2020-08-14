@@ -1,0 +1,15 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <line x1="40.02344" y1="136.00094" x2="40.02344" y2="56.00094" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="120.02344" y1="136.00094" x2="120.02344" y2="56.00094" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="24.02344" y1="56.00094" x2="40.02344" y2="56.00094" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="120.02344" y1="56.00094" x2="136.02344" y2="56.00094" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="24.02344" y1="136.00094" x2="48.02344" y2="136.00094" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="112.02344" y1="136.00094" x2="136.02344" y2="136.00094" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <g>
+    <line x1="168.02344" y1="104.00094" x2="240.02344" y2="104.00094" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    <line x1="168.02344" y1="136.00094" x2="240.02344" y2="136.00094" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  </g>
+  <line x1="72.02344" y1="168.00094" x2="240.02344" y2="168.00094" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="72.02344" y1="200.00094" x2="240.02344" y2="200.00094" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <polyline points="40.023 56.001 80.023 120.001 120.023 56.001" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+</svg>
