@@ -4,7 +4,7 @@
 
 A clear, playful, and adaptable icon family for React.
 
-[![NPM](https://img.shields.io/npm/v/phosphor-react.svg?style=flat-square)](https://www.npmjs.com/package/phosphor-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com) [![Travis](https://img.shields.io/travis/com/phosphor-icons/phosphor-react.svg?style=flat-square)](https://travis-ci.com/github/phosphor-icons/phosphor-react)
+[![NPM](https://img.shields.io/npm/v/phosphor-react.svg?style=flat-square)](https://www.npmjs.com/package/phosphor-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com) [![Travis](https://img.shields.io/travis/com/phosphor-icons/phosphor-react.svg?style=flat-square)](https://travis-ci.com/github/rektdeckard/phosphor-react)
 
 [![GitHub stars](https://img.shields.io/github/stars/phosphor-icons/phosphor-react?style=flat-square&label=Star)](https://github.com/phosphor-icons/phosphor-react)
 [![GitHub forks](https://img.shields.io/github/forks/phosphor-icons/phosphor-react?style=flat-square&label=Fork)](https://github.com/phosphor-icons/phosphor-react/fork)
