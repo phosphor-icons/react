@@ -1,0 +1,8 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="none"/>
+  <g>
+    <path d="M152.24871,122.00466a28,28,0,1,1,2.79721-21.24693A27.91233,27.91233,0,0,1,152.24871,122.00466Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+    <line x1="152.24871" y1="122.00466" x2="121.07448" y2="176.00001" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  </g>
+  <rect x="40" y="40" width="176" height="176" rx="8" stroke-width="8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

@@ -51,41 +51,41 @@ const App = () => {
           />{" "}
           from Bub Tub.
         </p>
-        <Icons.Horse
+        <Icons.Cube
           style={{ cursor: "pointer" }}
           color="darkorange"
           size={32}
           weight="duotone"
           onClick={() => setWeight("duotone")}
         />
-        <Icons.Horse
+        <Icons.Cube
           style={{ cursor: "pointer" }}
           color="darkmagenta"
           size={32}
           weight="fill"
           onClick={() => setWeight("fill")}
         />
-        <Icons.Horse
+        <Icons.Cube
           style={{ cursor: "pointer" }}
           color="royalblue"
           size={32}
           weight="bold"
           onClick={() => setWeight("bold")}
         />
-        <Icons.Horse
+        <Icons.Cube
           style={{ cursor: "pointer" }}
           size={32}
           weight="regular"
           onClick={() => setWeight("regular")}
         />
-        <Icons.Horse
+        <Icons.Cube
           style={{ cursor: "pointer" }}
           color="crimson"
           size={32}
           weight="light"
           onClick={() => setWeight("light")}
         />
-        <Icons.Horse
+        <Icons.Cube
           style={{ cursor: "pointer" }}
           color="teal"
           size={32}

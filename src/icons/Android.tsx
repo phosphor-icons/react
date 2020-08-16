@@ -5,9 +5,9 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<g>
+      return (<>
   <g>
-    
+    <rect x="-0.07031" width="256" height="256" fill="none"/>
     <circle cx="99.92969" cy="84" r="16"/>
     <circle cx="155.92969" cy="84" r="16"/>
     <line x1="55.92969" y1="24" x2="75.27223" y2="41.48751" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
@@ -16,11 +16,11 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     <line x1="207.92969" y1="120" x2="47.92969" y2="120" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
   </g>
 
-</g>)
+</>)
     case "duotone":
-      return (<g>
+      return (<>
   <g>
-    
+    <rect x="-0.07031" width="256" height="256" fill="none"/>
     <circle cx="99.92969" cy="84" r="12"/>
     <path d="M207.92969,120v32a80,80,0,0,1-160,0V120Z" opacity="0.2"/>
     <circle cx="155.92969" cy="84" r="12"/>
@@ -30,11 +30,11 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     <line x1="207.92969" y1="120" x2="47.92969" y2="120" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
   </g>
 
-</g>)
+</>)
     case "fill":
-      return (<g>
+      return (<>
   <g>
-    
+    <rect x="-0.07031" width="256" height="256" fill="none"/>
     <circle cx="99.92969" cy="84" r="12"/>
     <path d="M207.92969,120v32a80,80,0,0,1-160,0V120Z"/>
     <circle cx="155.92969" cy="84" r="12"/>
@@ -44,11 +44,11 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     <line x1="207.92969" y1="120" x2="47.92969" y2="120" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
   </g>
 
-</g>)
+</>)
     case "light":
-      return (<g>
+      return (<>
   <g>
-    
+    <rect x="-0.07031" width="256" height="256" fill="none"/>
     <circle cx="99.92969" cy="84" r="9"/>
     <circle cx="155.92969" cy="84" r="9"/>
     <line x1="55.92969" y1="24" x2="75.27223" y2="41.48751" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
@@ -57,11 +57,11 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     <line x1="207.92969" y1="120" x2="47.92969" y2="120" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
   </g>
 
-</g>)
+</>)
     case "thin":
-      return (<g>
+      return (<>
   <g>
-    
+    <rect x="-0.07031" width="256" height="256" fill="none"/>
     <circle cx="99.92969" cy="84" r="6"/>
     <circle cx="155.92969" cy="84" r="6"/>
     <line x1="55.92969" y1="24" x2="75.27223" y2="41.48751" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
@@ -70,11 +70,11 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     <line x1="207.92969" y1="120" x2="47.92969" y2="120" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
   </g>
 
-</g>)
+</>)
     case "regular":
-      return (<g>
+      return (<>
   <g>
-    
+    <rect width="256" height="256" fill="none"/>
     <circle cx="100" cy="84" r="12"/>
     <circle cx="156" cy="84" r="12"/>
     <line x1="56" y1="24" x2="75.34254" y2="41.48751" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
@@ -83,7 +83,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     <line x1="208" y1="120" x2="48" y2="120" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
   </g>
 
-</g>)
+</>)
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -109,9 +109,8 @@ const Android = forwardRef<SVGSVGElement, IconProps>(
         xmlns="http://www.w3.org/2000/svg"
         width={size ?? contextSize}
         height={size ?? contextSize}
+        fill={color ?? contextColor}
         viewBox="0 0 256 256"
-        fill="none"
-        stroke="none"
         transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
         {...contextRest}
         {...rest}

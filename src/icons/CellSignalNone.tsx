@@ -5,35 +5,35 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<g>
+      return (<>
   <path d="M200,43.31371V208a8,8,0,0,1-8,8H27.31371a8,8,0,0,1-5.65686-13.65685l164.6863-164.6863A8,8,0,0,1,200,43.31371Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
 
-</g>)
+</>)
     case "duotone":
-      return (<g>
+      return (<>
   <path d="M200,43.31371V208a8,8,0,0,1-8,8H27.31371a8,8,0,0,1-5.65686-13.65685l164.6863-164.6863A8,8,0,0,1,200,43.31371Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
 
-</g>)
+</>)
     case "fill":
-      return (<g>
-  <path d="M200,43.31371V208a8,8,0,0,1-8,8H27.31371a8,8,0,0,1-5.65686-13.65685l164.6863-164.6863A8,8,0,0,1,200,43.31371Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+      return (<>
+  <path d="M192,224H27.31348A15.9994,15.9994,0,0,1,16.001,196.686L180.68555,32A16.00046,16.00046,0,0,1,208,43.31372V208A16.01825,16.01825,0,0,1,192,224ZM27.31934,207.99512,192,208V43.32031L27.31445,208Z"/>
 
-</g>)
+</>)
     case "light":
-      return (<g>
+      return (<>
   <path d="M200,43.31371V208a8,8,0,0,1-8,8H27.31371a8,8,0,0,1-5.65686-13.65685l164.6863-164.6863A8,8,0,0,1,200,43.31371Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
 
-</g>)
+</>)
     case "thin":
-      return (<g>
+      return (<>
   <path d="M200,43.31371V208a8,8,0,0,1-8,8H27.31371a8,8,0,0,1-5.65686-13.65685l164.6863-164.6863A8,8,0,0,1,200,43.31371Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
 
-</g>)
+</>)
     case "regular":
-      return (<g>
+      return (<>
   <path d="M200,43.31371V208a8,8,0,0,1-8,8H27.31371a8,8,0,0,1-5.65686-13.65685l164.6863-164.6863A8,8,0,0,1,200,43.31371Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
 
-</g>)
+</>)
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -59,9 +59,8 @@ const CellSignalNone = forwardRef<SVGSVGElement, IconProps>(
         xmlns="http://www.w3.org/2000/svg"
         width={size ?? contextSize}
         height={size ?? contextSize}
+        fill={color ?? contextColor}
         viewBox="0 0 256 256"
-        fill="none"
-        stroke="none"
         transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
         {...contextRest}
         {...rest}

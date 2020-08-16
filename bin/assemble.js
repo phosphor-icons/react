@@ -15,21 +15,18 @@ function readFile(folder, pathname, weight) {
   icons[folder][weight] = file
     .toString("utf-8")
     .replace(/^.*<\?xml.*/g, "")
-    .replace(
-      // `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">`,
-      /<svg.*/g,
-      ""
-    )
-    .replace(/<rect.*fill="#fff"\/>/g, "")
+    .replace(/<svg.*/g, "")
+    .replace(/<\/svg>/g, "")
+    .replace(/<rect.*fill="#fff"\/>/g, "") // remove me when bounding rect is fixed
     .replace(/<title.*/g, "")
+    // .replace(/fill="#0+"/g, "fill={color}")
+    .replace(/"#0+"/g, "{color}")
+    // .replace(/stroke="#0+"/g, "stroke={color}")
     .replace(/fill\-rule/g, "fillRule")
-    .replace("</svg>", "")
-    .replace(/fill="#0+"/g, "fill={color}")
-    .replace(/stroke="#0+"/g, "stroke={color}")
-    .replace(/stroke="#f+"/g, "stroke={color}")
     .replace(/stroke-linecap/g, "strokeLinecap")
     .replace(/stroke-linejoin/g, "strokeLinejoin")
-    .replace(/stroke-width/g, "strokeWidth");
+    .replace(/stroke-width/g, "strokeWidth")
+    .replace(/stroke-miterlimit/g, "strokeMiterlimit");
 }
 
 function readFiles() {
@@ -108,7 +105,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     for (let weight in icon) {
       componentString += `
     case "${weight}":
-      return (<g>${icon[weight]}</g>)`;
+      return (<>${icon[weight]}</>)`;
     }
     componentString += `
     default:
@@ -136,9 +133,8 @@ const ${name} = forwardRef<SVGSVGElement, IconProps>(
         xmlns="http://www.w3.org/2000/svg"
         width={size ?? contextSize}
         height={size ?? contextSize}
+        fill={color ?? contextColor}
         viewBox="0 0 256 256"
-        fill="none"
-        stroke="none"
         transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
         {...contextRest}
         {...rest}

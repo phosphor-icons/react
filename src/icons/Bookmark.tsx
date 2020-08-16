@@ -5,44 +5,42 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<g>
+      return (<>
   <rect width="256" height="256" fill="none"/>
   <path d="M200,224l-72.0074-40L56,224V40a8,8,0,0,1,8-8H192a8,8,0,0,1,8,8Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
 
-</g>)
+</>)
     case "duotone":
-      return (<g>
+      return (<>
   <rect width="256" height="256" fill="none"/>
   <path d="M200,224l-72.0074-40L56,224V40a8,8,0,0,1,8-8H192a8,8,0,0,1,8,8Z" opacity="0.2"/>
   <path d="M200,224l-72.0074-40L56,224V40a8,8,0,0,1,8-8H192a8,8,0,0,1,8,8Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
 
-</g>)
+</>)
     case "fill":
-      return (<g>
+      return (<>
   <rect width="256" height="256" fill="none"/>
   <path d="M192,24H64A16.01583,16.01583,0,0,0,48,40V224a7.99583,7.99583,0,0,0,11.89063,6.99219L128,193.14844l68.10938,37.84375A7.99583,7.99583,0,0,0,208,224V40A16.01582,16.01582,0,0,0,192,24Z"/>
 
-</g>)
+</>)
     case "light":
-      return (<g>
+      return (<>
   <rect width="256" height="256" fill="none"/>
   <path d="M200,224l-72.0074-40L56,224V40a8,8,0,0,1,8-8H192a8,8,0,0,1,8,8Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
 
-</g>)
+</>)
     case "thin":
-      return (<g>
+      return (<>
   <rect width="256" height="256" fill="none"/>
   <path d="M200,224l-72.0074-40L56,224V40a8,8,0,0,1,8-8H192a8,8,0,0,1,8,8Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
 
-</g>)
+</>)
     case "regular":
-      return (<g>
-  <g>
-    <rect width="256" height="256" fill="none"/>
-    <path d="M200,224l-72.0074-40L56,224V40a8,8,0,0,1,8-8H192a8,8,0,0,1,8,8Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  </g>
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <path d="M200,224l-72.0074-40L56,224V40a8,8,0,0,1,8-8H192a8,8,0,0,1,8,8Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
 
-</g>)
+</>)
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -68,9 +66,8 @@ const Bookmark = forwardRef<SVGSVGElement, IconProps>(
         xmlns="http://www.w3.org/2000/svg"
         width={size ?? contextSize}
         height={size ?? contextSize}
+        fill={color ?? contextColor}
         viewBox="0 0 256 256"
-        fill="none"
-        stroke="none"
         transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
         {...contextRest}
         {...rest}

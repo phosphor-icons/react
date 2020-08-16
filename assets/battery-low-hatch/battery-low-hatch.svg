@@ -2,9 +2,7 @@
   <line x1="240" y1="96" x2="240" y2="160" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <rect x="44" y="36" width="144" height="184" rx="16" transform="translate(244 12) rotate(90)" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <line x1="68.8" y1="200.00043" x2="68.8" y2="56.00043" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <g>
-    <line x1="23.99994" y1="107.98443" x2="68.80001" y2="63.18436" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-    <line x1="23.99997" y1="163.9844" x2="68.79998" y2="119.1844" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-    <line x1="43.99998" y1="199.98439" x2="68.79998" y2="175.1844" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  </g>
+  <line x1="23.99994" y1="107.98443" x2="68.80001" y2="63.18436" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="23.99997" y1="163.9844" x2="68.79998" y2="119.1844" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="43.99998" y1="199.98439" x2="68.79998" y2="175.1844" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
 </svg>

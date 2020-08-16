@@ -1,0 +1,6 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect x="63.99414" y="40" width="128" height="40" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="63.99414" y="152" width="128" height="72" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M63.99414,176h-40V96c0-8.83656,7.7604-16,17.33333-16H214.66081c9.57293,0,17.33333,7.16344,17.33333,16v80h-40" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <circle cx="187.99414" cy="116" r="12"/>
+</svg>
