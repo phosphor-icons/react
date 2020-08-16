@@ -4,7 +4,7 @@
   "description": "A clean and friendly icon family for React",
   "author": "rektdeckard",
   "license": "GPL-3.0",
-  "repository": "rektdeckard/phosphor-react",
+  "repository": "phosphor-icons/phosphor-react",
   "module": "dist/phosphor-react.esm.js",
   "main": "dist/index.js",
   "sideEffects": false,
