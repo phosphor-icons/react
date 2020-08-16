@@ -4,11 +4,11 @@
 
 A clear, playful, and adaptable icon family for React.
 
-[![NPM](https://img.shields.io/npm/v/phosphor-react.svg?style=flat-square)](https://www.npmjs.com/package/phosphor-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com) [![Travis](https://img.shields.io/travis/com/rektdeckard/phosphor-react.svg?style=flat-square)](https://travis-ci.com/github/rektdeckard/phosphor-react)
+[![NPM](https://img.shields.io/npm/v/phosphor-react.svg?style=flat-square)](https://www.npmjs.com/package/phosphor-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com) [![Travis](https://img.shields.io/travis/com/phosphor-icons/phosphor-react.svg?style=flat-square)](https://travis-ci.com/github/phosphor-icons/phosphor-react)
 
-[![GitHub stars](https://img.shields.io/github/stars/rektdeckard/phosphor-react?style=flat-square&label=Star)](https://github.com/rektdeckard/phosphor-react)
-[![GitHub forks](https://img.shields.io/github/forks/rektdeckard/phosphor-react?style=flat-square&label=Fork)](https://github.com/rektdeckard/phosphor-react/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/rektdeckard/phosphor-react?style=flat-square&label=Watch)](https://github.com/rektdeckard/phosphor-react)
+[![GitHub stars](https://img.shields.io/github/stars/phosphor-icons/phosphor-react?style=flat-square&label=Star)](https://github.com/phosphor-icons/phosphor-react)
+[![GitHub forks](https://img.shields.io/github/forks/phosphor-icons/phosphor-react?style=flat-square&label=Fork)](https://github.com/phosphor-icons/phosphor-react/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/phosphor-icons/phosphor-react?style=flat-square&label=Watch)](https://github.com/phosphor-icons/phosphor-react)
 [![Follow on GitHub](https://img.shields.io/github/followers/rektdeckard?style=flat-square&label=Follow)](https://github.com/rektdeckard)
 
 ## Installation
@@ -72,12 +72,12 @@ const App = () => {
       }}
     >
       <div>
-        <Horse />   {/* I'm lime-green, 32px, and bold! */}
-        <Heart />   {/* Me too! */}
-        <Cube />    {/* Me three :) */}
+        <Horse /> {/* I'm lime-green, 32px, and bold! */}
+        <Heart /> {/* Me too! */}
+        <Cube /> {/* Me three :) */}
       </div>
     </IconContext.Provider>
-  )
+  );
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
@@ -85,7 +85,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 You may create multiple Contexts for styling icons differently in separate regions of an application; icons use the nearest Context above them to determine their style.
 
-**Note:** The `color`, `size`, `weight`, and `mirrored` properties are all *required* props when creating a context.
+**Note:** The `color`, `size`, `weight`, and `mirrored` properties are all _required_ props when creating a context.
 
 <!-- ### Composability -->
 <!-- Icons can be composed with children... -->
@@ -104,4 +104,4 @@ import * as Icon from "phosphor-react";
 
 ## License
 
-GPL-3.0 © [rektdeckard](https://github.com/rektdeckard)
+GPL-3.0 © [phosphor-icons](https://github.com/phosphor-icons)
