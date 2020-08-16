@@ -15,26 +15,25 @@ function readFile(folder, pathname, weight) {
   icons[folder][weight] = file
     .toString("utf-8")
     .replace(/^.*<\?xml.*/g, "")
-    .replace(
-      // `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">`,
-      /<svg.*/g,
-      ""
-    )
+    .replace(/<svg.*/g, "")
+    .replace(/<\/svg>/g, "")
+    .replace(/<rect.*fill="#fff"\/>/g, "") // remove me when bounding rect is fixed
     .replace(/<title.*/g, "")
+    // .replace(/fill="#0+"/g, "fill={color}")
+    .replace(/"#0+"/g, "{color}")
+    // .replace(/stroke="#0+"/g, "stroke={color}")
     .replace(/fill\-rule/g, "fillRule")
-    .replace(/15\.999/g, "16")
-    .replace("</svg>", "")
-    .replace(/fill="#0+"/g, "fill={color}")
-    .replace(/stroke="#0+"/g, "stroke={color}")
     .replace(/stroke-linecap/g, "strokeLinecap")
     .replace(/stroke-linejoin/g, "strokeLinejoin")
-    .replace(/stroke-width/g, "strokeWidth");
+    .replace(/stroke-width/g, "strokeWidth")
+    .replace(/stroke-miterlimit/g, "strokeMiterlimit");
 }
 
 function readFiles() {
   const folders = fs.readdirSync(assetsPath, "utf-8");
 
   folders.forEach(folder => {
+    if (!fs.lstatSync(path.join(assetsPath, folder)).isDirectory()) return;
     icons[folder] = {};
 
     const files = fs.readdirSync(path.join(assetsPath, folder));
@@ -51,7 +50,7 @@ function readFiles() {
         case "fill":
           readFile(folder, filepath, weight);
           break;
-        case "duo":
+        case "duotone":
           readFile(folder, filepath, "duotone");
           break;
         default:
@@ -106,7 +105,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     for (let weight in icon) {
       componentString += `
     case "${weight}":
-      return (${icon[weight]})`;
+      return (<>${icon[weight]}</>)`;
     }
     componentString += `
     default:
@@ -134,9 +133,8 @@ const ${name} = forwardRef<SVGSVGElement, IconProps>(
         xmlns="http://www.w3.org/2000/svg"
         width={size ?? contextSize}
         height={size ?? contextSize}
-        viewBox="0 0 16 16"
-        fill="none"
-        stroke="none"
+        fill={color ?? contextColor}
+        viewBox="0 0 256 256"
         transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
         {...contextRest}
         {...rest}

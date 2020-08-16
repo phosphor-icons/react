@@ -1,6 +1,6 @@
 {
   "name": "phosphor-react",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "description": "A clean and friendly icon family for React",
   "author": "rektdeckard",
   "license": "GPL-3.0",
@@ -32,6 +32,7 @@
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
+    "collate": "node bin/collate.js",
     "assemble": "node bin/assemble.js"
   },
   "peerDependencies": {

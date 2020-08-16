@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>caret-up-circle-raw</title>
-    <g id="caret-up-circle-raw" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Fill-1" points="0 16 16 16 16 0 0 0"></polygon>
-        <path d="M12.2427,3.7573 C9.8997,1.4143 6.1007,1.4143 3.7577,3.7573 C1.4137,6.1003 1.4137,9.8993 3.7577,12.2423 C6.1007,14.5863 9.8997,14.5863 12.2427,12.2423 C14.5857,9.8993 14.5857,6.1003 12.2427,3.7573 Z" id="Stroke-2" stroke="#000000"></path>
-        <polyline id="Stroke-4" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="10.25 9 8 6.5 5.75 9"></polyline>
-    </g>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="none"/>
+  <circle cx="128" cy="128" r="96" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="16"/>
+  <polyline points="164 144 128 104 92 144" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
 </svg>

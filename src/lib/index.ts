@@ -1,7 +1,7 @@
-import { DOMAttributes, SVGAttributes, createContext } from "react";
+import { SVGAttributes, createContext, HTMLAttributes } from "react";
 
 export interface IconProps
-  extends DOMAttributes<SVGSVGElement>,
+  extends HTMLAttributes<SVGSVGElement>,
     SVGAttributes<SVGSVGElement> {
   color?: string;
   size?: string | number;

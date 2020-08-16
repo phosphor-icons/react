@@ -1,0 +1,10 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <path d="M152,199.99219H40a16,16,0,0,1-16-16v-112a16,16,0,0,1,16-16H152v144Z" opacity="0.2"/>
+  <line x1="152" y1="200.00043" x2="152" y2="56.00043" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="240" y1="95.99219" x2="240" y2="159.99219" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <rect x="44" y="35.99219" width="144" height="184" rx="16" transform="translate(243.99219 11.99219) rotate(90)" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="23.99994" y1="107.99225" x2="75.99999" y2="55.9922" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="23.99997" y1="163.99221" x2="131.74159" y2="56.2506" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="43.99998" y1="199.9922" x2="151.99991" y2="91.99228" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="99.99998" y1="199.9922" x2="151.99996" y2="147.99223" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+</svg>
