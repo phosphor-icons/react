@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="none"/>
+  <circle cx="128" cy="128" r="64" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <circle cx="128" cy="24" r="12"/>
+  <circle cx="54.46089" cy="54.46089" r="12"/>
+  <circle cx="24" cy="128" r="12"/>
+  <circle cx="54.46089" cy="201.53911" r="12"/>
+  <circle cx="128" cy="232" r="12"/>
+  <circle cx="201.53911" cy="201.53911" r="12"/>
+  <circle cx="232" cy="128" r="12"/>
+  <circle cx="201.53911" cy="54.46089" r="12"/>
+</svg>

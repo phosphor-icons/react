@@ -16,7 +16,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
 </>)
     case "fill":
       return (<>
-  <path d="M160,228a19.93694,19.93694,0,0,1-14.14209-5.85791l-80-80a19.99977,19.99977,0,0,1,0-28.28418l80-80a19.99994,19.99994,0,0,1,28.28418,28.28418L108.28418,128l65.85791,65.85791A20,20,0,0,1,160,228Z"/>
+  <polyline points="160 208 80 128 160 48" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
 
 </>)
     case "light":
