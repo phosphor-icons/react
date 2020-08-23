@@ -3,9 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const chalk = require("chalk");
 
-const assetsPath = path.join(__dirname, "../assets");
-const outputPath = path.join(__dirname, "../src/icons");
-const indexPath = path.join(__dirname, "../src/index.tsx");
+const { ASSETS_PATH, COMPONENTS_PATH, INDEX_PATH } = require("./index");
 
 const icons = {};
 const weights = ["thin", "light", "regular", "bold", "fill", "duotone"];
@@ -30,15 +28,15 @@ function readFile(folder, pathname, weight) {
 }
 
 function readFiles() {
-  const folders = fs.readdirSync(assetsPath, "utf-8");
+  const folders = fs.readdirSync(ASSETS_PATH, "utf-8");
 
   folders.forEach(folder => {
-    if (!fs.lstatSync(path.join(assetsPath, folder)).isDirectory()) return;
+    if (!fs.lstatSync(path.join(ASSETS_PATH, folder)).isDirectory()) return;
     icons[folder] = {};
 
-    const files = fs.readdirSync(path.join(assetsPath, folder));
+    const files = fs.readdirSync(path.join(ASSETS_PATH, folder));
     files.forEach(filename => {
-      const filepath = path.join(assetsPath, folder, filename);
+      const filepath = path.join(ASSETS_PATH, folder, filename);
       const weight = filename
         .split(".svg")[0]
         .split("-")
@@ -48,10 +46,8 @@ function readFiles() {
         case "light":
         case "bold":
         case "fill":
-          readFile(folder, filepath, weight);
-          break;
         case "duotone":
-          readFile(folder, filepath, "duotone");
+          readFile(folder, filepath, weight);
           break;
         default:
           readFile(folder, filepath, "regular");
@@ -73,8 +69,8 @@ function generateComponents() {
   let passes = 0;
   let fails = 0;
 
-  if (!fs.existsSync(outputPath)) {
-    fs.mkdirSync(outputPath);
+  if (!fs.existsSync(COMPONENTS_PATH)) {
+    fs.mkdirSync(COMPONENTS_PATH);
   }
 
   for (let key in icons) {
@@ -150,9 +146,13 @@ ${name}.displayName = "${name}";
 export default ${name};
 `;
     try {
-      fs.writeFileSync(path.join(outputPath, `${name}.tsx`), componentString, {
-        flag: "w",
-      });
+      fs.writeFileSync(
+        path.join(COMPONENTS_PATH, `${name}.tsx`),
+        componentString,
+        {
+          flag: "w",
+        }
+      );
       console.log(`${chalk.inverse.green(" DONE ")} ${name}`);
       passes += 1;
     } catch (err) {
@@ -191,7 +191,7 @@ export { default as ${name} } from "./icons/${name}";
 `;
   }
   try {
-    fs.writeFileSync(indexPath, indexString, {
+    fs.writeFileSync(INDEX_PATH, indexString, {
       flag: "w",
     });
     console.log(chalk.green("Export success"));

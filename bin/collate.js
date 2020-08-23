@@ -3,11 +3,11 @@ const fs = require("fs");
 const path = require("path");
 const chalk = require("chalk");
 
-const assetsPath = path.join(__dirname, "../assets");
+const { ASSETS_PATH } = require("./index");
 
 function moveToAndCreateFolderIfNeeded(fileName, folderName) {
-  const oldPath = path.join(assetsPath, fileName);
-  const folderPath = path.join(assetsPath, folderName);
+  const oldPath = path.join(ASSETS_PATH, fileName);
+  const folderPath = path.join(ASSETS_PATH, folderName);
   const newPath = path.join(folderPath, fileName);
 
   // Make directory if needed
@@ -54,7 +54,7 @@ function move(oldPath, newPath) {
 }
 
 function collate() {
-  const files = fs.readdirSync(assetsPath, "utf-8");
+  const files = fs.readdirSync(ASSETS_PATH, "utf-8");
 
   files.forEach(file => {
     // Only SVGs!
