@@ -5,59 +5,149 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <g>
-    <polyline points="128 160 80 208 32 160" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-    <polyline points="224 64 80 64 80 208" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  </g>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <g>
+            <polyline
+              points="128 160 80 208 32 160"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="24"
+            />
+            <polyline
+              points="224 64 80 64 80 208"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="24"
+            />
+          </g>
+        </>
+      );
     case "duotone":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <g>
-    <polyline points="128 160 80 208 32 160" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-    <polyline points="224 64 80 64 80 208" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  </g>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <g>
+            <polyline
+              points="128 160 80 208 32 160"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="16"
+            />
+            <polyline
+              points="224 64 80 64 80 208"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="16"
+            />
+          </g>
+        </>
+      );
     case "fill":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <g>
-    <polyline points="128 160 80 208 32 160" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-    <polyline points="224 64 80 64 80 208" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  </g>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <g>
+            <polyline
+              points="128 160 80 208 32 160"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="16"
+            />
+            <polyline
+              points="224 64 80 64 80 208"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="16"
+            />
+          </g>
+        </>
+      );
     case "light":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <g>
-    <polyline points="128 160 80 208 32 160" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-    <polyline points="224 64 80 64 80 208" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  </g>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <g>
+            <polyline
+              points="128 160 80 208 32 160"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="12"
+            />
+            <polyline
+              points="224 64 80 64 80 208"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="12"
+            />
+          </g>
+        </>
+      );
     case "thin":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <g>
-    <polyline points="128 160 80 208 32 160" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-    <polyline points="224 64 80 64 80 208" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  </g>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <g>
+            <polyline
+              points="128 160 80 208 32 160"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="8"
+            />
+            <polyline
+              points="224 64 80 64 80 208"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="8"
+            />
+          </g>
+        </>
+      );
     case "regular":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <g>
-    <polyline points="128 160 80 208 32 160" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-    <polyline points="224 64 80 64 80 208" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  </g>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <g>
+            <polyline
+              points="128 160 80 208 32 160"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="16"
+            />
+            <polyline
+              points="224 64 80 64 80 208"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="16"
+            />
+          </g>
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'

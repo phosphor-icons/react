@@ -5,41 +5,131 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <polyline points="79.833 99.716 31.833 99.716 31.833 51.716" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <path d="M65.7746,190.2254a88,88,0,1,0,0-124.4508L31.83348,99.71573" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-
-</>)
+      return (
+        <>
+          <polyline
+            points="79.833 99.716 31.833 99.716 31.833 51.716"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <path
+            d="M65.7746,190.2254a88,88,0,1,0,0-124.4508L31.83348,99.71573"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+        </>
+      );
     case "duotone":
-      return (<>
-  <polyline points="79.833 99.716 31.833 99.716 31.833 51.716" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M65.7746,190.2254a88,88,0,1,0,0-124.4508L31.83348,99.71573" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <polyline
+            points="79.833 99.716 31.833 99.716 31.833 51.716"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <path
+            d="M65.7746,190.2254a88,88,0,1,0,0-124.4508L31.83348,99.71573"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     case "fill":
-      return (<>
-  <polyline points="79.833 99.716 31.833 99.716 31.833 51.716" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M65.7746,190.2254a88,88,0,1,0,0-124.4508L31.83348,99.71573" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <polyline
+            points="79.833 99.716 31.833 99.716 31.833 51.716"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <path
+            d="M65.7746,190.2254a88,88,0,1,0,0-124.4508L31.83348,99.71573"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     case "light":
-      return (<>
-  <polyline points="79.833 99.716 31.833 99.716 31.833 51.716" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <path d="M65.7746,190.2254a88,88,0,1,0,0-124.4508L31.83348,99.71573" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-
-</>)
+      return (
+        <>
+          <polyline
+            points="79.833 99.716 31.833 99.716 31.833 51.716"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <path
+            d="M65.7746,190.2254a88,88,0,1,0,0-124.4508L31.83348,99.71573"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+        </>
+      );
     case "thin":
-      return (<>
-  <polyline points="79.833 99.716 31.833 99.716 31.833 51.716" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <path d="M65.7746,190.2254a88,88,0,1,0,0-124.4508L31.83348,99.71573" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-
-</>)
+      return (
+        <>
+          <polyline
+            points="79.833 99.716 31.833 99.716 31.833 51.716"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <path
+            d="M65.7746,190.2254a88,88,0,1,0,0-124.4508L31.83348,99.71573"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+        </>
+      );
     case "regular":
-      return (<>
-  <polyline points="79.833 99.716 31.833 99.716 31.833 51.716" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M65.7746,190.2254a88,88,0,1,0,0-124.4508L31.83348,99.71573" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <polyline
+            points="79.833 99.716 31.833 99.716 31.833 51.716"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <path
+            d="M65.7746,190.2254a88,88,0,1,0,0-124.4508L31.83348,99.71573"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'

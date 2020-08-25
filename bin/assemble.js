@@ -17,9 +17,7 @@ function readFile(folder, pathname, weight) {
     .replace(/<\/svg>/g, "")
     .replace(/<rect.*fill="#fff"\/>/g, "") // remove me when bounding rect is fixed
     .replace(/<title.*/g, "")
-    // .replace(/fill="#0+"/g, "fill={color}")
     .replace(/"#0+"/g, "{color}")
-    // .replace(/stroke="#0+"/g, "stroke={color}")
     .replace(/fill\-rule/g, "fillRule")
     .replace(/stroke-linecap/g, "strokeLinecap")
     .replace(/stroke-linejoin/g, "strokeLinejoin")

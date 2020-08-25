@@ -5,60 +5,181 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <polyline points="88 160 120 128 88 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <polyline points="144 160 176 128 144 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <polyline
+            points="88 160 120 128 88 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <polyline
+            points="144 160 176 128 144 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+        </>
+      );
     case "duotone":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="96" opacity="0.2"/>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <g>
-    <polyline points="88 160 120 128 88 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-    <polyline points="144 160 176 128 144 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  </g>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <circle cx="128" cy="128" r="96" opacity="0.2" />
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <g>
+            <polyline
+              points="88 160 120 128 88 96"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="16"
+            />
+            <polyline
+              points="144 160 176 128 144 96"
+              fill="none"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="16"
+            />
+          </g>
+        </>
+      );
     case "fill":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M201.53906,54.46094a103.95314,103.95314,0,1,0,0,147.07812A104.12262,104.12262,0,0,0,201.53906,54.46094Zm-75.88281,79.19531-32,32a7.99915,7.99915,0,0,1-11.3125-11.3125L108.6875,128,82.34375,101.65625a7.99915,7.99915,0,0,1,11.3125-11.3125l32,32A7.99708,7.99708,0,0,1,125.65625,133.65625Zm56,0-32,32a7.99915,7.99915,0,0,1-11.3125-11.3125L164.6875,128l-26.34375-26.34375a7.99915,7.99915,0,0,1,11.3125-11.3125l32,32A7.99708,7.99708,0,0,1,181.65625,133.65625Z"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <rect width="256" height="256" fill="none" />
+          <path d="M201.53906,54.46094a103.95314,103.95314,0,1,0,0,147.07812A104.12262,104.12262,0,0,0,201.53906,54.46094Zm-75.88281,79.19531-32,32a7.99915,7.99915,0,0,1-11.3125-11.3125L108.6875,128,82.34375,101.65625a7.99915,7.99915,0,0,1,11.3125-11.3125l32,32A7.99708,7.99708,0,0,1,125.65625,133.65625Zm56,0-32,32a7.99915,7.99915,0,0,1-11.3125-11.3125L164.6875,128l-26.34375-26.34375a7.99915,7.99915,0,0,1,11.3125-11.3125l32,32A7.99708,7.99708,0,0,1,181.65625,133.65625Z" />
+        </>
+      );
     case "light":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <polyline points="88 160 120 128 88 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <polyline points="144 160 176 128 144 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <polyline
+            points="88 160 120 128 88 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <polyline
+            points="144 160 176 128 144 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+        </>
+      );
     case "thin":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <polyline points="88 160 120 128 88 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <polyline points="144 160 176 128 144 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <polyline
+            points="88 160 120 128 88 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <polyline
+            points="144 160 176 128 144 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+        </>
+      );
     case "regular":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <polyline points="88 160 120 128 88 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <polyline points="144 160 176 128 144 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <polyline
+            points="88 160 120 128 88 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <polyline
+            points="144 160 176 128 144 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
