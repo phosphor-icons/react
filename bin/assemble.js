@@ -110,34 +110,32 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   }
 };
 
-const ${name} = forwardRef<SVGSVGElement, IconProps>(
-  (props, ref) => {
-    const { color, size, weight, mirrored, ...rest } = props;
-    const {
-      color: contextColor,
-      size: contextSize,
-      weight: contextWeight,
-      mirrored: contextMirrored,
-      ...contextRest
-    } = useContext(IconContext);
+const ${name} = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
+  const { color, size, weight, mirrored, ...rest } = props;
+  const {
+    color: contextColor,
+    size: contextSize,
+    weight: contextWeight,
+    mirrored: contextMirrored,
+    ...contextRest
+  } = useContext(IconContext);
 
-    return (
-      <svg
-        ref={ref}
-        xmlns="http://www.w3.org/2000/svg"
-        width={size ?? contextSize}
-        height={size ?? contextSize}
-        fill={color ?? contextColor}
-        viewBox="0 0 256 256"
-        transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
-        {...contextRest}
-        {...rest}
-      >
-        {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
-      </svg>
-    );
-  }
-);
+  return (
+    <svg
+      ref={ref}
+      xmlns="http://www.w3.org/2000/svg"
+      width={size ?? contextSize}
+      height={size ?? contextSize}
+      fill={color ?? contextColor}
+      viewBox="0 0 256 256"
+      transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
+      {...contextRest}
+      {...rest}
+    >
+      {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
+    </svg>
+  ); 
+});
 
 ${name}.displayName = "${name}";
 
@@ -175,8 +173,7 @@ export default ${name};
 function generateExports() {
   let indexString = `\
 /* GENERATED FILE */
-export type { Icon, IconProps } from "./lib";
-export { IconContext } from "./lib";
+export { Icon, IconProps, IconContext } from "./lib";
 
 `;
   for (let key in icons) {

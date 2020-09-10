@@ -1,6 +1,5 @@
 /* GENERATED FILE */
-export type { Icon, IconProps } from "./lib";
-export { IconContext } from "./lib";
+export { Icon, IconProps, IconContext } from "./lib";
 
 export { default as Alarm } from "./icons/Alarm";
 export { default as Android } from "./icons/Android";
