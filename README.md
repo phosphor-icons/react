@@ -74,7 +74,7 @@ const App = () => {
       <div>
         <Horse /> {/* I'm lime-green, 32px, and bold! */}
         <Heart /> {/* Me too! */}
-        <Cube /> {/* Me three :) */}
+        <Cube />  {/* Me three :) */}
       </div>
     </IconContext.Provider>
   );
