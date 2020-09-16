@@ -48,6 +48,7 @@ const App = () => {
             size={32}
             color={color}
             style={{ verticalAlign: "middle" }}
+            weight="fill"
           />{" "}
           from Bub Tub.
         </p>

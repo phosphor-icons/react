@@ -85,7 +85,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 You may create multiple Contexts for styling icons differently in separate regions of an application; icons use the nearest Context above them to determine their style.
 
-**Note:** The `color`, `size`, `weight`, and `mirrored` properties are all _required_ props when creating a context.
+> **Note:** The `color`, `size`, `weight`, and `mirrored` properties are all _required_ props when creating a context.
 
 <!-- ### Composability -->
 <!-- Icons can be composed with children... -->
