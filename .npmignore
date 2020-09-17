@@ -1,0 +1,35 @@
+# dependencies
+node_modules
+
+# builds
+build
+dist
+.cache
+
+# assets
+assets
+
+# tools
+bin
+example
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.github
+.vscode
+.editorconfig
+.eslintignore
+.eslintrc
+.prettierrc
+.travis.yml
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+*.log
