@@ -1,6 +1,5 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <g>
-    <circle cx="128" cy="128" r="96" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-    <path d="M166.65625,118.01562l-48-32A12.00384,12.00384,0,0,0,100,96v64a11.99961,11.99961,0,0,0,18.65625,9.98437l48-32a11.99938,11.99938,0,0,0,0-19.96875Z"/>
-  </g>
+  <circle cx="128" cy="128" r="96" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <polygon points="160 128 112 96 112 160 160 128" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <polygon points="160 128 112 96 112 160 160 128"/>
 </svg>

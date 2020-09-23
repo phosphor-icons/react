@@ -5,311 +5,65 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (
-        <>
-          <rect width="256" height="256" fill="none" />
-          <g>
-            <circle
-              cx="76"
-              cy="76"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="24"
-            />
-            <circle
-              cx="180"
-              cy="76"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="24"
-            />
-          </g>
-          <g>
-            <circle
-              cx="76"
-              cy="180"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="24"
-            />
-            <circle
-              cx="180"
-              cy="180"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="24"
-            />
-          </g>
-        </>
-      );
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <circle cx="76" cy="76" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+  <circle cx="180" cy="76" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+  <circle cx="76" cy="180" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+  <circle cx="180" cy="180" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+
+</>)
     case "duotone":
-      return (
-        <>
-          <rect width="256" height="256" fill="none" />
-          <g opacity="0.2">
-            <circle cx="76" cy="76" r="36" />
-            <circle cx="180" cy="76" r="36" />
-          </g>
-          <g opacity="0.2">
-            <circle cx="76" cy="180" r="36" />
-            <circle cx="180" cy="180" r="36" />
-          </g>
-          <g>
-            <circle
-              cx="76"
-              cy="76"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-            <circle
-              cx="180"
-              cy="76"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-          </g>
-          <g>
-            <circle
-              cx="76"
-              cy="180"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-            <circle
-              cx="180"
-              cy="180"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-          </g>
-        </>
-      );
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <circle cx="76" cy="180" r="36" opacity="0.2"/>
+  <circle cx="76" cy="76" r="36" opacity="0.2"/>
+  <circle cx="180" cy="76" r="36" opacity="0.2"/>
+  <circle cx="180" cy="180" r="36" opacity="0.2"/>
+  <circle cx="76" cy="76" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <circle cx="180" cy="76" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <circle cx="180" cy="180" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <circle cx="76" cy="180" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+
+</>)
     case "fill":
-      return (
-        <>
-          <rect width="256" height="256" fill="none" />
-          <g>
-            <circle
-              cx="76"
-              cy="76"
-              r="36"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-            <circle
-              cx="180"
-              cy="76"
-              r="36"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-          </g>
-          <g>
-            <circle
-              cx="76"
-              cy="180"
-              r="36"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-            <circle
-              cx="180"
-              cy="180"
-              r="36"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-          </g>
-        </>
-      );
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <g>
+    <circle cx="76" cy="76" r="44"/>
+    <circle cx="180" cy="76" r="44"/>
+    <circle cx="76" cy="180" r="44"/>
+    <circle cx="180" cy="180" r="44"/>
+  </g>
+
+</>)
     case "light":
-      return (
-        <>
-          <rect width="256" height="256" fill="none" />
-          <g>
-            <circle
-              cx="76"
-              cy="76"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="12"
-            />
-            <circle
-              cx="180"
-              cy="76"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="12"
-            />
-          </g>
-          <g>
-            <circle
-              cx="76"
-              cy="180"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="12"
-            />
-            <circle
-              cx="180"
-              cy="180"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="12"
-            />
-          </g>
-        </>
-      );
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <circle cx="76" cy="76" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+  <circle cx="180" cy="76" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+  <circle cx="76" cy="180" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+  <circle cx="180" cy="180" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+
+</>)
     case "thin":
-      return (
-        <>
-          <rect width="256" height="256" fill="none" />
-          <g>
-            <circle
-              cx="76"
-              cy="76"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="8"
-            />
-            <circle
-              cx="180"
-              cy="76"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="8"
-            />
-          </g>
-          <g>
-            <circle
-              cx="76"
-              cy="180"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="8"
-            />
-            <circle
-              cx="180"
-              cy="180"
-              r="36"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="8"
-            />
-          </g>
-        </>
-      );
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <circle cx="76" cy="76" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+  <circle cx="180" cy="76" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+  <circle cx="76" cy="180" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+  <circle cx="180" cy="180" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+
+</>)
     case "regular":
-      return (
-        <>
-          <rect width="256" height="256" fill="none" />
-          <g>
-            <g>
-              <circle
-                cx="76"
-                cy="76"
-                r="36"
-                fill="none"
-                stroke={color}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="16"
-              />
-              <circle
-                cx="180"
-                cy="76"
-                r="36"
-                fill="none"
-                stroke={color}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="16"
-              />
-            </g>
-            <g>
-              <circle
-                cx="76"
-                cy="180"
-                r="36"
-                fill="none"
-                stroke={color}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="16"
-              />
-              <circle
-                cx="180"
-                cy="180"
-                r="36"
-                fill="none"
-                stroke={color}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="16"
-              />
-            </g>
-          </g>
-        </>
-      );
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <circle cx="76" cy="76" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <circle cx="180" cy="76" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <circle cx="76" cy="180" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <circle cx="180" cy="180" r="36" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+
+</>)
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -342,7 +96,7 @@ const CirclesFour = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  );
+  ); 
 });
 
 CirclesFour.displayName = "CirclesFour";

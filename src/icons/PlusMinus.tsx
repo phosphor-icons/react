@@ -5,296 +5,55 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (
-        <>
-          <line
-            x1="200"
-            y1="56"
-            x2="56"
-            y2="200"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <line
-            x1="32"
-            y1="80"
-            x2="112"
-            y2="80"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <line
-            x1="72"
-            y1="40"
-            x2="72"
-            y2="120"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <line
-            x1="144"
-            y1="176"
-            x2="224"
-            y2="176"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-        </>
-      );
+      return (<>
+  <line x1="200" y1="56" x2="56" y2="200" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+  <line x1="32" y1="72" x2="112" y2="72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+  <line x1="72" y1="32" x2="72" y2="112" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+  <line x1="144" y1="184" x2="224" y2="184" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+
+</>)
     case "duotone":
-      return (
-        <>
-          <line
-            x1="200"
-            y1="56"
-            x2="56"
-            y2="200"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="32"
-            y1="80"
-            x2="112"
-            y2="80"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="72"
-            y1="40"
-            x2="72"
-            y2="120"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="144"
-            y1="176"
-            x2="224"
-            y2="176"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-        </>
-      );
+      return (<>
+  <line x1="200" y1="56" x2="56" y2="200" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <line x1="32" y1="72" x2="112" y2="72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <line x1="72" y1="32" x2="72" y2="112" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <line x1="144" y1="184" x2="224" y2="184" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+
+</>)
     case "fill":
-      return (
-        <>
-          <line
-            x1="200"
-            y1="56"
-            x2="56"
-            y2="200"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="32"
-            y1="80"
-            x2="112"
-            y2="80"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="72"
-            y1="40"
-            x2="72"
-            y2="120"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="144"
-            y1="176"
-            x2="224"
-            y2="176"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-        </>
-      );
+      return (<>
+  <g>
+    <path d="M205.65674,50.34326a8,8,0,0,0-11.31348,0l-144,144a7.99984,7.99984,0,1,0,11.31348,11.31348l144-144A7.99915,7.99915,0,0,0,205.65674,50.34326Z"/>
+    <path d="M64,112a8,8,0,0,0,16,0V80h32a8,8,0,0,0,0-16H80V32a8,8,0,0,0-16,0V64H32a8,8,0,0,0,0,16H64Z"/>
+    <path d="M224,176H144a8,8,0,0,0,0,16h80a8,8,0,0,0,0-16Z"/>
+  </g>
+
+</>)
     case "light":
-      return (
-        <>
-          <line
-            x1="200"
-            y1="56"
-            x2="56"
-            y2="200"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <line
-            x1="32"
-            y1="80"
-            x2="112"
-            y2="80"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <line
-            x1="72"
-            y1="40"
-            x2="72"
-            y2="120"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <line
-            x1="144"
-            y1="176"
-            x2="224"
-            y2="176"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-        </>
-      );
+      return (<>
+  <line x1="200" y1="56" x2="56" y2="200" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+  <line x1="32" y1="72" x2="112" y2="72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+  <line x1="72" y1="32" x2="72" y2="112" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+  <line x1="144" y1="184" x2="224" y2="184" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+
+</>)
     case "thin":
-      return (
-        <>
-          <line
-            x1="200"
-            y1="56"
-            x2="56"
-            y2="200"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <line
-            x1="32"
-            y1="80"
-            x2="112"
-            y2="80"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <line
-            x1="72"
-            y1="40"
-            x2="72"
-            y2="120"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <line
-            x1="144"
-            y1="176"
-            x2="224"
-            y2="176"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-        </>
-      );
+      return (<>
+  <line x1="200" y1="56" x2="56" y2="200" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+  <line x1="32" y1="72" x2="112" y2="72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+  <line x1="72" y1="32" x2="72" y2="112" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+  <line x1="144" y1="184" x2="224" y2="184" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+
+</>)
     case "regular":
-      return (
-        <>
-          <line
-            x1="200"
-            y1="56"
-            x2="56"
-            y2="200"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="32"
-            y1="80"
-            x2="112"
-            y2="80"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="72"
-            y1="40"
-            x2="72"
-            y2="120"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="144"
-            y1="176"
-            x2="224"
-            y2="176"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-        </>
-      );
+      return (<>
+  <line x1="200" y1="56" x2="56" y2="200" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <line x1="32" y1="72" x2="112" y2="72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <line x1="72" y1="32" x2="72" y2="112" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <line x1="144" y1="184" x2="224" y2="184" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <line x1="144" y1="184" x2="224" y2="184" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+
+</>)
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -327,7 +86,7 @@ const PlusMinus = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  );
+  ); 
 });
 
 PlusMinus.displayName = "PlusMinus";

@@ -1,5 +1,5 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <rect width="256" height="256" fill="none"/>
-  <line x1="128" y1="200" x2="128" y2="232" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
-  <path d="M208,200H48a8,8,0,0,1-8-8V164.94427a8,8,0,0,1,4.42229-7.15542l23.15542-11.5777A8,8,0,0,0,72,139.05573V48a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8v91.05573a8,8,0,0,0,4.42229,7.15542l23.15542,11.5777A8,8,0,0,1,216,164.94427V192A8,8,0,0,1,208,200Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="128" y1="192" x2="128" y2="240" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <path d="M215.02036,182.3046a48.03614,48.03614,0,0,0-20.16513-30.0948,7.99547,7.99547,0,0,1-3.41652-5.8483L180.72054,39.20379A8,8,0,0,0,172.76026,32H83.23974a8,8,0,0,0-7.96028,7.20379L64.56129,146.3615a7.99547,7.99547,0,0,1-3.41652,5.8483,48.03614,48.03614,0,0,0-20.16513,30.0948A8.0279,8.0279,0,0,0,48.804,192H207.196A8.0279,8.0279,0,0,0,215.02036,182.3046Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
 </svg>

@@ -9,7 +9,4 @@
   <circle cx="60" cy="196" r="6"/>
   <circle cx="128" cy="196" r="6"/>
   <circle cx="196" cy="196" r="6"/>
-  <g opacity="0.2">
-    <rect x="-256" width="256" height="256" fill="none"/>
-  </g>
 </svg>

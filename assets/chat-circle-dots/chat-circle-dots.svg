@@ -4,7 +4,4 @@
   <circle cx="128" cy="128" r="12"/>
   <circle cx="80" cy="128" r="12"/>
   <circle cx="176" cy="128" r="12"/>
-  <g opacity="0.2">
-    <rect x="255.99885" width="256" height="256" fill="none"/>
-  </g>
 </svg>

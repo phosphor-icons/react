@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <path d="M224,184v32a8,8,0,0,1-8,8H192a8,8,0,0,1-8-8V184" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M72,184v32a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V184" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="16" y1="96" x2="240" y2="96" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <circle cx="64" cy="132" r="12"/>
+  <circle cx="192" cy="132" r="12"/>
+  <line x1="128" y1="128" x2="128" y2="184" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="160" y1="128" x2="160" y2="184" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="96" y1="128" x2="96" y2="184" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M224,184H32V96.00005l7.01877-49.13142A8,8,0,0,1,46.93836,40H209.06164a8,8,0,0,1,7.91959,6.86863L224,96.00005Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+</svg>

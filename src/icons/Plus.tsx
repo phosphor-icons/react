@@ -5,185 +5,46 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (
-        <>
-          <rect width="256" height="256" fill="none" />
-          <g>
-            <line
-              x1="40"
-              y1="128"
-              x2="216"
-              y2="128"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="24"
-            />
-            <line
-              x1="128"
-              y1="40"
-              x2="128"
-              y2="216"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="24"
-            />
-          </g>
-        </>
-      );
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <line x1="40" y1="128" x2="216" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+  <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+
+</>)
     case "duotone":
-      return (
-        <>
-          <rect width="256" height="256" fill="none" />
-          <g>
-            <line
-              x1="40"
-              y1="128"
-              x2="216"
-              y2="128"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-            <line
-              x1="128"
-              y1="40"
-              x2="128"
-              y2="216"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-          </g>
-        </>
-      );
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <line x1="40" y1="128" x2="216" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+
+</>)
     case "fill":
-      return (
-        <>
-          <rect width="256" height="256" fill="none" />
-          <g>
-            <line
-              x1="40"
-              y1="128"
-              x2="216"
-              y2="128"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-            <line
-              x1="128"
-              y1="40"
-              x2="128"
-              y2="216"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-          </g>
-        </>
-      );
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <path d="M216,120H136V40a8,8,0,0,0-16,0v80H40a8,8,0,0,0,0,16h80v80a8,8,0,0,0,16,0V136h80a8,8,0,0,0,0-16Z"/>
+
+</>)
     case "light":
-      return (
-        <>
-          <rect width="256" height="256" fill="none" />
-          <g>
-            <line
-              x1="40"
-              y1="128"
-              x2="216"
-              y2="128"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="12"
-            />
-            <line
-              x1="128"
-              y1="40"
-              x2="128"
-              y2="216"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="12"
-            />
-          </g>
-        </>
-      );
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <line x1="40" y1="128" x2="216" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+  <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+
+</>)
     case "thin":
-      return (
-        <>
-          <rect width="256" height="256" fill="none" />
-          <g>
-            <line
-              x1="40"
-              y1="128"
-              x2="216"
-              y2="128"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="8"
-            />
-            <line
-              x1="128"
-              y1="40"
-              x2="128"
-              y2="216"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="8"
-            />
-          </g>
-        </>
-      );
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <line x1="40" y1="128" x2="216" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+  <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+
+</>)
     case "regular":
-      return (
-        <>
-          <rect width="256" height="256" fill="none" />
-          <g>
-            <line
-              x1="40"
-              y1="128"
-              x2="216"
-              y2="128"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-            <line
-              x1="128"
-              y1="40"
-              x2="128"
-              y2="216"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-          </g>
-        </>
-      );
+      return (<>
+  <rect width="256" height="256" fill="none"/>
+  <line x1="40" y1="128" x2="216" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+
+</>)
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -216,7 +77,7 @@ const Plus = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  );
+  ); 
 });
 
 Plus.displayName = "Plus";

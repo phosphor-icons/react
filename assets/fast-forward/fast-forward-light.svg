@@ -1,7 +1,8 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <rect width="256" height="256" fill="none"/>
-  <rect width="256" height="256" fill="none"/>
   <circle cx="128" cy="128" r="96" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
-  <path d="M137.32812,123.00781l-48-32A6.00193,6.00193,0,0,0,80,96v64a5.99981,5.99981,0,0,0,9.32812,4.99219l48-32a5.99969,5.99969,0,0,0,0-9.98438Z"/>
-  <path d="M189.32812,123.00781l-48-32A6.00193,6.00193,0,0,0,132,96v64a5.99981,5.99981,0,0,0,9.32812,4.99219l48-32a5.99969,5.99969,0,0,0,0-9.98438Z"/>
+  <polygon points="84 160 132 128 84 96 84 160" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <polygon points="140 160 188 128 140 96 140 160" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <polygon points="84 160 132 128 84 96 84 160"/>
+  <polygon points="140 160 188 128 140 96 140 160"/>
 </svg>

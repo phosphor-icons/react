@@ -1,5 +1,6 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <rect width="256" height="256" fill="none"/>
-  <polygon points="112 239.992 112 143.992 64 143.992 144 15.992 144 111.992 192 111.992 112 239.992" opacity="0.2"/>
-  <polygon points="112 239.992 112 143.992 64 143.992 144 15.992 144 111.992 192 111.992 112 239.992" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" opacity="0.2"/>
+  <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <polygon points="128 503.992 128 415.992 40 415.992 128 263.992 128 351.992 216 351.992 128 503.992" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
 </svg>

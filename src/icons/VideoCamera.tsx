@@ -5,137 +5,42 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (
-        <>
-          <rect
-            x="16"
-            y="56"
-            width="168"
-            height="144"
-            rx="8"
-            strokeWidth="24"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <polygon
-            points="240 176 184 152 184 104 240 80 240 176"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-        </>
-      );
+      return (<>
+  <path d="M24,56H152a32,32,0,0,1,32,32V192a8,8,0,0,1-8,8H48a32,32,0,0,1-32-32V64A8,8,0,0,1,24,56Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+  <polygon points="240 176 184 144 184 112 240 80 240 176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+
+</>)
     case "duotone":
-      return (
-        <>
-          <rect x="16" y="56" width="168" height="144" rx="8" opacity="0.2" />
-          <rect
-            x="16"
-            y="56"
-            width="168"
-            height="144"
-            rx="8"
-            strokeWidth="16"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <polygon
-            points="240 176 184 152 184 104 240 80 240 176"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-        </>
-      );
+      return (<>
+  <path d="M24,56H152a32,32,0,0,1,32,32V192a8,8,0,0,1-8,8H48a32,32,0,0,1-32-32V64A8,8,0,0,1,24,56Z" opacity="0.2"/>
+  <path d="M24,56H152a32,32,0,0,1,32,32V192a8,8,0,0,1-8,8H48a32,32,0,0,1-32-32V64A8,8,0,0,1,24,56Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <polygon points="240 176 184 144 184 112 240 80 240 176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+
+</>)
     case "fill":
-      return (
-        <>
-          <path d="M244.4043,73.32129a8.005,8.005,0,0,0-7.55567-.67481L192,91.86731V64a16.01833,16.01833,0,0,0-16-16H24A16.01833,16.01833,0,0,0,8,64V192a16.01833,16.01833,0,0,0,16,16H176a16.01833,16.01833,0,0,0,16-16V164.13269l44.84863,19.22083A8.00014,8.00014,0,0,0,248,176V80A7.99913,7.99913,0,0,0,244.4043,73.32129Z" />
-        </>
-      );
+      return (<>
+  <path d="M192,98.21436V88a40.04584,40.04584,0,0,0-40-40H24A16.01833,16.01833,0,0,0,8,64V168a40.04584,40.04584,0,0,0,40,40H176a16.01833,16.01833,0,0,0,16-16V98.21436Z"/>
+  <path d="M244.01562,73.08105a8.001,8.001,0,0,0-7.98437-.02734L208,89.07153v77.85694l28.03125,16.01782A8.0003,8.0003,0,0,0,248,176V80A7.99807,7.99807,0,0,0,244.01562,73.08105Z"/>
+
+</>)
     case "light":
-      return (
-        <>
-          <rect
-            x="16"
-            y="56"
-            width="168"
-            height="144"
-            rx="8"
-            strokeWidth="12"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <polygon
-            points="240 176 184 152 184 104 240 80 240 176"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-        </>
-      );
+      return (<>
+  <path d="M24,56H152a32,32,0,0,1,32,32V192a8,8,0,0,1-8,8H48a32,32,0,0,1-32-32V64A8,8,0,0,1,24,56Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+  <polygon points="240 176 184 144 184 112 240 80 240 176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+
+</>)
     case "thin":
-      return (
-        <>
-          <rect
-            x="16"
-            y="56"
-            width="168"
-            height="144"
-            rx="8"
-            strokeWidth="8"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <polygon
-            points="240 176 184 152 184 104 240 80 240 176"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-        </>
-      );
+      return (<>
+  <path d="M24,56H152a32,32,0,0,1,32,32V192a8,8,0,0,1-8,8H48a32,32,0,0,1-32-32V64A8,8,0,0,1,24,56Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+  <polygon points="240 176 184 144 184 112 240 80 240 176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+
+</>)
     case "regular":
-      return (
-        <>
-          <rect
-            x="16"
-            y="56"
-            width="168"
-            height="144"
-            rx="8"
-            strokeWidth="16"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <polygon
-            points="240 176 184 152 184 104 240 80 240 176"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-        </>
-      );
+      return (<>
+  <path d="M24,56H152a32,32,0,0,1,32,32V192a8,8,0,0,1-8,8H48a32,32,0,0,1-32-32V64A8,8,0,0,1,24,56Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <polygon points="240 176 184 144 184 112 240 80 240 176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+
+</>)
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -168,7 +73,7 @@ const VideoCamera = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  );
+  ); 
 });
 
 VideoCamera.displayName = "VideoCamera";

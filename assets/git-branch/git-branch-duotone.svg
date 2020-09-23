@@ -1,0 +1,7 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <circle cx="188" cy="67.99756" r="28" opacity="0.2"/>
+  <circle cx="68" cy="188" r="28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <circle cx="188" cy="67.99756" r="28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <circle cx="68" cy="67.99756" r="28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M68,95.99756v56.00195a24,24,0,0,1,23.99951-24l72.001-.00146a24,24,0,0,0,23.99951-24V95.99756" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+</svg>

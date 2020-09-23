@@ -1,0 +1,6 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="none"/>
+  <path d="M200,40V32A24.0275,24.0275,0,0,0,176,8H80A24.0275,24.0275,0,0,0,56,32v8Z"/>
+  <path d="M56,216v8a24.0275,24.0275,0,0,0,24,24h96a24.0275,24.0275,0,0,0,24-24v-8Z"/>
+  <rect x="56" y="56" width="144" height="144"/>
+</svg>

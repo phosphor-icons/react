@@ -1,9 +1,0 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <path d="M97.6,200.00043v-144L96,56H40A16,16,0,0,0,24,72V184a16,16,0,0,0,16,16H96Z" opacity="0.2"/>
-  <line x1="240" y1="96" x2="240" y2="160" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <rect x="44" y="36" width="144" height="184" rx="16" transform="translate(244 12) rotate(90)" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <line x1="97.6" y1="200.00043" x2="97.6" y2="56.00043" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <line x1="23.99994" y1="107.99225" x2="75.99999" y2="55.9922" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <line x1="23.99997" y1="163.99221" x2="97.60002" y2="90.39217" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <line x1="43.99998" y1="199.9922" x2="97.60004" y2="146.39215" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-</svg>

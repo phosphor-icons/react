@@ -1,4 +1,4 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <line x1="95.92521" y1="232.01233" x2="159.92521" y2="232.01233" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <path d="M48,112a80,80,0,0,1,160,0l-.68782,80.081a8,8,0,0,1-7.99971,7.93129H56.66982a8,8,0,0,1-7.99972-7.93306Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M56,104.02075a72.00006,72.00006,0,0,1,72.54593-71.998C168.24536,32.31709,200,65.2241,200,104.92462v15.09613c0,35.81563,7.514,56.59893,14.1321,67.95814a7.99893,7.99893,0,0,1-6.90073,12.04186H48.76058a7.999,7.999,0,0,1-6.89972-12.04359C48.48245,176.61757,56,155.83456,56,120.02075Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="95.92521" y1="232.02075" x2="159.92521" y2="232.02075" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
 </svg>

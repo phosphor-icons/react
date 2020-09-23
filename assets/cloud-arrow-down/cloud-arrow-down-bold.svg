@@ -1,9 +1,7 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <rect width="256" height="256" fill="none"/>
-  <g>
-    <polyline points="102.059 174.059 136 208 169.941 174.059" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-    <line x1="136" y1="128" x2="136" y2="208" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  </g>
+  <polyline points="102.059 174.059 136 208 169.941 174.059" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="136" y1="128" x2="136" y2="208" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
   <path d="M88,208H72A56,56,0,1,1,85.91924,97.74352" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
   <path d="M80,128a80,80,0,1,1,104.00042,76.33745" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
 </svg>

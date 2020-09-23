@@ -1,8 +1,10 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <rect x="60.11775" y="68.11775" width="135.7645" height="135.7645" transform="translate(-58.67619 130.34315) rotate(-45)" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <polygon points="224 136 128 232 32 136 224 136"/>
-  <line x1="128" y1="40" x2="104" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <line x1="32" y1="136" x2="224" y2="136" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <line x1="223.99414" y1="136.00586" x2="223.99414" y2="200.00586" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <rect x="60.11775" y="68.11775" width="135.7645" height="135.7645" transform="translate(-58.67619 130.34315) rotate(-45)" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <g opacity="0.5">
+    <rect width="256" height="256" fill="none"/>
+  </g>
+  <g>
+    <path d="M233.65723,150.34375a7.99945,7.99945,0,0,0-11.31446,0C221.42969,151.25635,200,172.958,200,196a28,28,0,0,0,56,0C256,172.958,234.57031,151.25635,233.65723,150.34375Z"/>
+    <path d="M55.51465,32.207A8.00018,8.00018,0,0,0,44.2002,43.52051L68.68286,68.00317,79.99658,56.689Z"/>
+    <path d="M220.68652,124A15.89427,15.89427,0,0,0,216,112.68652L131.31348,27.999A16.02162,16.02162,0,0,0,108.68555,28l-28.689,28.689,43.87451,43.87452a16.06775,16.06775,0,1,1-11.31372,11.31421L68.68286,68.00317,16.001,120.68555A15.99888,15.99888,0,0,0,16,143.31348L100.68555,228l.001.001A16.02134,16.02134,0,0,0,123.31445,228L215.999,135.31445A15.895,15.895,0,0,0,220.68652,124Z"/>
+  </g>
 </svg>
