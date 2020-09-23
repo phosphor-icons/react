@@ -67,9 +67,10 @@ function generateComponents() {
   let passes = 0;
   let fails = 0;
 
-  if (!fs.existsSync(COMPONENTS_PATH)) {
-    fs.mkdirSync(COMPONENTS_PATH);
+  if (fs.existsSync(COMPONENTS_PATH)) {
+    fs.rmdirSync(COMPONENTS_PATH, { recursive: true });
   }
+  fs.mkdirSync(COMPONENTS_PATH);
 
   for (let key in icons) {
     const icon = icons[key];
