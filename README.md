@@ -2,7 +2,7 @@
 
 # phosphor-react
 
-A clear, playful, and adaptable icon family for React.
+A clear, playful, and adaptable icon family for React. The complete list of icons can be found on [our website](https://phosphoricons.com).
 
 [![NPM](https://img.shields.io/npm/v/phosphor-react.svg?style=flat-square)](https://www.npmjs.com/package/phosphor-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com) [![Travis](https://img.shields.io/travis/com/rektdeckard/phosphor-react.svg?style=flat-square)](https://travis-ci.com/github/rektdeckard/phosphor-react)
 
@@ -24,6 +24,8 @@ npm install --save phosphor-react
 ```
 
 ## Usage
+
+Simply import the icons you need, and add them anywhere in your render method. Phosphor supports tree-shaking, so your bundle only includes code for the icons you use.
 
 ```tsx
 import React from "react";
@@ -49,7 +51,7 @@ Icon components accept all props that you can pass to a normal SVG element, incl
 
 - **color?**: `string` – Icon stroke/fill color. Can be any CSS color string, including `hex`, `rgb`, `rgba`, `hsl`, `hsla`, named colors, or the special `currentColor` variable.
 - **size?**: `number | string` – Icon height & width. As with standard React elements, this can be a number, or a string with units in `px`, `%`, `em`, `rem`, `pt`, `cm`, `mm`, `in`.
-- **weight?**: `"thin" | "light" | "regular" | "bold" | "fill" | "duotone"` – Icon weight/style. Can be used, for example, to "toggle" an icon's state: a rating component could use Stars with `weight="regular"` to denote an empty star, and `weight="fill"` to denote a filled star.
+- **weight?**: `"thin" | "light" | "regular" | "bold" | "fill" | "duotone"` – Icon weight/style. Can also be used, for example, to "toggle" an icon's state: a rating component could use Stars with `weight="regular"` to denote an empty star, and `weight="fill"` to denote a filled star.
 - **mirrored?**: `boolean` – Flip the icon horizontally. Can be useful in RTL languages where normal icon orientation is not appropriate.
 
 ### Context
@@ -104,4 +106,4 @@ import * as Icon from "phosphor-react";
 
 ## License
 
-GPL-3.0 © [phosphor-icons](https://github.com/phosphor-icons)
+GPL-3.0 © [Phosphor Icons](https://github.com/phosphor-icons)
