@@ -5,36 +5,77 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <polyline points="208 104 128 184 48 104" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-
-</>)
+      return (
+        <>
+          <polyline
+            points="208 96 128 176 48 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+        </>
+      );
     case "duotone":
-      return (<>
-  <polygon points="208 104 128 184 48 104 208 104" opacity="0.2"/>
-  <polygon points="208 104 128 184 48 104 208 104" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <polygon points="208 96 128 176 48 96 208 96" opacity="0.2" />
+          <polygon
+            points="208 96 128 176 48 96 208 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     case "fill":
-      return (<>
-  <path d="M215.39111,100.93848A8.00015,8.00015,0,0,0,208,96H48a8,8,0,0,0-5.65674,13.657l80,79.99976a7.99945,7.99945,0,0,0,11.31348,0l80-79.99976A8.00011,8.00011,0,0,0,215.39111,100.93848Z"/>
-
-</>)
+      return (
+        <>
+          <path d="M215.39111,92.93848A8.00015,8.00015,0,0,0,208,88H48a8,8,0,0,0-5.65674,13.657l80,79.99976a7.99945,7.99945,0,0,0,11.31348,0l80-79.99976A8.00011,8.00011,0,0,0,215.39111,92.93848Z" />
+        </>
+      );
     case "light":
-      return (<>
-  <polyline points="208 104 128 184 48 104" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-
-</>)
+      return (
+        <>
+          <polyline
+            points="208 96 128 176 48 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+        </>
+      );
     case "thin":
-      return (<>
-  <polyline points="208 104 128 184 48 104" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-
-</>)
+      return (
+        <>
+          <polyline
+            points="208 96 128 176 48 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+        </>
+      );
     case "regular":
-      return (<>
-  <polyline points="208 104 128 184 48 104" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <polyline
+            points="208 96 128 176 48 96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -67,7 +108,7 @@ const CaretDown = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  ); 
+  );
 });
 
 CaretDown.displayName = "CaretDown";

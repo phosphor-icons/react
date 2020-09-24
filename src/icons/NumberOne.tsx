@@ -5,41 +5,82 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <polyline points="84.016 63.984 131.98 32 131.98 223.988" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <polyline
+            points="84.016 63.984 131.98 32 131.98 223.988"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+        </>
+      );
     case "duotone":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <polyline points="84.016 63.984 131.98 32 131.98 223.988" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <polyline
+            points="84.016 63.984 131.98 32 131.98 223.988"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     case "fill":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M131.98047,231.9884a8.00016,8.00016,0,0,1-8-8V46.95007L88.4541,70.63977A8.00005,8.00005,0,1,1,79.57715,57.328L127.542,25.344A8.00019,8.00019,0,0,1,139.98047,32V223.9884A8.00016,8.00016,0,0,1,131.98047,231.9884Z"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path d="M131.98047,231.9884a8.00016,8.00016,0,0,1-8-8V46.95007L88.4541,70.63977A8.00005,8.00005,0,1,1,79.57715,57.328L127.542,25.344A8.00019,8.00019,0,0,1,139.98047,32V223.9884A8.00016,8.00016,0,0,1,131.98047,231.9884Z" />
+        </>
+      );
     case "light":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <polyline points="84.016 63.984 131.98 32 131.98 223.988" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <polyline
+            points="84.016 63.984 131.98 32 131.98 223.988"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+        </>
+      );
     case "thin":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <polyline points="84.016 63.984 131.98 32 131.98 223.988" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <polyline
+            points="84.016 63.984 131.98 32 131.98 223.988"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+        </>
+      );
     case "regular":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <polyline points="84.016 63.984 131.98 32 131.98 223.988" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <polyline
+            points="84.016 63.984 131.98 32 131.98 223.988"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -72,7 +113,7 @@ const NumberOne = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  ); 
+  );
 });
 
 NumberOne.displayName = "NumberOne";

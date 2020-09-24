@@ -5,57 +5,101 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M128.00019,223.99219H40a8,8,0,0,1-8-8V127.992a95.99981,95.99981,0,0,1,95.99981-95.99981H128a96,96,0,0,1,96,96v.00019A95.99981,95.99981,0,0,1,128.00019,223.99219Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <circle cx="127.99902" cy="127.99316" r="16"/>
-  <circle cx="79.99902" cy="127.99316" r="16"/>
-  <circle cx="175.99902" cy="127.99316" r="16"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M132.00018,215.99219H47.66667A7.66667,7.66667,0,0,1,40,208.32552V123.992a91.99981,91.99981,0,0,1,91.99982-91.99981H132a92,92,0,0,1,92,92v.00018A91.99982,91.99982,0,0,1,132.00018,215.99219Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <circle cx="131.99902" cy="127.99316" r="16" />
+          <circle cx="83.99902" cy="127.99316" r="16" />
+          <circle cx="179.99902" cy="127.99316" r="16" />
+        </>
+      );
     case "duotone":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M128.00019,223.99219H40a8,8,0,0,1-8-8V127.992a95.99981,95.99981,0,0,1,95.99981-95.99981H128a96,96,0,0,1,96,96v.00019A95.99981,95.99981,0,0,1,128.00019,223.99219Z" opacity="0.2"/>
-  <path d="M128.00019,223.99219H40a8,8,0,0,1-8-8V127.992a95.99981,95.99981,0,0,1,95.99981-95.99981H128a96,96,0,0,1,96,96v.00019A95.99981,95.99981,0,0,1,128.00019,223.99219Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <circle cx="127.99805" cy="127.99316" r="12"/>
-  <circle cx="79.99805" cy="127.99316" r="12"/>
-  <circle cx="175.99805" cy="127.99316" r="12"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M132.00018,215.99219H47.66667A7.66667,7.66667,0,0,1,40,208.32552V123.992a91.99981,91.99981,0,0,1,91.99982-91.99981H132a92,92,0,0,1,92,92v.00018A91.99982,91.99982,0,0,1,132.00018,215.99219Z"
+            opacity="0.2"
+          />
+          <path
+            d="M132.00018,215.99219H47.66667A7.66667,7.66667,0,0,1,40,208.32552V123.992a91.99981,91.99981,0,0,1,91.99982-91.99981H132a92,92,0,0,1,92,92v.00018A91.99982,91.99982,0,0,1,132.00018,215.99219Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle cx="131.99805" cy="127.99316" r="12" />
+          <circle cx="83.99805" cy="127.99316" r="12" />
+          <circle cx="179.99805" cy="127.99316" r="12" />
+        </>
+      );
     case "fill":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M128,23.99219a104.12041,104.12041,0,0,0-104,104v88a16.01583,16.01583,0,0,0,16,16h88a104,104,0,0,0,0-208Zm-48.00195,116.001a12,12,0,1,1,12-12A12.00059,12.00059,0,0,1,79.99805,139.99316Zm48,0a12,12,0,1,1,12-12A12.00059,12.00059,0,0,1,127.99805,139.99316Zm48,0a12,12,0,1,1,12-12A12.00059,12.00059,0,0,1,175.99805,139.99316Z"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path d="M132,23.99219a100.113,100.113,0,0,0-100,100v84.33349a15.68449,15.68449,0,0,0,15.667,15.66651H132a100,100,0,0,0,0-200Zm-48.00195,116.001a12,12,0,1,1,12-12A12,12,0,0,1,83.99805,139.99316Zm48,0a12,12,0,1,1,12-12A12,12,0,0,1,131.99805,139.99316Zm48,0a12,12,0,1,1,12-12A12,12,0,0,1,179.99805,139.99316Z" />
+        </>
+      );
     case "light":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M128.00019,223.99219H40a8,8,0,0,1-8-8V127.992a95.99981,95.99981,0,0,1,95.99981-95.99981H128a96,96,0,0,1,96,96v.00019A95.99981,95.99981,0,0,1,128.00019,223.99219Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <circle cx="127.99951" cy="127.99316" r="9"/>
-  <circle cx="79.99951" cy="127.99316" r="9"/>
-  <circle cx="175.99951" cy="127.99316" r="9"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M132.00018,215.99219H47.66667A7.66667,7.66667,0,0,1,40,208.32552V123.992a91.99981,91.99981,0,0,1,91.99982-91.99981H132a92,92,0,0,1,92,92v.00018A91.99982,91.99982,0,0,1,132.00018,215.99219Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <circle cx="131.99951" cy="127.99316" r="9" />
+          <circle cx="83.99951" cy="127.99316" r="9" />
+          <circle cx="179.99951" cy="127.99316" r="9" />
+        </>
+      );
     case "thin":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M128.00019,223.99219H40a8,8,0,0,1-8-8V127.992a95.99981,95.99981,0,0,1,95.99981-95.99981H128a96,96,0,0,1,96,96v.00019A95.99981,95.99981,0,0,1,128.00019,223.99219Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <circle cx="128" cy="127.99316" r="6"/>
-  <circle cx="80" cy="127.99316" r="6"/>
-  <circle cx="176" cy="127.99316" r="6"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M132.00018,215.99219H47.66667A7.66667,7.66667,0,0,1,40,208.32552V123.992a91.99981,91.99981,0,0,1,91.99982-91.99981H132a92,92,0,0,1,92,92v.00018A91.99982,91.99982,0,0,1,132.00018,215.99219Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <circle cx="132" cy="127.99316" r="6" />
+          <circle cx="84" cy="127.99316" r="6" />
+          <circle cx="180" cy="127.99316" r="6" />
+        </>
+      );
     case "regular":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M128.00019,223.99219H40a8,8,0,0,1-8-8V127.992a95.99981,95.99981,0,0,1,95.99981-95.99981H128a96,96,0,0,1,96,96v.00019A95.99981,95.99981,0,0,1,128.00019,223.99219Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <circle cx="128.00049" cy="127.99316" r="12"/>
-  <circle cx="80.00049" cy="127.99316" r="12"/>
-  <circle cx="176.00049" cy="127.99316" r="12"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M132.00018,215.99219H47.66667A7.66667,7.66667,0,0,1,40,208.32552V123.992a91.99981,91.99981,0,0,1,91.99982-91.99981H132a92,92,0,0,1,92,92v.00018A91.99982,91.99982,0,0,1,132.00018,215.99219Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle cx="132.00049" cy="127.99316" r="12" />
+          <circle cx="84.00049" cy="127.99316" r="12" />
+          <circle cx="180.00049" cy="127.99316" r="12" />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -88,7 +132,7 @@ const ChatTeardropDots = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  ); 
+  );
 });
 
 ChatTeardropDots.displayName = "ChatTeardropDots";

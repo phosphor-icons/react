@@ -5,42 +5,91 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+        </>
+      );
     case "duotone":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="96" opacity="0.2"/>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeMiterlimit="10" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <circle cx="128" cy="128" r="96" opacity="0.2" />
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeMiterlimit="10"
+            strokeWidth="16"
+          />
+        </>
+      );
     case "fill":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="104"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <circle cx="128" cy="128" r="104" />
+        </>
+      );
     case "light":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+        </>
+      );
     case "thin":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+        </>
+      );
     case "regular":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeMiterlimit="10" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeMiterlimit="10"
+            strokeWidth="16"
+          />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -73,7 +122,7 @@ const Circle = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  ); 
+  );
 });
 
 Circle.displayName = "Circle";

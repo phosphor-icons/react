@@ -1,0 +1,7 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <g opacity="0.5">
+    <rect width="256" height="256" fill="none"/>
+  </g>
+  <polyline points="48 208 128 128 208 208" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <polyline points="48 128 128 48 208 128" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+</svg>

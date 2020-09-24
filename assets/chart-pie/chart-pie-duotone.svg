@@ -2,6 +2,5 @@
   <path d="M128,128,44.86156,176l-.01368.00827A96.02522,96.02522,0,0,1,128,32Z" opacity="0.2"/>
   <circle cx="128" cy="128" r="96" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <line x1="128" y1="128" x2="128" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <line x1="128" y1="128" x2="195.88225" y2="60.11775" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <line x1="128" y1="128" x2="44.86156" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="211.13844" y1="80" x2="44.86156" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
 </svg>

@@ -3,5 +3,4 @@
   <circle cx="128" cy="128" r="96" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="16"/>
   <polygon points="108 128 156 96 156 160 108 128" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <line x1="100" y1="96" x2="100" y2="160" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <polygon points="108 128 156 96 156 160 108 128"/>
 </svg>

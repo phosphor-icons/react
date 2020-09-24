@@ -5,42 +5,86 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M224,179.405V76.595a8,8,0,0,0-3.969-6.91023l-88-51.33333a8,8,0,0,0-8.06194,0l-88,51.33333A8,8,0,0,0,32,76.595V179.405a8,8,0,0,0,3.969,6.91023l88,51.33333a8,8,0,0,0,8.06194,0l88-51.33333A8,8,0,0,0,224,179.405Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M220,175.33228V80.66772a8,8,0,0,0-4.06354-6.9645l-84-47.47826a8,8,0,0,0-7.87292,0l-84,47.47826A8,8,0,0,0,36,80.66772v94.66456a8,8,0,0,0,4.06354,6.96451l84,47.47826a8,8,0,0,0,7.87292,0l84-47.47826A8,8,0,0,0,220,175.33228Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+        </>
+      );
     case "duotone":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M224,179.405V76.595a8,8,0,0,0-3.969-6.91023l-88-51.33333a8,8,0,0,0-8.06194,0l-88,51.33333A8,8,0,0,0,32,76.595V179.405a8,8,0,0,0,3.969,6.91023l88,51.33333a8,8,0,0,0,8.06194,0l88-51.33333A8,8,0,0,0,224,179.405Z" opacity="0.2"/>
-  <path d="M224,179.405V76.595a8,8,0,0,0-3.969-6.91023l-88-51.33333a8,8,0,0,0-8.06194,0l-88,51.33333A8,8,0,0,0,32,76.595V179.405a8,8,0,0,0,3.969,6.91023l88,51.33333a8,8,0,0,0,8.06194,0l88-51.33333A8,8,0,0,0,224,179.405Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M220,175.33228V80.66772a8,8,0,0,0-4.06354-6.9645l-84-47.47826a8,8,0,0,0-7.87292,0l-84,47.47826A8,8,0,0,0,36,80.66772v94.66456a8,8,0,0,0,4.06354,6.96451l84,47.47826a8,8,0,0,0,7.87292,0l84-47.47826A8,8,0,0,0,220,175.33228Z"
+            opacity="0.2"
+          />
+          <path
+            d="M220,175.33228V80.66772a8,8,0,0,0-4.06354-6.9645l-84-47.47826a8,8,0,0,0-7.87292,0l-84,47.47826A8,8,0,0,0,36,80.66772v94.66456a8,8,0,0,0,4.06354,6.96451l84,47.47826a8,8,0,0,0,7.87292,0l84-47.47826A8,8,0,0,0,220,175.33228Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     case "fill":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M224.0625,62.77344l-88-51.33594a16.03841,16.03841,0,0,0-16.125.00781L31.95312,62.77344A16.018,16.018,0,0,0,24,76.59375v102.8125a16.03667,16.03667,0,0,0,7.9375,13.82031l88,51.33594a16.02593,16.02593,0,0,0,16.125-.00781l87.98437-51.32813A16.018,16.018,0,0,0,232,179.40625V76.59375A16.03669,16.03669,0,0,0,224.0625,62.77344Z"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path d="M219.87305,66.73828l-84-47.478a16.08654,16.08654,0,0,0-15.7461,0l-84,47.47852A16.0255,16.0255,0,0,0,28,80.668V175.332a16.02688,16.02688,0,0,0,8.127,13.92969l84,47.478a16.08782,16.08782,0,0,0,15.7461,0l84-47.47852A16.0255,16.0255,0,0,0,228,175.332V80.668A16.02688,16.02688,0,0,0,219.87305,66.73828Z" />
+        </>
+      );
     case "light":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M224,179.405V76.595a8,8,0,0,0-3.969-6.91023l-88-51.33333a8,8,0,0,0-8.06194,0l-88,51.33333A8,8,0,0,0,32,76.595V179.405a8,8,0,0,0,3.969,6.91023l88,51.33333a8,8,0,0,0,8.06194,0l88-51.33333A8,8,0,0,0,224,179.405Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M220,175.33228V80.66772a8,8,0,0,0-4.06354-6.9645l-84-47.47826a8,8,0,0,0-7.87292,0l-84,47.47826A8,8,0,0,0,36,80.66772v94.66456a8,8,0,0,0,4.06354,6.96451l84,47.47826a8,8,0,0,0,7.87292,0l84-47.47826A8,8,0,0,0,220,175.33228Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+        </>
+      );
     case "thin":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M224,179.405V76.595a8,8,0,0,0-3.969-6.91023l-88-51.33333a8,8,0,0,0-8.06194,0l-88,51.33333A8,8,0,0,0,32,76.595V179.405a8,8,0,0,0,3.969,6.91023l88,51.33333a8,8,0,0,0,8.06194,0l88-51.33333A8,8,0,0,0,224,179.405Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M220,175.33228V80.66772a8,8,0,0,0-4.06354-6.9645l-84-47.47826a8,8,0,0,0-7.87292,0l-84,47.47826A8,8,0,0,0,36,80.66772v94.66456a8,8,0,0,0,4.06354,6.96451l84,47.47826a8,8,0,0,0,7.87292,0l84-47.47826A8,8,0,0,0,220,175.33228Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+        </>
+      );
     case "regular":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M224,179.405V76.595a8,8,0,0,0-3.969-6.91023l-88-51.33333a8,8,0,0,0-8.06194,0l-88,51.33333A8,8,0,0,0,32,76.595V179.405a8,8,0,0,0,3.969,6.91023l88,51.33333a8,8,0,0,0,8.06194,0l88-51.33333A8,8,0,0,0,224,179.405Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M220,175.33228V80.66772a8,8,0,0,0-4.06354-6.9645l-84-47.47826a8,8,0,0,0-7.87292,0l-84,47.47826A8,8,0,0,0,36,80.66772v94.66456a8,8,0,0,0,4.06354,6.96451l84,47.47826a8,8,0,0,0,7.87292,0l84-47.47826A8,8,0,0,0,220,175.33228Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -73,7 +117,7 @@ const Hexagon = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  ); 
+  );
 });
 
 Hexagon.displayName = "Hexagon";

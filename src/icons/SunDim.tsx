@@ -5,90 +5,543 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <circle cx="128" cy="128" r="64" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="128" y1="32" x2="128" y2="24" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="60.11775" y1="60.11775" x2="54.46089" y2="54.46089" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="32" y1="128" x2="24" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="60.11775" y1="195.88225" x2="54.46089" y2="201.53911" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="128" y1="224" x2="128" y2="232" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="195.88225" y1="195.88225" x2="201.53911" y2="201.53911" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="224" y1="128" x2="232" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="195.88225" y1="60.11775" x2="201.53911" y2="54.46089" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <rect width="256" height="256" fill="none"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="60"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="128"
+            y1="36"
+            x2="128"
+            y2="28"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="62.94618"
+            y1="62.94618"
+            x2="57.28932"
+            y2="57.28932"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="36"
+            y1="128"
+            x2="28"
+            y2="128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="62.94618"
+            y1="193.05382"
+            x2="57.28932"
+            y2="198.71068"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="128"
+            y1="220"
+            x2="128"
+            y2="228"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="193.05382"
+            y1="193.05382"
+            x2="198.71068"
+            y2="198.71068"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="220"
+            y1="128"
+            x2="228"
+            y2="128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="193.05382"
+            y1="62.94618"
+            x2="198.71068"
+            y2="57.28932"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+        </>
+      );
     case "duotone":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="64" opacity="0.2"/>
-  <circle cx="128" cy="128" r="64" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="128" y1="32" x2="128" y2="24" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="60.11775" y1="60.11775" x2="54.46089" y2="54.46089" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="32" y1="128" x2="24" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="60.11775" y1="195.88225" x2="54.46089" y2="201.53911" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="128" y1="224" x2="128" y2="232" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="195.88225" y1="195.88225" x2="201.53911" y2="201.53911" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="224" y1="128" x2="232" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="195.88225" y1="60.11775" x2="201.53911" y2="54.46089" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <circle cx="128" cy="128" r="60" opacity="0.2" />
+          <circle
+            cx="128"
+            cy="128"
+            r="60"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="128"
+            y1="36"
+            x2="128"
+            y2="28"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="62.94618"
+            y1="62.94618"
+            x2="57.28932"
+            y2="57.28932"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="36"
+            y1="128"
+            x2="28"
+            y2="128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="62.94618"
+            y1="193.05382"
+            x2="57.28932"
+            y2="198.71068"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="128"
+            y1="220"
+            x2="128"
+            y2="228"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="193.05382"
+            y1="193.05382"
+            x2="198.71068"
+            y2="198.71068"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="220"
+            y1="128"
+            x2="228"
+            y2="128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="193.05382"
+            y1="62.94618"
+            x2="198.71068"
+            y2="57.28932"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     case "fill":
-      return (<>
-  <circle cx="128" cy="128" r="72"/>
-  <path d="M128,40a7.99993,7.99993,0,0,0,8-8V24a8,8,0,0,0-16,0v8A7.99993,7.99993,0,0,0,128,40Z"/>
-  <path d="M54.46094,65.77441A7.99983,7.99983,0,1,0,65.77441,54.46094L60.11768,48.8042A7.99984,7.99984,0,0,0,48.8042,60.11768Z"/>
-  <path d="M32,120H24a8,8,0,0,0,0,16h8a8,8,0,0,0,0-16Z"/>
-  <path d="M54.46094,190.22559l-5.65674,5.65673A7.99984,7.99984,0,1,0,60.11768,207.1958l5.65673-5.65674a7.99983,7.99983,0,1,0-11.31347-11.31347Z"/>
-  <path d="M128,216a7.99977,7.99977,0,0,0-8,8v8a8,8,0,0,0,16,0v-8A7.99977,7.99977,0,0,0,128,216Z"/>
-  <path d="M201.53906,190.22559a7.99983,7.99983,0,0,0-11.31347,11.31347l5.65673,5.65674a7.99984,7.99984,0,1,0,11.31348-11.31348Z"/>
-  <path d="M232,120h-8a8,8,0,0,0,0,16h8a8,8,0,0,0,0-16Z"/>
-  <path d="M195.88232,48.8042l-5.65673,5.65674a7.99983,7.99983,0,1,0,11.31347,11.31347l5.65674-5.65673A7.99984,7.99984,0,1,0,195.88232,48.8042Z"/>
-  <rect width="256" height="256" fill="none"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <g>
+            <circle cx="128" cy="128" r="68" />
+            <path d="M128,44a7.99993,7.99993,0,0,0,8-8V28a8,8,0,0,0-16,0v8A7.99993,7.99993,0,0,0,128,44Z" />
+            <path d="M57.28906,68.603A8,8,0,1,0,68.603,57.28955l-5.65674-5.657A7.99983,7.99983,0,1,0,51.63281,62.946Z" />
+            <path d="M36,120H28a8,8,0,0,0,0,16h8a8,8,0,0,0,0-16Z" />
+            <path d="M57.28955,187.397l-5.65674,5.65674a7.99984,7.99984,0,1,0,11.31348,11.31348l5.65674-5.65674A7.99984,7.99984,0,0,0,57.28955,187.397Z" />
+            <path d="M128,212a7.99977,7.99977,0,0,0-8,8v8a8,8,0,0,0,16,0v-8A7.99977,7.99977,0,0,0,128,212Z" />
+            <path d="M198.71045,187.397A7.99984,7.99984,0,0,0,187.397,198.71045l5.65674,5.65674a7.99984,7.99984,0,0,0,11.31348-11.31348Z" />
+            <path d="M228,120h-8a8,8,0,0,0,0,16h8a8,8,0,0,0,0-16Z" />
+            <path d="M193.05371,70.94629a7.977,7.977,0,0,0,5.65723-2.34326l5.65625-5.657a7.99983,7.99983,0,1,0-11.31348-11.31347l-5.65674,5.657a7.99988,7.99988,0,0,0,5.65674,13.65674Z" />
+          </g>
+        </>
+      );
     case "light":
-      return (<>
-  <circle cx="128" cy="128" r="64" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="128" y1="32" x2="128" y2="24" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="60.11775" y1="60.11775" x2="54.46089" y2="54.46089" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="32" y1="128" x2="24" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="60.11775" y1="195.88225" x2="54.46089" y2="201.53911" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="128" y1="224" x2="128" y2="232" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="195.88225" y1="195.88225" x2="201.53911" y2="201.53911" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="224" y1="128" x2="232" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="195.88225" y1="60.11775" x2="201.53911" y2="54.46089" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <rect width="256" height="256" fill="none"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="60"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="128"
+            y1="36"
+            x2="128"
+            y2="28"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="62.94618"
+            y1="62.94618"
+            x2="57.28932"
+            y2="57.28932"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="36"
+            y1="128"
+            x2="28"
+            y2="128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="62.94618"
+            y1="193.05382"
+            x2="57.28932"
+            y2="198.71068"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="128"
+            y1="220"
+            x2="128"
+            y2="228"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="193.05382"
+            y1="193.05382"
+            x2="198.71068"
+            y2="198.71068"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="220"
+            y1="128"
+            x2="228"
+            y2="128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="193.05382"
+            y1="62.94618"
+            x2="198.71068"
+            y2="57.28932"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+        </>
+      );
     case "thin":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="64" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="128" y1="32" x2="128" y2="24" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="60.11775" y1="60.11775" x2="54.46089" y2="54.46089" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="32" y1="128" x2="24" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="60.11775" y1="195.88225" x2="54.46089" y2="201.53911" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="128" y1="224" x2="128" y2="232" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="195.88225" y1="195.88225" x2="201.53911" y2="201.53911" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="224" y1="128" x2="232" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="195.88225" y1="60.11775" x2="201.53911" y2="54.46089" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="60"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="128"
+            y1="36"
+            x2="128"
+            y2="28"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="62.94618"
+            y1="62.94618"
+            x2="57.28932"
+            y2="57.28932"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="36"
+            y1="128"
+            x2="28"
+            y2="128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="62.94618"
+            y1="193.05382"
+            x2="57.28932"
+            y2="198.71068"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="128"
+            y1="220"
+            x2="128"
+            y2="228"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="193.05382"
+            y1="193.05382"
+            x2="198.71068"
+            y2="198.71068"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="220"
+            y1="128"
+            x2="228"
+            y2="128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="193.05382"
+            y1="62.94618"
+            x2="198.71068"
+            y2="57.28932"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+        </>
+      );
     case "regular":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <circle cx="128" cy="128" r="64" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="128" y1="32" x2="128" y2="24" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="60.11775" y1="60.11775" x2="54.46089" y2="54.46089" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="32" y1="128" x2="24" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="60.11775" y1="195.88225" x2="54.46089" y2="201.53911" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="128" y1="224" x2="128" y2="232" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="195.88225" y1="195.88225" x2="201.53911" y2="201.53911" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="224" y1="128" x2="232" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="195.88225" y1="60.11775" x2="201.53911" y2="54.46089" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <circle
+            cx="128"
+            cy="128"
+            r="60"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="128"
+            y1="36"
+            x2="128"
+            y2="28"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="62.94618"
+            y1="62.94618"
+            x2="57.28932"
+            y2="57.28932"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="36"
+            y1="128"
+            x2="28"
+            y2="128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="62.94618"
+            y1="193.05382"
+            x2="57.28932"
+            y2="198.71068"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="128"
+            y1="220"
+            x2="128"
+            y2="228"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="193.05382"
+            y1="193.05382"
+            x2="198.71068"
+            y2="198.71068"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="220"
+            y1="128"
+            x2="228"
+            y2="128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="193.05382"
+            y1="62.94618"
+            x2="198.71068"
+            y2="57.28932"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -121,7 +574,7 @@ const SunDim = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  ); 
+  );
 });
 
 SunDim.displayName = "SunDim";

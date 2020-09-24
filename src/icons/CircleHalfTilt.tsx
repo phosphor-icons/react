@@ -5,41 +5,145 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="195.88225" y1="60.11775" x2="60.11775" y2="195.88225" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-
-</>)
+      return (
+        <>
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="195.88225"
+            y1="60.11775"
+            x2="60.11775"
+            y2="195.88225"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+        </>
+      );
     case "duotone":
-      return (<>
-  <path d="M195.88225,60.11775a96,96,0,0,1-135.7645,135.7645" opacity="0.2"/>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="195.88225" y1="60.11775" x2="60.11775" y2="195.88225" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <path
+            d="M195.88225,60.11775a96,96,0,0,1-135.7645,135.7645"
+            opacity="0.2"
+          />
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="195.88225"
+            y1="60.11775"
+            x2="60.11775"
+            y2="195.88225"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     case "fill":
-      return (<>
-  <path d="M201.53906,54.46094A103.99994,103.99994,0,1,0,54.46094,201.53906,103.99994,103.99994,0,1,0,201.53906,54.46094ZM65.77539,65.77441a88.08476,88.08476,0,0,1,118.52368-5.38794L60.38086,184.30579A87.98425,87.98425,0,0,1,65.77539,65.77441Z"/>
-
-</>)
+      return (
+        <>
+          <path d="M201.53906,54.46094A103.99994,103.99994,0,1,0,54.46094,201.53906,103.99994,103.99994,0,1,0,201.53906,54.46094ZM65.77539,65.77441a88.08476,88.08476,0,0,1,118.52368-5.38794L60.38086,184.30579A87.98425,87.98425,0,0,1,65.77539,65.77441Z" />
+        </>
+      );
     case "light":
-      return (<>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="195.88225" y1="60.11775" x2="60.11775" y2="195.88225" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-
-</>)
+      return (
+        <>
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="195.88225"
+            y1="60.11775"
+            x2="60.11775"
+            y2="195.88225"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+        </>
+      );
     case "thin":
-      return (<>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="195.88225" y1="60.11775" x2="60.11775" y2="195.88225" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-
-</>)
+      return (
+        <>
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="195.88225"
+            y1="60.11775"
+            x2="60.11775"
+            y2="195.88225"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+        </>
+      );
     case "regular":
-      return (<>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="195.88225" y1="60.11775" x2="60.11775" y2="195.88225" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="195.88225"
+            y1="60.11775"
+            x2="60.11775"
+            y2="195.88225"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -72,7 +176,7 @@ const CircleHalfTilt = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  ); 
+  );
 });
 
 CircleHalfTilt.displayName = "CircleHalfTilt";

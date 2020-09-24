@@ -5,41 +5,135 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <polygon points="40.002 40 104.002 216 136.002 136 216.002 104 40.002 40" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="136.00244" y1="136" x2="200.00244" y2="200" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-
-</>)
+      return (
+        <>
+          <path
+            d="M38.18466,48.47939l58.21413,155.2377a8,8,0,0,0,15.009-.075L134.729,139.50856a8,8,0,0,1,4.78441-4.7844l64.13348-23.32127a8,8,0,0,0,.07505-15.009L48.48428,38.17977A8,8,0,0,0,38.18466,48.47939Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="136.59053"
+            y1="136.58564"
+            x2="208.00488"
+            y2="208"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+        </>
+      );
     case "duotone":
-      return (<>
-  <polygon points="40.002 40 104.002 216 136.002 136 216.002 104 40.002 40" opacity="0.2"/>
-  <polygon points="40.002 40 104.002 216 136.002 136 216.002 104 40.002 40" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="136.00244" y1="136" x2="200.00244" y2="200" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <path
+            d="M38.18466,48.47939l58.21413,155.2377a8,8,0,0,0,15.009-.075L134.729,139.50856a8,8,0,0,1,4.78441-4.7844l64.13348-23.32127a8,8,0,0,0,.07505-15.009L48.48428,38.17977A8,8,0,0,0,38.18466,48.47939Z"
+            opacity="0.2"
+          />
+          <path
+            d="M38.18466,48.47939l58.21413,155.2377a8,8,0,0,0,15.009-.075L134.729,139.50856a8,8,0,0,1,4.78441-4.7844l64.13348-23.32127a8,8,0,0,0,.07505-15.009L48.48428,38.17977A8,8,0,0,0,38.18466,48.47939Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="136.59053"
+            y1="136.58564"
+            x2="208.00488"
+            y2="208"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     case "fill":
-      return (<>
-  <path d="M218.73682,96.48145l-176-64A8.00005,8.00005,0,0,0,32.48389,42.73389l64,176a8.00052,8.00052,0,0,0,7.3916,5.26513c.043.001.085.001.12793.001a7.99926,7.99926,0,0,0,7.42676-5.02881l27.49414-68.73535,55.42089,55.42139a8.00053,8.00053,0,0,0,11.31446-11.31446l-55.42139-55.42089,68.73486-27.49415a8.00007,8.00007,0,0,0-.23632-14.94628Z"/>
-
-</>)
+      return (
+        <>
+          <path d="M150.54443,139.22559l55.83594-20.30469a15.99964,15.99964,0,0,0,.15039-30.01758L51.29346,30.68945A15.99937,15.99937,0,0,0,30.69482,51.28906v-.00049L88.90869,206.52588a15.85524,15.85524,0,0,0,14.97656,10.38232h.084a15.86,15.86,0,0,0,14.957-10.53222L139.23047,150.54l63.11767,63.11719a8.00053,8.00053,0,0,0,11.31446-11.31446Z" />
+        </>
+      );
     case "light":
-      return (<>
-  <polygon points="40.002 40 104.002 216 136.002 136 216.002 104 40.002 40" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="136.00244" y1="136" x2="200.00244" y2="200" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-
-</>)
+      return (
+        <>
+          <path
+            d="M38.18466,48.47939l58.21413,155.2377a8,8,0,0,0,15.009-.075L134.729,139.50856a8,8,0,0,1,4.78441-4.7844l64.13348-23.32127a8,8,0,0,0,.07505-15.009L48.48428,38.17977A8,8,0,0,0,38.18466,48.47939Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="136.59053"
+            y1="136.58564"
+            x2="208.00488"
+            y2="208"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+        </>
+      );
     case "thin":
-      return (<>
-  <polygon points="40.002 40 104.002 216 136.002 136 216.002 104 40.002 40" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="136.00244" y1="136" x2="200.00244" y2="200" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-
-</>)
+      return (
+        <>
+          <path
+            d="M38.18466,48.47939l58.21413,155.2377a8,8,0,0,0,15.009-.075L134.729,139.50856a8,8,0,0,1,4.78441-4.7844l64.13348-23.32127a8,8,0,0,0,.07505-15.009L48.48428,38.17977A8,8,0,0,0,38.18466,48.47939Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="136.59053"
+            y1="136.58564"
+            x2="208.00488"
+            y2="208"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+        </>
+      );
     case "regular":
-      return (<>
-  <polygon points="40.002 40 104.002 216 136.002 136 216.002 104 40.002 40" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="136.00244" y1="136" x2="200.00244" y2="200" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <path
+            d="M38.18466,48.47939l58.21413,155.2377a8,8,0,0,0,15.009-.075L134.729,139.50856a8,8,0,0,1,4.78441-4.7844l64.13348-23.32127a8,8,0,0,0,.07505-15.009L48.48428,38.17977A8,8,0,0,0,38.18466,48.47939Z"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="136.59053"
+            y1="136.58564"
+            x2="208.00488"
+            y2="208"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -72,7 +166,7 @@ const Cursor = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  ); 
+  );
 });
 
 Cursor.displayName = "Cursor";

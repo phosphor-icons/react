@@ -1,6 +1,9 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <path d="M224,96V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V96Z" opacity="0.2"/>
-  <rect x="32" y="48" width="192" height="160" rx="8" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <line x1="32" y1="96" x2="224" y2="96" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <line x1="63.99414" y1="176" x2="111.99414" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <g opacity="0.2">
+    <path d="M23.99414,96.85228h208L232,192a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8Z"/>
+  </g>
+  <rect x="24" y="56" width="208" height="144" rx="8" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="167.99414" y1="168" x2="199.99414" y2="168" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="119.99414" y1="168" x2="135.99414" y2="168" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="23.99414" y1="96.85228" x2="231.99412" y2="96.85228" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
 </svg>

@@ -5,41 +5,82 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+        </>
+      );
     case "duotone":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     case "fill":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M120.00586,232A63.58111,63.58111,0,0,1,74.751,213.25464a8.00018,8.00018,0,1,1,11.31445-11.31348A48,48,0,1,0,120.00586,120a7.99983,7.99983,0,0,1-6.55469-12.58643l47.18164-67.42919H79.99414a8,8,0,0,1,0-16h96a7.99982,7.99982,0,0,1,6.55469,12.58642l-48.28906,69.0127A64.01232,64.01232,0,0,1,120.00586,232Z"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path d="M120.00586,232A63.58111,63.58111,0,0,1,74.751,213.25464a8.00018,8.00018,0,1,1,11.31445-11.31348A48,48,0,1,0,120.00586,120a7.99983,7.99983,0,0,1-6.55469-12.58643l47.18164-67.42919H79.99414a8,8,0,0,1,0-16h96a7.99982,7.99982,0,0,1,6.55469,12.58642l-48.28906,69.0127A64.01232,64.01232,0,0,1,120.00586,232Z" />
+        </>
+      );
     case "light":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+        </>
+      );
     case "thin":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+        </>
+      );
     case "regular":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <path
+            d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -72,7 +113,7 @@ const NumberThree = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  ); 
+  );
 });
 
 NumberThree.displayName = "NumberThree";

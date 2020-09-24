@@ -5,51 +5,267 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <line x1="228" y1="216" x2="28" y2="216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <rect x="8" y="124" width="128" height="56" transform="translate(-80 224) rotate(-90)" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="40" y="100" width="176" height="56" transform="translate(0 256) rotate(-90)" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="136" y="140" width="96" height="56" transform="translate(16 352) rotate(-90)" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-
-</>)
+      return (
+        <>
+          <line
+            x1="228"
+            y1="208"
+            x2="28"
+            y2="208"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <rect
+            x="68"
+            y="120"
+            width="120"
+            height="56"
+            transform="translate(-20 276) rotate(-90)"
+            strokeWidth="24"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="156"
+            y="40"
+            width="56"
+            height="168"
+            strokeWidth="24"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="36"
+            y="144"
+            width="72"
+            height="56"
+            transform="translate(-100 244) rotate(-90)"
+            strokeWidth="24"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+        </>
+      );
     case "duotone":
-      return (<>
-  <rect x="40" y="100" width="176" height="56" transform="translate(0 256) rotate(-90)" opacity="0.2"/>
-  <line x1="228" y1="216" x2="28" y2="216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <rect x="8" y="124" width="128" height="56" transform="translate(-80 224) rotate(-90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="40" y="100" width="176" height="56" transform="translate(0 256) rotate(-90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="136" y="140" width="96" height="56" transform="translate(16 352) rotate(-90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-
-</>)
+      return (
+        <>
+          <rect x="156" y="40" width="56" height="168" opacity="0.2" />
+          <line
+            x1="228"
+            y1="208"
+            x2="28"
+            y2="208"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <rect
+            x="68"
+            y="120"
+            width="120"
+            height="56"
+            transform="translate(-20 276) rotate(-90)"
+            strokeWidth="16"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="156"
+            y="40"
+            width="56"
+            height="168"
+            strokeWidth="16"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="36"
+            y="144"
+            width="72"
+            height="56"
+            transform="translate(-100 244) rotate(-90)"
+            strokeWidth="16"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+        </>
+      );
     case "fill":
-      return (<>
-  <path d="M156,40a8.00008,8.00008,0,0,0-8-8H108a8.00008,8.00008,0,0,0-8,8V208H84V80H44a8.00008,8.00008,0,0,0-8,8V208H28a8,8,0,0,0,0,16H228a8,8,0,0,0,0-16h-8V120a8.00008,8.00008,0,0,0-8-8H172v96H156Z"/>
-
-</>)
+      return (
+        <>
+          <path d="M228,200h-8V40a8.00008,8.00008,0,0,0-8-8H164a8.00008,8.00008,0,0,0-8,8V200H140V80H104a7.99993,7.99993,0,0,0-8,8V200H80V128H44a7.99993,7.99993,0,0,0-8,8v64H28a8,8,0,0,0,0,16H228a8,8,0,0,0,0-16Z" />
+        </>
+      );
     case "light":
-      return (<>
-  <line x1="228" y1="216" x2="28" y2="216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <rect x="8" y="124" width="128" height="56" transform="translate(-80 224) rotate(-90)" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="40" y="100" width="176" height="56" transform="translate(0 256) rotate(-90)" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="136" y="140" width="96" height="56" transform="translate(16 352) rotate(-90)" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-
-</>)
+      return (
+        <>
+          <line
+            x1="228"
+            y1="208"
+            x2="28"
+            y2="208"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <rect
+            x="68"
+            y="120"
+            width="120"
+            height="56"
+            transform="translate(-20 276) rotate(-90)"
+            strokeWidth="12"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="156"
+            y="40"
+            width="56"
+            height="168"
+            strokeWidth="12"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="36"
+            y="144"
+            width="72"
+            height="56"
+            transform="translate(-100 244) rotate(-90)"
+            strokeWidth="12"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+        </>
+      );
     case "thin":
-      return (<>
-  <line x1="228" y1="216" x2="28" y2="216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <rect x="8" y="124" width="128" height="56" transform="translate(-80 224) rotate(-90)" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="40" y="100" width="176" height="56" transform="translate(0 256) rotate(-90)" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="136" y="140" width="96" height="56" transform="translate(16 352) rotate(-90)" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-
-</>)
+      return (
+        <>
+          <line
+            x1="228"
+            y1="208"
+            x2="28"
+            y2="208"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <rect
+            x="68"
+            y="120"
+            width="120"
+            height="56"
+            transform="translate(-20 276) rotate(-90)"
+            strokeWidth="8"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="156"
+            y="40"
+            width="56"
+            height="168"
+            strokeWidth="8"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="36"
+            y="144"
+            width="72"
+            height="56"
+            transform="translate(-100 244) rotate(-90)"
+            strokeWidth="8"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+        </>
+      );
     case "regular":
-      return (<>
-  <line x1="228" y1="216" x2="28" y2="216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <rect x="8" y="124" width="128" height="56" transform="translate(-80 224) rotate(-90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="40" y="100" width="176" height="56" transform="translate(0 256) rotate(-90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="136" y="140" width="96" height="56" transform="translate(16 352) rotate(-90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-
-</>)
+      return (
+        <>
+          <line
+            x1="228"
+            y1="208"
+            x2="28"
+            y2="208"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <rect
+            x="68"
+            y="120"
+            width="120"
+            height="56"
+            transform="translate(-20 276) rotate(-90)"
+            strokeWidth="16"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="156"
+            y="40"
+            width="56"
+            height="168"
+            strokeWidth="16"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="36"
+            y="144"
+            width="72"
+            height="56"
+            transform="translate(-100 244) rotate(-90)"
+            strokeWidth="16"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -82,7 +298,7 @@ const ChartBar = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  ); 
+  );
 });
 
 ChartBar.displayName = "ChartBar";

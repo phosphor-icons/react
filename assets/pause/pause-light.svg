@@ -1,4 +1,4 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <rect x="152" y="40" width="48" height="176" rx="8" stroke-width="12" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <rect x="56" y="40" width="48" height="176" rx="8" stroke-width="12" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="152" y="40" width="64" height="176" rx="8" stroke-width="12" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="40" y="40" width="64" height="176" rx="8" stroke-width="12" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
 </svg>

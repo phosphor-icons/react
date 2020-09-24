@@ -5,47 +5,131 @@ import { IconProps, IconContext } from "../lib";
 const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   switch (weight) {
     case "bold":
-      return (<>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <polygon points="160 128 112 96 112 160 160 128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <polygon points="160 128 112 96 112 160 160 128"/>
-
-</>)
+      return (
+        <>
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <polygon
+            points="160 128 112 96 112 160 160 128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <polygon points="160 128 112 96 112 160 160 128" />
+        </>
+      );
     case "duotone":
-      return (<>
-  <circle cx="128" cy="128" r="96" opacity="0.2"/>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeMiterlimit="10" strokeWidth="16"/>
-  <polygon points="160 128 112 96 112 160 160 128" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-
-</>)
+      return (
+        <>
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeMiterlimit="10"
+            strokeWidth="16"
+          />
+          <polygon
+            points="160 128 112 96 112 160 160 128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <path
+            d="M128,32a96,96,0,1,0,96,96A95.99975,95.99975,0,0,0,128,32ZM112,160V96l48,32Z"
+            opacity="0.2"
+          />
+        </>
+      );
     case "fill":
-      return (<>
-  <rect width="256" height="256" fill="none"/>
-  <rect width="256" height="256" fill="none"/>
-  <path d="M128,24A104,104,0,1,0,232,128,104.12041,104.12041,0,0,0,128,24Zm36.4375,110.65625-48,32A7.99612,7.99612,0,0,1,104,160V96a7.99612,7.99612,0,0,1,12.4375-6.65625l48,32a7.99959,7.99959,0,0,1,0,13.3125Z"/>
-
-</>)
+      return (
+        <>
+          <rect width="256" height="256" fill="none" />
+          <rect width="256" height="256" fill="none" />
+          <path d="M128,24A104,104,0,1,0,232,128,104.12041,104.12041,0,0,0,128,24Zm36.4375,110.65625-48,32A7.99612,7.99612,0,0,1,104,160V96a7.99612,7.99612,0,0,1,12.4375-6.65625l48,32a7.99959,7.99959,0,0,1,0,13.3125Z" />
+        </>
+      );
     case "light":
-      return (<>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <polygon points="160 128 112 96 112 160 160 128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <polygon points="160 128 112 96 112 160 160 128"/>
-
-</>)
+      return (
+        <>
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <polygon
+            points="160 128 112 96 112 160 160 128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+        </>
+      );
     case "thin":
-      return (<>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <polygon points="160 128 112 96 112 160 160 128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <polygon points="160 128 112 96 112 160 160 128"/>
-
-</>)
+      return (
+        <>
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <polygon
+            points="160 128 112 96 112 160 160 128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+        </>
+      );
     case "regular":
-      return (<>
-  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeMiterlimit="10" strokeWidth="16"/>
-  <polygon points="160 128 112 96 112 160 160 128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <polygon points="160 128 112 96 112 160 160 128"/>
-
-</>)
+      return (
+        <>
+          <circle
+            cx="128"
+            cy="128"
+            r="96"
+            fill="none"
+            stroke={color}
+            strokeMiterlimit="10"
+            strokeWidth="16"
+          />
+          <polygon
+            points="160 128 112 96 112 160 160 128"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+        </>
+      );
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -78,7 +162,7 @@ const PlayCircle = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  ); 
+  );
 });
 
 PlayCircle.displayName = "PlayCircle";

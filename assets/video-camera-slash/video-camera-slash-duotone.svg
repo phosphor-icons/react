@@ -1,7 +1,7 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <path d="M24,56H152a32,32,0,0,1,32,32V192a8,8,0,0,1-8,8H48a32,32,0,0,1-32-32V64A8,8,0,0,1,24,56Z" opacity="0.2"/>
+  <path d="M24,60H152a32,32,0,0,1,32,32v96a8,8,0,0,1-8,8H48a32,32,0,0,1-32-32V68A8,8,0,0,1,24,60Z" opacity="0.2"/>
   <polygon points="240 176 184 144 184 112 240 80 240 176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <path d="M105.79173,56H152a32,32,0,0,1,32,32v56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <path d="M193.45455,200H48a32,32,0,0,1-32-32V64a8,8,0,0,1,8-8H62.54545" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <line x1="33.45455" y1="24" x2="222.54545" y2="232" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="34.9091" y1="24" x2="224" y2="232" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M110.8827,60H152a32,32,0,0,1,32,32v52" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M184,188a8,8,0,0,1-8,8H48a32,32,0,0,1-32-32V68a8,8,0,0,1,8-8H67.63637" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
 </svg>
