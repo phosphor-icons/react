@@ -236,35 +236,33 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
   }
 };
 
-const ArrowsOutwardSimple = forwardRef<SVGSVGElement, IconProps>(
-  (props, ref) => {
-    const { color, size, weight, mirrored, ...rest } = props;
-    const {
-      color: contextColor,
-      size: contextSize,
-      weight: contextWeight,
-      mirrored: contextMirrored,
-      ...contextRest
-    } = useContext(IconContext);
+const ArrowsOutSimple = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
+  const { color, size, weight, mirrored, ...rest } = props;
+  const {
+    color: contextColor,
+    size: contextSize,
+    weight: contextWeight,
+    mirrored: contextMirrored,
+    ...contextRest
+  } = useContext(IconContext);
 
-    return (
-      <svg
-        ref={ref}
-        xmlns="http://www.w3.org/2000/svg"
-        width={size ?? contextSize}
-        height={size ?? contextSize}
-        fill={color ?? contextColor}
-        viewBox="0 0 256 256"
-        transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
-        {...contextRest}
-        {...rest}
-      >
-        {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
-      </svg>
-    );
-  }
-);
+  return (
+    <svg
+      ref={ref}
+      xmlns="http://www.w3.org/2000/svg"
+      width={size ?? contextSize}
+      height={size ?? contextSize}
+      fill={color ?? contextColor}
+      viewBox="0 0 256 256"
+      transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
+      {...contextRest}
+      {...rest}
+    >
+      {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
+    </svg>
+  );
+});
 
-ArrowsOutwardSimple.displayName = "ArrowsOutwardSimple";
+ArrowsOutSimple.displayName = "ArrowsOutSimple";
 
-export default ArrowsOutwardSimple;
+export default ArrowsOutSimple;

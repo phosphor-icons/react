@@ -79,10 +79,11 @@ export { default as ArrowsCounterClockwise } from "./icons/ArrowsCounterClockwis
 export { default as ArrowsDownUp } from "./icons/ArrowsDownUp";
 export { default as ArrowsIn } from "./icons/ArrowsIn";
 export { default as ArrowsInCardinal } from "./icons/ArrowsInCardinal";
+export { default as ArrowsInSimple } from "./icons/ArrowsInSimple";
 export { default as ArrowsLeftRight } from "./icons/ArrowsLeftRight";
 export { default as ArrowsOut } from "./icons/ArrowsOut";
 export { default as ArrowsOutCardinal } from "./icons/ArrowsOutCardinal";
-export { default as ArrowsOutwardSimple } from "./icons/ArrowsOutwardSimple";
+export { default as ArrowsOutSimple } from "./icons/ArrowsOutSimple";
 export { default as Article } from "./icons/Article";
 export { default as Asterisk } from "./icons/Asterisk";
 export { default as At } from "./icons/At";

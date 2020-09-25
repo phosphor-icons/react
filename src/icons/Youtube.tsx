@@ -41,6 +41,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <polygon
             points="160 128 112 96 112 160 160 128"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -109,6 +110,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <polygon
             points="160 128 112 96 112 160 160 128"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
