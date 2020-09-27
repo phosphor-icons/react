@@ -2,7 +2,7 @@
 
 # phosphor-react
 
-A clear, playful, and adaptable icon family for React. The complete list of icons can be found on [our website](https://phosphoricons.com).
+A clear, playful, and adaptable icon family for React. A complete list of icons can be found on [our website](https://phosphoricons.com).
 
 [![NPM](https://img.shields.io/npm/v/phosphor-react.svg?style=flat-square)](https://www.npmjs.com/package/phosphor-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com) [![Travis](https://img.shields.io/travis/com/rektdeckard/phosphor-react.svg?style=flat-square)](https://travis-ci.com/github/rektdeckard/phosphor-react)
 
@@ -103,6 +103,11 @@ import * as Icon from "phosphor-react";
 <Icon.Folder weight="thin" />
 <Icon.BatteryHalf size="24px" />
 ```
+
+## Related Projects
+
+- [phosphor-vue](https://github.com/phosphor-icons/phosphor-vue) ▲ Phosphor icon component library for Vue
+- [phosphor-icons](https://github.com/phosphor-icons/phosphor-icons) ▲ Phosphor icons for Vanilla JS
 
 ## License
 
