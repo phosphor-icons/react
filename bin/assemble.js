@@ -15,8 +15,11 @@ function readFile(folder, pathname, weight) {
     .replace(/^.*<\?xml.*/g, "")
     .replace(/<svg.*/g, "")
     .replace(/<\/svg>/g, "")
-    .replace(/<rect.*fill="#fff"\/>/g, "") // remove me when bounding rect is fixed
-    .replace(/<title.*/g, "")
+    .replace(
+      /<rect width="25[\d,\.]+" height="25[\d,\.]+" fill="none".*\/>/g,
+      ""
+    )
+    .replace(/<title.*/, "")
     .replace(/"#0+"/g, "{color}")
     .replace(/fill\-rule/g, "fillRule")
     .replace(/stroke-linecap/g, "strokeLinecap")
@@ -100,7 +103,11 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     for (let weight in icon) {
       componentString += `
     case "${weight}":
-      return (<>${icon[weight]}</>)`;
+      return (
+        <>
+          ${icon[weight].trim()}
+        </>
+      )`;
     }
     componentString += `
     default:
@@ -133,6 +140,7 @@ const ${name} = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none"/>
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   ); 
