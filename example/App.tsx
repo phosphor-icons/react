@@ -6,6 +6,15 @@ import "./index.css";
 const isIcon = (candidate: any): candidate is Icon =>
   "displayName" in candidate;
 
+const iconCount = Object.values(Icons).reduce((total, Icon) => {
+  if (isIcon(Icon)) return total + 1;
+  return total;
+}, 0);
+
+if (process.env.NODE_ENV === "development") {
+  console.log(`${iconCount} icons`);
+}
+
 const App = () => {
   const [color, setColor] = useState<string>("crimson");
   const [weight, setWeight] = useState<
