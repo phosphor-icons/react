@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="48 160 128 80 208 160"
             fill="none"
@@ -21,7 +20,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polygon points="48 160 128 80 208 160 48 160" opacity="0.2" />
           <polygon
             points="48 160 128 80 208 160 48 160"
@@ -36,14 +34,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path d="M213.65674,154.34326l-80-80a8,8,0,0,0-11.31348,0l-80,80A7.99981,7.99981,0,0,0,48,168H208a7.99981,7.99981,0,0,0,5.65674-13.65674Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="48 160 128 80 208 160"
             fill="none"
@@ -57,7 +53,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="48 160 128 80 208 160"
             fill="none"
@@ -71,7 +66,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="48 160 128 80 208 160"
             fill="none"
@@ -112,6 +106,7 @@ const CaretUp = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

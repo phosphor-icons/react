@@ -31,59 +31,11 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <polyline
-            points="80 152 32 104 80 56"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <polyline
-            points="128 152 80 104 128 56"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
-            d="M224,200a96,96,0,0,0-96-96H80"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
         </>
       );
     case "duotone":
       return (
         <>
-          <polyline
-            points="80 152 32 104 80 56"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <polyline
-            points="128 152 80 104 128 56"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M224,200a96,96,0,0,0-96-96H80"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
           <polyline
             points="80 152 32 104 80 56"
             fill="none"
@@ -146,30 +98,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="12"
           />
-          <polyline
-            points="80 152 32 104 80 56"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <polyline
-            points="128 152 80 104 128 56"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <path
-            d="M224,200a96,96,0,0,0-96-96H80"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
         </>
       );
     case "thin":
@@ -199,59 +127,11 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="8"
           />
-          <polyline
-            points="80 152 32 104 80 56"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <polyline
-            points="128 152 80 104 128 56"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <path
-            d="M224,200a96,96,0,0,0-96-96H80"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
         </>
       );
     case "regular":
       return (
         <>
-          <polyline
-            points="80 152 32 104 80 56"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <polyline
-            points="128 152 80 104 128 56"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M224,200a96,96,0,0,0-96-96H80"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
           <polyline
             points="80 152 32 104 80 56"
             fill="none"
@@ -309,6 +189,7 @@ const ArrowBendDoubleUpLeft = forwardRef<SVGSVGElement, IconProps>(
         {...contextRest}
         {...rest}
       >
+        <rect width="256" height="256" fill="none" />
         {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
       </svg>
     );

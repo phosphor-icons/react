@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M168,224l-56.0074-40L56,224V72a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8Z"
             fill="none"
@@ -29,7 +28,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M168,224l-56.0074-40L56,224V72a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8Z"
             opacity="0.2"
@@ -55,7 +53,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <g>
             <path d="M160,56H64A16.01833,16.01833,0,0,0,48,72V224a8.00026,8.00026,0,0,0,12.65039,6.50977l51.34277-36.67872,51.35743,36.67872A7.99952,7.99952,0,0,0,176,224V72A16.01833,16.01833,0,0,0,160,56Z" />
             <path d="M192,24H88a8,8,0,0,0,0,16H192V192a8,8,0,0,0,16,0V40A16.01833,16.01833,0,0,0,192,24Z" />
@@ -65,7 +62,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M168,224l-56.0074-40L56,224V72a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8Z"
             fill="none"
@@ -87,7 +83,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M168,224l-56.0074-40L56,224V72a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8Z"
             fill="none"
@@ -109,7 +104,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M168,224l-56.0074-40L56,224V72a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8Z"
             fill="none"
@@ -158,6 +152,7 @@ const Bookmarks = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

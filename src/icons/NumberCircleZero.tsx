@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <ellipse
             cx="128"
             cy="128"
@@ -34,7 +33,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <circle cx="128" cy="128" r="96" opacity="0.2" />
           <ellipse
             cx="128"
             cy="128"
@@ -55,21 +54,20 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeMiterlimit="10"
             strokeWidth="16"
           />
-          <circle cx="128" cy="128" r="96" opacity="0.2" />
         </>
       );
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
-          <ellipse cx="128" cy="128" rx="24" ry="40" />
-          <path d="M128,24A104,104,0,1,0,232,128,104.12041,104.12041,0,0,0,128,24Zm0,160c-27.63281,0-40-28.125-40-56s12.36719-56,40-56,40,28.125,40,56S155.63281,184,128,184Z" />
+          <g>
+            <ellipse cx="128" cy="128" rx="24" ry="40" />
+            <path d="M128,24A104,104,0,1,0,232,128,104.12041,104.12041,0,0,0,128,24Zm0,160c-27.63281,0-40-28.125-40-56s12.36719-56,40-56,40,28.125,40,56S155.63281,184,128,184Z" />
+          </g>
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <ellipse
             cx="128"
             cy="128"
@@ -96,7 +94,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <ellipse
             cx="128"
             cy="128"
@@ -123,7 +120,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <ellipse
             cx="128"
             cy="128"
@@ -176,6 +172,7 @@ const NumberCircleZero = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

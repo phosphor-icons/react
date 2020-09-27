@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect x="-0.01758" width="256" height="256" fill="none" />
           <polyline
             points="231.982 216 175.982 104 119.982 216"
             fill="none"
@@ -70,7 +69,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect x="-0.0293" width="256" height="256" fill="none" />
           <polyline
             points="231.971 216 175.971 104 119.971 216"
             fill="none"
@@ -133,14 +131,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect x="-0.02344" width="256" height="256" fill="none" />
           <path d="M239.13184,212.42188l-56-112a8.0001,8.0001,0,0,0-14.31055,0L147.12378,143.817a88.01219,88.01219,0,0,1-47.15234-16.89991A103.63932,103.63932,0,0,0,127.67187,64h24.30469a8,8,0,0,0,0-16h-56V32a8,8,0,0,0-16,0V48h-56a8,8,0,0,0,0,16h87.63257a87.71326,87.71326,0,0,1-23.64038,52.34106A87.6285,87.6285,0,0,1,68.98682,85.332a7.99985,7.99985,0,1,0-15.083,5.33789A103.55961,103.55961,0,0,0,75.9856,126.93945,87.52745,87.52745,0,0,1,23.97656,144a8,8,0,0,0,0,16,103.48476,103.48476,0,0,0,64.01331-22.09045A104.14165,104.14165,0,0,0,139.43115,159.202l-26.60986,53.21985a8.00006,8.00006,0,0,0,14.31055,7.15625L140.9209,192h70.11133l13.78906,27.57813a8.00006,8.00006,0,0,0,14.31055-7.15625ZM148.9209,176l27.05566-54.11133L203.03223,176Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect x="-0.01172" width="256" height="256" fill="none" />
           <polyline
             points="231.988 216 175.988 104 119.988 216"
             fill="none"
@@ -203,7 +199,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect x="-0.00586" width="256" height="256" fill="none" />
           <polyline
             points="231.994 216 175.994 104 119.994 216"
             fill="none"
@@ -266,7 +261,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="232 216 176 104 120 216"
             fill="none"
@@ -356,6 +350,7 @@ const Translate = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

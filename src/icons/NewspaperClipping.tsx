@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M32,216V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V216l-32-16-32,16-32-16L96,216,64,200Z"
             fill="none"
@@ -65,7 +64,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M216,48H40a8.00009,8.00009,0,0,0-8,8V216l32-16,32,16,32-16,32,16,32-16,32,16V56A8.00009,8.00009,0,0,0,216,48ZM112,168H64V88h48Z"
             opacity="0.2"
@@ -127,15 +125,15 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
-          <rect x="76" y="100" width="24" height="56" />
-          <path d="M216,40H40A16.01833,16.01833,0,0,0,24,56V216a7.99951,7.99951,0,0,0,11.57812,7.15527L64,208.94434l28.42188,14.21093a7.99634,7.99634,0,0,0,7.15624,0L128,208.94434l28.42188,14.21093a8.00049,8.00049,0,0,0,7.15624,0L192,208.94434l28.42188,14.21093A7.99951,7.99951,0,0,0,232,216V56A16.01833,16.01833,0,0,0,216,40ZM116,164a8.00039,8.00039,0,0,1-8,8H68a8.00039,8.00039,0,0,1-8-8V92a8.00039,8.00039,0,0,1,8-8h40a8.00039,8.00039,0,0,1,8,8Zm76,4H144a8,8,0,0,1,0-16h48a8,8,0,0,1,0,16Zm0-32H144a8,8,0,0,1,0-16h48a8,8,0,0,1,0,16Zm0-32H144a8,8,0,0,1,0-16h48a8,8,0,0,1,0,16Z" />
+          <g>
+            <rect x="76" y="100" width="24" height="56" />
+            <path d="M216,40H40A16.01833,16.01833,0,0,0,24,56V216a7.99951,7.99951,0,0,0,11.57812,7.15527L64,208.94434l28.42188,14.21093a7.99634,7.99634,0,0,0,7.15624,0L128,208.94434l28.42188,14.21093a8.00049,8.00049,0,0,0,7.15624,0L192,208.94434l28.42188,14.21093A7.99951,7.99951,0,0,0,232,216V56A16.01833,16.01833,0,0,0,216,40ZM116,164a8.00039,8.00039,0,0,1-8,8H68a8.00039,8.00039,0,0,1-8-8V92a8.00039,8.00039,0,0,1,8-8h40a8.00039,8.00039,0,0,1,8,8Zm76,4H144a8,8,0,0,1,0-16h48a8,8,0,0,1,0,16Zm0-32H144a8,8,0,0,1,0-16h48a8,8,0,0,1,0,16Zm0-32H144a8,8,0,0,1,0-16h48a8,8,0,0,1,0,16Z" />
+          </g>
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M32,216V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V216l-32-16-32,16-32-16L96,216,64,200Z"
             fill="none"
@@ -193,7 +191,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M32,216V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V216l-32-16-32,16-32-16L96,216,64,200Z"
             fill="none"
@@ -251,7 +248,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M32,216V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V216l-32-16-32,16-32-16L96,216,64,200Z"
             fill="none"
@@ -336,6 +332,7 @@ const NewspaperClipping = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

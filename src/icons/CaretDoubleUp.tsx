@@ -7,9 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <g opacity="0.5">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <polyline
             points="48 208 128 128 208 208"
             fill="none"
@@ -31,9 +28,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <g opacity="0.5">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <polygon points="48 208 128 128 208 208 48 208" opacity="0.2" />
           <polygon
             points="48 208 128 128 208 208 48 208"
@@ -56,35 +50,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <g opacity="0.5">
-            <rect width="256" height="256" fill="none" />
-          </g>
-          <polygon
-            points="48 208 128 128 208 208 48 208"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <polygon
-            points="48 128 128 48 208 128 48 128"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <polygon points="48 208 128 128 208 208 48 208" />
-          <polygon points="48 128 128 48 208 128 48 128" />
+          <path d="M147.314,136H208a8.0001,8.0001,0,0,0,5.65674-13.65723l-80-80a8.00182,8.00182,0,0,0-11.31348,0l-80,80A8.0001,8.0001,0,0,0,48,136h60.686L42.34326,202.34277A8.0001,8.0001,0,0,0,48,216H208a8.0001,8.0001,0,0,0,5.65674-13.65723Z" />
         </>
       );
     case "light":
       return (
         <>
-          <g opacity="0.5">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <polyline
             points="48 208 128 128 208 208"
             fill="none"
@@ -106,9 +77,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <g opacity="0.5">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <polyline
             points="48 208 128 128 208 208"
             fill="none"
@@ -130,9 +98,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <g opacity="0.5">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <polyline
             points="48 208 128 128 208 208"
             fill="none"
@@ -181,6 +146,7 @@ const CaretDoubleUp = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

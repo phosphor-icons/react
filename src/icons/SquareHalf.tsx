@@ -67,10 +67,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <g>
-            <path d="M120,36H52A16.01833,16.01833,0,0,0,36,52V204a16.01833,16.01833,0,0,0,16,16h68Z" />
-            <path d="M204,36H136V220h68a16.01833,16.01833,0,0,0,16-16V52A16.01833,16.01833,0,0,0,204,36Z" />
-          </g>
+          <path d="M204,36H52A16.01833,16.01833,0,0,0,36,52V204a16.01833,16.01833,0,0,0,16,16H204a16.01833,16.01833,0,0,0,16-16V52A16.01833,16.01833,0,0,0,204,36Zm0,168H136V52h68l.00977,151.99951Z" />
         </>
       );
     case "light":
@@ -187,6 +184,7 @@ const SquareHalf = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

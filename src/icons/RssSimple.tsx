@@ -7,6 +7,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="56" cy="200.00842" r="16" />
           <path
             d="M56,48A152,152,0,0,1,208,200"
@@ -29,6 +30,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="55.99414" cy="200.00842" r="12" />
           <path
             d="M55.99414,48a152,152,0,0,1,152,152"
@@ -51,6 +53,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <g>
             <circle cx="55.99414" cy="200.00842" r="12" />
             <path d="M55.99414,39.99963a8,8,0,0,0,0,16c79.40186,0,144,64.59766,144,144a8,8,0,0,0,16,0C215.99414,111.775,144.21826,39.99963,55.99414,39.99963Z" />
@@ -61,6 +64,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="56.00586" cy="200" r="9" />
           <path
             d="M56,48A152,152,0,0,1,208,200"
@@ -83,6 +87,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="56.00586" cy="200" r="6" />
           <path
             d="M56,48A152,152,0,0,1,208,200"
@@ -105,6 +110,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="56" cy="200.00842" r="12" />
           <path
             d="M56,48A152,152,0,0,1,208,200"
@@ -154,6 +160,7 @@ const RssSimple = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

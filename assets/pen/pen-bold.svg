@@ -4,5 +4,4 @@
   <line x1="136" y1="64" x2="192" y2="120" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
   <polyline points="160 192 200 152 192 120" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
   <line x1="40.51057" y1="160.51057" x2="95.49105" y2="215.49105" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <path d="M95.49144,215.49207A7.99781,7.99781,0,0,1,92.68629,216H48a8,8,0,0,1-8-8V163.31371a7.99813,7.99813,0,0,1,.50759-2.80426l.003.00112,54.98048,54.98048Z"/>
 </svg>

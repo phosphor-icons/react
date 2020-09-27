@@ -8,18 +8,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
       return (
         <>
           <circle cx="188.00054" cy="128" r="12" />
-          <rect
-            x="24"
-            y="72"
-            width="208"
-            height="112"
-            rx="8"
-            strokeWidth="24"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
           <circle cx="188.00054" cy="128" r="16" />
           <rect
             x="24"
@@ -144,6 +132,7 @@ const HardDrive = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

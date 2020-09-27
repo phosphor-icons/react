@@ -1,4 +1,5 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <path d="M204,205.93091a698.14835,698.14835,0,0,1-152,0C43.228,204.92627,34.62451,196.7876,33.22754,188a394.631,394.631,0,0,1,0-120C34.625,59.2124,43.22754,51.07422,52,50.06909a698.14835,698.14835,0,0,1,152,0C212.76953,51.07446,221.377,59.21167,222.77246,68a394.631,394.631,0,0,1,0,120C221.37646,196.78735,212.77393,204.927,204,205.93091Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <polygon points="160 128 112 96 112 160 160 128" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <rect width="256" height="256" fill="none"/>
 </svg>

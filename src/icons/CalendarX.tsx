@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <rect
             x="40"
             y="40"
@@ -80,7 +79,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M40,88H216V48a8,8,0,0,0-8-8H48a8,8,0,0,0-8,8Z"
             opacity="0.2"
@@ -157,14 +155,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path d="M207.99414,31.9971h-24v-8a8,8,0,1,0-16,0v8h-80v-8a8,8,0,0,0-16,0v8h-24a16.01583,16.01583,0,0,0-16,16v160a16.01582,16.01582,0,0,0,16,16h160a16.01581,16.01581,0,0,0,16-16v-160A16.01582,16.01582,0,0,0,207.99414,31.9971ZM157.65039,170.34085a7.99915,7.99915,0,1,1-11.3125,11.3125L127.99414,163.3096l-18.34375,18.34375a7.99915,7.99915,0,0,1-11.3125-11.3125l18.34375-18.34375L98.33789,133.65335a7.99915,7.99915,0,1,1,11.3125-11.3125l18.34375,18.34375,18.34375-18.34375a7.99915,7.99915,0,1,1,11.3125,11.3125L139.30664,151.9971ZM207.99414,79.9971h-160v-32h24v8a8,8,0,0,0,16,0v-8h80v8a8,8,0,1,0,16,0v-8h24Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <rect
             x="40"
             y="40"
@@ -237,7 +233,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <rect
             x="40"
             y="40"
@@ -310,7 +305,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <rect
             x="40"
             y="40"
@@ -410,6 +404,7 @@ const CalendarX = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

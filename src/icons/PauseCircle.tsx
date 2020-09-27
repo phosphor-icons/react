@@ -17,16 +17,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <circle
-            cx="128"
-            cy="128"
-            r="96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
           <line
             x1="104"
             y1="96"
@@ -144,16 +134,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="8"
           />
-          <circle
-            cx="128"
-            cy="128"
-            r="96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
           <line
             x1="104"
             y1="96"
@@ -244,6 +224,7 @@ const PauseCircle = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

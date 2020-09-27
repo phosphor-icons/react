@@ -7,6 +7,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="64"
             y1="128"
@@ -45,6 +46,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="64"
             y1="128"
@@ -80,14 +82,18 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <path d="M192,120H64a8,8,0,0,0,0,16H192a8,8,0,0,0,0-16Z" />
-          <path d="M232,72H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16Z" />
-          <path d="M152,168H104a8,8,0,0,0,0,16h48a8,8,0,0,0,0-16Z" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
+          <g>
+            <path d="M192,120H64a8,8,0,0,0,0,16H192a8,8,0,0,0,0-16Z" />
+            <path d="M232,72H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16Z" />
+            <path d="M152,168H104a8,8,0,0,0,0,16h48a8,8,0,0,0,0-16Z" />
+          </g>
         </>
       );
     case "light":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="64"
             y1="128"
@@ -126,6 +132,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="64"
             y1="128"
@@ -164,6 +171,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="64"
             y1="128"
@@ -226,6 +234,7 @@ const FunnelSimple = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

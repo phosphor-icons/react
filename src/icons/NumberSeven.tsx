@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="80 39.991 176 39.991 112 231.991"
             fill="none"
@@ -21,7 +20,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="80 39.991 176 39.991 112 231.991"
             fill="none"
@@ -35,14 +33,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path d="M112.001,239.99316a8.0055,8.0055,0,0,1-7.59082-10.53173L164.90039,47.99121H80a8,8,0,1,1,0-16h96A8,8,0,0,1,183.58984,42.521l-64,192A8.00467,8.00467,0,0,1,112.001,239.99316Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="80 39.991 176 39.991 112 231.991"
             fill="none"
@@ -56,7 +52,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="80 39.991 176 39.991 112 231.991"
             fill="none"
@@ -70,7 +65,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="80 39.991 176 39.991 112 231.991"
             fill="none"
@@ -111,6 +105,7 @@ const NumberSeven = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

@@ -100,9 +100,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="12"
           />
           <line
-            x1="168"
+            x1="88"
             y1="128"
-            x2="88"
+            x2="168"
             y2="128"
             fill="none"
             stroke={color}
@@ -134,9 +134,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="8"
           />
           <line
-            x1="168"
+            x1="88"
             y1="128"
-            x2="88"
+            x2="168"
             y2="128"
             fill="none"
             stroke={color}
@@ -167,9 +167,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <line
-            x1="168"
+            x1="88"
             y1="128"
-            x2="88"
+            x2="168"
             y2="128"
             fill="none"
             stroke={color}
@@ -209,6 +209,7 @@ const ArrowCircleLeft = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

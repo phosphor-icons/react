@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle cx="128" cy="60" r="16" />
           <rect
             x="24"
@@ -27,7 +26,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <rect
             x="24"
             y="64"
@@ -56,14 +54,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path d="M176,16H80A24.0275,24.0275,0,0,0,56,40V216a24.0275,24.0275,0,0,0,24,24h96a24.0275,24.0275,0,0,0,24-24V40A24.0275,24.0275,0,0,0,176,16ZM128,72a12,12,0,1,1,12-12A12,12,0,0,1,128,72Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle cx="128" cy="60" r="9" />
           <rect
             x="24"
@@ -83,7 +79,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle cx="128" cy="60" r="6" />
           <rect
             x="24"
@@ -103,7 +98,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle cx="128" cy="60" r="12" />
           <rect
             x="24"
@@ -151,6 +145,7 @@ const DeviceMobileCamera = forwardRef<SVGSVGElement, IconProps>(
         {...contextRest}
         {...rest}
       >
+        <rect width="256" height="256" fill="none" />
         {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
       </svg>
     );

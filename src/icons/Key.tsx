@@ -24,7 +24,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           <g opacity="0.2">
             <path d="M93.16866,122.8328a71.93648,71.93648,0,1,1,40.0009,40.001l.00062-.00149L120.00244,176h-24v24h-24v24h-40V184l61.168-61.168Z" />
           </g>
-          <circle cx="180" cy="76" r="12" opacity="0.2" />
           <circle cx="180" cy="76" r="12" />
           <path
             d="M93.16866,122.8328a71.93648,71.93648,0,1,1,40.0009,40.001l.00062-.00149L120.00244,176h-24v24h-24v24h-40V184l61.168-61.168Z"
@@ -114,6 +113,7 @@ const Key = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

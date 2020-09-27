@@ -49,6 +49,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
       return (
         <>
           <path
+            d="M40,64H214.4143a8,8,0,0,1,7.871,9.43108l-13.09091,72A8,8,0,0,1,201.32339,152H56Z"
+            opacity="0.2"
+          />
+          <path
             d="M192,184H68.49479a8,8,0,0,1-7.871-6.56892L33.92162,30.56892A8,8,0,0,0,26.05066,24H8"
             fill="none"
             stroke={color}
@@ -83,12 +87,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="16"
-          />
-          <circle cx="72" cy="204" r="20" opacity="0.2" />
-          <circle cx="192" cy="204" r="20" opacity="0.2" />
-          <path
-            d="M40,64H214.4143a8,8,0,0,1,7.871,9.43108l-13.09091,72A8,8,0,0,1,201.32339,152H56Z"
-            opacity="0.2"
           />
         </>
       );
@@ -251,6 +249,7 @@ const ShoppingCart = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

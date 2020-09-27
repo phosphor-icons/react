@@ -7,9 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <g opacity="0.5">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <rect
             x="42.46089"
             y="60.11775"
@@ -57,9 +54,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <g opacity="0.5">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <path
             d="M208,196c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z"
             opacity="0.2"
@@ -111,9 +105,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <g opacity="0.5">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <g>
             <path d="M233.65723,150.34375a7.99945,7.99945,0,0,0-11.31446,0C221.42969,151.25635,200,172.958,200,196a28,28,0,0,0,56,0C256,172.958,234.57031,151.25635,233.65723,150.34375Z" />
             <path d="M55.51465,32.207A8.00018,8.00018,0,0,0,44.2002,43.52051L68.68286,68.00317,79.99658,56.689Z" />
@@ -124,9 +115,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <g opacity="0.5">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <rect
             x="42.46089"
             y="60.11775"
@@ -174,9 +162,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <g opacity="0.5">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <rect
             x="42.46089"
             y="60.11775"
@@ -224,9 +209,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <g opacity="0.5">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <rect
             x="42.46089"
             y="60.11775"
@@ -301,6 +283,7 @@ const PaintBucket = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="96 48 176 128 96 208"
             fill="none"
@@ -21,7 +20,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polygon points="96 48 176 128 96 208 96 48" opacity="0.2" />
           <polygon
             points="96 48 176 128 96 208 96 48"
@@ -36,14 +34,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path d="M181.65674,122.34277l-80-80A8.0001,8.0001,0,0,0,88,48V208a8.00018,8.00018,0,0,0,13.65674,5.65723l80-80A8.00034,8.00034,0,0,0,181.65674,122.34277Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="96 48 176 128 96 208"
             fill="none"
@@ -57,7 +53,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="96 48 176 128 96 208"
             fill="none"
@@ -71,7 +66,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="96 48 176 128 96 208"
             fill="none"
@@ -112,6 +106,7 @@ const CaretRight = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

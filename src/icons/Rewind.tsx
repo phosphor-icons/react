@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="128"
             cy="128"
@@ -34,15 +33,15 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <polygon points="176 160 128 128 176 96 176 160" />
-          <polygon points="112 160 64 128 112 96 112 160" />
         </>
       );
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
-          <circle cx="128" cy="128" r="96" opacity="0.2" />
+          <path
+            d="M128,32a96,96,0,1,0,96,96A95.99991,95.99991,0,0,0,128,32ZM112,160,64,128l48-32Zm64,0-48-32,48-32Z"
+            opacity="0.2"
+          />
           <circle
             cx="128"
             cy="128"
@@ -74,14 +73,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path d="M24,128A104,104,0,1,0,128,24,104.11791,104.11791,0,0,0,24,128Zm32,0a7.99943,7.99943,0,0,1,3.5625-6.65625l48-32A8.00016,8.00016,0,0,1,120,96v32a7.99943,7.99943,0,0,1,3.5625-6.65625l48-32A8.00016,8.00016,0,0,1,184,96v64a7.99975,7.99975,0,0,1-12.4375,6.65625l-48-32A7.99943,7.99943,0,0,1,120,128v32a7.99975,7.99975,0,0,1-12.4375,6.65625l-48-32A7.99943,7.99943,0,0,1,56,128Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="128"
             cy="128"
@@ -113,7 +110,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="128"
             cy="128"
@@ -145,8 +141,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="128"
             cy="128"
@@ -205,6 +199,7 @@ const Rewind = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

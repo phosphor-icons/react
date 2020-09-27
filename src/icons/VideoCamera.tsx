@@ -15,8 +15,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <polygon
-            points="240 176 184 144 184 112 240 80 240 176"
+          <polyline
+            points="184 112 240 80 240 176 184 144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -40,8 +40,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <polygon
-            points="240 176 184 144 184 112 240 80 240 176"
+          <polyline
+            points="184 112 240 80 240 176 184 144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -53,10 +53,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <g>
-            <path d="M192,157.78564V92a40.04584,40.04584,0,0,0-40-40H24A16.01833,16.01833,0,0,0,8,68v96a40.04584,40.04584,0,0,0,40,40H176a16.01833,16.01833,0,0,0,16-16Z" />
-            <path d="M244.01562,73.08105a8.001,8.001,0,0,0-7.98437-.02734L208,89.07153v77.85694l28.03125,16.01782A8.0003,8.0003,0,0,0,248,176V80A7.99807,7.99807,0,0,0,244.01562,73.08105Z" />
-          </g>
+          <path d="M244.01562,73.08105a8.001,8.001,0,0,0-7.98437-.02734L192,98.21436V92a40.04584,40.04584,0,0,0-40-40H24A16.01833,16.01833,0,0,0,8,68v96a40.04584,40.04584,0,0,0,40,40H176a16.01833,16.01833,0,0,0,16-16V157.78564l44.03125,25.16065A8.0003,8.0003,0,0,0,248,176V80A7.99807,7.99807,0,0,0,244.01562,73.08105ZM232,162.21484,192,139.3573V116.6427l40-22.85754Z" />
         </>
       );
     case "light":
@@ -70,8 +67,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="12"
           />
-          <polygon
-            points="240 176 184 144 184 112 240 80 240 176"
+          <polyline
+            points="184 112 240 80 240 176 184 144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -91,8 +88,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="8"
           />
-          <polygon
-            points="240 176 184 144 184 112 240 80 240 176"
+          <polyline
+            points="184 112 240 80 240 176 184 144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -112,8 +109,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <polygon
-            points="240 176 184 144 184 112 240 80 240 176"
+          <polyline
+            points="184 112 240 80 240 176 184 144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -152,6 +149,7 @@ const VideoCamera = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

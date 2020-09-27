@@ -50,24 +50,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <polygon
-            points="200 208 120 128 200 48 200 208"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <polygon
-            points="120 208 40 128 120 48 120 208"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <polygon points="200 208 120 128 200 48 200 208" />
-          <polygon points="120 208 40 128 120 48 120 208" />
+          <path d="M203.06152,40.60889a7.99927,7.99927,0,0,0-8.71826,1.73437L128,108.68652V48a7.99981,7.99981,0,0,0-13.65674-5.65674l-80,80a7.99915,7.99915,0,0,0,0,11.31348l80,80A7.99981,7.99981,0,0,0,128,208V147.31348l66.34326,66.34326A7.99981,7.99981,0,0,0,208,208V48A8.00015,8.00015,0,0,0,203.06152,40.60889Z" />
         </>
       );
     case "light":
@@ -163,6 +146,7 @@ const CaretDoubleLeft = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

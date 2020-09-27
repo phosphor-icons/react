@@ -7,7 +7,7 @@ const renderPathFor = (weight: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="64" cy="128" r="16" />
           <circle cx="128" cy="128" r="16" />
           <circle cx="192" cy="128" r="16" />
@@ -16,7 +16,7 @@ const renderPathFor = (weight: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="128" cy="128" r="12" />
           <circle cx="64" cy="128" r="12" />
           <circle cx="192" cy="128" r="12" />
@@ -25,7 +25,7 @@ const renderPathFor = (weight: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="128" cy="128" r="32" />
           <circle cx="48" cy="128" r="32" />
           <circle cx="208" cy="128" r="32" />
@@ -34,7 +34,7 @@ const renderPathFor = (weight: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="128" cy="128" r="9" />
           <circle cx="64" cy="128" r="9" />
           <circle cx="192" cy="128" r="9" />
@@ -43,7 +43,7 @@ const renderPathFor = (weight: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="128" cy="128" r="6" />
           <circle cx="64" cy="128" r="6" />
           <circle cx="192" cy="128" r="6" />
@@ -52,7 +52,7 @@ const renderPathFor = (weight: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect x="0.00098" width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="128.00098" cy="128" r="12" />
           <circle cx="64.00098" cy="128" r="12" />
           <circle cx="192.00098" cy="128" r="12" />
@@ -88,6 +88,7 @@ const DotsThree = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight)}
     </svg>
   );

@@ -83,8 +83,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect x="24" y="40" width="208" height="48" rx="16" />
-          <path d="M208,104H48a8.00039,8.00039,0,0,0-8,8v88a16.01833,16.01833,0,0,0,16,16H200a16.01833,16.01833,0,0,0,16-16V112A8.00039,8.00039,0,0,0,208,104Zm-56,40H104a8,8,0,0,1,0-16h48a8,8,0,0,1,0,16Z" />
+          <path d="M216,40H40A16.01833,16.01833,0,0,0,24,56V88a16.01833,16.01833,0,0,0,16,16v96a16.01833,16.01833,0,0,0,16,16H200a16.01833,16.01833,0,0,0,16-16V104a16.01833,16.01833,0,0,0,16-16V56A16.01833,16.01833,0,0,0,216,40ZM152,144H104a8,8,0,0,1,0-16h48a8,8,0,0,1,0,16Zm64-56H40V56H216l.00977,32Z" />
         </>
       );
     case "light":
@@ -225,6 +224,7 @@ const Archive = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

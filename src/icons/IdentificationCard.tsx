@@ -64,6 +64,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
+          <path
+            d="M216,48H40a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V56A8,8,0,0,0,216,48ZM92.10046,144a24,24,0,1,1,24-24A23.99994,23.99994,0,0,1,92.10046,144Z"
+            opacity="0.2"
+          />
           <line
             x1="152"
             y1="112"
@@ -95,10 +99,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="16"
-          />
-          <path
-            d="M216,48H40a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V56A8,8,0,0,0,216,48ZM92.10046,144a24,24,0,1,1,24-24A23.99994,23.99994,0,0,1,92.10046,144Z"
-            opacity="0.2"
           />
           <path
             d="M61.10869,167.99952a32.01032,32.01032,0,0,1,61.98292-.00215"
@@ -333,6 +333,7 @@ const IdentificationCard = forwardRef<SVGSVGElement, IconProps>(
         {...contextRest}
         {...rest}
       >
+        <rect width="256" height="256" fill="none" />
         {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
       </svg>
     );

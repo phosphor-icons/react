@@ -7,6 +7,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="55.99414"
             y1="176.00256"
@@ -50,7 +51,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <polygon
             points="119.971 32.003 183.971 80.003 119.971 128.003 119.971 32.003"
             opacity="0.2"
@@ -102,6 +103,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="55.99414"
             y1="176.00256"
@@ -145,6 +147,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="55.99414"
             y1="176.00256"
@@ -188,6 +191,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="55.99414"
             y1="176.00256"
@@ -231,14 +235,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <polyline
-            points="124.756 124.431 119.994 128.003 119.994 119.194"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="55.99414"
             y1="176.00256"
@@ -309,6 +306,7 @@ const BluetoothSlash = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

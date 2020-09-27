@@ -8,7 +8,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
       return (
         <>
           <path
-            d="M104,80H208a32,32,0,0,1,32,32v56a0,0,0,0,1,0,0H104a0,0,0,0,1,0,0V80A0,0,0,0,1,104,80Z"
+            d="M104,168V80H208a32,32,0,0,1,32,32v56"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -55,7 +55,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             opacity="0.2"
           />
           <path
-            d="M104,80H208a32,32,0,0,1,32,32v56a0,0,0,0,1,0,0H104a0,0,0,0,1,0,0V80A0,0,0,0,1,104,80Z"
+            d="M104,168V80H208a32,32,0,0,1,32,32v56"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -104,7 +104,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
       return (
         <>
           <path
-            d="M104,80H208a32,32,0,0,1,32,32v56a0,0,0,0,1,0,0H104a0,0,0,0,1,0,0V80A0,0,0,0,1,104,80Z"
+            d="M104,168V80H208a32,32,0,0,1,32,32v56"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -147,7 +147,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
       return (
         <>
           <path
-            d="M104,80H208a32,32,0,0,1,32,32v56a0,0,0,0,1,0,0H104a0,0,0,0,1,0,0V80A0,0,0,0,1,104,80Z"
+            d="M104,168V80H208a32,32,0,0,1,32,32v56"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -190,7 +190,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
       return (
         <>
           <path
-            d="M104,80H208a32,32,0,0,1,32,32v56a0,0,0,0,1,0,0H104a0,0,0,0,1,0,0V80A0,0,0,0,1,104,80Z"
+            d="M104,168V80H208a32,32,0,0,1,32,32v56"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -259,6 +259,7 @@ const Bed = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

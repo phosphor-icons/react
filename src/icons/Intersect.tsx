@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256.00098" height="256.00098" fill="none" />
           <circle
             cx="96"
             cy="96"
@@ -44,7 +43,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256.00098" height="256.00098" fill="none" />
           <path
             d="M88,160a70.51259,70.51259,0,0,0,.73242,7.26758A70.51259,70.51259,0,0,0,96,168a71.99981,71.99981,0,0,0,72-72,70.51259,70.51259,0,0,0-.73242-7.26758A70.51259,70.51259,0,0,0,160,88,71.99981,71.99981,0,0,0,88,160Z"
             opacity="0.2"
@@ -74,14 +72,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256.00098" height="256.00098" fill="none" />
           <path d="M174.63477,81.36523a79.99168,79.99168,0,1,0-93.26954,93.26954,79.99168,79.99168,0,1,0,93.26954-93.26954ZM32,96A64.00385,64.00385,0,0,1,157.98779,80.05127,80.06522,80.06522,0,0,0,80.051,157.98779,64.1144,64.1144,0,0,1,32,96ZM160,224a64.11421,64.11421,0,0,1-61.98779-48.05127A80.06522,80.06522,0,0,0,175.949,98.01221,64.00389,64.00389,0,0,1,160,224Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256.00098" height="256.00098" fill="none" />
           <circle
             cx="96"
             cy="96"
@@ -129,7 +125,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256.00098" height="256.00098" fill="none" />
           <circle
             cx="96"
             cy="96"
@@ -177,7 +172,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256.00098" height="256.00098" fill="none" />
           <circle
             cx="96"
             cy="96"
@@ -252,6 +246,7 @@ const Intersect = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

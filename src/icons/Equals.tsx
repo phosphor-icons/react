@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <line
             x1="40"
             y1="160"
@@ -35,7 +34,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <line
             x1="40"
             y1="160"
@@ -61,15 +59,15 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
-          <path d="M216,152H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z" />
-          <path d="M40,104H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16Z" />
+          <g>
+            <path d="M216,152H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z" />
+            <path d="M40,104H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16Z" />
+          </g>
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <line
             x1="40"
             y1="160"
@@ -97,7 +95,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <line
             x1="40"
             y1="160"
@@ -125,7 +122,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <line
             x1="40"
             y1="160"
@@ -178,6 +174,7 @@ const Equals = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

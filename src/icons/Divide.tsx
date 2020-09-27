@@ -7,9 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <line
             x1="40"
             y1="128"
@@ -28,9 +25,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <line
             x1="40"
             y1="128"
@@ -48,9 +42,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <g>
             <path d="M216,120H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z" />
             <circle cx="128" cy="64" r="18" />
@@ -61,9 +52,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <line
             x1="40"
             y1="128"
@@ -82,9 +70,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <line
             x1="40"
             y1="128"
@@ -103,9 +88,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <line
             x1="40"
             y1="128"
@@ -150,6 +132,7 @@ const Divide = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

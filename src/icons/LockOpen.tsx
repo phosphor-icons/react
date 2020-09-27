@@ -7,6 +7,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
+          <circle cx="127.99414" cy="152" r="16" />
           <rect
             x="40"
             y="88"
@@ -19,7 +20,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             fill="none"
           />
-          <circle cx="127.99414" cy="152" r="16" />
           <path
             d="M92,88V52a36,36,0,0,1,72,0"
             fill="none"
@@ -171,6 +171,7 @@ const LockOpen = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

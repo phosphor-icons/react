@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="76"
             cy="76"
@@ -53,7 +52,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle cx="76" cy="180" r="36" opacity="0.2" />
           <circle cx="76" cy="76" r="36" opacity="0.2" />
           <circle cx="180" cy="76" r="36" opacity="0.2" />
@@ -103,7 +101,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <g>
             <circle cx="76" cy="76" r="44" />
             <circle cx="180" cy="76" r="44" />
@@ -115,7 +112,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="76"
             cy="76"
@@ -161,7 +157,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="76"
             cy="76"
@@ -207,7 +202,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="76"
             cy="76"
@@ -280,6 +274,7 @@ const CirclesFour = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

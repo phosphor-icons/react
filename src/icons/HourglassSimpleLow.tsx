@@ -15,15 +15,17 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <polygon
-            points="128 128 168 168 88 168 128 128"
+          <line
+            x1="168"
+            y1="168"
+            x2="88"
+            y2="168"
             fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <polygon points="128 128 168 168 88 168 128 128" />
         </>
       );
     case "duotone":
@@ -119,15 +121,17 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <polygon
-            points="128 128 168 168 88 168 128 128"
+          <line
+            x1="168"
+            y1="168"
+            x2="88"
+            y2="168"
             fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <polygon points="128 128 168 168 88 168 128 128" />
         </>
       );
     default:
@@ -161,6 +165,7 @@ const HourglassSimpleLow = forwardRef<SVGSVGElement, IconProps>(
         {...contextRest}
         {...rest}
       >
+        <rect width="256" height="256" fill="none" />
         {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
       </svg>
     );

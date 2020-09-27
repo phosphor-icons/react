@@ -7,17 +7,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
-          <polyline
-            points="224 96 128 32 32 96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
           <path
-            d="M224,96V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V96"
+            d="M224,96V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V96l96-64Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -59,21 +50,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polygon
             points="224 96 145.455 152 110.545 152 32 96 128 32 224 96"
             opacity="0.2"
           />
-          <polyline
-            points="224 96 128 32 32 96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
           <path
-            d="M224,96V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V96"
+            d="M32,96V200a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V96L128,32Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -115,27 +97,14 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
-          <path d="M232,100.12134l-3.35547,2.39233-69.36719,49.45606,66.87207,47.23535.01221.00952.01709.011,5.50635,3.92578A16.00083,16.00083,0,0,0,232,200Z" />
-          <path d="M36.64453,89.48633,113.10547,144h29.78906l76.46094-54.51367,4.49219-3.20264L132.4375,25.34375a8.00131,8.00131,0,0,0-8.875,0L32.15234,86.28369Z" />
-          <path d="M27.35547,102.51367,24,100.12134V200a16.00213,16.00213,0,0,0,.31494,3.15186l5.50733-3.92627.01709-.011.0122-.00952,66.8711-47.23535Z" />
-          <path d="M216.88965,212.25293l-.00195-.00171L142.91406,160H113.08594L39.11328,212.25122l-.002.00171L34.99561,215.187A15.913,15.913,0,0,0,40,216H216a15.91377,15.91377,0,0,0,5.00488-.813Z" />
+          <path d="M231.99512,95.92334a7.926,7.926,0,0,0-.22608-1.8147c-.0166-.06909-.03759-.13672-.05615-.20532q-.09154-.33618-.2124-.666c-.03028-.08129-.061-.16186-.09326-.24218-.0835-.20459-.17725-.40625-.27832-.606-.03955-.07764-.07618-.15625-.11768-.23267-.11914-.21679-.25146-.429-.39307-.63745-.03125-.04614-.05761-.09521-.08984-.14062l-.01465-.023a8.19273,8.19273,0,0,0-.55469-.6897c-.04345-.04834-.0913-.09228-.13574-.13965-.16845-.17944-.34228-.35083-.52344-.51172-.061-.05371-.124-.10473-.18652-.15673q-.27686-.23071-.56933-.43311c-.03711-.02563-.06934-.05591-.10645-.08081l-96-64a8.00131,8.00131,0,0,0-8.875,0l-96,64c-.03613.02393-.06689.05322-.102.07764q-.29736.20508-.57666.43847c-.061.05078-.12256.10035-.18164.15284-.18311.16235-.35889.3352-.52832.5166-.04346.0459-.08985.08886-.13233.13574a8.114,8.114,0,0,0-.55517.69043l-.01465.023c-.03223.04541-.05859.09448-.08984.14062-.14161.2085-.27393.42066-.39307.63745-.0415.07642-.07813.155-.11768.23267-.10107.19971-.19482.40137-.27832.606-.03222.08032-.063.16089-.09326.24218q-.12157.33-.2124.666c-.01856.0686-.03955.13623-.05615.20532a7.926,7.926,0,0,0-.22608,1.8147C24.00439,95.94922,24,95.97412,24,96V200a16.01833,16.01833,0,0,0,16,16H216a16.01833,16.01833,0,0,0,16-16V96C232,95.97412,231.99561,95.94922,231.99512,95.92334ZM40,111.52881l56.72266,40.44092L40,192.03662ZM113.08594,160h29.82812L199.543,200H56.45752Zm46.1914-8.03027L216,111.52881v80.50732Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
-          <polyline
-            points="224 96 128 32 32 96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
           <path
-            d="M224,96V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V96"
+            d="M224,96V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V96l96-64Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -177,17 +146,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
-          <polyline
-            points="224 96 128 32 32 96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
           <path
-            d="M224,96V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V96"
+            d="M224,96V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V96l96-64Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -229,17 +189,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
-          <polyline
-            points="224 96 128 32 32 96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
           <path
-            d="M224,96V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V96"
+            d="M32,96V200a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V96L128,32Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -308,6 +259,7 @@ const EnvelopeOpen = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

@@ -25,19 +25,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <line
-            x1="95.88745"
-            y1="96"
-            x2="159.88745"
-            y2="96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
           <path
-            d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96"
+            d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -68,19 +57,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <line
-            x1="95.88745"
-            y1="96"
-            x2="159.88745"
-            y2="96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
           <path
-            d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96"
+            d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -116,19 +94,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="12"
           />
-          <line
-            x1="95.88745"
-            y1="96"
-            x2="159.88745"
-            y2="96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
           <path
-            d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96"
+            d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -158,19 +125,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="8"
           />
-          <line
-            x1="95.88745"
-            y1="96"
-            x2="159.88745"
-            y2="96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
           <path
-            d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96"
+            d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -200,19 +156,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <line
-            x1="95.88745"
-            y1="96"
-            x2="159.88745"
-            y2="96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
           <path
-            d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96"
+            d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -251,6 +196,7 @@ const Wheelchair = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

@@ -72,6 +72,14 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
       return (
         <>
           <path
+            d="M224,184v24a8,8,0,0,1-8,8H192a8,8,0,0,1-8-8V184Z"
+            opacity="0.2"
+          />
+          <path
+            d="M72,184v24a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V184Z"
+            opacity="0.2"
+          />
+          <path
             d="M224,120,194.11151,52.75089A8,8,0,0,0,186.801,48H69.199a8,8,0,0,0-7.31049,4.75089L32,120Z"
             opacity="0.2"
           />
@@ -356,6 +364,7 @@ const Car = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

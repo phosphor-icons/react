@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="128"
             cy="128"
@@ -42,7 +41,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle cx="128" cy="128" r="96" opacity="0.2" />
           <circle
             cx="128"
@@ -77,15 +75,15 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
-          <path d="M138,130.67188a19.8777,19.8777,0,0,0-9.96875-2.69532,20.09907,20.09907,0,0,0-5.20312.69532,20.0058,20.0058,0,1,0,15.17187,2Z" />
-          <path d="M128,24A104,104,0,1,0,232,128,104.12041,104.12041,0,0,0,128,24Zm31.17969,141.99219a35.79746,35.79746,0,0,1-21.85156,16.77344,36.33051,36.33051,0,0,1-9.375,1.24218,36.01571,36.01571,0,0,1-31.13282-54.01562l31.17188-54a8.00128,8.00128,0,1,1,13.85937,8l-16.19824,28.05957a36.014,36.014,0,0,1,33.52637,53.94043Z" />
+          <g>
+            <path d="M138,130.67188a19.8777,19.8777,0,0,0-9.96875-2.69532,20.09907,20.09907,0,0,0-5.20312.69532,20.0058,20.0058,0,1,0,15.17187,2Z" />
+            <path d="M128,24A104,104,0,1,0,232,128,104.12041,104.12041,0,0,0,128,24Zm31.17969,141.99219a35.79746,35.79746,0,0,1-21.85156,16.77344,36.33051,36.33051,0,0,1-9.375,1.24218,36.01571,36.01571,0,0,1-31.13282-54.01562l31.17188-54a8.00128,8.00128,0,1,1,13.85937,8l-16.19824,28.05957a36.014,36.014,0,0,1,33.52637,53.94043Z" />
+          </g>
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="128"
             cy="128"
@@ -120,7 +118,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="128"
             cy="128"
@@ -155,7 +152,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="128"
             cy="128"
@@ -216,6 +212,7 @@ const NumberCircleSix = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

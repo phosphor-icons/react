@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="80 120 32 168 80 216"
             fill="none"
@@ -29,7 +28,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="80 120 32 168 80 216"
             fill="none"
@@ -51,14 +49,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path d="M168,48H80a8,8,0,0,0,0,16h88a48,48,0,0,1,0,96H51.31348l34.34375-34.34326a8.00018,8.00018,0,0,0-11.31446-11.31348l-48,48c-.02392.02393-.04394.05078-.06762.07471-.15967.16406-.31495.332-.46021.50928-.08423.10254-.15771.21045-.23608.31591-.07715.10352-.15747.20459-.22949.312-.082.12255-.15333.24951-.22779.375-.05859.09863-.12036.19433-.17456.29541-.06811.12695-.12573.25732-.18652.38671-.0503.10743-.10425.2129-.1499.32325-.052.12549-.094.25341-.13941.38086-.04248.11914-.08838.23632-.12524.35791-.03882.12841-.06763.25927-.09986.38916-.03076.123-.06567.24511-.09057.3706-.03.15088-.04859.30371-.06958.45654-.0149.106-.0354.21-.0459.31739a8.02276,8.02276,0,0,0,0,1.584c.0105.10742.031.21143.0459.31738.021.15284.03955.30567.06958.45655.0249.12549.05981.24756.09057.3706.03223.12989.061.26075.09986.38916.03686.12159.08276.23877.12524.35791.04541.12745.0874.25537.13941.38086.04565.11035.0996.21582.1499.32325.06079.12939.11841.25976.18652.38671.0542.10108.116.19678.17456.29541.07446.12549.14575.25245.22779.375.072.10743.15234.2085.22949.312.07837.10546.15185.21337.23608.31591.14258.17383.29517.33887.45166.49952.02661.02734.04907.05761.07617.08447l48,48a8.00018,8.00018,0,1,0,11.31446-11.31348L51.31348,176H168a64,64,0,0,0,0-128Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="80 120 32 168 80 216"
             fill="none"
@@ -80,7 +76,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="80 120 32 168 80 216"
             fill="none"
@@ -102,7 +97,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="80 120 32 168 80 216"
             fill="none"
@@ -151,6 +145,7 @@ const ArrowUDownLeft = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

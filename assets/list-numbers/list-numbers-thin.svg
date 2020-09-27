@@ -1,5 +1,5 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <rect width="256" height="256" fill="none"/>
+  <rect x="0.00049" width="255.99951" height="256" fill="none"/>
   <line x1="215.99902" y1="83.99246" x2="103.99902" y2="83.99304" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <line x1="215.99902" y1="171.99246" x2="103.99902" y2="171.99304" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <polyline points="40 64 56 56 56 111.994" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>

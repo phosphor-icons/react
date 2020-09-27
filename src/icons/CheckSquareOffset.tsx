@@ -7,6 +7,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M43.99951,143.27273V52a8,8,0,0,1,8-8h152a8,8,0,0,1,8,8V204a8,8,0,0,1-8,8h-68.3641"
             fill="none"
@@ -28,6 +29,11 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
+          <polygon
+            points="44 44 44 196 60 212 212 212 212 44 44 44"
+            opacity="0.2"
+          />
           <path
             d="M43.99951,143.27273V52a8,8,0,0,1,8-8h152a8,8,0,0,1,8,8V204a8,8,0,0,1-8,8h-68.3641"
             fill="none"
@@ -44,36 +50,22 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <polygon
-            points="44 44 44 196 60 212 212 212 212 44 44 44"
-            opacity="0.2"
-          />
         </>
       );
     case "fill":
       return (
         <>
-          <path
-            d="M43.999,143.27273V52a8,8,0,0,1,8-8h152a8,8,0,0,1,8,8V204a8,8,0,0,1-8,8h-68.3641"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <polyline
-            points="128 152 64 216 32 184"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
+          <g>
+            <path d="M203.99951,36.00012h-152a16.01834,16.01834,0,0,0-16,16v91.27246a8,8,0,0,0,16,0V52.00012h152v152H135.63525a8,8,0,0,0,0,16h68.36426a16.01833,16.01833,0,0,0,16-16v-152A16.01833,16.01833,0,0,0,203.99951,36.00012Z" />
+            <path d="M133.65674,146.34338a8.00121,8.00121,0,0,0-11.31445,0L63.99951,204.68664,37.65674,178.34338a8.00018,8.00018,0,1,0-11.31445,11.31348l32,32a8.00062,8.00062,0,0,0,11.31445,0l64-64A8,8,0,0,0,133.65674,146.34338Z" />
+          </g>
         </>
       );
     case "light":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M43.99951,143.27273V52a8,8,0,0,1,8-8h152a8,8,0,0,1,8,8V204a8,8,0,0,1-8,8h-68.3641"
             fill="none"
@@ -95,6 +87,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M43.99951,143.27273V52a8,8,0,0,1,8-8h152a8,8,0,0,1,8,8V204a8,8,0,0,1-8,8h-68.3641"
             fill="none"
@@ -116,6 +109,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M43.99951,143.27273V52a8,8,0,0,1,8-8h152a8,8,0,0,1,8,8V204a8,8,0,0,1-8,8h-68.3641"
             fill="none"
@@ -164,6 +158,7 @@ const CheckSquareOffset = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

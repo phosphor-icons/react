@@ -7,6 +7,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
+          <circle cx="44" cy="68" r="16" />
+          <circle cx="44" cy="128" r="16" />
+          <circle cx="44" cy="188.00586" r="16" />
           <line
             x1="88"
             y1="68"
@@ -40,14 +43,14 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <circle cx="44" cy="68" r="16" />
-          <circle cx="44" cy="128" r="16" />
-          <circle cx="44" cy="188.00586" r="16" />
         </>
       );
     case "duotone":
       return (
         <>
+          <circle cx="44" cy="68" r="12" />
+          <circle cx="44" cy="128" r="12" />
+          <circle cx="44" cy="188.00586" r="12" />
           <line
             x1="88"
             y1="68"
@@ -81,9 +84,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <circle cx="44" cy="68" r="12" />
-          <circle cx="44" cy="128" r="12" />
-          <circle cx="44" cy="188.00586" r="12" />
         </>
       );
     case "fill":
@@ -102,6 +102,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
+          <circle cx="44" cy="68" r="9" />
+          <circle cx="44" cy="128" r="9" />
+          <circle cx="44" cy="188.00586" r="9" opacity="0.8" />
           <line
             x1="88"
             y1="68"
@@ -135,14 +138,14 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="12"
           />
-          <circle cx="44" cy="68" r="9" />
-          <circle cx="44" cy="128" r="9" />
-          <circle cx="44" cy="188.00586" r="9" opacity="0.8" />
         </>
       );
     case "thin":
       return (
         <>
+          <circle cx="44" cy="68" r="6" />
+          <circle cx="44" cy="128" r="6" />
+          <circle cx="44" cy="188.00586" r="6" />
           <line
             x1="88"
             y1="68"
@@ -176,14 +179,14 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="8"
           />
-          <circle cx="44" cy="68" r="6" />
-          <circle cx="44" cy="128" r="6" />
-          <circle cx="44" cy="188.00586" r="6" />
         </>
       );
     case "regular":
       return (
         <>
+          <circle cx="44" cy="68" r="12" />
+          <circle cx="44" cy="128" r="12" />
+          <circle cx="44" cy="188.00586" r="12" />
           <line
             x1="88"
             y1="68"
@@ -217,9 +220,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <circle cx="44" cy="68" r="12" />
-          <circle cx="44" cy="128" r="12" />
-          <circle cx="44" cy="188.00586" r="12" />
         </>
       );
     default:
@@ -252,6 +252,7 @@ const ListBullets = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

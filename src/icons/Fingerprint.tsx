@@ -7,49 +7,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
-            d="M32.00586,128.00847a95.845,95.845,0,0,1-5.46267,32.00025"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
-            d="M96.00623,128.009a32,32,0,0,1,64,0"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
-            d="M32.00586,128.00847a96,96,0,0,1,192,0"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
-            d="M64.00623,128.009A63.88065,63.88065,0,0,1,88.0059,78.04632"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
-            d="M120.00621,64.50418a64.051,64.051,0,0,1,72,63.50485"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
-            d="M64.00623,128.009a127.4728,127.4728,0,0,1-13.31718,56.913"
+            d="M50.68905,184.92207a127.4728,127.4728,0,0,0,13.31718-56.913A63.88065,63.88065,0,0,1,88.0059,78.04632"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -65,7 +25,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="24"
           />
           <path
-            d="M160.00623,128.009A223.13818,223.13818,0,0,1,138.731,223.41536"
+            d="M96.00623,128.009a32,32,0,0,1,64,0A223.13818,223.13818,0,0,1,138.731,223.41536"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -73,7 +33,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="24"
           />
           <path
-            d="M224.00586,128.00847a289.42035,289.42035,0,0,1-5.441,56"
+            d="M218.56486,184.00845a289.42035,289.42035,0,0,0,5.441-56,96,96,0,0,0-192,0,95.845,95.845,0,0,1-5.46267,32.00025"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -89,7 +49,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="24"
           />
           <path
-            d="M192.00623,128.009a258.52451,258.52451,0,0,1-1.98054,31.99945"
+            d="M120.00621,64.50418a64.051,64.051,0,0,1,72,63.50485,258.52451,258.52451,0,0,1-1.98054,31.99945"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -109,49 +69,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
-            d="M32.00586,128.00847a95.845,95.845,0,0,1-5.46267,32.00025"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M96.00623,128.009a32,32,0,0,1,64,0"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M32.00586,128.00847a96,96,0,0,1,192,0"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M64.00623,128.009A63.88065,63.88065,0,0,1,88.0059,78.04632"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M120.00621,64.50418a64.051,64.051,0,0,1,72,63.50485"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M64.00623,128.009a127.4728,127.4728,0,0,1-13.31718,56.913"
+            d="M50.68905,184.92207a127.4728,127.4728,0,0,0,13.31718-56.913A63.88065,63.88065,0,0,1,88.0059,78.04632"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -167,7 +87,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <path
-            d="M160.00623,128.009A223.13818,223.13818,0,0,1,138.731,223.41536"
+            d="M96.00623,128.009a32,32,0,0,1,64,0A223.13818,223.13818,0,0,1,138.731,223.41536"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -175,7 +95,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <path
-            d="M224.00586,128.00847a289.42035,289.42035,0,0,1-5.441,56"
+            d="M218.56486,184.00845a289.42035,289.42035,0,0,0,5.441-56,96,96,0,0,0-192,0,95.845,95.845,0,0,1-5.46267,32.00025"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -191,7 +111,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <path
-            d="M192.00623,128.009a258.52451,258.52451,0,0,1-1.98054,31.99945"
+            d="M120.00621,64.50418a64.051,64.051,0,0,1,72,63.50485,258.52451,258.52451,0,0,1-1.98054,31.99945"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -211,7 +131,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <g>
             <path d="M128.00586,24.00842a104.11791,104.11791,0,0,0-104,104A87.786,87.786,0,0,1,19,157.34241a8.00025,8.00025,0,1,0,15.08594,5.332,103.74958,103.74958,0,0,0,5.91992-34.666,88,88,0,0,1,176,0,282.27848,282.27848,0,0,1-5.29,54.45313,7.99962,7.99962,0,1,0,15.69727,3.09375,298.25279,298.25279,0,0,0,5.59277-57.54688A104.11791,104.11791,0,0,0,128.00586,24.00842Z" />
             <path d="M93.00977,84.2887A8.00025,8.00025,0,0,0,83.00195,71.80432,71.69909,71.69909,0,0,0,56.00586,128.0094,118.80142,118.80142,0,0,1,43.52637,181.361,7.99964,7.99964,0,1,0,57.85254,188.484,134.64637,134.64637,0,0,0,72.00586,128.0094,55.77314,55.77314,0,0,1,93.00977,84.2887Z" />
@@ -226,49 +146,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
-            d="M32.00586,128.00847a95.845,95.845,0,0,1-5.46267,32.00025"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <path
-            d="M96.00623,128.009a32,32,0,0,1,64,0"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <path
-            d="M32.00586,128.00847a96,96,0,0,1,192,0"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <path
-            d="M64.00623,128.009A63.88065,63.88065,0,0,1,88.0059,78.04632"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <path
-            d="M120.00621,64.50418a64.051,64.051,0,0,1,72,63.50485"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <path
-            d="M64.00623,128.009a127.4728,127.4728,0,0,1-13.31718,56.913"
+            d="M50.68905,184.92207a127.4728,127.4728,0,0,0,13.31718-56.913A63.88065,63.88065,0,0,1,88.0059,78.04632"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -284,7 +164,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="12"
           />
           <path
-            d="M160.00623,128.009A223.13818,223.13818,0,0,1,138.731,223.41536"
+            d="M96.00623,128.009a32,32,0,0,1,64,0A223.13818,223.13818,0,0,1,138.731,223.41536"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -292,7 +172,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="12"
           />
           <path
-            d="M224.00586,128.00847a289.42035,289.42035,0,0,1-5.441,56"
+            d="M218.56486,184.00845a289.42035,289.42035,0,0,0,5.441-56,96,96,0,0,0-192,0,95.845,95.845,0,0,1-5.46267,32.00025"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -308,7 +188,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="12"
           />
           <path
-            d="M192.00623,128.009a258.52451,258.52451,0,0,1-1.98054,31.99945"
+            d="M120.00621,64.50418a64.051,64.051,0,0,1,72,63.50485,258.52451,258.52451,0,0,1-1.98054,31.99945"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -328,49 +208,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
-            d="M32.00586,128.00847a95.845,95.845,0,0,1-5.46267,32.00025"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <path
-            d="M96.00623,128.009a32,32,0,0,1,64,0"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <path
-            d="M32.00586,128.00847a96,96,0,0,1,192,0"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <path
-            d="M64.00623,128.009A63.88065,63.88065,0,0,1,88.0059,78.04632"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <path
-            d="M120.00621,64.50418a64.051,64.051,0,0,1,72,63.50485"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <path
-            d="M64.00623,128.009a127.4728,127.4728,0,0,1-13.31718,56.913"
+            d="M50.68905,184.92207a127.4728,127.4728,0,0,0,13.31718-56.913A63.88065,63.88065,0,0,1,88.0059,78.04632"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -386,7 +226,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="8"
           />
           <path
-            d="M160.00623,128.009A223.13818,223.13818,0,0,1,138.731,223.41536"
+            d="M96.00623,128.009a32,32,0,0,1,64,0A223.13818,223.13818,0,0,1,138.731,223.41536"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -394,7 +234,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="8"
           />
           <path
-            d="M224.00586,128.00847a289.42035,289.42035,0,0,1-5.441,56"
+            d="M218.56486,184.00845a289.42035,289.42035,0,0,0,5.441-56,96,96,0,0,0-192,0,95.845,95.845,0,0,1-5.46267,32.00025"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -410,7 +250,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="8"
           />
           <path
-            d="M192.00623,128.009a258.52451,258.52451,0,0,1-1.98054,31.99945"
+            d="M120.00621,64.50418a64.051,64.051,0,0,1,72,63.50485,258.52451,258.52451,0,0,1-1.98054,31.99945"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -430,49 +270,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
-            d="M32.00586,128.00847a95.845,95.845,0,0,1-5.46267,32.00025"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M96.00623,128.009a32,32,0,0,1,64,0"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M32.00586,128.00847a96,96,0,0,1,192,0"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M64.00623,128.009A63.88065,63.88065,0,0,1,88.0059,78.04632"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M120.00621,64.50418a64.051,64.051,0,0,1,72,63.50485"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M64.00623,128.009a127.4728,127.4728,0,0,1-13.31718,56.913"
+            d="M50.68905,184.92207a127.4728,127.4728,0,0,0,13.31718-56.913A63.88065,63.88065,0,0,1,88.0059,78.04632"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -488,7 +288,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <path
-            d="M160.00623,128.009A223.13818,223.13818,0,0,1,138.731,223.41536"
+            d="M96.00623,128.009a32,32,0,0,1,64,0A223.13818,223.13818,0,0,1,138.731,223.41536"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -496,7 +296,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <path
-            d="M224.00586,128.00847a289.42035,289.42035,0,0,1-5.441,56"
+            d="M218.56486,184.00845a289.42035,289.42035,0,0,0,5.441-56,96,96,0,0,0-192,0,95.845,95.845,0,0,1-5.46267,32.00025"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -512,7 +312,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <path
-            d="M192.00623,128.009a258.52451,258.52451,0,0,1-1.98054,31.99945"
+            d="M120.00621,64.50418a64.051,64.051,0,0,1,72,63.50485,258.52451,258.52451,0,0,1-1.98054,31.99945"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -559,6 +359,7 @@ const Fingerprint = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

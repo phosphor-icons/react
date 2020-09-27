@@ -1,7 +1,5 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <g opacity="0.5">
-    <rect width="256" height="256" fill="none"/>
-  </g>
+  <rect width="256" height="256" fill="none"/>
   <rect x="42.46089" y="60.11775" width="147.07821" height="135.7645" rx="8" transform="translate(-56.53405 119.51472) rotate(-45)" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <circle cx="128" cy="116.00586" r="20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <path d="M208,196c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>

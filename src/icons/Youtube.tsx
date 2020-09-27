@@ -17,6 +17,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <polygon
             points="160 128 112 96 112 160 160 128"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -28,7 +29,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
       return (
         <>
           <path
-            d="M204,205.93091a698.14835,698.14835,0,0,1-152,0C43.228,204.92627,34.62451,196.7876,33.22754,188a394.631,394.631,0,0,1,0-120C34.625,59.2124,43.22754,51.07422,52,50.06909a698.14835,698.14835,0,0,1,152,0C212.76953,51.07446,221.377,59.21167,222.77246,68a394.631,394.631,0,0,1,0,120C221.37646,196.78735,212.77393,204.927,204,205.93091Z"
+            d="M222.77246,68C221.377,59.21167,212.76953,51.07446,204,50.06909a698.14835,698.14835,0,0,0-152,0C43.22754,51.07422,34.625,59.2124,33.22754,68a394.631,394.631,0,0,0,0,120C34.62451,196.7876,43.228,204.92627,52,205.93091a698.14835,698.14835,0,0,0,152,0c8.77393-1.00391,17.37646-9.14356,18.77246-17.93091A394.631,394.631,0,0,0,222.77246,68ZM112,160V96l48,32Z"
             opacity="0.2"
           />
           <path
@@ -148,6 +149,7 @@ const Youtube = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

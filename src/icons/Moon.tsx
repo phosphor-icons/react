@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <polyline points="256 0 256 256 0 256 0 0" fill="none" />
           <path
             d="M223.532,137.53892A96.00374,96.00374,0,1,1,118.449,32.46915l.00005.00075a80.03385,80.03385,0,0,0,105.08326,105.069Z"
             fill="none"
@@ -21,7 +20,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <polyline points="256 0 256 256 0 256 0 0" fill="none" />
           <path
             d="M223.532,137.53892A96.00374,96.00374,0,1,1,118.449,32.46915l.00005.00075a80.03385,80.03385,0,0,0,105.08326,105.069Z"
             opacity="0.2"
@@ -39,14 +37,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <polyline points="256 0 256 256 0 256 0 0" fill="none" />
           <path d="M228.25781,131.08594a7.97081,7.97081,0,0,0-7.875-.89844,72.03888,72.03888,0,0,1-94.58594-94.57031,7.99837,7.99837,0,0,0-8.14062-11.10938A104.00405,104.00405,0,1,0,231.49219,138.32813,7.99431,7.99431,0,0,0,228.25781,131.08594Z" />
         </>
       );
     case "light":
       return (
         <>
-          <polyline points="256 0 256 256 0 256 0 0" fill="none" />
           <path
             d="M223.532,137.53892A96.00374,96.00374,0,1,1,118.449,32.46915l.00005.00075a80.03385,80.03385,0,0,0,105.08326,105.069Z"
             fill="none"
@@ -60,7 +56,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <polyline points="256 0 256 256 0 256 0 0" fill="none" />
           <path
             d="M223.532,137.53892A96.00374,96.00374,0,1,1,118.449,32.46915l.00005.00075a80.03385,80.03385,0,0,0,105.08326,105.069Z"
             fill="none"
@@ -74,7 +69,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <polyline points="256 0 256 256 0 256 0 0" fill="none" />
           <path
             d="M223.532,137.53892A96.00374,96.00374,0,1,1,118.449,32.46915l.00005.00075a80.03385,80.03385,0,0,0,105.08326,105.069Z"
             fill="none"
@@ -115,6 +109,7 @@ const Moon = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

@@ -62,6 +62,15 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
+          <path
+            d="M214,192v24a8,8,0,0,1-8,8H182a8,8,0,0,1-8-8V192Z"
+            opacity="0.3"
+          />
+          <path
+            d="M82,192v24a8,8,0,0,1-8,8H50a8,8,0,0,1-8-8V192Z"
+            opacity="0.3"
+          />
+          <rect x="42" y="72" width="172" height="48" opacity="0.2" />
           <line
             x1="42"
             y1="72"
@@ -84,7 +93,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <rect x="42" y="72" width="172" height="48" opacity="0.2" />
           <path
             d="M214,192H42V64A24,24,0,0,1,66,40H190a24,24,0,0,1,24,24Z"
             fill="none"
@@ -122,7 +130,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <line
             x1="42"
             y1="72"
@@ -309,6 +316,7 @@ const Bus = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

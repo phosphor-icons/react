@@ -18,17 +18,13 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <rect
-            x="68"
-            y="120"
-            width="120"
-            height="56"
-            transform="translate(-20 276) rotate(-90)"
-            strokeWidth="24"
+          <polyline
+            points="100 208 100 88 156 88"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
+            strokeWidth="24"
           />
           <rect
             x="156"
@@ -41,17 +37,13 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             fill="none"
           />
-          <rect
-            x="36"
-            y="144"
-            width="72"
-            height="56"
-            transform="translate(-100 244) rotate(-90)"
-            strokeWidth="24"
+          <polyline
+            points="44 208 44 136 100 136"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
+            strokeWidth="24"
           />
         </>
       );
@@ -70,17 +62,13 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <rect
-            x="68"
-            y="120"
-            width="120"
-            height="56"
-            transform="translate(-20 276) rotate(-90)"
-            strokeWidth="16"
+          <polyline
+            points="100 208 100 88 156 88"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
+            strokeWidth="16"
           />
           <rect
             x="156"
@@ -93,24 +81,20 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             fill="none"
           />
-          <rect
-            x="36"
-            y="144"
-            width="72"
-            height="56"
-            transform="translate(-100 244) rotate(-90)"
-            strokeWidth="16"
+          <polyline
+            points="44 208 44 136 100 136"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
+            strokeWidth="16"
           />
         </>
       );
     case "fill":
       return (
         <>
-          <path d="M228,200h-8V40a8.00008,8.00008,0,0,0-8-8H164a8.00008,8.00008,0,0,0-8,8V200H140V80H104a7.99993,7.99993,0,0,0-8,8V200H80V128H44a7.99993,7.99993,0,0,0-8,8v64H28a8,8,0,0,0,0,16H228a8,8,0,0,0,0-16Z" />
+          <path d="M228,200h-8V40a8.00008,8.00008,0,0,0-8-8H156a8.00008,8.00008,0,0,0-8,8V80H100a8.00008,8.00008,0,0,0-8,8v40H44a8.00008,8.00008,0,0,0-8,8v64H28a8,8,0,0,0,0,16H228a8,8,0,0,0,0-16ZM108,96h40V200H108ZM52,144H92v56H52Z" />
         </>
       );
     case "light":
@@ -127,17 +111,13 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="12"
           />
-          <rect
-            x="68"
-            y="120"
-            width="120"
-            height="56"
-            transform="translate(-20 276) rotate(-90)"
-            strokeWidth="12"
+          <polyline
+            points="100 208 100 88 156 88"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
+            strokeWidth="12"
           />
           <rect
             x="156"
@@ -150,17 +130,13 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             fill="none"
           />
-          <rect
-            x="36"
-            y="144"
-            width="72"
-            height="56"
-            transform="translate(-100 244) rotate(-90)"
-            strokeWidth="12"
+          <polyline
+            points="44 208 44 136 100 136"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
+            strokeWidth="12"
           />
         </>
       );
@@ -178,17 +154,13 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="8"
           />
-          <rect
-            x="68"
-            y="120"
-            width="120"
-            height="56"
-            transform="translate(-20 276) rotate(-90)"
-            strokeWidth="8"
+          <polyline
+            points="100 208 100 88 156 88"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
+            strokeWidth="8"
           />
           <rect
             x="156"
@@ -201,23 +173,27 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             fill="none"
           />
-          <rect
-            x="36"
-            y="144"
-            width="72"
-            height="56"
-            transform="translate(-100 244) rotate(-90)"
-            strokeWidth="8"
+          <polyline
+            points="44 208 44 136 100 136"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
+            strokeWidth="8"
           />
         </>
       );
     case "regular":
       return (
         <>
+          <polyline
+            points="44 208 44 136 100 136"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
           <line
             x1="228"
             y1="208"
@@ -229,35 +205,19 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <rect
-            x="68"
-            y="120"
-            width="120"
-            height="56"
-            transform="translate(-20 276) rotate(-90)"
-            strokeWidth="16"
+          <polyline
+            points="100 208 100 88 156 88"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
+            strokeWidth="16"
           />
           <rect
             x="156"
             y="40"
             width="56"
             height="168"
-            strokeWidth="16"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <rect
-            x="36"
-            y="144"
-            width="72"
-            height="56"
-            transform="translate(-100 244) rotate(-90)"
             strokeWidth="16"
             stroke={color}
             strokeLinecap="round"
@@ -296,6 +256,7 @@ const ChartBar = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

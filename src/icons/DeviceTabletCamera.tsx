@@ -7,7 +7,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <circle cx="128" cy="68" r="16" />
           <rect
             x="32"
             y="48"
@@ -21,13 +21,11 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             fill="none"
           />
-          <circle cx="128" cy="68" r="16" />
         </>
       );
     case "duotone":
       return (
         <>
-          <path d="M256,256H0V0H256Z" fill="none" />
           <rect
             x="32"
             y="48"
@@ -37,6 +35,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             transform="translate(256) rotate(90)"
             opacity="0.2"
           />
+          <circle cx="128" cy="68" r="12" />
           <rect
             x="32"
             y="48"
@@ -50,20 +49,18 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             fill="none"
           />
-          <circle cx="128" cy="68" r="12" />
         </>
       );
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path d="M192,24H64A24.0275,24.0275,0,0,0,40,48V208a24.0275,24.0275,0,0,0,24,24H192a24.0275,24.0275,0,0,0,24-24V48A24.0275,24.0275,0,0,0,192,24ZM128,80a12,12,0,1,1,12-12A12,12,0,0,1,128,80Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <circle cx="128" cy="68" r="9" />
           <rect
             x="32"
             y="48"
@@ -77,13 +74,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             fill="none"
           />
-          <circle cx="128" cy="68" r="9" />
         </>
       );
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <circle cx="128" cy="68" r="6" />
           <rect
             x="32"
             y="48"
@@ -97,13 +93,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             fill="none"
           />
-          <circle cx="128" cy="68" r="6" />
         </>
       );
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <circle cx="128" cy="68" r="12" />
           <rect
             x="32"
             y="48"
@@ -117,7 +112,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             fill="none"
           />
-          <circle cx="128" cy="68" r="12" />
         </>
       );
     default:
@@ -151,6 +145,7 @@ const DeviceTabletCamera = forwardRef<SVGSVGElement, IconProps>(
         {...contextRest}
         {...rest}
       >
+        <rect width="256" height="256" fill="none" />
         {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
       </svg>
     );

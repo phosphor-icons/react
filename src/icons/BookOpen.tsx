@@ -7,9 +7,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
-            d="M232,192a8,8,0,0,1-8,8H160a32,32,0,0,0-32,32V88a32,32,0,0,1,32-32h64a8,8,0,0,1,8,8Z"
+            d="M128,88a32,32,0,0,1,32-32h64a8,8,0,0,1,8,8V192a8,8,0,0,1-8,8H160a32,32,0,0,0-32,32"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -29,17 +28,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
-            d="M232,192a8,8,0,0,1-8,8H160a32,32,0,0,0-32,32V88a32,32,0,0,1,32-32h64a8,8,0,0,1,8,8Z"
+            d="M224,56H160a32.00018,32.00018,0,0,0-32,32A31.99986,31.99986,0,0,0,96,56H32a7.99993,7.99993,0,0,0-8,8V192a7.99993,7.99993,0,0,0,8,8H96a31.99986,31.99986,0,0,1,32,32,32.00018,32.00018,0,0,1,32-32h64a7.99993,7.99993,0,0,0,8-8V64A7.99993,7.99993,0,0,0,224,56Z"
             opacity="0.2"
           />
           <path
-            d="M24,192a8,8,0,0,0,8,8H96a32,32,0,0,1,32,32V88A32,32,0,0,0,96,56H32a8,8,0,0,0-8,8Z"
-            opacity="0.2"
-          />
-          <path
-            d="M232,192a8,8,0,0,1-8,8H160a32,32,0,0,0-32,32V88a32,32,0,0,1,32-32h64a8,8,0,0,1,8,8Z"
+            d="M128,88a32,32,0,0,1,32-32h64a8,8,0,0,1,8,8V192a8,8,0,0,1-8,8H160a32,32,0,0,0-32,32"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -59,16 +53,14 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path d="M96,208a24.0275,24.0275,0,0,1,24,24,8,8,0,0,0,16,0,24.0275,24.0275,0,0,1,24-24h64a16.01833,16.01833,0,0,0,16-16V64a16.01833,16.01833,0,0,0-16-16H176a40.04552,40.04552,0,0,0-40,40v80a8,8,0,0,1-16,0V88A40.04552,40.04552,0,0,0,80,48H32A16.01833,16.01833,0,0,0,16,64V192a16.01833,16.01833,0,0,0,16,16Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
-            d="M232,192a8,8,0,0,1-8,8H160a32,32,0,0,0-32,32V88a32,32,0,0,1,32-32h64a8,8,0,0,1,8,8Z"
+            d="M128,88a32,32,0,0,1,32-32h64a8,8,0,0,1,8,8V192a8,8,0,0,1-8,8H160a32,32,0,0,0-32,32"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -88,9 +80,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
-            d="M232,192a8,8,0,0,1-8,8H160a32,32,0,0,0-32,32V88a32,32,0,0,1,32-32h64a8,8,0,0,1,8,8Z"
+            d="M128,88a32,32,0,0,1,32-32h64a8,8,0,0,1,8,8V192a8,8,0,0,1-8,8H160a32,32,0,0,0-32,32"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -110,9 +101,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
-            d="M232,192a8,8,0,0,1-8,8H160a32,32,0,0,0-32,32V88a32,32,0,0,1,32-32h64a8,8,0,0,1,8,8Z"
+            d="M128,88a32,32,0,0,1,32-32h64a8,8,0,0,1,8,8V192a8,8,0,0,1-8,8H160a32,32,0,0,0-32,32"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -159,6 +149,7 @@ const BookOpen = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

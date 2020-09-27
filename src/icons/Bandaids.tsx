@@ -23,6 +23,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
+          <circle cx="128" cy="128" r="16" />
         </>
       );
     case "duotone":
@@ -67,17 +68,14 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
       return (
         <>
           <g>
-            <path d="M195.88184,116.68652l16.40234-16.4021a40,40,0,1,0-56.56836-56.5686L139.31348,60.11816Z" />
-            <path d="M60.11768,139.31348l-16.40186,16.4021a40,40,0,1,0,56.56836,56.5686l16.40234-16.4021Z" />
+            <circle cx="128" cy="128" r="12" />
+            <path d="M184.56836,128l27.71582-27.71558a40,40,0,1,0-56.56836-56.5686L128,71.43164,100.28418,43.71582a39.99987,39.99987,0,1,0-56.56836,56.56836L71.43164,128,43.71582,155.71558a40,40,0,1,0,56.56836,56.5686L128,184.56836l27.71582,27.71582a39.99987,39.99987,0,1,0,56.56836-56.56836ZM128,94.05957,161.94043,128,128,161.94043,94.05957,128ZM167.03027,55.0293a23.99951,23.99951,0,1,1,33.93946,33.9414L173.25439,116.686,139.314,82.74561ZM88.96973,200.9707a23.99951,23.99951,0,1,1-33.93946-33.9414L82.74561,139.314,116.686,173.25439Z" />
           </g>
-          <circle cx="128" cy="128" r="12" />
-          <path d="M100.28418,43.71582a39.99987,39.99987,0,1,0-56.56836,56.56836l112,112a39.99987,39.99987,0,1,0,56.56836-56.56836Zm22.05859,44.68652,45.25489,45.25513-33.94043,33.94019L88.40234,122.34277Z" />
         </>
       );
     case "light":
       return (
         <>
-          <circle cx="128" cy="128" r="9" />
           <path
             d="M49.37258,94.62742A32,32,0,0,1,94.62742,49.37258l112,112a32,32,0,0,1-45.25484,45.25484Z"
             fill="none"
@@ -94,6 +92,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="12"
           />
+          <circle cx="128" cy="128" r="9" />
         </>
       );
     case "thin":
@@ -170,6 +169,7 @@ const Bandaids = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

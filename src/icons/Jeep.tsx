@@ -36,30 +36,28 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <circle cx="72" cy="132" r="16" />
           <circle cx="184" cy="132" r="16" />
-          <g>
-            <line
-              x1="144"
-              y1="128"
-              x2="144"
-              y2="176"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="24"
-            />
-            <line
-              x1="112"
-              y1="128"
-              x2="112"
-              y2="176"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="24"
-            />
-          </g>
+          <line
+            x1="144"
+            y1="128"
+            x2="144"
+            y2="176"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="112"
+            y1="128"
+            x2="112"
+            y2="176"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
           <path
             d="M220,176H36V96.00005l7.01877-49.13142A8,8,0,0,1,50.93836,40H205.06164a8,8,0,0,1,7.91959,6.86863L220,96.00005Z"
             fill="none"
@@ -73,6 +71,14 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
+          <path
+            d="M220,176v32a8,8,0,0,1-8,8H188a8,8,0,0,1-8-8V176Z"
+            opacity="0.2"
+          />
+          <path
+            d="M76,176v32a8,8,0,0,1-8,8H44a8,8,0,0,1-8-8V176Z"
+            opacity="0.2"
+          />
           <path
             d="M36,96.00005l7.01877-49.13142A8,8,0,0,1,50.93836,40H205.06164a8,8,0,0,1,7.91959,6.86863L220,96.00005Z"
             opacity="0.2"
@@ -106,30 +112,28 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <circle cx="72" cy="132" r="12" />
           <circle cx="184" cy="132" r="12" />
-          <g>
-            <line
-              x1="144"
-              y1="128"
-              x2="144"
-              y2="176"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-            <line
-              x1="112"
-              y1="128"
-              x2="112"
-              y2="176"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-          </g>
+          <line
+            x1="144"
+            y1="128"
+            x2="144"
+            y2="176"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="112"
+            y1="128"
+            x2="112"
+            y2="176"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
           <path
             d="M220,176H36V96.00005l7.01877-49.13142A8,8,0,0,1,50.93836,40H205.06164a8,8,0,0,1,7.91959,6.86863L220,96.00005Z"
             fill="none"
@@ -178,30 +182,28 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <circle cx="72" cy="132" r="9" />
           <circle cx="184" cy="132" r="9" />
-          <g>
-            <line
-              x1="144"
-              y1="128"
-              x2="144"
-              y2="176"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="12"
-            />
-            <line
-              x1="112"
-              y1="128"
-              x2="112"
-              y2="176"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="12"
-            />
-          </g>
+          <line
+            x1="144"
+            y1="128"
+            x2="144"
+            y2="176"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="112"
+            y1="128"
+            x2="112"
+            y2="176"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
           <path
             d="M220,176H36V96.00005l7.01877-49.13142A8,8,0,0,1,50.93836,40H205.06164a8,8,0,0,1,7.91959,6.86863L220,96.00005Z"
             fill="none"
@@ -244,30 +246,28 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <circle cx="72" cy="132" r="6" />
           <circle cx="184" cy="132" r="6" />
-          <g>
-            <line
-              x1="144"
-              y1="128"
-              x2="144"
-              y2="176"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="8"
-            />
-            <line
-              x1="112"
-              y1="128"
-              x2="112"
-              y2="176"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="8"
-            />
-          </g>
+          <line
+            x1="144"
+            y1="128"
+            x2="144"
+            y2="176"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="112"
+            y1="128"
+            x2="112"
+            y2="176"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
           <path
             d="M220,176H36V96.00005l7.01877-49.13142A8,8,0,0,1,50.93836,40H205.06164a8,8,0,0,1,7.91959,6.86863L220,96.00005Z"
             fill="none"
@@ -310,30 +310,28 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <circle cx="72" cy="132" r="12" />
           <circle cx="184" cy="132" r="12" />
-          <g>
-            <line
-              x1="144"
-              y1="128"
-              x2="144"
-              y2="176"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-            <line
-              x1="112"
-              y1="128"
-              x2="112"
-              y2="176"
-              fill="none"
-              stroke={color}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="16"
-            />
-          </g>
+          <line
+            x1="144"
+            y1="128"
+            x2="144"
+            y2="176"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="112"
+            y1="128"
+            x2="112"
+            y2="176"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
           <path
             d="M220,176H36V96.00005l7.01877-49.13142A8,8,0,0,1,50.93836,40H205.06164a8,8,0,0,1,7.91959,6.86863L220,96.00005Z"
             fill="none"
@@ -374,6 +372,7 @@ const Jeep = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

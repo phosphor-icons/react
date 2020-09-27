@@ -86,12 +86,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <g>
-            <path d="M120,120V36H52A16.01833,16.01833,0,0,0,36,52v68Z" />
-            <path d="M136,120h84V52a16.01833,16.01833,0,0,0-16-16H136Z" />
-            <path d="M136,136v84h68a16.01833,16.01833,0,0,0,16-16V136Z" />
-            <path d="M120,136H36v68a16.01833,16.01833,0,0,0,16,16h68Z" />
-          </g>
+          <path d="M204,36H52A16.01833,16.01833,0,0,0,36,52V204a16.01833,16.01833,0,0,0,16,16H204a16.01833,16.01833,0,0,0,16-16V52A16.01833,16.01833,0,0,0,204,36Zm.00439,84H136V52h68ZM52,136h68v68H52Zm152,68H136V136h68.00537l.0044,68Z" />
         </>
       );
     case "light":
@@ -241,6 +236,7 @@ const GridFour = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

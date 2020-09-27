@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="118.059 174.059 152 208 185.941 174.059"
             fill="none"
@@ -48,7 +47,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect x="-0.00586" width="256" height="256" fill="none" />
           <path
             d="M80,128a80,80,0,1,1,80,80H72A56,56,0,1,1,85.91924,97.74352"
             opacity="0.2"
@@ -99,7 +97,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="118.059 174.059 152 208 185.941 174.059"
             fill="none"
@@ -140,7 +137,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="118.059 174.059 152 208 185.941 174.059"
             fill="none"
@@ -181,7 +177,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="118.059 174.059 152 208 185.941 174.059"
             fill="none"
@@ -249,6 +244,7 @@ const CloudArrowDown = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

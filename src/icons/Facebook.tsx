@@ -17,19 +17,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <line
-            x1="128"
-            y1="224.00094"
-            x2="128"
-            y2="112.00094"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
           <path
-            d="M168,88.00094H152a24,24,0,0,0-24,24"
+            d="M168,88.00094H152a24,24,0,0,0-24,24v112"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -63,19 +52,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <line
-            x1="128"
-            y1="224.00094"
-            x2="128"
-            y2="112.00094"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
           <path
-            d="M168,88.00094H152a24,24,0,0,0-24,24"
+            d="M168,88.00094H152a24,24,0,0,0-24,24v112"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -114,19 +92,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="12"
           />
-          <line
-            x1="128"
-            y1="224.00094"
-            x2="128"
-            y2="112.00094"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
           <path
-            d="M168,88.00094H152a24,24,0,0,0-24,24"
+            d="M168,88.00094H152a24,24,0,0,0-24,24v112"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -159,19 +126,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="8"
           />
-          <line
-            x1="128"
-            y1="224.00094"
-            x2="128"
-            y2="112.00094"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
           <path
-            d="M168,88.00094H152a24,24,0,0,0-24,24"
+            d="M168,88.00094H152a24,24,0,0,0-24,24v112"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -204,19 +160,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <line
-            x1="128"
-            y1="224.00094"
-            x2="128"
-            y2="112.00094"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
           <path
-            d="M168,88.00094H152a24,24,0,0,0-24,24"
+            d="M168,88.00094H152a24,24,0,0,0-24,24v112"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -266,6 +211,7 @@ const Facebook = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

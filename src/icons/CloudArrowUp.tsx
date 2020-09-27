@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect y="-0.01563" width="256" height="256" fill="none" />
           <path
             d="M96,207.98437H72A56,56,0,1,1,85.91924,97.7279"
             fill="none"
@@ -48,13 +47,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect
-            x="-0.00586"
-            y="-0.01563"
-            width="256"
-            height="256"
-            fill="none"
-          />
           <path
             d="M80,127.98437a80,80,0,1,1,80,80H72A56,56,0,1,1,85.91924,97.7279"
             opacity="0.2"
@@ -105,7 +97,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect y="-0.01563" width="256" height="256" fill="none" />
           <path
             d="M96,207.98437H72A56,56,0,1,1,85.91924,97.7279"
             fill="none"
@@ -146,7 +137,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect y="-0.01563" width="256" height="256" fill="none" />
           <path
             d="M96,207.98437H72A56,56,0,1,1,85.91924,97.7279"
             fill="none"
@@ -187,7 +177,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect y="-0.01563" width="256" height="256" fill="none" />
           <path
             d="M96,207.98437H72A56,56,0,1,1,85.91924,97.7279"
             fill="none"
@@ -255,6 +244,7 @@ const CloudArrowUp = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="180"
             cy="172"
@@ -52,7 +51,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle cx="180" cy="172" r="28" opacity="0.2" />
           <circle cx="52" cy="204" r="28" opacity="0.2" />
           <circle
@@ -99,14 +97,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path d="M212.916,25.69144a7.896,7.896,0,0,0-6.85938-1.45313l-128,32a7.99686,7.99686,0,0,0-6.0625,7.75782v110.0957a35.98113,35.98113,0,1,0,16,29.9043V110.23831l112-28v59.85352a35.98113,35.98113,0,1,0,16,29.9043v-140A8.01525,8.01525,0,0,0,212.916,25.69144Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="180"
             cy="172"
@@ -151,7 +147,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="180"
             cy="172"
@@ -196,7 +191,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle
             cx="180"
             cy="172"
@@ -268,6 +262,7 @@ const MusicNotes = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

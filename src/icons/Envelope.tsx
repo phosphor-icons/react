@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="224 56 128 144 32 56"
             fill="none"
@@ -51,7 +50,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polygon
             points="224.006 56 128.006 144 32.006 56 224.006 56"
             opacity="0.2"
@@ -99,17 +97,17 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
-          <path d="M226.9375,191.8418l4.29688,3.93945A15.33741,15.33741,0,0,0,232,191.99805V81.22363l-62.86621,57.62793Z" />
-          <path d="M216.125,203.63867l-58.832-53.93262-13.09668,12.00489a24.00408,24.00408,0,0,1-32.41406-.02051L98.708,149.70605,39.875,203.63867l-3.873,3.54981a15.37882,15.37882,0,0,0,3.998.80957H216a15.37882,15.37882,0,0,0,3.99805-.80957Z" />
-          <path d="M29.0625,191.8418l57.80469-52.99024L24,81.22363V191.99805a15.33742,15.33742,0,0,0,.76563,3.7832Z" />
-          <path d="M231.45312,53.09961A7.98664,7.98664,0,0,0,224,47.99805H32a8.00271,8.00271,0,0,0-5.40625,13.89843l96,88a8.00452,8.00452,0,0,0,10.8125,0l96-88A7.97677,7.97677,0,0,0,231.45312,53.09961Z" />
+          <g>
+            <path d="M169.13379,138.85156,226.9375,191.8418l4.29688,3.93945A15.33741,15.33741,0,0,0,232,191.99805V81.22363Z" />
+            <path d="M157.293,149.70605l-13.09668,12.00489a24.00408,24.00408,0,0,1-32.41406-.02051L98.708,149.70605,39.875,203.63867l-3.873,3.54981a15.37882,15.37882,0,0,0,3.998.80957H216a15.37882,15.37882,0,0,0,3.99805-.80957l-3.87305-3.54981Z" />
+            <path d="M24,81.22363V191.99805a15.33741,15.33741,0,0,0,.76562,3.7832l4.29688-3.93945,57.80469-52.99024Z" />
+            <path d="M122.59375,149.89648a8.00452,8.00452,0,0,0,10.8125,0l96-88A8.00271,8.00271,0,0,0,224,47.99805H32a8.00271,8.00271,0,0,0-5.40625,13.89843Z" />
+          </g>
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="224 56 128 144 32 56"
             fill="none"
@@ -153,7 +151,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="224 56 128 144 32 56"
             fill="none"
@@ -197,7 +194,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <polyline
             points="224 56 128 144 32 56"
             fill="none"
@@ -268,6 +264,7 @@ const Envelope = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

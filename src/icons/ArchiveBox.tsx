@@ -88,7 +88,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             y2="72"
             fill="none"
             stroke={color}
-            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             strokeWidth="16"
           />
         </>
@@ -222,7 +223,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             y2="72"
             fill="none"
             stroke={color}
-            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             strokeWidth="16"
           />
         </>
@@ -257,6 +259,7 @@ const ArchiveBox = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

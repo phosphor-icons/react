@@ -43,15 +43,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <circle cx="180" cy="180" r="28" opacity="0.2" />
           <circle cx="76" cy="76" r="28" opacity="0.2" />
           <line
@@ -87,15 +78,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <g>
             <path d="M205.65674,50.34326a7.99915,7.99915,0,0,0-11.31348,0l-144,144a7.99984,7.99984,0,1,0,11.31348,11.31348l144-144A7.99915,7.99915,0,0,0,205.65674,50.34326Z" />
             <path d="M76,108a32,32,0,1,0-22.62744-9.3728A31.78931,31.78931,0,0,0,76,108Z" />
@@ -106,12 +88,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <line
             x1="200"
             y1="56"
@@ -148,12 +124,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <line
             x1="200"
             y1="56"
@@ -190,9 +160,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <g opacity="0.2">
-            <rect width="256" height="256" fill="none" />
-          </g>
           <line
             x1="200"
             y1="56"
@@ -253,6 +220,7 @@ const Percent = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

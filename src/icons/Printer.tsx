@@ -7,6 +7,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
+          <circle cx="187.99414" cy="116" r="16" />
           <rect
             x="63.99414"
             y="40"
@@ -37,7 +38,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <circle cx="187.99414" cy="116" r="16" />
         </>
       );
     case "duotone":
@@ -47,6 +47,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             d="M210.66083,80H45.32751c-9.57293,0-17.33337,7.16357-17.33337,16v80h36V152h128v24h36V96C227.99414,87.16357,220.23376,80,210.66083,80Z"
             opacity="0.2"
           />
+          <circle cx="187.99414" cy="116" r="12" />
           <rect
             x="63.99414"
             y="40"
@@ -77,7 +78,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <circle cx="187.99414" cy="116" r="12" />
         </>
       );
     case "fill":
@@ -89,16 +89,14 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect
-            x="63.99414"
-            y="40"
-            width="128"
-            height="40"
-            strokeWidth="12"
+          <circle cx="187.99414" cy="116" r="9" />
+          <polyline
+            points="63.994 80 63.994 40 191.994 40 191.994 80"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
+            strokeWidth="12"
           />
           <rect
             x="63.99414"
@@ -119,22 +117,19 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="12"
           />
-          <circle cx="187.99414" cy="116" r="9" />
         </>
       );
     case "thin":
       return (
         <>
-          <rect
-            x="63.99414"
-            y="40"
-            width="128"
-            height="40"
-            strokeWidth="8"
+          <circle cx="187.99414" cy="116" r="6" />
+          <polyline
+            points="63.994 80 63.994 40 191.994 40 191.994 80"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
+            strokeWidth="8"
           />
           <rect
             x="63.99414"
@@ -155,22 +150,19 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="8"
           />
-          <circle cx="187.99414" cy="116" r="6" />
         </>
       );
     case "regular":
       return (
         <>
-          <rect
-            x="63.99414"
-            y="40"
-            width="128"
-            height="40"
-            strokeWidth="16"
+          <circle cx="187.99414" cy="116" r="12" />
+          <polyline
+            points="63.994 80 63.994 40 191.994 40 191.994 80"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
+            strokeWidth="16"
           />
           <rect
             x="63.99414"
@@ -191,7 +183,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <circle cx="187.99414" cy="116" r="12" />
         </>
       );
     default:
@@ -224,6 +215,7 @@ const Printer = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

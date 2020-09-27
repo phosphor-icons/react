@@ -7,6 +7,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <rect
             x="48"
             y="48"
@@ -56,68 +57,73 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <rect x="48" y="48" width="64" height="64" opacity="0.2" />
           <rect x="144" y="48" width="64" height="64" opacity="0.2" />
           <rect x="48" y="144" width="64" height="64" opacity="0.2" />
-          <rect
-            x="144"
-            y="144"
-            width="64"
-            height="64"
-            strokeWidth="16"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <rect
-            x="48"
-            y="48"
-            width="64"
-            height="64"
-            strokeWidth="16"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <rect
-            x="144"
-            y="48"
-            width="64"
-            height="64"
-            strokeWidth="16"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <rect
-            x="48"
-            y="144"
-            width="64"
-            height="64"
-            strokeWidth="16"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
           <rect x="144" y="144" width="64" height="64" opacity="0.2" />
+          <rect
+            x="144"
+            y="144"
+            width="64"
+            height="64"
+            strokeWidth="16"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="48"
+            y="48"
+            width="64"
+            height="64"
+            strokeWidth="16"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="144"
+            y="48"
+            width="64"
+            height="64"
+            strokeWidth="16"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <rect
+            x="48"
+            y="144"
+            width="64"
+            height="64"
+            strokeWidth="16"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
         </>
       );
     case "fill":
       return (
         <>
-          <rect x="40" y="40" width="80" height="80" rx="8" />
-          <rect x="136" y="40" width="80" height="80" rx="8" />
-          <rect x="40" y="136" width="80" height="80" rx="8" />
-          <rect x="136" y="136" width="80" height="80" rx="8" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
+          <g>
+            <rect x="40" y="40" width="80" height="80" rx="8" />
+            <rect x="136" y="40" width="80" height="80" rx="8" />
+            <rect x="40" y="136" width="80" height="80" rx="8" />
+            <rect x="136" y="136" width="80" height="80" rx="8" />
+          </g>
         </>
       );
     case "light":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <rect
             x="48"
             y="48"
@@ -167,6 +173,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <rect
             x="48"
             y="48"
@@ -216,6 +223,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <rect
             x="48"
             y="48"
@@ -292,6 +300,7 @@ const SquaresFour = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

@@ -7,7 +7,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <polygon
             points="120 32.003 184 80.003 120 128.003 120 32.003"
             fill="none"
@@ -53,7 +53,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <polygon
             points="120 32.003 184 80.003 120 128.003 120 32.003"
             opacity="0.2"
@@ -107,7 +107,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect x="-0.00098" width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <g>
             <path d="M188.79883,169.60193,133.333,128.00232l55.46582-41.59961a8.0005,8.0005,0,0,0,0-12.80078l-64-48A8.00031,8.00031,0,0,0,111.999,32.00232v79.99957l-51.20019-38.4a8.0002,8.0002,0,0,0-9.59961,12.80078L106.665,128.00232,51.19922,169.60193a8.0002,8.0002,0,0,0,9.59961,12.80078l51.20019-38.4v79.99957a8.00025,8.00025,0,0,0,12.79981,6.40039l64-48a8.0005,8.0005,0,0,0,0-12.80078ZM127.999,48.00232l42.667,32-42.667,32Zm0,160v-64l42.667,32Z" />
             <circle cx="195.99902" cy="128.00647" r="12" />
@@ -118,7 +118,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <polygon
             points="120 32.003 184 80.003 120 128.003 120 32.003"
             fill="none"
@@ -164,7 +164,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <polygon
             points="120 32.003 184 80.003 120 128.003 120 32.003"
             fill="none"
@@ -210,7 +210,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <polygon
             points="120 32.003 184 80.003 120 128.003 120 32.003"
             fill="none"
@@ -284,6 +284,7 @@ const BluetoothConnected = forwardRef<SVGSVGElement, IconProps>(
         {...contextRest}
         {...rest}
       >
+        <rect width="256" height="256" fill="none" />
         {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
       </svg>
     );

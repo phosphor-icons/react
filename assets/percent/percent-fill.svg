@@ -1,13 +1,5 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <g opacity="0.2">
-    <rect width="256" height="256" fill="none"/>
-  </g>
-  <g opacity="0.2">
-    <rect width="256" height="256" fill="none"/>
-  </g>
-  <g opacity="0.2">
-    <rect width="256" height="256" fill="none"/>
-  </g>
+  <rect width="256" height="256" fill="none"/>
   <g>
     <path d="M205.65674,50.34326a7.99915,7.99915,0,0,0-11.31348,0l-144,144a7.99984,7.99984,0,1,0,11.31348,11.31348l144-144A7.99915,7.99915,0,0,0,205.65674,50.34326Z"/>
     <path d="M76,108a32,32,0,1,0-22.62744-9.3728A31.78931,31.78931,0,0,0,76,108Z"/>

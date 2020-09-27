@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle cx="92" cy="108" r="16" />
           <circle cx="164" cy="108" r="16" />
           <circle
@@ -70,7 +69,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path d="M100.99978,108A9,9,0,1,1,92,99,8.99982,8.99982,0,0,1,100.99978,108Z" />
           <path d="M172.99977,108A9,9,0,1,1,164,99,8.99981,8.99981,0,0,1,172.99977,108Z" />
           <circle
@@ -99,7 +97,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle cx="92" cy="108" r="6" />
           <circle cx="164" cy="108" r="6" />
           <circle
@@ -182,6 +179,7 @@ const SmileyMeh = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

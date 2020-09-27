@@ -1,7 +1,8 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="none"/>
   <path d="M40,80H216a0,0,0,0,1,0,0v72a64,64,0,0,1-64,64H104a64,64,0,0,1-64-64V80A0,0,0,0,1,40,80Z" opacity="0.2"/>
   <path d="M40,80H216a0,0,0,0,1,0,0v72a64,64,0,0,1-64,64H104a64,64,0,0,1-64-64V80A0,0,0,0,1,40,80Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <path d="M216,80h0a32,32,0,0,1,32,32V120a32,32,0,0,1-32,32h0a0,0,0,0,1,0,0V80A0,0,0,0,1,216,80Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M216,80h0a32,32,0,0,1,32,32V120a32,32,0,0,1-32,32h0" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <line x1="96" y1="16" x2="96" y2="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <line x1="128" y1="16" x2="128" y2="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <line x1="160" y1="16" x2="160" y2="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>

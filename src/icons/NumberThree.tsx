@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598"
             fill="none"
@@ -21,7 +20,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598"
             fill="none"
@@ -35,14 +33,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path d="M120.00586,232A63.58111,63.58111,0,0,1,74.751,213.25464a8.00018,8.00018,0,1,1,11.31445-11.31348A48,48,0,1,0,120.00586,120a7.99983,7.99983,0,0,1-6.55469-12.58643l47.18164-67.42919H79.99414a8,8,0,0,1,0-16h96a7.99982,7.99982,0,0,1,6.55469,12.58642l-48.28906,69.0127A64.01232,64.01232,0,0,1,120.00586,232Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598"
             fill="none"
@@ -56,7 +52,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598"
             fill="none"
@@ -70,7 +65,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <path
             d="M79.99366,31.98432h96l-55.98732,80.01559a56,56,0,1,1-39.598,95.598"
             fill="none"
@@ -111,6 +105,7 @@ const NumberThree = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

@@ -7,6 +7,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M122.34266,71.43146l19.799-19.799A44,44,0,0,1,204.367,113.85786l-19.799,19.799"
             fill="none"
@@ -72,6 +73,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M122.34266,71.43146l19.799-19.799A44,44,0,0,1,204.367,113.85786l-19.799,19.799"
             fill="none"
@@ -137,6 +139,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <g>
             <path d="M178.91064,128.001a7.99984,7.99984,0,1,0,11.31446,11.3125L210.023,119.51465a51.99928,51.99928,0,1,0-73.53711-73.53906L116.686,65.77441a7.99984,7.99984,0,0,0,11.3125,11.31446l19.80078-19.79981a35.99961,35.99961,0,1,1,50.91015,50.91211Z" />
             <path d="M128.00049,178.91113l-19.80078,19.79981a35.99961,35.99961,0,1,1-50.91016-50.91211L77.08838,127.999a7.99983,7.99983,0,0,0-11.31445-11.3125L45.97607,136.48535a51.99928,51.99928,0,1,0,73.53711,73.53906L139.313,190.22559a7.99984,7.99984,0,0,0-11.3125-11.31446Z" />
@@ -150,6 +153,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M122.34266,71.43146l19.799-19.799A44,44,0,0,1,204.367,113.85786l-19.799,19.799"
             fill="none"
@@ -215,6 +219,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M122.34266,71.43146l19.799-19.799A44,44,0,0,1,204.367,113.85786l-19.799,19.799"
             fill="none"
@@ -280,6 +285,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
+          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M122.34266,71.43146l19.799-19.799A44,44,0,0,1,204.367,113.85786l-19.799,19.799"
             fill="none"
@@ -372,6 +378,7 @@ const LinkBreak = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

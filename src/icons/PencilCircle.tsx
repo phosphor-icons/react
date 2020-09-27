@@ -49,8 +49,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <polygon
-            points="128 72 150.154 120 105.846 120 128 72"
+          <line
+            x1="150.15385"
+            y1="120"
+            x2="105.84615"
+            y2="120"
+            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -118,7 +122,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <polygon points="128 72 150.154 120 105.846 120 128 72" />
         </>
       );
     case "fill":
@@ -299,7 +302,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <polygon points="128 72 150.154 120 105.846 120 128 72" />
         </>
       );
     default:
@@ -332,6 +334,7 @@ const PencilCircle = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );

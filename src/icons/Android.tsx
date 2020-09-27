@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect x="-0.07031" width="256" height="256" fill="none" />
           <circle cx="99.92969" cy="84" r="16" />
           <circle cx="155.92969" cy="84" r="16" />
           <line
@@ -56,7 +55,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect x="-0.07031" width="256" height="256" fill="none" />
           <path d="M207.92969,120v32a80,80,0,0,1-160,0V120Z" opacity="0.2" />
           <circle cx="99.92969" cy="84" r="12" />
           <circle cx="155.92969" cy="84" r="12" />
@@ -106,7 +104,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect x="-0.07031" width="256" height="256" fill="none" />
           <g>
             <circle cx="99.92969" cy="84" r="12" />
             <circle cx="155.92969" cy="84" r="12" />
@@ -117,7 +114,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect x="-0.07031" width="256" height="256" fill="none" />
           <circle cx="99.92969" cy="84" r="9" />
           <circle cx="155.92969" cy="84" r="9" />
           <line
@@ -166,7 +162,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect x="-0.07031" width="256" height="256" fill="none" />
           <circle cx="99.92969" cy="84" r="6" />
           <circle cx="155.92969" cy="84" r="6" />
           <line
@@ -215,7 +210,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect width="256" height="256" fill="none" />
           <circle cx="100" cy="84" r="12" />
           <circle cx="156" cy="84" r="12" />
           <line
@@ -291,6 +285,7 @@ const Android = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...contextRest}
       {...rest}
     >
+      <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );
