@@ -111,4 +111,4 @@ import * as Icon from "phosphor-react";
 
 ## License
 
-GPL-3.0 © [Phosphor Icons](https://github.com/phosphor-icons)
+MIT © [Phosphor Icons](https://github.com/phosphor-icons)
