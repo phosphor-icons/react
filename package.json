@@ -3,7 +3,7 @@
   "version": "0.6.0",
   "description": "A clean and friendly icon family for React",
   "author": "rektdeckard",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "repository": "phosphor-icons/phosphor-react",
   "homepage": "https://phosphoricons.com",
   "module": "dist/phosphor-react.esm.js",
