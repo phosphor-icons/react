@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="160"
             y1="96"
@@ -47,7 +46,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <rect x="40" y="40" width="176" height="176" rx="8" opacity="0.2" />
           <line
             x1="160"
@@ -88,14 +86,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path d="M208.00146,32h-160a16.01582,16.01582,0,0,0-16,16V208a16.01583,16.01583,0,0,0,16,16h160a16.01582,16.01582,0,0,0,16-16V48A16.01581,16.01581,0,0,0,208.00146,32ZM165.65771,154.34375a7.99915,7.99915,0,1,1-11.3125,11.3125L128.00146,139.3125l-26.34375,26.34375a7.99915,7.99915,0,0,1-11.3125-11.3125L116.689,128,90.34521,101.65625a7.99915,7.99915,0,0,1,11.3125-11.3125l26.34375,26.34375,26.34375-26.34375a7.99915,7.99915,0,0,1,11.3125,11.3125L139.314,128Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="160"
             y1="96"
@@ -135,7 +131,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="160"
             y1="96"
@@ -175,7 +170,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="160"
             y1="96"

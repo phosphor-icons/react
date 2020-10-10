@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M50.68905,184.92207a127.4728,127.4728,0,0,0,13.31718-56.913A63.88065,63.88065,0,0,1,88.0059,78.04632"
             fill="none"
@@ -69,7 +68,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M50.68905,184.92207a127.4728,127.4728,0,0,0,13.31718-56.913A63.88065,63.88065,0,0,1,88.0059,78.04632"
             fill="none"
@@ -131,7 +129,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <g>
             <path d="M128.00586,24.00842a104.11791,104.11791,0,0,0-104,104A87.786,87.786,0,0,1,19,157.34241a8.00025,8.00025,0,1,0,15.08594,5.332,103.74958,103.74958,0,0,0,5.91992-34.666,88,88,0,0,1,176,0,282.27848,282.27848,0,0,1-5.29,54.45313,7.99962,7.99962,0,1,0,15.69727,3.09375,298.25279,298.25279,0,0,0,5.59277-57.54688A104.11791,104.11791,0,0,0,128.00586,24.00842Z" />
             <path d="M93.00977,84.2887A8.00025,8.00025,0,0,0,83.00195,71.80432,71.69909,71.69909,0,0,0,56.00586,128.0094,118.80142,118.80142,0,0,1,43.52637,181.361,7.99964,7.99964,0,1,0,57.85254,188.484,134.64637,134.64637,0,0,0,72.00586,128.0094,55.77314,55.77314,0,0,1,93.00977,84.2887Z" />
@@ -146,7 +143,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M50.68905,184.92207a127.4728,127.4728,0,0,0,13.31718-56.913A63.88065,63.88065,0,0,1,88.0059,78.04632"
             fill="none"
@@ -208,7 +204,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M50.68905,184.92207a127.4728,127.4728,0,0,0,13.31718-56.913A63.88065,63.88065,0,0,1,88.0059,78.04632"
             fill="none"
@@ -270,7 +265,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path
             d="M50.68905,184.92207a127.4728,127.4728,0,0,0,13.31718-56.913A63.88065,63.88065,0,0,1,88.0059,78.04632"
             fill="none"

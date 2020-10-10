@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle
             cx="128.00049"
             cy="128.00452"
@@ -34,7 +33,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="128.00049" cy="128.00452" r="96" opacity="0.2" />
           <circle
             cx="128.00049"
@@ -61,14 +59,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path d="M128.00049,24.00452a104,104,0,1,0,104,104A104.12041,104.12041,0,0,0,128.00049,24.00452Zm22.62742,137.94112L94.05936,105.3771a8,8,0,0,1,11.31371-11.31371l56.56854,56.56854a8,8,0,1,1-11.3137,11.31371Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle
             cx="128.00049"
             cy="128.00452"
@@ -95,7 +91,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle
             cx="128.00049"
             cy="128.00452"
@@ -122,7 +117,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle
             cx="128.00049"
             cy="128.00452"

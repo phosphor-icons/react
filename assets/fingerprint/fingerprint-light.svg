@@ -1,5 +1,5 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <rect x="0.00049" width="255.99951" height="256" fill="none"/>
+<svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="none"/>
   <path d="M50.68905,184.92207a127.4728,127.4728,0,0,0,13.31718-56.913A63.88065,63.88065,0,0,1,88.0059,78.04632" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
   <path d="M128.00623,128.009a191.13407,191.13407,0,0,1-23.97573,92.98042" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
   <path d="M96.00623,128.009a32,32,0,0,1,64,0A223.13818,223.13818,0,0,1,138.731,223.41536" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>

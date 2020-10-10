@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="215.99902"
             y1="83.99246"
@@ -51,7 +50,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="215.99902"
             y1="83.99246"
@@ -95,7 +93,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <g>
             <path d="M103.999,91.99316l112-.001a8,8,0,1,0,0-16l-112,.001a8,8,0,0,0,0,16Z" />
             <path d="M215.999,163.99219l-112,.001a8,8,0,1,0,0,16l112-.001a8,8,0,1,0,0-16Z" />
@@ -107,7 +104,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "light":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="215.99902"
             y1="83.99246"
@@ -151,7 +147,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="215.99902"
             y1="83.99246"
@@ -195,7 +190,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <line
             x1="215.99902"
             y1="83.99246"

@@ -1,7 +1,7 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256.00098 256.00098">
-  <rect x="0.00049" width="255.99951" height="256" fill="none"/>
-  <circle cx="119.99707" cy="119.99902" r="87.98531" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <line x1="87.99707" y1="119.99902" x2="151.99707" y2="119.99902" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <line x1="119.99707" y1="87.99902" x2="119.99707" y2="151.99902" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <line x1="182.22428" y1="182.22574" x2="223.99805" y2="223.99951" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+<svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256.00098 256.00098">
+  <rect width="256" height="256" fill="none"/>
+  <line x1="83.99707" y1="116" x2="147.99707" y2="116" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="115.99707" y1="84" x2="115.99707" y2="148" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <circle cx="115.99707" cy="115.99609" r="84" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="175.39063" y1="175.39649" x2="223.99121" y2="223.99707" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
 </svg>

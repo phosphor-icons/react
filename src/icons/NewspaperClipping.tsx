@@ -17,9 +17,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <line
             x1="144"
-            y1="96"
+            y1="112"
             x2="192"
-            y2="96"
+            y2="112"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -28,20 +28,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <line
             x1="144"
-            y1="128"
+            y1="144"
             x2="192"
-            y2="128"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <line
-            x1="144"
-            y1="160"
-            x2="192"
-            y2="160"
+            y2="144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -50,9 +39,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <rect
             x="64"
-            y="88"
+            y="96"
             width="48"
-            height="80"
+            height="64"
             strokeWidth="24"
             stroke={color}
             strokeLinecap="round"
@@ -65,7 +54,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
       return (
         <>
           <path
-            d="M216,48H40a8.00009,8.00009,0,0,0-8,8V216l32-16,32,16,32-16,32,16,32-16,32,16V56A8.00009,8.00009,0,0,0,216,48ZM112,168H64V88h48Z"
+            d="M216,48H40a8.00009,8.00009,0,0,0-8,8V216l32-16,32,16,32-16,32,16,32-16,32,16V56A8.00009,8.00009,0,0,0,216,48ZM112,160H64V96h48Z"
             opacity="0.2"
           />
           <path
@@ -78,9 +67,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <line
             x1="144"
-            y1="96"
+            y1="112"
             x2="192"
-            y2="96"
+            y2="112"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -89,20 +78,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <line
             x1="144"
-            y1="128"
+            y1="144"
             x2="192"
-            y2="128"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="144"
-            y1="160"
-            x2="192"
-            y2="160"
+            y2="144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -111,9 +89,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <rect
             x="64"
-            y="88"
+            y="96"
             width="48"
-            height="80"
+            height="64"
             strokeWidth="16"
             stroke={color}
             strokeLinecap="round"
@@ -125,10 +103,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <g>
-            <rect x="76" y="100" width="24" height="56" />
-            <path d="M216,40H40A16.01833,16.01833,0,0,0,24,56V216a7.99951,7.99951,0,0,0,11.57812,7.15527L64,208.94434l28.42188,14.21093a7.99634,7.99634,0,0,0,7.15624,0L128,208.94434l28.42188,14.21093a8.00049,8.00049,0,0,0,7.15624,0L192,208.94434l28.42188,14.21093A7.99951,7.99951,0,0,0,232,216V56A16.01833,16.01833,0,0,0,216,40ZM116,164a8.00039,8.00039,0,0,1-8,8H68a8.00039,8.00039,0,0,1-8-8V92a8.00039,8.00039,0,0,1,8-8h40a8.00039,8.00039,0,0,1,8,8Zm76,4H144a8,8,0,0,1,0-16h48a8,8,0,0,1,0,16Zm0-32H144a8,8,0,0,1,0-16h48a8,8,0,0,1,0,16Zm0-32H144a8,8,0,0,1,0-16h48a8,8,0,0,1,0,16Z" />
-          </g>
+          <path d="M72,104h32v48H72ZM232,56V216a7.99951,7.99951,0,0,1-11.57812,7.15527L192,208.94434l-28.42188,14.21093a8.00049,8.00049,0,0,1-7.15624,0L128,208.94434,99.57812,223.15527a7.99634,7.99634,0,0,1-7.15624,0L64,208.94434,35.57812,223.15527A7.99951,7.99951,0,0,1,24,216V56A16.01833,16.01833,0,0,1,40,40H216A16.01833,16.01833,0,0,1,232,56ZM120,96a8.00039,8.00039,0,0,0-8-8H64a8.00039,8.00039,0,0,0-8,8v64a8.00039,8.00039,0,0,0,8,8h48a8.00039,8.00039,0,0,0,8-8Zm80,48a8.00039,8.00039,0,0,0-8-8H144a8,8,0,0,0,0,16h48A8.00039,8.00039,0,0,0,200,144Zm0-32a8.00039,8.00039,0,0,0-8-8H144a8,8,0,0,0,0,16h48A8.00039,8.00039,0,0,0,200,112Z" />
         </>
       );
     case "light":
@@ -144,9 +119,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <line
             x1="144"
-            y1="96"
+            y1="112"
             x2="192"
-            y2="96"
+            y2="112"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -155,20 +130,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <line
             x1="144"
-            y1="128"
+            y1="144"
             x2="192"
-            y2="128"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <line
-            x1="144"
-            y1="160"
-            x2="192"
-            y2="160"
+            y2="144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -177,9 +141,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <rect
             x="64"
-            y="88"
+            y="96"
             width="48"
-            height="80"
+            height="64"
             strokeWidth="12"
             stroke={color}
             strokeLinecap="round"
@@ -201,9 +165,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <line
             x1="144"
-            y1="96"
+            y1="112"
             x2="192"
-            y2="96"
+            y2="112"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -212,20 +176,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <line
             x1="144"
-            y1="128"
+            y1="144"
             x2="192"
-            y2="128"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <line
-            x1="144"
-            y1="160"
-            x2="192"
-            y2="160"
+            y2="144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -234,9 +187,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <rect
             x="64"
-            y="88"
+            y="96"
             width="48"
-            height="80"
+            height="64"
             strokeWidth="8"
             stroke={color}
             strokeLinecap="round"
@@ -258,9 +211,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <line
             x1="144"
-            y1="96"
+            y1="112"
             x2="192"
-            y2="96"
+            y2="112"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -269,20 +222,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <line
             x1="144"
-            y1="128"
+            y1="144"
             x2="192"
-            y2="128"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="144"
-            y1="160"
-            x2="192"
-            y2="160"
+            y2="144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -291,9 +233,9 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <rect
             x="64"
-            y="88"
+            y="96"
             width="48"
-            height="80"
+            height="64"
             strokeWidth="16"
             stroke={color}
             strokeLinecap="round"

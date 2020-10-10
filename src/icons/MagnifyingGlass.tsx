@@ -7,11 +7,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle
-            cx="119.99707"
-            cy="120.00293"
-            r="87.98531"
+            cx="115.99707"
+            cy="116"
+            r="84"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -19,10 +18,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="24"
           />
           <line
-            x1="182.22428"
-            y1="182.22965"
-            x2="223.99805"
-            y2="224.00342"
+            x1="175.39063"
+            y1="175.40039"
+            x2="223.99121"
+            y2="224.00098"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -34,12 +33,11 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
-          <circle cx="119.99512" cy="120.00293" r="87.98531" opacity="0.2" />
+          <circle cx="115.99512" cy="116" r="84" opacity="0.2" />
           <circle
-            cx="119.99512"
-            cy="120.00293"
-            r="87.98531"
+            cx="115.99512"
+            cy="116"
+            r="84"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -47,10 +45,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <line
-            x1="182.22232"
-            y1="182.22965"
-            x2="223.99609"
-            y2="224.00342"
+            x1="175.38868"
+            y1="175.40039"
+            x2="223.98926"
+            y2="224.00098"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -62,21 +60,16 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
-          <g>
-            <circle cx="119.99023" cy="120.00098" r="64" />
-            <path d="M229.6543,218.34668l-36.33106-36.3313a96.49933,96.49933,0,1,0-25.335,21.11353,97.03552,97.03552,0,0,0,13.9856-9.83509l36.366,36.36634a8.00018,8.00018,0,1,0,11.31446-11.31348ZM119.99023,200.001a80,80,0,1,1,80-80A80.09041,80.09041,0,0,1,119.99023,200.001Z" />
-          </g>
+          <path d="M175.99609,116a60,60,0,1,1-60-60A60.06812,60.06812,0,0,1,175.99609,116Zm53.65137,113.65771a8.0006,8.0006,0,0,1-11.31445,0l-43.2229-43.2229a92.11513,92.11513,0,1,1,11.31445-11.31347l43.2229,43.2229A8,8,0,0,1,229.64746,229.65771ZM115.99609,192a76,76,0,1,0-76-76A76.08614,76.08614,0,0,0,115.99609,192Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle
-            cx="119.99805"
-            cy="120.00293"
-            r="87.98531"
+            cx="115.99805"
+            cy="116"
+            r="84"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -84,10 +77,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="12"
           />
           <line
-            x1="182.22525"
-            y1="182.22965"
-            x2="223.99902"
-            y2="224.00342"
+            x1="175.39161"
+            y1="175.40039"
+            x2="223.99219"
+            y2="224.00098"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -99,11 +92,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle
-            cx="119.99902"
-            cy="120.00293"
-            r="87.98531"
+            cx="115.99902"
+            cy="116"
+            r="84"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -111,10 +103,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="8"
           />
           <line
-            x1="182.22623"
-            y1="182.22965"
-            x2="224"
-            y2="224.00342"
+            x1="175.39258"
+            y1="175.40039"
+            x2="223.99316"
+            y2="224.00098"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -126,11 +118,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle
-            cx="120"
-            cy="120.00293"
-            r="87.98531"
+            cx="116"
+            cy="116"
+            r="84"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -138,10 +129,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <line
-            x1="182.22721"
-            y1="182.22965"
-            x2="224.00098"
-            y2="224.00342"
+            x1="175.39356"
+            y1="175.40039"
+            x2="223.99414"
+            y2="224.00098"
             fill="none"
             stroke={color}
             strokeLinecap="round"

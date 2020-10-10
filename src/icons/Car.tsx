@@ -64,8 +64,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <path d="M224,184v24a8,8,0,0,1-8,8H192a8,8,0,0,1-8-8V184Z" />
-          <path d="M72,184v24a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V184Z" />
         </>
       );
     case "duotone":

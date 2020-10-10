@@ -9,7 +9,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
         <>
           <line
             x1="128.00001"
-            y1="136"
+            y1="144"
             x2="128.00001"
             y2="240"
             fill="none"
@@ -20,7 +20,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <circle
             cx="128.00001"
-            cy="112"
+            cy="120"
             r="24"
             fill="none"
             stroke={color}
@@ -29,7 +29,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="24"
           />
           <path
-            d="M41.56652,100.75177A111.60148,111.60148,0,0,0,71.99863,24.00022H184.0013a111.59962,111.59962,0,0,0,30.28917,76.59937L128,240Z"
+            d="M213.54294,107.79559A111.59855,111.59855,0,0,1,184,32H72a111.59857,111.59857,0,0,1-29.54333,75.796L128,240Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -42,13 +42,13 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
       return (
         <>
           <path
-            d="M184.00122,24H71.99854a111.60071,111.60071,0,0,1-30.43213,76.75195L128,240l86.29053-139.40039A111.6,111.6,0,0,1,184.00122,24ZM128,136a24,24,0,1,1,24-24A23.99994,23.99994,0,0,1,128,136Z"
+            d="M184,32H72a111.5987,111.5987,0,0,1-29.54346,75.7959L128,240l85.543-132.20459A111.59817,111.59817,0,0,1,184,32ZM128,144a24,24,0,1,1,24-24A23.99994,23.99994,0,0,1,128,144Z"
             opacity="0.2"
           />
           <line
-            x1="128"
-            y1="136"
-            x2="128"
+            x1="128.00001"
+            y1="144"
+            x2="128.00001"
             y2="240"
             fill="none"
             stroke={color}
@@ -57,8 +57,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <circle
-            cx="128"
-            cy="112"
+            cx="128.00001"
+            cy="120"
             r="24"
             fill="none"
             stroke={color}
@@ -67,7 +67,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <path
-            d="M41.56651,100.75177A111.60148,111.60148,0,0,0,71.99862,24.00022H184.00129a111.59962,111.59962,0,0,0,30.28917,76.59937L128,240Z"
+            d="M213.54294,107.79559A111.59855,111.59855,0,0,1,184,32H72a111.59857,111.59857,0,0,1-29.54333,75.796L128,240Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -80,8 +80,8 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
       return (
         <>
           <g>
-            <circle cx="128" cy="112" r="16" />
-            <path d="M220.125,95.12695a103.60446,103.60446,0,0,1-28.124-71.12646,8.00041,8.00041,0,0,0-8-8.00049H71.999a8.00041,8.00041,0,0,0-8,8.00049A103.58423,103.58423,0,0,1,35.74121,95.26855a7.99965,7.99965,0,0,0-.97168,9.70215l86.43359,139.24805A7.99775,7.99775,0,0,0,128,248h.00488a8.00024,8.00024,0,0,0,6.79688-3.78906l86.29-139.40039A7.99875,7.99875,0,0,0,220.125,95.12695ZM136,142.9873V192a8,8,0,0,1-16,0V142.9873a32,32,0,1,1,16,0Z" />
+            <path d="M219.43164,102.37988A103.69573,103.69573,0,0,1,192,32.0937,8.04,8.04,0,0,0,184,24H72a8.03995,8.03995,0,0,0-8,8.09369,103.69821,103.69821,0,0,1-27.4316,70.28717,8,8,0,0,0-.82813,9.76123l76.90148,118.84827A4,4,0,0,0,120,228.81736V150.9873a32,32,0,1,1,16,0v77.83a4,4,0,0,0,7.35829,2.173L220.25977,112.1416A8.00061,8.00061,0,0,0,219.43164,102.37988Z" />
+            <circle cx="128" cy="120" r="16" />
           </g>
         </>
       );
@@ -90,7 +90,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
         <>
           <line
             x1="128.00001"
-            y1="136"
+            y1="144"
             x2="128.00001"
             y2="240"
             fill="none"
@@ -101,7 +101,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <circle
             cx="128.00001"
-            cy="112"
+            cy="120"
             r="24"
             fill="none"
             stroke={color}
@@ -110,7 +110,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="12"
           />
           <path
-            d="M41.56652,100.75177A111.60148,111.60148,0,0,0,71.99863,24.00022H184.0013a111.59962,111.59962,0,0,0,30.28917,76.59937L128,240Z"
+            d="M213.54294,107.79559A111.59855,111.59855,0,0,1,184,32H72a111.59857,111.59857,0,0,1-29.54333,75.796L128,240Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -124,7 +124,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
         <>
           <line
             x1="128.00001"
-            y1="136"
+            y1="144"
             x2="128.00001"
             y2="240"
             fill="none"
@@ -135,7 +135,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <circle
             cx="128.00001"
-            cy="112"
+            cy="120"
             r="24"
             fill="none"
             stroke={color}
@@ -144,7 +144,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="8"
           />
           <path
-            d="M41.56652,100.75177A111.60148,111.60148,0,0,0,71.99863,24.00022H184.0013a111.59962,111.59962,0,0,0,30.28917,76.59937L128,240Z"
+            d="M213.54294,107.79559A111.59855,111.59855,0,0,1,184,32H72a111.59857,111.59857,0,0,1-29.54333,75.796L128,240Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -158,7 +158,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
         <>
           <line
             x1="128.00001"
-            y1="136"
+            y1="144"
             x2="128.00001"
             y2="240"
             fill="none"
@@ -169,7 +169,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
           />
           <circle
             cx="128.00001"
-            cy="112"
+            cy="120"
             r="24"
             fill="none"
             stroke={color}
@@ -178,7 +178,7 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <path
-            d="M41.56652,100.75177A111.60148,111.60148,0,0,0,71.99863,24.00022H184.0013a111.59962,111.59962,0,0,0,30.28917,76.59937L128,240Z"
+            d="M213.54294,107.79559A111.59855,111.59855,0,0,1,184,32H72a111.59857,111.59857,0,0,1-29.54333,75.796L128,240Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"

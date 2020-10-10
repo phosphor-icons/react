@@ -7,7 +7,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle
             cx="128"
             cy="128"
@@ -32,7 +31,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle cx="128" cy="128" r="96" opacity="0.2" />
           <circle
             cx="128"
@@ -58,14 +56,12 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <path d="M128.00146,24a104,104,0,1,0,104,104A104.12041,104.12041,0,0,0,128.00146,24Zm-.001,168a12,12,0,1,1,12-12A12,12,0,0,1,128.00049,192Zm28.28222-51.71875a39.6414,39.6414,0,0,1-20.28125,10.92187V152a8,8,0,1,1-16,0v-8a7.9954,7.9954,0,0,1,8-8,23.99744,23.99744,0,0,0,16.96875-40.96875c-9.0625-9.07813-24.88281-9.07813-33.92968,0A23.78173,23.78173,0,0,0,104.00146,112a8,8,0,0,1-16,0A39.73412,39.73412,0,0,1,99.72021,83.71094c15.09375-15.09375,41.46094-15.10157,56.57032.00781a39.99485,39.99485,0,0,1-.00782,56.5625Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle
             cx="128"
             cy="128"
@@ -90,7 +86,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle
             cx="128"
             cy="128"
@@ -115,7 +110,6 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
           <circle
             cx="128"
             cy="128"

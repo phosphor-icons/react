@@ -7,11 +7,21 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
+          <line
+            x1="83.99707"
+            y1="116"
+            x2="147.99707"
+            y2="116"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
           <circle
-            cx="119.99707"
-            cy="120"
-            r="87.98531"
+            cx="115.99707"
+            cy="115.99707"
+            r="84"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -19,21 +29,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="24"
           />
           <line
-            x1="87.99707"
-            y1="120"
-            x2="151.99707"
-            y2="120"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <line
-            x1="182.22428"
-            y1="182.22672"
-            x2="223.99805"
-            y2="224.00049"
+            x1="175.39063"
+            y1="175.39747"
+            x2="223.99121"
+            y2="223.99805"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -45,12 +44,22 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "duotone":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
-          <circle cx="119.99512" cy="120" r="87.98531" opacity="0.2" />
+          <circle cx="115.99512" cy="115.99707" r="84" opacity="0.2" />
+          <line
+            x1="83.99512"
+            y1="116"
+            x2="147.99512"
+            y2="116"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
           <circle
-            cx="119.99512"
-            cy="120"
-            r="87.98531"
+            cx="115.99512"
+            cy="115.99707"
+            r="84"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -58,21 +67,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <line
-            x1="87.99512"
-            y1="120"
-            x2="151.99512"
-            y2="120"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="182.22232"
-            y1="182.22672"
-            x2="223.99609"
-            y2="224.00049"
+            x1="175.38868"
+            y1="175.39747"
+            x2="223.98926"
+            y2="223.99805"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -84,18 +82,27 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "fill":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
-          <path d="M229.6543,218.34375l-36.33106-36.33136a96.49907,96.49907,0,1,0-25.335,21.11359,97.03552,97.03552,0,0,0,13.9856-9.83509l36.366,36.36634a8.00018,8.00018,0,1,0,11.31446-11.31348ZM151.99609,128h-64a8,8,0,1,1,0-16h64a8,8,0,0,1,0,16Z" />
+          <path d="M229.64746,218.34131l-43.2229-43.22284a92.11145,92.11145,0,1,0-11.31445,11.31341l43.2229,43.22291a8.00018,8.00018,0,0,0,11.31445-11.31348ZM147.99609,124h-64a8,8,0,1,1,0-16h64a8,8,0,0,1,0,16Z" />
         </>
       );
     case "light":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
+          <line
+            x1="83.99805"
+            y1="116"
+            x2="147.99805"
+            y2="116"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
           <circle
-            cx="119.99805"
-            cy="120"
-            r="87.98531"
+            cx="115.99805"
+            cy="115.99707"
+            r="84"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -103,21 +110,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="12"
           />
           <line
-            x1="87.99805"
-            y1="120"
-            x2="151.99805"
-            y2="120"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <line
-            x1="182.22525"
-            y1="182.22672"
-            x2="223.99902"
-            y2="224.00049"
+            x1="175.39161"
+            y1="175.39747"
+            x2="223.99219"
+            y2="223.99805"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -129,11 +125,21 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "thin":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
+          <line
+            x1="83.99902"
+            y1="116"
+            x2="147.99902"
+            y2="116"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
           <circle
-            cx="119.99902"
-            cy="120"
-            r="87.98531"
+            cx="115.99902"
+            cy="115.99707"
+            r="84"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -141,21 +147,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="8"
           />
           <line
-            x1="87.99902"
-            y1="120"
-            x2="151.99902"
-            y2="120"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <line
-            x1="182.22623"
-            y1="182.22672"
-            x2="224"
-            y2="224.00049"
+            x1="175.39258"
+            y1="175.39747"
+            x2="223.99316"
+            y2="223.99805"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -167,11 +162,21 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
     case "regular":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
+          <line
+            x1="84"
+            y1="116"
+            x2="148"
+            y2="116"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
           <circle
-            cx="120"
-            cy="120"
-            r="87.98531"
+            cx="116"
+            cy="115.99707"
+            r="84"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -179,21 +184,10 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
             strokeWidth="16"
           />
           <line
-            x1="88"
-            y1="120"
-            x2="152"
-            y2="120"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <line
-            x1="182.22721"
-            y1="182.22672"
-            x2="224.00098"
-            y2="224.00049"
+            x1="175.39356"
+            y1="175.39747"
+            x2="223.99414"
+            y2="223.99805"
             fill="none"
             stroke={color}
             strokeLinecap="round"

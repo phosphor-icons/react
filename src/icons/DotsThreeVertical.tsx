@@ -7,55 +7,61 @@ const renderPathFor = (weight: string): JSX.Element | null => {
     case "bold":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
-          <circle cx="128" cy="64" r="16" />
-          <circle cx="128" cy="192" r="16" />
-          <circle cx="128" cy="128" r="16" />
+          <g>
+            <circle cx="128" cy="64" r="16" />
+            <circle cx="128" cy="192" r="16" />
+            <circle cx="128" cy="128" r="16" />
+          </g>
         </>
       );
     case "duotone":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
-          <circle cx="128" cy="128" r="12" />
-          <circle cx="128" cy="64" r="12" />
-          <circle cx="128" cy="192" r="12" />
+          <g>
+            <circle cx="128" cy="128" r="12" />
+            <circle cx="128" cy="64" r="12" />
+            <circle cx="128" cy="192" r="12" />
+          </g>
         </>
       );
     case "fill":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
-          <circle cx="128" cy="128" r="32" />
-          <circle cx="128" cy="48" r="32" />
-          <circle cx="128" cy="208" r="32" />
+          <g>
+            <circle cx="128" cy="128" r="32" />
+            <circle cx="128" cy="48" r="32" />
+            <circle cx="128" cy="208" r="32" />
+          </g>
         </>
       );
     case "light":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
-          <circle cx="128" cy="128" r="9" />
-          <circle cx="128" cy="64" r="9" />
-          <circle cx="128" cy="192" r="9" />
+          <g>
+            <circle cx="128" cy="128" r="9" />
+            <circle cx="128" cy="64" r="9" />
+            <circle cx="128" cy="192" r="9" />
+          </g>
         </>
       );
     case "thin":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
-          <circle cx="128" cy="128" r="6" />
-          <circle cx="128" cy="64" r="6" />
-          <circle cx="128" cy="192" r="6" />
+          <g>
+            <circle cx="128" cy="128" r="6" />
+            <circle cx="128" cy="64" r="6" />
+            <circle cx="128" cy="192" r="6" />
+          </g>
         </>
       );
     case "regular":
       return (
         <>
-          <rect x="0.00049" width="255.99951" height="256" fill="none" />
-          <circle cx="128" cy="128" r="12" />
-          <circle cx="128" cy="64" r="12" />
-          <circle cx="128" cy="192" r="12" />
+          <g>
+            <circle cx="128" cy="128" r="12" />
+            <circle cx="128" cy="64" r="12" />
+            <circle cx="128" cy="192" r="12" />
+          </g>
         </>
       );
     default:

@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <rect width="256" height="256" fill="none"/>
   <path d="M192.00244,77.33333a8,8,0,0,1-1.6,4.8l-20.8,27.73334a8,8,0,0,0-1.6,4.8V224a8,8,0,0,1-8,8h-64a8,8,0,0,1-8-8V114.66667a8,8,0,0,0-1.6-4.8l-20.8-27.73334a8,8,0,0,1-1.6-4.8V64h128Z" opacity="0.2"/>
   <path d="M72.00244,24h112a8,8,0,0,1,8,8V77.33333a8,8,0,0,1-1.6,4.8l-20.8,27.73334a8,8,0,0,0-1.6,4.8V224a8,8,0,0,1-8,8h-64a8,8,0,0,1-8-8V114.66667a8,8,0,0,0-1.6-4.8l-20.8-27.73334a8,8,0,0,1-1.6-4.8V32A8,8,0,0,1,72.00244,24Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
