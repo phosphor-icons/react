@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/QKFwzHe.png" width="192" align="right" />
+<img src="/meta/phosphor-mark-tight-yellow.png" width="192" align="right" />
 
 # phosphor-react
 
