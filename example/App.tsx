@@ -6,7 +6,7 @@ import "./index.css";
 const isIcon = (candidate: any): candidate is Icon =>
   "displayName" in candidate;
 
-const iconCount = Object.values(Icons).reduce((total, Icon) => {
+const iconCount = Object.values(Icons).reduce<number>((total, Icon) => {
   if (isIcon(Icon)) return total + 1;
   return total;
 }, 0);
@@ -87,7 +87,11 @@ const App = () => {
           size={32}
           weight="regular"
           onClick={() => setWeight("regular")}
-        />
+        >
+          <rect height="256" width="256" fill="crimson">
+            <title>I have children!</title>
+          </rect>
+        </Icons.Cube>
         <Icons.Cube
           style={{ cursor: "pointer" }}
           color="crimson"

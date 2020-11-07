@@ -144,13 +144,13 @@ const renderPathFor = (weight: string, color: string): JSX.Element | null => {
 };
 
 const Smiley = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
-  const { color, size, weight, mirrored, ...rest } = props;
+  const { color, size, weight, mirrored, children, ...restProps } = props;
   const {
     color: contextColor,
     size: contextSize,
     weight: contextWeight,
     mirrored: contextMirrored,
-    ...contextRest
+    ...restContext
   } = useContext(IconContext);
 
   return (
@@ -162,9 +162,10 @@ const Smiley = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       fill={color ?? contextColor}
       viewBox="0 0 256 256"
       transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
-      {...contextRest}
-      {...rest}
+      {...restContext}
+      {...restProps}
     >
+      {children}
       <rect width="256" height="256" fill="none" />
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
