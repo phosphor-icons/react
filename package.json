@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": "phosphor-icons/phosphor-react",
   "homepage": "https://phosphoricons.com",
-  "module": "dist/phosphor-react.esm.js",
+  "module": "dist/index.esm.js",
   "main": "dist/index.js",
   "sideEffects": false,
   "typings": "dist/index.d.ts",
