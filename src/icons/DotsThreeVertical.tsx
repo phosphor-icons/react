@@ -2,7 +2,7 @@
 import React, { forwardRef, useContext } from "react";
 import { IconProps, IconContext } from "../lib";
 
-const renderPathFor = (weight: string): JSX.Element | null => {
+const renderPathFor = (weight: string): React.ReactNode | null => {
   switch (weight) {
     case "bold":
       return (

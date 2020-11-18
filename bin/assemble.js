@@ -86,7 +86,7 @@ function generateComponents() {
 import React, { forwardRef, useContext } from "react";
 import { IconProps, IconContext } from "../lib";
 
-const renderPathFor = (weight: string, color: string): JSX.Element | null => {
+const renderPathFor = (weight: string, color: string): React.ReactNode | null => {
   switch (weight) {`;
 
     if (!checkFiles(icon)) {
