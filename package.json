@@ -58,9 +58,9 @@
     "@types/react-dom": "^16.9.8",
     "chalk": "^4.1.0",
     "husky": "^4.2.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "tsdx": "^0.13.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tsdx": "^0.14.1",
     "tslib": "^2.0.0",
     "typescript": "^3.9.7"
   }
