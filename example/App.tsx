@@ -88,9 +88,22 @@ const App = () => {
           weight="regular"
           onClick={() => setWeight("regular")}
         >
-          <rect height="256" width="256" fill="crimson">
-            <title>I have children!</title>
-          </rect>
+          <animate
+            attributeName="opacity"
+            values="0;1;0"
+            dur="4s"
+            repeatCount="indefinite"
+          />
+          <animateTransform
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            dur="5s"
+            from="0 0 0"
+            to="360 0 0"
+            repeatCount="indefinite"
+          />
+          <title>I have children!</title>
         </Icons.Cube>
         <Icons.Cube
           style={{ cursor: "pointer" }}
