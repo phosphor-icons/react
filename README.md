@@ -97,26 +97,28 @@ Components can accept arbitrary SVG elements as children, so long as they are va
 
 The following will cause the Cube icon to rotate and pulse:
 
-```tsx
-const RotatingCube = () => (
-  <Cube color="darkorchid" weight="duotone">
-    <animate
-      attributeName="opacity"
-      values="0;1;0"
-      dur="4s"
-      repeatCount="indefinite"
-    />
-    <animateTransform
-      attributeName="transform"
-      attributeType="XML"
-      type="rotate"
-      dur="5s"
-      from="0 0 0"
-      to="360 0 0"
-      repeatCount="indefinite"
-    />
-  </Cube>
-);
+```jsx
+const RotatingCube = () => {
+  return (
+    <Cube color="darkorchid" weight="duotone">
+      <animate
+        attributeName="opacity"
+        values="0;1;0"
+        dur="4s"
+        repeatCount="indefinite"
+      ></animate>
+      <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        type="rotate"
+        dur="5s"
+        from="0 0 0"
+        to="360 0 0"
+        repeatCount="indefinite"
+      ></animateTransform>
+    </Cube>
+  );
+};
 ```
 
 > **Note:** The coordinate space of slotted elements is relative to the contents of the icon `viewBox`, which is a 256x256 square. Only [valid SVG elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#SVG_elements_by_category) will be rendered.
