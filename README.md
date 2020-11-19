@@ -99,23 +99,23 @@ The following will cause the Cube icon to rotate and pulse:
 
 ```tsx
 const RotatingCube = () => (
-<Cube color="darkorchid" weight="duotone">
-  <animate
-    attributeName="opacity"
-    values="0;1;0"
-    dur="4s"
-    repeatCount="indefinite"
-  />
-  <animateTransform
-    attributeName="transform"
-    attributeType="XML"
-    type="rotate"
-    dur="5s"
-    from="0 0 0"
-    to="360 0 0"
-    repeatCount="indefinite"
-  />
-</Cube>
+  <Cube color="darkorchid" weight="duotone">
+    <animate
+      attributeName="opacity"
+      values="0;1;0"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      dur="5s"
+      from="0 0 0"
+      to="360 0 0"
+      repeatCount="indefinite"
+    />
+  </Cube>
 );
 ```
 
