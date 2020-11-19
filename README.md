@@ -89,8 +89,37 @@ You may create multiple Contexts for styling icons differently in separate regio
 
 > **Note:** The `color`, `size`, `weight`, and `mirrored` properties are all _required_ props when creating a context.
 
-<!-- ### Composability -->
-<!-- Icons can be composed with children... -->
+### Composability
+
+<img src="/meta/cube-rotate.svg" width="128" align="right" />
+
+Components can accept arbitrary SVG elements as children, so long as they are valid children of the `<svg>` element. This can be used to modify an icon with background layers or shapes, filters, animations and more. The children will be placed *below* the normal icon contents.
+
+The following will cause the Cube icon to rotate and pulse:
+
+```tsx
+const RotatingCube = () => (
+<Cube color="darkorchid" weight="duotone">
+  <animate
+    attributeName="opacity"
+    values="0;1;0"
+    dur="4s"
+    repeatCount="indefinite"
+  />
+  <animateTransform
+    attributeName="transform"
+    attributeType="XML"
+    type="rotate"
+    dur="5s"
+    from="0 0 0"
+    to="360 0 0"
+    repeatCount="indefinite"
+  />
+</Cube>
+);
+```
+
+> **Note:** The coordinate space of slotted elements is relative to the contents of the icon `viewBox`, which is a 256x256 square. Only [valid SVG elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#SVG_elements_by_category) will be rendered.
 
 ### Imports
 

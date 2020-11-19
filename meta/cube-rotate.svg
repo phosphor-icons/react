@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="64" height="64" fill="darkorchid">
+  <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"></animate>
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="5s" from="0 0 0" to="360 0 0" repeatCount="indefinite"></animateTransform>
+  <g>
+    <g opacity="0.2">
+      <path d="M37.10205,76.61578A7.99474,7.99474,0,0,0,36,80.66772v94.66456a8,8,0,0,0,4.06354,6.96451l84,47.47826A7.99524,7.99524,0,0,0,128,230.81054v-.00018L129.06171,128l-91.959-51.38385Z"></path>
+    </g>
+    <line x1="129.06171" y1="128" x2="128" y2="230.81036" fill="none" stroke="darkorchid" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+    <path d="M220,175.33228V80.66772a8,8,0,0,0-4.06354-6.9645l-84-47.47826a8,8,0,0,0-7.87292,0l-84,47.47826A8,8,0,0,0,36,80.66772v94.66456a8,8,0,0,0,4.06354,6.96451l84,47.47826a8,8,0,0,0,7.87292,0l84-47.47826A8,8,0,0,0,220,175.33228Z" fill="none" stroke="darkorchid" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path>
+    <polyline points="218.904 76.627 129.062 128 37.103 76.616" fill="none" stroke="darkorchid" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+  </g>
+</svg>
