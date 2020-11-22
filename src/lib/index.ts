@@ -1,8 +1,6 @@
-import { SVGAttributes, createContext, HTMLAttributes } from "react";
+import { createContext, ComponentPropsWithoutRef } from "react";
 
-export interface IconProps
-  extends HTMLAttributes<SVGSVGElement>,
-    SVGAttributes<SVGSVGElement> {
+export interface IconProps extends ComponentPropsWithoutRef<"svg"> {
   color?: string;
   size?: string | number;
   weight?: "thin" | "light" | "regular" | "bold" | "fill" | "duotone";
@@ -16,7 +14,7 @@ export type Icon = React.ForwardRefExoticComponent<
 export type IconContextProps = Required<
   Pick<IconProps, "color" | "size" | "weight" | "mirrored">
 > &
-  SVGAttributes<SVGSVGElement>;
+  ComponentPropsWithoutRef<"svg">;
 
 export const IconContext = createContext<IconContextProps>({
   color: "currentColor",
