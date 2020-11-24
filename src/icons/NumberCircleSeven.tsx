@@ -21,7 +21,7 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <polyline
-            points="104 87.997 152 87.997 120 183.997"
+            points="104 84 152 84 120 180"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -44,7 +44,7 @@ const renderPathFor = (
             strokeWidth="16"
           />
           <polyline
-            points="104 87.997 152 87.997 120 183.997"
+            points="104 84 152 84 120 180"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -56,7 +56,7 @@ const renderPathFor = (
     case "fill":
       return (
         <>
-          <path d="M128,24A104,104,0,1,0,232,128,104.12041,104.12041,0,0,0,128,24Zm31.58594,66.53125-32,96a7.99711,7.99711,0,1,1-15.17188-5.0625L140.89844,96H104a8,8,0,0,1,0-16h48a7.99231,7.99231,0,0,1,7.58594,10.53125Z" />
+          <path d="M128,24A104,104,0,1,0,232,128,104.11791,104.11791,0,0,0,128,24Zm31.58984,62.53027-32,96a8.0005,8.0005,0,1,1-15.17968-5.06054L140.90039,92H104a8,8,0,0,1,0-16h48a8.00022,8.00022,0,0,1,7.58984,10.53027Z" />
         </>
       );
     case "light":
@@ -73,7 +73,7 @@ const renderPathFor = (
             strokeWidth="12"
           />
           <polyline
-            points="104 87.997 152 87.997 120 183.997"
+            points="104 84 152 84 120 180"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -96,7 +96,7 @@ const renderPathFor = (
             strokeWidth="8"
           />
           <polyline
-            points="104 87.997 152 87.997 120 183.997"
+            points="104 84 152 84 120 180"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -118,7 +118,7 @@ const renderPathFor = (
             strokeWidth="16"
           />
           <polyline
-            points="104 87.997 152 87.997 120 183.997"
+            points="104 84 152 84 120 180"
             fill="none"
             stroke={color}
             strokeLinecap="round"

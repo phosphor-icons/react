@@ -1,8 +1,7 @@
 <svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <rect width="256" height="256" fill="none"/>
-  <line x1="88" y1="96" x2="192" y2="96" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <line x1="88" y1="128" x2="192" y2="128" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <line x1="88" y1="160" x2="192" y2="160" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <path d="M32,208a16,16,0,0,0,16-16V56a8,8,0,0,1,8-8H224a8,8,0,0,1,8,8V192a16,16,0,0,1-16,16Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <path d="M32,208a16,16,0,0,1-16-16V80" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="92" y1="92" x2="196" y2="92" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="92" y1="128" x2="196" y2="128" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="92" y1="164" x2="196" y2="164" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M32,208H216a20,20,0,0,0,20-20V56a8,8,0,0,0-8-8H60a8,8,0,0,0-8,8V188a20,20,0,0,1-40,0V80" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
 </svg>

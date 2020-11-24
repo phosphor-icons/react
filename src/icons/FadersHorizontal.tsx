@@ -11,7 +11,7 @@ const renderPathFor = (
       return (
         <>
           <line
-            x1="135.99902"
+            x1="131.99902"
             y1="171.99304"
             x2="39.99902"
             y2="171.99317"
@@ -24,7 +24,7 @@ const renderPathFor = (
           <line
             x1="215.99902"
             y1="171.99317"
-            x2="167.99902"
+            x2="171.99902"
             y2="171.99304"
             fill="none"
             stroke={color}
@@ -33,7 +33,7 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="71.99902"
+            x1="67.99902"
             y1="83.99304"
             x2="39.99902"
             y2="83.99246"
@@ -46,7 +46,7 @@ const renderPathFor = (
           <line
             x1="215.99902"
             y1="83.99246"
-            x2="103.99902"
+            x2="107.99902"
             y2="83.99304"
             fill="none"
             stroke={color}
@@ -55,9 +55,9 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="103.99902"
+            x1="107.99902"
             y1="59.99304"
-            x2="103.99902"
+            x2="107.99902"
             y2="107.99304"
             fill="none"
             stroke={color}
@@ -66,9 +66,9 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="167.99902"
+            x1="171.99902"
             y1="195.99304"
-            x2="167.99902"
+            x2="171.99902"
             y2="147.99304"
             fill="none"
             stroke={color}

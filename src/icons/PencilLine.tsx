@@ -29,16 +29,22 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <polyline
-            points="216 216 96 216 40.509 160.509"
+          <line
+            x1="44"
+            y1="156"
+            x2="103.99998"
+            y2="216"
             fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <path
-            d="M40.508,160.50848A7.998,7.998,0,0,0,40,163.31371V208a8,8,0,0,0,8,8H96L40.5088,160.5088Z"
+          <line
+            x1="216"
+            y1="216"
+            x2="96"
+            y2="216"
             fill="none"
             stroke={color}
             strokeLinecap="round"

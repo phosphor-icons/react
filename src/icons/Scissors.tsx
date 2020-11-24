@@ -43,9 +43,9 @@ const renderPathFor = (
           />
           <line
             x1="232"
-            y1="62.31579"
-            x2="164.33455"
-            y2="108.6132"
+            y1="193.68421"
+            x2="83.10611"
+            y2="91.80944"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -54,9 +54,9 @@ const renderPathFor = (
           />
           <line
             x1="232"
-            y1="193.68421"
-            x2="83.10611"
-            y2="91.80944"
+            y1="62.31579"
+            x2="171.41815"
+            y2="103.76653"
             fill="none"
             stroke={color}
             strokeLinecap="round"

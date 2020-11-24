@@ -13,8 +13,8 @@ const renderPathFor = (
           <rect
             x="48"
             y="48"
-            width="64"
-            height="64"
+            width="60"
+            height="60"
             strokeWidth="24"
             stroke={color}
             strokeLinecap="round"
@@ -22,10 +22,10 @@ const renderPathFor = (
             fill="none"
           />
           <rect
-            x="144"
+            x="148"
             y="48"
-            width="64"
-            height="64"
+            width="60"
+            height="60"
             strokeWidth="24"
             stroke={color}
             strokeLinecap="round"
@@ -34,9 +34,9 @@ const renderPathFor = (
           />
           <rect
             x="48"
-            y="144"
-            width="64"
-            height="64"
+            y="148"
+            width="60"
+            height="60"
             strokeWidth="24"
             stroke={color}
             strokeLinecap="round"
@@ -44,10 +44,10 @@ const renderPathFor = (
             fill="none"
           />
           <rect
-            x="144"
-            y="144"
-            width="64"
-            height="64"
+            x="148"
+            y="148"
+            width="60"
+            height="60"
             strokeWidth="24"
             stroke={color}
             strokeLinecap="round"

@@ -1,0 +1,5 @@
+<svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="none"/>
+  <rect x="-8" y="96" width="176" height="64" rx="8" transform="translate(208 48) rotate(90)" stroke-width="12" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="88" y="96" width="176" height="64" rx="8" transform="translate(304 -48) rotate(90)" stroke-width="12" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

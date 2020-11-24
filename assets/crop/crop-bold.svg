@@ -2,6 +2,6 @@
   <rect width="256" height="256" fill="none"/>
   <line x1="55.99414" y1="56" x2="16.00244" y2="56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
   <polyline points="56.002 16 56.002 200.001 240.002 200.001" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <polyline points="200.002 168.001 200.002 56 87.994 56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <polyline points="200.002 160.001 200.002 56 95.994 56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
   <line x1="200.00244" y1="240.00098" x2="200.00244" y2="200.00098" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
 </svg>

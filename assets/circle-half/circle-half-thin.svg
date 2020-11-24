@@ -2,4 +2,7 @@
   <rect width="256" height="256" fill="none"/>
   <circle cx="128" cy="128" r="96" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <line x1="128" y1="32" x2="128" y2="224" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="127.99998" y1="48.00584" x2="222.85577" y2="142.86163" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="128.00002" y1="104.00588" x2="206.81368" y2="182.81953" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="128.00002" y1="160.00588" x2="177.97522" y2="209.98108" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
 </svg>

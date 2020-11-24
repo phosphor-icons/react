@@ -19,10 +19,10 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="72"
-            y1="72"
-            x2="184"
-            y2="72"
+            x1="80"
+            y1="80"
+            x2="176"
+            y2="80"
             fill="none"
             stroke={color}
             strokeLinecap="round"

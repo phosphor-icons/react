@@ -11,7 +11,7 @@ const renderPathFor = (
       return (
         <>
           <polyline
-            points="123.998 76 100 143.994 148 143.994"
+            points="123.998 76 100 144 148 144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -48,7 +48,7 @@ const renderPathFor = (
         <>
           <rect x="40" y="40" width="176" height="176" rx="8" opacity="0.2" />
           <polyline
-            points="123.998 76 100 143.994 148 143.994"
+            points="123.998 76 100 144 148 144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -57,9 +57,9 @@ const renderPathFor = (
           />
           <line
             x1="148"
-            y1="111.99435"
+            y1="112"
             x2="148"
-            y2="175.99435"
+            y2="176"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -83,14 +83,14 @@ const renderPathFor = (
     case "fill":
       return (
         <>
-          <path d="M208,32H48A16.02085,16.02085,0,0,0,32,48V208a16.02085,16.02085,0,0,0,16,16H208a16.02085,16.02085,0,0,0,16-16V48A16.02085,16.02085,0,0,0,208,32ZM156,175.99219a8,8,0,0,1-16,0v-24H100a8.006,8.006,0,0,1-7.54687-10.66406l24-67.99219a8.00328,8.00328,0,0,1,15.09375,5.32812l-20.24219,57.32813H140v-24a8,8,0,0,1,16,0Z" />
+          <path d="M208,32H48A16.01833,16.01833,0,0,0,32,48V208a16.01833,16.01833,0,0,0,16,16H208a16.01833,16.01833,0,0,0,16-16V48A16.01833,16.01833,0,0,0,208,32ZM156,176a8,8,0,0,1-16,0V152H100a8.00052,8.00052,0,0,1-7.54395-10.6626l23.998-68A8,8,0,0,1,131.542,78.6626L111.30664,136H140V112a8,8,0,0,1,16,0Z" />
         </>
       );
     case "light":
       return (
         <>
           <polyline
-            points="123.998 76 100 143.994 148 143.994"
+            points="123.998 76 100 144 148 144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -99,9 +99,9 @@ const renderPathFor = (
           />
           <line
             x1="148"
-            y1="111.99435"
+            y1="112"
             x2="148"
-            y2="175.99435"
+            y2="176"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -126,7 +126,7 @@ const renderPathFor = (
       return (
         <>
           <polyline
-            points="123.998 76 100 143.994 148 143.994"
+            points="123.998 76 100 144 148 144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -135,9 +135,9 @@ const renderPathFor = (
           />
           <line
             x1="148"
-            y1="111.99435"
+            y1="112"
             x2="148"
-            y2="175.99435"
+            y2="176"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -162,7 +162,7 @@ const renderPathFor = (
       return (
         <>
           <polyline
-            points="123.998 76 100 143.994 148 143.994"
+            points="123.998 76 100 144 148 144"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -171,9 +171,9 @@ const renderPathFor = (
           />
           <line
             x1="148"
-            y1="111.99435"
+            y1="112"
             x2="148"
-            y2="175.99435"
+            y2="176"
             fill="none"
             stroke={color}
             strokeLinecap="round"

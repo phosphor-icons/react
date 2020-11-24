@@ -12,7 +12,7 @@ const renderPathFor = (
         <>
           <rect
             x="32.00781"
-            y="72.00005"
+            y="68.00005"
             width="192"
             height="144"
             rx="8"
@@ -23,7 +23,7 @@ const renderPathFor = (
             fill="none"
           />
           <path
-            d="M168,104V48a8,8,0,0,0-8-8H96a8,8,0,0,0-8,8v56"
+            d="M168,68V48a16,16,0,0,0-16-16H104A16,16,0,0,0,88,48V68"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -56,7 +56,7 @@ const renderPathFor = (
             fill="none"
           />
           <path
-            d="M168,104V48a8,8,0,0,0-8-8H96a8,8,0,0,0-8,8v56"
+            d="M168,72V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V72"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -68,7 +68,7 @@ const renderPathFor = (
     case "fill":
       return (
         <>
-          <path d="M216.00781,64H176V48a16.01833,16.01833,0,0,0-16-16H96A16.01833,16.01833,0,0,0,80,48V64H40.00781a16.01833,16.01833,0,0,0-16,16V208a16.01833,16.01833,0,0,0,16,16h176a16.01833,16.01833,0,0,0,16-16V80A16.01833,16.01833,0,0,0,216.00781,64ZM96,48h64V64H96Z" />
+          <path d="M216.00781,64H176V56a24.0275,24.0275,0,0,0-24-24H104A24.0275,24.0275,0,0,0,80,56v8H40.00781a16.01833,16.01833,0,0,0-16,16V208a16.01833,16.01833,0,0,0,16,16h176a16.01833,16.01833,0,0,0,16-16V80A16.01833,16.01833,0,0,0,216.00781,64ZM96,56a8.00917,8.00917,0,0,1,8-8h48a8.00917,8.00917,0,0,1,8,8v8H96Z" />
         </>
       );
     case "light":
@@ -87,7 +87,7 @@ const renderPathFor = (
             fill="none"
           />
           <path
-            d="M168,104V48a8,8,0,0,0-8-8H96a8,8,0,0,0-8,8v56"
+            d="M168,72V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V72"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -112,7 +112,7 @@ const renderPathFor = (
             fill="none"
           />
           <path
-            d="M168,104V48a8,8,0,0,0-8-8H96a8,8,0,0,0-8,8v56"
+            d="M168,72V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V72"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -137,7 +137,7 @@ const renderPathFor = (
             fill="none"
           />
           <path
-            d="M168,104V48a8,8,0,0,0-8-8H96a8,8,0,0,0-8,8v56"
+            d="M168,72V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V72"
             fill="none"
             stroke={color}
             strokeLinecap="round"

@@ -10,9 +10,8 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <circle cx="188.00054" cy="168" r="16" />
           <path
-            d="M176,128h48a8,8,0,0,1,8,8v64a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V136a8,8,0,0,1,8-8H80"
+            d="M172,128h52a8,8,0,0,1,8,8v64a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V136a8,8,0,0,1,8-8H84"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -38,12 +37,21 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="24"
           />
+          <circle
+            cx="188"
+            cy="168"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
         </>
       );
     case "duotone":
       return (
         <>
-          <circle cx="188.00054" cy="168" r="12" />
           <rect x="24" y="128" width="208" height="80" rx="8" opacity="0.2" />
           <path
             d="M176,128h48a8,8,0,0,1,8,8v64a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V136a8,8,0,0,1,8-8H80"
@@ -72,6 +80,16 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="16"
           />
+          <circle
+            cx="188"
+            cy="168"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
         </>
       );
     case "fill":
@@ -86,7 +104,6 @@ const renderPathFor = (
     case "light":
       return (
         <>
-          <circle cx="188.00054" cy="168" r="9" />
           <path
             d="M176,128h48a8,8,0,0,1,8,8v64a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V136a8,8,0,0,1,8-8H80"
             fill="none"
@@ -108,6 +125,16 @@ const renderPathFor = (
           />
           <polyline
             points="80 72 128 24 176 72"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <circle
+            cx="188"
+            cy="168"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -119,7 +146,6 @@ const renderPathFor = (
     case "thin":
       return (
         <>
-          <circle cx="188.00054" cy="168" r="6" />
           <path
             d="M176,128h48a8,8,0,0,1,8,8v64a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V136a8,8,0,0,1,8-8H80"
             fill="none"
@@ -141,6 +167,16 @@ const renderPathFor = (
           />
           <polyline
             points="80 72 128 24 176 72"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <circle
+            cx="188"
+            cy="168"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -152,7 +188,6 @@ const renderPathFor = (
     case "regular":
       return (
         <>
-          <circle cx="188.00054" cy="168" r="12" />
           <path
             d="M176,128h48a8,8,0,0,1,8,8v64a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V136a8,8,0,0,1,8-8H80"
             fill="none"
@@ -174,6 +209,16 @@ const renderPathFor = (
           />
           <polyline
             points="80 72 128 24 176 72"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle
+            cx="188"
+            cy="168"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"

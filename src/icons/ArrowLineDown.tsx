@@ -14,7 +14,7 @@ const renderPathFor = (
             x1="128"
             y1="23.99627"
             x2="128"
-            y2="183.99627"
+            y2="175.99627"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -22,7 +22,7 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <polyline
-            points="56 111.996 128 183.996 200 111.996"
+            points="56 103.996 128 175.996 200 103.996"
             fill="none"
             stroke={color}
             strokeLinecap="round"

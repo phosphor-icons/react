@@ -1,10 +1,10 @@
 <svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <rect width="256" height="256" fill="none"/>
-  <circle cx="127.98633" cy="200.0029" r="6"/>
   <line x1="47.99414" y1="40" x2="207.99414" y2="216" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <path d="M107.124,57.47077a148.358,148.358,0,0,1,20.86235-1.46787,145.90176,145.90176,0,0,1,102.9284,42.17662" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <path d="M25.05793,98.17952A145.88673,145.88673,0,0,1,72.41951,66.8671" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <path d="M152.11381,106.95874A97.88563,97.88563,0,0,1,197,132.12064" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <path d="M58.97271,132.12064a97.89874,97.89874,0,0,1,49.03639-26.105" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <path d="M92.91383,166.06177a50.81565,50.81565,0,0,1,67.576-2.317" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="127.98828" cy="200" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
 </svg>

@@ -1,0 +1,8 @@
+<svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="none"/>
+  <line x1="220" y1="108" x2="220" y2="60" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="244" y1="84" x2="196" y2="84" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="164" y1="20" x2="164" y2="52" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="180" y1="36" x2="148" y2="36" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M221.567,149.56784A96.0849,96.0849,0,0,1,106.43219,34.43294l-.00127-.00029A96.01213,96.01213,0,1,0,221.56729,149.56932Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+</svg>

@@ -10,10 +10,11 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <circle
-            cx="200"
-            cy="56"
-            r="16"
+          <line
+            x1="200"
+            y1="56"
+            x2="200"
+            y2="36"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -22,31 +23,9 @@ const renderPathFor = (
           />
           <line
             x1="200"
-            y1="40"
-            x2="200"
-            y2="28"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <line
-            x1="186.14359"
-            y1="48"
-            x2="175.75129"
-            y2="42"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <line
-            x1="186.14359"
-            y1="64"
-            x2="175.75129"
-            y2="70"
+            y1="56"
+            x2="180.97887"
+            y2="49.81966"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -55,9 +34,9 @@ const renderPathFor = (
           />
           <line
             x1="200"
-            y1="72"
-            x2="200"
-            y2="84"
+            y1="56"
+            x2="188.24429"
+            y2="72.18034"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -65,10 +44,10 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="213.85641"
-            y1="64"
-            x2="224.24871"
-            y2="70"
+            x1="200"
+            y1="56"
+            x2="211.75571"
+            y2="72.18034"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -76,10 +55,10 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="213.85641"
-            y1="48"
-            x2="224.24871"
-            y2="42"
+            x1="200"
+            y1="56"
+            x2="219.02113"
+            y2="49.81966"
             fill="none"
             stroke={color}
             strokeLinecap="round"

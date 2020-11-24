@@ -11,9 +11,9 @@ const renderPathFor = (
       return (
         <>
           <circle
-            cx="128.00391"
-            cy="128.00049"
-            r="56"
+            cx="128"
+            cy="128"
+            r="48"
             fill="none"
             stroke={color}
             strokeLinecap="round"

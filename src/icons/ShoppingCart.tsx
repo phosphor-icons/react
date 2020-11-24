@@ -11,7 +11,7 @@ const renderPathFor = (
       return (
         <>
           <path
-            d="M192,184H68.49479a8,8,0,0,1-7.871-6.56892L33.92162,30.56892A8,8,0,0,0,26.05066,24H12"
+            d="M192,180H68.49479a8,8,0,0,1-7.871-6.56892L33.92162,26.56892A8,8,0,0,0,26.05066,20H12"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -20,7 +20,7 @@ const renderPathFor = (
           />
           <circle
             cx="72"
-            cy="204"
+            cy="200"
             r="20"
             fill="none"
             stroke={color}
@@ -30,7 +30,7 @@ const renderPathFor = (
           />
           <circle
             cx="192"
-            cy="204"
+            cy="200"
             r="20"
             fill="none"
             stroke={color}
@@ -39,7 +39,7 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <path
-            d="M40,64H214.4143a8,8,0,0,1,7.871,9.43108l-13.09091,72A8,8,0,0,1,201.32339,152H56"
+            d="M40,60H214.4143a8,8,0,0,1,7.871,9.43108L209.45455,140H54.54545"
             fill="none"
             stroke={color}
             strokeLinecap="round"

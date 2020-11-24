@@ -10,22 +10,6 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <path
-            d="M176.42693,181.28138A72.00558,72.00558,0,0,1,56.43944,136.00006"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
-            d="M154.90249,157.60205A39.85421,39.85421,0,0,1,128.00009,168H128a40,40,0,0,1-40-40V84.00214"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
           <line
             x1="128"
             y1="200"
@@ -49,7 +33,7 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <path
-            d="M93.95906,42.98434A39.97457,39.97457,0,0,1,128,24h.00008A39.99991,39.99991,0,0,1,168,63.99991V124.4291"
+            d="M150.68227,152.95168A39.81525,39.81525,0,0,1,128.00009,160H128a40,40,0,0,1-40-40V84"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -57,7 +41,23 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <path
-            d="M199.56055,136.00017a71.54827,71.54827,0,0,1-4.48193,18.2151"
+            d="M98.91341,36.54133A39.88791,39.88791,0,0,1,128,24h.00008A39.99991,39.99991,0,0,1,168,63.99991v48.53544"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <path
+            d="M177.71207,182.68344A80.00376,80.00376,0,0,1,48,120"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <path
+            d="M208,120a79.77285,79.77285,0,0,1-5.85339,30.09425"
             fill="none"
             stroke={color}
             strokeLinecap="round"

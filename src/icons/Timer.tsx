@@ -12,7 +12,7 @@ const renderPathFor = (
         <>
           <circle
             cx="128"
-            cy="128"
+            cy="140"
             r="88"
             fill="none"
             stroke={color}
@@ -22,9 +22,9 @@ const renderPathFor = (
           />
           <line
             x1="128"
-            y1="128"
-            x2="167.59798"
-            y2="88.40202"
+            y1="140"
+            x2="161.94113"
+            y2="106.05887"
             fill="none"
             stroke={color}
             strokeLinecap="round"

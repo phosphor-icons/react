@@ -35,7 +35,7 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <path
-            d="M147.66275,100.47214l1.19385-1.67138A64,64,0,0,1,200.93555,72H232"
+            d="M152.76794,93.858A64.00219,64.00219,0,0,1,200.93555,72H232"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -43,7 +43,7 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <path
-            d="M32,184H55.06445a64,64,0,0,0,52.079-26.80076l1.19384-1.67138"
+            d="M32,184H55.06445a64.00212,64.00212,0,0,0,48.16769-21.85814"
             fill="none"
             stroke={color}
             strokeLinecap="round"

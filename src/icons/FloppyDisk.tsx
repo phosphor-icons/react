@@ -19,9 +19,9 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <circle
-            cx="128.00586"
-            cy="156.00903"
-            r="28"
+            cx="128"
+            cy="156"
+            r="24"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -29,7 +29,7 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <polyline
-            points="160 96.009 96 96.009 96 40.009"
+            points="156 92.009 100 92.009 100 40.009"
             fill="none"
             stroke={color}
             strokeLinecap="round"

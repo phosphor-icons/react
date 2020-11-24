@@ -10,22 +10,11 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <line
-            x1="96"
-            y1="16"
-            x2="160"
-            y2="16"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
           <rect
             x="56"
             y="48"
             width="144"
-            height="184"
+            height="180"
             rx="16"
             strokeWidth="24"
             stroke={color}
@@ -33,8 +22,19 @@ const renderPathFor = (
             strokeLinejoin="round"
             fill="none"
           />
+          <line
+            x1="96"
+            y1="12"
+            x2="160"
+            y2="12"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
           <polyline
-            points="128 180 144 140 112 140 128 100"
+            points="128 178 144 138 112 138 128 98"
             fill="none"
             stroke={color}
             strokeLinecap="round"

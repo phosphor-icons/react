@@ -31,6 +31,28 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="24"
           />
+          <line
+            x1="127.99998"
+            y1="68.00584"
+            x2="218.91188"
+            y2="158.91774"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="128.00002"
+            y1="140.00588"
+            x2="189.61412"
+            y2="201.61998"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
         </>
       );
     case "duotone":
@@ -90,6 +112,39 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="12"
           />
+          <line
+            x1="127.99998"
+            y1="48.00584"
+            x2="222.85577"
+            y2="142.86163"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="128.00002"
+            y1="104.00588"
+            x2="206.81368"
+            y2="182.81953"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <line
+            x1="128.00002"
+            y1="160.00588"
+            x2="177.97522"
+            y2="209.98108"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
         </>
       );
     case "thin":
@@ -116,6 +171,39 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="8"
           />
+          <line
+            x1="127.99998"
+            y1="48.00584"
+            x2="222.85577"
+            y2="142.86163"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="128.00002"
+            y1="104.00588"
+            x2="206.81368"
+            y2="182.81953"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <line
+            x1="128.00002"
+            y1="160.00588"
+            x2="177.97522"
+            y2="209.98108"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
         </>
       );
     case "regular":
@@ -136,6 +224,39 @@ const renderPathFor = (
             y1="32"
             x2="128"
             y2="224"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="127.99998"
+            y1="48.00584"
+            x2="222.85577"
+            y2="142.86163"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="128.00002"
+            y1="104.00588"
+            x2="206.81368"
+            y2="182.81953"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <line
+            x1="128.00002"
+            y1="160.00588"
+            x2="177.97522"
+            y2="209.98108"
             fill="none"
             stroke={color}
             strokeLinecap="round"

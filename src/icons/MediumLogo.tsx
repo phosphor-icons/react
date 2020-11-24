@@ -12,9 +12,9 @@ const renderPathFor = (
         <>
           <line
             x1="24.03516"
-            y1="56.00094"
+            y1="48.00094"
             x2="40.03516"
-            y2="56.00094"
+            y2="48.00094"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -23,9 +23,9 @@ const renderPathFor = (
           />
           <line
             x1="120.03516"
-            y1="56.00094"
+            y1="48.00094"
             x2="136.03516"
-            y2="56.00094"
+            y2="48.00094"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -34,9 +34,9 @@ const renderPathFor = (
           />
           <line
             x1="24.03516"
-            y1="136.00094"
+            y1="128.00094"
             x2="48.03516"
-            y2="136.00094"
+            y2="128.00094"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -45,9 +45,9 @@ const renderPathFor = (
           />
           <line
             x1="112.03516"
-            y1="136.00094"
+            y1="128.00094"
             x2="136.03516"
-            y2="136.00094"
+            y2="128.00094"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -55,10 +55,10 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="168.03516"
-            y1="104.00094"
+            x1="176.03516"
+            y1="88.00094"
             x2="240.03516"
-            y2="104.00094"
+            y2="88.00094"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -66,10 +66,10 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="168.03516"
-            y1="136.00094"
+            x1="176.03516"
+            y1="128.00094"
             x2="240.03516"
-            y2="136.00094"
+            y2="128.00094"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -89,9 +89,9 @@ const renderPathFor = (
           />
           <line
             x1="72.03516"
-            y1="200.00094"
+            y1="208.00094"
             x2="240.03516"
-            y2="200.00094"
+            y2="208.00094"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -99,7 +99,7 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <polyline
-            points="40.035 136.001 40.035 56.001 80.035 120.001 120.035 56.001 120.035 136.001"
+            points="40.035 128.001 40.035 48.001 80.035 112.001 120.035 48.001 120.035 128.001"
             fill="none"
             stroke={color}
             strokeLinecap="round"

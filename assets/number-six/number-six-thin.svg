@@ -1,5 +1,5 @@
 <svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <rect width="256" height="256" fill="none"/>
-  <path d="M79.50573,139.97912A56.002,56.002,0,1,1,73.91167,182.473,55.82153,55.82153,0,0,1,79.50573,139.97912Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
-  <line x1="79.50573" y1="139.97912" x2="141.85014" y2="31.98842" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="79.51067" y1="140.00467" x2="144" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="128" cy="168" r="56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
 </svg>

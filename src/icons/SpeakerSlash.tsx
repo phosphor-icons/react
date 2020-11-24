@@ -10,27 +10,11 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <path
-            d="M218.88817,77.0999a72,72,0,0,1,0,101.82337"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
           <line
             x1="79.99414"
             y1="88.01159"
             x2="79.99414"
             y2="168.01159"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
-            d="M190.60379,105.38417a32,32,0,0,1,0,45.25483"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -57,7 +41,23 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <polyline
-            points="112.156 63.001 152 32.012 152 106.829"
+            points="118.49 58.075 152 32.012 152 94.935"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <path
+            d="M190.60379,105.38417a32.01923,32.01923,0,0,1,5.51036,37.88051"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <path
+            d="M218.88817,77.0999a72.00424,72.00424,0,0,1,4.72754,96.61262"
             fill="none"
             stroke={color}
             strokeLinecap="round"

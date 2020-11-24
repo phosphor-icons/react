@@ -10,7 +10,6 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <circle cx="187.99414" cy="116" r="16" />
           <rect
             x="63.99414"
             y="40"
@@ -24,9 +23,9 @@ const renderPathFor = (
           />
           <rect
             x="63.99414"
-            y="152"
+            y="156"
             width="128"
-            height="68"
+            height="64"
             strokeWidth="24"
             stroke={color}
             strokeLinecap="round"
@@ -35,6 +34,16 @@ const renderPathFor = (
           />
           <path
             d="M63.99414,176h-36V96c0-8.83656,7.7604-16,17.33333-16H210.66081c9.57293,0,17.33333,7.16344,17.33333,16v80h-36"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <circle
+            cx="188"
+            cy="116"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -50,7 +59,6 @@ const renderPathFor = (
             d="M210.66083,80H45.32751c-9.57293,0-17.33337,7.16357-17.33337,16v80h36V152h128v24h36V96C227.99414,87.16357,220.23376,80,210.66083,80Z"
             opacity="0.2"
           />
-          <circle cx="187.99414" cy="116" r="12" />
           <rect
             x="63.99414"
             y="40"
@@ -75,6 +83,16 @@ const renderPathFor = (
           />
           <path
             d="M63.99414,176h-36V96c0-8.83656,7.7604-16,17.33333-16H210.66081c9.57293,0,17.33333,7.16344,17.33333,16v80h-36"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle
+            cx="188"
+            cy="116"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -92,7 +110,6 @@ const renderPathFor = (
     case "light":
       return (
         <>
-          <circle cx="187.99414" cy="116" r="9" />
           <polyline
             points="63.994 80 63.994 40 191.994 40 191.994 80"
             fill="none"
@@ -114,6 +131,16 @@ const renderPathFor = (
           />
           <path
             d="M63.99414,176h-36V96c0-8.83656,7.7604-16,17.33333-16H210.66081c9.57293,0,17.33333,7.16344,17.33333,16v80h-36"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <circle
+            cx="188"
+            cy="116"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -125,7 +152,6 @@ const renderPathFor = (
     case "thin":
       return (
         <>
-          <circle cx="187.99414" cy="116" r="6" />
           <polyline
             points="63.994 80 63.994 40 191.994 40 191.994 80"
             fill="none"
@@ -147,6 +173,16 @@ const renderPathFor = (
           />
           <path
             d="M63.99414,176h-36V96c0-8.83656,7.7604-16,17.33333-16H210.66081c9.57293,0,17.33333,7.16344,17.33333,16v80h-36"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <circle
+            cx="188"
+            cy="116"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -158,7 +194,6 @@ const renderPathFor = (
     case "regular":
       return (
         <>
-          <circle cx="187.99414" cy="116" r="12" />
           <polyline
             points="63.994 80 63.994 40 191.994 40 191.994 80"
             fill="none"
@@ -180,6 +215,16 @@ const renderPathFor = (
           />
           <path
             d="M63.99414,176h-36V96c0-8.83656,7.7604-16,17.33333-16H210.66081c9.57293,0,17.33333,7.16344,17.33333,16v80h-36"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle
+            cx="188"
+            cy="116"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"

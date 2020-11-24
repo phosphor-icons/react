@@ -10,24 +10,13 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <line
-            x1="240"
-            y1="96"
-            x2="240"
-            y2="160"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
           <rect
-            x="44"
-            y="36"
+            x="46"
+            y="38"
             width="144"
-            height="184"
+            height="180"
             rx="16"
-            transform="translate(244 12) rotate(90)"
+            transform="translate(246 10) rotate(90)"
             strokeWidth="24"
             stroke={color}
             strokeLinecap="round"
@@ -35,10 +24,10 @@ const renderPathFor = (
             fill="none"
           />
           <line
-            x1="134.4"
-            y1="168.00043"
-            x2="134.4"
-            y2="88.00043"
+            x1="64"
+            y1="164"
+            x2="64"
+            y2="92"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -46,10 +35,10 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="97.6"
-            y1="168.00043"
-            x2="97.6"
-            y2="88.00043"
+            x1="100"
+            y1="164"
+            x2="100"
+            y2="92"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -57,10 +46,21 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="60.8"
-            y1="168.00043"
-            x2="60.8"
-            y2="88.00043"
+            x1="136"
+            y1="164"
+            x2="136"
+            y2="92"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="244"
+            y1="96"
+            x2="244"
+            y2="160"
             fill="none"
             stroke={color}
             strokeLinecap="round"

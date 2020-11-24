@@ -22,14 +22,6 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <path
-            d="M154.9071,157.59781a40.00028,40.00028,0,0,1-53.8142-59.19562"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
             d="M73.99446,68.59357C33.22519,89.23912,16,128,16,128s32,71.99219,112,71.99219a118.0238,118.0238,0,0,0,53.99756-12.59461"
             fill="none"
             stroke={color}
@@ -38,15 +30,7 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <path
-            d="M208.60953,169.09937C230.41132,149.5722,240,128,240,128S208,55.99219,128,55.99219a125.31923,125.31923,0,0,0-20.68221,1.68414"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
-            d="M135.52737,88.70779a40.02413,40.02413,0,0,1,32.29785,35.52875"
+            d="M214.40925,163.58516C232.12131,145.72513,240,128,240,128S208,55.99219,128,55.99219q-5.64912,0-10.9808.46371"
             fill="none"
             stroke={color}
             strokeLinecap="round"

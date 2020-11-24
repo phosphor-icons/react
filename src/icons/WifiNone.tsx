@@ -10,7 +10,16 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <circle cx="127.99219" cy="200.00293" r="16" />
+          <circle
+            cx="128"
+            cy="200"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
         </>
       );
     case "duotone":
@@ -35,19 +44,46 @@ const renderPathFor = (
     case "light":
       return (
         <>
-          <circle cx="127.99219" cy="200.00293" r="9" />
+          <circle
+            cx="128"
+            cy="200"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
         </>
       );
     case "thin":
       return (
         <>
-          <circle cx="127.99219" cy="200.00293" r="6" />
+          <circle
+            cx="128"
+            cy="200"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
         </>
       );
     case "regular":
       return (
         <>
-          <circle cx="127.99219" cy="200.00293" r="12" />
+          <circle
+            cx="128"
+            cy="200"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
         </>
       );
     default:

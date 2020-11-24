@@ -10,16 +10,16 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <path
-            d="M48,224a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z"
+          <polyline
+            points="48 224 48 232 192 232"
             fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <polyline
-            points="48 224 48 232 192 232"
+          <path
+            d="M48,224a32,32,0,0,1,32-32H208V32H72A24,24,0,0,0,48,56V224"
             fill="none"
             stroke={color}
             strokeLinecap="round"

@@ -20,30 +20,6 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <path
-            d="M144,184a16,16,0,0,1,32,0"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
-            d="M80,184a16,16,0,0,1,32,0"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
-            d="M144,222.66446V184a16,16,0,0,0-32,0v38.66482"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
           <polyline
             points="176 211.161 176 176 128 72 80 176 80 211.164"
             fill="none"
@@ -54,9 +30,25 @@ const renderPathFor = (
           />
           <line
             x1="150.15385"
-            y1="120"
+            y1="132"
             x2="105.84615"
-            y2="120"
+            y2="132"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <path
+            d="M80,196a24,24,0,0,1,48,0"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <path
+            d="M128,224V196a24,24,0,0,1,48,0"
             fill="none"
             stroke={color}
             strokeLinecap="round"

@@ -11,10 +11,10 @@ const renderPathFor = (
       return (
         <>
           <line
-            x1="74.66065"
-            y1="87.99548"
-            x2="180.92301"
-            y2="87.99548"
+            x1="69.32731"
+            y1="83.99548"
+            x2="186.21472"
+            y2="83.99548"
             fill="none"
             stroke={color}
             strokeLinecap="round"

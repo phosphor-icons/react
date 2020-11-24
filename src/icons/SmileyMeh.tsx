@@ -10,8 +10,6 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <circle cx="92" cy="108" r="16" />
-          <circle cx="164" cy="108" r="16" />
           <circle
             cx="128"
             cy="128"
@@ -33,14 +31,32 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="24"
           />
+          <circle
+            cx="92"
+            cy="108"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <circle
+            cx="164"
+            cy="108"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
         </>
       );
     case "duotone":
       return (
         <>
           <circle cx="128" cy="128" r="96" opacity="0.2" />
-          <circle cx="92" cy="108" r="12" />
-          <circle cx="164" cy="108" r="12" />
           <circle
             cx="128"
             cy="128"
@@ -55,6 +71,26 @@ const renderPathFor = (
             y1="160"
             x2="168"
             y2="160"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle
+            cx="92"
+            cy="108"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle
+            cx="164"
+            cy="108"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -72,8 +108,6 @@ const renderPathFor = (
     case "light":
       return (
         <>
-          <path d="M100.99978,108A9,9,0,1,1,92,99,8.99982,8.99982,0,0,1,100.99978,108Z" />
-          <path d="M172.99977,108A9,9,0,1,1,164,99,8.99981,8.99981,0,0,1,172.99977,108Z" />
           <circle
             cx="128"
             cy="128"
@@ -89,6 +123,26 @@ const renderPathFor = (
             y1="160"
             x2="168"
             y2="160"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <circle
+            cx="92"
+            cy="108"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <circle
+            cx="164"
+            cy="108"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -100,8 +154,6 @@ const renderPathFor = (
     case "thin":
       return (
         <>
-          <circle cx="92" cy="108" r="6" />
-          <circle cx="164" cy="108" r="6" />
           <circle
             cx="128"
             cy="128"
@@ -123,13 +175,31 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="8"
           />
+          <circle
+            cx="92"
+            cy="108"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <circle
+            cx="164"
+            cy="108"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
         </>
       );
     case "regular":
       return (
         <>
-          <circle cx="92" cy="108" r="12" />
-          <circle cx="164" cy="108" r="12" />
           <circle
             cx="128"
             cy="128"
@@ -144,6 +214,26 @@ const renderPathFor = (
             y1="160"
             x2="168"
             y2="160"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle
+            cx="92"
+            cy="108"
+            r="4"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle
+            cx="164"
+            cy="108"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"

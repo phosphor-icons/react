@@ -10,7 +10,6 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <circle cx="155.99951" cy="100" r="16" />
           <rect
             x="32"
             y="48"
@@ -23,8 +22,18 @@ const renderPathFor = (
             strokeLinejoin="round"
             fill="none"
           />
-          <polyline
-            points="32 168 88 112 144 168 176 136 224 184"
+          <path
+            d="M32,167.99982l50.343-50.343a8,8,0,0,1,11.31371,0l44.68629,44.6863a8,8,0,0,0,11.31371,0l20.68629-20.6863a8,8,0,0,1,11.31371,0L223.99982,184"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <circle
+            cx="156"
+            cy="100"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -37,10 +46,9 @@ const renderPathFor = (
       return (
         <>
           <path
-            d="M32,167.99982,87.99981,112l56,56,32-32,48,48L224,56a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8Z"
+            d="M32,167.99982l50.343-50.343a8,8,0,0,1,11.31371,0l44.68629,44.6863a8,8,0,0,0,11.31371,0l20.68629-20.6863a8,8,0,0,1,11.31371,0L223.99982,184,224,56a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8Z"
             opacity="0.2"
           />
-          <circle cx="155.99951" cy="100" r="12" />
           <rect
             x="32"
             y="48"
@@ -53,8 +61,18 @@ const renderPathFor = (
             strokeLinejoin="round"
             fill="none"
           />
-          <polyline
-            points="32 168 88 112 144 168 176 136 224 184"
+          <path
+            d="M32,167.99982l50.343-50.343a8,8,0,0,1,11.31371,0l44.68629,44.6863a8,8,0,0,0,11.31371,0l20.68629-20.6863a8,8,0,0,1,11.31371,0L223.99982,184"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle
+            cx="156"
+            cy="100"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -66,16 +84,12 @@ const renderPathFor = (
     case "fill":
       return (
         <>
-          <g>
-            <circle cx="155.99951" cy="100" r="12" />
-            <path d="M216.00049,40.00012h-176a16.01833,16.01833,0,0,0-16,16V199.99963a16.01833,16.01833,0,0,0,16,16h176a16.01833,16.01833,0,0,0,16-16V56.00012A16.01834,16.01834,0,0,0,216.00049,40.00012Zm-34.34375,90.34326a8.00121,8.00121,0,0,0-11.31445,0l-26.34278,26.34278L93.65674,106.34338a8.00121,8.00121,0,0,0-11.31445,0l-42.3418,42.34107V56.00012h176l.00732,108.69367Z" />
-          </g>
+          <path d="M168.00049,100.00012v.00342a12.00171,12.00171,0,1,1,0-.00342Zm63.999-44V199.99963a16.01833,16.01833,0,0,1-16,16h-176a16.01833,16.01833,0,0,1-16-16V56.00012a16.01834,16.01834,0,0,1,16-16h176A16.01833,16.01833,0,0,1,231.99951,56.00012Zm-15.9917,108.6933-.0083-108.6933h-176v92.68549L76.686,112.00012a16.019,16.019,0,0,1,22.62792,0l44.68653,44.68652L164.686,136.00012a16.019,16.019,0,0,1,22.62792,0Z" />
         </>
       );
     case "light":
       return (
         <>
-          <circle cx="155.99951" cy="100" r="9" />
           <rect
             x="32"
             y="48"
@@ -88,8 +102,18 @@ const renderPathFor = (
             strokeLinejoin="round"
             fill="none"
           />
-          <polyline
-            points="32 168 88 112 144 168 176 136 224 184"
+          <path
+            d="M32,167.99982l50.343-50.343a8,8,0,0,1,11.31371,0l44.68629,44.6863a8,8,0,0,0,11.31371,0l20.68629-20.6863a8,8,0,0,1,11.31371,0L223.99982,184"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <circle
+            cx="156"
+            cy="100"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -101,7 +125,6 @@ const renderPathFor = (
     case "thin":
       return (
         <>
-          <circle cx="155.99951" cy="100" r="6" />
           <rect
             x="32"
             y="48"
@@ -114,8 +137,18 @@ const renderPathFor = (
             strokeLinejoin="round"
             fill="none"
           />
-          <polyline
-            points="32 168 88 112 144 168 176 136 224 184"
+          <path
+            d="M32,167.99982l50.343-50.343a8,8,0,0,1,11.31371,0l44.68629,44.6863a8,8,0,0,0,11.31371,0l20.68629-20.6863a8,8,0,0,1,11.31371,0L223.99982,184"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <circle
+            cx="156"
+            cy="100"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -127,7 +160,6 @@ const renderPathFor = (
     case "regular":
       return (
         <>
-          <circle cx="155.99951" cy="100" r="12" />
           <rect
             x="32"
             y="48"
@@ -140,8 +172,18 @@ const renderPathFor = (
             strokeLinejoin="round"
             fill="none"
           />
-          <polyline
-            points="32 168 88 112 144 168 176 136 224 184"
+          <path
+            d="M32,167.99982l50.343-50.343a8,8,0,0,1,11.31371,0l44.68629,44.6863a8,8,0,0,0,11.31371,0l20.68629-20.6863a8,8,0,0,1,11.31371,0L223.99982,184"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle
+            cx="156"
+            cy="100"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"

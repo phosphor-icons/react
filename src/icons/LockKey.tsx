@@ -10,27 +10,6 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <circle
-            cx="127.99414"
-            cy="140"
-            r="20"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <line
-            x1="127.99414"
-            y1="160"
-            x2="127.99414"
-            y2="184"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
           <rect
             x="39.99414"
             y="88"
@@ -45,6 +24,27 @@ const renderPathFor = (
           />
           <path
             d="M91.99414,88V52a36,36,0,1,1,72,0V88"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <circle
+            cx="127.99414"
+            cy="144"
+            r="20"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <line
+            x1="127.99414"
+            y1="164"
+            x2="127.99414"
+            y2="180"
             fill="none"
             stroke={color}
             strokeLinecap="round"

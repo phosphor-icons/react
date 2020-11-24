@@ -23,9 +23,9 @@ const renderPathFor = (
             fill="none"
           />
           <line
-            x1="120"
-            y1="112.00094"
-            x2="120"
+            x1="124"
+            y1="120.00094"
+            x2="124"
             y2="176.00094"
             fill="none"
             stroke={color}
@@ -34,9 +34,9 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="88"
-            y1="112.00094"
-            x2="88"
+            x1="84"
+            y1="120.00094"
+            x2="84"
             y2="176.00094"
             fill="none"
             stroke={color}
@@ -44,9 +44,18 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <circle cx="88" cy="80.00094" r="16" />
           <path
-            d="M120,140.00094a28,28,0,1,1,56,0v36"
+            d="M124,148.00094a28,28,0,1,1,56,0v28"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="24"
+          />
+          <circle
+            cx="84"
+            cy="80"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -93,9 +102,18 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <circle cx="88" cy="80.00094" r="12" />
           <path
             d="M120,140.00094a28,28,0,1,1,56,0v36"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle
+            cx="88"
+            cy="80"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -147,9 +165,18 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="12"
           />
-          <circle cx="88" cy="80.00094" r="9" />
           <path
             d="M120,140.00094a28,28,0,1,1,56,0v36"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="12"
+          />
+          <circle
+            cx="88"
+            cy="80"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -195,9 +222,18 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="8"
           />
-          <circle cx="88" cy="80.00094" r="6" />
           <path
             d="M120,140.00094a28,28,0,1,1,56,0v36"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="8"
+          />
+          <circle
+            cx="88"
+            cy="80"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -243,9 +279,18 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <circle cx="88" cy="80.00094" r="12" />
           <path
             d="M120,140.00094a28,28,0,1,1,56,0v36"
+            fill="none"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="16"
+          />
+          <circle
+            cx="88"
+            cy="80"
+            r="4"
             fill="none"
             stroke={color}
             strokeLinecap="round"
