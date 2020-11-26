@@ -3,198 +3,35 @@ import React, { forwardRef, useContext } from "react";
 import { IconProps, IconContext } from "../lib";
 
 const renderPathFor = (
-  weight: string,
-  color: string
+  weight: string
 ): React.ReactNode | null => {
   switch (weight) {
     case "bold":
       return (
         <>
-          <circle
-            cx="60"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <circle
-            cx="128"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <circle
-            cx="196"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <circle
-            cx="60"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <circle
-            cx="128"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <circle
-            cx="196"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <circle
-            cx="60"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <circle
-            cx="128"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <circle
-            cx="196"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
+          <circle cx="60" cy="60" r="16" />
+          <circle cx="128" cy="60" r="16" />
+          <circle cx="196" cy="60" r="16" />
+          <circle cx="60" cy="128" r="16" />
+          <circle cx="128" cy="128" r="16" />
+          <circle cx="196" cy="128" r="16" />
+          <circle cx="60" cy="196" r="16" />
+          <circle cx="128" cy="196" r="16" />
+          <circle cx="196" cy="196" r="16" />
         </>
       );
     case "duotone":
       return (
         <>
-          <circle
-            cx="60"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="128"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="196"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="60"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="128"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="196"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="60"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="128"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="196"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
+          <circle cx="60" cy="60" r="12" />
+          <circle cx="128" cy="60" r="12" />
+          <circle cx="196" cy="60" r="12" />
+          <circle cx="60" cy="128" r="12" />
+          <circle cx="128" cy="128" r="12" />
+          <circle cx="196" cy="128" r="12" />
+          <circle cx="60" cy="196" r="12" />
+          <circle cx="128" cy="196" r="12" />
+          <circle cx="196" cy="196" r="12" />
         </>
       );
     case "fill":
@@ -206,286 +43,43 @@ const renderPathFor = (
     case "light":
       return (
         <>
-          <circle
-            cx="60"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <circle
-            cx="128"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <circle
-            cx="196"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <circle
-            cx="60"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <circle
-            cx="128"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <circle
-            cx="196"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <circle
-            cx="60"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <circle
-            cx="128"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <circle
-            cx="196"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
+          <circle cx="60" cy="60" r="10" />
+          <circle cx="128" cy="60" r="10" />
+          <circle cx="196" cy="60" r="10" />
+          <circle cx="60" cy="128" r="10" />
+          <circle cx="128" cy="128" r="10" />
+          <circle cx="196" cy="128" r="10" />
+          <circle cx="60" cy="196" r="10" />
+          <circle cx="128" cy="196" r="10" />
+          <circle cx="196" cy="196" r="10" />
         </>
       );
     case "thin":
       return (
         <>
-          <circle
-            cx="60"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <circle
-            cx="128"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <circle
-            cx="196"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <circle
-            cx="60"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <circle
-            cx="128"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <circle
-            cx="196"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <circle
-            cx="60"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <circle
-            cx="128"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <circle
-            cx="196"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
+          <circle cx="60" cy="60" r="8" />
+          <circle cx="128" cy="60" r="8" />
+          <circle cx="196" cy="60" r="8" />
+          <circle cx="60" cy="128" r="8" />
+          <circle cx="128" cy="128" r="8" />
+          <circle cx="196" cy="128" r="8" />
+          <circle cx="60" cy="196" r="8" />
+          <circle cx="128" cy="196" r="8" />
+          <circle cx="196" cy="196" r="8" />
         </>
       );
     case "regular":
       return (
         <>
-          <circle
-            cx="60"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="128"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="196"
-            cy="60"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="60"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="128"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="196"
-            cy="196"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="60"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="128"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="196"
-            cy="128"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
+          <circle cx="60" cy="60" r="12" />
+          <circle cx="128" cy="60" r="12" />
+          <circle cx="196" cy="60" r="12" />
+          <circle cx="60" cy="128" r="12" />
+          <circle cx="128" cy="128" r="12" />
+          <circle cx="196" cy="128" r="12" />
+          <circle cx="60" cy="196" r="12" />
+          <circle cx="128" cy="196" r="12" />
+          <circle cx="196" cy="196" r="12" />
         </>
       );
     default:
@@ -520,7 +114,7 @@ const DotsNine = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
     >
       {children}
       <rect width="256" height="256" fill="none" />
-      {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
+      {renderPathFor(weight ?? contextWeight)}
     </svg>
   );
 });

@@ -72,7 +72,9 @@ const renderPathFor = (
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="16"
+            opacity="0.5"
           />
+          <circle cx="128" cy="128" r="12" />
         </>
       );
     case "fill":
@@ -112,7 +114,9 @@ const renderPathFor = (
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="12"
+            opacity="0.5"
           />
+          <circle cx="128" cy="128" r="10" />
         </>
       );
     case "thin":
@@ -143,7 +147,9 @@ const renderPathFor = (
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="8"
+            opacity="0.5"
           />
+          <circle cx="128" cy="128" r="8" />
         </>
       );
     case "regular":
@@ -174,7 +180,9 @@ const renderPathFor = (
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="16"
+            opacity="0.5"
           />
+          <circle cx="128" cy="128" r="12" />
         </>
       );
     default:

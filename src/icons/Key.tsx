@@ -27,7 +27,9 @@ const renderPathFor = (
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="24"
+            opacity="0.5"
           />
+          <circle cx="180" cy="76" r="16" />
         </>
       );
     case "duotone":
@@ -53,7 +55,9 @@ const renderPathFor = (
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="16"
+            opacity="0.5"
           />
+          <circle cx="180" cy="76" r="12" />
         </>
       );
     case "fill":
@@ -82,7 +86,9 @@ const renderPathFor = (
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="12"
+            opacity="0.5"
           />
+          <circle cx="180" cy="76" r="10" />
         </>
       );
     case "thin":
@@ -105,7 +111,9 @@ const renderPathFor = (
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="8"
+            opacity="0.5"
           />
+          <circle cx="180" cy="76" r="8" />
         </>
       );
     case "regular":
@@ -128,7 +136,9 @@ const renderPathFor = (
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="16"
+            opacity="0.5"
           />
+          <circle cx="180" cy="76" r="12" />
         </>
       );
     default:

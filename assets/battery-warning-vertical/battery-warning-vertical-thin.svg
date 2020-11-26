@@ -3,5 +3,5 @@
   <line x1="128" y1="100" x2="128" y2="140" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <line x1="96" y1="16" x2="160" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <rect x="56" y="48" width="144" height="184" rx="16" stroke-width="8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <circle cx="128" cy="176" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="128" cy="176" r="8"/>
 </svg>

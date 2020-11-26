@@ -2,8 +2,8 @@
   <rect width="256" height="256" fill="none"/>
   <rect x="31.99995" y="48.00781" width="192" height="160" rx="8" transform="translate(256.00777 0.00786) rotate(90)" stroke-width="24" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <line x1="92" y1="76" x2="164" y2="76" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <circle cx="152" cy="128" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <circle cx="152" cy="176" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <circle cx="104" cy="128" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <circle cx="104" cy="176" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <circle cx="104" cy="128" r="16"/>
+  <circle cx="152" cy="128" r="16"/>
+  <circle cx="104" cy="176" r="16"/>
+  <circle cx="152" cy="176" r="16"/>
 </svg>

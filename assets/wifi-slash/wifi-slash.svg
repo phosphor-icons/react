@@ -6,5 +6,5 @@
   <path d="M152.11967,106.95874a97.88568,97.88568,0,0,1,44.88614,25.1619" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <path d="M58.97857,132.12064a97.89874,97.89874,0,0,1,49.03639-26.105" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <path d="M92.91969,166.06177a50.81565,50.81565,0,0,1,67.576-2.317" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <circle cx="127.99414" cy="200" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <circle cx="128" cy="200" r="12"/>
 </svg>

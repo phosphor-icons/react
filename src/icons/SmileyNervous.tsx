@@ -20,26 +20,6 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <circle
-            cx="92"
-            cy="108"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <circle
-            cx="164"
-            cy="108"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
           <polyline
             points="85.791 164.762 96 152 112 172 128 152 144 172 160 152 170.21 164.762"
             fill="none"
@@ -48,6 +28,8 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="24"
           />
+          <circle cx="92" cy="108" r="16" />
+          <circle cx="164" cy="108" r="16" />
         </>
       );
     case "duotone":
@@ -71,26 +53,8 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <circle
-            cx="92"
-            cy="108"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="164"
-            cy="108"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
+          <circle cx="92" cy="108" r="12" />
+          <circle cx="164" cy="108" r="12" />
         </>
       );
     case "fill":
@@ -120,26 +84,8 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="12"
           />
-          <circle
-            cx="92"
-            cy="108"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <circle
-            cx="164"
-            cy="108"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
+          <circle cx="92" cy="108" r="10" />
+          <circle cx="164" cy="108" r="10" />
         </>
       );
     case "thin":
@@ -163,26 +109,8 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="8"
           />
-          <circle
-            cx="92"
-            cy="108"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <circle
-            cx="164"
-            cy="108"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
+          <circle cx="92" cy="108" r="8" />
+          <circle cx="164" cy="108" r="8" />
         </>
       );
     case "regular":
@@ -205,26 +133,8 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="16"
           />
-          <circle
-            cx="92"
-            cy="108"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="164"
-            cy="108"
-            r="4"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
+          <circle cx="92" cy="108" r="12" />
+          <circle cx="164" cy="108" r="12" />
         </>
       );
     default:

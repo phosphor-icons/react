@@ -9,6 +9,6 @@
   <line x1="144" y1="128" x2="144" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <line x1="112" y1="128" x2="112" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <path d="M220,176H36V96.00005l7.01877-49.13142A8,8,0,0,1,50.93836,40H205.06164a8,8,0,0,1,7.91959,6.86863L220,96.00005Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <circle cx="72" cy="132" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <circle cx="184" cy="132" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <circle cx="72" cy="132" r="12"/>
+  <circle cx="184" cy="132" r="12"/>
 </svg>

@@ -4,6 +4,6 @@
   <line x1="199.92969" y1="24" x2="180.58646" y2="41.48846" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <path d="M207.92969,152a80,80,0,0,1-160,0V104a80,80,0,0,1,160,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   <line x1="207.92969" y1="120" x2="47.92969" y2="120" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
-  <circle cx="155.92969" cy="84" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
-  <circle cx="99.92969" cy="84" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="156" cy="84" r="8"/>
+  <circle cx="100" cy="84" r="8"/>
 </svg>

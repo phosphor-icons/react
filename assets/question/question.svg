@@ -2,5 +2,5 @@
   <rect width="256" height="256" fill="none"/>
   <circle cx="128" cy="128" r="96" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <path d="M128,152v-8a32,32,0,1,0-32-32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <circle cx="128" cy="184" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <circle cx="128" cy="184" r="12"/>
 </svg>
