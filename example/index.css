@@ -26,3 +26,12 @@ code {
   text-align: start;
   width: 240px;
 }
+
+.loader {
+  animation: tick 1s steps(8, end) infinite;
+}
+
+@keyframes tick {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

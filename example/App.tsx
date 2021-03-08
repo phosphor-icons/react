@@ -61,6 +61,9 @@ const App = () => {
           />{" "}
           from Bub Tub.
         </p>
+        {/* <div>
+          <Icons.SpinnerGap className="loader" size={32} />
+        </div> */}
         <Icons.Cube
           style={{ cursor: "pointer" }}
           color="darkorange"
