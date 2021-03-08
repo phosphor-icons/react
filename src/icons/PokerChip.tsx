@@ -23,7 +23,7 @@ const renderPathFor = (
           <circle
             cx="128"
             cy="128"
-            r="56"
+            r="48"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -32,7 +32,7 @@ const renderPathFor = (
           />
           <line
             x1="128"
-            y1="72"
+            y1="80"
             x2="128"
             y2="32"
             fill="none"
@@ -42,8 +42,8 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="88.40202"
-            y1="88.40202"
+            x1="94.05887"
+            y1="94.05887"
             x2="60.11775"
             y2="60.11775"
             fill="none"
@@ -53,7 +53,7 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="72"
+            x1="80"
             y1="128"
             x2="32"
             y2="128"
@@ -64,8 +64,8 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="88.40202"
-            y1="167.59798"
+            x1="94.05887"
+            y1="161.94113"
             x2="60.11775"
             y2="195.88225"
             fill="none"
@@ -76,7 +76,7 @@ const renderPathFor = (
           />
           <line
             x1="128"
-            y1="184"
+            y1="176"
             x2="128"
             y2="224"
             fill="none"
@@ -86,8 +86,8 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="167.59798"
-            y1="167.59798"
+            x1="161.94113"
+            y1="161.94113"
             x2="195.88225"
             y2="195.88225"
             fill="none"
@@ -97,7 +97,7 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="184"
+            x1="176"
             y1="128"
             x2="224"
             y2="128"
@@ -108,8 +108,8 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <line
-            x1="167.59798"
-            y1="88.40202"
+            x1="161.94113"
+            y1="94.05887"
             x2="195.88225"
             y2="60.11775"
             fill="none"

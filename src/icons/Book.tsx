@@ -10,16 +10,16 @@ const renderPathFor = (
     case "bold":
       return (
         <>
-          <polyline
-            points="48 224 48 232 192 232"
+          <path
+            d="M48,208a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <path
-            d="M48,224a32,32,0,0,1,32-32H208V32H72A24,24,0,0,0,48,56V224"
+          <polyline
+            points="48 208 48 224 192 224"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -32,11 +32,11 @@ const renderPathFor = (
       return (
         <>
           <path
-            d="M48,224a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z"
+            d="M48,216a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z"
             opacity="0.2"
           />
           <path
-            d="M48,224a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z"
+            d="M48,216a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -44,7 +44,7 @@ const renderPathFor = (
             strokeWidth="16"
           />
           <polyline
-            points="48 224 48 232 192 232"
+            points="48 216 48 224 192 224"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -56,14 +56,14 @@ const renderPathFor = (
     case "fill":
       return (
         <>
-          <path d="M207.99414,23.9971h-136a32.03667,32.03667,0,0,0-32,32v176a7.9954,7.9954,0,0,0,8,8h144a8,8,0,0,0,0-16h-136a16.01583,16.01583,0,0,1,16-16h136a7.99539,7.99539,0,0,0,8-8v-168A7.9954,7.9954,0,0,0,207.99414,23.9971Z" />
+          <path d="M216,32V192a8.00039,8.00039,0,0,1-8,8H72a16.01833,16.01833,0,0,0-16,16H192a8,8,0,0,1,0,16H48a8.00039,8.00039,0,0,1-8-8V56A32.03667,32.03667,0,0,1,72,24H208A8.00039,8.00039,0,0,1,216,32Z" />
         </>
       );
     case "light":
       return (
         <>
           <path
-            d="M48,224a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z"
+            d="M48,216a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -71,7 +71,7 @@ const renderPathFor = (
             strokeWidth="12"
           />
           <polyline
-            points="48 224 48 232 192 232"
+            points="48 216 48 224 192 224"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -84,7 +84,7 @@ const renderPathFor = (
       return (
         <>
           <path
-            d="M48,224a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z"
+            d="M48,216a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -92,7 +92,7 @@ const renderPathFor = (
             strokeWidth="8"
           />
           <polyline
-            points="48 224 48 232 192 232"
+            points="48 216 48 224 192 224"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -105,7 +105,7 @@ const renderPathFor = (
       return (
         <>
           <path
-            d="M48,224a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z"
+            d="M48,216a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z"
             fill="none"
             stroke={color}
             strokeLinecap="round"
@@ -113,7 +113,7 @@ const renderPathFor = (
             strokeWidth="16"
           />
           <polyline
-            points="48 224 48 232 192 232"
+            points="48 216 48 224 192 224"
             fill="none"
             stroke={color}
             strokeLinecap="round"

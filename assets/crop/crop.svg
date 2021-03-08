@@ -1,7 +1,7 @@
 <svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255.99316 255.99316">
   <rect width="256" height="256" fill="none"/>
-  <line x1="55.99414" y1="56" x2="16.00244" y2="56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <polyline points="56.002 16 56.002 200.001 240.002 200.001" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <polyline points="200.002 168.001 200.002 56 87.994 56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <line x1="200.00244" y1="240.00098" x2="200.00244" y2="200.00098" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="63.99414" y1="64" x2="24.00244" y2="64" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <polyline points="64.002 24 64.002 192.001 232.002 192.001" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <polyline points="192.002 160.001 192.002 64 95.994 64" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="192.00244" y1="232.00098" x2="192.00244" y2="192.00098" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
 </svg>

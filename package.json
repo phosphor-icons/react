@@ -1,6 +1,6 @@
 {
   "name": "phosphor-react",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "A clean and friendly icon family for React",
   "author": "rektdeckard",
   "license": "MIT",
@@ -56,6 +56,7 @@
     "@testing-library/react": "^10.4.9",
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
+    "caniuse-lite": "^1.0.30001197",
     "chalk": "^4.1.0",
     "husky": "^4.2.5",
     "react": "^17.0.1",

@@ -12,9 +12,9 @@ const renderPathFor = (
         <>
           <rect
             x="40"
-            y="148"
+            y="144"
             width="176"
-            height="60"
+            height="56"
             rx="8"
             strokeWidth="24"
             stroke={color}
@@ -24,9 +24,9 @@ const renderPathFor = (
           />
           <rect
             x="40"
-            y="48"
+            y="56"
             width="176"
-            height="60"
+            height="56"
             rx="8"
             strokeWidth="24"
             stroke={color}
@@ -39,13 +39,13 @@ const renderPathFor = (
     case "duotone":
       return (
         <>
-          <rect x="40" y="144" width="176" height="64" rx="8" opacity="0.2" />
-          <rect x="40" y="48" width="176" height="64" rx="8" opacity="0.2" />
+          <rect x="40" y="144" width="176" height="56" rx="8" opacity="0.2" />
+          <rect x="40" y="56" width="176" height="56" rx="8" opacity="0.2" />
           <rect
             x="40"
             y="144"
             width="176"
-            height="64"
+            height="56"
             rx="8"
             strokeWidth="16"
             stroke={color}
@@ -55,9 +55,9 @@ const renderPathFor = (
           />
           <rect
             x="40"
-            y="48"
+            y="56"
             width="176"
-            height="64"
+            height="56"
             rx="8"
             strokeWidth="16"
             stroke={color}
@@ -70,10 +70,7 @@ const renderPathFor = (
     case "fill":
       return (
         <>
-          <g>
-            <rect x="32" y="136" width="192" height="80" rx="16" />
-            <rect x="32" y="40" width="192" height="80" rx="16" />
-          </g>
+          <path d="M224,152v40a16.01833,16.01833,0,0,1-16,16H48a16.01833,16.01833,0,0,1-16-16V152a16.01833,16.01833,0,0,1,16-16H208A16.01833,16.01833,0,0,1,224,152ZM208,48H48A16.01833,16.01833,0,0,0,32,64v40a16.01833,16.01833,0,0,0,16,16H208a16.01833,16.01833,0,0,0,16-16V64A16.01833,16.01833,0,0,0,208,48Z" />
         </>
       );
     case "light":
@@ -83,7 +80,7 @@ const renderPathFor = (
             x="40"
             y="144"
             width="176"
-            height="64"
+            height="56"
             rx="8"
             strokeWidth="12"
             stroke={color}
@@ -93,9 +90,9 @@ const renderPathFor = (
           />
           <rect
             x="40"
-            y="48"
+            y="56"
             width="176"
-            height="64"
+            height="56"
             rx="8"
             strokeWidth="12"
             stroke={color}
@@ -112,7 +109,7 @@ const renderPathFor = (
             x="40"
             y="144"
             width="176"
-            height="64"
+            height="56"
             rx="8"
             strokeWidth="8"
             stroke={color}
@@ -122,9 +119,9 @@ const renderPathFor = (
           />
           <rect
             x="40"
-            y="48"
+            y="56"
             width="176"
-            height="64"
+            height="56"
             rx="8"
             strokeWidth="8"
             stroke={color}
@@ -141,7 +138,7 @@ const renderPathFor = (
             x="40"
             y="144"
             width="176"
-            height="64"
+            height="56"
             rx="8"
             strokeWidth="16"
             stroke={color}
@@ -151,9 +148,9 @@ const renderPathFor = (
           />
           <rect
             x="40"
-            y="48"
+            y="56"
             width="176"
-            height="64"
+            height="56"
             rx="8"
             strokeWidth="16"
             stroke={color}

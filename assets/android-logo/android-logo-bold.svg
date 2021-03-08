@@ -1,9 +1,8 @@
 <svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <rect width="256" height="256" fill="none"/>
-  <line x1="55.92969" y1="24" x2="75.27223" y2="41.48751" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <line x1="199.92969" y1="24" x2="180.58646" y2="41.48846" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <path d="M207.92969,152a80,80,0,0,1-160,0V104a80,80,0,0,1,160,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <line x1="207.92969" y1="124" x2="47.92969" y2="124" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <circle cx="156" cy="84" r="16"/>
-  <circle cx="100" cy="84" r="16"/>
+  <circle cx="164" cy="156" r="16"/>
+  <circle cx="92.00001" cy="156.00002" r="16"/>
+  <path d="M24,192V169.12886C24,111.65,70.15361,64.19953,127.63214,64.00066A104,104,0,0,1,232,168v24a8,8,0,0,1-8,8H32A8,8,0,0,1,24,192Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="32" y1="56.00002" x2="63.07266" y2="87.07268" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="224" y1="56.00002" x2="193.10334" y2="86.89668" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
 </svg>

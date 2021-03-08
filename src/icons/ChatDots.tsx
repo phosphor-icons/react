@@ -18,9 +18,8 @@ const renderPathFor = (
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <circle cx="128" cy="128" r="16" />
-          <circle cx="176" cy="128" r="16" />
-          <circle cx="80" cy="128" r="16" />
+          <circle cx="100" cy="128" r="16" />
+          <circle cx="156" cy="128" r="16" />
         </>
       );
     case "duotone":

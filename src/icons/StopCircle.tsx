@@ -21,15 +21,14 @@ const renderPathFor = (
             strokeWidth="24"
           />
           <rect
-            x="104"
-            y="104"
-            width="48"
-            height="48"
+            x="108"
+            y="108"
+            width="40"
+            height="40"
             strokeWidth="24"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
-            fill="none"
           />
         </>
       );

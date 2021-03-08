@@ -22,7 +22,6 @@ const renderPathFor = (
           />
           <polygon
             points="168 156 132 128 168 100 168 156"
-            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -30,14 +29,11 @@ const renderPathFor = (
           />
           <polygon
             points="112 156 76 128 112 100 112 156"
-            fill="none"
             stroke={color}
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="24"
           />
-          <polygon points="168 156 132 128 168 100 168 156" />
-          <polygon points="112 156 76 128 112 100 112 156" />
         </>
       );
     case "duotone":
