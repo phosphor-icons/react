@@ -82,12 +82,17 @@ function generateComponents() {
       .map(substr => substr.replace(/^\w/, c => c.toUpperCase()))
       .join("");
     let componentString = `\
-/* GENERATED FILE */
-import React, { forwardRef, useContext } from "react";
-import { IconProps, IconContext } from "../lib";
+import React, { forwardRef } from "react";
 
-const renderPathFor = (weight: string, color: string): React.ReactNode | null => {
-  switch (weight) {`;
+import {
+  IconWeight,
+  IconProps,
+  PaintFunction,
+  renderPathForWeight,
+} from "../lib";
+import IconBase, { RenderFunction } from "../lib/IconBase";
+
+const pathsByWeight = new Map<IconWeight, PaintFunction>();`;
 
     if (!checkFiles(icon)) {
       fails += 1;
@@ -102,50 +107,22 @@ const renderPathFor = (weight: string, color: string): React.ReactNode | null =>
 
     for (let weight in icon) {
       componentString += `
-    case "${weight}":
-      return (
-        <>
-          ${icon[weight].trim()}
-        </>
-      )`;
+pathsByWeight.set("${weight}", (${
+        weight === "fill" && name !== "DropHalf" ? "" : "color: string"
+      }) => (
+  <>
+    ${icon[weight].trim()}
+  </>
+));
+`;
     }
     componentString += `
-    default:
-      console.error(
-        'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
-      );
-      return null;
-  }
-};
+const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
+  renderPathForWeight(weight, color, pathsByWeight);
 
-const ${name} = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
-  const { color, size, weight, mirrored, children, ...restProps } = props;
-  const {
-    color: contextColor,
-    size: contextSize,
-    weight: contextWeight,
-    mirrored: contextMirrored,
-    ...restContext
-  } = useContext(IconContext);
-
-  return (
-    <svg
-      ref={ref}
-      xmlns="http://www.w3.org/2000/svg"
-      width={size ?? contextSize}
-      height={size ?? contextSize}
-      fill={color ?? contextColor}
-      viewBox="0 0 256 256"
-      transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
-      {...restContext}
-      {...restProps}
-    >
-      {children}
-      <rect width="256" height="256" fill="none"/>
-      {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
-    </svg>
-  ); 
-});
+const ${name} = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
+  <IconBase ref={ref} {...props} renderPath={renderPath} />
+));
 
 ${name}.displayName = "${name}";
 

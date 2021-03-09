@@ -1,15 +1,20 @@
 import { createContext, ComponentPropsWithoutRef } from "react";
 
-export { default as IconBase } from './IconBase';
+export type IconWeight =
+  | "thin"
+  | "light"
+  | "regular"
+  | "bold"
+  | "fill"
+  | "duotone";
 
-export type IconWeight = "thin" | "light" | "regular" | "bold" | "fill" | "duotone";
+export type PaintFunction = (color: string) => React.ReactNode | null;
 
 export interface IconProps extends ComponentPropsWithoutRef<"svg"> {
   color?: string;
   size?: string | number;
   weight?: IconWeight;
   mirrored?: boolean;
-  renderPath: Function
 }
 
 export type Icon = React.ForwardRefExoticComponent<
@@ -28,16 +33,13 @@ export const IconContext = createContext<IconContextProps>({
   mirrored: false,
 });
 
-export const renderPathForWeigth = (
+export const renderPathForWeight = (
   weight: IconWeight,
   color: string,
-  pathsByWeigth: Map<IconWeight, Function>,
+  pathsByWeight: Map<IconWeight, PaintFunction>
 ): React.ReactNode | null => {
-  const path = pathsByWeigth.get(weight);
-
-  if (!!path) {
-    return path(color);
-  }
+  const path = pathsByWeight.get(weight);
+  if (!!path) return path(color);
 
   console.error(
     'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'

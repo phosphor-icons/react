@@ -1,8 +1,25 @@
 import React, { forwardRef, useContext } from "react";
-import { IconProps, IconContext } from "../lib";
+import { IconProps, IconWeight, IconContext } from "../lib";
 
-const IconBase = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
-  const { color, size, weight, mirrored, children, renderPath, ...restProps } = props;
+export type RenderFunction = (
+  weight: IconWeight,
+  color: string
+) => React.ReactNode | null;
+
+interface IconBaseProps extends IconProps {
+  renderPath: RenderFunction;
+}
+
+const IconBase = forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
+  const {
+    color,
+    size,
+    weight,
+    mirrored,
+    children,
+    renderPath,
+    ...restProps
+  } = props;
 
   const {
     color: contextColor,
