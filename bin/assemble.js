@@ -82,6 +82,7 @@ function generateComponents() {
       .map(substr => substr.replace(/^\w/, c => c.toUpperCase()))
       .join("");
     let componentString = `\
+/* GENERATED FILE */
 import React, { forwardRef } from "react";
 
 import {
@@ -92,7 +93,8 @@ import {
 } from "../lib";
 import IconBase, { RenderFunction } from "../lib/IconBase";
 
-const pathsByWeight = new Map<IconWeight, PaintFunction>();`;
+const pathsByWeight = new Map<IconWeight, PaintFunction>();
+`;
 
     if (!checkFiles(icon)) {
       fails += 1;
