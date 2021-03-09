@@ -1,134 +1,106 @@
-/* GENERATED FILE */
-import React, { forwardRef, useContext } from "react";
-import { IconProps, IconContext } from "../lib";
+import React, { forwardRef } from "react";
 
-const renderPathFor = (
-  weight: string,
-  color: string
-): React.ReactNode | null => {
-  switch (weight) {
-    case "bold":
-      return (
-        <>
-          <ellipse
-            cx="128"
-            cy="128"
-            rx="72"
-            ry="104"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-        </>
-      );
-    case "duotone":
-      return (
-        <>
-          <ellipse
-            cx="128"
-            cy="128"
-            rx="72"
-            ry="104"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-        </>
-      );
-    case "fill":
-      return (
-        <>
-          <path d="M128,240c-25.75977,0-46.99219-12.57129-61.40039-36.35474C54.60547,183.848,48,156.98334,48,128c0-28.98566,6.60547-55.8512,18.59961-75.64771C81.00781,28.57043,102.24023,16,128,16s46.99219,12.57043,61.40039,36.35229C201.39453,72.1488,208,99.01434,208,128c0,28.98334-6.60547,55.848-18.59961,75.64526C174.99219,227.42871,153.75977,240,128,240Zm0-208c-44.21094,0-64,48.2157-64,96s19.78906,96,64,96,64-48.2157,64-96S172.21094,32,128,32Z" />
-        </>
-      );
-    case "light":
-      return (
-        <>
-          <ellipse
-            cx="128"
-            cy="128"
-            rx="72"
-            ry="104"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-        </>
-      );
-    case "thin":
-      return (
-        <>
-          <ellipse
-            cx="128"
-            cy="128"
-            rx="72"
-            ry="104"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-        </>
-      );
-    case "regular":
-      return (
-        <>
-          <ellipse
-            cx="128"
-            cy="128"
-            rx="72"
-            ry="104"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-        </>
-      );
-    default:
-      console.error(
-        'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
-      );
-      return null;
-  }
-};
+import {
+  IconWeight,
+  IconProps,
+  PaintFunction,
+  renderPathForWeight,
+} from "../lib";
+import IconBase, { RenderFunction } from "../lib/IconBase";
 
-const NumberZero = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
-  const { color, size, weight, mirrored, children, ...restProps } = props;
-  const {
-    color: contextColor,
-    size: contextSize,
-    weight: contextWeight,
-    mirrored: contextMirrored,
-    ...restContext
-  } = useContext(IconContext);
+const pathsByWeight = new Map<IconWeight, PaintFunction>();
+pathsByWeight.set("bold", (color: string) => (
+  <>
+    <ellipse
+      cx="128"
+      cy="128"
+      rx="72"
+      ry="104"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+  </>
+));
 
-  return (
-    <svg
-      ref={ref}
-      xmlns="http://www.w3.org/2000/svg"
-      width={size ?? contextSize}
-      height={size ?? contextSize}
-      fill={color ?? contextColor}
-      viewBox="0 0 256 256"
-      transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
-      {...restContext}
-      {...restProps}
-    >
-      {children}
-      <rect width="256" height="256" fill="none" />
-      {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
-    </svg>
-  );
-});
+pathsByWeight.set("duotone", (color: string) => (
+  <>
+    <ellipse
+      cx="128"
+      cy="128"
+      rx="72"
+      ry="104"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+  </>
+));
+
+pathsByWeight.set("fill", () => (
+  <>
+    <path d="M128,240c-25.75977,0-46.99219-12.57129-61.40039-36.35474C54.60547,183.848,48,156.98334,48,128c0-28.98566,6.60547-55.8512,18.59961-75.64771C81.00781,28.57043,102.24023,16,128,16s46.99219,12.57043,61.40039,36.35229C201.39453,72.1488,208,99.01434,208,128c0,28.98334-6.60547,55.848-18.59961,75.64526C174.99219,227.42871,153.75977,240,128,240Zm0-208c-44.21094,0-64,48.2157-64,96s19.78906,96,64,96,64-48.2157,64-96S172.21094,32,128,32Z" />
+  </>
+));
+
+pathsByWeight.set("light", (color: string) => (
+  <>
+    <ellipse
+      cx="128"
+      cy="128"
+      rx="72"
+      ry="104"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="12"
+    />
+  </>
+));
+
+pathsByWeight.set("thin", (color: string) => (
+  <>
+    <ellipse
+      cx="128"
+      cy="128"
+      rx="72"
+      ry="104"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="8"
+    />
+  </>
+));
+
+pathsByWeight.set("regular", (color: string) => (
+  <>
+    <ellipse
+      cx="128"
+      cy="128"
+      rx="72"
+      ry="104"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+  </>
+));
+
+const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
+  renderPathForWeight(weight, color, pathsByWeight);
+
+const NumberZero = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
+  <IconBase ref={ref} {...props} renderPath={renderPath} />
+));
 
 NumberZero.displayName = "NumberZero";
 
