@@ -162,7 +162,7 @@ export default ${name};
 function generateExports() {
   let indexString = `\
 /* GENERATED FILE */
-export { Icon, IconProps, IconContext } from "./lib";
+export { Icon, IconProps, IconContext, IconContextProps } from "./lib";
 
 `;
   for (let key in icons) {
