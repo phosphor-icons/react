@@ -32,7 +32,7 @@
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
-    "prepare": "tsdx build",
+    "prepare": "yarn collate && yarn assemble && yarn format",
     "collate": "node bin/collate.js",
     "assemble": "node bin/assemble.js",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,vue}\""
@@ -56,7 +56,6 @@
     "@testing-library/react": "^10.4.9",
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
-    "caniuse-lite": "^1.0.30001197",
     "chalk": "^4.1.0",
     "husky": "^4.2.5",
     "react": "^17.0.1",
