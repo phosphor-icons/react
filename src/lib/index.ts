@@ -17,12 +17,13 @@ export interface IconProps extends ComponentPropsWithoutRef<"svg"> {
   mirrored?: boolean;
 }
 
-export type Icon = React.ForwardRefExoticComponent<
-  IconProps & React.RefAttributes<SVGSVGElement>
->;
+type IconComponentProps = IconProps & React.RefAttributes<SVGSVGElement>;
 
-export type IconContextProps = Required<
-  Pick<IconProps, "color" | "size" | "weight" | "mirrored">
+export type Icon = React.ForwardRefExoticComponent<IconComponentProps>;
+
+export type IconContextProps = Pick<
+  IconProps,
+  "color" | "size" | "weight" | "mirrored"
 > &
   ComponentPropsWithoutRef<"svg">;
 

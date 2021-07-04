@@ -22,10 +22,10 @@ const IconBase = forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
   } = props;
 
   const {
-    color: contextColor,
+    color: contextColor = "currentColor",
     size: contextSize,
-    weight: contextWeight,
-    mirrored: contextMirrored,
+    weight: contextWeight = "regular",
+    mirrored: contextMirrored = false,
     ...restContext
   } = useContext(IconContext);
 
