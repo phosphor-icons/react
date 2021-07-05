@@ -32,7 +32,7 @@
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
-    "prepare": "yarn collate && yarn assemble && yarn format",
+    "prepare": "tsdx build",
     "collate": "node bin/collate.js",
     "assemble": "node bin/assemble.js",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,vue}\""
