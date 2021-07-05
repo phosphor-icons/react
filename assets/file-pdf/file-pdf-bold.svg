@@ -1,0 +1,9 @@
+<svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="none"/>
+  <path d="M124,216c13.25483,0,24-12,24-28s-10.74517-28-24-28H112v56Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <polyline points="216 160 184 160 184 216" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="212" y1="196" x2="184" y2="196" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M47.99219,124.00005V48a8,8,0,0,1,8-8L152,40l56,56v28.00005" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <polyline points="148 40 148 100 208.008 100" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M40,200H56a20,20,0,0,0,0-40H40v56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+</svg>

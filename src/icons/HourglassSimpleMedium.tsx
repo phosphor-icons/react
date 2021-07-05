@@ -1,3 +1,4 @@
+/* GENERATED FILE */
 import React, { forwardRef } from "react";
 
 import {
@@ -9,6 +10,7 @@ import {
 import IconBase, { RenderFunction } from "../lib/IconBase";
 
 const pathsByWeight = new Map<IconWeight, PaintFunction>();
+
 pathsByWeight.set("bold", (color: string) => (
   <>
     <path
@@ -54,9 +56,7 @@ pathsByWeight.set("bold", (color: string) => (
 
 pathsByWeight.set("duotone", (color: string) => (
   <>
-    <g opacity="0.2">
-      <polygon points="128 128 176 80 80 80 128 128" />
-    </g>
+    <polygon points="128 128 176 80 80 80 128 128" opacity="0.2" />
     <path
       d="M59.31371,40H196.68629a8,8,0,0,1,5.65686,13.65685L128,128,53.65685,53.65685A8,8,0,0,1,59.31371,40Z"
       fill="none"

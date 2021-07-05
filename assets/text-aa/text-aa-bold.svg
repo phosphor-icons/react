@@ -1,0 +1,7 @@
+<svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="none"/>
+  <polyline points="140 192 76 56 12 192" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="121.17649" y1="152" x2="30.82348" y2="152" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <ellipse cx="204" cy="167" rx="32" ry="27" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M183.99592,109.04406A34.8085,34.8085,0,0,1,204,102.9c17.67311,0,32,12.536,32,28V192" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+</svg>

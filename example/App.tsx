@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
 import * as Icons from "../dist";
-import { IconContext, Icon } from "../dist";
+import { IconContext, IconWeight, Icon } from "../dist";
 import "./index.css";
 
 const isIcon = (candidate: any): candidate is Icon =>
@@ -17,9 +17,7 @@ if (process.env.NODE_ENV === "development") {
 
 const App = () => {
   const [color, setColor] = useState<string>("crimson");
-  const [weight, setWeight] = useState<
-    "thin" | "light" | "regular" | "bold" | "fill" | "duotone"
-  >("regular");
+  const [weight, setWeight] = useState<IconWeight>("regular");
 
   const onHeartClick = useCallback(() => {
     setColor(
@@ -61,9 +59,9 @@ const App = () => {
           />{" "}
           from Bub Tub.
         </p>
-        {/* <div>
+        <div>
           <Icons.SpinnerGap className="loader" size={32} />
-        </div> */}
+        </div>
         <Icons.Cube
           style={{ cursor: "pointer" }}
           color="darkorange"

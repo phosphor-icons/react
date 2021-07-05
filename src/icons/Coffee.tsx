@@ -1,3 +1,4 @@
+/* GENERATED FILE */
 import React, { forwardRef } from "react";
 
 import {
@@ -9,41 +10,9 @@ import {
 import IconBase, { RenderFunction } from "../lib/IconBase";
 
 const pathsByWeight = new Map<IconWeight, PaintFunction>();
+
 pathsByWeight.set("bold", (color: string) => (
   <>
-    <line
-      x1="84"
-      y1="24"
-      x2="84"
-      y2="56"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="24"
-    />
-    <line
-      x1="120"
-      y1="24"
-      x2="120"
-      y2="56"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="24"
-    />
-    <line
-      x1="156"
-      y1="24"
-      x2="156"
-      y2="56"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="24"
-    />
     <line
       x1="32"
       y1="216"
@@ -65,6 +34,39 @@ pathsByWeight.set("bold", (color: string) => (
     />
     <path
       d="M208,88h4a32,32,0,0,1,32,32V128a32,32,0,0,1-32,32h-7.37846"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+    <line
+      x1="80"
+      y1="24"
+      x2="80"
+      y2="48"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+    <line
+      x1="120"
+      y1="24"
+      x2="120"
+      y2="48"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+    <line
+      x1="160"
+      y1="24"
+      x2="160"
+      y2="48"
       fill="none"
       stroke={color}
       strokeLinecap="round"

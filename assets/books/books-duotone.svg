@@ -1,0 +1,14 @@
+<svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="none"/>
+  <path d="M40,80H88V48a8,8,0,0,0-8-8H48a8,8,0,0,0-8,8Z" opacity="0.2"/>
+  <path d="M88,176h48V48a8,8,0,0,0-8-8H96a8,8,0,0,0-8,8Z" opacity="0.2"/>
+  <path d="M171.24109,179.15894l46.36444-12.42331,8.28221,30.90962a8,8,0,0,1-5.65685,9.798l-30.90963,8.28221a8,8,0,0,1-9.798-5.65685Z" opacity="0.2"/>
+  <path d="M146.39447,86.43006l46.36444-12.42331L184.4767,43.09712a8,8,0,0,0-9.798-5.65685l-30.90963,8.28221a8,8,0,0,0-5.65685,9.798Z" opacity="0.2"/>
+  <rect x="40" y="40" width="48" height="176" rx="8" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="40" y1="80" x2="88" y2="80" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <rect x="88" y="40" width="48" height="176" rx="8" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="88" y1="176" x2="136" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <rect x="158" y="38.58284" width="48" height="176" rx="8" transform="translate(-26.56055 51.41827) rotate(-15)" stroke-width="16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="171.24109" y1="179.15894" x2="217.60553" y2="166.73563" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="146.39447" y1="86.43006" x2="192.75891" y2="74.00675" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+</svg>

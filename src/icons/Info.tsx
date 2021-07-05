@@ -1,3 +1,4 @@
+/* GENERATED FILE */
 import React, { forwardRef } from "react";
 
 import {
@@ -9,8 +10,12 @@ import {
 import IconBase, { RenderFunction } from "../lib/IconBase";
 
 const pathsByWeight = new Map<IconWeight, PaintFunction>();
+
 pathsByWeight.set("bold", (color: string) => (
   <>
+    <g opacity="0.1">
+      <rect x="0.00146" width="256" height="256" fill="none" />
+    </g>
     <circle
       cx="128.00146"
       cy="128"
@@ -22,22 +27,25 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <polyline
-      points="120.001 120 128.001 120 128.001 176 136.001 176"
+      points="120.001 124 128.001 124 128.001 176 136.001 176"
       fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="24"
     />
-    <circle cx="128" cy="80" r="16" />
+    <circle cx="126" cy="84" r="16" />
   </>
 ));
 
 pathsByWeight.set("duotone", (color: string) => (
   <>
-    <circle cx="128" cy="128" r="96" opacity="0.2" />
+    <g opacity="0.1">
+      <rect x="0.00244" width="256" height="256" fill="none" />
+    </g>
+    <circle cx="128.00244" cy="128" r="96" opacity="0.2" />
     <circle
-      cx="128"
+      cx="128.00244"
       cy="128"
       r="96"
       fill="none"
@@ -47,25 +55,31 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <polyline
-      points="120 120 128 120 128 176 136 176"
+      points="120.002 120 128.002 120 128.002 176 136.002 176"
       fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="16"
     />
-    <circle cx="128" cy="84" r="12" />
+    <circle cx="126.00244" cy="84" r="12" />
   </>
 ));
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M128.00146,24a104,104,0,1,0,104,104A104.12041,104.12041,0,0,0,128.00146,24Zm-.001,48a12,12,0,1,1-12,12A12,12,0,0,1,128.00049,72Zm8.001,112h-8a7.99541,7.99541,0,0,1-8-8V128a8,8,0,0,1,0-16h8a7.99539,7.99539,0,0,1,8,8v48a8,8,0,0,1,0,16Z" />
+    <g opacity="0.1">
+      <rect x="0.00195" width="256" height="256" fill="none" />
+    </g>
+    <path d="M128.00146,23.99963a104,104,0,1,0,104,104A104.11791,104.11791,0,0,0,128.00146,23.99963ZM126.002,72a12,12,0,1,1-12,12A12,12,0,0,1,126.002,72Zm9.99951,111.99963h-8a8.0004,8.0004,0,0,1-8-8v-48a8,8,0,1,1,0-16h8a8.00039,8.00039,0,0,1,8,8v48a8,8,0,0,1,0,16Z" />
   </>
 ));
 
 pathsByWeight.set("light", (color: string) => (
   <>
+    <g opacity="0.1">
+      <rect x="0.00098" width="256" height="256" fill="none" />
+    </g>
     <circle
       cx="128.00098"
       cy="128"
@@ -84,12 +98,15 @@ pathsByWeight.set("light", (color: string) => (
       strokeLinejoin="round"
       strokeWidth="12"
     />
-    <circle cx="128" cy="84" r="10" />
+    <circle cx="126" cy="84" r="10" />
   </>
 ));
 
 pathsByWeight.set("thin", (color: string) => (
   <>
+    <g opacity="0.1">
+      <rect x="0.00049" width="256" height="256" fill="none" />
+    </g>
     <circle
       cx="128.00049"
       cy="128"
@@ -108,12 +125,13 @@ pathsByWeight.set("thin", (color: string) => (
       strokeLinejoin="round"
       strokeWidth="8"
     />
-    <circle cx="128" cy="84" r="8" />
+    <circle cx="126.00049" cy="84" r="8" />
   </>
 ));
 
 pathsByWeight.set("regular", (color: string) => (
   <>
+    <g opacity="0.1"></g>
     <circle
       cx="128"
       cy="128"
@@ -132,7 +150,7 @@ pathsByWeight.set("regular", (color: string) => (
       strokeLinejoin="round"
       strokeWidth="16"
     />
-    <circle cx="128" cy="84" r="12" />
+    <circle cx="126" cy="84" r="12" />
   </>
 ));
 

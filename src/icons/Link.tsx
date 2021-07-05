@@ -1,3 +1,4 @@
+/* GENERATED FILE */
 import React, { forwardRef } from "react";
 
 import {
@@ -9,10 +10,11 @@ import {
 import IconBase, { RenderFunction } from "../lib/IconBase";
 
 const pathsByWeight = new Map<IconWeight, PaintFunction>();
+
 pathsByWeight.set("bold", (color: string) => (
   <>
     <path
-      d="M130.49413,63.28047l11.648-11.648a44,44,0,1,1,62.22539,62.22539l-28.28427,28.28428a44,44,0,0,1-62.2254,0"
+      d="M132.49413,61.28047l9.648-9.648a44,44,0,1,1,62.22539,62.22539l-30.28427,30.28428a44,44,0,0,1-62.2254,0"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -20,7 +22,7 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <path
-      d="M125.50407,192.72133l-11.64621,11.6462a44,44,0,1,1-62.22539-62.22539l28.28427-28.28428a44,44,0,0,1,62.2254,0"
+      d="M123.50407,194.72133l-9.64621,9.6462a44,44,0,1,1-62.22539-62.22539l30.28427-30.28428a44,44,0,0,1,62.2254,0"
       fill="none"
       stroke={color}
       strokeLinecap="round"

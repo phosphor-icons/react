@@ -1,3 +1,4 @@
+/* GENERATED FILE */
 import React, { forwardRef } from "react";
 
 import {
@@ -9,6 +10,7 @@ import {
 import IconBase, { RenderFunction } from "../lib/IconBase";
 
 const pathsByWeight = new Map<IconWeight, PaintFunction>();
+
 pathsByWeight.set("bold", (color: string) => (
   <>
     <line
@@ -81,27 +83,25 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeLinejoin="round"
       strokeWidth="16"
     />
-    <g>
-      <line
-        x1="128"
-        y1="136"
-        x2="128"
-        y2="216"
-        fill="none"
-        stroke={color}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="16"
-      />
-      <polyline
-        points="200 48 128 136 56 48"
-        fill="none"
-        stroke={color}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="16"
-      />
-    </g>
+    <line
+      x1="128"
+      y1="136"
+      x2="128"
+      y2="216"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <polyline
+      points="200 48 128 136 56 48"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
   </>
 ));
 

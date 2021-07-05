@@ -1,0 +1,324 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+
+import {
+  IconWeight,
+  IconProps,
+  PaintFunction,
+  renderPathForWeight,
+} from "../lib";
+import IconBase, { RenderFunction } from "../lib/IconBase";
+
+const pathsByWeight = new Map<IconWeight, PaintFunction>();
+
+pathsByWeight.set("bold", (color: string) => (
+  <>
+    <line
+      x1="40"
+      y1="56"
+      x2="40"
+      y2="176"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+    <line
+      x1="144"
+      y1="116"
+      x2="40"
+      y2="116"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+    <line
+      x1="144"
+      y1="56"
+      x2="144"
+      y2="176"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+    <line
+      x1="191.75129"
+      y1="153.98956"
+      x2="224"
+      y2="100"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+    <circle
+      cx="216"
+      cy="168"
+      r="28"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+  </>
+));
+
+pathsByWeight.set("duotone", (color: string) => (
+  <>
+    <line
+      x1="40"
+      y1="56"
+      x2="40"
+      y2="176"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="144"
+      y1="116"
+      x2="40"
+      y2="116"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="144"
+      y1="56"
+      x2="144"
+      y2="176"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="191.75129"
+      y1="153.98956"
+      x2="224"
+      y2="100"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <circle
+      cx="216"
+      cy="168"
+      r="28"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+  </>
+));
+
+pathsByWeight.set("fill", () => (
+  <>
+    <path d="M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0ZM252,168a36,36,0,1,1-67.41943-17.54346c.09448-.19189.19067-.3833.30224-.56982l32.249-53.98926a8.00015,8.00015,0,1,1,13.73632,8.20508l-16.6914,27.94385Q215.08276,132.001,216,132A36.04061,36.04061,0,0,1,252,168Zm-16,0a20,20,0,1,0-20,20A20.02229,20.02229,0,0,0,236,168Z" />
+  </>
+));
+
+pathsByWeight.set("light", (color: string) => (
+  <>
+    <line
+      x1="40"
+      y1="56"
+      x2="40"
+      y2="176"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="12"
+    />
+    <line
+      x1="144"
+      y1="116"
+      x2="40"
+      y2="116"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="12"
+    />
+    <line
+      x1="144"
+      y1="56"
+      x2="144"
+      y2="176"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="12"
+    />
+    <line
+      x1="191.75129"
+      y1="153.98956"
+      x2="224"
+      y2="100"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="12"
+    />
+    <circle
+      cx="216"
+      cy="168"
+      r="28"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="12"
+    />
+  </>
+));
+
+pathsByWeight.set("thin", (color: string) => (
+  <>
+    <line
+      x1="40"
+      y1="56"
+      x2="40"
+      y2="176"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="8"
+    />
+    <line
+      x1="144"
+      y1="116"
+      x2="40"
+      y2="116"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="8"
+    />
+    <line
+      x1="144"
+      y1="56"
+      x2="144"
+      y2="176"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="8"
+    />
+    <line
+      x1="191.75129"
+      y1="153.98956"
+      x2="224"
+      y2="100"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="8"
+    />
+    <circle
+      cx="216"
+      cy="168"
+      r="28"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="8"
+    />
+  </>
+));
+
+pathsByWeight.set("regular", (color: string) => (
+  <>
+    <line
+      x1="40"
+      y1="56"
+      x2="40"
+      y2="176"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="144"
+      y1="116"
+      x2="40"
+      y2="116"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="144"
+      y1="56"
+      x2="144"
+      y2="176"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="191.75129"
+      y1="153.98956"
+      x2="224"
+      y2="100"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <circle
+      cx="216"
+      cy="168"
+      r="28"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+  </>
+));
+
+const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
+  renderPathForWeight(weight, color, pathsByWeight);
+
+const TextHSix = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
+  <IconBase ref={ref} {...props} renderPath={renderPath} />
+));
+
+TextHSix.displayName = "TextHSix";
+
+export default TextHSix;

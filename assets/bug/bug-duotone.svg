@@ -1,11 +1,9 @@
 <svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <rect width="256" height="256" fill="none"/>
-  <g opacity="0.2">
-    <path d="M208,128v16a80,80,0,0,1-160,0V128Z"/>
-  </g>
+  <path d="M208,128v16a80,80,0,0,1-160,0V128Z" opacity="0.2"/>
   <circle cx="155.92969" cy="91.99998" r="12"/>
   <circle cx="99.92969" cy="91.99998" r="12"/>
-  <line x1="128" y1="128" x2="128" y2="216" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="128" y1="128" x2="128" y2="224" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <line x1="244" y1="128.00007" x2="12" y2="128" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <path d="M208,144a80,80,0,0,1-160,0V112a80,80,0,0,1,160,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <line x1="231.92301" y1="188.00006" x2="203.18198" y2="171.40642" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>

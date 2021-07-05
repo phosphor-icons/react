@@ -1,3 +1,4 @@
+/* GENERATED FILE */
 import React, { forwardRef } from "react";
 
 import {
@@ -9,6 +10,7 @@ import {
 import IconBase, { RenderFunction } from "../lib/IconBase";
 
 const pathsByWeight = new Map<IconWeight, PaintFunction>();
+
 pathsByWeight.set("bold", (color: string) => (
   <>
     <ellipse
@@ -41,6 +43,14 @@ pathsByWeight.set("bold", (color: string) => (
 
 pathsByWeight.set("duotone", (color: string) => (
   <>
+    <ellipse
+      cx="128"
+      cy="128"
+      rx="44"
+      ry="116"
+      transform="translate(-53.01934 128) rotate(-45)"
+      opacity="0.2"
+    />
     <ellipse
       cx="128"
       cy="128"

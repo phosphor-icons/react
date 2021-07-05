@@ -1,3 +1,4 @@
+/* GENERATED FILE */
 import React, { forwardRef } from "react";
 
 import {
@@ -9,6 +10,7 @@ import {
 import IconBase, { RenderFunction } from "../lib/IconBase";
 
 const pathsByWeight = new Map<IconWeight, PaintFunction>();
+
 pathsByWeight.set("bold", (color: string) => (
   <>
     <circle cx="156" cy="88" r="16" />
@@ -17,7 +19,7 @@ pathsByWeight.set("bold", (color: string) => (
       x1="128"
       y1="128"
       x2="128"
-      y2="216"
+      y2="224"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -92,16 +94,14 @@ pathsByWeight.set("bold", (color: string) => (
 
 pathsByWeight.set("duotone", (color: string) => (
   <>
-    <g opacity="0.2">
-      <path d="M208,128v16a80,80,0,0,1-160,0V128Z" />
-    </g>
+    <path d="M208,128v16a80,80,0,0,1-160,0V128Z" opacity="0.2" />
     <circle cx="155.92969" cy="91.99998" r="12" />
     <circle cx="99.92969" cy="91.99998" r="12" />
     <line
       x1="128"
       y1="128"
       x2="128"
-      y2="216"
+      y2="224"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -188,7 +188,7 @@ pathsByWeight.set("light", (color: string) => (
       x1="128"
       y1="128"
       x2="128"
-      y2="216"
+      y2="224"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -269,7 +269,7 @@ pathsByWeight.set("thin", (color: string) => (
       x1="128"
       y1="128"
       x2="128"
-      y2="216"
+      y2="224"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -350,7 +350,7 @@ pathsByWeight.set("regular", (color: string) => (
       x1="128"
       y1="128"
       x2="128"
-      y2="216"
+      y2="224"
       fill="none"
       stroke={color}
       strokeLinecap="round"

@@ -1,3 +1,4 @@
+/* GENERATED FILE */
 import React, { forwardRef } from "react";
 
 import {
@@ -9,6 +10,7 @@ import {
 import IconBase, { RenderFunction } from "../lib/IconBase";
 
 const pathsByWeight = new Map<IconWeight, PaintFunction>();
+
 pathsByWeight.set("bold", (color: string) => (
   <>
     <path
@@ -76,9 +78,10 @@ pathsByWeight.set("bold", (color: string) => (
 
 pathsByWeight.set("duotone", (color: string) => (
   <>
-    <g opacity="0.2">
-      <path d="M131.83232,84.4235a48.00729,48.00729,0,1,0-80.18846,50.93024l-.00154-.00232a44.09694,44.09694,0,0,1,38.66351-4.9735l-.00024-.00007A68.15692,68.15692,0,0,1,131.83113,84.4204Z" />
-    </g>
+    <path
+      d="M131.83232,84.4235a48.00729,48.00729,0,1,0-80.18846,50.93024l-.00154-.00232a44.09694,44.09694,0,0,1,38.66351-4.9735l-.00024-.00007A68.15692,68.15692,0,0,1,131.83113,84.4204Z"
+      opacity="0.2"
+    />
     <path
       d="M88,148a68,68,0,1,1,68,68H76a44,44,0,1,1,14.30583-85.62208"
       fill="none"

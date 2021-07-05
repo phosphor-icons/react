@@ -21,13 +21,7 @@ type IconComponentProps = IconProps & React.RefAttributes<SVGSVGElement>;
 
 export type Icon = React.ForwardRefExoticComponent<IconComponentProps>;
 
-export type IconContextProps = Pick<
-  IconProps,
-  "color" | "size" | "weight" | "mirrored"
-> &
-  ComponentPropsWithoutRef<"svg">;
-
-export const IconContext = createContext<IconContextProps>({
+export const IconContext = createContext<IconProps>({
   color: "currentColor",
   size: "1em",
   weight: "regular",
