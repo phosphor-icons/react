@@ -259,10 +259,10 @@ pathsByWeight.set("regular", (color: string) => (
 const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
   renderPathForWeight(weight, color, pathsByWeight);
 
-const UserBadge = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
-  <IconBase ref={ref} {...props} renderPath={renderPath} />
-));
+const IdentificationBadge = forwardRef<SVGSVGElement, IconProps>(
+  (props, ref) => <IconBase ref={ref} {...props} renderPath={renderPath} />
+);
 
-UserBadge.displayName = "UserBadge";
+IdentificationBadge.displayName = "IdentificationBadge";
 
-export default UserBadge;
+export default IdentificationBadge;

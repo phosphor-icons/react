@@ -339,10 +339,10 @@ pathsByWeight.set("regular", (color: string) => (
 const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
   renderPathForWeight(weight, color, pathsByWeight);
 
-const SelectBackground = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
-  <IconBase ref={ref} {...props} renderPath={renderPath} />
-));
+const SelectionBackground = forwardRef<SVGSVGElement, IconProps>(
+  (props, ref) => <IconBase ref={ref} {...props} renderPath={renderPath} />
+);
 
-SelectBackground.displayName = "SelectBackground";
+SelectionBackground.displayName = "SelectionBackground";
 
-export default SelectBackground;
+export default SelectionBackground;
