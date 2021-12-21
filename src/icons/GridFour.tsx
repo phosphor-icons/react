@@ -19,11 +19,11 @@ pathsByWeight.set("bold", (color: string) => (
       width="168"
       height="168"
       rx="8"
-      strokeWidth="24"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
     <line
       x1="128"
@@ -59,11 +59,11 @@ pathsByWeight.set("duotone", (color: string) => (
       width="168"
       height="168"
       rx="8"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <line
       x1="128"
@@ -92,7 +92,7 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M204,36H52A16.01833,16.01833,0,0,0,36,52V204a16.01833,16.01833,0,0,0,16,16H204a16.01833,16.01833,0,0,0,16-16V52A16.01833,16.01833,0,0,0,204,36Zm.00439,92H128V52h76ZM52,128h76v76H52Z" />
+    <path d="M204,36H52A16,16,0,0,0,36,52V204a16,16,0,0,0,16,16H204a16,16,0,0,0,16-16V52A16,16,0,0,0,204,36Zm0,92H128V52h76ZM52,128h76v76H52Z" />
   </>
 ));
 
@@ -104,11 +104,11 @@ pathsByWeight.set("light", (color: string) => (
       width="168"
       height="168"
       rx="8"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
     <line
       x1="128"
@@ -143,11 +143,11 @@ pathsByWeight.set("thin", (color: string) => (
       width="168"
       height="168"
       rx="8"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
     <line
       x1="128"
@@ -182,11 +182,11 @@ pathsByWeight.set("regular", (color: string) => (
       width="168"
       height="168"
       rx="8"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <line
       x1="128"

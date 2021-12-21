@@ -14,7 +14,7 @@ const pathsByWeight = new Map<IconWeight, PaintFunction>();
 pathsByWeight.set("bold", (color: string) => (
   <>
     <polygon
-      points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992"
+      points="96 240 112 160 48 136 160 16 144 96 208 120 96 240"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -27,11 +27,11 @@ pathsByWeight.set("bold", (color: string) => (
 pathsByWeight.set("duotone", (color: string) => (
   <>
     <polygon
-      points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992"
+      points="96 240 112 160 48 136 160 16 144 96 208 120 96 240"
       opacity="0.2"
     />
     <polygon
-      points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992"
+      points="96 240 112 160 48 136 160 16 144 96 208 120 96 240"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -43,14 +43,14 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M215.78857,118.16406a8.00125,8.00125,0,0,0-4.97949-5.6626L153.17871,90.89014l14.666-73.3291a8.00018,8.00018,0,0,0-13.69336-7.02735l-112,120a7.99995,7.99995,0,0,0,3.03955,12.94922l57.63037,21.61133-14.666,73.3291a7.99991,7.99991,0,0,0,13.69336,7.02734l112-120A8.00057,8.00057,0,0,0,215.78857,118.16406Z" />
+    <path d="M215.8,118.2a8,8,0,0,0-5-5.7L153.2,90.9l14.6-73.3a8.1,8.1,0,0,0-4.1-8.7,7.9,7.9,0,0,0-9.5,1.6l-112,120a7.9,7.9,0,0,0-2,7.3,8.2,8.2,0,0,0,5,5.7l57.6,21.6L88.2,238.4a8.1,8.1,0,0,0,4.1,8.7,8.4,8.4,0,0,0,3.7.9,7.9,7.9,0,0,0,5.8-2.5l112-120A7.9,7.9,0,0,0,215.8,118.2Z" />
   </>
 ));
 
 pathsByWeight.set("light", (color: string) => (
   <>
     <polygon
-      points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992"
+      points="96 240 112 160 48 136 160 16 144 96 208 120 96 240"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -63,7 +63,7 @@ pathsByWeight.set("light", (color: string) => (
 pathsByWeight.set("thin", (color: string) => (
   <>
     <polygon
-      points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992"
+      points="96 240 112 160 48 136 160 16 144 96 208 120 96 240"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -76,7 +76,7 @@ pathsByWeight.set("thin", (color: string) => (
 pathsByWeight.set("regular", (color: string) => (
   <>
     <polygon
-      points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992"
+      points="96 240 112 160 48 136 160 16 144 96 208 120 96 240"
       fill="none"
       stroke={color}
       strokeLinecap="round"

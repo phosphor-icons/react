@@ -20,11 +20,11 @@ pathsByWeight.set("bold", (color: string) => (
       height="52"
       rx="8"
       transform="translate(210 46) rotate(90)"
-      strokeWidth="24"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
     <rect
       x="86"
@@ -33,11 +33,11 @@ pathsByWeight.set("bold", (color: string) => (
       height="52"
       rx="8"
       transform="translate(302 -46) rotate(90)"
-      strokeWidth="24"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
   </>
 ));
@@ -69,11 +69,11 @@ pathsByWeight.set("duotone", (color: string) => (
       height="56"
       rx="8"
       transform="translate(212 44) rotate(90)"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <rect
       x="84"
@@ -82,18 +82,18 @@ pathsByWeight.set("duotone", (color: string) => (
       height="56"
       rx="8"
       transform="translate(300 -44) rotate(90)"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M120,48V208a16.01833,16.01833,0,0,1-16,16H64a16.01833,16.01833,0,0,1-16-16V48A16.01833,16.01833,0,0,1,64,32h40A16.01833,16.01833,0,0,1,120,48Zm72-16H152a16.01833,16.01833,0,0,0-16,16V208a16.01833,16.01833,0,0,0,16,16h40a16.01833,16.01833,0,0,0,16-16V48A16.01833,16.01833,0,0,0,192,32Z" />
+    <path d="M120,48V208a16,16,0,0,1-16,16H64a16,16,0,0,1-16-16V48A16,16,0,0,1,64,32h40A16,16,0,0,1,120,48Zm72-16H152a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V48A16,16,0,0,0,192,32Z" />
   </>
 ));
 
@@ -106,11 +106,11 @@ pathsByWeight.set("light", (color: string) => (
       height="56"
       rx="8"
       transform="translate(212 44) rotate(90)"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
     <rect
       x="84"
@@ -119,11 +119,11 @@ pathsByWeight.set("light", (color: string) => (
       height="56"
       rx="8"
       transform="translate(300 -44) rotate(90)"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
   </>
 ));
@@ -137,11 +137,11 @@ pathsByWeight.set("thin", (color: string) => (
       height="56"
       rx="8"
       transform="translate(212 44) rotate(90)"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
     <rect
       x="84"
@@ -150,11 +150,11 @@ pathsByWeight.set("thin", (color: string) => (
       height="56"
       rx="8"
       transform="translate(300 -44) rotate(90)"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
   </>
 ));
@@ -168,11 +168,11 @@ pathsByWeight.set("regular", (color: string) => (
       height="56"
       rx="8"
       transform="translate(212 44) rotate(90)"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <rect
       x="84"
@@ -181,11 +181,11 @@ pathsByWeight.set("regular", (color: string) => (
       height="56"
       rx="8"
       transform="translate(300 -44) rotate(90)"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));

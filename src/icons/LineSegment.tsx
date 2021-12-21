@@ -34,10 +34,10 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <line
-      x1="175.02944"
-      y1="80.97056"
-      x2="80.97056"
-      y2="175.02944"
+      x1="175"
+      y1="81"
+      x2="81"
+      y2="175"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -72,10 +72,10 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="175.02944"
-      y1="80.97056"
-      x2="80.97056"
-      y2="175.02944"
+      x1="175"
+      y1="81"
+      x2="81"
+      y2="175"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -87,7 +87,7 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M214.62793,86.62695a32.0716,32.0716,0,0,1-38.88245,4.94141L91.56836,175.74561a32.00172,32.00172,0,1,1-50.19629-6.37256l.00049-.001a32.05731,32.05731,0,0,1,38.88208-4.94043l84.177-84.17725a32.00172,32.00172,0,1,1,50.19629,6.37256Z" />
+    <path d="M214.6,86.6A31.6,31.6,0,0,1,192,96a32.7,32.7,0,0,1-16.3-4.4L91.6,175.7a32,32,0,0,1-5,38.9,31.9,31.9,0,0,1-45.2,0,31.9,31.9,0,0,1,0-45.2h0a32,32,0,0,1,38.9-5l84.1-84.1a32,32,0,1,1,50.2,6.3Z" />
   </>
 ));
 
@@ -114,10 +114,10 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <line
-      x1="175.02944"
-      y1="80.97056"
-      x2="80.97056"
-      y2="175.02944"
+      x1="175"
+      y1="81"
+      x2="81"
+      y2="175"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -150,10 +150,10 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <line
-      x1="175.02944"
-      y1="80.97056"
-      x2="80.97056"
-      y2="175.02944"
+      x1="175"
+      y1="81"
+      x2="81"
+      y2="175"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -186,10 +186,10 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="175.02944"
-      y1="80.97056"
-      x2="80.97056"
-      y2="175.02944"
+      x1="175"
+      y1="81"
+      x2="81"
+      y2="175"
       fill="none"
       stroke={color}
       strokeLinecap="round"

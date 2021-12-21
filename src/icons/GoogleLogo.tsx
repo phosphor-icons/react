@@ -14,7 +14,7 @@ const pathsByWeight = new Map<IconWeight, PaintFunction>();
 pathsByWeight.set("bold", (color: string) => (
   <>
     <path
-      d="M128,128h88a88,88,0,1,1-25.77461-62.2254"
+      d="M128,128h88a88.1,88.1,0,1,1-25.8-62.2"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -27,7 +27,7 @@ pathsByWeight.set("bold", (color: string) => (
 pathsByWeight.set("duotone", (color: string) => (
   <>
     <path
-      d="M128,128h88a88,88,0,1,1-25.77461-62.2254"
+      d="M128,128h88a88.1,88.1,0,1,1-25.8-62.2"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -39,14 +39,14 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M128,24A104,104,0,1,0,232,128,104.11791,104.11791,0,0,0,128,24Zm0,184A80,80,0,1,1,184.56836,71.43164a7.99984,7.99984,0,1,1-11.31348,11.31348A63.99718,63.99718,0,1,0,191.50244,136H128a8,8,0,0,1,0-16h72a8.00008,8.00008,0,0,1,8,8A80.09041,80.09041,0,0,1,128,208Z" />
+    <path d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm0,184A80,80,0,1,1,184.6,71.4a8,8,0,0,1,0,11.3,7.9,7.9,0,0,1-11.3,0A64.1,64.1,0,1,0,191.5,136H128a8,8,0,0,1,0-16h72a8,8,0,0,1,8,8A80.1,80.1,0,0,1,128,208Z" />
   </>
 ));
 
 pathsByWeight.set("light", (color: string) => (
   <>
     <path
-      d="M128,128h88a88,88,0,1,1-25.77461-62.2254"
+      d="M128,128h88a88.1,88.1,0,1,1-25.8-62.2"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -59,7 +59,7 @@ pathsByWeight.set("light", (color: string) => (
 pathsByWeight.set("thin", (color: string) => (
   <>
     <path
-      d="M128,128h88a88,88,0,1,1-25.77461-62.2254"
+      d="M128,128h88a88.1,88.1,0,1,1-25.8-62.2"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -72,7 +72,7 @@ pathsByWeight.set("thin", (color: string) => (
 pathsByWeight.set("regular", (color: string) => (
   <>
     <path
-      d="M128,128h88a88,88,0,1,1-25.77461-62.2254"
+      d="M128,128h88a88.1,88.1,0,1,1-25.8-62.2"
       fill="none"
       stroke={color}
       strokeLinecap="round"

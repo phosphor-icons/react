@@ -20,11 +20,11 @@ pathsByWeight.set("bold", (color: string) => (
       height="128"
       rx="16"
       transform="translate(256) rotate(90)"
-      strokeWidth="24"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
     <circle cx="128" cy="68" r="16" />
   </>
@@ -48,11 +48,11 @@ pathsByWeight.set("duotone", (color: string) => (
       height="128"
       rx="16"
       transform="translate(256) rotate(90)"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <circle cx="128" cy="60" r="12" />
   </>
@@ -60,7 +60,7 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M176,16H80A24.0275,24.0275,0,0,0,56,40V216a24.0275,24.0275,0,0,0,24,24h96a24.0275,24.0275,0,0,0,24-24V40A24.0275,24.0275,0,0,0,176,16ZM128,72a12,12,0,1,1,12-12A12,12,0,0,1,128,72Z" />
+    <path d="M176,16H80A24.1,24.1,0,0,0,56,40V216a24.1,24.1,0,0,0,24,24h96a24.1,24.1,0,0,0,24-24V40A24.1,24.1,0,0,0,176,16ZM128,72a12,12,0,1,1,12-12A12,12,0,0,1,128,72Z" />
   </>
 ));
 
@@ -73,11 +73,11 @@ pathsByWeight.set("light", (color: string) => (
       height="128"
       rx="16"
       transform="translate(256) rotate(90)"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
     <circle cx="128" cy="60" r="10" />
   </>
@@ -92,11 +92,11 @@ pathsByWeight.set("thin", (color: string) => (
       height="128"
       rx="16"
       transform="translate(256) rotate(90)"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
     <circle cx="128" cy="60" r="8" />
   </>
@@ -111,11 +111,11 @@ pathsByWeight.set("regular", (color: string) => (
       height="128"
       rx="16"
       transform="translate(256) rotate(90)"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <circle cx="128" cy="60" r="12" />
   </>

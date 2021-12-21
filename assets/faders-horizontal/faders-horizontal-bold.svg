@@ -1,9 +1,1 @@
-<svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <rect width="256" height="256" fill="none"/>
-  <line x1="131.99902" y1="171.99304" x2="39.99902" y2="171.99317" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <line x1="215.99902" y1="171.99317" x2="171.99902" y2="171.99304" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <line x1="67.99902" y1="83.99304" x2="39.99902" y2="83.99246" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <line x1="215.99902" y1="83.99246" x2="107.99902" y2="83.99304" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <line x1="107.99902" y1="59.99304" x2="107.99902" y2="107.99304" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <line x1="171.99902" y1="195.99304" x2="171.99902" y2="147.99304" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><line x1="132" y1="172" x2="40" y2="172" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/><line x1="216" y1="172" x2="172" y2="172" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/><line x1="68" y1="84" x2="40" y2="84" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/><line x1="216" y1="84" x2="108" y2="84" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/><line x1="108" y1="60" x2="108" y2="108" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/><line x1="172" y1="196" x2="172" y2="148" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/></svg>

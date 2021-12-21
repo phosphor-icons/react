@@ -30,11 +30,11 @@ pathsByWeight.set("bold", (color: string) => (
       width="176"
       height="176"
       rx="8"
-      strokeWidth="24"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
   </>
 ));
@@ -59,21 +59,19 @@ pathsByWeight.set("duotone", (color: string) => (
       width="176"
       height="176"
       rx="8"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));
 
 pathsByWeight.set("fill", () => (
   <>
-    <g>
-      <ellipse cx="128" cy="128" rx="24" ry="40" />
-      <path d="M208,32H48A16.02085,16.02085,0,0,0,32,48V208a16.02085,16.02085,0,0,0,16,16H208a16.02085,16.02085,0,0,0,16-16V48A16.02085,16.02085,0,0,0,208,32ZM128,184c-27.63281,0-40-28.125-40-56s12.36719-56,40-56,40,28.125,40,56S155.63281,184,128,184Z" />
-    </g>
+    <ellipse cx="128" cy="128" rx="24" ry="40" />
+    <path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM128,184c-27.6,0-40-28.1-40-56s12.4-56,40-56,40,28.1,40,56S155.6,184,128,184Z" />
   </>
 ));
 
@@ -96,11 +94,11 @@ pathsByWeight.set("light", (color: string) => (
       width="176"
       height="176"
       rx="8"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
   </>
 ));
@@ -124,11 +122,11 @@ pathsByWeight.set("thin", (color: string) => (
       width="176"
       height="176"
       rx="8"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
   </>
 ));
@@ -152,11 +150,11 @@ pathsByWeight.set("regular", (color: string) => (
       width="176"
       height="176"
       rx="8"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));

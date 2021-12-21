@@ -41,11 +41,11 @@ pathsByWeight.set("bold", (color: string) => (
       width="192"
       height="160"
       rx="8"
-      strokeWidth="24"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
   </>
 ));
@@ -81,18 +81,18 @@ pathsByWeight.set("duotone", (color: string) => (
       width="192"
       height="160"
       rx="8"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M216,40H40A16.01833,16.01833,0,0,0,24,56V200a16.01833,16.01833,0,0,0,16,16H216a16.01833,16.01833,0,0,0,16-16V56A16.01833,16.01833,0,0,0,216,40ZM40,56H216l.00269,40.00012L216,96H40ZM216,200H112V112H216l.00391-.00024L216.00977,200Z" />
+    <path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM40,56H216V96H40ZM216,200H112V112H216v88Z" />
   </>
 ));
 
@@ -126,11 +126,11 @@ pathsByWeight.set("light", (color: string) => (
       width="192"
       height="160"
       rx="8"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
   </>
 ));
@@ -165,11 +165,11 @@ pathsByWeight.set("thin", (color: string) => (
       width="192"
       height="160"
       rx="8"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
   </>
 ));
@@ -204,11 +204,11 @@ pathsByWeight.set("regular", (color: string) => (
       width="192"
       height="160"
       rx="8"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));

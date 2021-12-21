@@ -42,9 +42,9 @@ pathsByWeight.set("bold", (color: string) => (
     />
     <line
       x1="176"
-      y1="208.00006"
+      y1="208"
       x2="176"
-      y2="48.00006"
+      y2="48"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -85,9 +85,9 @@ pathsByWeight.set("duotone", (color: string) => (
     />
     <line
       x1="176"
-      y1="208.00006"
+      y1="208"
       x2="176"
-      y2="48.00006"
+      y2="48"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -99,7 +99,7 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M119.39062,172.93848a8.00028,8.00028,0,0,1-1.73339,8.71875l-32,32a8.00181,8.00181,0,0,1-11.31446,0l-32-32A8.00065,8.00065,0,0,1,48,168H72V48a8,8,0,0,1,16,0V168h24A8,8,0,0,1,119.39062,172.93848Zm94.26661-98.59571-32-32a8.00122,8.00122,0,0,0-11.31446,0l-32,32A8.00065,8.00065,0,0,0,144,88h24V208a8,8,0,0,0,16,0V88h24a8.00066,8.00066,0,0,0,5.65723-13.65723Z" />
+    <path d="M119.4,172.9a8.4,8.4,0,0,1-1.7,8.8l-32,32a8.2,8.2,0,0,1-11.4,0l-32-32a8.4,8.4,0,0,1-1.7-8.8A8,8,0,0,1,48,168H72V48a8,8,0,0,1,16,0V168h24A8,8,0,0,1,119.4,172.9Zm94.3-98.6-32-32a8.1,8.1,0,0,0-11.4,0l-32,32a8.4,8.4,0,0,0-1.7,8.8A8,8,0,0,0,144,88h24V208a8,8,0,0,0,16,0V88h24a8,8,0,0,0,7.4-4.9A8.4,8.4,0,0,0,213.7,74.3Z" />
   </>
 ));
 
@@ -134,9 +134,9 @@ pathsByWeight.set("light", (color: string) => (
     />
     <line
       x1="176"
-      y1="208.00006"
+      y1="208"
       x2="176"
-      y2="48.00006"
+      y2="48"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -177,9 +177,9 @@ pathsByWeight.set("thin", (color: string) => (
     />
     <line
       x1="176"
-      y1="208.00006"
+      y1="208"
       x2="176"
-      y2="48.00006"
+      y2="48"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -220,9 +220,9 @@ pathsByWeight.set("regular", (color: string) => (
     />
     <line
       x1="176"
-      y1="208.00006"
+      y1="208"
       x2="176"
-      y2="48.00006"
+      y2="48"
       fill="none"
       stroke={color}
       strokeLinecap="round"

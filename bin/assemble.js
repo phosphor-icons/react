@@ -12,14 +12,14 @@ function readFile(folder, pathname, weight) {
   const file = fs.readFileSync(pathname);
   icons[folder][weight] = file
     .toString("utf-8")
-    .replace(/^.*<\?xml.*/g, "")
-    .replace(/<svg.*/g, "")
+    .replace(/^.*<\?xml.*?\>/g, "")
+    .replace(/<svg.*?>/g, "")
     .replace(/<\/svg>/g, "")
     .replace(
-      /<rect width="25[\d,\.]+" height="25[\d,\.]+" fill="none".*\/>/g,
+      /<rect width="25[\d,\.]+" height="25[\d,\.]+" fill="none".*?\/>/g,
       ""
     )
-    .replace(/<title.*/, "")
+    .replace(/<title.*?/, "")
     .replace(/"#0+"/g, "{color}")
     .replace(/fill\-rule/g, "fillRule")
     .replace(/stroke-linecap/g, "strokeLinecap")
@@ -71,7 +71,7 @@ function generateComponents() {
   let fails = 0;
 
   if (fs.existsSync(COMPONENTS_PATH)) {
-    fs.rmdirSync(COMPONENTS_PATH, { recursive: true });
+    fs.rmSync(COMPONENTS_PATH, { recursive: true });
   }
   fs.mkdirSync(COMPONENTS_PATH);
 

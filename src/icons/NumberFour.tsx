@@ -14,7 +14,7 @@ const pathsByWeight = new Map<IconWeight, PaintFunction>();
 pathsByWeight.set("bold", (color: string) => (
   <>
     <polyline
-      points="123.997 24 76 160 172 160"
+      points="124 24 76 160 172 160"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -23,9 +23,9 @@ pathsByWeight.set("bold", (color: string) => (
     />
     <line
       x1="172"
-      y1="95.98859"
+      y1="96"
       x2="172"
-      y2="223.98844"
+      y2="224"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -38,7 +38,7 @@ pathsByWeight.set("bold", (color: string) => (
 pathsByWeight.set("duotone", (color: string) => (
   <>
     <polyline
-      points="123.997 24 76 160 172 160"
+      points="124 24 76 160 172 160"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -61,14 +61,14 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M180,96V224a8,8,0,0,1-16,0V168H76a8.00033,8.00033,0,0,1-7.54395-10.66211l47.99707-136a7.99988,7.99988,0,0,1,15.0879,5.32422L87.30664,152H164V96a8,8,0,0,1,16,0Z" />
+    <path d="M180,96V224a8,8,0,0,1-16,0V168H76a8,8,0,0,1-6.5-3.4,7.9,7.9,0,0,1-1-7.3l48-136a8,8,0,0,1,15,5.4L87.3,152H164V96a8,8,0,0,1,16,0Z" />
   </>
 ));
 
 pathsByWeight.set("light", (color: string) => (
   <>
     <polyline
-      points="123.997 24 76 160 172 160"
+      points="124 24 76 160 172 160"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -92,7 +92,7 @@ pathsByWeight.set("light", (color: string) => (
 pathsByWeight.set("thin", (color: string) => (
   <>
     <polyline
-      points="123.997 24 76 160 172 160"
+      points="124 24 76 160 172 160"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -116,7 +116,7 @@ pathsByWeight.set("thin", (color: string) => (
 pathsByWeight.set("regular", (color: string) => (
   <>
     <polyline
-      points="123.997 24 76 160 172 160"
+      points="124 24 76 160 172 160"
       fill="none"
       stroke={color}
       strokeLinecap="round"

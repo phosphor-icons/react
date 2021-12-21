@@ -36,7 +36,7 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <path
-      d="M201.76684,39.99737a88,88,0,1,1-147.53337-.00048Z"
+      d="M201.8,40A88,88,0,1,1,54.2,40Z"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -83,7 +83,7 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <path
-      d="M201.76684,39.99737a88,88,0,1,1-147.53337-.00048Z"
+      d="M201.8,40A88,88,0,1,1,54.2,40Z"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -106,7 +106,7 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M224,88a95.63426,95.63426,0,0,0-15.53223-52.37207,7.99982,7.99982,0,0,0-6.70117-3.63086H54.2334A7.99954,7.99954,0,0,0,47.53223,35.627,96.014,96.014,0,0,0,120,183.66406V216H88a8,8,0,0,0,0,16h80a8,8,0,0,0,0-16H136V183.66406A96.127,96.127,0,0,0,224,88ZM58.70312,47.99707H197.29736A79.54855,79.54855,0,0,1,207.60205,80H48.398A79.53944,79.53944,0,0,1,58.70312,47.99707Z" />
+    <path d="M224,88a96.2,96.2,0,0,0-15.5-52.4,8.2,8.2,0,0,0-6.7-3.6H54.2a8.2,8.2,0,0,0-6.7,3.6A96.1,96.1,0,0,0,120,183.7V216H88a8,8,0,0,0,0,16h80a8,8,0,0,0,0-16H136V183.7A96.2,96.2,0,0,0,224,88ZM58.7,48H197.3a78.8,78.8,0,0,1,10.3,32H48.4A78.8,78.8,0,0,1,58.7,48Z" />
   </>
 ));
 
@@ -135,7 +135,7 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <path
-      d="M201.76684,39.99737a88,88,0,1,1-147.53337-.00048Z"
+      d="M201.8,40A88,88,0,1,1,54.2,40Z"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -181,7 +181,7 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <path
-      d="M201.76684,39.99737a88,88,0,1,1-147.53337-.00048Z"
+      d="M201.8,40A88,88,0,1,1,54.2,40Z"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -227,7 +227,7 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <path
-      d="M201.76684,39.99737a88,88,0,1,1-147.53337-.00048Z"
+      d="M201.8,40A88,88,0,1,1,54.2,40Z"
       fill="none"
       stroke={color}
       strokeLinecap="round"

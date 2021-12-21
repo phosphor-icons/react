@@ -14,64 +14,57 @@ const pathsByWeight = new Map<IconWeight, PaintFunction>();
 pathsByWeight.set("bold", (color: string) => (
   <>
     <rect
-      x="32.00781"
-      y="48.00005"
+      x="32"
+      y="48"
       width="192"
       height="160"
       rx="8"
-      strokeWidth="24"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
   </>
 ));
 
 pathsByWeight.set("duotone", (color: string) => (
   <>
+    <rect x="32" y="48" width="192" height="160" rx="8" opacity="0.2" />
     <rect
-      x="32.00781"
-      y="48.00005"
+      x="32"
+      y="48"
       width="192"
       height="160"
       rx="8"
-      opacity="0.2"
-    />
-    <rect
-      x="32.00781"
-      y="48.00005"
-      width="192"
-      height="160"
-      rx="8"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));
 
 pathsByWeight.set("fill", () => (
   <>
-    <rect x="24.00781" y="40" width="208" height="176" rx="16" />
+    <rect x="24" y="40" width="208" height="176" rx="16" />
   </>
 ));
 
 pathsByWeight.set("light", (color: string) => (
   <>
     <rect
-      x="32.00781"
-      y="48.00005"
+      x="32"
+      y="48"
       width="192"
       height="160"
       rx="8"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
   </>
 ));
@@ -79,16 +72,16 @@ pathsByWeight.set("light", (color: string) => (
 pathsByWeight.set("thin", (color: string) => (
   <>
     <rect
-      x="32.00781"
-      y="48.00005"
+      x="32"
+      y="48"
       width="192"
       height="160"
       rx="8"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
   </>
 ));
@@ -101,11 +94,11 @@ pathsByWeight.set("regular", (color: string) => (
       width="192"
       height="160"
       rx="8"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));

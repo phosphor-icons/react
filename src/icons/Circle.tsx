@@ -35,7 +35,8 @@ pathsByWeight.set("duotone", (color: string) => (
       r="96"
       fill="none"
       stroke={color}
-      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       strokeWidth="16"
     />
   </>
@@ -85,7 +86,8 @@ pathsByWeight.set("regular", (color: string) => (
       r="96"
       fill="none"
       stroke={color}
-      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       strokeWidth="16"
     />
   </>

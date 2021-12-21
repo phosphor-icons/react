@@ -24,7 +24,7 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <polyline
-      points="121.941 161.941 88 128 121.941 94.059"
+      points="121.9 161.9 88 128 121.9 94.1"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -58,7 +58,7 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <polyline
-      points="121.941 161.941 88 128 121.941 94.059"
+      points="121.9 161.9 88 128 121.9 94.1"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -81,7 +81,7 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M128,24A104,104,0,1,0,232,128,104.12041,104.12041,0,0,0,128,24Zm40,112H107.3125l20.28125,20.28125a7.99915,7.99915,0,1,1-11.3125,11.3125L82.35352,133.666a8.02367,8.02367,0,0,1,0-11.332l33.92773-33.92773a7.99915,7.99915,0,0,1,11.3125,11.3125L107.3125,120H168a8,8,0,0,1,0,16Z" />
+    <path d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm40,112H107.3l20.3,20.3a8,8,0,0,1,0,11.3,7.8,7.8,0,0,1-5.7,2.3,7.6,7.6,0,0,1-5.6-2.3L82.4,133.7a8.7,8.7,0,0,1-1.8-2.6,8.3,8.3,0,0,1,0-6.2,8.7,8.7,0,0,1,1.8-2.6l33.9-33.9a8,8,0,0,1,11.3,11.3L107.3,120H168a8,8,0,0,1,0,16Z" />
   </>
 ));
 
@@ -98,7 +98,7 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <polyline
-      points="121.941 161.941 88 128 121.941 94.059"
+      points="121.9 161.9 88 128 121.9 94.1"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -132,7 +132,7 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <polyline
-      points="121.941 161.941 88 128 121.941 94.059"
+      points="121.9 161.9 88 128 121.9 94.1"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -165,7 +165,7 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <polyline
-      points="121.941 161.941 88 128 121.941 94.059"
+      points="121.9 161.9 88 128 121.9 94.1"
       fill="none"
       stroke={color}
       strokeLinecap="round"

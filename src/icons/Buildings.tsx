@@ -15,9 +15,9 @@ pathsByWeight.set("bold", (color: string) => (
   <>
     <line
       x1="16"
-      y1="215.98316"
+      y1="216"
       x2="240"
-      y2="215.98316"
+      y2="216"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -25,7 +25,7 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <path
-      d="M143.99414,215.98316v-176a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v176"
+      d="M144,216V40a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V216"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -33,7 +33,7 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <path
-      d="M223.99414,215.98316v-112a8,8,0,0,0-8-8h-72"
+      d="M224,216V104a8,8,0,0,0-8-8H144"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -41,10 +41,10 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <line
-      x1="67.99414"
-      y1="71.98316"
-      x2="95.99414"
-      y2="71.98316"
+      x1="68"
+      y1="72"
+      x2="96"
+      y2="72"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -52,10 +52,10 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <line
-      x1="79.99414"
-      y1="135.98316"
-      x2="107.99414"
-      y2="135.98316"
+      x1="80"
+      y1="136"
+      x2="108"
+      y2="136"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -63,10 +63,10 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <line
-      x1="67.99414"
-      y1="175.98316"
-      x2="95.99414"
-      y2="175.98316"
+      x1="68"
+      y1="176"
+      x2="96"
+      y2="176"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -74,10 +74,10 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <line
-      x1="179.99414"
-      y1="175.98316"
-      x2="187.99414"
-      y2="175.98316"
+      x1="180"
+      y1="176"
+      x2="188"
+      y2="176"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -85,10 +85,10 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <line
-      x1="179.99414"
-      y1="135.98316"
-      x2="187.99414"
-      y2="135.98316"
+      x1="180"
+      y1="136"
+      x2="188"
+      y2="136"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -100,15 +100,12 @@ pathsByWeight.set("bold", (color: string) => (
 
 pathsByWeight.set("duotone", (color: string) => (
   <>
-    <path
-      d="M143.99414,215.98316v-176a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v176"
-      opacity="0.2"
-    />
+    <path d="M144,216V40a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V216" opacity="0.2" />
     <line
       x1="16"
-      y1="215.98316"
+      y1="216"
       x2="240"
-      y2="215.98316"
+      y2="216"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -116,7 +113,7 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <path
-      d="M143.99414,215.98316v-176a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v176"
+      d="M144,216V40a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V216"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -124,7 +121,7 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <path
-      d="M223.99414,215.98316v-112a8,8,0,0,0-8-8h-72"
+      d="M224,216V104a8,8,0,0,0-8-8H144"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -132,10 +129,10 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="63.99414"
-      y1="71.98316"
-      x2="95.99414"
-      y2="71.98316"
+      x1="64"
+      y1="72"
+      x2="96"
+      y2="72"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -143,10 +140,10 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="79.99414"
-      y1="135.98316"
-      x2="111.99414"
-      y2="135.98316"
+      x1="80"
+      y1="136"
+      x2="112"
+      y2="136"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -154,10 +151,10 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="63.99414"
-      y1="175.98316"
-      x2="95.99414"
-      y2="175.98316"
+      x1="64"
+      y1="176"
+      x2="96"
+      y2="176"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -165,10 +162,10 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="175.99414"
-      y1="175.98316"
-      x2="191.99414"
-      y2="175.98316"
+      x1="176"
+      y1="176"
+      x2="192"
+      y2="176"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -176,10 +173,10 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="175.99414"
-      y1="135.98316"
-      x2="191.99414"
-      y2="135.98316"
+      x1="176"
+      y1="136"
+      x2="192"
+      y2="136"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -191,11 +188,9 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <g>
-      <path d="M240,207.98316h-8.00586v-104a16.01833,16.01833,0,0,0-16-16h-64v-48a16.01833,16.01833,0,0,0-16-16h-96a16.01833,16.01833,0,0,0-16,16v168H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16Zm-120.00586-72a8.00009,8.00009,0,0,1-8,8h-32a8,8,0,0,1,0-16h32A8.00008,8.00008,0,0,1,119.99414,135.98316Zm-56-72h32a8,8,0,1,1,0,16h-32a8,8,0,0,1,0-16Zm0,104h32a8,8,0,1,1,0,16h-32a8,8,0,0,1,0-16Zm88-64h64v104h-64Z" />
-      <path d="M191.99414,167.98316h-16a8,8,0,0,0,0,16h16a8,8,0,1,0,0-16Z" />
-      <path d="M175.99414,143.98316h16a8,8,0,1,0,0-16h-16a8,8,0,0,0,0,16Z" />
-    </g>
+    <path d="M240,208h-8V104a16,16,0,0,0-16-16H152V40a16,16,0,0,0-16-16H40A16,16,0,0,0,24,40V208H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM120,136a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h32A8,8,0,0,1,120,136ZM64,64H96a8,8,0,0,1,0,16H64a8,8,0,0,1,0-16Zm0,104H96a8,8,0,0,1,0,16H64a8,8,0,0,1,0-16Zm88-64h64V208H152Z" />
+    <path d="M192,168H176a8,8,0,0,0,0,16h16a8,8,0,0,0,0-16Z" />
+    <path d="M176,144h16a8,8,0,0,0,0-16H176a8,8,0,0,0,0,16Z" />
   </>
 ));
 
@@ -203,9 +198,9 @@ pathsByWeight.set("light", (color: string) => (
   <>
     <line
       x1="16"
-      y1="215.98316"
+      y1="216"
       x2="240"
-      y2="215.98316"
+      y2="216"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -213,7 +208,7 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <path
-      d="M143.99414,215.98316v-176a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v176"
+      d="M144,216V40a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V216"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -221,7 +216,7 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <path
-      d="M223.99414,215.98316v-112a8,8,0,0,0-8-8h-72"
+      d="M224,216V104a8,8,0,0,0-8-8H144"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -229,10 +224,10 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <line
-      x1="63.99414"
-      y1="71.98316"
-      x2="95.99414"
-      y2="71.98316"
+      x1="64"
+      y1="72"
+      x2="96"
+      y2="72"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -240,10 +235,10 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <line
-      x1="79.99414"
-      y1="135.98316"
-      x2="111.99414"
-      y2="135.98316"
+      x1="80"
+      y1="136"
+      x2="112"
+      y2="136"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -251,10 +246,10 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <line
-      x1="63.99414"
-      y1="175.98316"
-      x2="95.99414"
-      y2="175.98316"
+      x1="64"
+      y1="176"
+      x2="96"
+      y2="176"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -262,10 +257,10 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <line
-      x1="175.99414"
-      y1="175.98316"
-      x2="191.99414"
-      y2="175.98316"
+      x1="176"
+      y1="176"
+      x2="192"
+      y2="176"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -273,10 +268,10 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <line
-      x1="175.99414"
-      y1="135.98316"
-      x2="191.99414"
-      y2="135.98316"
+      x1="176"
+      y1="136"
+      x2="192"
+      y2="136"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -290,9 +285,9 @@ pathsByWeight.set("thin", (color: string) => (
   <>
     <line
       x1="16"
-      y1="215.98316"
+      y1="216"
       x2="240"
-      y2="215.98316"
+      y2="216"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -300,7 +295,7 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <path
-      d="M143.99414,215.98316v-176a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v176"
+      d="M144,216V40a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V216"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -308,7 +303,7 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <path
-      d="M223.99414,215.98316v-112a8,8,0,0,0-8-8h-72"
+      d="M224,216V104a8,8,0,0,0-8-8H144"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -316,10 +311,10 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <line
-      x1="63.99414"
-      y1="71.98316"
-      x2="95.99414"
-      y2="71.98316"
+      x1="64"
+      y1="72"
+      x2="96"
+      y2="72"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -327,10 +322,10 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <line
-      x1="79.99414"
-      y1="135.98316"
-      x2="111.99414"
-      y2="135.98316"
+      x1="80"
+      y1="136"
+      x2="112"
+      y2="136"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -338,10 +333,10 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <line
-      x1="63.99414"
-      y1="175.98316"
-      x2="95.99414"
-      y2="175.98316"
+      x1="64"
+      y1="176"
+      x2="96"
+      y2="176"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -349,10 +344,10 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <line
-      x1="175.99414"
-      y1="175.98316"
-      x2="191.99414"
-      y2="175.98316"
+      x1="176"
+      y1="176"
+      x2="192"
+      y2="176"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -360,10 +355,10 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <line
-      x1="175.99414"
-      y1="135.98316"
-      x2="191.99414"
-      y2="135.98316"
+      x1="176"
+      y1="136"
+      x2="192"
+      y2="136"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -377,9 +372,9 @@ pathsByWeight.set("regular", (color: string) => (
   <>
     <line
       x1="16"
-      y1="215.98316"
+      y1="216"
       x2="240"
-      y2="215.98316"
+      y2="216"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -387,7 +382,7 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <path
-      d="M143.99414,215.98316v-176a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v176"
+      d="M144,216V40a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V216"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -395,7 +390,7 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <path
-      d="M223.99414,215.98316v-112a8,8,0,0,0-8-8h-72"
+      d="M224,216V104a8,8,0,0,0-8-8H144"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -403,10 +398,10 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="63.99414"
-      y1="71.98316"
-      x2="95.99414"
-      y2="71.98316"
+      x1="64"
+      y1="72"
+      x2="96"
+      y2="72"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -414,10 +409,10 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="79.99414"
-      y1="135.98316"
-      x2="111.99414"
-      y2="135.98316"
+      x1="80"
+      y1="136"
+      x2="112"
+      y2="136"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -425,10 +420,10 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="63.99414"
-      y1="175.98316"
-      x2="95.99414"
-      y2="175.98316"
+      x1="64"
+      y1="176"
+      x2="96"
+      y2="176"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -436,10 +431,10 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="175.99414"
-      y1="175.98316"
-      x2="191.99414"
-      y2="175.98316"
+      x1="176"
+      y1="176"
+      x2="192"
+      y2="176"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -447,10 +442,10 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="175.99414"
-      y1="135.98316"
-      x2="191.99414"
-      y2="135.98316"
+      x1="176"
+      y1="136"
+      x2="192"
+      y2="136"
       fill="none"
       stroke={color}
       strokeLinecap="round"

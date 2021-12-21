@@ -14,10 +14,10 @@ const pathsByWeight = new Map<IconWeight, PaintFunction>();
 pathsByWeight.set("bold", (color: string) => (
   <>
     <line
-      x1="152.24871"
-      y1="126.00466"
+      x1="152.2"
+      y1="126"
       x2="120"
-      y2="180.00001"
+      y2="180"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -30,11 +30,11 @@ pathsByWeight.set("bold", (color: string) => (
       width="176"
       height="176"
       rx="8"
-      strokeWidth="24"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
     <circle
       cx="128"
@@ -53,10 +53,10 @@ pathsByWeight.set("duotone", (color: string) => (
   <>
     <rect x="40" y="40" width="176" height="176" rx="8" opacity="0.2" />
     <line
-      x1="152.24871"
-      y1="126.00466"
+      x1="152.2"
+      y1="126"
       x2="120"
-      y2="180.00001"
+      y2="180"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -69,11 +69,11 @@ pathsByWeight.set("duotone", (color: string) => (
       width="176"
       height="176"
       rx="8"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <circle
       cx="128"
@@ -90,17 +90,17 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M148,112a20,20,0,1,1-20-20A20.02229,20.02229,0,0,1,148,112Zm76-64V208a16.01833,16.01833,0,0,1-16,16H48a16.01833,16.01833,0,0,1-16-16V48A16.01833,16.01833,0,0,1,48,32H208A16.01833,16.01833,0,0,1,224,48Zm-60,64a36,36,0,1,0-36,36q.91626,0,1.82129-.04614l-16.68945,27.9436a8.00015,8.00015,0,1,0,13.73632,8.20508l32.249-53.99512c.09668-.16162.178-.32812.262-.49341A35.76746,35.76746,0,0,0,164,112Z" />
+    <path d="M148,112a20,20,0,1,1-20-20A20.1,20.1,0,0,1,148,112Zm76-64V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48Zm-60,64a36,36,0,1,0-36,36h1.8l-16.7,27.9a8.1,8.1,0,0,0,2.8,11A8.7,8.7,0,0,0,120,188a8.1,8.1,0,0,0,6.9-3.9l32.2-54,.3-.5A36,36,0,0,0,164,112Z" />
   </>
 ));
 
 pathsByWeight.set("light", (color: string) => (
   <>
     <line
-      x1="152.24871"
-      y1="126.00466"
+      x1="152.2"
+      y1="126"
       x2="120"
-      y2="180.00001"
+      y2="180"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -113,11 +113,11 @@ pathsByWeight.set("light", (color: string) => (
       width="176"
       height="176"
       rx="8"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
     <circle
       cx="128"
@@ -135,10 +135,10 @@ pathsByWeight.set("light", (color: string) => (
 pathsByWeight.set("thin", (color: string) => (
   <>
     <line
-      x1="152.24871"
-      y1="126.00466"
+      x1="152.2"
+      y1="126"
       x2="120"
-      y2="180.00001"
+      y2="180"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -151,11 +151,11 @@ pathsByWeight.set("thin", (color: string) => (
       width="176"
       height="176"
       rx="8"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
     <circle
       cx="128"
@@ -173,10 +173,10 @@ pathsByWeight.set("thin", (color: string) => (
 pathsByWeight.set("regular", (color: string) => (
   <>
     <line
-      x1="152.24871"
-      y1="126.00466"
+      x1="152.2"
+      y1="126"
       x2="120"
-      y2="180.00001"
+      y2="180"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -189,11 +189,11 @@ pathsByWeight.set("regular", (color: string) => (
       width="176"
       height="176"
       rx="8"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <circle
       cx="128"

@@ -43,30 +43,28 @@ pathsByWeight.set("bold", (color: string) => (
       strokeLinejoin="round"
       strokeWidth="24"
     />
-    <g>
-      <line
-        x1="182"
-        y1="156"
-        x2="182"
-        y2="208"
-        fill="none"
-        stroke={color}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="24"
-      />
-      <line
-        x1="208"
-        y1="182"
-        x2="156"
-        y2="182"
-        fill="none"
-        stroke={color}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="24"
-      />
-    </g>
+    <line
+      x1="182"
+      y1="156"
+      x2="182"
+      y2="208"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+    <line
+      x1="208"
+      y1="182"
+      x2="156"
+      y2="182"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
   </>
 ));
 
@@ -132,12 +130,10 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <g>
-      <circle cx="76" cy="76" r="44" />
-      <circle cx="180" cy="76" r="44" />
-      <circle cx="76" cy="180" r="44" />
-      <path d="M208,172H188V152a8,8,0,0,0-16,0v20H152a8,8,0,0,0,0,16h20v20a8,8,0,0,0,16,0V188h20a8,8,0,0,0,0-16Z" />
-    </g>
+    <circle cx="76" cy="76" r="44" />
+    <circle cx="180" cy="76" r="44" />
+    <circle cx="76" cy="180" r="44" />
+    <path d="M208,172H188V152a8,8,0,0,0-16,0v20H152a8,8,0,0,0,0,16h20v20a8,8,0,0,0,16,0V188h20a8,8,0,0,0,0-16Z" />
   </>
 ));
 

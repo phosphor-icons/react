@@ -25,9 +25,9 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <line
-      x1="51.78976"
+      x1="51.8"
       y1="84"
-      x2="204.21024"
+      x2="204.2"
       y2="172"
       fill="none"
       stroke={color}
@@ -36,9 +36,9 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <line
-      x1="51.78976"
+      x1="51.8"
       y1="172"
-      x2="204.21024"
+      x2="204.2"
       y2="84"
       fill="none"
       stroke={color}
@@ -63,9 +63,9 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="51.78976"
+      x1="51.8"
       y1="84"
-      x2="204.21024"
+      x2="204.2"
       y2="172"
       fill="none"
       stroke={color}
@@ -74,9 +74,9 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="51.78976"
+      x1="51.8"
       y1="172"
-      x2="204.21024"
+      x2="204.2"
       y2="84"
       fill="none"
       stroke={color}
@@ -89,7 +89,7 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M208.21045,165.07178,144,128l64.21045-37.07178a8,8,0,1,0-8-13.85644L136,114.14355V40a8,8,0,0,0-16,0v74.14355L55.78955,77.07178a8,8,0,0,0-8,13.85644L112,128,47.78955,165.07178a8,8,0,1,0,8,13.85644L120,141.85645V216a8,8,0,0,0,16,0V141.85645l64.21045,37.07177a8,8,0,0,0,8-13.85644Z" />
+    <path d="M208.2,165.1,144,128l64.2-37.1a8,8,0,1,0-8-13.8l-64.2,37V40a8,8,0,0,0-16,0v74.1l-64.2-37a8,8,0,0,0-8,13.8L112,128,47.8,165.1A8,8,0,0,0,44.9,176a7.7,7.7,0,0,0,6.9,4,7.3,7.3,0,0,0,4-1.1l64.2-37V216a8,8,0,0,0,16,0V141.9l64.2,37a7.3,7.3,0,0,0,4,1.1,7.7,7.7,0,0,0,6.9-4A8,8,0,0,0,208.2,165.1Z" />
   </>
 ));
 
@@ -107,9 +107,9 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <line
-      x1="51.78976"
+      x1="51.8"
       y1="84"
-      x2="204.21024"
+      x2="204.2"
       y2="172"
       fill="none"
       stroke={color}
@@ -118,9 +118,9 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <line
-      x1="51.78976"
+      x1="51.8"
       y1="172"
-      x2="204.21024"
+      x2="204.2"
       y2="84"
       fill="none"
       stroke={color}
@@ -145,9 +145,9 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <line
-      x1="51.78976"
+      x1="51.8"
       y1="84"
-      x2="204.21024"
+      x2="204.2"
       y2="172"
       fill="none"
       stroke={color}
@@ -156,9 +156,9 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <line
-      x1="51.78976"
+      x1="51.8"
       y1="172"
-      x2="204.21024"
+      x2="204.2"
       y2="84"
       fill="none"
       stroke={color}
@@ -183,9 +183,9 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="51.78976"
+      x1="51.8"
       y1="84"
-      x2="204.21024"
+      x2="204.2"
       y2="172"
       fill="none"
       stroke={color}
@@ -194,9 +194,9 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <line
-      x1="51.78976"
+      x1="51.8"
       y1="172"
-      x2="204.21024"
+      x2="204.2"
       y2="84"
       fill="none"
       stroke={color}

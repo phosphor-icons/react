@@ -1,0 +1,329 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+
+import {
+  IconWeight,
+  IconProps,
+  PaintFunction,
+  renderPathForWeight,
+} from "../lib";
+import IconBase, { RenderFunction } from "../lib/IconBase";
+
+const pathsByWeight = new Map<IconWeight, PaintFunction>();
+
+pathsByWeight.set("bold", (color: string) => (
+  <>
+    <line
+      x1="64"
+      y1="32"
+      x2="64"
+      y2="224"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+    <line
+      x1="192"
+      y1="32"
+      x2="192"
+      y2="224"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+    <line
+      x1="64"
+      y1="72"
+      x2="192"
+      y2="72"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+    <line
+      x1="64"
+      y1="128"
+      x2="192"
+      y2="128"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+    <line
+      x1="64"
+      y1="184"
+      x2="192"
+      y2="184"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="24"
+    />
+  </>
+));
+
+pathsByWeight.set("duotone", (color: string) => (
+  <>
+    <line
+      x1="64"
+      y1="32"
+      x2="64"
+      y2="224"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="192"
+      y1="32"
+      x2="192"
+      y2="224"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="64"
+      y1="72"
+      x2="192"
+      y2="72"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="64"
+      y1="128"
+      x2="192"
+      y2="128"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="64"
+      y1="184"
+      x2="192"
+      y2="184"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+  </>
+));
+
+pathsByWeight.set("fill", () => (
+  <>
+    <path d="M192,24a8,8,0,0,0-8,8V64H72V32a8,8,0,0,0-16,0V224a8,8,0,0,0,16,0V192H184v32a8,8,0,0,0,16,0V32A8,8,0,0,0,192,24Zm-8,56v40H72V80ZM72,176V136H184v40Z" />
+  </>
+));
+
+pathsByWeight.set("light", (color: string) => (
+  <>
+    <line
+      x1="64"
+      y1="32"
+      x2="64"
+      y2="224"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="12"
+    />
+    <line
+      x1="192"
+      y1="32"
+      x2="192"
+      y2="224"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="12"
+    />
+    <line
+      x1="64"
+      y1="72"
+      x2="192"
+      y2="72"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="12"
+    />
+    <line
+      x1="64"
+      y1="128"
+      x2="192"
+      y2="128"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="12"
+    />
+    <line
+      x1="64"
+      y1="184"
+      x2="192"
+      y2="184"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="12"
+    />
+  </>
+));
+
+pathsByWeight.set("thin", (color: string) => (
+  <>
+    <line
+      x1="64"
+      y1="32"
+      x2="64"
+      y2="224"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="8"
+    />
+    <line
+      x1="192"
+      y1="32"
+      x2="192"
+      y2="224"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="8"
+    />
+    <line
+      x1="64"
+      y1="72"
+      x2="192"
+      y2="72"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="8"
+    />
+    <line
+      x1="64"
+      y1="128"
+      x2="192"
+      y2="128"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="8"
+    />
+    <line
+      x1="64"
+      y1="184"
+      x2="192"
+      y2="184"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="8"
+    />
+  </>
+));
+
+pathsByWeight.set("regular", (color: string) => (
+  <>
+    <line
+      x1="64"
+      y1="32"
+      x2="64"
+      y2="224"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="192"
+      y1="32"
+      x2="192"
+      y2="224"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="64"
+      y1="72"
+      x2="192"
+      y2="72"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="64"
+      y1="128"
+      x2="192"
+      y2="128"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+    <line
+      x1="64"
+      y1="184"
+      x2="192"
+      y2="184"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="16"
+    />
+  </>
+));
+
+const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
+  renderPathForWeight(weight, color, pathsByWeight);
+
+const LadderSimple = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
+  <IconBase ref={ref} {...props} renderPath={renderPath} />
+));
+
+LadderSimple.displayName = "LadderSimple";
+
+export default LadderSimple;

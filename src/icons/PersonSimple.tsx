@@ -14,7 +14,7 @@ const pathsByWeight = new Map<IconWeight, PaintFunction>();
 pathsByWeight.set("bold", (color: string) => (
   <>
     <circle
-      cx="127.88745"
+      cx="127.9"
       cy="48"
       r="24"
       fill="none"
@@ -55,9 +55,9 @@ pathsByWeight.set("bold", (color: string) => (
 
 pathsByWeight.set("duotone", (color: string) => (
   <>
-    <circle cx="127.88745" cy="48" r="24" opacity="0.2" />
+    <circle cx="127.9" cy="48" r="24" opacity="0.2" />
     <circle
-      cx="127.88745"
+      cx="127.9"
       cy="48"
       r="24"
       fill="none"
@@ -98,14 +98,14 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M95.8877,48a32,32,0,1,1,32,32A32.03635,32.03635,0,0,1,95.8877,48Zm132.22851,73.13965C226.40527,120.11328,185.5542,96,128,96S29.59473,120.11328,27.88379,121.13965a8.00047,8.00047,0,0,0,8.23242,13.7207c.36133-.21686,34.9165-20.59765,83.88379-22.676v36.77447L58.02051,218.68555a7.99985,7.99985,0,1,0,11.959,10.6289L128,164.042l58.02051,65.27246a7.99985,7.99985,0,1,0,11.959-10.6289L136,148.95886V112.18567c48.769,2.08642,83.5293,22.46252,83.88379,22.67468a8.00047,8.00047,0,0,0,8.23242-13.7207Z" />
+    <path d="M95.9,48a32,32,0,1,1,32,32A32,32,0,0,1,95.9,48Zm132.2,73.1C226.4,120.1,185.6,96,128,96S29.6,120.1,27.9,121.1a8,8,0,0,0,8.2,13.8c.4-.3,34.9-20.6,83.9-22.7V149L58,218.7a8,8,0,0,0,12,10.6L128,164l58,65.3a8,8,0,0,0,6,2.7,8.1,8.1,0,0,0,5.3-2,8,8,0,0,0,.7-11.3L136,149V112.2c48.8,2.1,83.5,22.4,83.9,22.7A8.7,8.7,0,0,0,224,136a8,8,0,0,0,4.1-14.9Z" />
   </>
 ));
 
 pathsByWeight.set("light", (color: string) => (
   <>
     <circle
-      cx="127.88745"
+      cx="127.9"
       cy="48"
       r="24"
       fill="none"
@@ -147,7 +147,7 @@ pathsByWeight.set("light", (color: string) => (
 pathsByWeight.set("thin", (color: string) => (
   <>
     <circle
-      cx="127.88745"
+      cx="127.9"
       cy="48"
       r="24"
       fill="none"
@@ -189,7 +189,7 @@ pathsByWeight.set("thin", (color: string) => (
 pathsByWeight.set("regular", (color: string) => (
   <>
     <circle
-      cx="127.88745"
+      cx="127.9"
       cy="48"
       r="24"
       fill="none"

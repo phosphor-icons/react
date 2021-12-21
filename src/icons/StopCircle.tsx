@@ -28,10 +28,10 @@ pathsByWeight.set("bold", (color: string) => (
       y="108"
       width="40"
       height="40"
-      strokeWidth="24"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth="24"
     />
   </>
 ));
@@ -39,7 +39,7 @@ pathsByWeight.set("bold", (color: string) => (
 pathsByWeight.set("duotone", (color: string) => (
   <>
     <path
-      d="M128,32a96,96,0,1,0,96,96A95.99991,95.99991,0,0,0,128,32Zm24,120H104V104h48Z"
+      d="M128,32a96,96,0,1,0,96,96A96,96,0,0,0,128,32Zm24,120H104V104h48Z"
       opacity="0.2"
     />
     <circle
@@ -56,18 +56,18 @@ pathsByWeight.set("duotone", (color: string) => (
       y="104"
       width="48"
       height="48"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M128,24A104,104,0,1,0,232,128,104.11791,104.11791,0,0,0,128,24Zm32,128a8.00008,8.00008,0,0,1-8,8H104a8.00008,8.00008,0,0,1-8-8V104a8.00008,8.00008,0,0,1,8-8h48a8.00008,8.00008,0,0,1,8,8Z" />
+    <path d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm32,128a8,8,0,0,1-8,8H104a8,8,0,0,1-8-8V104a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8Z" />
   </>
 ));
 
@@ -88,11 +88,11 @@ pathsByWeight.set("light", (color: string) => (
       y="104"
       width="48"
       height="48"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
   </>
 ));
@@ -114,11 +114,11 @@ pathsByWeight.set("thin", (color: string) => (
       y="104"
       width="48"
       height="48"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
   </>
 ));
@@ -139,11 +139,11 @@ pathsByWeight.set("regular", (color: string) => (
       y="104"
       width="48"
       height="48"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));

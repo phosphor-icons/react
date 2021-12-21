@@ -1,8 +1,1 @@
-<svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <rect width="256" height="256" fill="none"/>
-  <path d="M221.61367,149.35463a96.28545,96.28545,0,0,0,2.38287-22.17837c-.44383-52.82934-44.1551-95.70346-96.98364-95.17129a96.01642,96.01642,0,0,0-30.989,186.54089A24.002,24.002,0,0,0,128,195.90236V192a24,24,0,0,1,24-24h46.20931A23.99131,23.99131,0,0,0,221.61367,149.35463Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
-  <circle cx="128" cy="76" r="10"/>
-  <circle cx="82.96668" cy="102" r="9.99833"/>
-  <circle cx="82.96668" cy="154" r="9.99833"/>
-  <circle cx="173.03332" cy="102" r="9.99833"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M221.6,149.4a96.2,96.2,0,0,0,2.4-22.2c-.4-52.9-44.2-95.7-97-95.2A96,96,0,0,0,96,218.5a23.9,23.9,0,0,0,32-22.6V192a23.9,23.9,0,0,1,24-24h46.2A24,24,0,0,0,221.6,149.4Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><circle cx="128" cy="76" r="10"/><circle cx="83" cy="102" r="10"/><circle cx="83" cy="154" r="10"/><circle cx="173" cy="102" r="10"/></svg>

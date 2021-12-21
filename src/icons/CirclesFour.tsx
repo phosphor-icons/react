@@ -107,12 +107,10 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <g>
-      <circle cx="76" cy="76" r="44" />
-      <circle cx="180" cy="76" r="44" />
-      <circle cx="76" cy="180" r="44" />
-      <circle cx="180" cy="180" r="44" />
-    </g>
+    <circle cx="76" cy="76" r="44" />
+    <circle cx="180" cy="76" r="44" />
+    <circle cx="76" cy="180" r="44" />
+    <circle cx="180" cy="180" r="44" />
   </>
 ));
 

@@ -24,7 +24,7 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <polyline
-      points="94.059 121.941 128 88 161.941 121.941"
+      points="94.1 121.9 128 88 161.9 121.9"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -58,7 +58,7 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <polyline
-      points="94.059 121.941 128 88 161.941 121.941"
+      points="94.1 121.9 128 88 161.9 121.9"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -81,7 +81,7 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M128,24A104,104,0,1,0,232,128,104.12041,104.12041,0,0,0,128,24Zm39.59375,103.59375a7.99708,7.99708,0,0,1-11.3125,0L136,107.3125V168a8,8,0,0,1-16,0V107.3125L99.71875,127.59375a7.99915,7.99915,0,0,1-11.3125-11.3125L122.334,82.35352a8.02367,8.02367,0,0,1,11.332,0l33.92773,33.92773A7.99708,7.99708,0,0,1,167.59375,127.59375Z" />
+    <path d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm39.6,103.6a7.8,7.8,0,0,1-5.7,2.3,7.6,7.6,0,0,1-5.6-2.3L136,107.3V168a8,8,0,0,1-16,0V107.3L99.7,127.6a8,8,0,0,1-11.3-11.3l33.9-33.9a8.7,8.7,0,0,1,2.6-1.8,8.3,8.3,0,0,1,6.2,0,8.7,8.7,0,0,1,2.6,1.8l33.9,33.9A8,8,0,0,1,167.6,127.6Z" />
   </>
 ));
 
@@ -98,7 +98,7 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <polyline
-      points="94.059 121.941 128 88 161.941 121.941"
+      points="94.1 121.9 128 88 161.9 121.9"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -132,7 +132,7 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <polyline
-      points="94.059 121.941 128 88 161.941 121.941"
+      points="94.1 121.9 128 88 161.9 121.9"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -165,7 +165,7 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <polyline
-      points="94.059 121.941 128 88 161.941 121.941"
+      points="94.1 121.9 128 88 161.9 121.9"
       fill="none"
       stroke={color}
       strokeLinecap="round"

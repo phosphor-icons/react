@@ -37,11 +37,11 @@ pathsByWeight.set("bold", (color: string) => (
       y="104"
       width="176"
       height="48"
-      strokeWidth="24"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
     <polyline
       points="136 152 136 200 40 200"
@@ -81,11 +81,11 @@ pathsByWeight.set("duotone", (color: string) => (
       y="104"
       width="176"
       height="48"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <polyline
       points="136 152 136 200 40 200"
@@ -100,7 +100,7 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M216,96H176V56a7.99977,7.99977,0,0,0-8-8H48V40a8,8,0,0,0-16,0V216a8,8,0,0,0,16,0v-8h88a7.99977,7.99977,0,0,0,8-8V160h72a7.99977,7.99977,0,0,0,8-8V104A7.99977,7.99977,0,0,0,216,96ZM160,64V96H48V64ZM128,192H48V160h80Z" />
+    <path d="M216,96H176V56a8,8,0,0,0-8-8H48V40a8,8,0,0,0-16,0V216a8,8,0,0,0,16,0v-8h88a8,8,0,0,0,8-8V160h72a8,8,0,0,0,8-8V104A8,8,0,0,0,216,96ZM160,64V96H48V64ZM128,192H48V160h80Z" />
   </>
 ));
 
@@ -130,11 +130,11 @@ pathsByWeight.set("light", (color: string) => (
       y="104"
       width="176"
       height="48"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
     <polyline
       points="136 152 136 200 40 200"
@@ -173,11 +173,11 @@ pathsByWeight.set("thin", (color: string) => (
       y="104"
       width="176"
       height="48"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
     <polyline
       points="136 152 136 200 40 200"
@@ -216,11 +216,11 @@ pathsByWeight.set("regular", (color: string) => (
       y="104"
       width="176"
       height="48"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <polyline
       points="136 152 136 200 40 200"

@@ -1,9 +1,1 @@
-<svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <rect width="256" height="256" fill="none"/>
-  <path d="M127.341,230.2426,83,112h90L128.659,230.2426l0,.0002a8.017,8.017,0,0,1-1.3181,0Z" opacity="0.2"/>
-  <path d="M219.2,112l-15.979-59.9214a4,4,0,0,0-7.61026-.37384L173,112Z" opacity="0.2"/>
-  <path d="M36.8,112l15.979-59.9214a4,4,0,0,1,7.61026-.37384L83,112H36.8Z" opacity="0.2"/>
-  <path d="M83,112h90l22.61071-60.29524a4,4,0,0,1,7.61026.37384l27.32935,102.4851a8,8,0,0,1-3.1762,8.63883l-94.82044,65.64492a8,8,0,0,1-9.10736,0L28.62588,163.20255a8,8,0,0,1-3.1762-8.63883L52.779,52.07862a4,4,0,0,1,7.61026-.37384Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <polyline points="128.659 230.243 173 112 219.2 112" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <polyline points="36.8 112 83 112 83 112 127.341 230.243" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M127.3,230.2,83,112h90L128.7,230.2h0a3.3,3.3,0,0,1-1.4,0Z" opacity="0.2"/><path d="M219.2,112l-16-59.9a4,4,0,0,0-7.6-.4L173,112Z" opacity="0.2"/><path d="M36.8,112l16-59.9a4,4,0,0,1,7.6-.4L83,112H36.8Z" opacity="0.2"/><path d="M83,112h90l22.6-60.3a4,4,0,0,1,7.6.4l27.4,102.5a8.2,8.2,0,0,1-3.2,8.6l-94.8,65.6a8.1,8.1,0,0,1-9.2,0L28.6,163.2a8.2,8.2,0,0,1-3.2-8.6L52.8,52.1a4,4,0,0,1,7.6-.4Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="128.7 230.2 173 112 219.2 112" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="36.8 112 83 112 83 112 127.3 230.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>

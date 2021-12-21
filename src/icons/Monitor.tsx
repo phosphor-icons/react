@@ -20,11 +20,11 @@ pathsByWeight.set("bold", (color: string) => (
       height="144"
       rx="16"
       transform="translate(256 240) rotate(180)"
-      strokeWidth="24"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
     <line
       x1="160"
@@ -58,11 +58,11 @@ pathsByWeight.set("duotone", (color: string) => (
       height="144"
       rx="16"
       transform="translate(256 240) rotate(180)"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <line
       x1="160"
@@ -80,10 +80,8 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <g>
-      <rect x="24" y="40.0002" width="208" height="160" rx="24" />
-      <path d="M160,216.0002H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Z" />
-    </g>
+    <rect x="24" y="40" width="208" height="160" rx="24" />
+    <path d="M160,216H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Z" />
   </>
 ));
 
@@ -96,11 +94,11 @@ pathsByWeight.set("light", (color: string) => (
       height="144"
       rx="16"
       transform="translate(256 240) rotate(180)"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
     <line
       x1="160"
@@ -125,11 +123,11 @@ pathsByWeight.set("thin", (color: string) => (
       height="144"
       rx="16"
       transform="translate(256 240) rotate(180)"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
     <line
       x1="160"
@@ -154,11 +152,11 @@ pathsByWeight.set("regular", (color: string) => (
       height="144"
       rx="16"
       transform="translate(256 240) rotate(180)"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <line
       x1="160"

@@ -18,37 +18,37 @@ pathsByWeight.set("bold", (color: string) => (
       y="52"
       width="152"
       height="152"
-      rx="6.90909"
-      strokeWidth="24"
+      rx="6.9"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
   </>
 ));
 
 pathsByWeight.set("duotone", (color: string) => (
   <>
-    <rect x="52" y="52" width="152" height="152" rx="6.90909" opacity="0.2" />
+    <rect x="52" y="52" width="152" height="152" rx="6.9" opacity="0.2" />
     <rect
       x="52"
       y="52"
       width="152"
       height="152"
-      rx="6.90909"
-      strokeWidth="16"
+      rx="6.9"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));
 
 pathsByWeight.set("fill", () => (
   <>
-    <rect x="44" y="44" width="168" height="168" rx="14.90918" />
+    <rect x="44" y="44" width="168" height="168" rx="14.9" />
   </>
 ));
 
@@ -59,12 +59,12 @@ pathsByWeight.set("light", (color: string) => (
       y="52"
       width="152"
       height="152"
-      rx="6.90909"
-      strokeWidth="12"
+      rx="6.9"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
   </>
 ));
@@ -76,12 +76,12 @@ pathsByWeight.set("thin", (color: string) => (
       y="52"
       width="152"
       height="152"
-      rx="6.90909"
-      strokeWidth="8"
+      rx="6.9"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
   </>
 ));
@@ -93,12 +93,12 @@ pathsByWeight.set("regular", (color: string) => (
       y="52"
       width="152"
       height="152"
-      rx="6.90909"
-      strokeWidth="16"
+      rx="6.9"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));

@@ -19,11 +19,11 @@ pathsByWeight.set("bold", (color: string) => (
       width="176"
       height="176"
       rx="24"
-      strokeWidth="24"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
     <circle cx="128" cy="128" r="16" />
   </>
@@ -38,11 +38,11 @@ pathsByWeight.set("duotone", (color: string) => (
       width="176"
       height="176"
       rx="24"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <circle cx="128" cy="128" r="12" />
   </>
@@ -50,7 +50,7 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M192,32H64A32.03667,32.03667,0,0,0,32,64V192a32.03667,32.03667,0,0,0,32,32H192a32.03667,32.03667,0,0,0,32-32V64A32.03667,32.03667,0,0,0,192,32ZM128,140a12,12,0,1,1,12-12A12,12,0,0,1,128,140Z" />
+    <path d="M192,32H64A32.1,32.1,0,0,0,32,64V192a32.1,32.1,0,0,0,32,32H192a32.1,32.1,0,0,0,32-32V64A32.1,32.1,0,0,0,192,32ZM128,140a12,12,0,1,1,12-12A12,12,0,0,1,128,140Z" />
   </>
 ));
 
@@ -62,11 +62,11 @@ pathsByWeight.set("light", (color: string) => (
       width="176"
       height="176"
       rx="24"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
     <circle cx="128" cy="128" r="10" />
   </>
@@ -80,11 +80,11 @@ pathsByWeight.set("thin", (color: string) => (
       width="176"
       height="176"
       rx="24"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
     <circle cx="128" cy="128" r="8" />
   </>
@@ -98,11 +98,11 @@ pathsByWeight.set("regular", (color: string) => (
       width="176"
       height="176"
       rx="24"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
     <circle cx="128" cy="128" r="12" />
   </>

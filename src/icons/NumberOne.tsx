@@ -14,7 +14,7 @@ const pathsByWeight = new Map<IconWeight, PaintFunction>();
 pathsByWeight.set("bold", (color: string) => (
   <>
     <polyline
-      points="84 63.986 132 32 132 224"
+      points="84 64 132 32 132 224"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -27,7 +27,7 @@ pathsByWeight.set("bold", (color: string) => (
 pathsByWeight.set("duotone", (color: string) => (
   <>
     <polyline
-      points="84 63.986 132 32 132 224"
+      points="84 64 132 32 132 224"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -39,14 +39,14 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M131.99574,232a8.00252,8.00252,0,0,1-8.00427-8.00045V46.95129l-35.54531,23.691A8.00167,8.00167,0,1,1,79.56448,57.3298L127.55489,25.344A8.0046,8.0046,0,0,1,140,32.00038V223.99955A8.00252,8.00252,0,0,1,131.99574,232Z" />
+    <path d="M132,232a8,8,0,0,1-8-8V47L88.4,70.6a8,8,0,0,1-11.1-2.2,8.1,8.1,0,0,1,2.3-11.1l48-32a8.3,8.3,0,0,1,8.2-.4A8,8,0,0,1,140,32V224A8,8,0,0,1,132,232Z" />
   </>
 ));
 
 pathsByWeight.set("light", (color: string) => (
   <>
     <polyline
-      points="84 63.986 132 32 132 224"
+      points="84 64 132 32 132 224"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -59,7 +59,7 @@ pathsByWeight.set("light", (color: string) => (
 pathsByWeight.set("thin", (color: string) => (
   <>
     <polyline
-      points="84 63.986 132 32 132 224"
+      points="84 64 132 32 132 224"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -72,7 +72,7 @@ pathsByWeight.set("thin", (color: string) => (
 pathsByWeight.set("regular", (color: string) => (
   <>
     <polyline
-      points="84 63.986 132 32 132 224"
+      points="84 64 132 32 132 224"
       fill="none"
       stroke={color}
       strokeLinecap="round"

@@ -14,8 +14,8 @@ const pathsByWeight = new Map<IconWeight, PaintFunction>();
 pathsByWeight.set("bold", (color: string) => (
   <>
     <line
-      x1="79.51067"
-      y1="140.00467"
+      x1="79.5"
+      y1="140"
       x2="144"
       y2="32"
       fill="none"
@@ -40,8 +40,8 @@ pathsByWeight.set("bold", (color: string) => (
 pathsByWeight.set("duotone", (color: string) => (
   <>
     <line
-      x1="79.51067"
-      y1="140.00467"
+      x1="79.5"
+      y1="140"
       x2="144"
       y2="32"
       fill="none"
@@ -65,15 +65,15 @@ pathsByWeight.set("duotone", (color: string) => (
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M128,104a63.75508,63.75508,0,0,0-19.49121,3.04492l42.36035-70.9436a8.00043,8.00043,0,0,0-13.73828-8.20288L72.6416,135.90332c-.10449.17529-.19385.355-.28369.53442A63.97854,63.97854,0,1,0,128,104Zm0,112a47.97612,47.97612,0,0,1-41.15674-72.67017l.17749-.29736A47.99419,47.99419,0,1,1,128,216Z" />
+    <path d="M128,104a66.3,66.3,0,0,0-19.5,3l42.4-70.9a8,8,0,0,0-13.8-8.2l-64.5,108-.2.5A63,63,0,0,0,64,168a64,64,0,1,0,64-64Zm0,112a48.1,48.1,0,0,1-41.2-72.7l.2-.3a48,48,0,1,1,41,73Z" />
   </>
 ));
 
 pathsByWeight.set("light", (color: string) => (
   <>
     <line
-      x1="79.51067"
-      y1="140.00467"
+      x1="79.5"
+      y1="140"
       x2="144"
       y2="32"
       fill="none"
@@ -98,8 +98,8 @@ pathsByWeight.set("light", (color: string) => (
 pathsByWeight.set("thin", (color: string) => (
   <>
     <line
-      x1="79.51067"
-      y1="140.00467"
+      x1="79.5"
+      y1="140"
       x2="144"
       y2="32"
       fill="none"
@@ -124,8 +124,8 @@ pathsByWeight.set("thin", (color: string) => (
 pathsByWeight.set("regular", (color: string) => (
   <>
     <line
-      x1="79.51067"
-      y1="140.00467"
+      x1="79.5"
+      y1="140"
       x2="144"
       y2="32"
       fill="none"

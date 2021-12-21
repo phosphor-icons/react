@@ -14,7 +14,7 @@ const pathsByWeight = new Map<IconWeight, PaintFunction>();
 pathsByWeight.set("bold", (color: string) => (
   <>
     <polyline
-      points="168 167.993 216 167.993 216 39.993 88 39.993 88 87.993"
+      points="168 168 216 168 216 40 88 40 88 88"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -22,15 +22,15 @@ pathsByWeight.set("bold", (color: string) => (
       strokeWidth="24"
     />
     <rect
-      x="39.99902"
-      y="87.99414"
+      x="40"
+      y="88"
       width="128"
       height="128"
-      strokeWidth="24"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="24"
     />
   </>
 ));
@@ -38,11 +38,11 @@ pathsByWeight.set("bold", (color: string) => (
 pathsByWeight.set("duotone", (color: string) => (
   <>
     <polygon
-      points="168 87.993 168 167.993 216 167.993 216 39.993 88 39.993 88 87.993 168 87.993"
+      points="168 88 168 168 216 168 216 40 88 40 88 88 168 88"
       opacity="0.2"
     />
     <polyline
-      points="168 167.993 216 167.993 216 39.993 88 39.993 88 87.993"
+      points="168 168 216 168 216 40 88 40 88 88"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -50,29 +50,29 @@ pathsByWeight.set("duotone", (color: string) => (
       strokeWidth="16"
     />
     <rect
-      x="39.99902"
-      y="87.99414"
+      x="40"
+      y="88"
       width="128"
       height="128"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));
 
 pathsByWeight.set("fill", () => (
   <>
-    <path d="M215.99414,31.99316h-128a8.0004,8.0004,0,0,0-8,8v40.001h-40.001a8.0004,8.0004,0,0,0-8,8v128a8.0004,8.0004,0,0,0,8,8h128a8.00039,8.00039,0,0,0,8-8v-40.001h40.001a8.00039,8.00039,0,0,0,8-8v-128A8.0004,8.0004,0,0,0,215.99414,31.99316Zm-8,128h-32.001v-71.999a8.00039,8.00039,0,0,0-8-8h-71.999v-32.001h112Z" />
+    <path d="M216,32H88a8,8,0,0,0-8,8V80H40a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H168a8,8,0,0,0,8-8V176h40a8,8,0,0,0,8-8V40A8,8,0,0,0,216,32Zm-8,128H176V88a8,8,0,0,0-8-8H96V48H208Z" />
   </>
 ));
 
 pathsByWeight.set("light", (color: string) => (
   <>
     <polyline
-      points="168 167.993 216 167.993 216 39.993 88 39.993 88 87.993"
+      points="168 168 216 168 216 40 88 40 88 88"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -80,15 +80,15 @@ pathsByWeight.set("light", (color: string) => (
       strokeWidth="12"
     />
     <rect
-      x="39.99902"
-      y="87.99414"
+      x="40"
+      y="88"
       width="128"
       height="128"
-      strokeWidth="12"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="12"
     />
   </>
 ));
@@ -96,7 +96,7 @@ pathsByWeight.set("light", (color: string) => (
 pathsByWeight.set("thin", (color: string) => (
   <>
     <polyline
-      points="168 167.993 216 167.993 216 39.993 88 39.993 88 87.993"
+      points="168 168 216 168 216 40 88 40 88 88"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -104,15 +104,15 @@ pathsByWeight.set("thin", (color: string) => (
       strokeWidth="8"
     />
     <rect
-      x="39.99902"
-      y="87.99414"
+      x="40"
+      y="88"
       width="128"
       height="128"
-      strokeWidth="8"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="8"
     />
   </>
 ));
@@ -120,7 +120,7 @@ pathsByWeight.set("thin", (color: string) => (
 pathsByWeight.set("regular", (color: string) => (
   <>
     <polyline
-      points="168 167.993 216 167.993 216 39.993 88 39.993 88 87.993"
+      points="168 168 216 168 216 40 88 40 88 88"
       fill="none"
       stroke={color}
       strokeLinecap="round"
@@ -128,15 +128,15 @@ pathsByWeight.set("regular", (color: string) => (
       strokeWidth="16"
     />
     <rect
-      x="39.99902"
-      y="87.99414"
+      x="40"
+      y="88"
       width="128"
       height="128"
-      strokeWidth="16"
+      fill="none"
       stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
-      fill="none"
+      strokeWidth="16"
     />
   </>
 ));
