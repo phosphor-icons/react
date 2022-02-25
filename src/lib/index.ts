@@ -11,6 +11,7 @@ export type IconWeight =
 export type PaintFunction = (color: string) => React.ReactNode | null;
 
 export interface IconProps extends ComponentPropsWithoutRef<"svg"> {
+  alt?: string;
   color?: string;
   size?: string | number;
   weight?: IconWeight;
