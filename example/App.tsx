@@ -56,6 +56,7 @@ const App = () => {
             color={color}
             style={{ verticalAlign: "middle" }}
             weight="fill"
+            alt="heart symbol"
           />{" "}
           from Bub Tub.
         </p>
