@@ -12,6 +12,7 @@ interface IconBaseProps extends IconProps {
 
 const IconBase = forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
   const {
+    alt,
     color,
     size,
     weight,
@@ -41,6 +42,7 @@ const IconBase = forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
       {...restContext}
       {...restProps}
     >
+      {!!alt && <title>{alt}</title>}
       {children}
       <rect width="256" height="256" fill="none" />
       {renderPath(weight ?? contextWeight, color ?? contextColor)}
