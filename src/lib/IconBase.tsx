@@ -42,7 +42,7 @@ const IconBase = forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
       {...restContext}
       {...restProps}
     >
-      <title>{alt}</title>
+      {!!alt && <title>{alt}</title>}
       {children}
       <rect width="256" height="256" fill="none" />
       {renderPath(weight ?? contextWeight, color ?? contextColor)}
