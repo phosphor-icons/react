@@ -9,8 +9,7 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "paths": {
-      "*": ["src/*"],
-      "#/*": ["dist/*"]
+      "*": ["src/*"]
     },
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,

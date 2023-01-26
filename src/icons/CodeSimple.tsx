@@ -1,133 +1,55 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import { forwardRef, ReactElement } from "react";
 
-import {
-  IconWeight,
-  IconProps,
-  PaintFunction,
-  renderPathForWeight,
-} from "../lib";
-import IconBase, { RenderFunction } from "../lib/IconBase";
+import { IconWeight, IconProps } from "../lib";
+import IconBase from "../lib/IconBase";
 
-const pathsByWeight = new Map<IconWeight, PaintFunction>();
+const weightsMap = new Map<IconWeight, ReactElement>();
 
-pathsByWeight.set("bold", (color: string) => (
+weightsMap.set(
+  "bold",
   <>
-    <polyline
-      points="88 64 16 128 88 192"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="24"
-    />
-    <polyline
-      points="168 64 240 128 168 192"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="24"
-    />
+    <path d="M96,73,34.1,128,96,183a12.1,12.1,0,0,1,1,17,12.1,12.1,0,0,1-17,1L8,137a12.1,12.1,0,0,1,0-18L80,55A12,12,0,0,1,96,73Zm152,46L176,55a12,12,0,1,0-16,18l61.9,55L160,183a12.1,12.1,0,0,0-1,17,12.1,12.1,0,0,0,17,1l72-64a12.1,12.1,0,0,0,0-18Z" />
   </>
-));
+);
 
-pathsByWeight.set("duotone", (color: string) => (
+weightsMap.set(
+  "duotone",
   <>
-    <polyline
-      points="88 64 16 128 88 192"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
-    <polyline
-      points="168 64 240 128 168 192"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
+    <path d="M93.3,70,28,128l65.3,58A8,8,0,0,1,88,200a8.1,8.1,0,0,1-5.3-2l-72-64a8,8,0,0,1,0-12l72-64A8,8,0,0,1,93.3,70Zm152,52-72-64a8,8,0,0,0-10.6,12L228,128l-65.3,58a8,8,0,0,0,5.3,14,8.1,8.1,0,0,0,5.3-2l72-64a8,8,0,0,0,0-12Z" />
   </>
-));
+);
 
-pathsByWeight.set("fill", () => (
+weightsMap.set(
+  "fill",
   <>
-    <path d="M94,58.7A8,8,0,0,0,82.7,58l-72,64a8,8,0,0,0,0,12l72,64a8.1,8.1,0,0,0,5.3,2,8,8,0,0,0,5.3-14L28,128,93.3,70A8,8,0,0,0,94,58.7Z" />
-    <path d="M245.3,122l-72-64a8,8,0,0,0-10.6,12L228,128l-65.3,58a8,8,0,0,0,5.3,14,8.1,8.1,0,0,0,5.3-2l72-64a8,8,0,0,0,0-12Z" />
+    <path d="M93.3,70,28,128l65.3,58A8,8,0,0,1,88,200a8.1,8.1,0,0,1-5.3-2l-72-64a8,8,0,0,1,0-12l72-64A8,8,0,0,1,93.3,70Zm152,52-72-64a8,8,0,0,0-10.6,12L228,128l-65.3,58a8,8,0,0,0,5.3,14,8.1,8.1,0,0,0,5.3-2l72-64a8,8,0,0,0,0-12Z" />
   </>
-));
+);
 
-pathsByWeight.set("light", (color: string) => (
+weightsMap.set(
+  "light",
   <>
-    <polyline
-      points="88 64 16 128 88 192"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="12"
-    />
-    <polyline
-      points="168 64 240 128 168 192"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="12"
-    />
+    <path d="M92,68.5,25,128l67,59.5A6,6,0,0,1,88,198a6.2,6.2,0,0,1-4-1.5l-72-64a6.1,6.1,0,0,1,0-9l72-64a6,6,0,0,1,8,9Zm152,55-72-64a6,6,0,1,0-8,9L231,128l-67,59.5a6,6,0,0,0-.5,8.5,6.1,6.1,0,0,0,8.5.5l72-64a6.1,6.1,0,0,0,0-9Z" />
   </>
-));
+);
 
-pathsByWeight.set("thin", (color: string) => (
+weightsMap.set(
+  "regular",
   <>
-    <polyline
-      points="88 64 16 128 88 192"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="8"
-    />
-    <polyline
-      points="168 64 240 128 168 192"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="8"
-    />
+    <path d="M93.3,70,28,128l65.3,58A8,8,0,0,1,88,200a8.1,8.1,0,0,1-5.3-2l-72-64a8,8,0,0,1,0-12l72-64A8,8,0,0,1,93.3,70Zm152,52-72-64a8,8,0,0,0-10.6,12L228,128l-65.3,58a8,8,0,0,0,5.3,14,8.1,8.1,0,0,0,5.3-2l72-64a8,8,0,0,0,0-12Z" />
   </>
-));
+);
 
-pathsByWeight.set("regular", (color: string) => (
+weightsMap.set(
+  "thin",
   <>
-    <polyline
-      points="88 64 16 128 88 192"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
-    <polyline
-      points="168 64 240 128 168 192"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
+    <path d="M90.7,67,22,128l68.7,61a4.1,4.1,0,0,1,.3,5.7,4.3,4.3,0,0,1-3,1.3,4.1,4.1,0,0,1-2.7-1l-72-64a4.1,4.1,0,0,1,0-6l72-64a4,4,0,0,1,5.4,6Zm152,58-72-64a4,4,0,0,0-5.4,6L234,128l-68.7,61a4.1,4.1,0,0,0-.3,5.7,4.3,4.3,0,0,0,3,1.3,3.9,3.9,0,0,0,2.7-1l72-64a4.1,4.1,0,0,0,0-6Z" />
   </>
-));
-
-const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
-  renderPathForWeight(weight, color, pathsByWeight);
+);
 
 const CodeSimple = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
-  <IconBase ref={ref} {...props} renderPath={renderPath} />
+  <IconBase ref={ref} {...props} weightsMap={weightsMap} />
 ));
 
 CodeSimple.displayName = "CodeSimple";

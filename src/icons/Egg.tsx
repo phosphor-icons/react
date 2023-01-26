@@ -1,96 +1,59 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import { forwardRef, ReactElement } from "react";
 
-import {
-  IconWeight,
-  IconProps,
-  PaintFunction,
-  renderPathForWeight,
-} from "../lib";
-import IconBase, { RenderFunction } from "../lib/IconBase";
+import { IconWeight, IconProps } from "../lib";
+import IconBase from "../lib/IconBase";
 
-const pathsByWeight = new Map<IconWeight, PaintFunction>();
+const weightsMap = new Map<IconWeight, ReactElement>();
 
-pathsByWeight.set("bold", (color: string) => (
+weightsMap.set(
+  "bold",
   <>
-    <path
-      d="M208,152a80,80,0,0,1-160,0C48,88,96,24,128,24S208,88,208,152Z"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="24"
-    />
+    <path d="M190,57.3C171.1,29,147.9,12,128,12S84.9,29,66,57.3,36,120.5,36,152a92,92,0,0,0,184,0C220,120.5,209.1,86,190,57.3ZM128,220a68.1,68.1,0,0,1-68-68c0-61.1,46.2-116,68-116s68,54.9,68,116A68.1,68.1,0,0,1,128,220Z" />
   </>
-));
+);
 
-pathsByWeight.set("duotone", (color: string) => (
+weightsMap.set(
+  "duotone",
   <>
     <path
       d="M208,152a80,80,0,0,1-160,0C48,88,96,24,128,24S208,88,208,152Z"
       opacity="0.2"
     />
-    <path
-      d="M208,152a80,80,0,0,1-160,0C48,88,96,24,128,24S208,88,208,152Z"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
+    <path d="M186.7,59.6C168.5,32.3,146.5,16,128,16S87.5,32.3,69.3,59.6,40,121.2,40,152a88,88,0,0,0,176,0C216,121.2,205.3,87.5,186.7,59.6ZM128,224a72.1,72.1,0,0,1-72-72c0-27.7,9.7-58.2,26.7-83.6C97.2,46.6,115.4,32,128,32s30.8,14.6,45.3,36.4c17,25.4,26.7,55.9,26.7,83.6A72.1,72.1,0,0,1,128,224Z" />
   </>
-));
+);
 
-pathsByWeight.set("fill", () => (
+weightsMap.set(
+  "fill",
   <>
     <path d="M216,152a88,88,0,0,1-176,0c0-30.8,10.7-64.5,29.3-92.4S109.5,16,128,16s40.5,16.3,58.7,43.6S216,121.2,216,152Z" />
   </>
-));
+);
 
-pathsByWeight.set("light", (color: string) => (
+weightsMap.set(
+  "light",
   <>
-    <path
-      d="M208,152a80,80,0,0,1-160,0C48,88,96,24,128,24S208,88,208,152Z"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="12"
-    />
+    <path d="M185,60.7C167.2,34,145.9,18,128,18S88.8,34,71,60.7,42,121.6,42,152a86,86,0,0,0,172,0C214,121.6,203.4,88.3,185,60.7ZM128,226a74.1,74.1,0,0,1-74-74c0-28.1,9.8-58.9,27-84.7C96.1,44.7,114.6,30,128,30s31.9,14.7,47,37.3c17.2,25.8,27,56.6,27,84.7A74.1,74.1,0,0,1,128,226Z" />
   </>
-));
+);
 
-pathsByWeight.set("thin", (color: string) => (
+weightsMap.set(
+  "regular",
   <>
-    <path
-      d="M208,152a80,80,0,0,1-160,0C48,88,96,24,128,24S208,88,208,152Z"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="8"
-    />
+    <path d="M186.7,59.6C168.5,32.3,146.5,16,128,16S87.5,32.3,69.3,59.6,40,121.2,40,152a88,88,0,0,0,176,0C216,121.2,205.3,87.5,186.7,59.6ZM128,224a72.1,72.1,0,0,1-72-72c0-27.7,9.7-58.2,26.7-83.6C97.2,46.6,115.4,32,128,32s30.8,14.6,45.3,36.4c17,25.4,26.7,55.9,26.7,83.6A72.1,72.1,0,0,1,128,224Z" />
   </>
-));
+);
 
-pathsByWeight.set("regular", (color: string) => (
+weightsMap.set(
+  "thin",
   <>
-    <path
-      d="M208,152a80,80,0,0,1-160,0C48,88,96,24,128,24S208,88,208,152Z"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
+    <path d="M128,20C92.9,20,44,86.5,44,152a84,84,0,0,0,168,0C212,86.5,163.1,20,128,20Zm0,208a76.1,76.1,0,0,1-76-76c0-28.5,10-59.7,27.3-85.8C94.8,43,113.9,28,128,28s33.2,15,48.7,38.2C194,92.3,204,123.5,204,152A76.1,76.1,0,0,1,128,228Z" />
   </>
-));
-
-const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
-  renderPathForWeight(weight, color, pathsByWeight);
+);
 
 const Egg = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
-  <IconBase ref={ref} {...props} renderPath={renderPath} />
+  <IconBase ref={ref} {...props} weightsMap={weightsMap} />
 ));
 
 Egg.displayName = "Egg";

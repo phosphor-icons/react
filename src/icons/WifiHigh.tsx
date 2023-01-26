@@ -1,164 +1,58 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import { forwardRef, ReactElement } from "react";
 
-import {
-  IconWeight,
-  IconProps,
-  PaintFunction,
-  renderPathForWeight,
-} from "../lib";
-import IconBase, { RenderFunction } from "../lib/IconBase";
+import { IconWeight, IconProps } from "../lib";
+import IconBase from "../lib/IconBase";
 
-const pathsByWeight = new Map<IconWeight, PaintFunction>();
+const weightsMap = new Map<IconWeight, ReactElement>();
 
-pathsByWeight.set("bold", (color: string) => (
+weightsMap.set(
+  "bold",
   <>
-    <path
-      d="M92.9,166.1a50.7,50.7,0,0,1,70.2,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="24"
-    />
-    <path
-      d="M59,132.1a98.8,98.8,0,0,1,138,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="24"
-    />
-    <path
-      d="M25.1,98.2a146.6,146.6,0,0,1,205.8,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="24"
-    />
-    <circle cx="128" cy="200" r="16" />
+    <path d="M171.4,157.4a12,12,0,0,1,.3,17,12.2,12.2,0,0,1-8.6,3.7,12.5,12.5,0,0,1-8.4-3.4,38.7,38.7,0,0,0-53.4,0,12,12,0,1,1-16.7-17.3,62.8,62.8,0,0,1,86.8,0ZM128,92a109.6,109.6,0,0,0-77.4,31.6,11.9,11.9,0,0,0-.2,16.9,12,12,0,0,0,17,.2,86.7,86.7,0,0,1,121.2,0,11.9,11.9,0,0,0,8.4,3.4,12.1,12.1,0,0,0,8.6-3.6,11.9,11.9,0,0,0-.2-16.9A109.6,109.6,0,0,0,128,92Zm111.4-2.4a158.9,158.9,0,0,0-222.8,0,12,12,0,0,0,16.9,17.1,134.7,134.7,0,0,1,189,0,12,12,0,0,0,8.4,3.5,12,12,0,0,0,8.5-20.6ZM128,184a16,16,0,1,0,16,16A16,16,0,0,0,128,184Z" />
   </>
-));
+);
 
-pathsByWeight.set("duotone", (color: string) => (
+weightsMap.set(
+  "duotone",
   <>
-    <path
-      d="M20.2,75.9C83.7,28,172.3,28,235.8,75.9A8,8,0,0,1,237,87.5L134,208.9a7.9,7.9,0,0,1-12.1-.1L19,87.6A8.1,8.1,0,0,1,20.2,75.9Z"
-      opacity="0.2"
-    />
-    <path
-      d="M20.2,75.9C83.7,28,172.3,28,235.8,75.9A8,8,0,0,1,237,87.5L134,208.9a7.9,7.9,0,0,1-12.1-.1L19,87.6A8.1,8.1,0,0,1,20.2,75.9Z"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
+    <g opacity="0.2">
+      <path d="M20.2,75.9C83.7,28,172.3,28,235.8,75.9A8,8,0,0,1,237,87.5L134,208.9a7.8,7.8,0,0,1-12.1-.1L19,87.6A8.1,8.1,0,0,1,20.2,75.9Z" />
+    </g>
+    <path d="M128,219.7a16.1,16.1,0,0,1-12.2-5.7L12.9,92.8A16.6,16.6,0,0,1,9.2,80.5a15.6,15.6,0,0,1,6.2-10.9c66.3-50.1,158.9-50.1,225.2,0a15.3,15.3,0,0,1,6.2,10.9,16,16,0,0,1-3.7,12.2l-103,121.4A16,16,0,0,1,128,219.7ZM25.1,82.3h0L128,203.6,230.9,82.4h0C170.4,36.6,85.7,36.6,25.1,82.3Zm-4.9-6.4L25,82.3h0Zm0,0Z" />
   </>
-));
+);
 
-pathsByWeight.set("fill", () => (
+weightsMap.set(
+  "fill",
   <>
-    <path d="M246.9,80.5a15.6,15.6,0,0,0-6.2-10.9c-66.4-50.1-159-50.1-225.3-.1a16.1,16.1,0,0,0-6.2,11,16.6,16.6,0,0,0,3.7,12.3l103,121.3a15.9,15.9,0,0,0,24.2,0l103-121.4A16.4,16.4,0,0,0,246.9,80.5Z" />
+    <path d="M243.1,92.7l-103,121.4a15.9,15.9,0,0,1-24.2,0L12.9,92.8A16.6,16.6,0,0,1,9.2,80.5a15.6,15.6,0,0,1,6.2-10.9c66.3-50.1,158.9-50.1,225.3,0a15.6,15.6,0,0,1,6.2,10.9A16,16,0,0,1,243.1,92.7Z" />
   </>
-));
+);
 
-pathsByWeight.set("light", (color: string) => (
+weightsMap.set(
+  "light",
   <>
-    <path
-      d="M92.9,166.1a50.7,50.7,0,0,1,70.2,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="12"
-    />
-    <path
-      d="M59,132.1a98.8,98.8,0,0,1,138,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="12"
-    />
-    <path
-      d="M25.1,98.2a146.6,146.6,0,0,1,205.8,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="12"
-    />
-    <circle cx="128" cy="200" r="10" />
+    <path d="M167.2,161.7a6,6,0,0,1,.2,8.5,5.9,5.9,0,0,1-4.3,1.9,6.3,6.3,0,0,1-4.2-1.7,44.7,44.7,0,0,0-61.8,0,6,6,0,1,1-8.3-8.7,56.8,56.8,0,0,1,78.4,0ZM128,98a103.7,103.7,0,0,0-73.2,29.8,6,6,0,0,0,8.4,8.6,92.7,92.7,0,0,1,129.6,0,6.3,6.3,0,0,0,4.2,1.7,6,6,0,0,0,4.2-10.3A103.7,103.7,0,0,0,128,98Zm107.1-4.1a152.6,152.6,0,0,0-214.2,0,6,6,0,0,0-.1,8.5,5.9,5.9,0,0,0,8.5,0,140.8,140.8,0,0,1,197.4,0,5.9,5.9,0,0,0,8.5,0A6,6,0,0,0,235.1,93.9ZM128,190a10,10,0,1,0,10,10A10,10,0,0,0,128,190Z" />
   </>
-));
+);
 
-pathsByWeight.set("thin", (color: string) => (
+weightsMap.set(
+  "regular",
   <>
-    <path
-      d="M92.9,166.1a50.7,50.7,0,0,1,70.2,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="8"
-    />
-    <path
-      d="M59,132.1a98.8,98.8,0,0,1,138,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="8"
-    />
-    <path
-      d="M25.1,98.2a146.6,146.6,0,0,1,205.8,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="8"
-    />
-    <circle cx="128" cy="200" r="8" />
+    <path d="M168.6,160.3a7.9,7.9,0,0,1,.2,11.3,8.1,8.1,0,0,1-5.7,2.5,8.2,8.2,0,0,1-5.6-2.3,42.8,42.8,0,0,0-59,0,8,8,0,1,1-11.1-11.5,58.7,58.7,0,0,1,81.2,0ZM128,96a105.6,105.6,0,0,0-74.6,30.4,8,8,0,1,0,11.2,11.4,90.8,90.8,0,0,1,126.8,0,7.8,7.8,0,0,0,5.6,2.3,8,8,0,0,0,5.6-13.7A105.6,105.6,0,0,0,128,96Zm108.6-3.5a154.8,154.8,0,0,0-217.2,0,8,8,0,0,0,11.3,11.4,138.6,138.6,0,0,1,194.6,0,8.2,8.2,0,0,0,5.6,2.3,8.1,8.1,0,0,0,5.7-13.7ZM128,188a12,12,0,1,0,12,12A12,12,0,0,0,128,188Z" />
   </>
-));
+);
 
-pathsByWeight.set("regular", (color: string) => (
+weightsMap.set(
+  "thin",
   <>
-    <path
-      d="M92.9,166.1a50.7,50.7,0,0,1,70.2,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
-    <path
-      d="M59,132.1a98.8,98.8,0,0,1,138,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
-    <path
-      d="M25.1,98.2a146.6,146.6,0,0,1,205.8,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
-    <circle cx="128" cy="200" r="12" />
+    <path d="M165.9,163.2a4,4,0,0,1,0,5.6,3.5,3.5,0,0,1-2.8,1.3,3.9,3.9,0,0,1-2.8-1.2,46.9,46.9,0,0,0-64.6,0,3.9,3.9,0,0,1-5.6-.1,4,4,0,0,1,0-5.6,54.9,54.9,0,0,1,75.8,0ZM128,100a101.7,101.7,0,0,0-71.8,29.3,4,4,0,0,0-.1,5.6,4.1,4.1,0,0,0,5.7.1,94.7,94.7,0,0,1,132.4,0,4.3,4.3,0,0,0,2.8,1.1,4.2,4.2,0,0,0,2.9-1.2,4,4,0,0,0-.1-5.6A101.7,101.7,0,0,0,128,100Zm105.7-4.7a150.7,150.7,0,0,0-211.4,0,4.1,4.1,0,0,0-.1,5.7,4,4,0,0,0,5.7,0,142.7,142.7,0,0,1,200.2,0,3.9,3.9,0,0,0,2.8,1.2,4,4,0,0,0,2.9-1.2A4.1,4.1,0,0,0,233.7,95.3ZM128,192a8,8,0,1,0,8,8A8,8,0,0,0,128,192Z" />
   </>
-));
-
-const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
-  renderPathForWeight(weight, color, pathsByWeight);
+);
 
 const WifiHigh = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
-  <IconBase ref={ref} {...props} renderPath={renderPath} />
+  <IconBase ref={ref} {...props} weightsMap={weightsMap} />
 ));
 
 WifiHigh.displayName = "WifiHigh";

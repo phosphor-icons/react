@@ -2,15 +2,40 @@
 const fs = require("fs");
 const path = require("path");
 const chalk = require("chalk");
+const { exec } = require("child_process");
 
 const { ASSETS_PATH, COMPONENTS_PATH, INDEX_PATH } = require("./index");
 
 const icons = {};
 const weights = ["thin", "light", "regular", "bold", "fill", "duotone"];
 
-function readFile(folder, pathname, weight) {
+main();
+
+function main() {
+  exec("git submodule update --remote", (err, stdout, stderr) => {
+    if (err) {
+      console.error(`${chalk.inverse.red(" ERR ")} ${err.message}`);
+      process.exit(1);
+    }
+
+    if (stderr) {
+      console.error(`${chalk.inverse.red(" ERR ")} ${stderr}`);
+      process.exit(1);
+    }
+
+    console.log(
+      `${chalk.inverse.green(" OK ")} Updated submodule @phosphor-icons/core`
+    );
+
+    loadWeights();
+    generateComponents();
+    generateExports();
+  });
+}
+
+function readFile(pathname, name, weight) {
   const file = fs.readFileSync(pathname);
-  icons[folder][weight] = file
+  icons[name][weight] = file
     .toString("utf-8")
     .replace(/^.*<\?xml.*?\>/g, "")
     .replace(/<svg.*?>/g, "")
@@ -28,32 +53,35 @@ function readFile(folder, pathname, weight) {
     .replace(/stroke-miterlimit/g, "strokeMiterlimit");
 }
 
-function readFiles() {
-  const folders = fs.readdirSync(ASSETS_PATH, "utf-8");
+function loadWeights() {
+  const weightFolder = fs.readdirSync(ASSETS_PATH, "utf-8");
 
-  folders.forEach(folder => {
-    if (!fs.lstatSync(path.join(ASSETS_PATH, folder)).isDirectory()) return;
-    icons[folder] = {};
+  weightFolder.forEach((weightFolder) => {
+    if (!fs.lstatSync(path.join(ASSETS_PATH, weightFolder)).isDirectory())
+      return;
 
-    const files = fs.readdirSync(path.join(ASSETS_PATH, folder));
-    files.forEach(filename => {
-      const filepath = path.join(ASSETS_PATH, folder, filename);
-      const weight = filename
-        .split(".svg")[0]
-        .split("-")
-        .slice(-1)[0];
-      switch (weight) {
-        case "thin":
-        case "light":
-        case "bold":
-        case "fill":
-        case "duotone":
-          readFile(folder, filepath, weight);
-          break;
-        default:
-          readFile(folder, filepath, "regular");
-          break;
+    if (!weights.includes(weightFolder)) {
+      console.error(
+        `${chalk.inverse.red(" ERR ")} Bad folder name ${weightFolder}`
+      );
+      process.exit(1);
+    }
+
+    const files = fs.readdirSync(path.join(ASSETS_PATH, weightFolder));
+    files.forEach((filename) => {
+      let name;
+      const nameParts = filename.split(".svg")[0].split("-");
+      if (nameParts[nameParts.length - 1] === weightFolder) {
+        name = nameParts.slice(0, -1).join("-");
+      } else {
+        name = nameParts.join("-");
       }
+
+      if (!icons[name]) {
+        icons[name] = {};
+      }
+      const filepath = path.join(ASSETS_PATH, weightFolder, filename);
+      readFile(filepath, name, weightFolder);
     });
   });
 }
@@ -62,7 +90,7 @@ function checkFiles(icon) {
   const weightsPresent = Object.keys(icon);
   return (
     weightsPresent.length === 6 &&
-    weightsPresent.every(w => weights.includes(w))
+    weightsPresent.every((w) => weights.includes(w))
   );
 }
 
@@ -79,21 +107,16 @@ function generateComponents() {
     const icon = icons[key];
     const name = key
       .split("-")
-      .map(substr => substr.replace(/^\w/, c => c.toUpperCase()))
+      .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
       .join("");
     let componentString = `\
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import { forwardRef, ReactElement } from "react";
 
-import {
-  IconWeight,
-  IconProps,
-  PaintFunction,
-  renderPathForWeight,
-} from "../lib";
-import IconBase, { RenderFunction } from "../lib/IconBase";
+import { IconWeight, IconProps } from "../lib";
+import IconBase from "../lib/IconBase";
 
-const pathsByWeight = new Map<IconWeight, PaintFunction>();
+const weightsMap = new Map<IconWeight, ReactElement>();
 `;
 
     if (!checkFiles(icon)) {
@@ -102,16 +125,14 @@ const pathsByWeight = new Map<IconWeight, PaintFunction>();
         `${chalk.inverse.red(" FAIL ")} ${name} is missing weights`
       );
       console.group();
-      console.error(weights.filter(w => !Object.keys(icon).includes(w)));
+      console.error(weights.filter((w) => !Object.keys(icon).includes(w)));
       console.groupEnd();
       continue;
     }
 
     for (let weight in icon) {
       componentString += `
-pathsByWeight.set("${weight}", (${
-        weight === "fill" && name !== "DropHalf" ? "" : "color: string"
-      }) => (
+      weightsMap.set("${weight}", (
   <>
     ${icon[weight].trim()}
   </>
@@ -119,11 +140,8 @@ pathsByWeight.set("${weight}", (${
 `;
     }
     componentString += `
-const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
-  renderPathForWeight(weight, color, pathsByWeight);
-
 const ${name} = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
-  <IconBase ref={ref} {...props} renderPath={renderPath} />
+  <IconBase ref={ref} {...props} weightsMap={weightsMap} />
 ));
 
 ${name}.displayName = "${name}";
@@ -162,13 +180,14 @@ export default ${name};
 function generateExports() {
   let indexString = `\
 /* GENERATED FILE */
-export { Icon, IconProps, IconWeight, IconContext } from "./lib";
+export type { Icon, IconProps, IconWeight } from "./lib";
+export { IconContext } from "./lib";
 
 `;
   for (let key in icons) {
     const name = key
       .split("-")
-      .map(substr => substr.replace(/^\w/, c => c.toUpperCase()))
+      .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
       .join("");
     indexString += `\
 export { default as ${name} } from "./icons/${name}";
@@ -186,7 +205,3 @@ export { default as ${name} } from "./icons/${name}";
     console.groupEnd();
   }
 }
-
-readFiles();
-generateComponents();
-generateExports();

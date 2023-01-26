@@ -8,8 +8,6 @@ export type IconWeight =
   | "fill"
   | "duotone";
 
-export type PaintFunction = (color: string) => React.ReactNode | null;
-
 export interface IconProps extends ComponentPropsWithoutRef<"svg"> {
   alt?: string;
   color?: string;
@@ -28,18 +26,3 @@ export const IconContext = createContext<IconProps>({
   weight: "regular",
   mirrored: false,
 });
-
-export const renderPathForWeight = (
-  weight: IconWeight,
-  color: string,
-  pathsByWeight: Map<IconWeight, PaintFunction>
-): React.ReactNode | null => {
-  const path = pathsByWeight.get(weight);
-  if (!!path) return path(color);
-
-  console.error(
-    'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
-  );
-
-  return null;
-};

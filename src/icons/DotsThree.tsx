@@ -1,67 +1,57 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import { forwardRef, ReactElement } from "react";
 
-import {
-  IconWeight,
-  IconProps,
-  PaintFunction,
-  renderPathForWeight,
-} from "../lib";
-import IconBase, { RenderFunction } from "../lib/IconBase";
+import { IconWeight, IconProps } from "../lib";
+import IconBase from "../lib/IconBase";
 
-const pathsByWeight = new Map<IconWeight, PaintFunction>();
+const weightsMap = new Map<IconWeight, ReactElement>();
 
-pathsByWeight.set("bold", () => (
+weightsMap.set(
+  "bold",
   <>
-    <circle cx="128" cy="128" r="16" />
-    <circle cx="64" cy="128" r="16" />
-    <circle cx="192" cy="128" r="16" />
+    <path d="M80,128a16,16,0,1,1-16-16A16,16,0,0,1,80,128Zm112-16a16,16,0,1,0,16,16A16,16,0,0,0,192,112Zm-64,0a16,16,0,1,0,16,16A16,16,0,0,0,128,112Z" />
   </>
-));
+);
 
-pathsByWeight.set("duotone", () => (
+weightsMap.set(
+  "duotone",
   <>
-    <circle cx="128" cy="128" r="12" />
-    <circle cx="192" cy="128" r="12" />
     <circle cx="64" cy="128" r="12" />
-  </>
-));
-
-pathsByWeight.set("fill", () => (
-  <>
-    <path d="M140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128Zm52-12a12,12,0,1,0,12,12A12,12,0,0,0,192,116ZM64,116a12,12,0,1,0,12,12A12,12,0,0,0,64,116Z" />
-  </>
-));
-
-pathsByWeight.set("light", () => (
-  <>
-    <circle cx="128" cy="128" r="10" />
-    <circle cx="64" cy="128" r="10" />
-    <circle cx="192" cy="128" r="10" />
-  </>
-));
-
-pathsByWeight.set("thin", () => (
-  <>
-    <circle cx="128" cy="128" r="8" />
-    <circle cx="64" cy="128" r="8" />
-    <circle cx="192" cy="128" r="8" />
-  </>
-));
-
-pathsByWeight.set("regular", () => (
-  <>
-    <circle cx="128" cy="128" r="12" />
     <circle cx="192" cy="128" r="12" />
-    <circle cx="64" cy="128" r="12" />
+    <circle cx="128" cy="128" r="12" />
   </>
-));
+);
 
-const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
-  renderPathForWeight(weight, color, pathsByWeight);
+weightsMap.set(
+  "fill",
+  <>
+    <path d="M76,128a12,12,0,1,1-12-12A12,12,0,0,1,76,128Zm52-12a12,12,0,1,0,12,12A12,12,0,0,0,128,116Zm64,0a12,12,0,1,0,12,12A12,12,0,0,0,192,116Z" />
+  </>
+);
+
+weightsMap.set(
+  "light",
+  <>
+    <path d="M74,128a10,10,0,1,1-10-10A10,10,0,0,1,74,128Zm118-10a10,10,0,1,0,10,10A10,10,0,0,0,192,118Zm-64,0a10,10,0,1,0,10,10A10,10,0,0,0,128,118Z" />
+  </>
+);
+
+weightsMap.set(
+  "regular",
+  <>
+    <path d="M76,128a12,12,0,1,1-12-12A12,12,0,0,1,76,128Zm116-12a12,12,0,1,0,12,12A12,12,0,0,0,192,116Zm-64,0a12,12,0,1,0,12,12A12,12,0,0,0,128,116Z" />
+  </>
+);
+
+weightsMap.set(
+  "thin",
+  <>
+    <path d="M72,128a8,8,0,1,1-8-8A8,8,0,0,1,72,128Zm120-8a8,8,0,1,0,8,8A8,8,0,0,0,192,120Zm-64,0a8,8,0,1,0,8,8A8,8,0,0,0,128,120Z" />
+  </>
+);
 
 const DotsThree = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
-  <IconBase ref={ref} {...props} renderPath={renderPath} />
+  <IconBase ref={ref} {...props} weightsMap={weightsMap} />
 ));
 
 DotsThree.displayName = "DotsThree";
