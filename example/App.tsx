@@ -1,6 +1,8 @@
-import React, { useState, useCallback } from "react";
-import * as Icons from "../dist";
-import { IconContext, IconWeight, Icon } from "../dist";
+import { useState, useCallback } from "react";
+
+import * as Icons from "../src";
+import { IconContext } from "../src";
+import type { IconWeight, Icon } from "../src";
 import "./index.css";
 
 const isIcon = (candidate: any): candidate is Icon =>
@@ -121,7 +123,7 @@ const App = () => {
           weight="thin"
           onClick={() => setWeight("thin")}
         />
-        {Object.values(Icons).map(I => {
+        {Object.values(Icons).map((I) => {
           if (isIcon(I)) {
             return (
               <div className="row" key={I.displayName}>

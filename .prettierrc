@@ -1,7 +1,8 @@
-{
-  "tabWidth": 2,
-  "bracketSpacing": true,
-  "jsxBracketSameLine": false,
-  "arrowParens": "always",
-  "endOfLine": "auto"
-}
+arrowParens: "always"
+endOfLine: "auto"
+bracketSpacing: true
+printWidth: 80
+semi: true
+singleQuote: false
+tabWidth: 2
+trailingComma: "es5"
