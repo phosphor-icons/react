@@ -1,20 +1,20 @@
 {
   "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "baseUrl": ".",
+    "types": ["node"],
+    "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "target": "es5",
-    "module": "commonjs",
-    "jsx": "react",
     "moduleResolution": "node",
     "noImplicitAny": false,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "removeComments": true,
-    "strictNullChecks": true,
     "preserveConstEnums": true,
+    "removeComments": true,
     "sourceMap": true,
-    "lib": ["es2015", "es2016", "dom"],
-    "baseUrl": ".",
-    "types": ["node"]
+    "strictNullChecks": true
   }
 }
