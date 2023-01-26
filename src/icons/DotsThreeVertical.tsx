@@ -1,67 +1,55 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import { forwardRef, ReactElement } from "react";
 
-import {
-  IconWeight,
-  IconProps,
-  PaintFunction,
-  renderPathForWeight,
-} from "../lib";
-import IconBase, { RenderFunction } from "../lib/IconBase";
+import { IconWeight, IconProps } from "../lib";
+import IconBase from "../lib/IconBase";
 
-const pathsByWeight = new Map<IconWeight, PaintFunction>();
+const weightsMap = new Map<IconWeight, ReactElement>();
 
-pathsByWeight.set("bold", () => (
+weightsMap.set(
+  "bold",
   <>
-    <circle cx="128" cy="64" r="16" />
-    <circle cx="128" cy="128" r="16" />
-    <circle cx="128" cy="192" r="16" />
+    <path d="M144,192a16,16,0,1,1-16-16A16,16,0,0,1,144,192ZM128,80a16,16,0,1,0-16-16A16,16,0,0,0,128,80Zm0,32a16,16,0,1,0,16,16A16,16,0,0,0,128,112Z" />
   </>
-));
+);
 
-pathsByWeight.set("duotone", () => (
+weightsMap.set(
+  "duotone",
   <>
-    <circle cx="128" cy="128" r="12" />
-    <circle cx="128" cy="64" r="12" />
-    <circle cx="128" cy="192" r="12" />
+    <path d="M140,192a12,12,0,1,1-12-12A12,12,0,0,1,140,192ZM128,76a12,12,0,1,0-12-12A12,12,0,0,0,128,76Zm0,40a12,12,0,1,0,12,12A12,12,0,0,0,128,116Z" />
   </>
-));
+);
 
-pathsByWeight.set("fill", () => (
+weightsMap.set(
+  "fill",
   <>
-    <path d="M140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128ZM128,76a12,12,0,1,0-12-12A12,12,0,0,0,128,76Zm0,104a12,12,0,1,0,12,12A12,12,0,0,0,128,180Z" />
+    <path d="M116,64a12,12,0,1,1,12,12A12,12,0,0,1,116,64Zm12,52a12,12,0,1,0,12,12A12,12,0,0,0,128,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,128,180Z" />
   </>
-));
+);
 
-pathsByWeight.set("light", () => (
+weightsMap.set(
+  "light",
   <>
-    <circle cx="128" cy="64" r="10" />
-    <circle cx="128" cy="128" r="10" />
-    <circle cx="128" cy="192" r="10" />
+    <path d="M138,192a10,10,0,1,1-10-10A10,10,0,0,1,138,192ZM128,74a10,10,0,1,0-10-10A10,10,0,0,0,128,74Zm0,44a10,10,0,1,0,10,10A10,10,0,0,0,128,118Z" />
   </>
-));
+);
 
-pathsByWeight.set("thin", () => (
+weightsMap.set(
+  "regular",
   <>
-    <circle cx="128" cy="64" r="8" />
-    <circle cx="128" cy="128" r="8" />
-    <circle cx="128" cy="192" r="8" />
+    <path d="M140,192a12,12,0,1,1-12-12A12,12,0,0,1,140,192ZM128,76a12,12,0,1,0-12-12A12,12,0,0,0,128,76Zm0,40a12,12,0,1,0,12,12A12,12,0,0,0,128,116Z" />
   </>
-));
+);
 
-pathsByWeight.set("regular", () => (
+weightsMap.set(
+  "thin",
   <>
-    <circle cx="128" cy="128" r="12" />
-    <circle cx="128" cy="64" r="12" />
-    <circle cx="128" cy="192" r="12" />
+    <path d="M136,192a8,8,0,1,1-8-8A8,8,0,0,1,136,192ZM128,72a8,8,0,1,0-8-8A8,8,0,0,0,128,72Zm0,48a8,8,0,1,0,8,8A8,8,0,0,0,128,120Z" />
   </>
-));
-
-const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
-  renderPathForWeight(weight, color, pathsByWeight);
+);
 
 const DotsThreeVertical = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
-  <IconBase ref={ref} {...props} renderPath={renderPath} />
+  <IconBase ref={ref} {...props} weightsMap={weightsMap} />
 ));
 
 DotsThreeVertical.displayName = "DotsThreeVertical";

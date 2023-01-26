@@ -1,92 +1,55 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import { forwardRef, ReactElement } from "react";
 
-import {
-  IconWeight,
-  IconProps,
-  PaintFunction,
-  renderPathForWeight,
-} from "../lib";
-import IconBase, { RenderFunction } from "../lib/IconBase";
+import { IconWeight, IconProps } from "../lib";
+import IconBase from "../lib/IconBase";
 
-const pathsByWeight = new Map<IconWeight, PaintFunction>();
+const weightsMap = new Map<IconWeight, ReactElement>();
 
-pathsByWeight.set("bold", (color: string) => (
+weightsMap.set(
+  "bold",
   <>
-    <path
-      d="M176,32H95.7L80,128.4a56.4,56.4,0,0,1,79.5,0,55.8,55.8,0,0,1,0,79.2,56.4,56.4,0,0,1-79.5,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="24"
-    />
+    <path d="M168,119.9a67.8,67.8,0,0,1,0,96.2,68.4,68.4,0,0,1-96.5,0,12,12,0,0,1,17-17,44,44,0,1,0,0-62.2,12,12,0,0,1-20.3-10.4L83.8,30.1A12.1,12.1,0,0,1,95.7,20H176a12,12,0,0,1,0,24H105.9l-9.8,60.2A68.5,68.5,0,0,1,168,119.9Z" />
   </>
-));
+);
 
-pathsByWeight.set("duotone", (color: string) => (
-  <>
-    <path
-      d="M176,32H95.7L80,128.4a56.4,56.4,0,0,1,79.5,0,55.8,55.8,0,0,1,0,79.2,56.4,56.4,0,0,1-79.5,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
-  </>
-));
-
-pathsByWeight.set("fill", () => (
+weightsMap.set(
+  "duotone",
   <>
     <path d="M165.2,122.7a64,64,0,0,1,0,90.6,64.5,64.5,0,0,1-90.8,0,8,8,0,1,1,11.2-11.4,48.4,48.4,0,0,0,68.3,0A48,48,0,0,0,119.8,120a48.3,48.3,0,0,0-34.2,14.1,8,8,0,0,1-13.5-7L87.8,30.7A7.9,7.9,0,0,1,95.7,24H176a8,8,0,0,1,0,16H102.5L91,110.8a63,63,0,0,1,28.8-6.8A64.4,64.4,0,0,1,165.2,122.7Z" />
   </>
-));
+);
 
-pathsByWeight.set("light", (color: string) => (
+weightsMap.set(
+  "fill",
   <>
-    <path
-      d="M176,32H95.7L80,128.4a56.4,56.4,0,0,1,79.5,0,55.8,55.8,0,0,1,0,79.2,56.4,56.4,0,0,1-79.5,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="12"
-    />
+    <path d="M165.2,122.7a64,64,0,0,1,0,90.6,64.5,64.5,0,0,1-90.8,0,8,8,0,1,1,11.2-11.4,48.4,48.4,0,0,0,68.3,0A48,48,0,0,0,119.8,120a48.3,48.3,0,0,0-34.2,14.1,8,8,0,0,1-13.5-7L87.8,30.7A7.9,7.9,0,0,1,95.7,24H176a8,8,0,0,1,0,16H102.5L91,110.8a63,63,0,0,1,28.8-6.8A64.4,64.4,0,0,1,165.2,122.7Z" />
   </>
-));
+);
 
-pathsByWeight.set("thin", (color: string) => (
+weightsMap.set(
+  "light",
   <>
-    <path
-      d="M176,32H95.7L80,128.4a56.4,56.4,0,0,1,79.5,0,55.8,55.8,0,0,1,0,79.2,56.4,56.4,0,0,1-79.5,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="8"
-    />
+    <path d="M163.8,124.2a62.1,62.1,0,0,1-88,87.7,6,6,0,0,1,8.4-8.6,50.3,50.3,0,0,0,71.1,0,49.7,49.7,0,0,0,0-70.6,50.3,50.3,0,0,0-71.1,0,5.9,5.9,0,0,1-6.9,1,5.8,5.8,0,0,1-3.2-6.3L89.7,31a6,6,0,0,1,6-5H176a6,6,0,0,1,0,12H100.8L88.3,114.5a62.4,62.4,0,0,1,75.5,9.7Z" />
   </>
-));
+);
 
-pathsByWeight.set("regular", (color: string) => (
+weightsMap.set(
+  "regular",
   <>
-    <path
-      d="M176,32H95.7L80,128.4a56.4,56.4,0,0,1,79.5,0,55.8,55.8,0,0,1,0,79.2,56.4,56.4,0,0,1-79.5,0"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
+    <path d="M165.2,122.7a64,64,0,0,1,0,90.6,64.5,64.5,0,0,1-90.8,0,8,8,0,1,1,11.2-11.4,48.4,48.4,0,0,0,68.3,0A48,48,0,0,0,119.8,120a48.3,48.3,0,0,0-34.2,14.1,8,8,0,0,1-13.5-7L87.8,30.7A7.9,7.9,0,0,1,95.7,24H176a8,8,0,0,1,0,16H102.5L91,110.8a63,63,0,0,1,28.8-6.8A64.4,64.4,0,0,1,165.2,122.7Z" />
   </>
-));
+);
 
-const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
-  renderPathForWeight(weight, color, pathsByWeight);
+weightsMap.set(
+  "thin",
+  <>
+    <path d="M162.4,125.6a60.1,60.1,0,0,1-85.2,84.8,4,4,0,0,1,5.6-5.6,52.5,52.5,0,0,0,73.9,0,51.9,51.9,0,0,0,0-73.6,52.5,52.5,0,0,0-73.9,0,3.8,3.8,0,0,1-4.6.8,3.9,3.9,0,0,1-2.1-4.2L91.7,31.4a4,4,0,0,1,4-3.4H176a4,4,0,0,1,0,8H99.1L85.7,118.5a60.5,60.5,0,0,1,76.7,7.1Z" />
+  </>
+);
 
 const NumberFive = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
-  <IconBase ref={ref} {...props} renderPath={renderPath} />
+  <IconBase ref={ref} {...props} weightsMap={weightsMap} />
 ));
 
 NumberFive.displayName = "NumberFive";

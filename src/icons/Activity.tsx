@@ -1,92 +1,55 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import { forwardRef, ReactElement } from "react";
 
-import {
-  IconWeight,
-  IconProps,
-  PaintFunction,
-  renderPathForWeight,
-} from "../lib";
-import IconBase, { RenderFunction } from "../lib/IconBase";
+import { IconWeight, IconProps } from "../lib";
+import IconBase from "../lib/IconBase";
 
-const pathsByWeight = new Map<IconWeight, PaintFunction>();
+const weightsMap = new Map<IconWeight, ReactElement>();
 
-pathsByWeight.set("bold", (color: string) => (
+weightsMap.set(
+  "bold",
   <>
-    <polyline
-      points="24 128 56 128 96 40 160 208 200 128 232 128"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="24"
-    />
+    <path d="M160,220h-.6a12.1,12.1,0,0,1-10.6-7.7L95,71.1,66.9,133A12,12,0,0,1,56,140H24a12,12,0,0,1,0-24H48.3L85.1,35a12,12,0,0,1,22.1.7l54.3,142.5,27.8-55.6A12.1,12.1,0,0,1,200,116h32a12,12,0,0,1,0,24H207.4l-36.7,73.4A12.1,12.1,0,0,1,160,220Z" />
   </>
-));
+);
 
-pathsByWeight.set("duotone", (color: string) => (
+weightsMap.set(
+  "duotone",
   <>
-    <polyline
-      points="24 128 56 128 96 40 160 208 200 128 232 128"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
+    <path d="M160,216h-.4a8.1,8.1,0,0,1-7.1-5.2L95.3,60.8l-32,70.5A8,8,0,0,1,56,136H24a8,8,0,0,1,0-16H50.8L88.7,36.7A8.2,8.2,0,0,1,96.3,32a8,8,0,0,1,7.2,5.2L161,188.1l31.8-63.7A8.2,8.2,0,0,1,200,120h32a8,8,0,0,1,0,16H204.9l-37.7,75.6A8.2,8.2,0,0,1,160,216Z" />
   </>
-));
+);
 
-pathsByWeight.set("fill", () => (
+weightsMap.set(
+  "fill",
   <>
-    <path d="M160,216h-.4a8.1,8.1,0,0,1-7.1-5.2L95.4,60.8,63.3,131.3A8,8,0,0,1,56,136H24a8,8,0,0,1,0-16H50.9L88.7,36.7A8.2,8.2,0,0,1,96.3,32a8,8,0,0,1,7.2,5.2L161,188.1l31.8-63.7A8.2,8.2,0,0,1,200,120h32a8,8,0,0,1,0,16H204.9l-37.7,75.6A8.2,8.2,0,0,1,160,216Z" />
+    <path d="M160,216h-.4a8.1,8.1,0,0,1-7.1-5.2L95.3,60.8l-32,70.5A8,8,0,0,1,56,136H24a8,8,0,0,1,0-16H50.8L88.7,36.7A8.2,8.2,0,0,1,96.3,32a8,8,0,0,1,7.2,5.2L161,188.1l31.8-63.7A8.2,8.2,0,0,1,200,120h32a8,8,0,0,1,0,16H204.9l-37.7,75.6A8.2,8.2,0,0,1,160,216Z" />
   </>
-));
+);
 
-pathsByWeight.set("light", (color: string) => (
+weightsMap.set(
+  "light",
   <>
-    <polyline
-      points="24 128 56 128 96 40 160 208 200 128 232 128"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="12"
-    />
+    <path d="M160,214h-.3a5.8,5.8,0,0,1-5.3-3.9L95.5,55.6l-34,74.9A6.1,6.1,0,0,1,56,134H24a6,6,0,0,1,0-12H52.1L90.5,37.5a6,6,0,0,1,11.1.4l59.1,155.2,33.9-67.8A6,6,0,0,1,200,122h32a6,6,0,0,1,0,12H203.7l-38.3,76.7A6.2,6.2,0,0,1,160,214Z" />
   </>
-));
+);
 
-pathsByWeight.set("thin", (color: string) => (
+weightsMap.set(
+  "regular",
   <>
-    <polyline
-      points="24 128 56 128 96 40 160 208 200 128 232 128"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="8"
-    />
+    <path d="M160,216h-.4a8.1,8.1,0,0,1-7.1-5.2L95.3,60.8l-32,70.5A8,8,0,0,1,56,136H24a8,8,0,0,1,0-16H50.8L88.7,36.7A8.2,8.2,0,0,1,96.3,32a8,8,0,0,1,7.2,5.2L161,188.1l31.8-63.7A8.2,8.2,0,0,1,200,120h32a8,8,0,0,1,0,16H204.9l-37.7,75.6A8.2,8.2,0,0,1,160,216Z" />
   </>
-));
+);
 
-pathsByWeight.set("regular", (color: string) => (
+weightsMap.set(
+  "thin",
   <>
-    <polyline
-      points="24 128 56 128 96 40 160 208 200 128 232 128"
-      fill="none"
-      stroke={color}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="16"
-    />
+    <path d="M160,212h-.2a3.9,3.9,0,0,1-3.5-2.6L95.7,50.4,59.6,129.7A3.9,3.9,0,0,1,56,132H24a4,4,0,0,1,0-8H53.4l39-85.7A3.8,3.8,0,0,1,96.1,36a4,4,0,0,1,3.6,2.6l60.8,159.5,35.9-71.9A4.2,4.2,0,0,1,200,124h32a4,4,0,0,1,0,8H202.5l-38.9,77.8A4.2,4.2,0,0,1,160,212Z" />
   </>
-));
-
-const renderPath: RenderFunction = (weight: IconWeight, color: string) =>
-  renderPathForWeight(weight, color, pathsByWeight);
+);
 
 const Activity = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
-  <IconBase ref={ref} {...props} renderPath={renderPath} />
+  <IconBase ref={ref} {...props} weightsMap={weightsMap} />
 ));
 
 Activity.displayName = "Activity";
