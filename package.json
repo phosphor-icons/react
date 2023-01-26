@@ -19,6 +19,7 @@
       "require": "./dist/index.umd.js"
     }
   },
+  "type": "module",
   "types": "./dist/index.d.ts",
   "files": [
     "./dist"
