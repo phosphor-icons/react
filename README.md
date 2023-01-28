@@ -1,3 +1,5 @@
+> **ATTENTION:** As part of a major update, this package has moved from `phosphor-react` to `@phosphor-icons/react`. We recommend using the new version, as it has improved performance and significantly smaller bundle size. No APIs have been changed, so drop-in replacement should be straightforward. This package will continue to recieve maintenance, but will not be updated with new icons upstream. [Take me to the new version ➜](https://github.com/phosphor-icons/react)
+
 <img src="/meta/phosphor-mark-tight-yellow.png" width="128" align="right" />
 
 # phosphor-react
@@ -10,6 +12,7 @@ Phosphor is a flexible icon family for interfaces, diagrams, presentations — w
 [![GitHub forks](https://img.shields.io/github/forks/phosphor-icons/phosphor-react?style=flat-square&label=Fork)](https://github.com/phosphor-icons/phosphor-react/fork)
 [![GitHub watchers](https://img.shields.io/github/watchers/phosphor-icons/phosphor-react?style=flat-square&label=Watch)](https://github.com/phosphor-icons/phosphor-react)
 [![Follow on GitHub](https://img.shields.io/github/followers/rektdeckard?style=flat-square&label=Follow)](https://github.com/rektdeckard)
+
 
 ## Installation
 
