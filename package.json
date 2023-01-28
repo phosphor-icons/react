@@ -1,6 +1,6 @@
 {
-  "name": "phosphor-react",
-  "version": "2.0.0",
+  "name": "@phosphor-icons/react",
+  "version": "2.0.1",
   "description": "A clean and friendly icon family for React",
   "author": {
     "name": "Tobias Fried",
@@ -11,12 +11,11 @@
   "repository": "phosphor-icons/react",
   "homepage": "https://phosphoricons.com",
   "sideEffects": false,
+  "private": false,
   "module": "./dist/index.es.js",
-  "main": "./dist/index.umd.js",
   "exports": {
     ".": {
-      "import": "./dist/index.es.js",
-      "require": "./dist/index.umd.js"
+      "import": "./dist/index.es.js"
     }
   },
   "type": "module",
