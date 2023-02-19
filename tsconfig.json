@@ -4,13 +4,14 @@
   "compilerOptions": {
     "module": "ESNext",
     "target": "ESNext",
-    "lib": ["DOM", "ESNext"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "rootDir": "./src",
     "outDir": "./dist",
     "baseUrl": "./",
     "paths": {
       "*": ["src/*"]
     },
+    "types": ["vite/client"],
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
     "declaration": true,
