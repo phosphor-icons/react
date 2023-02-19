@@ -12,25 +12,28 @@ const weights = ["thin", "light", "regular", "bold", "fill", "duotone"];
 main();
 
 function main() {
-  exec("git submodule update --remote", (err, stdout, stderr) => {
-    if (err) {
-      console.error(`${chalk.inverse.red(" ERR ")} ${err.message}`);
-      process.exit(1);
+  exec(
+    "git submodule update --remote --init --recursive",
+    (err, stdout, stderr) => {
+      if (err) {
+        console.error(`${chalk.inverse.red(" ERR ")} ${err.message}`);
+        process.exit(1);
+      }
+
+      if (stderr) {
+        console.error(`${chalk.inverse.red(" ERR ")} ${stderr}`);
+        process.exit(1);
+      }
+
+      console.log(
+        `${chalk.inverse.green(" OK ")} Updated submodule @phosphor-icons/core`
+      );
+
+      loadWeights();
+      generateComponents();
+      generateExports();
     }
-
-    if (stderr) {
-      console.error(`${chalk.inverse.red(" ERR ")} ${stderr}`);
-      process.exit(1);
-    }
-
-    console.log(
-      `${chalk.inverse.green(" OK ")} Updated submodule @phosphor-icons/core`
-    );
-
-    loadWeights();
-    generateComponents();
-    generateExports();
-  });
+  );
 }
 
 function readFile(pathname, name, weight) {

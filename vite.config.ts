@@ -1,9 +1,10 @@
 import { resolve } from "path";
 import { defineConfig } from "vitest/config";
 import react from "@vitejs/plugin-react";
+import pkg from "./package.json";
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react({ jsxRuntime: "classic" })],
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
@@ -12,7 +13,7 @@ export default defineConfig({
       fileName: (format, name) => `${name}.${format}.js`,
     },
     rollupOptions: {
-      external: ["react", "react-dom"],
+      external: Object.keys(pkg.peerDependencies),
       input: "./src/index.ts",
       output: {
         preserveModules: true,
