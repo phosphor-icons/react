@@ -1,8 +1,11 @@
-import { ReactElement, forwardRef, useContext } from "react";
-import { IconProps, IconWeight, IconContext } from "../lib";
+"use client";
+
+import { forwardRef, useContext, ReactElement } from "react";
+import { IconContext } from "./context";
+import { IconProps, IconWeight } from "./types";
 
 interface IconBaseProps extends IconProps {
-  weightsMap: Map<IconWeight, ReactElement>;
+  weights: Map<IconWeight, ReactElement>;
 }
 
 const IconBase = forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
@@ -13,7 +16,7 @@ const IconBase = forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
     weight,
     mirrored,
     children,
-    weightsMap,
+    weights,
     ...restProps
   } = props;
 
@@ -40,7 +43,7 @@ const IconBase = forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
       {!!alt && <title>{alt}</title>}
       {children}
       <rect width="256" height="256" fill="none" />
-      {weightsMap.get(weight ?? contextWeight)}
+      {weights.get(weight ?? contextWeight)}
     </svg>
   );
 });

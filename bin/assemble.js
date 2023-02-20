@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-const fs = require("fs");
-const path = require("path");
-const chalk = require("chalk");
-const { exec } = require("child_process");
+import fs from "node:fs";
+import path from "node:path";
+import chalk from "chalk";
+import { exec } from "node:child_process";
 
-const { ASSETS_PATH, COMPONENTS_PATH, INDEX_PATH } = require("./index");
+import { ASSETS_PATH, COMPONENTS_PATH, INDEX_PATH } from "./index.js";
 
 const icons = {};
 const weights = ["thin", "light", "regular", "bold", "fill", "duotone"];
@@ -112,15 +112,6 @@ function generateComponents() {
       .split("-")
       .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
       .join("");
-    let componentString = `\
-/* GENERATED FILE */
-import { forwardRef, ReactElement } from "react";
-
-import { IconWeight, IconProps } from "../lib";
-import IconBase from "../lib/IconBase";
-
-const weightsMap = new Map<IconWeight, ReactElement>();
-`;
 
     if (!checkFiles(icon)) {
       fails += 1;
@@ -133,18 +124,21 @@ const weightsMap = new Map<IconWeight, ReactElement>();
       continue;
     }
 
-    for (let weight in icon) {
-      componentString += `
-      weightsMap.set("${weight}", (
-  <>
-    ${icon[weight].trim()}
-  </>
-));
+    let componentString = `\
+/* GENERATED FILE */
+import { forwardRef, ReactElement } from "react";
+import { IconWeight, Icon, IconBase } from "../lib";
+
+const weights = new Map<IconWeight, ReactElement>([
+${Object.entries(icon)
+  .map(([weight, path]) => `["${weight}", <>${path.trim()}</>]`)
+  .join(",")}
+]);
 `;
-    }
+
     componentString += `
-const ${name} = forwardRef<SVGSVGElement, IconProps>((props, ref) => (
-  <IconBase ref={ref} {...props} weightsMap={weightsMap} />
+const ${name}: Icon = forwardRef((props, ref) => (
+  <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ${name}.displayName = "${name}";
@@ -184,7 +178,7 @@ function generateExports() {
   let indexString = `\
 /* GENERATED FILE */
 export type { Icon, IconProps, IconWeight } from "./lib";
-export { IconContext } from "./lib";
+export { IconContext, IconBase } from "./lib";
 
 `;
   for (let key in icons) {
