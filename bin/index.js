@@ -1,7 +1,9 @@
-const path = require("path");
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const ASSETS_PATH = path.join(__dirname, "../core/assets");
-const COMPONENTS_PATH = path.join(__dirname, "../src/icons");
-const INDEX_PATH = path.join(__dirname, "../src/index.ts");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-module.exports = { ASSETS_PATH, COMPONENTS_PATH, INDEX_PATH };
+export const ASSETS_PATH = path.join(__dirname, "../core/assets");
+export const COMPONENTS_PATH = path.join(__dirname, "../src/icons");
+export const INDEX_PATH = path.join(__dirname, "../src/index.ts");

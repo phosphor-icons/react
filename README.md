@@ -130,15 +130,53 @@ import * as Icon from "@phosphor-icons/react";
 <Icon.BatteryHalf size="24px" />
 ```
 
+### Custom Icons
+
+It is possible to extend Phosphor with your own custom icons, taking advantage of the styling and context abstractions used in our library. To create a custom icon, first design your icons on a 256x256 pixel grid, and export them as SVG. For best results, flatten the icon so that you only export assets with `path` elements. Strip any `fill` or `stroke` attributes, as these will be inherited from the wrapper.
+
+Next, create a new React `forwardRef` component, importing the `IconBase` component, as well as the `Icon` and `IconWeight` types from this library. Define a `Map<IconWeight, ReactElement>` that maps each icon weight to _the contents of each SVG asset_, effectively removing the wrapping `<svg>` element from each. Name your component, and render an `<IconBase />`, passing all props and the ref, as well as the `weights` you defined earlier, as JSX props:
+
+```tsx
+import { forwardRef, ReactElement } from "react";
+import { Icon, IconBase, IconWeight } from "@phosphor-icons/react";
+
+const weights = new Map<IconWeight, ReactElement>([
+  ["thin", <path d="..." />],
+  ["light", <path d="..." />],
+  ["regular", <path d="..." />],
+  ["bold", <path d="..." />],
+  ["fill", <path d="..." />],
+  [
+    "duotone",
+    <>
+      <path d="..." opacity="0.2" />
+      <path d="..." />
+    </>,
+  ],
+]);
+
+const CustomIcon: Icon = forwardRef((props, ref) => (
+  <IconBase ref={ref} {...props} weights={weights} />
+));
+
+CustomIcon.displayName = "CustomIcon";
+
+export default CustomIcon;
+```
+
+> **NOTE:** If you have multiple child elements, wrap them in a `Fragment`. Typically our `duotone` icons have multiple elements, with the background layer at 20% opacity.
+
 ## Our Related Projects
 
-- [phosphor-home](https://github.com/phosphor-icons/phosphor-home) ▲ Phosphor homepage and general info
-- [phosphor-vue](https://github.com/phosphor-icons/phosphor-vue) ▲ Phosphor icon component library for Vue
-- [phosphor-icons](https://github.com/phosphor-icons/phosphor-icons) ▲ Phosphor icons for Vanilla JS
-- [phosphor-flutter](https://github.com/phosphor-icons/phosphor-flutter) ▲ Phosphor IconData library for Flutter
-- [phosphor-webcomponents](https://github.com/phosphor-icons/phosphor-webcomponents) ▲ Phosphor icons as Web Components
-- [phosphor-figma](https://github.com/phosphor-icons/phosphor-figma) ▲ Phosphor icons Figma plugin
-- [phosphor-sketch](https://github.com/phosphor-icons/phosphor-sketch) ▲ Phosphor icons Sketch plugin
+- [@phosphor-icons/homepage](https://github.com/phosphor-icons/homepage) ▲ Phosphor homepage and general info
+- [@phosphor-icons/core](https://github.com/phosphor-icons/core) ▲ Phosphor icon assets and catalog
+- [@phosphor-icons/web](https://github.com/phosphor-icons/web) ▲ Phosphor icons for Vanilla JS
+- [@phosphor-icons/vue](https://github.com/phosphor-icons/vue) ▲ Phosphor icon component library for Vue
+- [@phosphor-icons/elm](https://github.com/phosphor-icons/phosphor-elm) ▲ Phosphor icons for Elm
+- [@phosphor-icons/flutter](https://github.com/phosphor-icons/flutter) ▲ Phosphor IconData library for Flutter
+- [@phosphor-icons/webcomponents](https://github.com/phosphor-icons/webcomponents) ▲ Phosphor icons as Web Components
+- [@phosphor-icons/figma](https://github.com/phosphor-icons/figma) ▲ Phosphor icons Figma plugin
+- [@phosphor-icons/sketch](https://github.com/phosphor-icons/sketch) ▲ Phosphor icons Sketch plugin
 
 ## Community Projects
 
