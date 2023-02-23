@@ -5,6 +5,7 @@ import chalk from "chalk";
 import { exec } from "node:child_process";
 
 import { ASSETS_PATH, COMPONENTS_PATH, INDEX_PATH } from "./index.js";
+import { ALIASES } from "../core/bin/index.js";
 
 const icons = {};
 const weights = ["thin", "light", "regular", "bold", "fill", "duotone"];
@@ -49,6 +50,7 @@ function readFile(pathname, name, weight) {
     )
     .replace(/<title.*?/, "")
     .replace(/"#0+"/g, "{color}")
+    .replace(/currentColor/g, "{color}")
     .replace(/fill\-rule/g, "fillRule")
     .replace(/stroke-linecap/g, "strokeLinecap")
     .replace(/stroke-linejoin/g, "strokeLinejoin")
@@ -108,10 +110,7 @@ function generateComponents() {
 
   for (let key in icons) {
     const icon = icons[key];
-    const name = key
-      .split("-")
-      .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
-      .join("");
+    const name = pascalize(key);
 
     if (!checkFiles(icon)) {
       fails += 1;
@@ -182,12 +181,11 @@ export { IconContext, IconBase } from "./lib";
 
 `;
   for (let key in icons) {
-    const name = key
-      .split("-")
-      .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
-      .join("");
+    const name = pascalize(key);
     indexString += `\
-export { default as ${name} } from "./icons/${name}";
+export { default as ${name}${
+      !!ALIASES[key] ? `, default as ${pascalize(ALIASES[key])}` : ""
+    } } from "./icons/${name}";
 `;
   }
   try {
@@ -201,4 +199,11 @@ export { default as ${name} } from "./icons/${name}";
     console.error(err);
     console.groupEnd();
   }
+}
+
+function pascalize(str) {
+  return str
+    .split("-")
+    .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
+    .join("");
 }
