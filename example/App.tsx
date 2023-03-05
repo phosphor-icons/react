@@ -3,21 +3,21 @@ import { useState, useCallback } from "react";
 import * as Icons from "../src";
 import { IconContext } from "../src";
 import type { IconWeight, Icon } from "../src";
+import { icons } from "../core/src/icons";
 import "./index.css";
 
-const isIcon = (candidate: any): candidate is Icons.Icon =>
-  "displayName" in candidate && candidate.displayName !== "IconBase";
+const pascalNames = new Set(icons.map((entry) => entry.pascal_name));
 
-const iconCount = Object.values(Icons).reduce<number>((total, Icon) => {
-  if (isIcon(Icon)) return total + 1;
-  return total;
-}, 0);
+const isIcon = (candidate: any): candidate is Icons.Icon =>
+  "displayName" in candidate;
+
+const allIcons: Icon[] = Object.entries(Icons)
+  .filter(([name, module]) => pascalNames.has(name) && isIcon(module))
+  .map(([_, module]) => module as Icon);
 
 if (process.env.NODE_ENV === "development") {
-  console.log(`${iconCount} icons`);
+  console.log(`${allIcons.length} icons`);
 }
-
-const allIcons: Icon[] = Object.values(Icons).filter(isIcon);
 
 const App = () => {
   const [color, setColor] = useState<string>("crimson");

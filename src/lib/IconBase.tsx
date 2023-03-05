@@ -42,7 +42,6 @@ const IconBase = forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
     >
       {!!alt && <title>{alt}</title>}
       {children}
-      <rect width="256" height="256" fill="none" />
       {weights.get(weight ?? contextWeight)}
     </svg>
   );
