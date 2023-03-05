@@ -5,12 +5,29 @@ import { render, getByTestId } from "@testing-library/react";
 import * as Icons from "../src";
 import { Icon, IconBase, IconWeight } from "../src/lib";
 
+const aliases = new Set([
+  "FileDotted",
+  "FileSearch",
+  "FolderDotted",
+  "FolderSimpleDotted",
+  "Activity",
+  "CircleWavy",
+  "CircleWavyCheck",
+  "CircleWavyQuestion",
+  "CircleWavyWarning",
+  "TextBolder",
+]);
+
 const isIcon = (candidate: any): candidate is Icon =>
   "displayName" in candidate && candidate.displayName !== "IconBase";
 
+const allIcons = Object.entries(Icons).filter(
+  ([name, module]) => !aliases.has(name) && isIcon(module)
+) as [string, Icons.Icon][];
+
 describe("All icons exist", () => {
-  Object.entries(Icons).forEach(([name, TestIcon]) => {
-    if (!isIcon(TestIcon)) return;
+  allIcons.forEach(([name, TestIcon]) => {
+    if (aliases.has(name) || !isIcon(TestIcon)) return;
     it(`${name} is truthy`, () => {
       expect(TestIcon).toBeTruthy();
     });
@@ -21,7 +38,7 @@ describe("All icons exist", () => {
 });
 
 describe("All icons render content", () => {
-  Object.entries(Icons).forEach(([name, TestIcon]) => {
+  allIcons.forEach(([name, TestIcon]) => {
     if (!isIcon(TestIcon)) return;
     it(`${name} renders`, () => {
       const result = render(<TestIcon data-testid="test" />);
@@ -31,7 +48,7 @@ describe("All icons render content", () => {
 });
 
 describe("All icon weights render", () => {
-  Object.entries(Icons).forEach(([name, TestIcon]) => {
+  allIcons.forEach(([name, TestIcon]) => {
     if (!isIcon(TestIcon)) return;
     it(`${name} [thin] renders`, () => {
       const result = render(<TestIcon weight="thin" data-testid="test" />);

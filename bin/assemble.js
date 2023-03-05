@@ -14,7 +14,7 @@ main();
 
 function main() {
   exec(
-    "git submodule update --remote --init --recursive",
+    "git submodule update --remote --init --force --recursive",
     (err, stdout, stderr) => {
       if (err) {
         console.error(`${chalk.inverse.red(" ERR ")} ${err.message}`);
