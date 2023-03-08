@@ -6,6 +6,7 @@ import pkg from "./package.json";
 export default defineConfig({
   plugins: [react({ jsxRuntime: "classic" })],
   build: {
+    target: "ES2017",
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
       name: "PhosphorReact",
