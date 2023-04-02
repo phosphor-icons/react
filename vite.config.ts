@@ -9,21 +9,30 @@ export default defineConfig({
     target: "ES2017",
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "PhosphorReact",
-      formats: ["es"],
       fileName: (format, name) => `${name}.${format}.js`,
     },
     rollupOptions: {
       external: Object.keys(pkg.peerDependencies),
       input: "./src/index.ts",
-      output: {
-        preserveModules: true,
-        preserveModulesRoot: "src",
-        globals: {
-          react: "React",
-          "react-dom": "ReactDOM",
+      output: [
+        {
+          format: "es",
+          preserveModules: true,
+          preserveModulesRoot: "src",
+          globals: {
+            react: "React",
+            "react-dom": "ReactDOM",
+          },
         },
-      },
+        {
+          format: "umd",
+          name: "PhosphorReact",
+          globals: {
+            react: "React",
+            "react-dom": "ReactDOM",
+          },
+        },
+      ],
     },
   },
   test: {
