@@ -1,4 +1,4 @@
-import { ComponentPropsWithRef } from "react";
+import { ComponentPropsWithRef, ReactElement } from "react";
 
 export type IconWeight =
   | "thin"
@@ -17,3 +17,7 @@ export interface IconProps extends ComponentPropsWithRef<"svg"> {
 }
 
 export type Icon = React.ForwardRefExoticComponent<IconProps>;
+
+export interface IconBaseProps extends IconProps {
+  weights: Map<IconWeight, ReactElement>;
+}

@@ -1,50 +1,13 @@
-"use client";
+import { forwardRef } from "react";
 
-import { forwardRef, useContext, ReactElement } from "react";
-import { IconContext } from "./context";
-import { IconProps, IconWeight } from "./types";
-
-interface IconBaseProps extends IconProps {
-  weights: Map<IconWeight, ReactElement>;
-}
+import { IconBaseProps } from "./types";
+import { isClient } from "./utils";
+import ClientBase from "./ClientBase";
+import ServerBase from "./ServerBase";
 
 const IconBase = forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
-  const {
-    alt,
-    color,
-    size,
-    weight,
-    mirrored,
-    children,
-    weights,
-    ...restProps
-  } = props;
-
-  const {
-    color: contextColor = "currentColor",
-    size: contextSize,
-    weight: contextWeight = "regular",
-    mirrored: contextMirrored = false,
-    ...restContext
-  } = useContext(IconContext);
-
-  return (
-    <svg
-      ref={ref}
-      xmlns="http://www.w3.org/2000/svg"
-      width={size ?? contextSize}
-      height={size ?? contextSize}
-      fill={color ?? contextColor}
-      viewBox="0 0 256 256"
-      transform={mirrored || contextMirrored ? "scale(-1, 1)" : undefined}
-      {...restContext}
-      {...restProps}
-    >
-      {!!alt && <title>{alt}</title>}
-      {children}
-      {weights.get(weight ?? contextWeight)}
-    </svg>
-  );
+  const Base = isClient() ? ClientBase : ServerBase;
+  return <Base ref={ref} {...props} />;
 });
 
 IconBase.displayName = "IconBase";
