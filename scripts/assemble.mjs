@@ -4,7 +4,7 @@ import path from "node:path";
 import chalk from "chalk";
 import { exec } from "node:child_process";
 
-import { ASSETS_PATH, COMPONENTS_PATH, INDEX_PATH } from "./index.js";
+import { ASSETS_PATH, COMPONENTS_PATH, INDEX_PATH } from "./index.mjs";
 import { ALIASES } from "../core/bin/index.js";
 
 const icons = {};
@@ -125,7 +125,6 @@ function generateComponents() {
 
     let componentString = `\
 /* GENERATED FILE */
-"use client";
 import { forwardRef, ReactElement } from "react";
 import { IconWeight, Icon, IconBase } from "../lib";
 

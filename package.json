@@ -1,6 +1,6 @@
 {
   "name": "@phosphor-icons/react",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "A clean and friendly icon family for React",
   "author": {
     "name": "Tobias Fried",
@@ -23,6 +23,10 @@
     "./dist/icons/*": {
       "import": "./dist/icons/*.es.js",
       "types": "./dist/icons/*.d.ts"
+    },
+    "./dist/lib/*": {
+      "import": "./dist/lib/*.es.js",
+      "types": "./dist/lib/*.d.ts"
     },
     "./*": {
       "import": "./dist/icons/*.es.js",
@@ -50,9 +54,8 @@
     "serve": "vite serve ./example",
     "build": "vite build && tsc --emitDeclarationOnly",
     "test": "vitest",
-    "collate": "node bin/collate.js",
-    "assemble": "node bin/assemble.js",
-    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,vue}\" \"./example/**/*.{js,jsx,ts,tsx,json,vue}\" \"./bin/**/*.{js,jsx,ts,tsx,json,vue}\""
+    "assemble": "node scripts/assemble.mjs",
+    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,vue}\" \"./example/**/*.{js,jsx,ts,tsx,json,vue}\" \"./scripts/**/*.{mjs, js,jsx,ts,tsx,json,vue}\""
   },
   "peerDependencies": {
     "react": ">= 16.8",
