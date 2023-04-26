@@ -1,5 +1,4 @@
 /* GENERATED FILE */
-"use client";
 import { forwardRef, ReactElement } from "react";
 import { IconWeight, Icon, IconBase } from "../lib";
 
