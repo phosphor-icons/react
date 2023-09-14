@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GenderNeuter: Icon = forwardRef((props, ref) => (
+export const GenderNeuter: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GenderNeuter.displayName = "GenderNeuter";
-
-export default GenderNeuter;

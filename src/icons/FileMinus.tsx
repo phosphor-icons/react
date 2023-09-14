@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileMinus: Icon = forwardRef((props, ref) => (
+export const FileMinus: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileMinus.displayName = "FileMinus";
-
-export default FileMinus;

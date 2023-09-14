@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const RewindCircle: Icon = forwardRef((props, ref) => (
+export const RewindCircle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 RewindCircle.displayName = "RewindCircle";
-
-export default RewindCircle;

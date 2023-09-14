@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SuitcaseRolling: Icon = forwardRef((props, ref) => (
+export const SuitcaseRolling: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SuitcaseRolling.displayName = "SuitcaseRolling";
-
-export default SuitcaseRolling;

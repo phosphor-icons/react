@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BugDroid: Icon = forwardRef((props, ref) => (
+export const BugDroid: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BugDroid.displayName = "BugDroid";
-
-export default BugDroid;

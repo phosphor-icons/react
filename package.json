@@ -1,7 +1,6 @@
 {
   "name": "@phosphor-icons/react",
-  "version": "2.0.10",
-  "type": "module",
+  "version": "2.1.0",
   "description": "A clean and friendly icon family for React",
   "author": {
     "name": "Tobias Fried",
@@ -13,24 +12,28 @@
   "homepage": "https://phosphoricons.com",
   "sideEffects": false,
   "private": false,
-  "module": "./dist/index.es.js",
-  "main": "./dist/index.umd.js",
+  "type": "module",
+  "module": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
   "exports": {
     ".": {
-      "import": "./dist/index.es.js",
-      "require": "./dist/index.umd.js",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
       "types": "./dist/index.d.ts"
     },
     "./dist/icons/*": {
-      "import": "./dist/icons/*.es.js",
+      "import": "./dist/icons/*.mjs",
+      "require": "./dist/index.cjs",
       "types": "./dist/icons/*.d.ts"
     },
     "./dist/lib/*": {
-      "import": "./dist/lib/*.es.js",
+      "import": "./dist/lib/*.mjs",
+      "require": "./dist/index.cjs",
       "types": "./dist/lib/*.d.ts"
     },
     "./*": {
-      "import": "./dist/icons/*.es.js",
+      "import": "./dist/icons/*.mjs",
+      "require": "./dist/index.cjs",
       "types": "./dist/icons/*.d.ts"
     }
   },

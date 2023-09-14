@@ -43,10 +43,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SpeakerX: Icon = forwardRef((props, ref) => (
+export const SpeakerX: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SpeakerX.displayName = "SpeakerX";
-
-export default SpeakerX;

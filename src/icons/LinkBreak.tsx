@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const LinkBreak: Icon = forwardRef((props, ref) => (
+export const LinkBreak: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 LinkBreak.displayName = "LinkBreak";
-
-export default LinkBreak;

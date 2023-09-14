@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GoogleChromeLogo: Icon = forwardRef((props, ref) => (
+export const GoogleChromeLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GoogleChromeLogo.displayName = "GoogleChromeLogo";
-
-export default GoogleChromeLogo;

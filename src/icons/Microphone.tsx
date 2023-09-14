@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Microphone: Icon = forwardRef((props, ref) => (
+export const Microphone: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Microphone.displayName = "Microphone";
-
-export default Microphone;

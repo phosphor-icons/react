@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Stop: Icon = forwardRef((props, ref) => (
+export const Stop: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Stop.displayName = "Stop";
-
-export default Stop;

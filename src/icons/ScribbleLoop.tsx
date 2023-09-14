@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ScribbleLoop: Icon = forwardRef((props, ref) => (
+export const ScribbleLoop: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ScribbleLoop.displayName = "ScribbleLoop";
-
-export default ScribbleLoop;

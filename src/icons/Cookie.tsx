@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Cookie: Icon = forwardRef((props, ref) => (
+export const Cookie: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Cookie.displayName = "Cookie";
-
-export default Cookie;

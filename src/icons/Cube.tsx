@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Cube: Icon = forwardRef((props, ref) => (
+export const Cube: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Cube.displayName = "Cube";
-
-export default Cube;

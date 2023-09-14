@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Syringe: Icon = forwardRef((props, ref) => (
+export const Syringe: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Syringe.displayName = "Syringe";
-
-export default Syringe;

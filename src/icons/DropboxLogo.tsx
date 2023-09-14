@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DropboxLogo: Icon = forwardRef((props, ref) => (
+export const DropboxLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DropboxLogo.displayName = "DropboxLogo";
-
-export default DropboxLogo;

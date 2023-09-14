@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HandSoap: Icon = forwardRef((props, ref) => (
+export const HandSoap: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HandSoap.displayName = "HandSoap";
-
-export default HandSoap;

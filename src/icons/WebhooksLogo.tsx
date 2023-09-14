@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WebhooksLogo: Icon = forwardRef((props, ref) => (
+export const WebhooksLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WebhooksLogo.displayName = "WebhooksLogo";
-
-export default WebhooksLogo;

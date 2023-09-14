@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ClipboardText: Icon = forwardRef((props, ref) => (
+export const ClipboardText: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ClipboardText.displayName = "ClipboardText";
-
-export default ClipboardText;

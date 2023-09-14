@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PianoKeys: Icon = forwardRef((props, ref) => (
+export const PianoKeys: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PianoKeys.displayName = "PianoKeys";
-
-export default PianoKeys;

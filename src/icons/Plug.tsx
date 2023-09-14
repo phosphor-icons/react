@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Plug: Icon = forwardRef((props, ref) => (
+export const Plug: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Plug.displayName = "Plug";
-
-export default Plug;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ChatDots: Icon = forwardRef((props, ref) => (
+export const ChatDots: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ChatDots.displayName = "ChatDots";
-
-export default ChatDots;

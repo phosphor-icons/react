@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Keyhole: Icon = forwardRef((props, ref) => (
+export const Keyhole: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Keyhole.displayName = "Keyhole";
-
-export default Keyhole;

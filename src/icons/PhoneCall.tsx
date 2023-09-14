@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PhoneCall: Icon = forwardRef((props, ref) => (
+export const PhoneCall: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PhoneCall.displayName = "PhoneCall";
-
-export default PhoneCall;

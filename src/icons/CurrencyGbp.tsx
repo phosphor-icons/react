@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CurrencyGbp: Icon = forwardRef((props, ref) => (
+export const CurrencyGbp: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CurrencyGbp.displayName = "CurrencyGbp";
-
-export default CurrencyGbp;

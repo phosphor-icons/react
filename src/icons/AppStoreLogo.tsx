@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const AppStoreLogo: Icon = forwardRef((props, ref) => (
+export const AppStoreLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 AppStoreLogo.displayName = "AppStoreLogo";
-
-export default AppStoreLogo;

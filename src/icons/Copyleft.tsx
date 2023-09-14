@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Copyleft: Icon = forwardRef((props, ref) => (
+export const Copyleft: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Copyleft.displayName = "Copyleft";
-
-export default Copyleft;

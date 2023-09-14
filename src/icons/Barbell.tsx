@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Barbell: Icon = forwardRef((props, ref) => (
+export const Barbell: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Barbell.displayName = "Barbell";
-
-export default Barbell;

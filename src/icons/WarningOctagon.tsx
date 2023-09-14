@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WarningOctagon: Icon = forwardRef((props, ref) => (
+export const WarningOctagon: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WarningOctagon.displayName = "WarningOctagon";
-
-export default WarningOctagon;

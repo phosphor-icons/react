@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HashStraight: Icon = forwardRef((props, ref) => (
+export const HashStraight: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HashStraight.displayName = "HashStraight";
-
-export default HashStraight;

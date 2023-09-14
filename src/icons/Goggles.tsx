@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Goggles: Icon = forwardRef((props, ref) => (
+export const Goggles: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Goggles.displayName = "Goggles";
-
-export default Goggles;

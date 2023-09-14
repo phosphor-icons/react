@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Disc: Icon = forwardRef((props, ref) => (
+export const Disc: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Disc.displayName = "Disc";
-
-export default Disc;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DotsThreeOutlineVertical: Icon = forwardRef((props, ref) => (
+export const DotsThreeOutlineVertical: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DotsThreeOutlineVertical.displayName = "DotsThreeOutlineVertical";
-
-export default DotsThreeOutlineVertical;

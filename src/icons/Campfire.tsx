@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Campfire: Icon = forwardRef((props, ref) => (
+export const Campfire: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Campfire.displayName = "Campfire";
-
-export default Campfire;

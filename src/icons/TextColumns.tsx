@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TextColumns: Icon = forwardRef((props, ref) => (
+export const TextColumns: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TextColumns.displayName = "TextColumns";
-
-export default TextColumns;

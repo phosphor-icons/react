@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileSql: Icon = forwardRef((props, ref) => (
+export const FileSql: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileSql.displayName = "FileSql";
-
-export default FileSql;

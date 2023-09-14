@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Knife: Icon = forwardRef((props, ref) => (
+export const Knife: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Knife.displayName = "Knife";
-
-export default Knife;

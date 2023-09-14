@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ProhibitInset: Icon = forwardRef((props, ref) => (
+export const ProhibitInset: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ProhibitInset.displayName = "ProhibitInset";
-
-export default ProhibitInset;

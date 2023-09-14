@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const OrangeSlice: Icon = forwardRef((props, ref) => (
+export const OrangeSlice: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 OrangeSlice.displayName = "OrangeSlice";
-
-export default OrangeSlice;

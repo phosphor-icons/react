@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const EarSlash: Icon = forwardRef((props, ref) => (
+export const EarSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 EarSlash.displayName = "EarSlash";
-
-export default EarSlash;

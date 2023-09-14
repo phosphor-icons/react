@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const UserCircleMinus: Icon = forwardRef((props, ref) => (
+export const UserCircleMinus: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 UserCircleMinus.displayName = "UserCircleMinus";
-
-export default UserCircleMinus;

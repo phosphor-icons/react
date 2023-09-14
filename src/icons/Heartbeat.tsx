@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Heartbeat: Icon = forwardRef((props, ref) => (
+export const Heartbeat: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Heartbeat.displayName = "Heartbeat";
-
-export default Heartbeat;

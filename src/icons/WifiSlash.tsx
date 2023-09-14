@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WifiSlash: Icon = forwardRef((props, ref) => (
+export const WifiSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WifiSlash.displayName = "WifiSlash";
-
-export default WifiSlash;

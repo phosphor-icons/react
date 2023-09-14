@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DeviceTablet: Icon = forwardRef((props, ref) => (
+export const DeviceTablet: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DeviceTablet.displayName = "DeviceTablet";
-
-export default DeviceTablet;

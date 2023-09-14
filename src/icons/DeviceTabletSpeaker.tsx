@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DeviceTabletSpeaker: Icon = forwardRef((props, ref) => (
+export const DeviceTabletSpeaker: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DeviceTabletSpeaker.displayName = "DeviceTabletSpeaker";
-
-export default DeviceTabletSpeaker;

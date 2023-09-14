@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PencilSimpleLine: Icon = forwardRef((props, ref) => (
+export const PencilSimpleLine: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PencilSimpleLine.displayName = "PencilSimpleLine";
-
-export default PencilSimpleLine;

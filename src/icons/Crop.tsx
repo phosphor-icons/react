@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Crop: Icon = forwardRef((props, ref) => (
+export const Crop: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Crop.displayName = "Crop";
-
-export default Crop;

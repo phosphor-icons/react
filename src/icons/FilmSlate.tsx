@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FilmSlate: Icon = forwardRef((props, ref) => (
+export const FilmSlate: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FilmSlate.displayName = "FilmSlate";
-
-export default FilmSlate;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Bathtub: Icon = forwardRef((props, ref) => (
+export const Bathtub: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Bathtub.displayName = "Bathtub";
-
-export default Bathtub;

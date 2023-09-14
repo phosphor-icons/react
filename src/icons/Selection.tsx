@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Selection: Icon = forwardRef((props, ref) => (
+export const Selection: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Selection.displayName = "Selection";
-
-export default Selection;

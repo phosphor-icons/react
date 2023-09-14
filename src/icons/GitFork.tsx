@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GitFork: Icon = forwardRef((props, ref) => (
+export const GitFork: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GitFork.displayName = "GitFork";
-
-export default GitFork;

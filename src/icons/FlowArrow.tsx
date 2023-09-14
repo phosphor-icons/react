@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FlowArrow: Icon = forwardRef((props, ref) => (
+export const FlowArrow: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FlowArrow.displayName = "FlowArrow";
-
-export default FlowArrow;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TextStrikethrough: Icon = forwardRef((props, ref) => (
+export const TextStrikethrough: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TextStrikethrough.displayName = "TextStrikethrough";
-
-export default TextStrikethrough;

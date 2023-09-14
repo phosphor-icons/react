@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GenderFemale: Icon = forwardRef((props, ref) => (
+export const GenderFemale: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GenderFemale.displayName = "GenderFemale";
-
-export default GenderFemale;

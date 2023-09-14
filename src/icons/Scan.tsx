@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Scan: Icon = forwardRef((props, ref) => (
+export const Scan: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Scan.displayName = "Scan";
-
-export default Scan;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Tabs: Icon = forwardRef((props, ref) => (
+export const Tabs: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Tabs.displayName = "Tabs";
-
-export default Tabs;

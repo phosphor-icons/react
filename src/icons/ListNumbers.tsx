@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ListNumbers: Icon = forwardRef((props, ref) => (
+export const ListNumbers: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ListNumbers.displayName = "ListNumbers";
-
-export default ListNumbers;

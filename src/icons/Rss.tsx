@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Rss: Icon = forwardRef((props, ref) => (
+export const Rss: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Rss.displayName = "Rss";
-
-export default Rss;

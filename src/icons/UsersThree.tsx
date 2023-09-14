@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const UsersThree: Icon = forwardRef((props, ref) => (
+export const UsersThree: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 UsersThree.displayName = "UsersThree";
-
-export default UsersThree;

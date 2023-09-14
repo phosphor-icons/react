@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Flask: Icon = forwardRef((props, ref) => (
+export const Flask: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Flask.displayName = "Flask";
-
-export default Flask;

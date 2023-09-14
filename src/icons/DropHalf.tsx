@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DropHalf: Icon = forwardRef((props, ref) => (
+export const DropHalf: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DropHalf.displayName = "DropHalf";
-
-export default DropHalf;

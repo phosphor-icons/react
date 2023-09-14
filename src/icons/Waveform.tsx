@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Waveform: Icon = forwardRef((props, ref) => (
+export const Waveform: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Waveform.displayName = "Waveform";
-
-export default Waveform;

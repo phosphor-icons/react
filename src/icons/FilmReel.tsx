@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FilmReel: Icon = forwardRef((props, ref) => (
+export const FilmReel: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FilmReel.displayName = "FilmReel";
-
-export default FilmReel;

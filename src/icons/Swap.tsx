@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Swap: Icon = forwardRef((props, ref) => (
+export const Swap: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Swap.displayName = "Swap";
-
-export default Swap;

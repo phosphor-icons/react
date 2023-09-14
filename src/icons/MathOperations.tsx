@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MathOperations: Icon = forwardRef((props, ref) => (
+export const MathOperations: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MathOperations.displayName = "MathOperations";
-
-export default MathOperations;

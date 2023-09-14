@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CodesandboxLogo: Icon = forwardRef((props, ref) => (
+export const CodesandboxLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CodesandboxLogo.displayName = "CodesandboxLogo";
-
-export default CodesandboxLogo;

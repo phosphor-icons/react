@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Hammer: Icon = forwardRef((props, ref) => (
+export const Hammer: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Hammer.displayName = "Hammer";
-
-export default Hammer;

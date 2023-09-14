@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FrameCorners: Icon = forwardRef((props, ref) => (
+export const FrameCorners: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FrameCorners.displayName = "FrameCorners";
-
-export default FrameCorners;

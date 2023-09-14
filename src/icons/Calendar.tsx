@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Calendar: Icon = forwardRef((props, ref) => (
+export const Calendar: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Calendar.displayName = "Calendar";
-
-export default Calendar;

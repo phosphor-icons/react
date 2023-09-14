@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Lightbulb: Icon = forwardRef((props, ref) => (
+export const Lightbulb: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Lightbulb.displayName = "Lightbulb";
-
-export default Lightbulb;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileXls: Icon = forwardRef((props, ref) => (
+export const FileXls: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileXls.displayName = "FileXls";
-
-export default FileXls;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Factory: Icon = forwardRef((props, ref) => (
+export const Factory: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Factory.displayName = "Factory";
-
-export default Factory;

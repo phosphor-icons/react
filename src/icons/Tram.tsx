@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Tram: Icon = forwardRef((props, ref) => (
+export const Tram: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Tram.displayName = "Tram";
-
-export default Tram;

@@ -9,7 +9,7 @@ export default defineConfig({
     target: "ES2017",
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      fileName: (format, name) => `${name}.${format}.js`,
+      fileName: (format, name) => `${name}.${format === "umd" ? "cjs" : "mjs"}`,
     },
     rollupOptions: {
       external: Object.keys(pkg.peerDependencies),

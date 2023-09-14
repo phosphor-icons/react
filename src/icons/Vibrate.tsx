@@ -49,10 +49,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Vibrate: Icon = forwardRef((props, ref) => (
+export const Vibrate: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Vibrate.displayName = "Vibrate";
-
-export default Vibrate;

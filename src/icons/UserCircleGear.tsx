@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const UserCircleGear: Icon = forwardRef((props, ref) => (
+export const UserCircleGear: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 UserCircleGear.displayName = "UserCircleGear";
-
-export default UserCircleGear;

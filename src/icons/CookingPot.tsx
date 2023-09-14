@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CookingPot: Icon = forwardRef((props, ref) => (
+export const CookingPot: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CookingPot.displayName = "CookingPot";
-
-export default CookingPot;

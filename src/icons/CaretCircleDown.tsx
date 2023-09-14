@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CaretCircleDown: Icon = forwardRef((props, ref) => (
+export const CaretCircleDown: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CaretCircleDown.displayName = "CaretCircleDown";
-
-export default CaretCircleDown;

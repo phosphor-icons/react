@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PersonSimple: Icon = forwardRef((props, ref) => (
+export const PersonSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PersonSimple.displayName = "PersonSimple";
-
-export default PersonSimple;

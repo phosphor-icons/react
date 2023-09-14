@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Intersect: Icon = forwardRef((props, ref) => (
+export const Intersect: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Intersect.displayName = "Intersect";
-
-export default Intersect;

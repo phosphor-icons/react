@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Exclude: Icon = forwardRef((props, ref) => (
+export const Exclude: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Exclude.displayName = "Exclude";
-
-export default Exclude;

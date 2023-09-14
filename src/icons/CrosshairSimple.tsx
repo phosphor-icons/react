@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CrosshairSimple: Icon = forwardRef((props, ref) => (
+export const CrosshairSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CrosshairSimple.displayName = "CrosshairSimple";
-
-export default CrosshairSimple;

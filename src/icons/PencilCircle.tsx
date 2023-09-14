@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PencilCircle: Icon = forwardRef((props, ref) => (
+export const PencilCircle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PencilCircle.displayName = "PencilCircle";
-
-export default PencilCircle;

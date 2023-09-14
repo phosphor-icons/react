@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Calculator: Icon = forwardRef((props, ref) => (
+export const Calculator: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Calculator.displayName = "Calculator";
-
-export default Calculator;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FolderNotchOpen: Icon = forwardRef((props, ref) => (
+export const FolderNotchOpen: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FolderNotchOpen.displayName = "FolderNotchOpen";
-
-export default FolderNotchOpen;

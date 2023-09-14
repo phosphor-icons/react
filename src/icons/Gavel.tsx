@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Gavel: Icon = forwardRef((props, ref) => (
+export const Gavel: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Gavel.displayName = "Gavel";
-
-export default Gavel;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ArticleMedium: Icon = forwardRef((props, ref) => (
+export const ArticleMedium: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ArticleMedium.displayName = "ArticleMedium";
-
-export default ArticleMedium;

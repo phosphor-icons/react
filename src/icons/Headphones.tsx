@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Headphones: Icon = forwardRef((props, ref) => (
+export const Headphones: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Headphones.displayName = "Headphones";
-
-export default Headphones;

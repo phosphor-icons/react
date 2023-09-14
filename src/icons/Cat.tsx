@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Cat: Icon = forwardRef((props, ref) => (
+export const Cat: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Cat.displayName = "Cat";
-
-export default Cat;

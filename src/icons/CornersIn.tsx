@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CornersIn: Icon = forwardRef((props, ref) => (
+export const CornersIn: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CornersIn.displayName = "CornersIn";
-
-export default CornersIn;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Trash: Icon = forwardRef((props, ref) => (
+export const Trash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Trash.displayName = "Trash";
-
-export default Trash;

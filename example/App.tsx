@@ -1,8 +1,8 @@
 import { useState, useCallback } from "react";
 
-import * as Icons from "../src";
-import { IconContext } from "../src";
-import type { IconWeight, Icon } from "../src";
+import * as Icons from "../dist";
+import { IconContext } from "../dist";
+import type { IconWeight, Icon } from "../dist";
 import { icons } from "../core/src/icons";
 import "./index.css";
 

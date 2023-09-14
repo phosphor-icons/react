@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Sparkle: Icon = forwardRef((props, ref) => (
+export const Sparkle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Sparkle.displayName = "Sparkle";
-
-export default Sparkle;

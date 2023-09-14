@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Ear: Icon = forwardRef((props, ref) => (
+export const Ear: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Ear.displayName = "Ear";
-
-export default Ear;

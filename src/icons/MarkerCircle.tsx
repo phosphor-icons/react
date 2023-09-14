@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MarkerCircle: Icon = forwardRef((props, ref) => (
+export const MarkerCircle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MarkerCircle.displayName = "MarkerCircle";
-
-export default MarkerCircle;

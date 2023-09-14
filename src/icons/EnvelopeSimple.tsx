@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const EnvelopeSimple: Icon = forwardRef((props, ref) => (
+export const EnvelopeSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 EnvelopeSimple.displayName = "EnvelopeSimple";
-
-export default EnvelopeSimple;

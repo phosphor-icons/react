@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Bridge: Icon = forwardRef((props, ref) => (
+export const Bridge: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Bridge.displayName = "Bridge";
-
-export default Bridge;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Compass: Icon = forwardRef((props, ref) => (
+export const Compass: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Compass.displayName = "Compass";
-
-export default Compass;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TextB: Icon = forwardRef((props, ref) => (
+export const TextB: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TextB.displayName = "TextB";
-
-export default TextB;

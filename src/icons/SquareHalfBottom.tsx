@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SquareHalfBottom: Icon = forwardRef((props, ref) => (
+export const SquareHalfBottom: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SquareHalfBottom.displayName = "SquareHalfBottom";
-
-export default SquareHalfBottom;

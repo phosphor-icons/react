@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WaveSquare: Icon = forwardRef((props, ref) => (
+export const WaveSquare: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WaveSquare.displayName = "WaveSquare";
-
-export default WaveSquare;

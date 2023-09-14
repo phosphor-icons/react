@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const IdentificationCard: Icon = forwardRef((props, ref) => (
+export const IdentificationCard: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 IdentificationCard.displayName = "IdentificationCard";
-
-export default IdentificationCard;

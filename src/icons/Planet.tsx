@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Planet: Icon = forwardRef((props, ref) => (
+export const Planet: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Planet.displayName = "Planet";
-
-export default Planet;

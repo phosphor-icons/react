@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SquareSplitHorizontal: Icon = forwardRef((props, ref) => (
+export const SquareSplitHorizontal: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SquareSplitHorizontal.displayName = "SquareSplitHorizontal";
-
-export default SquareSplitHorizontal;

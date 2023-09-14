@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FolderUser: Icon = forwardRef((props, ref) => (
+export const FolderUser: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FolderUser.displayName = "FolderUser";
-
-export default FolderUser;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Trademark: Icon = forwardRef((props, ref) => (
+export const Trademark: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Trademark.displayName = "Trademark";
-
-export default Trademark;

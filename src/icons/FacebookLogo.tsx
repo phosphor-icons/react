@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FacebookLogo: Icon = forwardRef((props, ref) => (
+export const FacebookLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FacebookLogo.displayName = "FacebookLogo";
-
-export default FacebookLogo;

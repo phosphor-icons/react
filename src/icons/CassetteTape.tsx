@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CassetteTape: Icon = forwardRef((props, ref) => (
+export const CassetteTape: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CassetteTape.displayName = "CassetteTape";
-
-export default CassetteTape;

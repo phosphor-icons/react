@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BellZ: Icon = forwardRef((props, ref) => (
+export const BellZ: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BellZ.displayName = "BellZ";
-
-export default BellZ;

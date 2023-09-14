@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TiktokLogo: Icon = forwardRef((props, ref) => (
+export const TiktokLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TiktokLogo.displayName = "TiktokLogo";
-
-export default TiktokLogo;

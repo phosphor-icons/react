@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MagnifyingGlass: Icon = forwardRef((props, ref) => (
+export const MagnifyingGlass: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MagnifyingGlass.displayName = "MagnifyingGlass";
-
-export default MagnifyingGlass;

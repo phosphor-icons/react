@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WarningCircle: Icon = forwardRef((props, ref) => (
+export const WarningCircle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WarningCircle.displayName = "WarningCircle";
-
-export default WarningCircle;

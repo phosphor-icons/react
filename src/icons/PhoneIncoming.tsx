@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PhoneIncoming: Icon = forwardRef((props, ref) => (
+export const PhoneIncoming: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PhoneIncoming.displayName = "PhoneIncoming";
-
-export default PhoneIncoming;

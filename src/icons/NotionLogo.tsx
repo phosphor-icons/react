@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const NotionLogo: Icon = forwardRef((props, ref) => (
+export const NotionLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 NotionLogo.displayName = "NotionLogo";
-
-export default NotionLogo;

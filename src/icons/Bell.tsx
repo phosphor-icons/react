@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Bell: Icon = forwardRef((props, ref) => (
+export const Bell: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Bell.displayName = "Bell";
-
-export default Bell;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Bug: Icon = forwardRef((props, ref) => (
+export const Bug: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Bug.displayName = "Bug";
-
-export default Bug;

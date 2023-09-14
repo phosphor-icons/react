@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GridFour: Icon = forwardRef((props, ref) => (
+export const GridFour: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GridFour.displayName = "GridFour";
-
-export default GridFour;

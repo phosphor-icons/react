@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const KeyReturn: Icon = forwardRef((props, ref) => (
+export const KeyReturn: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 KeyReturn.displayName = "KeyReturn";
-
-export default KeyReturn;

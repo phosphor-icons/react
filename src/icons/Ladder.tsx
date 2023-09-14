@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Ladder: Icon = forwardRef((props, ref) => (
+export const Ladder: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Ladder.displayName = "Ladder";
-
-export default Ladder;

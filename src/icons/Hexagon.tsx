@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Hexagon: Icon = forwardRef((props, ref) => (
+export const Hexagon: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Hexagon.displayName = "Hexagon";
-
-export default Hexagon;

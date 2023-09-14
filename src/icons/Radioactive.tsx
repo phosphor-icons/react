@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Radioactive: Icon = forwardRef((props, ref) => (
+export const Radioactive: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Radioactive.displayName = "Radioactive";
-
-export default Radioactive;

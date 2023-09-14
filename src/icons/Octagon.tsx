@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Octagon: Icon = forwardRef((props, ref) => (
+export const Octagon: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Octagon.displayName = "Octagon";
-
-export default Octagon;

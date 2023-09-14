@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Hash: Icon = forwardRef((props, ref) => (
+export const Hash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Hash.displayName = "Hash";
-
-export default Hash;

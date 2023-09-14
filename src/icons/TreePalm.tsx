@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TreePalm: Icon = forwardRef((props, ref) => (
+export const TreePalm: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TreePalm.displayName = "TreePalm";
-
-export default TreePalm;

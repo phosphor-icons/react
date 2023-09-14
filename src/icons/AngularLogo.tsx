@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const AngularLogo: Icon = forwardRef((props, ref) => (
+export const AngularLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 AngularLogo.displayName = "AngularLogo";
-
-export default AngularLogo;

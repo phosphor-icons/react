@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Pentagram: Icon = forwardRef((props, ref) => (
+export const Pentagram: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Pentagram.displayName = "Pentagram";
-
-export default Pentagram;

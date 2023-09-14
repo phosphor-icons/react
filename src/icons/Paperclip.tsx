@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Paperclip: Icon = forwardRef((props, ref) => (
+export const Paperclip: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Paperclip.displayName = "Paperclip";
-
-export default Paperclip;

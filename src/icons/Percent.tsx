@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Percent: Icon = forwardRef((props, ref) => (
+export const Percent: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Percent.displayName = "Percent";
-
-export default Percent;

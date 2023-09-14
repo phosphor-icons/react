@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileSvg: Icon = forwardRef((props, ref) => (
+export const FileSvg: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileSvg.displayName = "FileSvg";
-
-export default FileSvg;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Needle: Icon = forwardRef((props, ref) => (
+export const Needle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Needle.displayName = "Needle";
-
-export default Needle;

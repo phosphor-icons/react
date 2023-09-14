@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FirstAid: Icon = forwardRef((props, ref) => (
+export const FirstAid: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FirstAid.displayName = "FirstAid";
-
-export default FirstAid;

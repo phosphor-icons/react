@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Grains: Icon = forwardRef((props, ref) => (
+export const Grains: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Grains.displayName = "Grains";
-
-export default Grains;

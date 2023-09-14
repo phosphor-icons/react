@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SteeringWheel: Icon = forwardRef((props, ref) => (
+export const SteeringWheel: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SteeringWheel.displayName = "SteeringWheel";
-
-export default SteeringWheel;

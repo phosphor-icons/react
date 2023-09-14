@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FolderPlus: Icon = forwardRef((props, ref) => (
+export const FolderPlus: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FolderPlus.displayName = "FolderPlus";
-
-export default FolderPlus;

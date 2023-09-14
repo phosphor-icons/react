@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PersonArmsSpread: Icon = forwardRef((props, ref) => (
+export const PersonArmsSpread: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PersonArmsSpread.displayName = "PersonArmsSpread";
-
-export default PersonArmsSpread;

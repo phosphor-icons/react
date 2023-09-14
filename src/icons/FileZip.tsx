@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileZip: Icon = forwardRef((props, ref) => (
+export const FileZip: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileZip.displayName = "FileZip";
-
-export default FileZip;

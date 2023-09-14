@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Archive: Icon = forwardRef((props, ref) => (
+export const Archive: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Archive.displayName = "Archive";
-
-export default Archive;

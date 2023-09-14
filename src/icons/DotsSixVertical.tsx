@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DotsSixVertical: Icon = forwardRef((props, ref) => (
+export const DotsSixVertical: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DotsSixVertical.displayName = "DotsSixVertical";
-
-export default DotsSixVertical;

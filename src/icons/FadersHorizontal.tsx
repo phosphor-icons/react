@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FadersHorizontal: Icon = forwardRef((props, ref) => (
+export const FadersHorizontal: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FadersHorizontal.displayName = "FadersHorizontal";
-
-export default FadersHorizontal;

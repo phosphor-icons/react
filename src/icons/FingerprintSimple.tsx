@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FingerprintSimple: Icon = forwardRef((props, ref) => (
+export const FingerprintSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FingerprintSimple.displayName = "FingerprintSimple";
-
-export default FingerprintSimple;

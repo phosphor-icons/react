@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CloudFog: Icon = forwardRef((props, ref) => (
+export const CloudFog: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CloudFog.displayName = "CloudFog";
-
-export default CloudFog;

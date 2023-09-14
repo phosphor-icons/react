@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GitBranch: Icon = forwardRef((props, ref) => (
+export const GitBranch: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GitBranch.displayName = "GitBranch";
-
-export default GitBranch;

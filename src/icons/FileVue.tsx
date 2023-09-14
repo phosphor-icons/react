@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileVue: Icon = forwardRef((props, ref) => (
+export const FileVue: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileVue.displayName = "FileVue";
-
-export default FileVue;

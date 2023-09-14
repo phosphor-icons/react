@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TrafficCone: Icon = forwardRef((props, ref) => (
+export const TrafficCone: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TrafficCone.displayName = "TrafficCone";
-
-export default TrafficCone;

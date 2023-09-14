@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ChartPolar: Icon = forwardRef((props, ref) => (
+export const ChartPolar: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ChartPolar.displayName = "ChartPolar";
-
-export default ChartPolar;

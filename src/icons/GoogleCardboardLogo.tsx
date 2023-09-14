@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GoogleCardboardLogo: Icon = forwardRef((props, ref) => (
+export const GoogleCardboardLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GoogleCardboardLogo.displayName = "GoogleCardboardLogo";
-
-export default GoogleCardboardLogo;

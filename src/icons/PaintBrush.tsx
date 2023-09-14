@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PaintBrush: Icon = forwardRef((props, ref) => (
+export const PaintBrush: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PaintBrush.displayName = "PaintBrush";
-
-export default PaintBrush;

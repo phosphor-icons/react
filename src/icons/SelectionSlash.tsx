@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SelectionSlash: Icon = forwardRef((props, ref) => (
+export const SelectionSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SelectionSlash.displayName = "SelectionSlash";
-
-export default SelectionSlash;

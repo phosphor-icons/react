@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HighlighterCircle: Icon = forwardRef((props, ref) => (
+export const HighlighterCircle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HighlighterCircle.displayName = "HighlighterCircle";
-
-export default HighlighterCircle;

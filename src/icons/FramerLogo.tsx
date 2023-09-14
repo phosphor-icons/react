@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FramerLogo: Icon = forwardRef((props, ref) => (
+export const FramerLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FramerLogo.displayName = "FramerLogo";
-
-export default FramerLogo;

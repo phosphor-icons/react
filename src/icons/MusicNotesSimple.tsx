@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MusicNotesSimple: Icon = forwardRef((props, ref) => (
+export const MusicNotesSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MusicNotesSimple.displayName = "MusicNotesSimple";
-
-export default MusicNotesSimple;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ReceiptX: Icon = forwardRef((props, ref) => (
+export const ReceiptX: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ReceiptX.displayName = "ReceiptX";
-
-export default ReceiptX;

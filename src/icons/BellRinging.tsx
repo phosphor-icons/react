@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BellRinging: Icon = forwardRef((props, ref) => (
+export const BellRinging: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BellRinging.displayName = "BellRinging";
-
-export default BellRinging;

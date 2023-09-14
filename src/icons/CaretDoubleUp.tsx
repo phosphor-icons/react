@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CaretDoubleUp: Icon = forwardRef((props, ref) => (
+export const CaretDoubleUp: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CaretDoubleUp.displayName = "CaretDoubleUp";
-
-export default CaretDoubleUp;

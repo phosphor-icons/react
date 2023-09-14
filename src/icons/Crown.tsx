@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Crown: Icon = forwardRef((props, ref) => (
+export const Crown: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Crown.displayName = "Crown";
-
-export default Crown;

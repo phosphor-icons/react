@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Train: Icon = forwardRef((props, ref) => (
+export const Train: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Train.displayName = "Train";
-
-export default Train;

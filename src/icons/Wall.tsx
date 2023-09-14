@@ -48,10 +48,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Wall: Icon = forwardRef((props, ref) => (
+export const Wall: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Wall.displayName = "Wall";
-
-export default Wall;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PiggyBank: Icon = forwardRef((props, ref) => (
+export const PiggyBank: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PiggyBank.displayName = "PiggyBank";
-
-export default PiggyBank;

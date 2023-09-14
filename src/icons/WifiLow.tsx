@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WifiLow: Icon = forwardRef((props, ref) => (
+export const WifiLow: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WifiLow.displayName = "WifiLow";
-
-export default WifiLow;

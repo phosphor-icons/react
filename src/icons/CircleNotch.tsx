@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CircleNotch: Icon = forwardRef((props, ref) => (
+export const CircleNotch: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CircleNotch.displayName = "CircleNotch";
-
-export default CircleNotch;

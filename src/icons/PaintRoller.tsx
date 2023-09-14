@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PaintRoller: Icon = forwardRef((props, ref) => (
+export const PaintRoller: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PaintRoller.displayName = "PaintRoller";
-
-export default PaintRoller;

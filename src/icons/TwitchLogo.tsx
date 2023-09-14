@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TwitchLogo: Icon = forwardRef((props, ref) => (
+export const TwitchLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TwitchLogo.displayName = "TwitchLogo";
-
-export default TwitchLogo;

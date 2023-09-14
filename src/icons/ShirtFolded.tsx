@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ShirtFolded: Icon = forwardRef((props, ref) => (
+export const ShirtFolded: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ShirtFolded.displayName = "ShirtFolded";
-
-export default ShirtFolded;

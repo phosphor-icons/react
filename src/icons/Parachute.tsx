@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Parachute: Icon = forwardRef((props, ref) => (
+export const Parachute: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Parachute.displayName = "Parachute";
-
-export default Parachute;

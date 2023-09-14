@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const UserSwitch: Icon = forwardRef((props, ref) => (
+export const UserSwitch: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 UserSwitch.displayName = "UserSwitch";
-
-export default UserSwitch;

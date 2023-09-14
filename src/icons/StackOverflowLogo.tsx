@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const StackOverflowLogo: Icon = forwardRef((props, ref) => (
+export const StackOverflowLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 StackOverflowLogo.displayName = "StackOverflowLogo";
-
-export default StackOverflowLogo;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Carrot: Icon = forwardRef((props, ref) => (
+export const Carrot: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Carrot.displayName = "Carrot";
-
-export default Carrot;

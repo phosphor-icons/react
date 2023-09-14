@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WaveSawtooth: Icon = forwardRef((props, ref) => (
+export const WaveSawtooth: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WaveSawtooth.displayName = "WaveSawtooth";
-
-export default WaveSawtooth;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Garage: Icon = forwardRef((props, ref) => (
+export const Garage: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Garage.displayName = "Garage";
-
-export default Garage;

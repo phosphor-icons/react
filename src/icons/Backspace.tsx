@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Backspace: Icon = forwardRef((props, ref) => (
+export const Backspace: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Backspace.displayName = "Backspace";
-
-export default Backspace;

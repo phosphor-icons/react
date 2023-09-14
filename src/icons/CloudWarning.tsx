@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CloudWarning: Icon = forwardRef((props, ref) => (
+export const CloudWarning: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CloudWarning.displayName = "CloudWarning";
-
-export default CloudWarning;

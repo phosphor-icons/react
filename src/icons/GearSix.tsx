@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GearSix: Icon = forwardRef((props, ref) => (
+export const GearSix: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GearSix.displayName = "GearSix";
-
-export default GearSix;

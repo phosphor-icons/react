@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TreeEvergreen: Icon = forwardRef((props, ref) => (
+export const TreeEvergreen: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TreeEvergreen.displayName = "TreeEvergreen";
-
-export default TreeEvergreen;

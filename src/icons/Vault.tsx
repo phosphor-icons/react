@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Vault: Icon = forwardRef((props, ref) => (
+export const Vault: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Vault.displayName = "Vault";
-
-export default Vault;

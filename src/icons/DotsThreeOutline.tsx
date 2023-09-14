@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DotsThreeOutline: Icon = forwardRef((props, ref) => (
+export const DotsThreeOutline: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DotsThreeOutline.displayName = "DotsThreeOutline";
-
-export default DotsThreeOutline;

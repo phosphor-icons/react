@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GlobeStand: Icon = forwardRef((props, ref) => (
+export const GlobeStand: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GlobeStand.displayName = "GlobeStand";
-
-export default GlobeStand;

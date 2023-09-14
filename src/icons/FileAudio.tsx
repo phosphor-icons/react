@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileAudio: Icon = forwardRef((props, ref) => (
+export const FileAudio: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileAudio.displayName = "FileAudio";
-
-export default FileAudio;

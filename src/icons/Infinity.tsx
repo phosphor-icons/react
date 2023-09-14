@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Infinity: Icon = forwardRef((props, ref) => (
+export const Infinity: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Infinity.displayName = "Infinity";
-
-export default Infinity;

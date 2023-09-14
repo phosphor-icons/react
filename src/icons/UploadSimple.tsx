@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const UploadSimple: Icon = forwardRef((props, ref) => (
+export const UploadSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 UploadSimple.displayName = "UploadSimple";
-
-export default UploadSimple;

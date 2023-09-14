@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const RoadHorizon: Icon = forwardRef((props, ref) => (
+export const RoadHorizon: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 RoadHorizon.displayName = "RoadHorizon";
-
-export default RoadHorizon;

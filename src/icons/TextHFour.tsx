@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TextHFour: Icon = forwardRef((props, ref) => (
+export const TextHFour: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TextHFour.displayName = "TextHFour";
-
-export default TextHFour;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CallBell: Icon = forwardRef((props, ref) => (
+export const CallBell: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CallBell.displayName = "CallBell";
-
-export default CallBell;

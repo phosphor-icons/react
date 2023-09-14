@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Toolbox: Icon = forwardRef((props, ref) => (
+export const Toolbox: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Toolbox.displayName = "Toolbox";
-
-export default Toolbox;

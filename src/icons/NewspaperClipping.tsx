@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const NewspaperClipping: Icon = forwardRef((props, ref) => (
+export const NewspaperClipping: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 NewspaperClipping.displayName = "NewspaperClipping";
-
-export default NewspaperClipping;

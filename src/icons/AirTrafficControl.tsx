@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const AirTrafficControl: Icon = forwardRef((props, ref) => (
+export const AirTrafficControl: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 AirTrafficControl.displayName = "AirTrafficControl";
-
-export default AirTrafficControl;

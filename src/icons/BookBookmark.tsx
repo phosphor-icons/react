@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BookBookmark: Icon = forwardRef((props, ref) => (
+export const BookBookmark: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BookBookmark.displayName = "BookBookmark";
-
-export default BookBookmark;

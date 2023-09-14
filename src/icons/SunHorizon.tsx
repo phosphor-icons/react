@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SunHorizon: Icon = forwardRef((props, ref) => (
+export const SunHorizon: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SunHorizon.displayName = "SunHorizon";
-
-export default SunHorizon;

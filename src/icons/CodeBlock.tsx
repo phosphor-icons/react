@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CodeBlock: Icon = forwardRef((props, ref) => (
+export const CodeBlock: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CodeBlock.displayName = "CodeBlock";
-
-export default CodeBlock;

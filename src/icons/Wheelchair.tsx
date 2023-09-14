@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Wheelchair: Icon = forwardRef((props, ref) => (
+export const Wheelchair: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Wheelchair.displayName = "Wheelchair";
-
-export default Wheelchair;

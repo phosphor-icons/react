@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SplitVertical: Icon = forwardRef((props, ref) => (
+export const SplitVertical: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SplitVertical.displayName = "SplitVertical";
-
-export default SplitVertical;

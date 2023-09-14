@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CastleTurret: Icon = forwardRef((props, ref) => (
+export const CastleTurret: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CastleTurret.displayName = "CastleTurret";
-
-export default CastleTurret;

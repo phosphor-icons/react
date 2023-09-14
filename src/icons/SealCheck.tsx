@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SealCheck: Icon = forwardRef((props, ref) => (
+export const SealCheck: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SealCheck.displayName = "SealCheck";
-
-export default SealCheck;

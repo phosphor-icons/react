@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DeviceMobileCamera: Icon = forwardRef((props, ref) => (
+export const DeviceMobileCamera: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DeviceMobileCamera.displayName = "DeviceMobileCamera";
-
-export default DeviceMobileCamera;

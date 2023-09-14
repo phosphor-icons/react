@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Funnel: Icon = forwardRef((props, ref) => (
+export const Funnel: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Funnel.displayName = "Funnel";
-
-export default Funnel;

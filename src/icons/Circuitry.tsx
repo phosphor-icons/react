@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Circuitry: Icon = forwardRef((props, ref) => (
+export const Circuitry: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Circuitry.displayName = "Circuitry";
-
-export default Circuitry;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ChartPieSlice: Icon = forwardRef((props, ref) => (
+export const ChartPieSlice: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ChartPieSlice.displayName = "ChartPieSlice";
-
-export default ChartPieSlice;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HandPointing: Icon = forwardRef((props, ref) => (
+export const HandPointing: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HandPointing.displayName = "HandPointing";
-
-export default HandPointing;

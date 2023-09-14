@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Hourglass: Icon = forwardRef((props, ref) => (
+export const Hourglass: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Hourglass.displayName = "Hourglass";
-
-export default Hourglass;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const AddressBook: Icon = forwardRef((props, ref) => (
+export const AddressBook: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 AddressBook.displayName = "AddressBook";
-
-export default AddressBook;

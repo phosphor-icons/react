@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ChartLineUp: Icon = forwardRef((props, ref) => (
+export const ChartLineUp: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ChartLineUp.displayName = "ChartLineUp";
-
-export default ChartLineUp;

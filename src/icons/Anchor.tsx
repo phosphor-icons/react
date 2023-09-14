@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Anchor: Icon = forwardRef((props, ref) => (
+export const Anchor: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Anchor.displayName = "Anchor";
-
-export default Anchor;

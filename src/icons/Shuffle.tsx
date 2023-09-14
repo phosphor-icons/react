@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Shuffle: Icon = forwardRef((props, ref) => (
+export const Shuffle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Shuffle.displayName = "Shuffle";
-
-export default Shuffle;

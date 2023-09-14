@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Van: Icon = forwardRef((props, ref) => (
+export const Van: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Van.displayName = "Van";
-
-export default Van;

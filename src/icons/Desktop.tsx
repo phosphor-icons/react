@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Desktop: Icon = forwardRef((props, ref) => (
+export const Desktop: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Desktop.displayName = "Desktop";
-
-export default Desktop;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const AirplaneLanding: Icon = forwardRef((props, ref) => (
+export const AirplaneLanding: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 AirplaneLanding.displayName = "AirplaneLanding";
-
-export default AirplaneLanding;

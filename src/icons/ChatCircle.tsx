@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ChatCircle: Icon = forwardRef((props, ref) => (
+export const ChatCircle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ChatCircle.displayName = "ChatCircle";
-
-export default ChatCircle;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const NavigationArrow: Icon = forwardRef((props, ref) => (
+export const NavigationArrow: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 NavigationArrow.displayName = "NavigationArrow";
-
-export default NavigationArrow;

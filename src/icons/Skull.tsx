@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Skull: Icon = forwardRef((props, ref) => (
+export const Skull: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Skull.displayName = "Skull";
-
-export default Skull;

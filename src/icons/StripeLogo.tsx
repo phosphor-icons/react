@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const StripeLogo: Icon = forwardRef((props, ref) => (
+export const StripeLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 StripeLogo.displayName = "StripeLogo";
-
-export default StripeLogo;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HandGrabbing: Icon = forwardRef((props, ref) => (
+export const HandGrabbing: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HandGrabbing.displayName = "HandGrabbing";
-
-export default HandGrabbing;

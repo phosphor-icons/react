@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CheckCircle: Icon = forwardRef((props, ref) => (
+export const CheckCircle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CheckCircle.displayName = "CheckCircle";
-
-export default CheckCircle;

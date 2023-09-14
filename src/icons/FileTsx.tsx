@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileTsx: Icon = forwardRef((props, ref) => (
+export const FileTsx: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileTsx.displayName = "FileTsx";
-
-export default FileTsx;

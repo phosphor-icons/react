@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SmileyXEyes: Icon = forwardRef((props, ref) => (
+export const SmileyXEyes: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SmileyXEyes.displayName = "SmileyXEyes";
-
-export default SmileyXEyes;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GameController: Icon = forwardRef((props, ref) => (
+export const GameController: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GameController.displayName = "GameController";
-
-export default GameController;

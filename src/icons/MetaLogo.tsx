@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MetaLogo: Icon = forwardRef((props, ref) => (
+export const MetaLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MetaLogo.displayName = "MetaLogo";
-
-export default MetaLogo;

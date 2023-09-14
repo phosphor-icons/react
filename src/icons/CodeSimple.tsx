@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CodeSimple: Icon = forwardRef((props, ref) => (
+export const CodeSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CodeSimple.displayName = "CodeSimple";
-
-export default CodeSimple;

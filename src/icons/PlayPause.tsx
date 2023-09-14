@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PlayPause: Icon = forwardRef((props, ref) => (
+export const PlayPause: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PlayPause.displayName = "PlayPause";
-
-export default PlayPause;

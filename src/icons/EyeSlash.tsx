@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const EyeSlash: Icon = forwardRef((props, ref) => (
+export const EyeSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 EyeSlash.displayName = "EyeSlash";
-
-export default EyeSlash;

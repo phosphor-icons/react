@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Database: Icon = forwardRef((props, ref) => (
+export const Database: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Database.displayName = "Database";
-
-export default Database;

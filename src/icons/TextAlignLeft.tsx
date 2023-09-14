@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TextAlignLeft: Icon = forwardRef((props, ref) => (
+export const TextAlignLeft: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TextAlignLeft.displayName = "TextAlignLeft";
-
-export default TextAlignLeft;

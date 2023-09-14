@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MagnetStraight: Icon = forwardRef((props, ref) => (
+export const MagnetStraight: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MagnetStraight.displayName = "MagnetStraight";
-
-export default MagnetStraight;

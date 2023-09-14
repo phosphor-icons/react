@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Synagogue: Icon = forwardRef((props, ref) => (
+export const Synagogue: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Synagogue.displayName = "Synagogue";
-
-export default Synagogue;

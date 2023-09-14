@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BowlFood: Icon = forwardRef((props, ref) => (
+export const BowlFood: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BowlFood.displayName = "BowlFood";
-
-export default BowlFood;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Ruler: Icon = forwardRef((props, ref) => (
+export const Ruler: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Ruler.displayName = "Ruler";
-
-export default Ruler;

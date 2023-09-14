@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WarningDiamond: Icon = forwardRef((props, ref) => (
+export const WarningDiamond: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WarningDiamond.displayName = "WarningDiamond";
-
-export default WarningDiamond;

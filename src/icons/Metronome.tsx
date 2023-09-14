@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Metronome: Icon = forwardRef((props, ref) => (
+export const Metronome: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Metronome.displayName = "Metronome";
-
-export default Metronome;

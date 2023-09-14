@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GraduationCap: Icon = forwardRef((props, ref) => (
+export const GraduationCap: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GraduationCap.displayName = "GraduationCap";
-
-export default GraduationCap;

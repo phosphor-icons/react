@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Spiral: Icon = forwardRef((props, ref) => (
+export const Spiral: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Spiral.displayName = "Spiral";
-
-export default Spiral;

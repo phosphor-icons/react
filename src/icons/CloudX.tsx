@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CloudX: Icon = forwardRef((props, ref) => (
+export const CloudX: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CloudX.displayName = "CloudX";
-
-export default CloudX;

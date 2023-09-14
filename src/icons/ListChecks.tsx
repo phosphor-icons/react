@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ListChecks: Icon = forwardRef((props, ref) => (
+export const ListChecks: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ListChecks.displayName = "ListChecks";
-
-export default ListChecks;

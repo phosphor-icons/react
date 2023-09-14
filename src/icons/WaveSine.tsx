@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WaveSine: Icon = forwardRef((props, ref) => (
+export const WaveSine: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WaveSine.displayName = "WaveSine";
-
-export default WaveSine;

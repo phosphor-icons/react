@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ShuffleAngular: Icon = forwardRef((props, ref) => (
+export const ShuffleAngular: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ShuffleAngular.displayName = "ShuffleAngular";
-
-export default ShuffleAngular;

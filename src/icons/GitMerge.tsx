@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GitMerge: Icon = forwardRef((props, ref) => (
+export const GitMerge: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GitMerge.displayName = "GitMerge";
-
-export default GitMerge;

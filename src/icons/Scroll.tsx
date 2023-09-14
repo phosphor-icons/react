@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Scroll: Icon = forwardRef((props, ref) => (
+export const Scroll: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Scroll.displayName = "Scroll";
-
-export default Scroll;

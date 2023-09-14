@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ChatText: Icon = forwardRef((props, ref) => (
+export const ChatText: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ChatText.displayName = "ChatText";
-
-export default ChatText;

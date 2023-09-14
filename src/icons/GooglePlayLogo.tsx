@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GooglePlayLogo: Icon = forwardRef((props, ref) => (
+export const GooglePlayLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GooglePlayLogo.displayName = "GooglePlayLogo";
-
-export default GooglePlayLogo;

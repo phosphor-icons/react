@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const StarAndCrescent: Icon = forwardRef((props, ref) => (
+export const StarAndCrescent: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 StarAndCrescent.displayName = "StarAndCrescent";
-
-export default StarAndCrescent;

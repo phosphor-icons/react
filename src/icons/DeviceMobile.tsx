@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DeviceMobile: Icon = forwardRef((props, ref) => (
+export const DeviceMobile: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DeviceMobile.displayName = "DeviceMobile";
-
-export default DeviceMobile;

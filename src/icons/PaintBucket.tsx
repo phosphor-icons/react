@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PaintBucket: Icon = forwardRef((props, ref) => (
+export const PaintBucket: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PaintBucket.displayName = "PaintBucket";
-
-export default PaintBucket;

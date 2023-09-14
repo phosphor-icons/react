@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Siren: Icon = forwardRef((props, ref) => (
+export const Siren: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Siren.displayName = "Siren";
-
-export default Siren;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Strategy: Icon = forwardRef((props, ref) => (
+export const Strategy: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Strategy.displayName = "Strategy";
-
-export default Strategy;

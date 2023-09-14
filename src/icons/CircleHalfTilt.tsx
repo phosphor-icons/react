@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CircleHalfTilt: Icon = forwardRef((props, ref) => (
+export const CircleHalfTilt: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CircleHalfTilt.displayName = "CircleHalfTilt";
-
-export default CircleHalfTilt;

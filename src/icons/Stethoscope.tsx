@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Stethoscope: Icon = forwardRef((props, ref) => (
+export const Stethoscope: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Stethoscope.displayName = "Stethoscope";
-
-export default Stethoscope;

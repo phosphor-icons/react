@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Tooth: Icon = forwardRef((props, ref) => (
+export const Tooth: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Tooth.displayName = "Tooth";
-
-export default Tooth;

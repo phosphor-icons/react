@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CircleDashed: Icon = forwardRef((props, ref) => (
+export const CircleDashed: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CircleDashed.displayName = "CircleDashed";
-
-export default CircleDashed;

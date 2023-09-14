@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MaskSad: Icon = forwardRef((props, ref) => (
+export const MaskSad: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MaskSad.displayName = "MaskSad";
-
-export default MaskSad;

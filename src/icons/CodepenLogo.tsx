@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CodepenLogo: Icon = forwardRef((props, ref) => (
+export const CodepenLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CodepenLogo.displayName = "CodepenLogo";
-
-export default CodepenLogo;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const LinkSimpleHorizontal: Icon = forwardRef((props, ref) => (
+export const LinkSimpleHorizontal: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 LinkSimpleHorizontal.displayName = "LinkSimpleHorizontal";
-
-export default LinkSimpleHorizontal;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MicrosoftOutlookLogo: Icon = forwardRef((props, ref) => (
+export const MicrosoftOutlookLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MicrosoftOutlookLogo.displayName = "MicrosoftOutlookLogo";
-
-export default MicrosoftOutlookLogo;

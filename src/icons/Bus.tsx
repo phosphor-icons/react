@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Bus: Icon = forwardRef((props, ref) => (
+export const Bus: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Bus.displayName = "Bus";
-
-export default Bus;

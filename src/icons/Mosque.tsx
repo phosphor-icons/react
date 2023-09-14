@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Mosque: Icon = forwardRef((props, ref) => (
+export const Mosque: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Mosque.displayName = "Mosque";
-
-export default Mosque;

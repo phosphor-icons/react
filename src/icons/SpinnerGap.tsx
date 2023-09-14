@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SpinnerGap: Icon = forwardRef((props, ref) => (
+export const SpinnerGap: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SpinnerGap.displayName = "SpinnerGap";
-
-export default SpinnerGap;

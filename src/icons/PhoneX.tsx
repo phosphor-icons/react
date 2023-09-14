@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PhoneX: Icon = forwardRef((props, ref) => (
+export const PhoneX: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PhoneX.displayName = "PhoneX";
-
-export default PhoneX;

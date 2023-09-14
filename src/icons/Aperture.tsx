@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Aperture: Icon = forwardRef((props, ref) => (
+export const Aperture: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Aperture.displayName = "Aperture";
-
-export default Aperture;

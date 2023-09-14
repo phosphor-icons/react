@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Mountains: Icon = forwardRef((props, ref) => (
+export const Mountains: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Mountains.displayName = "Mountains";
-
-export default Mountains;

@@ -43,10 +43,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const StackSimple: Icon = forwardRef((props, ref) => (
+export const StackSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 StackSimple.displayName = "StackSimple";
-
-export default StackSimple;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Leaf: Icon = forwardRef((props, ref) => (
+export const Leaf: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Leaf.displayName = "Leaf";
-
-export default Leaf;

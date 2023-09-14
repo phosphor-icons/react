@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SlidersHorizontal: Icon = forwardRef((props, ref) => (
+export const SlidersHorizontal: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SlidersHorizontal.displayName = "SlidersHorizontal";
-
-export default SlidersHorizontal;

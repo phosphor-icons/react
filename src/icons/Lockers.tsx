@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Lockers: Icon = forwardRef((props, ref) => (
+export const Lockers: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Lockers.displayName = "Lockers";
-
-export default Lockers;

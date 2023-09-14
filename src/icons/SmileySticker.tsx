@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SmileySticker: Icon = forwardRef((props, ref) => (
+export const SmileySticker: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SmileySticker.displayName = "SmileySticker";
-
-export default SmileySticker;

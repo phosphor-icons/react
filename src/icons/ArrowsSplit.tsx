@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ArrowsSplit: Icon = forwardRef((props, ref) => (
+export const ArrowsSplit: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ArrowsSplit.displayName = "ArrowsSplit";
-
-export default ArrowsSplit;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Circle: Icon = forwardRef((props, ref) => (
+export const Circle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Circle.displayName = "Circle";
-
-export default Circle;

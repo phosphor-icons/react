@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Share: Icon = forwardRef((props, ref) => (
+export const Share: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Share.displayName = "Share";
-
-export default Share;

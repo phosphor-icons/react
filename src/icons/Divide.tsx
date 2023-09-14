@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Divide: Icon = forwardRef((props, ref) => (
+export const Divide: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Divide.displayName = "Divide";
-
-export default Divide;

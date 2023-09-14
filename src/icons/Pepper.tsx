@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Pepper: Icon = forwardRef((props, ref) => (
+export const Pepper: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Pepper.displayName = "Pepper";
-
-export default Pepper;

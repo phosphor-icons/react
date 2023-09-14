@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ClockCountdown: Icon = forwardRef((props, ref) => (
+export const ClockCountdown: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ClockCountdown.displayName = "ClockCountdown";
-
-export default ClockCountdown;

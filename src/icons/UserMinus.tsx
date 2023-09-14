@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const UserMinus: Icon = forwardRef((props, ref) => (
+export const UserMinus: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 UserMinus.displayName = "UserMinus";
-
-export default UserMinus;

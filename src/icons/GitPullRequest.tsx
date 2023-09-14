@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GitPullRequest: Icon = forwardRef((props, ref) => (
+export const GitPullRequest: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GitPullRequest.displayName = "GitPullRequest";
-
-export default GitPullRequest;

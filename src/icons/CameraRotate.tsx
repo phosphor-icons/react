@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CameraRotate: Icon = forwardRef((props, ref) => (
+export const CameraRotate: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CameraRotate.displayName = "CameraRotate";
-
-export default CameraRotate;

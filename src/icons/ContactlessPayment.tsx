@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ContactlessPayment: Icon = forwardRef((props, ref) => (
+export const ContactlessPayment: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ContactlessPayment.displayName = "ContactlessPayment";
-
-export default ContactlessPayment;

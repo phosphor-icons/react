@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ApplePodcastsLogo: Icon = forwardRef((props, ref) => (
+export const ApplePodcastsLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ApplePodcastsLogo.displayName = "ApplePodcastsLogo";
-
-export default ApplePodcastsLogo;

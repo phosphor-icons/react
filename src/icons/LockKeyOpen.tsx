@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const LockKeyOpen: Icon = forwardRef((props, ref) => (
+export const LockKeyOpen: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 LockKeyOpen.displayName = "LockKeyOpen";
-
-export default LockKeyOpen;

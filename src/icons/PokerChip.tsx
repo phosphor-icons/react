@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PokerChip: Icon = forwardRef((props, ref) => (
+export const PokerChip: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PokerChip.displayName = "PokerChip";
-
-export default PokerChip;

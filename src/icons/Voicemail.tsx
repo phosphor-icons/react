@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Voicemail: Icon = forwardRef((props, ref) => (
+export const Voicemail: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Voicemail.displayName = "Voicemail";
-
-export default Voicemail;

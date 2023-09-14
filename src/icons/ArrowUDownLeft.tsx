@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ArrowUDownLeft: Icon = forwardRef((props, ref) => (
+export const ArrowUDownLeft: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ArrowUDownLeft.displayName = "ArrowUDownLeft";
-
-export default ArrowUDownLeft;

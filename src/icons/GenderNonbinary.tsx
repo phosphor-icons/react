@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GenderNonbinary: Icon = forwardRef((props, ref) => (
+export const GenderNonbinary: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GenderNonbinary.displayName = "GenderNonbinary";
-
-export default GenderNonbinary;

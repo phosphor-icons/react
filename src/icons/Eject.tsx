@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Eject: Icon = forwardRef((props, ref) => (
+export const Eject: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Eject.displayName = "Eject";
-
-export default Eject;

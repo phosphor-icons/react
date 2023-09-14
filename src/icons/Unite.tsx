@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Unite: Icon = forwardRef((props, ref) => (
+export const Unite: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Unite.displayName = "Unite";
-
-export default Unite;

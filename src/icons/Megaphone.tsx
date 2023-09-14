@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Megaphone: Icon = forwardRef((props, ref) => (
+export const Megaphone: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Megaphone.displayName = "Megaphone";
-
-export default Megaphone;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CurrencyJpy: Icon = forwardRef((props, ref) => (
+export const CurrencyJpy: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CurrencyJpy.displayName = "CurrencyJpy";
-
-export default CurrencyJpy;

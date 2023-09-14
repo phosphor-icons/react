@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GasPump: Icon = forwardRef((props, ref) => (
+export const GasPump: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GasPump.displayName = "GasPump";
-
-export default GasPump;

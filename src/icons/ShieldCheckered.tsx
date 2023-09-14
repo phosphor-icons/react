@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ShieldCheckered: Icon = forwardRef((props, ref) => (
+export const ShieldCheckered: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ShieldCheckered.displayName = "ShieldCheckered";
-
-export default ShieldCheckered;

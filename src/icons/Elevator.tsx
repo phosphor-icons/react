@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Elevator: Icon = forwardRef((props, ref) => (
+export const Elevator: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Elevator.displayName = "Elevator";
-
-export default Elevator;

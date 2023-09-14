@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Triangle: Icon = forwardRef((props, ref) => (
+export const Triangle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Triangle.displayName = "Triangle";
-
-export default Triangle;

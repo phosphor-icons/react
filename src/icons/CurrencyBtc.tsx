@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CurrencyBtc: Icon = forwardRef((props, ref) => (
+export const CurrencyBtc: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CurrencyBtc.displayName = "CurrencyBtc";
-
-export default CurrencyBtc;

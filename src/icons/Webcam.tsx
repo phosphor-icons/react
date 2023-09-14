@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Webcam: Icon = forwardRef((props, ref) => (
+export const Webcam: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Webcam.displayName = "Webcam";
-
-export default Webcam;

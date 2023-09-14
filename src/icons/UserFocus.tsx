@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const UserFocus: Icon = forwardRef((props, ref) => (
+export const UserFocus: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 UserFocus.displayName = "UserFocus";
-
-export default UserFocus;

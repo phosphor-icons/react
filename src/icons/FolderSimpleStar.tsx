@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FolderSimpleStar: Icon = forwardRef((props, ref) => (
+export const FolderSimpleStar: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FolderSimpleStar.displayName = "FolderSimpleStar";
-
-export default FolderSimpleStar;

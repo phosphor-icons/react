@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HandPalm: Icon = forwardRef((props, ref) => (
+export const HandPalm: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HandPalm.displayName = "HandPalm";
-
-export default HandPalm;

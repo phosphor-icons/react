@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Cpu: Icon = forwardRef((props, ref) => (
+export const Cpu: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Cpu.displayName = "Cpu";
-
-export default Cpu;

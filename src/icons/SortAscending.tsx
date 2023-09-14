@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SortAscending: Icon = forwardRef((props, ref) => (
+export const SortAscending: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SortAscending.displayName = "SortAscending";
-
-export default SortAscending;

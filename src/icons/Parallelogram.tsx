@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Parallelogram: Icon = forwardRef((props, ref) => (
+export const Parallelogram: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Parallelogram.displayName = "Parallelogram";
-
-export default Parallelogram;

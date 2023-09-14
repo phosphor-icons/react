@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const LockLaminated: Icon = forwardRef((props, ref) => (
+export const LockLaminated: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 LockLaminated.displayName = "LockLaminated";
-
-export default LockLaminated;

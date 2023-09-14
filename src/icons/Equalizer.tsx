@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Equalizer: Icon = forwardRef((props, ref) => (
+export const Equalizer: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Equalizer.displayName = "Equalizer";
-
-export default Equalizer;

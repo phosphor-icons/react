@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MessengerLogo: Icon = forwardRef((props, ref) => (
+export const MessengerLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MessengerLogo.displayName = "MessengerLogo";
-
-export default MessengerLogo;

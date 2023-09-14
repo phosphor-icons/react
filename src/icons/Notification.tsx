@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Notification: Icon = forwardRef((props, ref) => (
+export const Notification: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Notification.displayName = "Notification";
-
-export default Notification;
