@@ -1,6 +1,6 @@
 {
   "name": "@phosphor-icons/react",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A clean and friendly icon family for React",
   "author": {
     "name": "Tobias Fried",
@@ -21,15 +21,20 @@
       "require": "./dist/index.cjs",
       "types": "./dist/index.d.ts"
     },
-    "./icons/*": {
+    "./dist/icons/*": {
       "import": "./dist/icons/*.mjs",
       "require": "./dist/index.cjs",
       "types": "./dist/icons/*.d.ts"
     },
-    "./lib/*": {
+    "./dist/lib/*": {
       "import": "./dist/lib/*.mjs",
       "require": "./dist/index.cjs",
       "types": "./dist/lib/*.d.ts"
+    },
+    "./*": {
+      "import": "./dist/icons/*.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/icons/*.d.ts"
     }
   },
   "types": "./dist/index.d.ts",
