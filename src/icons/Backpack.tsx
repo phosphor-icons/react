@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Backpack: Icon = forwardRef((props, ref) => (
+export const Backpack: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Backpack.displayName = "Backpack";
-
-export default Backpack;

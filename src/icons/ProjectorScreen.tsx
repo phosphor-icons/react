@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ProjectorScreen: Icon = forwardRef((props, ref) => (
+export const ProjectorScreen: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ProjectorScreen.displayName = "ProjectorScreen";
-
-export default ProjectorScreen;

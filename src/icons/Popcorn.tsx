@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Popcorn: Icon = forwardRef((props, ref) => (
+export const Popcorn: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Popcorn.displayName = "Popcorn";
-
-export default Popcorn;

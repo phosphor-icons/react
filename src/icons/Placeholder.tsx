@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Placeholder: Icon = forwardRef((props, ref) => (
+export const Placeholder: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Placeholder.displayName = "Placeholder";
-
-export default Placeholder;

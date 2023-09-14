@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PencilSlash: Icon = forwardRef((props, ref) => (
+export const PencilSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PencilSlash.displayName = "PencilSlash";
-
-export default PencilSlash;

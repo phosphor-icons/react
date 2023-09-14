@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const LinuxLogo: Icon = forwardRef((props, ref) => (
+export const LinuxLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 LinuxLogo.displayName = "LinuxLogo";
-
-export default LinuxLogo;

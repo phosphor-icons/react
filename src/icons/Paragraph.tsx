@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Paragraph: Icon = forwardRef((props, ref) => (
+export const Paragraph: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Paragraph.displayName = "Paragraph";
-
-export default Paragraph;

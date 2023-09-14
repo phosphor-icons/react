@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ShieldChevron: Icon = forwardRef((props, ref) => (
+export const ShieldChevron: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ShieldChevron.displayName = "ShieldChevron";
-
-export default ShieldChevron;

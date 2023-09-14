@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TextHFive: Icon = forwardRef((props, ref) => (
+export const TextHFive: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TextHFive.displayName = "TextHFive";
-
-export default TextHFive;

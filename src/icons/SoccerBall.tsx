@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SoccerBall: Icon = forwardRef((props, ref) => (
+export const SoccerBall: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SoccerBall.displayName = "SoccerBall";
-
-export default SoccerBall;

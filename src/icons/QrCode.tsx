@@ -50,10 +50,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const QrCode: Icon = forwardRef((props, ref) => (
+export const QrCode: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 QrCode.displayName = "QrCode";
-
-export default QrCode;

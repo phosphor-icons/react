@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Martini: Icon = forwardRef((props, ref) => (
+export const Martini: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Martini.displayName = "Martini";
-
-export default Martini;

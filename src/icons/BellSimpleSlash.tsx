@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BellSimpleSlash: Icon = forwardRef((props, ref) => (
+export const BellSimpleSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BellSimpleSlash.displayName = "BellSimpleSlash";
-
-export default BellSimpleSlash;

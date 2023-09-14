@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FolderSimpleLock: Icon = forwardRef((props, ref) => (
+export const FolderSimpleLock: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FolderSimpleLock.displayName = "FolderSimpleLock";
-
-export default FolderSimpleLock;

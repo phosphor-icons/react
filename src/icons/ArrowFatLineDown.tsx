@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ArrowFatLineDown: Icon = forwardRef((props, ref) => (
+export const ArrowFatLineDown: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ArrowFatLineDown.displayName = "ArrowFatLineDown";
-
-export default ArrowFatLineDown;

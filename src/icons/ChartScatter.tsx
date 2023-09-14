@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ChartScatter: Icon = forwardRef((props, ref) => (
+export const ChartScatter: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ChartScatter.displayName = "ChartScatter";
-
-export default ChartScatter;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Rug: Icon = forwardRef((props, ref) => (
+export const Rug: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Rug.displayName = "Rug";
-
-export default Rug;

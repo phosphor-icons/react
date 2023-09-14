@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GooglePodcastsLogo: Icon = forwardRef((props, ref) => (
+export const GooglePodcastsLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GooglePodcastsLogo.displayName = "GooglePodcastsLogo";
-
-export default GooglePodcastsLogo;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Browser: Icon = forwardRef((props, ref) => (
+export const Browser: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Browser.displayName = "Browser";
-
-export default Browser;

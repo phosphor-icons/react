@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Spade: Icon = forwardRef((props, ref) => (
+export const Spade: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Spade.displayName = "Spade";
-
-export default Spade;

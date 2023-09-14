@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ArrowsInLineHorizontal: Icon = forwardRef((props, ref) => (
+export const ArrowsInLineHorizontal: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ArrowsInLineHorizontal.displayName = "ArrowsInLineHorizontal";
-
-export default ArrowsInLineHorizontal;

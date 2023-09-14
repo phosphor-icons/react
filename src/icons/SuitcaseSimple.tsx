@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SuitcaseSimple: Icon = forwardRef((props, ref) => (
+export const SuitcaseSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SuitcaseSimple.displayName = "SuitcaseSimple";
-
-export default SuitcaseSimple;

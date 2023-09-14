@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Scissors: Icon = forwardRef((props, ref) => (
+export const Scissors: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Scissors.displayName = "Scissors";
-
-export default Scissors;

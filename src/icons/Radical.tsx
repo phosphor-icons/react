@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Radical: Icon = forwardRef((props, ref) => (
+export const Radical: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Radical.displayName = "Radical";
-
-export default Radical;

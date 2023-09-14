@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileJsx: Icon = forwardRef((props, ref) => (
+export const FileJsx: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileJsx.displayName = "FileJsx";
-
-export default FileJsx;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SignOut: Icon = forwardRef((props, ref) => (
+export const SignOut: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SignOut.displayName = "SignOut";
-
-export default SignOut;

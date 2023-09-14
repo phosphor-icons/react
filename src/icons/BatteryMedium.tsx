@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BatteryMedium: Icon = forwardRef((props, ref) => (
+export const BatteryMedium: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BatteryMedium.displayName = "BatteryMedium";
-
-export default BatteryMedium;

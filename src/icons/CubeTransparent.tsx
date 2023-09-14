@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CubeTransparent: Icon = forwardRef((props, ref) => (
+export const CubeTransparent: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CubeTransparent.displayName = "CubeTransparent";
-
-export default CubeTransparent;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileJpg: Icon = forwardRef((props, ref) => (
+export const FileJpg: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileJpg.displayName = "FileJpg";
-
-export default FileJpg;

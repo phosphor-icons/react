@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const IntersectThree: Icon = forwardRef((props, ref) => (
+export const IntersectThree: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 IntersectThree.displayName = "IntersectThree";
-
-export default IntersectThree;

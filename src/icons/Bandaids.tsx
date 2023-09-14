@@ -46,10 +46,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Bandaids: Icon = forwardRef((props, ref) => (
+export const Bandaids: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Bandaids.displayName = "Bandaids";
-
-export default Bandaids;

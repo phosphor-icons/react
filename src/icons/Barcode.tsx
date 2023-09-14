@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Barcode: Icon = forwardRef((props, ref) => (
+export const Barcode: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Barcode.displayName = "Barcode";
-
-export default Barcode;

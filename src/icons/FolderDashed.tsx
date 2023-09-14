@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FolderDashed: Icon = forwardRef((props, ref) => (
+export const FolderDashed: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FolderDashed.displayName = "FolderDashed";
-
-export default FolderDashed;

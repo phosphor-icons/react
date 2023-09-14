@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Tent: Icon = forwardRef((props, ref) => (
+export const Tent: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Tent.displayName = "Tent";
-
-export default Tent;

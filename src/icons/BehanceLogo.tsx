@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BehanceLogo: Icon = forwardRef((props, ref) => (
+export const BehanceLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BehanceLogo.displayName = "BehanceLogo";
-
-export default BehanceLogo;

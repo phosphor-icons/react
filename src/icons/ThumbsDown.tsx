@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ThumbsDown: Icon = forwardRef((props, ref) => (
+export const ThumbsDown: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ThumbsDown.displayName = "ThumbsDown";
-
-export default ThumbsDown;

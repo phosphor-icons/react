@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GitDiff: Icon = forwardRef((props, ref) => (
+export const GitDiff: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GitDiff.displayName = "GitDiff";
-
-export default GitDiff;

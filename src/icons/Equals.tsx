@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Equals: Icon = forwardRef((props, ref) => (
+export const Equals: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Equals.displayName = "Equals";
-
-export default Equals;

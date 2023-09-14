@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const VirtualReality: Icon = forwardRef((props, ref) => (
+export const VirtualReality: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 VirtualReality.displayName = "VirtualReality";
-
-export default VirtualReality;

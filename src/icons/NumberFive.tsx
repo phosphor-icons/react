@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const NumberFive: Icon = forwardRef((props, ref) => (
+export const NumberFive: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 NumberFive.displayName = "NumberFive";
-
-export default NumberFive;

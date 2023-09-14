@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Fan: Icon = forwardRef((props, ref) => (
+export const Fan: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Fan.displayName = "Fan";
-
-export default Fan;

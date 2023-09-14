@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TextItalic: Icon = forwardRef((props, ref) => (
+export const TextItalic: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TextItalic.displayName = "TextItalic";
-
-export default TextItalic;

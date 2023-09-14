@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const RedditLogo: Icon = forwardRef((props, ref) => (
+export const RedditLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 RedditLogo.displayName = "RedditLogo";
-
-export default RedditLogo;

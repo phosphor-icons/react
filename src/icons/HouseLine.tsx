@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HouseLine: Icon = forwardRef((props, ref) => (
+export const HouseLine: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HouseLine.displayName = "HouseLine";
-
-export default HouseLine;

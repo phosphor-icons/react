@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FaceMask: Icon = forwardRef((props, ref) => (
+export const FaceMask: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FaceMask.displayName = "FaceMask";
-
-export default FaceMask;

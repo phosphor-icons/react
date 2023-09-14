@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Gif: Icon = forwardRef((props, ref) => (
+export const Gif: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Gif.displayName = "Gif";
-
-export default Gif;

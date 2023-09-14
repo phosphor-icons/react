@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Rows: Icon = forwardRef((props, ref) => (
+export const Rows: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Rows.displayName = "Rows";
-
-export default Rows;

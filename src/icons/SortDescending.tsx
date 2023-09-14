@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SortDescending: Icon = forwardRef((props, ref) => (
+export const SortDescending: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SortDescending.displayName = "SortDescending";
-
-export default SortDescending;

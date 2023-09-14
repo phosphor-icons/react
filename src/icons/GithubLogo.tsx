@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GithubLogo: Icon = forwardRef((props, ref) => (
+export const GithubLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GithubLogo.displayName = "GithubLogo";
-
-export default GithubLogo;

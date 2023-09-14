@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Translate: Icon = forwardRef((props, ref) => (
+export const Translate: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Translate.displayName = "Translate";
-
-export default Translate;

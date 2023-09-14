@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Timer: Icon = forwardRef((props, ref) => (
+export const Timer: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Timer.displayName = "Timer";
-
-export default Timer;

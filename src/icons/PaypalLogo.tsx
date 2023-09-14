@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PaypalLogo: Icon = forwardRef((props, ref) => (
+export const PaypalLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PaypalLogo.displayName = "PaypalLogo";
-
-export default PaypalLogo;

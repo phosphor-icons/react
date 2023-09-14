@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ReadCvLogo: Icon = forwardRef((props, ref) => (
+export const ReadCvLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ReadCvLogo.displayName = "ReadCvLogo";
-
-export default ReadCvLogo;

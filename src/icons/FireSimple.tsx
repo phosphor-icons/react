@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FireSimple: Icon = forwardRef((props, ref) => (
+export const FireSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FireSimple.displayName = "FireSimple";
-
-export default FireSimple;

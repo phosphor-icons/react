@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BatteryWarningVertical: Icon = forwardRef((props, ref) => (
+export const BatteryWarningVertical: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BatteryWarningVertical.displayName = "BatteryWarningVertical";
-
-export default BatteryWarningVertical;

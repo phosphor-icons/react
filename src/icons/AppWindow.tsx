@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const AppWindow: Icon = forwardRef((props, ref) => (
+export const AppWindow: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 AppWindow.displayName = "AppWindow";
-
-export default AppWindow;

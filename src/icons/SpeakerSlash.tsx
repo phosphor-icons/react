@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SpeakerSlash: Icon = forwardRef((props, ref) => (
+export const SpeakerSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SpeakerSlash.displayName = "SpeakerSlash";
-
-export default SpeakerSlash;

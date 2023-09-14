@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Broadcast: Icon = forwardRef((props, ref) => (
+export const Broadcast: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Broadcast.displayName = "Broadcast";
-
-export default Broadcast;

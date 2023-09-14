@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ChatCentered: Icon = forwardRef((props, ref) => (
+export const ChatCentered: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ChatCentered.displayName = "ChatCentered";
-
-export default ChatCentered;

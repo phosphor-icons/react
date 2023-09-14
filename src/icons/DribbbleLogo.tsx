@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DribbbleLogo: Icon = forwardRef((props, ref) => (
+export const DribbbleLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DribbbleLogo.displayName = "DribbbleLogo";
-
-export default DribbbleLogo;

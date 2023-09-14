@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TrainRegional: Icon = forwardRef((props, ref) => (
+export const TrainRegional: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TrainRegional.displayName = "TrainRegional";
-
-export default TrainRegional;

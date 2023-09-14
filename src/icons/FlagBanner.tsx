@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FlagBanner: Icon = forwardRef((props, ref) => (
+export const FlagBanner: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FlagBanner.displayName = "FlagBanner";
-
-export default FlagBanner;

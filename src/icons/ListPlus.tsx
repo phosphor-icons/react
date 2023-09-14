@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ListPlus: Icon = forwardRef((props, ref) => (
+export const ListPlus: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ListPlus.displayName = "ListPlus";
-
-export default ListPlus;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Broom: Icon = forwardRef((props, ref) => (
+export const Broom: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Broom.displayName = "Broom";
-
-export default Broom;

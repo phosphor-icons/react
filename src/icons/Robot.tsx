@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Robot: Icon = forwardRef((props, ref) => (
+export const Robot: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Robot.displayName = "Robot";
-
-export default Robot;

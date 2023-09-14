@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Terminal: Icon = forwardRef((props, ref) => (
+export const Terminal: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Terminal.displayName = "Terminal";
-
-export default Terminal;

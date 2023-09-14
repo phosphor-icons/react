@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SoundcloudLogo: Icon = forwardRef((props, ref) => (
+export const SoundcloudLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SoundcloudLogo.displayName = "SoundcloudLogo";
-
-export default SoundcloudLogo;

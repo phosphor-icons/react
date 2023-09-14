@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const LineSegment: Icon = forwardRef((props, ref) => (
+export const LineSegment: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 LineSegment.displayName = "LineSegment";
-
-export default LineSegment;

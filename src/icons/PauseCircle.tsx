@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PauseCircle: Icon = forwardRef((props, ref) => (
+export const PauseCircle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PauseCircle.displayName = "PauseCircle";
-
-export default PauseCircle;

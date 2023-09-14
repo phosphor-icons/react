@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Stamp: Icon = forwardRef((props, ref) => (
+export const Stamp: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Stamp.displayName = "Stamp";
-
-export default Stamp;

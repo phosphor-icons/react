@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const YinYang: Icon = forwardRef((props, ref) => (
+export const YinYang: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 YinYang.displayName = "YinYang";
-
-export default YinYang;

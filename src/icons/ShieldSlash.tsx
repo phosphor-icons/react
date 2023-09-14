@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ShieldSlash: Icon = forwardRef((props, ref) => (
+export const ShieldSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ShieldSlash.displayName = "ShieldSlash";
-
-export default ShieldSlash;

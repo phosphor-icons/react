@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WindowsLogo: Icon = forwardRef((props, ref) => (
+export const WindowsLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WindowsLogo.displayName = "WindowsLogo";
-
-export default WindowsLogo;

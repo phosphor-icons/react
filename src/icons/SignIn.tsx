@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SignIn: Icon = forwardRef((props, ref) => (
+export const SignIn: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SignIn.displayName = "SignIn";
-
-export default SignIn;

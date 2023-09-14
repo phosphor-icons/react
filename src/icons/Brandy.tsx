@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Brandy: Icon = forwardRef((props, ref) => (
+export const Brandy: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Brandy.displayName = "Brandy";
-
-export default Brandy;

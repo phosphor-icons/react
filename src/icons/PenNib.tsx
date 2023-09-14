@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PenNib: Icon = forwardRef((props, ref) => (
+export const PenNib: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PenNib.displayName = "PenNib";
-
-export default PenNib;

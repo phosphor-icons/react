@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MagicWand: Icon = forwardRef((props, ref) => (
+export const MagicWand: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MagicWand.displayName = "MagicWand";
-
-export default MagicWand;

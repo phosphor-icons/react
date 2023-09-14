@@ -46,10 +46,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Monitor: Icon = forwardRef((props, ref) => (
+export const Monitor: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Monitor.displayName = "Monitor";
-
-export default Monitor;

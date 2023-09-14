@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ChatTeardrop: Icon = forwardRef((props, ref) => (
+export const ChatTeardrop: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ChatTeardrop.displayName = "ChatTeardrop";
-
-export default ChatTeardrop;

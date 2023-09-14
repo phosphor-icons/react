@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HardDrive: Icon = forwardRef((props, ref) => (
+export const HardDrive: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HardDrive.displayName = "HardDrive";
-
-export default HardDrive;

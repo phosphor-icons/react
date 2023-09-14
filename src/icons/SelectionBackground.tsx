@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SelectionBackground: Icon = forwardRef((props, ref) => (
+export const SelectionBackground: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SelectionBackground.displayName = "SelectionBackground";
-
-export default SelectionBackground;

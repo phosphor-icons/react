@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ArrowsClockwise: Icon = forwardRef((props, ref) => (
+export const ArrowsClockwise: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ArrowsClockwise.displayName = "ArrowsClockwise";
-
-export default ArrowsClockwise;

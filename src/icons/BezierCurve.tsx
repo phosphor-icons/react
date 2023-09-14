@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BezierCurve: Icon = forwardRef((props, ref) => (
+export const BezierCurve: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BezierCurve.displayName = "BezierCurve";
-
-export default BezierCurve;

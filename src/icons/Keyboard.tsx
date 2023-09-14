@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Keyboard: Icon = forwardRef((props, ref) => (
+export const Keyboard: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Keyboard.displayName = "Keyboard";
-
-export default Keyboard;

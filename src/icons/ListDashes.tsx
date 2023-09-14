@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ListDashes: Icon = forwardRef((props, ref) => (
+export const ListDashes: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ListDashes.displayName = "ListDashes";
-
-export default ListDashes;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GasCan: Icon = forwardRef((props, ref) => (
+export const GasCan: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GasCan.displayName = "GasCan";
-
-export default GasCan;

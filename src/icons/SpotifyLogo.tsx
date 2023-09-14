@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SpotifyLogo: Icon = forwardRef((props, ref) => (
+export const SpotifyLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SpotifyLogo.displayName = "SpotifyLogo";
-
-export default SpotifyLogo;

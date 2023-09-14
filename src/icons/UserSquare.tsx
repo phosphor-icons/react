@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const UserSquare: Icon = forwardRef((props, ref) => (
+export const UserSquare: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 UserSquare.displayName = "UserSquare";
-
-export default UserSquare;

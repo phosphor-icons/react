@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const LinkedinLogo: Icon = forwardRef((props, ref) => (
+export const LinkedinLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 LinkedinLogo.displayName = "LinkedinLogo";
-
-export default LinkedinLogo;

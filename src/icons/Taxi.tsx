@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Taxi: Icon = forwardRef((props, ref) => (
+export const Taxi: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Taxi.displayName = "Taxi";
-
-export default Taxi;

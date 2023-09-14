@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TextHThree: Icon = forwardRef((props, ref) => (
+export const TextHThree: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TextHThree.displayName = "TextHThree";
-
-export default TextHThree;

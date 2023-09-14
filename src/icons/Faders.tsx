@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Faders: Icon = forwardRef((props, ref) => (
+export const Faders: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Faders.displayName = "Faders";
-
-export default Faders;

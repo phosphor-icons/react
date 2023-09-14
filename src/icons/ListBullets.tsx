@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ListBullets: Icon = forwardRef((props, ref) => (
+export const ListBullets: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ListBullets.displayName = "ListBullets";
-
-export default ListBullets;

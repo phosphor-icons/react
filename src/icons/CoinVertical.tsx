@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CoinVertical: Icon = forwardRef((props, ref) => (
+export const CoinVertical: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CoinVertical.displayName = "CoinVertical";
-
-export default CoinVertical;

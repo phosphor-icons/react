@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Pulse: Icon = forwardRef((props, ref) => (
+export const Pulse: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Pulse.displayName = "Pulse";
-
-export default Pulse;

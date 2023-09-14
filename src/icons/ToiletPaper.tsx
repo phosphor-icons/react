@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ToiletPaper: Icon = forwardRef((props, ref) => (
+export const ToiletPaper: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ToiletPaper.displayName = "ToiletPaper";
-
-export default ToiletPaper;

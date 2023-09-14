@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Bluetooth: Icon = forwardRef((props, ref) => (
+export const Bluetooth: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Bluetooth.displayName = "Bluetooth";
-
-export default Bluetooth;

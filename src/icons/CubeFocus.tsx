@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CubeFocus: Icon = forwardRef((props, ref) => (
+export const CubeFocus: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CubeFocus.displayName = "CubeFocus";
-
-export default CubeFocus;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PaperPlaneTilt: Icon = forwardRef((props, ref) => (
+export const PaperPlaneTilt: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PaperPlaneTilt.displayName = "PaperPlaneTilt";
-
-export default PaperPlaneTilt;

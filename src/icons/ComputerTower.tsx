@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ComputerTower: Icon = forwardRef((props, ref) => (
+export const ComputerTower: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ComputerTower.displayName = "ComputerTower";
-
-export default ComputerTower;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Files: Icon = forwardRef((props, ref) => (
+export const Files: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Files.displayName = "Files";
-
-export default Files;

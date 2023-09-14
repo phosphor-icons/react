@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Gauge: Icon = forwardRef((props, ref) => (
+export const Gauge: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Gauge.displayName = "Gauge";
-
-export default Gauge;

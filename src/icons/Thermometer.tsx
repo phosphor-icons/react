@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Thermometer: Icon = forwardRef((props, ref) => (
+export const Thermometer: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Thermometer.displayName = "Thermometer";
-
-export default Thermometer;

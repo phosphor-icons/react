@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const AlignLeftSimple: Icon = forwardRef((props, ref) => (
+export const AlignLeftSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 AlignLeftSimple.displayName = "AlignLeftSimple";
-
-export default AlignLeftSimple;

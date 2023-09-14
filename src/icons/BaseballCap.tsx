@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BaseballCap: Icon = forwardRef((props, ref) => (
+export const BaseballCap: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BaseballCap.displayName = "BaseballCap";
-
-export default BaseballCap;

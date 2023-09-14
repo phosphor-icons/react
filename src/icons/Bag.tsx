@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Bag: Icon = forwardRef((props, ref) => (
+export const Bag: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Bag.displayName = "Bag";
-
-export default Bag;

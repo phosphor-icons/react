@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WaveTriangle: Icon = forwardRef((props, ref) => (
+export const WaveTriangle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WaveTriangle.displayName = "WaveTriangle";
-
-export default WaveTriangle;

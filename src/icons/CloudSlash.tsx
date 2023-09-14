@@ -46,10 +46,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CloudSlash: Icon = forwardRef((props, ref) => (
+export const CloudSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CloudSlash.displayName = "CloudSlash";
-
-export default CloudSlash;

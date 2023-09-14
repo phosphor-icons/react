@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Airplay: Icon = forwardRef((props, ref) => (
+export const Airplay: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Airplay.displayName = "Airplay";
-
-export default Airplay;

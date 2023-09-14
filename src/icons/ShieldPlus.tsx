@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ShieldPlus: Icon = forwardRef((props, ref) => (
+export const ShieldPlus: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ShieldPlus.displayName = "ShieldPlus";
-
-export default ShieldPlus;

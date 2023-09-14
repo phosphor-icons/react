@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const UniteSquare: Icon = forwardRef((props, ref) => (
+export const UniteSquare: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 UniteSquare.displayName = "UniteSquare";
-
-export default UniteSquare;

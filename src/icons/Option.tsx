@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Option: Icon = forwardRef((props, ref) => (
+export const Option: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Option.displayName = "Option";
-
-export default Option;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileVideo: Icon = forwardRef((props, ref) => (
+export const FileVideo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileVideo.displayName = "FileVideo";
-
-export default FileVideo;

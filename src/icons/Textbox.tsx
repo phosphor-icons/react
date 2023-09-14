@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Textbox: Icon = forwardRef((props, ref) => (
+export const Textbox: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Textbox.displayName = "Textbox";
-
-export default Textbox;

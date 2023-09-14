@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Headlights: Icon = forwardRef((props, ref) => (
+export const Headlights: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Headlights.displayName = "Headlights";
-
-export default Headlights;

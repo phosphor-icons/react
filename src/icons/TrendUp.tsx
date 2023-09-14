@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TrendUp: Icon = forwardRef((props, ref) => (
+export const TrendUp: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TrendUp.displayName = "TrendUp";
-
-export default TrendUp;

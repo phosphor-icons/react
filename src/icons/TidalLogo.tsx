@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TidalLogo: Icon = forwardRef((props, ref) => (
+export const TidalLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TidalLogo.displayName = "TidalLogo";
-
-export default TidalLogo;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Lighthouse: Icon = forwardRef((props, ref) => (
+export const Lighthouse: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Lighthouse.displayName = "Lighthouse";
-
-export default Lighthouse;

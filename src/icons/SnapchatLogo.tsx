@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SnapchatLogo: Icon = forwardRef((props, ref) => (
+export const SnapchatLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SnapchatLogo.displayName = "SnapchatLogo";
-
-export default SnapchatLogo;

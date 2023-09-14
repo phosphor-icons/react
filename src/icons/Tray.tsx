@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Tray: Icon = forwardRef((props, ref) => (
+export const Tray: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Tray.displayName = "Tray";
-
-export default Tray;

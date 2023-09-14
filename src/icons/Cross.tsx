@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Cross: Icon = forwardRef((props, ref) => (
+export const Cross: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Cross.displayName = "Cross";
-
-export default Cross;

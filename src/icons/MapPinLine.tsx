@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MapPinLine: Icon = forwardRef((props, ref) => (
+export const MapPinLine: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MapPinLine.displayName = "MapPinLine";
-
-export default MapPinLine;

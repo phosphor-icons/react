@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Eyedropper: Icon = forwardRef((props, ref) => (
+export const Eyedropper: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Eyedropper.displayName = "Eyedropper";
-
-export default Eyedropper;

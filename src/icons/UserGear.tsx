@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const UserGear: Icon = forwardRef((props, ref) => (
+export const UserGear: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 UserGear.displayName = "UserGear";
-
-export default UserGear;

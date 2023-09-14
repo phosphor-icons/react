@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FilmStrip: Icon = forwardRef((props, ref) => (
+export const FilmStrip: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FilmStrip.displayName = "FilmStrip";
-
-export default FilmStrip;

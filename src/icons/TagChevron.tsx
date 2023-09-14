@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TagChevron: Icon = forwardRef((props, ref) => (
+export const TagChevron: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TagChevron.displayName = "TagChevron";
-
-export default TagChevron;

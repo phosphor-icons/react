@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Headset: Icon = forwardRef((props, ref) => (
+export const Headset: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Headset.displayName = "Headset";
-
-export default Headset;

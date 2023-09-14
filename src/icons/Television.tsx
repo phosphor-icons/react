@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Television: Icon = forwardRef((props, ref) => (
+export const Television: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Television.displayName = "Television";
-
-export default Television;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FlagPennant: Icon = forwardRef((props, ref) => (
+export const FlagPennant: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FlagPennant.displayName = "FlagPennant";
-
-export default FlagPennant;

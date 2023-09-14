@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BookOpenText: Icon = forwardRef((props, ref) => (
+export const BookOpenText: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BookOpenText.displayName = "BookOpenText";
-
-export default BookOpenText;

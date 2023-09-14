@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PushPinSimpleSlash: Icon = forwardRef((props, ref) => (
+export const PushPinSimpleSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PushPinSimpleSlash.displayName = "PushPinSimpleSlash";
-
-export default PushPinSimpleSlash;

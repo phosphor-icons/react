@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CopySimple: Icon = forwardRef((props, ref) => (
+export const CopySimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CopySimple.displayName = "CopySimple";
-
-export default CopySimple;

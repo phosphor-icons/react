@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TwitterLogo: Icon = forwardRef((props, ref) => (
+export const TwitterLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TwitterLogo.displayName = "TwitterLogo";
-
-export default TwitterLogo;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PatreonLogo: Icon = forwardRef((props, ref) => (
+export const PatreonLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PatreonLogo.displayName = "PatreonLogo";
-
-export default PatreonLogo;

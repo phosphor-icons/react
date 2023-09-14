@@ -44,10 +44,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Stack: Icon = forwardRef((props, ref) => (
+export const Stack: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Stack.displayName = "Stack";
-
-export default Stack;

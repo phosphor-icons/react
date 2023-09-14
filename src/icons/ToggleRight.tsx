@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ToggleRight: Icon = forwardRef((props, ref) => (
+export const ToggleRight: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ToggleRight.displayName = "ToggleRight";
-
-export default ToggleRight;

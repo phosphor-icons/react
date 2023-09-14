@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ClockCounterClockwise: Icon = forwardRef((props, ref) => (
+export const ClockCounterClockwise: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ClockCounterClockwise.displayName = "ClockCounterClockwise";
-
-export default ClockCounterClockwise;

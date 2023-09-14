@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Tipi: Icon = forwardRef((props, ref) => (
+export const Tipi: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Tipi.displayName = "Tipi";
-
-export default Tipi;

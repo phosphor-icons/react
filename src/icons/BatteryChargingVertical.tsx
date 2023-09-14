@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BatteryChargingVertical: Icon = forwardRef((props, ref) => (
+export const BatteryChargingVertical: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BatteryChargingVertical.displayName = "BatteryChargingVertical";
-
-export default BatteryChargingVertical;

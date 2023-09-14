@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SkipBackCircle: Icon = forwardRef((props, ref) => (
+export const SkipBackCircle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SkipBackCircle.displayName = "SkipBackCircle";
-
-export default SkipBackCircle;

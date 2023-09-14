@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Barricade: Icon = forwardRef((props, ref) => (
+export const Barricade: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Barricade.displayName = "Barricade";
-
-export default Barricade;

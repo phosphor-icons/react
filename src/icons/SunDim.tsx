@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SunDim: Icon = forwardRef((props, ref) => (
+export const SunDim: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SunDim.displayName = "SunDim";
-
-export default SunDim;

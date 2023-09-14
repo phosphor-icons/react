@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CaretRight: Icon = forwardRef((props, ref) => (
+export const CaretRight: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CaretRight.displayName = "CaretRight";
-
-export default CaretRight;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BoundingBox: Icon = forwardRef((props, ref) => (
+export const BoundingBox: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BoundingBox.displayName = "BoundingBox";
-
-export default BoundingBox;

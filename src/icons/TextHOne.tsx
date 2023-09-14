@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TextHOne: Icon = forwardRef((props, ref) => (
+export const TextHOne: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TextHOne.displayName = "TextHOne";
-
-export default TextHOne;

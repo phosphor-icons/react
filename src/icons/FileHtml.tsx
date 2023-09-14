@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileHtml: Icon = forwardRef((props, ref) => (
+export const FileHtml: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileHtml.displayName = "FileHtml";
-
-export default FileHtml;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TextAUnderline: Icon = forwardRef((props, ref) => (
+export const TextAUnderline: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TextAUnderline.displayName = "TextAUnderline";
-
-export default TextAUnderline;

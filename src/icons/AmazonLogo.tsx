@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const AmazonLogo: Icon = forwardRef((props, ref) => (
+export const AmazonLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 AmazonLogo.displayName = "AmazonLogo";
-
-export default AmazonLogo;

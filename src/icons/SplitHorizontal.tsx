@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SplitHorizontal: Icon = forwardRef((props, ref) => (
+export const SplitHorizontal: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SplitHorizontal.displayName = "SplitHorizontal";
-
-export default SplitHorizontal;

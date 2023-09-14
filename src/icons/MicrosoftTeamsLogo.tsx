@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MicrosoftTeamsLogo: Icon = forwardRef((props, ref) => (
+export const MicrosoftTeamsLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MicrosoftTeamsLogo.displayName = "MicrosoftTeamsLogo";
-
-export default MicrosoftTeamsLogo;

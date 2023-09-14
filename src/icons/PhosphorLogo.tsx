@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PhosphorLogo: Icon = forwardRef((props, ref) => (
+export const PhosphorLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PhosphorLogo.displayName = "PhosphorLogo";
-
-export default PhosphorLogo;

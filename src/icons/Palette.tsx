@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Palette: Icon = forwardRef((props, ref) => (
+export const Palette: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Palette.displayName = "Palette";
-
-export default Palette;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HeartStraightBreak: Icon = forwardRef((props, ref) => (
+export const HeartStraightBreak: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HeartStraightBreak.displayName = "HeartStraightBreak";
-
-export default HeartStraightBreak;

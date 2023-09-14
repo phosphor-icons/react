@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Subtract: Icon = forwardRef((props, ref) => (
+export const Subtract: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Subtract.displayName = "Subtract";
-
-export default Subtract;

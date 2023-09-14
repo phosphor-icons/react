@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TelegramLogo: Icon = forwardRef((props, ref) => (
+export const TelegramLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TelegramLogo.displayName = "TelegramLogo";
-
-export default TelegramLogo;

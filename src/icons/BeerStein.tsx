@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BeerStein: Icon = forwardRef((props, ref) => (
+export const BeerStein: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BeerStein.displayName = "BeerStein";
-
-export default BeerStein;

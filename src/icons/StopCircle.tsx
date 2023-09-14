@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const StopCircle: Icon = forwardRef((props, ref) => (
+export const StopCircle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 StopCircle.displayName = "StopCircle";
-
-export default StopCircle;

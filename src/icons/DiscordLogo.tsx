@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DiscordLogo: Icon = forwardRef((props, ref) => (
+export const DiscordLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DiscordLogo.displayName = "DiscordLogo";
-
-export default DiscordLogo;

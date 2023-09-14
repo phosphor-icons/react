@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FilePdf: Icon = forwardRef((props, ref) => (
+export const FilePdf: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FilePdf.displayName = "FilePdf";
-
-export default FilePdf;

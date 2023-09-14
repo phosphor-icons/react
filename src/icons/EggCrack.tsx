@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const EggCrack: Icon = forwardRef((props, ref) => (
+export const EggCrack: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 EggCrack.displayName = "EggCrack";
-
-export default EggCrack;

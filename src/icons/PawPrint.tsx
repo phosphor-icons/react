@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PawPrint: Icon = forwardRef((props, ref) => (
+export const PawPrint: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PawPrint.displayName = "PawPrint";
-
-export default PawPrint;

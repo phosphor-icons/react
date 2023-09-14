@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CloudSun: Icon = forwardRef((props, ref) => (
+export const CloudSun: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CloudSun.displayName = "CloudSun";
-
-export default CloudSun;

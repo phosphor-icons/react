@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BugBeetle: Icon = forwardRef((props, ref) => (
+export const BugBeetle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BugBeetle.displayName = "BugBeetle";
-
-export default BugBeetle;

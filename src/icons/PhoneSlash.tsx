@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PhoneSlash: Icon = forwardRef((props, ref) => (
+export const PhoneSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PhoneSlash.displayName = "PhoneSlash";
-
-export default PhoneSlash;

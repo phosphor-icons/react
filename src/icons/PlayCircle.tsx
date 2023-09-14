@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PlayCircle: Icon = forwardRef((props, ref) => (
+export const PlayCircle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PlayCircle.displayName = "PlayCircle";
-
-export default PlayCircle;

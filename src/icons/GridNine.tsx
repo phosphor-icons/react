@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GridNine: Icon = forwardRef((props, ref) => (
+export const GridNine: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GridNine.displayName = "GridNine";
-
-export default GridNine;

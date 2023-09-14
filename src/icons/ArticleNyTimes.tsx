@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ArticleNyTimes: Icon = forwardRef((props, ref) => (
+export const ArticleNyTimes: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ArticleNyTimes.displayName = "ArticleNyTimes";
-
-export default ArticleNyTimes;

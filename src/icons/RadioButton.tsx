@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const RadioButton: Icon = forwardRef((props, ref) => (
+export const RadioButton: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 RadioButton.displayName = "RadioButton";
-
-export default RadioButton;

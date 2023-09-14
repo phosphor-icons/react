@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Notepad: Icon = forwardRef((props, ref) => (
+export const Notepad: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Notepad.displayName = "Notepad";
-
-export default Notepad;

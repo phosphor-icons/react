@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Jeep: Icon = forwardRef((props, ref) => (
+export const Jeep: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Jeep.displayName = "Jeep";
-
-export default Jeep;

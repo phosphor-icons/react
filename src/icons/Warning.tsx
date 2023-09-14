@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Warning: Icon = forwardRef((props, ref) => (
+export const Warning: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Warning.displayName = "Warning";
-
-export default Warning;

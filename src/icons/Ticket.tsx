@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Ticket: Icon = forwardRef((props, ref) => (
+export const Ticket: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Ticket.displayName = "Ticket";
-
-export default Ticket;

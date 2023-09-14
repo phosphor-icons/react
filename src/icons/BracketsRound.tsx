@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BracketsRound: Icon = forwardRef((props, ref) => (
+export const BracketsRound: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BracketsRound.displayName = "BracketsRound";
-
-export default BracketsRound;

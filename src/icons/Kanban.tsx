@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Kanban: Icon = forwardRef((props, ref) => (
+export const Kanban: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Kanban.displayName = "Kanban";
-
-export default Kanban;

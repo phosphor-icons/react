@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SidebarSimple: Icon = forwardRef((props, ref) => (
+export const SidebarSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SidebarSimple.displayName = "SidebarSimple";
-
-export default SidebarSimple;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Shower: Icon = forwardRef((props, ref) => (
+export const Shower: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Shower.displayName = "Shower";
-
-export default Shower;

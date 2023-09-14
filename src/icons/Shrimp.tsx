@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Shrimp: Icon = forwardRef((props, ref) => (
+export const Shrimp: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Shrimp.displayName = "Shrimp";
-
-export default Shrimp;

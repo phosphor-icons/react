@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TennisBall: Icon = forwardRef((props, ref) => (
+export const TennisBall: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TennisBall.displayName = "TennisBall";
-
-export default TennisBall;

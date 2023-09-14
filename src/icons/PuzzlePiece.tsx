@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PuzzlePiece: Icon = forwardRef((props, ref) => (
+export const PuzzlePiece: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PuzzlePiece.displayName = "PuzzlePiece";
-
-export default PuzzlePiece;

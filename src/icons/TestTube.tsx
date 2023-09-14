@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TestTube: Icon = forwardRef((props, ref) => (
+export const TestTube: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TestTube.displayName = "TestTube";
-
-export default TestTube;

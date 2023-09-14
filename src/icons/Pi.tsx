@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Pi: Icon = forwardRef((props, ref) => (
+export const Pi: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Pi.displayName = "Pi";
-
-export default Pi;

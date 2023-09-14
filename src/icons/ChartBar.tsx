@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ChartBar: Icon = forwardRef((props, ref) => (
+export const ChartBar: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ChartBar.displayName = "ChartBar";
-
-export default ChartBar;

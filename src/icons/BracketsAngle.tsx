@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BracketsAngle: Icon = forwardRef((props, ref) => (
+export const BracketsAngle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BracketsAngle.displayName = "BracketsAngle";
-
-export default BracketsAngle;

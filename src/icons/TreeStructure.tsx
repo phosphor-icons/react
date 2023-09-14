@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TreeStructure: Icon = forwardRef((props, ref) => (
+export const TreeStructure: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TreeStructure.displayName = "TreeStructure";
-
-export default TreeStructure;

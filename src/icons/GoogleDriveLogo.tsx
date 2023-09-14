@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GoogleDriveLogo: Icon = forwardRef((props, ref) => (
+export const GoogleDriveLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GoogleDriveLogo.displayName = "GoogleDriveLogo";
-
-export default GoogleDriveLogo;

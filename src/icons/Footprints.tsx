@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Footprints: Icon = forwardRef((props, ref) => (
+export const Footprints: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Footprints.displayName = "Footprints";
-
-export default Footprints;

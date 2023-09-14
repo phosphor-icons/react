@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Printer: Icon = forwardRef((props, ref) => (
+export const Printer: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Printer.displayName = "Printer";
-
-export default Printer;

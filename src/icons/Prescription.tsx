@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Prescription: Icon = forwardRef((props, ref) => (
+export const Prescription: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Prescription.displayName = "Prescription";
-
-export default Prescription;

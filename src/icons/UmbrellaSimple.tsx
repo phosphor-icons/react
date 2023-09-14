@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const UmbrellaSimple: Icon = forwardRef((props, ref) => (
+export const UmbrellaSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 UmbrellaSimple.displayName = "UmbrellaSimple";
-
-export default UmbrellaSimple;

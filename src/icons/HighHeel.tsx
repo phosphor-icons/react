@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HighHeel: Icon = forwardRef((props, ref) => (
+export const HighHeel: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HighHeel.displayName = "HighHeel";
-
-export default HighHeel;

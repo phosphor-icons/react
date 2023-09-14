@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Ghost: Icon = forwardRef((props, ref) => (
+export const Ghost: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Ghost.displayName = "Ghost";
-
-export default Ghost;

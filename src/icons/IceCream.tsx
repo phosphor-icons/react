@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const IceCream: Icon = forwardRef((props, ref) => (
+export const IceCream: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 IceCream.displayName = "IceCream";
-
-export default IceCream;

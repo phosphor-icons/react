@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Flame: Icon = forwardRef((props, ref) => (
+export const Flame: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Flame.displayName = "Flame";
-
-export default Flame;

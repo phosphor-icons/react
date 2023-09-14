@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Engine: Icon = forwardRef((props, ref) => (
+export const Engine: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Engine.displayName = "Engine";
-
-export default Engine;

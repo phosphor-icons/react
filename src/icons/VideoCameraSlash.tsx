@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const VideoCameraSlash: Icon = forwardRef((props, ref) => (
+export const VideoCameraSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 VideoCameraSlash.displayName = "VideoCameraSlash";
-
-export default VideoCameraSlash;

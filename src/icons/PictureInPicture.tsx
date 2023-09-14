@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PictureInPicture: Icon = forwardRef((props, ref) => (
+export const PictureInPicture: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PictureInPicture.displayName = "PictureInPicture";
-
-export default PictureInPicture;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ChartLine: Icon = forwardRef((props, ref) => (
+export const ChartLine: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ChartLine.displayName = "ChartLine";
-
-export default ChartLine;

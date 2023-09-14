@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SmileyAngry: Icon = forwardRef((props, ref) => (
+export const SmileyAngry: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SmileyAngry.displayName = "SmileyAngry";
-
-export default SmileyAngry;

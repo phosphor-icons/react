@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GearFine: Icon = forwardRef((props, ref) => (
+export const GearFine: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GearFine.displayName = "GearFine";
-
-export default GearFine;

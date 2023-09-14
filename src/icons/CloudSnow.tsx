@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CloudSnow: Icon = forwardRef((props, ref) => (
+export const CloudSnow: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CloudSnow.displayName = "CloudSnow";
-
-export default CloudSnow;

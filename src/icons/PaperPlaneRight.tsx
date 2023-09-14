@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PaperPlaneRight: Icon = forwardRef((props, ref) => (
+export const PaperPlaneRight: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PaperPlaneRight.displayName = "PaperPlaneRight";
-
-export default PaperPlaneRight;

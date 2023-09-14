@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DownloadSimple: Icon = forwardRef((props, ref) => (
+export const DownloadSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DownloadSimple.displayName = "DownloadSimple";
-
-export default DownloadSimple;

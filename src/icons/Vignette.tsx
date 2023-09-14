@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Vignette: Icon = forwardRef((props, ref) => (
+export const Vignette: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Vignette.displayName = "Vignette";
-
-export default Vignette;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Pinwheel: Icon = forwardRef((props, ref) => (
+export const Pinwheel: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Pinwheel.displayName = "Pinwheel";
-
-export default Pinwheel;

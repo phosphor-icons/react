@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CloudMoon: Icon = forwardRef((props, ref) => (
+export const CloudMoon: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CloudMoon.displayName = "CloudMoon";
-
-export default CloudMoon;

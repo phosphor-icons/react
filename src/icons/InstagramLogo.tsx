@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const InstagramLogo: Icon = forwardRef((props, ref) => (
+export const InstagramLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 InstagramLogo.displayName = "InstagramLogo";
-
-export default InstagramLogo;

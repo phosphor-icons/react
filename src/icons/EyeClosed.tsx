@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const EyeClosed: Icon = forwardRef((props, ref) => (
+export const EyeClosed: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 EyeClosed.displayName = "EyeClosed";
-
-export default EyeClosed;

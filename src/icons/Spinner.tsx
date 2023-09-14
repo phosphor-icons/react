@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Spinner: Icon = forwardRef((props, ref) => (
+export const Spinner: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Spinner.displayName = "Spinner";
-
-export default Spinner;

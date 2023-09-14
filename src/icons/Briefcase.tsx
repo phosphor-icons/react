@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Briefcase: Icon = forwardRef((props, ref) => (
+export const Briefcase: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Briefcase.displayName = "Briefcase";
-
-export default Briefcase;

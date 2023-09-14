@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Basket: Icon = forwardRef((props, ref) => (
+export const Basket: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Basket.displayName = "Basket";
-
-export default Basket;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HandSwipeRight: Icon = forwardRef((props, ref) => (
+export const HandSwipeRight: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HandSwipeRight.displayName = "HandSwipeRight";
-
-export default HandSwipeRight;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Diamond: Icon = forwardRef((props, ref) => (
+export const Diamond: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Diamond.displayName = "Diamond";
-
-export default Diamond;

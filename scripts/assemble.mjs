@@ -136,13 +136,11 @@ ${Object.entries(icon)
 `;
 
     componentString += `
-const ${name}: Icon = forwardRef((props, ref) => (
+export const ${name}: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ${name}.displayName = "${name}";
-
-export default ${name};
 `;
     try {
       fs.writeFileSync(
@@ -183,8 +181,8 @@ export { IconContext, IconBase } from "./lib";
   for (let key in icons) {
     const name = pascalize(key);
     indexString += `\
-export { default as ${name}${
-      !!ALIASES[key] ? `, default as ${pascalize(ALIASES[key])}` : ""
+export { ${name}${
+      !!ALIASES[key] ? `, ${name} as ${pascalize(ALIASES[key])}` : ""
     } } from "./icons/${name}";
 `;
   }

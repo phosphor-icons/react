@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const YoutubeLogo: Icon = forwardRef((props, ref) => (
+export const YoutubeLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 YoutubeLogo.displayName = "YoutubeLogo";
-
-export default YoutubeLogo;

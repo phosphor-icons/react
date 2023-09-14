@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CloudRain: Icon = forwardRef((props, ref) => (
+export const CloudRain: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CloudRain.displayName = "CloudRain";
-
-export default CloudRain;

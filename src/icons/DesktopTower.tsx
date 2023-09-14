@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const DesktopTower: Icon = forwardRef((props, ref) => (
+export const DesktopTower: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 DesktopTower.displayName = "DesktopTower";
-
-export default DesktopTower;

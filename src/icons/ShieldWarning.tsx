@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ShieldWarning: Icon = forwardRef((props, ref) => (
+export const ShieldWarning: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ShieldWarning.displayName = "ShieldWarning";
-
-export default ShieldWarning;

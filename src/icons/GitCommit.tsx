@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GitCommit: Icon = forwardRef((props, ref) => (
+export const GitCommit: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GitCommit.displayName = "GitCommit";
-
-export default GitCommit;

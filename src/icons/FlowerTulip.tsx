@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FlowerTulip: Icon = forwardRef((props, ref) => (
+export const FlowerTulip: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FlowerTulip.displayName = "FlowerTulip";
-
-export default FlowerTulip;

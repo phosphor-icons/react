@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Usb: Icon = forwardRef((props, ref) => (
+export const Usb: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Usb.displayName = "Usb";
-
-export default Usb;

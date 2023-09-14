@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CarProfile: Icon = forwardRef((props, ref) => (
+export const CarProfile: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CarProfile.displayName = "CarProfile";
-
-export default CarProfile;

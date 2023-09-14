@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Wine: Icon = forwardRef((props, ref) => (
+export const Wine: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Wine.displayName = "Wine";
-
-export default Wine;

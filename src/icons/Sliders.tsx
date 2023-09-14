@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Sliders: Icon = forwardRef((props, ref) => (
+export const Sliders: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Sliders.displayName = "Sliders";
-
-export default Sliders;

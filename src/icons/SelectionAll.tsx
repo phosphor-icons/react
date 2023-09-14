@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SelectionAll: Icon = forwardRef((props, ref) => (
+export const SelectionAll: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SelectionAll.displayName = "SelectionAll";
-
-export default SelectionAll;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HandHeart: Icon = forwardRef((props, ref) => (
+export const HandHeart: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HandHeart.displayName = "HandHeart";
-
-export default HandHeart;

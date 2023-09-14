@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ArchiveBox: Icon = forwardRef((props, ref) => (
+export const ArchiveBox: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ArchiveBox.displayName = "ArchiveBox";
-
-export default ArchiveBox;

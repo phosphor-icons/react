@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GooglePhotosLogo: Icon = forwardRef((props, ref) => (
+export const GooglePhotosLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GooglePhotosLogo.displayName = "GooglePhotosLogo";
-
-export default GooglePhotosLogo;

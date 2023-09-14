@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MicrosoftPowerpointLogo: Icon = forwardRef((props, ref) => (
+export const MicrosoftPowerpointLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MicrosoftPowerpointLogo.displayName = "MicrosoftPowerpointLogo";
-
-export default MicrosoftPowerpointLogo;

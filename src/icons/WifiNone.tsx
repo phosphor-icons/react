@@ -41,10 +41,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WifiNone: Icon = forwardRef((props, ref) => (
+export const WifiNone: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WifiNone.displayName = "WifiNone";
-
-export default WifiNone;

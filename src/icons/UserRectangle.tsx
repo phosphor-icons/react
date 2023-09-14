@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const UserRectangle: Icon = forwardRef((props, ref) => (
+export const UserRectangle: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 UserRectangle.displayName = "UserRectangle";
-
-export default UserRectangle;

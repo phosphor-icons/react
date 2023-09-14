@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Repeat: Icon = forwardRef((props, ref) => (
+export const Repeat: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Repeat.displayName = "Repeat";
-
-export default Repeat;

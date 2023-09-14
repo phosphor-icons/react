@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Layout: Icon = forwardRef((props, ref) => (
+export const Layout: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Layout.displayName = "Layout";
-
-export default Layout;

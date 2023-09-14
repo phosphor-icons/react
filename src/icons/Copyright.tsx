@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Copyright: Icon = forwardRef((props, ref) => (
+export const Copyright: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Copyright.displayName = "Copyright";
-
-export default Copyright;

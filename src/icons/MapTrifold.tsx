@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MapTrifold: Icon = forwardRef((props, ref) => (
+export const MapTrifold: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MapTrifold.displayName = "MapTrifold";
-
-export default MapTrifold;

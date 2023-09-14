@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileArrowDown: Icon = forwardRef((props, ref) => (
+export const FileArrowDown: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileArrowDown.displayName = "FileArrowDown";
-
-export default FileArrowDown;

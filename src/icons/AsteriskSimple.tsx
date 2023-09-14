@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const AsteriskSimple: Icon = forwardRef((props, ref) => (
+export const AsteriskSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 AsteriskSimple.displayName = "AsteriskSimple";
-
-export default AsteriskSimple;

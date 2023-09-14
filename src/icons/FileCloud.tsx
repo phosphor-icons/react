@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileCloud: Icon = forwardRef((props, ref) => (
+export const FileCloud: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileCloud.displayName = "FileCloud";
-
-export default FileCloud;

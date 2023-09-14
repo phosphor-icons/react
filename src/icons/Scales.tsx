@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Scales: Icon = forwardRef((props, ref) => (
+export const Scales: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Scales.displayName = "Scales";
-
-export default Scales;

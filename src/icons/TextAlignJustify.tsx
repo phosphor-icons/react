@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const TextAlignJustify: Icon = forwardRef((props, ref) => (
+export const TextAlignJustify: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 TextAlignJustify.displayName = "TextAlignJustify";
-
-export default TextAlignJustify;

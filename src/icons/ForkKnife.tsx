@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ForkKnife: Icon = forwardRef((props, ref) => (
+export const ForkKnife: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ForkKnife.displayName = "ForkKnife";
-
-export default ForkKnife;

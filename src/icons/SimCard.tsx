@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SimCard: Icon = forwardRef((props, ref) => (
+export const SimCard: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SimCard.displayName = "SimCard";
-
-export default SimCard;

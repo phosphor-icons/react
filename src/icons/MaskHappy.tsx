@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MaskHappy: Icon = forwardRef((props, ref) => (
+export const MaskHappy: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MaskHappy.displayName = "MaskHappy";
-
-export default MaskHappy;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Butterfly: Icon = forwardRef((props, ref) => (
+export const Butterfly: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Butterfly.displayName = "Butterfly";
-
-export default Butterfly;

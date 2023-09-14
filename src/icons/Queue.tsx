@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Queue: Icon = forwardRef((props, ref) => (
+export const Queue: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Queue.displayName = "Queue";
-
-export default Queue;

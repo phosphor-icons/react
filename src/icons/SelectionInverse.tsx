@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SelectionInverse: Icon = forwardRef((props, ref) => (
+export const SelectionInverse: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SelectionInverse.displayName = "SelectionInverse";
-
-export default SelectionInverse;

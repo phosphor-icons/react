@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileCsv: Icon = forwardRef((props, ref) => (
+export const FileCsv: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileCsv.displayName = "FileCsv";
-
-export default FileCsv;

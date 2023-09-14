@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Eye: Icon = forwardRef((props, ref) => (
+export const Eye: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Eye.displayName = "Eye";
-
-export default Eye;

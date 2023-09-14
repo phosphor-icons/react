@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Drop: Icon = forwardRef((props, ref) => (
+export const Drop: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Drop.displayName = "Drop";
-
-export default Drop;

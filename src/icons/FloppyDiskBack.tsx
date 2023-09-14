@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FloppyDiskBack: Icon = forwardRef((props, ref) => (
+export const FloppyDiskBack: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FloppyDiskBack.displayName = "FloppyDiskBack";
-
-export default FloppyDiskBack;

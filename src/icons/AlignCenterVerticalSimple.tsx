@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const AlignCenterVerticalSimple: Icon = forwardRef((props, ref) => (
+export const AlignCenterVerticalSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 AlignCenterVerticalSimple.displayName = "AlignCenterVerticalSimple";
-
-export default AlignCenterVerticalSimple;

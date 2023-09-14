@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CloudLightning: Icon = forwardRef((props, ref) => (
+export const CloudLightning: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CloudLightning.displayName = "CloudLightning";
-
-export default CloudLightning;

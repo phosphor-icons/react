@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Virus: Icon = forwardRef((props, ref) => (
+export const Virus: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Virus.displayName = "Virus";
-
-export default Virus;

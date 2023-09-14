@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Power: Icon = forwardRef((props, ref) => (
+export const Power: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Power.displayName = "Power";
-
-export default Power;

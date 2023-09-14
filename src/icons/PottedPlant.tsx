@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PottedPlant: Icon = forwardRef((props, ref) => (
+export const PottedPlant: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PottedPlant.displayName = "PottedPlant";
-
-export default PottedPlant;

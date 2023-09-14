@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const LightningSlash: Icon = forwardRef((props, ref) => (
+export const LightningSlash: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 LightningSlash.displayName = "LightningSlash";
-
-export default LightningSlash;

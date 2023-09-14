@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GoodreadsLogo: Icon = forwardRef((props, ref) => (
+export const GoodreadsLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GoodreadsLogo.displayName = "GoodreadsLogo";
-
-export default GoodreadsLogo;

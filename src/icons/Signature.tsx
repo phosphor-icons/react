@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Signature: Icon = forwardRef((props, ref) => (
+export const Signature: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Signature.displayName = "Signature";
-
-export default Signature;

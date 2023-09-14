@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CellSignalX: Icon = forwardRef((props, ref) => (
+export const CellSignalX: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CellSignalX.displayName = "CellSignalX";
-
-export default CellSignalX;

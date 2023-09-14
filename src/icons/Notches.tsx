@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Notches: Icon = forwardRef((props, ref) => (
+export const Notches: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Notches.displayName = "Notches";
-
-export default Notches;

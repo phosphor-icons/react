@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ShootingStar: Icon = forwardRef((props, ref) => (
+export const ShootingStar: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ShootingStar.displayName = "ShootingStar";
-
-export default ShootingStar;

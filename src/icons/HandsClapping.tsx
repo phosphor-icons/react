@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HandsClapping: Icon = forwardRef((props, ref) => (
+export const HandsClapping: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HandsClapping.displayName = "HandsClapping";
-
-export default HandsClapping;

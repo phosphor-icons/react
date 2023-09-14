@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Cactus: Icon = forwardRef((props, ref) => (
+export const Cactus: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Cactus.displayName = "Cactus";
-
-export default Cactus;

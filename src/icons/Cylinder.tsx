@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Cylinder: Icon = forwardRef((props, ref) => (
+export const Cylinder: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Cylinder.displayName = "Cylinder";
-
-export default Cylinder;

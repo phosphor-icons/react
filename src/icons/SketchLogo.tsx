@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SketchLogo: Icon = forwardRef((props, ref) => (
+export const SketchLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SketchLogo.displayName = "SketchLogo";
-
-export default SketchLogo;

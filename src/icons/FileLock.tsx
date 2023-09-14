@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const FileLock: Icon = forwardRef((props, ref) => (
+export const FileLock: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 FileLock.displayName = "FileLock";
-
-export default FileLock;

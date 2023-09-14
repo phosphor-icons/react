@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Chalkboard: Icon = forwardRef((props, ref) => (
+export const Chalkboard: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Chalkboard.displayName = "Chalkboard";
-
-export default Chalkboard;

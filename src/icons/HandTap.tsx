@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HandTap: Icon = forwardRef((props, ref) => (
+export const HandTap: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HandTap.displayName = "HandTap";
-
-export default HandTap;

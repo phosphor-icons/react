@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const GlobeHemisphereWest: Icon = forwardRef((props, ref) => (
+export const GlobeHemisphereWest: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 GlobeHemisphereWest.displayName = "GlobeHemisphereWest";
-
-export default GlobeHemisphereWest;

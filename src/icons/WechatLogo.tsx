@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const WechatLogo: Icon = forwardRef((props, ref) => (
+export const WechatLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 WechatLogo.displayName = "WechatLogo";
-
-export default WechatLogo;

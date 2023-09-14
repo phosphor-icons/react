@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Alarm: Icon = forwardRef((props, ref) => (
+export const Alarm: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Alarm.displayName = "Alarm";
-
-export default Alarm;

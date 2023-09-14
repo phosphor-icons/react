@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Cursor: Icon = forwardRef((props, ref) => (
+export const Cursor: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Cursor.displayName = "Cursor";
-
-export default Cursor;

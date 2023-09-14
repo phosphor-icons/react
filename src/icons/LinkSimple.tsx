@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const LinkSimple: Icon = forwardRef((props, ref) => (
+export const LinkSimple: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 LinkSimple.displayName = "LinkSimple";
-
-export default LinkSimple;

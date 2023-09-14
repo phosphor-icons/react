@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MediumLogo: Icon = forwardRef((props, ref) => (
+export const MediumLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MediumLogo.displayName = "MediumLogo";
-
-export default MediumLogo;

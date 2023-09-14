@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Signpost: Icon = forwardRef((props, ref) => (
+export const Signpost: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Signpost.displayName = "Signpost";
-
-export default Signpost;

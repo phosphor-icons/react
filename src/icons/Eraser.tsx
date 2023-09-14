@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Eraser: Icon = forwardRef((props, ref) => (
+export const Eraser: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Eraser.displayName = "Eraser";
-
-export default Eraser;

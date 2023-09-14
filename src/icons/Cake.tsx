@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Cake: Icon = forwardRef((props, ref) => (
+export const Cake: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Cake.displayName = "Cake";
-
-export default Cake;

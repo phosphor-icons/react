@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const HandWaving: Icon = forwardRef((props, ref) => (
+export const HandWaving: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 HandWaving.displayName = "HandWaving";
-
-export default HandWaving;

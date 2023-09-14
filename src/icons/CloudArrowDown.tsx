@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const CloudArrowDown: Icon = forwardRef((props, ref) => (
+export const CloudArrowDown: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 CloudArrowDown.displayName = "CloudArrowDown";
-
-export default CloudArrowDown;

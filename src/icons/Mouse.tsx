@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Mouse: Icon = forwardRef((props, ref) => (
+export const Mouse: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Mouse.displayName = "Mouse";
-
-export default Mouse;

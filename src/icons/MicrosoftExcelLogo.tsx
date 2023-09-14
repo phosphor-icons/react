@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const MicrosoftExcelLogo: Icon = forwardRef((props, ref) => (
+export const MicrosoftExcelLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 MicrosoftExcelLogo.displayName = "MicrosoftExcelLogo";
-
-export default MicrosoftExcelLogo;

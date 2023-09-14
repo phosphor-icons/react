@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Handshake: Icon = forwardRef((props, ref) => (
+export const Handshake: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Handshake.displayName = "Handshake";
-
-export default Handshake;

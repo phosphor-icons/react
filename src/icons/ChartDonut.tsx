@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ChartDonut: Icon = forwardRef((props, ref) => (
+export const ChartDonut: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ChartDonut.displayName = "ChartDonut";
-
-export default ChartDonut;

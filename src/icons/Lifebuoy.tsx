@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Lifebuoy: Icon = forwardRef((props, ref) => (
+export const Lifebuoy: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Lifebuoy.displayName = "Lifebuoy";
-
-export default Lifebuoy;

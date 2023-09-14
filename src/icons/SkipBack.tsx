@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const SkipBack: Icon = forwardRef((props, ref) => (
+export const SkipBack: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 SkipBack.displayName = "SkipBack";
-
-export default SkipBack;

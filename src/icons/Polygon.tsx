@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Polygon: Icon = forwardRef((props, ref) => (
+export const Polygon: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Polygon.displayName = "Polygon";
-
-export default Polygon;

@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ClosedCaptioning: Icon = forwardRef((props, ref) => (
+export const ClosedCaptioning: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ClosedCaptioning.displayName = "ClosedCaptioning";
-
-export default ClosedCaptioning;

@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const Notebook: Icon = forwardRef((props, ref) => (
+export const Notebook: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 Notebook.displayName = "Notebook";
-
-export default Notebook;

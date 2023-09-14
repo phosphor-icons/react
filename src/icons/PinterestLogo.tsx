@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const PinterestLogo: Icon = forwardRef((props, ref) => (
+export const PinterestLogo: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 PinterestLogo.displayName = "PinterestLogo";
-
-export default PinterestLogo;

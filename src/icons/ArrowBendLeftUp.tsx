@@ -42,10 +42,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const ArrowBendLeftUp: Icon = forwardRef((props, ref) => (
+export const ArrowBendLeftUp: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ArrowBendLeftUp.displayName = "ArrowBendLeftUp";
-
-export default ArrowBendLeftUp;

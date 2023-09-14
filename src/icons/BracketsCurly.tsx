@@ -45,10 +45,8 @@ const weights = new Map<IconWeight, ReactElement>([
   ],
 ]);
 
-const BracketsCurly: Icon = forwardRef((props, ref) => (
+export const BracketsCurly: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 BracketsCurly.displayName = "BracketsCurly";
-
-export default BracketsCurly;
