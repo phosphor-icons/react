@@ -1,6 +1,6 @@
 {
   "name": "@phosphor-icons/react",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "A clean and friendly icon family for React",
   "author": {
     "name": "Tobias Fried",
@@ -22,19 +22,34 @@
       "types": "./dist/index.d.ts"
     },
     "./dist/icons/*": {
-      "import": "./dist/icons/*.mjs",
+      "import": "./dist/csr/*.mjs",
       "require": "./dist/index.cjs",
-      "types": "./dist/icons/*.d.ts"
+      "types": "./dist/csr/*.d.ts"
+    },
+    "./dist/csr/*": {
+      "import": "./dist/csr/*.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/csr/*.d.ts"
     },
     "./dist/lib/*": {
       "import": "./dist/lib/*.mjs",
       "require": "./dist/index.cjs",
       "types": "./dist/lib/*.d.ts"
     },
-    "./*": {
-      "import": "./dist/icons/*.mjs",
+    "./dist/ssr": {
+      "import": "./dist/ssr/index.mjs",
       "require": "./dist/index.cjs",
-      "types": "./dist/icons/*.d.ts"
+      "types": "./dist/ssr/*.d.ts"
+    },
+    "./dist/ssr/*": {
+      "import": "./dist/ssr/*.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/ssr/*.d.ts"
+    },
+    "./*": {
+      "import": "./dist/csr/*.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/csr/*.d.ts"
     }
   },
   "types": "./dist/index.d.ts",
