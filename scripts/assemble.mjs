@@ -4,7 +4,13 @@ import path from "node:path";
 import chalk from "chalk";
 import { exec } from "node:child_process";
 
-import { ASSETS_PATH, COMPONENTS_PATH, INDEX_PATH } from "./index.mjs";
+import {
+  ASSETS_PATH,
+  CSR_PATH,
+  SSR_PATH,
+  DEFS_PATH,
+  INDEX_PATH,
+} from "./index.mjs";
 import { ALIASES } from "../core/bin/index.js";
 
 const icons = {};
@@ -103,10 +109,15 @@ function generateComponents() {
   let passes = 0;
   let fails = 0;
 
-  if (fs.existsSync(COMPONENTS_PATH)) {
-    fs.rmSync(COMPONENTS_PATH, { recursive: true });
+  if (fs.existsSync(CSR_PATH)) {
+    fs.rmSync(CSR_PATH, { recursive: true });
   }
-  fs.mkdirSync(COMPONENTS_PATH);
+  fs.mkdirSync(CSR_PATH);
+
+  if (fs.existsSync(SSR_PATH)) {
+    fs.rmSync(SSR_PATH, { recursive: true });
+  }
+  fs.mkdirSync(SSR_PATH);
 
   for (let key in icons) {
     const icon = icons[key];
@@ -123,33 +134,56 @@ function generateComponents() {
       continue;
     }
 
-    let componentString = `\
+    let defString = `\
 /* GENERATED FILE */
-import { forwardRef, ReactElement } from "react";
-import { IconWeight, Icon, IconBase } from "../lib";
+import { ReactElement } from "react";
+import { IconWeight } from "../lib";
 
-const weights = new Map<IconWeight, ReactElement>([
+export default new Map<IconWeight, ReactElement>([
 ${Object.entries(icon)
   .map(([weight, path]) => `["${weight}", <>${path.trim()}</>]`)
   .join(",")}
 ]);
 `;
 
-    componentString += `
+    let csrString = `
+/* GENERATED FILE */
+import { forwardRef } from "react";
+import type { Icon } from "../lib/types";
+import IconBase from "../lib/IconBase";
+import weights from "../defs/${name}";
+
 export const ${name}: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
 ${name}.displayName = "${name}";
 `;
+
+    let ssrString = `
+/* GENERATED FILE */
+import { forwardRef } from "react";
+import type { Icon } from "../lib/types";
+import SSRBase from "../lib/SSRBase";
+import weights from "../defs/${name}";
+
+export const ${name}: Icon = forwardRef((props, ref) => (
+  <SSRBase ref={ref} {...props} weights={weights} />
+));
+
+${name}.displayName = "${name}";
+`;
+
     try {
-      fs.writeFileSync(
-        path.join(COMPONENTS_PATH, `${name}.tsx`),
-        componentString,
-        {
-          flag: "w",
-        }
-      );
+      fs.writeFileSync(path.join(CSR_PATH, `${name}.tsx`), csrString, {
+        flag: "w",
+      });
+      fs.writeFileSync(path.join(SSR_PATH, `${name}.tsx`), ssrString, {
+        flag: "w",
+      });
+      fs.writeFileSync(path.join(DEFS_PATH, `${name}.tsx`), defString, {
+        flag: "w",
+      });
       console.log(`${chalk.inverse.green(" DONE ")} ${name}`);
       passes += 1;
     } catch (err) {
@@ -172,22 +206,34 @@ ${name}.displayName = "${name}";
 }
 
 function generateExports() {
-  let indexString = `\
+  let csrIndex = `\
 /* GENERATED FILE */
 export type { Icon, IconProps, IconWeight } from "./lib";
 export { IconContext, IconBase } from "./lib";
 
 `;
+
+  let ssrIndex = `\
+ /* GENERATED FILE */
+ `;
   for (let key in icons) {
     const name = pascalize(key);
-    indexString += `\
+    csrIndex += `\
 export { ${name}${
       !!ALIASES[key] ? `, ${name} as ${pascalize(ALIASES[key])}` : ""
-    } } from "./icons/${name}";
+    } } from "./csr/${name}";
+`;
+    ssrIndex += `\
+export { ${name}${
+      !!ALIASES[key] ? `, ${name} as ${pascalize(ALIASES[key])}` : ""
+    } } from "./${name}";
 `;
   }
   try {
-    fs.writeFileSync(INDEX_PATH, indexString, {
+    fs.writeFileSync(INDEX_PATH, csrIndex, {
+      flag: "w",
+    });
+    fs.writeFileSync(path.join(SSR_PATH, "index.ts"), ssrIndex, {
       flag: "w",
     });
     console.log(chalk.green("Export success"));
