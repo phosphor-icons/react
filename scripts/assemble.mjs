@@ -91,13 +91,13 @@ function loadWeights() {
   });
 }
 
-function checkFiles(icon) {
-  const weightsPresent = Object.keys(icon);
-  return (
-    weightsPresent.length === 6 &&
-    weightsPresent.every((w) => weights.includes(w))
-  );
-}
+// function checkFiles(icon) {
+//   const weightsPresent = Object.keys(icon);
+//   return (
+//     weightsPresent.length === 6 &&
+//     weightsPresent.every((w) => weights.includes(w))
+//   );
+// }
 
 function generateComponents() {
   let passes = 0;
