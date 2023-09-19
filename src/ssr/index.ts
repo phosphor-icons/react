@@ -1,4 +1,6 @@
 /* GENERATED FILE */
+export { default as SSRBase } from "../lib/SSRBase";
+
 export { AddressBook } from "./AddressBook";
 export { AirTrafficControl } from "./AirTrafficControl";
 export { Airplane } from "./Airplane";

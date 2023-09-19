@@ -1,7 +1,6 @@
 /* GENERATED FILE */
 export type { Icon, IconProps, IconWeight } from "./lib";
-export { IconContext, IconBase, SSRBase } from "./lib";
-export * as SSR from "./ssr";
+export { IconContext, IconBase } from "./lib";
 
 export { AddressBook } from "./csr/AddressBook";
 export { AirTrafficControl } from "./csr/AirTrafficControl";

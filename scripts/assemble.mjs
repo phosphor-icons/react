@@ -209,13 +209,15 @@ function generateExports() {
   let csrIndex = `\
 /* GENERATED FILE */
 export type { Icon, IconProps, IconWeight } from "./lib";
-export { IconContext, IconBase, SSRBase } from "./lib";
+export { IconContext, IconBase } from "./lib";
 
 `;
 
   let ssrIndex = `\
  /* GENERATED FILE */
- `;
+export { default as SSRBase } from "../lib/SSRBase";
+
+`;
   for (let key in icons) {
     const name = pascalize(key);
     csrIndex += `\
