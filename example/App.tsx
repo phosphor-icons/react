@@ -4,6 +4,7 @@ import * as Icons from "../dist";
 import { IconContext } from "../dist";
 import type { IconWeight, Icon } from "../dist";
 import { icons } from "../core/src/icons";
+import { CustomIcon } from "./CustomIcon";
 import "./index.css";
 
 const pascalNames = new Set(icons.map((entry) => entry.pascal_name));
@@ -66,6 +67,9 @@ const App = () => {
         </p>
         <div>
           <Icons.SpinnerGap className="loader" size={32} />
+        </div>
+        <div>
+          <CustomIcon size={32} weight="fill" color="darkorange" />
         </div>
         <Icons.Cube
           style={{ cursor: "pointer" }}
