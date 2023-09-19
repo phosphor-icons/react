@@ -16,13 +16,7 @@ Phosphor is a flexible icon family for interfaces, diagrams, presentations — w
 ## Installation
 
 ```bash
-yarn add @phosphor-icons/react
-```
-
-or
-
-```bash
-npm install --save @phosphor-icons/react
+npm i @phosphor-icons/react
 ```
 
 ## Usage
@@ -42,6 +36,20 @@ const App = () => {
   );
 };
 ```
+
+### React Server Components and SSR
+
+When using Phosphor Icons in a SSR environment, within a React Server Component, or in any environment which does not permit use of the Context API ([Next.js](https://nextjs.org/) Server Component, for example), import icons from the `/dist/ssr` submodule:
+
+```tsx
+import { Fish } from "@phosphor-icons/react/dist/ssr";
+
+const MyServerComponent = () => {
+  return <Fish weight="duotone" />;
+};
+```
+
+> **Note**: These variants do not use React Context, and thus cannot inherit styles from an ancestor `IconContext`.
 
 ### Props
 
@@ -83,6 +91,8 @@ const App = () => {
 You may create multiple Contexts for styling icons differently in separate regions of an application; icons use the nearest Context above them to determine their style.
 
 > **Note:** The context will also pass any provided SVG props down to icon instances, which can be useful E.G. in adding accessible `aria-label`s, `classNames`, etc.
+
+> **Note**: React Context is not available in some envrionments. See [React Server Components and SSR](#react-server-components-and-ssr) for details.
 
 ### Composability
 
@@ -130,6 +140,8 @@ import * as Icon from "@phosphor-icons/react";
 <Icon.BatteryHalf size="24px" />
 ```
 
+For information on using Phosphor Icons in Server Components, see See [React Server Components and SSR](#react-server-components-and-ssr).
+
 ### Custom Icons
 
 It is possible to extend Phosphor with your own custom icons, taking advantage of the styling and context abstractions used in our library. To create a custom icon, first design your icons on a 256x256 pixel grid, and export them as SVG. For best results, flatten the icon so that you only export assets with `path` elements. Strip any `fill` or `stroke` attributes, as these will be inherited from the wrapper.
@@ -165,6 +177,8 @@ export default CustomIcon;
 ```
 
 > **NOTE:** If you have multiple child elements, wrap them in a `Fragment`. Typically our `duotone` icons have multiple elements, with the background layer at 20% opacity.
+
+If Custom Icons are intended to be used in [React Server Components](#react-server-components-and-ssr), use `<SSRBase />` instead of `<IconBase />` as the render component.
 
 ## Our Related Projects
 
