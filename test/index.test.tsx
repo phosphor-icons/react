@@ -3,7 +3,7 @@ import { describe, it, expect } from "vitest";
 import { render, getByTestId } from "@testing-library/react";
 
 import * as Icons from "../src";
-import { Icon, IconBase, IconWeight } from "../src/lib";
+import { Icon, IconBase, SSRBase, IconWeight } from "../src/lib";
 
 const aliases = new Set([
   "FileDotted",
@@ -19,7 +19,8 @@ const aliases = new Set([
 ]);
 
 const isIcon = (candidate: any): candidate is Icon =>
-  "displayName" in candidate && candidate.displayName !== "IconBase";
+  "displayName" in candidate &&
+  !["IconBase", "SSRBase"].includes(candidate.displayName);
 
 const allIcons = Object.entries(Icons).filter(
   ([name, module]) => !aliases.has(name) && isIcon(module)
@@ -159,6 +160,41 @@ describe("Custom icons can be rendered", () => {
   });
   it("Custom icon [duotone] renders", () => {
     const result = render(<CustomIcon weight="duotone" data-testid="test" />);
+    expect(getByTestId(result.container, "test")).toBeTruthy();
+  });
+
+  const CustomSSRIcon: Icon = forwardRef((props, ref) => (
+    <SSRBase ref={ref} {...props} weights={weights} />
+  ));
+
+  CustomSSRIcon.displayName = "CustomSSRIcon";
+
+  it("Custom SSR icon [thin] renders", () => {
+    const result = render(<CustomSSRIcon weight="thin" data-testid="test" />);
+    expect(getByTestId(result.container, "test")).toBeTruthy();
+  });
+  it("Custom SSR icon [light] renders", () => {
+    const result = render(<CustomSSRIcon weight="light" data-testid="test" />);
+    expect(getByTestId(result.container, "test")).toBeTruthy();
+  });
+  it("Custom SSR icon [regular] renders", () => {
+    const result = render(
+      <CustomSSRIcon weight="regular" data-testid="test" />
+    );
+    expect(getByTestId(result.container, "test")).toBeTruthy();
+  });
+  it("Custom SSR icon [bold] renders", () => {
+    const result = render(<CustomSSRIcon weight="bold" data-testid="test" />);
+    expect(getByTestId(result.container, "test")).toBeTruthy();
+  });
+  it("Custom SSR icon [fill] renders", () => {
+    const result = render(<CustomSSRIcon weight="fill" data-testid="test" />);
+    expect(getByTestId(result.container, "test")).toBeTruthy();
+  });
+  it("Custom SSR icon [duotone] renders", () => {
+    const result = render(
+      <CustomSSRIcon weight="duotone" data-testid="test" />
+    );
     expect(getByTestId(result.container, "test")).toBeTruthy();
   });
 });
