@@ -9,7 +9,7 @@ const SSRBase = forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
   const {
     alt,
     color = "currentColor",
-    size,
+    size = "1em",
     weight = "regular",
     mirrored = false,
     children,
