@@ -59,7 +59,7 @@ feat: Add new react icon (#123)
 
 When your contributions are prepared, adhere to the ensuing steps for Pull Request submission:
 
-1. Ensure your branch is synchronized with the latest changes from the `main` branch.
+1. Ensure your branch is synchronized with the latest changes from the `master` branch.
 2. Commit and push your alterations to your fork of the repository.
 
 ## Code Review 👁️
