@@ -55,3 +55,18 @@ feat: Add new react icon (#123)
 
 ### Coding Standards 💻
 
+## Submitting a Pull Request 🚀
+
+When your contributions are prepared, adhere to the ensuing steps for Pull Request submission:
+
+1. Ensure your branch is synchronized with the latest changes from the `main` branch.
+2. Commit and push your alterations to your fork of the repository.
+
+## Code Review 👁️
+
+Subsequent to the submission of your Pull Request, anticipate a thorough review process by the project maintainers and collaborators. Your cooperation in addressing feedback and making necessary adjustments is greatly appreciated. 
+
+We eagerly await your valuable contributions to the @phosphor-icons/react project! 🌟
+
+
+
