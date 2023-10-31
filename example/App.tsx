@@ -5,6 +5,7 @@ import { IconContext } from "../dist";
 import type { IconWeight, Icon } from "../dist";
 import { icons } from "../core/src/icons";
 import { CustomIcon } from "./CustomIcon";
+import { At } from "../dist/ssr";
 import "./index.css";
 
 const pascalNames = new Set(icons.map((entry) => entry.pascal_name));
@@ -70,6 +71,11 @@ const App = () => {
         </div>
         <div>
           <CustomIcon size={32} weight="fill" color="darkorange" />
+        </div>
+        <div>
+          <At />
+          <At color="crimson" size={48} />
+          <At color="teal" size={48} weight="fill" />
         </div>
         <Icons.Cube
           style={{ cursor: "pointer" }}
