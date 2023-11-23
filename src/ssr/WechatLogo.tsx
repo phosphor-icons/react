@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/WechatLogo";
 
-export const WechatLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-WechatLogo.displayName = "WechatLogo";
+I.displayName = "WechatLogo";
+export { I as WechatLogo };

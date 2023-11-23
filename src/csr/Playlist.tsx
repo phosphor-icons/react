@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Playlist";
 
-export const Playlist: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Playlist.displayName = "Playlist";
+I.displayName = "Playlist";
+export { I as Playlist };

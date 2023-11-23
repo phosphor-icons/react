@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Basketball";
 
-export const Basketball: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Basketball.displayName = "Basketball";
+I.displayName = "Basketball";
+export { I as Basketball };

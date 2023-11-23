@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SignOut";
 
-export const SignOut: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-SignOut.displayName = "SignOut";
+I.displayName = "SignOut";
+export { I as SignOut };

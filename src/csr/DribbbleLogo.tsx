@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/DribbbleLogo";
 
-export const DribbbleLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-DribbbleLogo.displayName = "DribbbleLogo";
+I.displayName = "DribbbleLogo";
+export { I as DribbbleLogo };

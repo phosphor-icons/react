@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PencilSlash";
 
-export const PencilSlash: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-PencilSlash.displayName = "PencilSlash";
+I.displayName = "PencilSlash";
+export { I as PencilSlash };

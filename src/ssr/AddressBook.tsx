@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/AddressBook";
 
-export const AddressBook: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-AddressBook.displayName = "AddressBook";
+I.displayName = "AddressBook";
+export { I as AddressBook };

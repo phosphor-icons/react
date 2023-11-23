@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/LinkSimpleHorizontal";
 
-export const LinkSimpleHorizontal: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-LinkSimpleHorizontal.displayName = "LinkSimpleHorizontal";
+I.displayName = "LinkSimpleHorizontal";
+export { I as LinkSimpleHorizontal };

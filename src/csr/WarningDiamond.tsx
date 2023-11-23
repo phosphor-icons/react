@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/WarningDiamond";
 
-export const WarningDiamond: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-WarningDiamond.displayName = "WarningDiamond";
+I.displayName = "WarningDiamond";
+export { I as WarningDiamond };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BatteryCharging";
 
-export const BatteryCharging: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-BatteryCharging.displayName = "BatteryCharging";
+I.displayName = "BatteryCharging";
+export { I as BatteryCharging };

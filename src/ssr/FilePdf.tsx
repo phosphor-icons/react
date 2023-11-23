@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FilePdf";
 
-export const FilePdf: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-FilePdf.displayName = "FilePdf";
+I.displayName = "FilePdf";
+export { I as FilePdf };

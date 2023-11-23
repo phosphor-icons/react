@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ShoppingBagOpen";
 
-export const ShoppingBagOpen: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-ShoppingBagOpen.displayName = "ShoppingBagOpen";
+I.displayName = "ShoppingBagOpen";
+export { I as ShoppingBagOpen };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Suitcase";
 
-export const Suitcase: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Suitcase.displayName = "Suitcase";
+I.displayName = "Suitcase";
+export { I as Suitcase };

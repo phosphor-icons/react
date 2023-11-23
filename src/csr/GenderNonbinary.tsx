@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GenderNonbinary";
 
-export const GenderNonbinary: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-GenderNonbinary.displayName = "GenderNonbinary";
+I.displayName = "GenderNonbinary";
+export { I as GenderNonbinary };

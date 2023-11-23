@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/VinylRecord";
 
-export const VinylRecord: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-VinylRecord.displayName = "VinylRecord";
+I.displayName = "VinylRecord";
+export { I as VinylRecord };

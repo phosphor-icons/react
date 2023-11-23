@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/EjectSimple";
 
-export const EjectSimple: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-EjectSimple.displayName = "EjectSimple";
+I.displayName = "EjectSimple";
+export { I as EjectSimple };

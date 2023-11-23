@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CaretRight";
 
-export const CaretRight: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-CaretRight.displayName = "CaretRight";
+I.displayName = "CaretRight";
+export { I as CaretRight };

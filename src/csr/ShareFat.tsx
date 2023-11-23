@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ShareFat";
 
-export const ShareFat: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-ShareFat.displayName = "ShareFat";
+I.displayName = "ShareFat";
+export { I as ShareFat };

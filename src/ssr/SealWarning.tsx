@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SealWarning";
 
-export const SealWarning: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-SealWarning.displayName = "SealWarning";
+I.displayName = "SealWarning";
+export { I as SealWarning, I as CircleWavyWarning };

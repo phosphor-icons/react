@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GenderTransgender";
 
-export const GenderTransgender: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-GenderTransgender.displayName = "GenderTransgender";
+I.displayName = "GenderTransgender";
+export { I as GenderTransgender };

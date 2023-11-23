@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FilmStrip";
 
-export const FilmStrip: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-FilmStrip.displayName = "FilmStrip";
+I.displayName = "FilmStrip";
+export { I as FilmStrip };

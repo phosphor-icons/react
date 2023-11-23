@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowCircleLeft";
 
-export const ArrowCircleLeft: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-ArrowCircleLeft.displayName = "ArrowCircleLeft";
+I.displayName = "ArrowCircleLeft";
+export { I as ArrowCircleLeft };

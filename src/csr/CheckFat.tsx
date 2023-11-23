@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CheckFat";
 
-export const CheckFat: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-CheckFat.displayName = "CheckFat";
+I.displayName = "CheckFat";
+export { I as CheckFat };

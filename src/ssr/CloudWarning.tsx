@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CloudWarning";
 
-export const CloudWarning: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-CloudWarning.displayName = "CloudWarning";
+I.displayName = "CloudWarning";
+export { I as CloudWarning };

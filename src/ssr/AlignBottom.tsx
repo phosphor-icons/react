@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/AlignBottom";
 
-export const AlignBottom: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-AlignBottom.displayName = "AlignBottom";
+I.displayName = "AlignBottom";
+export { I as AlignBottom };

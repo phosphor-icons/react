@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TelegramLogo";
 
-export const TelegramLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-TelegramLogo.displayName = "TelegramLogo";
+I.displayName = "TelegramLogo";
+export { I as TelegramLogo };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Heartbeat";
 
-export const Heartbeat: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Heartbeat.displayName = "Heartbeat";
+I.displayName = "Heartbeat";
+export { I as Heartbeat };

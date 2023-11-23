@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SealQuestion";
 
-export const SealQuestion: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-SealQuestion.displayName = "SealQuestion";
+I.displayName = "SealQuestion";
+export { I as SealQuestion, I as CircleWavyQuestion };

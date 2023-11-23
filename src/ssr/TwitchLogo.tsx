@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TwitchLogo";
 
-export const TwitchLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-TwitchLogo.displayName = "TwitchLogo";
+I.displayName = "TwitchLogo";
+export { I as TwitchLogo };

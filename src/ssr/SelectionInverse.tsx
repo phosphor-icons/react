@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SelectionInverse";
 
-export const SelectionInverse: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-SelectionInverse.displayName = "SelectionInverse";
+I.displayName = "SelectionInverse";
+export { I as SelectionInverse };

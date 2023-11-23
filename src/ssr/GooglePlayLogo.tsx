@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GooglePlayLogo";
 
-export const GooglePlayLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-GooglePlayLogo.displayName = "GooglePlayLogo";
+I.displayName = "GooglePlayLogo";
+export { I as GooglePlayLogo };

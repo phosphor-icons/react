@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChatCenteredText";
 
-export const ChatCenteredText: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-ChatCenteredText.displayName = "ChatCenteredText";
+I.displayName = "ChatCenteredText";
+export { I as ChatCenteredText };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FolderPlus";
 
-export const FolderPlus: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-FolderPlus.displayName = "FolderPlus";
+I.displayName = "FolderPlus";
+export { I as FolderPlus };

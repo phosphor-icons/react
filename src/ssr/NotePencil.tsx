@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/NotePencil";
 
-export const NotePencil: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-NotePencil.displayName = "NotePencil";
+I.displayName = "NotePencil";
+export { I as NotePencil };

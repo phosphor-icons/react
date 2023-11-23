@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MicrosoftPowerpointLogo";
 
-export const MicrosoftPowerpointLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-MicrosoftPowerpointLogo.displayName = "MicrosoftPowerpointLogo";
+I.displayName = "MicrosoftPowerpointLogo";
+export { I as MicrosoftPowerpointLogo };

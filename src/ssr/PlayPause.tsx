@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PlayPause";
 
-export const PlayPause: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-PlayPause.displayName = "PlayPause";
+I.displayName = "PlayPause";
+export { I as PlayPause };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CloudLightning";
 
-export const CloudLightning: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-CloudLightning.displayName = "CloudLightning";
+I.displayName = "CloudLightning";
+export { I as CloudLightning };

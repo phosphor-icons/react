@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CodesandboxLogo";
 
-export const CodesandboxLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-CodesandboxLogo.displayName = "CodesandboxLogo";
+I.displayName = "CodesandboxLogo";
+export { I as CodesandboxLogo };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Popcorn";
 
-export const Popcorn: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-Popcorn.displayName = "Popcorn";
+I.displayName = "Popcorn";
+export { I as Popcorn };

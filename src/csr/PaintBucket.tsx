@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PaintBucket";
 
-export const PaintBucket: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-PaintBucket.displayName = "PaintBucket";
+I.displayName = "PaintBucket";
+export { I as PaintBucket };

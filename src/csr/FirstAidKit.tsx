@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FirstAidKit";
 
-export const FirstAidKit: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-FirstAidKit.displayName = "FirstAidKit";
+I.displayName = "FirstAidKit";
+export { I as FirstAidKit };

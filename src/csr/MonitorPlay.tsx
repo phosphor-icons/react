@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MonitorPlay";
 
-export const MonitorPlay: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-MonitorPlay.displayName = "MonitorPlay";
+I.displayName = "MonitorPlay";
+export { I as MonitorPlay };

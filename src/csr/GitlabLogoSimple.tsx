@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GitlabLogoSimple";
 
-export const GitlabLogoSimple: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-GitlabLogoSimple.displayName = "GitlabLogoSimple";
+I.displayName = "GitlabLogoSimple";
+export { I as GitlabLogoSimple };

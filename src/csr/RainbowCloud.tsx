@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/RainbowCloud";
 
-export const RainbowCloud: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-RainbowCloud.displayName = "RainbowCloud";
+I.displayName = "RainbowCloud";
+export { I as RainbowCloud };

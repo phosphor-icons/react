@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CaretDoubleLeft";
 
-export const CaretDoubleLeft: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-CaretDoubleLeft.displayName = "CaretDoubleLeft";
+I.displayName = "CaretDoubleLeft";
+export { I as CaretDoubleLeft };

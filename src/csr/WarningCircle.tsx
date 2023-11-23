@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/WarningCircle";
 
-export const WarningCircle: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-WarningCircle.displayName = "WarningCircle";
+I.displayName = "WarningCircle";
+export { I as WarningCircle };

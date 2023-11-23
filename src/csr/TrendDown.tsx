@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TrendDown";
 
-export const TrendDown: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-TrendDown.displayName = "TrendDown";
+I.displayName = "TrendDown";
+export { I as TrendDown };

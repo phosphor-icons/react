@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CalendarPlus";
 
-export const CalendarPlus: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-CalendarPlus.displayName = "CalendarPlus";
+I.displayName = "CalendarPlus";
+export { I as CalendarPlus };

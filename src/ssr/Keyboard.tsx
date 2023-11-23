@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Keyboard";
 
-export const Keyboard: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-Keyboard.displayName = "Keyboard";
+I.displayName = "Keyboard";
+export { I as Keyboard };

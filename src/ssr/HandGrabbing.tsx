@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HandGrabbing";
 
-export const HandGrabbing: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-HandGrabbing.displayName = "HandGrabbing";
+I.displayName = "HandGrabbing";
+export { I as HandGrabbing };

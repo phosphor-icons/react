@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FileCsv";
 
-export const FileCsv: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-FileCsv.displayName = "FileCsv";
+I.displayName = "FileCsv";
+export { I as FileCsv };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/LockSimpleOpen";
 
-export const LockSimpleOpen: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-LockSimpleOpen.displayName = "LockSimpleOpen";
+I.displayName = "LockSimpleOpen";
+export { I as LockSimpleOpen };

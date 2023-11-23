@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GoogleChromeLogo";
 
-export const GoogleChromeLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-GoogleChromeLogo.displayName = "GoogleChromeLogo";
+I.displayName = "GoogleChromeLogo";
+export { I as GoogleChromeLogo };

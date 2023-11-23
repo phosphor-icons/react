@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Sidebar";
 
-export const Sidebar: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-Sidebar.displayName = "Sidebar";
+I.displayName = "Sidebar";
+export { I as Sidebar };

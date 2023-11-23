@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/RocketLaunch";
 
-export const RocketLaunch: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-RocketLaunch.displayName = "RocketLaunch";
+I.displayName = "RocketLaunch";
+export { I as RocketLaunch };

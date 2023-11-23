@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BookBookmark";
 
-export const BookBookmark: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-BookBookmark.displayName = "BookBookmark";
+I.displayName = "BookBookmark";
+export { I as BookBookmark };

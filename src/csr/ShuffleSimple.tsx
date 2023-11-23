@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ShuffleSimple";
 
-export const ShuffleSimple: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-ShuffleSimple.displayName = "ShuffleSimple";
+I.displayName = "ShuffleSimple";
+export { I as ShuffleSimple };

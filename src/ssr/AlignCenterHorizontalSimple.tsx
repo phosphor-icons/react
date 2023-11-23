@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/AlignCenterHorizontalSimple";
 
-export const AlignCenterHorizontalSimple: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-AlignCenterHorizontalSimple.displayName = "AlignCenterHorizontalSimple";
+I.displayName = "AlignCenterHorizontalSimple";
+export { I as AlignCenterHorizontalSimple };

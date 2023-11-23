@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FaceMask";
 
-export const FaceMask: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-FaceMask.displayName = "FaceMask";
+I.displayName = "FaceMask";
+export { I as FaceMask };

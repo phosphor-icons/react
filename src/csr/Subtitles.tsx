@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Subtitles";
 
-export const Subtitles: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Subtitles.displayName = "Subtitles";
+I.displayName = "Subtitles";
+export { I as Subtitles };

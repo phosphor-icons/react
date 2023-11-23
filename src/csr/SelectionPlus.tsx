@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SelectionPlus";
 
-export const SelectionPlus: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-SelectionPlus.displayName = "SelectionPlus";
+I.displayName = "SelectionPlus";
+export { I as SelectionPlus };

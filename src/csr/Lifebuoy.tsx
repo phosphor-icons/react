@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Lifebuoy";
 
-export const Lifebuoy: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Lifebuoy.displayName = "Lifebuoy";
+I.displayName = "Lifebuoy";
+export { I as Lifebuoy };

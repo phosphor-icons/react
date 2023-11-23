@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PokerChip";
 
-export const PokerChip: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-PokerChip.displayName = "PokerChip";
+I.displayName = "PokerChip";
+export { I as PokerChip };

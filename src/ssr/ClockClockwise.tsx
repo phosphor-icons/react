@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ClockClockwise";
 
-export const ClockClockwise: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-ClockClockwise.displayName = "ClockClockwise";
+I.displayName = "ClockClockwise";
+export { I as ClockClockwise };

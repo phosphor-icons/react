@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FigmaLogo";
 
-export const FigmaLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-FigmaLogo.displayName = "FigmaLogo";
+I.displayName = "FigmaLogo";
+export { I as FigmaLogo };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GithubLogo";
 
-export const GithubLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-GithubLogo.displayName = "GithubLogo";
+I.displayName = "GithubLogo";
+export { I as GithubLogo };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Circuitry";
 
-export const Circuitry: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-Circuitry.displayName = "Circuitry";
+I.displayName = "Circuitry";
+export { I as Circuitry };

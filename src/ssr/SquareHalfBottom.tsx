@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SquareHalfBottom";
 
-export const SquareHalfBottom: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-SquareHalfBottom.displayName = "SquareHalfBottom";
+I.displayName = "SquareHalfBottom";
+export { I as SquareHalfBottom };

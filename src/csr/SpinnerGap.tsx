@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SpinnerGap";
 
-export const SpinnerGap: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-SpinnerGap.displayName = "SpinnerGap";
+I.displayName = "SpinnerGap";
+export { I as SpinnerGap };

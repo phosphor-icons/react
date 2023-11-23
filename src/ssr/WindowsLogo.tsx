@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/WindowsLogo";
 
-export const WindowsLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-WindowsLogo.displayName = "WindowsLogo";
+I.displayName = "WindowsLogo";
+export { I as WindowsLogo };

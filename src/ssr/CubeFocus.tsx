@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CubeFocus";
 
-export const CubeFocus: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-CubeFocus.displayName = "CubeFocus";
+I.displayName = "CubeFocus";
+export { I as CubeFocus };

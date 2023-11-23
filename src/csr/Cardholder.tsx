@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Cardholder";
 
-export const Cardholder: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Cardholder.displayName = "Cardholder";
+I.displayName = "Cardholder";
+export { I as Cardholder };

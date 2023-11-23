@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CheckCircle";
 
-export const CheckCircle: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-CheckCircle.displayName = "CheckCircle";
+I.displayName = "CheckCircle";
+export { I as CheckCircle };

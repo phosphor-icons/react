@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/RocketLaunch";
 
-export const RocketLaunch: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-RocketLaunch.displayName = "RocketLaunch";
+I.displayName = "RocketLaunch";
+export { I as RocketLaunch };

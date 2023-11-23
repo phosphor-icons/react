@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HourglassSimple";
 
-export const HourglassSimple: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-HourglassSimple.displayName = "HourglassSimple";
+I.displayName = "HourglassSimple";
+export { I as HourglassSimple };

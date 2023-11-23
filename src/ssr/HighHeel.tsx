@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HighHeel";
 
-export const HighHeel: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-HighHeel.displayName = "HighHeel";
+I.displayName = "HighHeel";
+export { I as HighHeel };

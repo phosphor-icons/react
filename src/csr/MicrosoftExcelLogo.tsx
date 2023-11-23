@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MicrosoftExcelLogo";
 
-export const MicrosoftExcelLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-MicrosoftExcelLogo.displayName = "MicrosoftExcelLogo";
+I.displayName = "MicrosoftExcelLogo";
+export { I as MicrosoftExcelLogo };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/UmbrellaSimple";
 
-export const UmbrellaSimple: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-UmbrellaSimple.displayName = "UmbrellaSimple";
+I.displayName = "UmbrellaSimple";
+export { I as UmbrellaSimple };

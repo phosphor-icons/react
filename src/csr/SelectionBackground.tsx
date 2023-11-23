@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SelectionBackground";
 
-export const SelectionBackground: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-SelectionBackground.displayName = "SelectionBackground";
+I.displayName = "SelectionBackground";
+export { I as SelectionBackground };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MagnetStraight";
 
-export const MagnetStraight: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-MagnetStraight.displayName = "MagnetStraight";
+I.displayName = "MagnetStraight";
+export { I as MagnetStraight };

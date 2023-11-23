@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ListBullets";
 
-export const ListBullets: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-ListBullets.displayName = "ListBullets";
+I.displayName = "ListBullets";
+export { I as ListBullets };

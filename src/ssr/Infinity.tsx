@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Infinity";
 
-export const Infinity: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-Infinity.displayName = "Infinity";
+I.displayName = "Infinity";
+export { I as Infinity, I as Lemniscate };
