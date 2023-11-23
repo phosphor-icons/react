@@ -1,27 +1,48 @@
-import React, { forwardRef, ReactElement } from "react";
+import React, {
+  forwardRef,
+  ForwardRefExoticComponent,
+  NamedExoticComponent,
+  ReactElement,
+} from "react";
 import { describe, it, expect } from "vitest";
 import { render, getByTestId } from "@testing-library/react";
 
 import * as Icons from "../src";
 import { Icon, IconBase, SSRBase, IconWeight } from "../src/lib";
+import { ALIASES } from "../scripts";
 
-const aliases = new Set([
-  "FileDotted",
-  "FileSearch",
-  "FolderDotted",
-  "FolderSimpleDotted",
-  "Activity",
-  "CircleWavy",
-  "CircleWavyCheck",
-  "CircleWavyQuestion",
-  "CircleWavyWarning",
-  "TextBolder",
-  "Lemniscate",
-]);
+function pascalize(str: string) {
+  return str
+    .split("-")
+    .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
+    .join("");
+}
 
-const isIcon = (candidate: any): candidate is Icon =>
-  "displayName" in candidate &&
-  !["IconBase", "SSRBase"].includes(candidate.displayName);
+function isForwardRef(
+  candidate: any
+): candidate is ForwardRefExoticComponent<any> {
+  return candidate.$$typeof == Symbol.for("react.forward_ref");
+}
+
+function isNamedExoticComponent(
+  candidate: any
+): candidate is NamedExoticComponent & { displayName: string } {
+  return "displayName" in candidate && !!candidate.displayName;
+}
+
+function isBase(candidate: any): candidate is typeof IconBase | typeof SSRBase {
+  return ["IconBase", "SSRBase"].includes(candidate.displayName);
+}
+
+function isIcon(candidate: any): candidate is Icon {
+  return (
+    isForwardRef(candidate) &&
+    isNamedExoticComponent(candidate) &&
+    !isBase(candidate)
+  );
+}
+
+const aliases = new Set(Object.values(ALIASES).map(pascalize));
 
 const allIcons = Object.entries(Icons).filter(
   ([name, module]) => !aliases.has(name) && isIcon(module)
@@ -29,7 +50,6 @@ const allIcons = Object.entries(Icons).filter(
 
 describe("All icons exist", () => {
   allIcons.forEach(([name, TestIcon]) => {
-    if (aliases.has(name) || !isIcon(TestIcon)) return;
     it(`${name} is truthy`, () => {
       expect(TestIcon).toBeTruthy();
     });

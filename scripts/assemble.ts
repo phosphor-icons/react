@@ -81,11 +81,14 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/${name}";
 
-export const ${name}: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-${name}.displayName = "${name}";
+I.displayName = "${name}";
+export { I as ${name}${
+      !!ALIASES[key] ? `, I as ${pascalize(ALIASES[key])}` : ""
+    } }
 `;
 
     let ssrString = `
@@ -95,11 +98,14 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/${name}";
 
-export const ${name}: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-${name}.displayName = "${name}";
+I.displayName = "${name}";
+export { I as ${name}${
+      !!ALIASES[key] ? `, I as ${pascalize(ALIASES[key])}` : ""
+    } }
 `;
 
     try {
@@ -150,14 +156,10 @@ export { default as SSRBase } from "../lib/SSRBase";
   for (let key in icons) {
     const name = pascalize(key);
     csrIndex += `\
-export { ${name}${
-      !!ALIASES[key] ? `, ${name} as ${pascalize(ALIASES[key])}` : ""
-    } } from "./csr/${name}";
+export * from "./csr/${name}";
 `;
     ssrIndex += `\
-export { ${name}${
-      !!ALIASES[key] ? `, ${name} as ${pascalize(ALIASES[key])}` : ""
-    } } from "./${name}";
+export * from "./${name}";
 `;
   }
   try {
