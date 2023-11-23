@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ListMagnifyingGlass";
 
-export const ListMagnifyingGlass: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-ListMagnifyingGlass.displayName = "ListMagnifyingGlass";
+I.displayName = "ListMagnifyingGlass";
+export { I as ListMagnifyingGlass };

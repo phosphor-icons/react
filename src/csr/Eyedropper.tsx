@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Eyedropper";
 
-export const Eyedropper: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Eyedropper.displayName = "Eyedropper";
+I.displayName = "Eyedropper";
+export { I as Eyedropper };

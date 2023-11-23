@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Shrimp";
 
-export const Shrimp: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-Shrimp.displayName = "Shrimp";
+I.displayName = "Shrimp";
+export { I as Shrimp };

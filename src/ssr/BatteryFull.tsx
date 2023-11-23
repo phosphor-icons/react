@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BatteryFull";
 
-export const BatteryFull: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-BatteryFull.displayName = "BatteryFull";
+I.displayName = "BatteryFull";
+export { I as BatteryFull };

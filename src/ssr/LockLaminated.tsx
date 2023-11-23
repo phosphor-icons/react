@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LockLaminated";
 
-export const LockLaminated: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-LockLaminated.displayName = "LockLaminated";
+I.displayName = "LockLaminated";
+export { I as LockLaminated };

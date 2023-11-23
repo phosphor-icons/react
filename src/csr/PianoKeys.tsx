@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PianoKeys";
 
-export const PianoKeys: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-PianoKeys.displayName = "PianoKeys";
+I.displayName = "PianoKeys";
+export { I as PianoKeys };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CoatHanger";
 
-export const CoatHanger: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-CoatHanger.displayName = "CoatHanger";
+I.displayName = "CoatHanger";
+export { I as CoatHanger };

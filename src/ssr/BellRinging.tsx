@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BellRinging";
 
-export const BellRinging: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-BellRinging.displayName = "BellRinging";
+I.displayName = "BellRinging";
+export { I as BellRinging };

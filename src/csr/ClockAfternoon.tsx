@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ClockAfternoon";
 
-export const ClockAfternoon: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-ClockAfternoon.displayName = "ClockAfternoon";
+I.displayName = "ClockAfternoon";
+export { I as ClockAfternoon };

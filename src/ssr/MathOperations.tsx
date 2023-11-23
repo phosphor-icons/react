@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MathOperations";
 
-export const MathOperations: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-MathOperations.displayName = "MathOperations";
+I.displayName = "MathOperations";
+export { I as MathOperations };

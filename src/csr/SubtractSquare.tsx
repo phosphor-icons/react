@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SubtractSquare";
 
-export const SubtractSquare: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-SubtractSquare.displayName = "SubtractSquare";
+I.displayName = "SubtractSquare";
+export { I as SubtractSquare };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TrainRegional";
 
-export const TrainRegional: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-TrainRegional.displayName = "TrainRegional";
+I.displayName = "TrainRegional";
+export { I as TrainRegional };

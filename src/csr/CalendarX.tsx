@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CalendarX";
 
-export const CalendarX: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-CalendarX.displayName = "CalendarX";
+I.displayName = "CalendarX";
+export { I as CalendarX };

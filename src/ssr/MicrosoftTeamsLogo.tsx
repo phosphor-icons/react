@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MicrosoftTeamsLogo";
 
-export const MicrosoftTeamsLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-MicrosoftTeamsLogo.displayName = "MicrosoftTeamsLogo";
+I.displayName = "MicrosoftTeamsLogo";
+export { I as MicrosoftTeamsLogo };

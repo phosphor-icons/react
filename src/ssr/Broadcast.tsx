@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Broadcast";
 
-export const Broadcast: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-Broadcast.displayName = "Broadcast";
+I.displayName = "Broadcast";
+export { I as Broadcast };

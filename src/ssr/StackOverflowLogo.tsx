@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/StackOverflowLogo";
 
-export const StackOverflowLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-StackOverflowLogo.displayName = "StackOverflowLogo";
+I.displayName = "StackOverflowLogo";
+export { I as StackOverflowLogo };

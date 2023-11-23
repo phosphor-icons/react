@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/WaveTriangle";
 
-export const WaveTriangle: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-WaveTriangle.displayName = "WaveTriangle";
+I.displayName = "WaveTriangle";
+export { I as WaveTriangle };

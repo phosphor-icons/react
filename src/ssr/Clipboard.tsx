@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Clipboard";
 
-export const Clipboard: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-Clipboard.displayName = "Clipboard";
+I.displayName = "Clipboard";
+export { I as Clipboard };

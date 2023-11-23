@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TagChevron";
 
-export const TagChevron: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-TagChevron.displayName = "TagChevron";
+I.displayName = "TagChevron";
+export { I as TagChevron };

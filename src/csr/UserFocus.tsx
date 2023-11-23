@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/UserFocus";
 
-export const UserFocus: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-UserFocus.displayName = "UserFocus";
+I.displayName = "UserFocus";
+export { I as UserFocus };

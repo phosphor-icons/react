@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PatreonLogo";
 
-export const PatreonLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-PatreonLogo.displayName = "PatreonLogo";
+I.displayName = "PatreonLogo";
+export { I as PatreonLogo };

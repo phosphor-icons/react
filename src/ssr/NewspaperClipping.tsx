@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/NewspaperClipping";
 
-export const NewspaperClipping: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-NewspaperClipping.displayName = "NewspaperClipping";
+I.displayName = "NewspaperClipping";
+export { I as NewspaperClipping };

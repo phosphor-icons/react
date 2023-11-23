@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GooglePodcastsLogo";
 
-export const GooglePodcastsLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-GooglePodcastsLogo.displayName = "GooglePodcastsLogo";
+I.displayName = "GooglePodcastsLogo";
+export { I as GooglePodcastsLogo };

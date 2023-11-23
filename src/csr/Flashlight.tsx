@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Flashlight";
 
-export const Flashlight: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Flashlight.displayName = "Flashlight";
+I.displayName = "Flashlight";
+export { I as Flashlight };

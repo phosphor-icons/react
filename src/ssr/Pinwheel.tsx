@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Pinwheel";
 
-export const Pinwheel: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-Pinwheel.displayName = "Pinwheel";
+I.displayName = "Pinwheel";
+export { I as Pinwheel };

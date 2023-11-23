@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/UserRectangle";
 
-export const UserRectangle: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-UserRectangle.displayName = "UserRectangle";
+I.displayName = "UserRectangle";
+export { I as UserRectangle };

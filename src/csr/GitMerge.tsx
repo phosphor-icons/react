@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GitMerge";
 
-export const GitMerge: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-GitMerge.displayName = "GitMerge";
+I.displayName = "GitMerge";
+export { I as GitMerge };

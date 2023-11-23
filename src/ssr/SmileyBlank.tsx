@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SmileyBlank";
 
-export const SmileyBlank: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-SmileyBlank.displayName = "SmileyBlank";
+I.displayName = "SmileyBlank";
+export { I as SmileyBlank };

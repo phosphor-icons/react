@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/DesktopTower";
 
-export const DesktopTower: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-DesktopTower.displayName = "DesktopTower";
+I.displayName = "DesktopTower";
+export { I as DesktopTower };

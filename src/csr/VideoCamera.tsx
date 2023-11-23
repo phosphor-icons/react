@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/VideoCamera";
 
-export const VideoCamera: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-VideoCamera.displayName = "VideoCamera";
+I.displayName = "VideoCamera";
+export { I as VideoCamera };

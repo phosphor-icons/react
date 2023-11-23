@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ShieldCheck";
 
-export const ShieldCheck: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-ShieldCheck.displayName = "ShieldCheck";
+I.displayName = "ShieldCheck";
+export { I as ShieldCheck };

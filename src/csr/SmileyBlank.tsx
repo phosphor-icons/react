@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SmileyBlank";
 
-export const SmileyBlank: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-SmileyBlank.displayName = "SmileyBlank";
+I.displayName = "SmileyBlank";
+export { I as SmileyBlank };

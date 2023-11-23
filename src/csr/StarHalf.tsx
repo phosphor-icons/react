@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/StarHalf";
 
-export const StarHalf: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-StarHalf.displayName = "StarHalf";
+I.displayName = "StarHalf";
+export { I as StarHalf };

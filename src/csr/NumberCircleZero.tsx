@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NumberCircleZero";
 
-export const NumberCircleZero: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-NumberCircleZero.displayName = "NumberCircleZero";
+I.displayName = "NumberCircleZero";
+export { I as NumberCircleZero };

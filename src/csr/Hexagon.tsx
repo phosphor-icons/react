@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Hexagon";
 
-export const Hexagon: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Hexagon.displayName = "Hexagon";
+I.displayName = "Hexagon";
+export { I as Hexagon };

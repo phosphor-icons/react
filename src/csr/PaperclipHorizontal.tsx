@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PaperclipHorizontal";
 
-export const PaperclipHorizontal: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-PaperclipHorizontal.displayName = "PaperclipHorizontal";
+I.displayName = "PaperclipHorizontal";
+export { I as PaperclipHorizontal };

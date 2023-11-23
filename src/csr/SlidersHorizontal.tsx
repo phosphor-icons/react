@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SlidersHorizontal";
 
-export const SlidersHorizontal: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-SlidersHorizontal.displayName = "SlidersHorizontal";
+I.displayName = "SlidersHorizontal";
+export { I as SlidersHorizontal };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Vibrate";
 
-export const Vibrate: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Vibrate.displayName = "Vibrate";
+I.displayName = "Vibrate";
+export { I as Vibrate };

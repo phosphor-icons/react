@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SkipForwardCircle";
 
-export const SkipForwardCircle: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-SkipForwardCircle.displayName = "SkipForwardCircle";
+I.displayName = "SkipForwardCircle";
+export { I as SkipForwardCircle };

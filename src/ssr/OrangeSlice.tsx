@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/OrangeSlice";
 
-export const OrangeSlice: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-OrangeSlice.displayName = "OrangeSlice";
+I.displayName = "OrangeSlice";
+export { I as OrangeSlice };

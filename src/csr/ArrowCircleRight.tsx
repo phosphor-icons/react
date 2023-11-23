@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowCircleRight";
 
-export const ArrowCircleRight: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-ArrowCircleRight.displayName = "ArrowCircleRight";
+I.displayName = "ArrowCircleRight";
+export { I as ArrowCircleRight };

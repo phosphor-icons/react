@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CameraSlash";
 
-export const CameraSlash: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-CameraSlash.displayName = "CameraSlash";
+I.displayName = "CameraSlash";
+export { I as CameraSlash };

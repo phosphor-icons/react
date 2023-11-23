@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Paperclip";
 
-export const Paperclip: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-Paperclip.displayName = "Paperclip";
+I.displayName = "Paperclip";
+export { I as Paperclip };

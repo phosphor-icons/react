@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/EggCrack";
 
-export const EggCrack: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-EggCrack.displayName = "EggCrack";
+I.displayName = "EggCrack";
+export { I as EggCrack };

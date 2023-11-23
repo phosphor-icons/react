@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CloudArrowUp";
 
-export const CloudArrowUp: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-CloudArrowUp.displayName = "CloudArrowUp";
+I.displayName = "CloudArrowUp";
+export { I as CloudArrowUp };

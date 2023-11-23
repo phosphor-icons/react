@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BluetoothX";
 
-export const BluetoothX: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-BluetoothX.displayName = "BluetoothX";
+I.displayName = "BluetoothX";
+export { I as BluetoothX };

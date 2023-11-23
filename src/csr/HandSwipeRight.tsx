@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HandSwipeRight";
 
-export const HandSwipeRight: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-HandSwipeRight.displayName = "HandSwipeRight";
+I.displayName = "HandSwipeRight";
+export { I as HandSwipeRight };

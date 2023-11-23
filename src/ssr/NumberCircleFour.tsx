@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/NumberCircleFour";
 
-export const NumberCircleFour: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-NumberCircleFour.displayName = "NumberCircleFour";
+I.displayName = "NumberCircleFour";
+export { I as NumberCircleFour };

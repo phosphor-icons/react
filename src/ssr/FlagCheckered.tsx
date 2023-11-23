@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FlagCheckered";
 
-export const FlagCheckered: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-FlagCheckered.displayName = "FlagCheckered";
+I.displayName = "FlagCheckered";
+export { I as FlagCheckered };

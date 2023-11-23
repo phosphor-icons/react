@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FilmReel";
 
-export const FilmReel: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-FilmReel.displayName = "FilmReel";
+I.displayName = "FilmReel";
+export { I as FilmReel };

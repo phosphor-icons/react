@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Slideshow";
 
-export const Slideshow: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Slideshow.displayName = "Slideshow";
+I.displayName = "Slideshow";
+export { I as Slideshow };

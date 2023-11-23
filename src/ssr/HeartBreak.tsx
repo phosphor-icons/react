@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HeartBreak";
 
-export const HeartBreak: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-HeartBreak.displayName = "HeartBreak";
+I.displayName = "HeartBreak";
+export { I as HeartBreak };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FlowArrow";
 
-export const FlowArrow: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-FlowArrow.displayName = "FlowArrow";
+I.displayName = "FlowArrow";
+export { I as FlowArrow };

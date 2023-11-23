@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/IntersectThree";
 
-export const IntersectThree: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-IntersectThree.displayName = "IntersectThree";
+I.displayName = "IntersectThree";
+export { I as IntersectThree };

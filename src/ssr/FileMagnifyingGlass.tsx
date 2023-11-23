@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FileMagnifyingGlass";
 
-export const FileMagnifyingGlass: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-FileMagnifyingGlass.displayName = "FileMagnifyingGlass";
+I.displayName = "FileMagnifyingGlass";
+export { I as FileMagnifyingGlass, I as FileSearch };

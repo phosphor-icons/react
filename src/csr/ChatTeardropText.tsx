@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChatTeardropText";
 
-export const ChatTeardropText: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-ChatTeardropText.displayName = "ChatTeardropText";
+I.displayName = "ChatTeardropText";
+export { I as ChatTeardropText };

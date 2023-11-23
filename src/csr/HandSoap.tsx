@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HandSoap";
 
-export const HandSoap: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-HandSoap.displayName = "HandSoap";
+I.displayName = "HandSoap";
+export { I as HandSoap };

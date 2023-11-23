@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FolderSimpleLock";
 
-export const FolderSimpleLock: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-FolderSimpleLock.displayName = "FolderSimpleLock";
+I.displayName = "FolderSimpleLock";
+export { I as FolderSimpleLock };

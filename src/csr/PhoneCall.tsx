@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PhoneCall";
 
-export const PhoneCall: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-PhoneCall.displayName = "PhoneCall";
+I.displayName = "PhoneCall";
+export { I as PhoneCall };

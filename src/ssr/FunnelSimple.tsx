@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FunnelSimple";
 
-export const FunnelSimple: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-FunnelSimple.displayName = "FunnelSimple";
+I.displayName = "FunnelSimple";
+export { I as FunnelSimple };

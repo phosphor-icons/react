@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CurrencyCny";
 
-export const CurrencyCny: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-CurrencyCny.displayName = "CurrencyCny";
+I.displayName = "CurrencyCny";
+export { I as CurrencyCny };

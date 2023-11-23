@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ReadCvLogo";
 
-export const ReadCvLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-ReadCvLogo.displayName = "ReadCvLogo";
+I.displayName = "ReadCvLogo";
+export { I as ReadCvLogo };

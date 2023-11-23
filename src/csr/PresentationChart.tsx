@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PresentationChart";
 
-export const PresentationChart: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-PresentationChart.displayName = "PresentationChart";
+I.displayName = "PresentationChart";
+export { I as PresentationChart };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CircleHalfTilt";
 
-export const CircleHalfTilt: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-CircleHalfTilt.displayName = "CircleHalfTilt";
+I.displayName = "CircleHalfTilt";
+export { I as CircleHalfTilt };

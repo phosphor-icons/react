@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/LightbulbFilament";
 
-export const LightbulbFilament: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-LightbulbFilament.displayName = "LightbulbFilament";
+I.displayName = "LightbulbFilament";
+export { I as LightbulbFilament };

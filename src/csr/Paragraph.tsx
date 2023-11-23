@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Paragraph";
 
-export const Paragraph: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Paragraph.displayName = "Paragraph";
+I.displayName = "Paragraph";
+export { I as Paragraph };

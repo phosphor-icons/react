@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TextStrikethrough";
 
-export const TextStrikethrough: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-TextStrikethrough.displayName = "TextStrikethrough";
+I.displayName = "TextStrikethrough";
+export { I as TextStrikethrough };

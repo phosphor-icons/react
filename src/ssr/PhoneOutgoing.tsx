@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PhoneOutgoing";
 
-export const PhoneOutgoing: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-PhoneOutgoing.displayName = "PhoneOutgoing";
+I.displayName = "PhoneOutgoing";
+export { I as PhoneOutgoing };

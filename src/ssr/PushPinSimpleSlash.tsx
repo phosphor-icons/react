@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PushPinSimpleSlash";
 
-export const PushPinSimpleSlash: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-PushPinSimpleSlash.displayName = "PushPinSimpleSlash";
+I.displayName = "PushPinSimpleSlash";
+export { I as PushPinSimpleSlash };

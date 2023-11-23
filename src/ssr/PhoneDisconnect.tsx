@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PhoneDisconnect";
 
-export const PhoneDisconnect: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-PhoneDisconnect.displayName = "PhoneDisconnect";
+I.displayName = "PhoneDisconnect";
+export { I as PhoneDisconnect };

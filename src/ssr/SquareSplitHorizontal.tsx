@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SquareSplitHorizontal";
 
-export const SquareSplitHorizontal: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-SquareSplitHorizontal.displayName = "SquareSplitHorizontal";
+I.displayName = "SquareSplitHorizontal";
+export { I as SquareSplitHorizontal };

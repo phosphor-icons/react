@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BluetoothConnected";
 
-export const BluetoothConnected: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-BluetoothConnected.displayName = "BluetoothConnected";
+I.displayName = "BluetoothConnected";
+export { I as BluetoothConnected };

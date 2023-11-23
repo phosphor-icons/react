@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AmazonLogo";
 
-export const AmazonLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-AmazonLogo.displayName = "AmazonLogo";
+I.displayName = "AmazonLogo";
+export { I as AmazonLogo };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ProjectorScreen";
 
-export const ProjectorScreen: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-ProjectorScreen.displayName = "ProjectorScreen";
+I.displayName = "ProjectorScreen";
+export { I as ProjectorScreen };

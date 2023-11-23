@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GoodreadsLogo";
 
-export const GoodreadsLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-GoodreadsLogo.displayName = "GoodreadsLogo";
+I.displayName = "GoodreadsLogo";
+export { I as GoodreadsLogo };

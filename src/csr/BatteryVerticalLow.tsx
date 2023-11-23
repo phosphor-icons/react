@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BatteryVerticalLow";
 
-export const BatteryVerticalLow: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-BatteryVerticalLow.displayName = "BatteryVerticalLow";
+I.displayName = "BatteryVerticalLow";
+export { I as BatteryVerticalLow };

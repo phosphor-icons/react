@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TreeEvergreen";
 
-export const TreeEvergreen: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-TreeEvergreen.displayName = "TreeEvergreen";
+I.displayName = "TreeEvergreen";
+export { I as TreeEvergreen };

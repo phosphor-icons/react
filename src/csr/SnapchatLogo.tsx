@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SnapchatLogo";
 
-export const SnapchatLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-SnapchatLogo.displayName = "SnapchatLogo";
+I.displayName = "SnapchatLogo";
+export { I as SnapchatLogo };

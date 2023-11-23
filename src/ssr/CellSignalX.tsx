@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CellSignalX";
 
-export const CellSignalX: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-CellSignalX.displayName = "CellSignalX";
+I.displayName = "CellSignalX";
+export { I as CellSignalX };

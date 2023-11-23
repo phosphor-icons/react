@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SuitcaseSimple";
 
-export const SuitcaseSimple: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-SuitcaseSimple.displayName = "SuitcaseSimple";
+I.displayName = "SuitcaseSimple";
+export { I as SuitcaseSimple };

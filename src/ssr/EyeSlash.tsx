@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/EyeSlash";
 
-export const EyeSlash: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-EyeSlash.displayName = "EyeSlash";
+I.displayName = "EyeSlash";
+export { I as EyeSlash };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ClipboardText";
 
-export const ClipboardText: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-ClipboardText.displayName = "ClipboardText";
+I.displayName = "ClipboardText";
+export { I as ClipboardText };

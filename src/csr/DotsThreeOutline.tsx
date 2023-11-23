@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/DotsThreeOutline";
 
-export const DotsThreeOutline: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-DotsThreeOutline.displayName = "DotsThreeOutline";
+I.displayName = "DotsThreeOutline";
+export { I as DotsThreeOutline };

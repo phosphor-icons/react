@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CornersIn";
 
-export const CornersIn: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-CornersIn.displayName = "CornersIn";
+I.displayName = "CornersIn";
+export { I as CornersIn };

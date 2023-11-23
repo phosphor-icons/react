@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MicrosoftOutlookLogo";
 
-export const MicrosoftOutlookLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-MicrosoftOutlookLogo.displayName = "MicrosoftOutlookLogo";
+I.displayName = "MicrosoftOutlookLogo";
+export { I as MicrosoftOutlookLogo };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SidebarSimple";
 
-export const SidebarSimple: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-SidebarSimple.displayName = "SidebarSimple";
+I.displayName = "SidebarSimple";
+export { I as SidebarSimple };

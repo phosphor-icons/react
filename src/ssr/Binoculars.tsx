@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Binoculars";
 
-export const Binoculars: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-Binoculars.displayName = "Binoculars";
+I.displayName = "Binoculars";
+export { I as Binoculars };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/LineSegment";
 
-export const LineSegment: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-LineSegment.displayName = "LineSegment";
+I.displayName = "LineSegment";
+export { I as LineSegment };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ShareNetwork";
 
-export const ShareNetwork: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-ShareNetwork.displayName = "ShareNetwork";
+I.displayName = "ShareNetwork";
+export { I as ShareNetwork };

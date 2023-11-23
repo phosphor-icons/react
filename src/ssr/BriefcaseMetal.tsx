@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BriefcaseMetal";
 
-export const BriefcaseMetal: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-BriefcaseMetal.displayName = "BriefcaseMetal";
+I.displayName = "BriefcaseMetal";
+export { I as BriefcaseMetal };

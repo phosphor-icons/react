@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SlackLogo";
 
-export const SlackLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-SlackLogo.displayName = "SlackLogo";
+I.displayName = "SlackLogo";
+export { I as SlackLogo };

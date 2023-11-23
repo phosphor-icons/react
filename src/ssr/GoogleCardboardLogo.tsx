@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GoogleCardboardLogo";
 
-export const GoogleCardboardLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-GoogleCardboardLogo.displayName = "GoogleCardboardLogo";
+I.displayName = "GoogleCardboardLogo";
+export { I as GoogleCardboardLogo };

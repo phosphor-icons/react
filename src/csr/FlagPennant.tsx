@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FlagPennant";
 
-export const FlagPennant: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-FlagPennant.displayName = "FlagPennant";
+I.displayName = "FlagPennant";
+export { I as FlagPennant };

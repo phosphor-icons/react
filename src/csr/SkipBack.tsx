@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SkipBack";
 
-export const SkipBack: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-SkipBack.displayName = "SkipBack";
+I.displayName = "SkipBack";
+export { I as SkipBack };

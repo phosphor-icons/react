@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/EnvelopeOpen";
 
-export const EnvelopeOpen: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-EnvelopeOpen.displayName = "EnvelopeOpen";
+I.displayName = "EnvelopeOpen";
+export { I as EnvelopeOpen };

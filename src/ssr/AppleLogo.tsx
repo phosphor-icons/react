@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/AppleLogo";
 
-export const AppleLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-AppleLogo.displayName = "AppleLogo";
+I.displayName = "AppleLogo";
+export { I as AppleLogo };

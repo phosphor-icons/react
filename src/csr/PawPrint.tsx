@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PawPrint";
 
-export const PawPrint: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-PawPrint.displayName = "PawPrint";
+I.displayName = "PawPrint";
+export { I as PawPrint };

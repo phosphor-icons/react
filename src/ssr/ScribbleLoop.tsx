@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ScribbleLoop";
 
-export const ScribbleLoop: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-ScribbleLoop.displayName = "ScribbleLoop";
+I.displayName = "ScribbleLoop";
+export { I as ScribbleLoop };

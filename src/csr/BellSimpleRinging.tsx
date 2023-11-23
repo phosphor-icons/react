@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BellSimpleRinging";
 
-export const BellSimpleRinging: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-BellSimpleRinging.displayName = "BellSimpleRinging";
+I.displayName = "BellSimpleRinging";
+export { I as BellSimpleRinging };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/VirtualReality";
 
-export const VirtualReality: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-VirtualReality.displayName = "VirtualReality";
+I.displayName = "VirtualReality";
+export { I as VirtualReality };

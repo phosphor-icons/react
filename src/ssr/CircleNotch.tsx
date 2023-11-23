@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CircleNotch";
 
-export const CircleNotch: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-CircleNotch.displayName = "CircleNotch";
+I.displayName = "CircleNotch";
+export { I as CircleNotch };

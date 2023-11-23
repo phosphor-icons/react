@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BracketsAngle";
 
-export const BracketsAngle: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-BracketsAngle.displayName = "BracketsAngle";
+I.displayName = "BracketsAngle";
+export { I as BracketsAngle };

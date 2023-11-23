@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/StripeLogo";
 
-export const StripeLogo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-StripeLogo.displayName = "StripeLogo";
+I.displayName = "StripeLogo";
+export { I as StripeLogo };

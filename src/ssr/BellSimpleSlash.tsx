@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BellSimpleSlash";
 
-export const BellSimpleSlash: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-BellSimpleSlash.displayName = "BellSimpleSlash";
+I.displayName = "BellSimpleSlash";
+export { I as BellSimpleSlash };

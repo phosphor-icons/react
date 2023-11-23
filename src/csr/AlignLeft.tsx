@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AlignLeft";
 
-export const AlignLeft: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-AlignLeft.displayName = "AlignLeft";
+I.displayName = "AlignLeft";
+export { I as AlignLeft };

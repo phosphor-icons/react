@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MapPinLine";
 
-export const MapPinLine: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-MapPinLine.displayName = "MapPinLine";
+I.displayName = "MapPinLine";
+export { I as MapPinLine };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TextHTwo";
 
-export const TextHTwo: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-TextHTwo.displayName = "TextHTwo";
+I.displayName = "TextHTwo";
+export { I as TextHTwo };

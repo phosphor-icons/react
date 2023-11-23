@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Equalizer";
 
-export const Equalizer: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-Equalizer.displayName = "Equalizer";
+I.displayName = "Equalizer";
+export { I as Equalizer };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CrownSimple";
 
-export const CrownSimple: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-CrownSimple.displayName = "CrownSimple";
+I.displayName = "CrownSimple";
+export { I as CrownSimple };

@@ -4,8 +4,9 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/IdentificationCard";
 
-export const IdentificationCard: Icon = forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-IdentificationCard.displayName = "IdentificationCard";
+I.displayName = "IdentificationCard";
+export { I as IdentificationCard };
