@@ -1,4 +1,4 @@
-> **ATTENTION:** As part of a major update, we will be replacing the existing `phosphor-react` package with `@phosphor-icons/react`. We recommend using this new version, as it has improved performance and significantly smaller bundle size. No APIs have been changed, so drop-in replacement should be straightforward. The legacy package will continue to receive maintenance, but will not be updated with new icons upstream. [Take me to the legacy version ➜](https://github.com/phosphor-icons/react/tree/legacy)
+> **ATTENTION:** As part of a major update, we will be replacing the existing `phosphor-react` package with `@phosphor-icons/react`. We recommend using this new version, as it has improved performance and a significantly smaller bundle size. No APIs have been changed, so drop-in replacement should be straightforward. The legacy package will continue to receive maintenance, but will not be updated with new icons upstream. [Take me to the legacy version ➜](https://github.com/phosphor-icons/react/tree/legacy)
 
 <img src="/meta/phosphor-mark-tight-yellow.png" width="128" align="right" />
 
@@ -39,7 +39,7 @@ const App = () => {
 
 ### React Server Components and SSR
 
-When using Phosphor Icons in a SSR environment, within a React Server Component, or in any environment which does not permit use of the Context API ([Next.js](https://nextjs.org/) Server Component, for example), import icons from the `/dist/ssr` submodule:
+When using Phosphor Icons in an SSR environment, within a React Server Component, or in any environment that does not permit the use of the Context API ([Next.js](https://nextjs.org/) Server Component, for example), import icons from the `/dist/ssr` submodule:
 
 ```tsx
 import { Fish } from "@phosphor-icons/react/dist/ssr";
@@ -92,13 +92,13 @@ You may create multiple Contexts for styling icons differently in separate regio
 
 > **Note:** The context will also pass any provided SVG props down to icon instances, which can be useful E.G. in adding accessible `aria-label`s, `classNames`, etc.
 
-> **Note**: React Context is not available in some envrionments. See [React Server Components and SSR](#react-server-components-and-ssr) for details.
+> **Note**: React Context is not available in some environments. See [React Server Components and SSR](#react-server-components-and-ssr) for details.
 
 ### Composability
 
 <img src="/meta/cube-rotate.svg" width="128" align="right" />
 
-Components can accept arbitrary SVG elements as children, so long as they are valid children of the `<svg>` element. This can be used to modify an icon with background layers or shapes, filters, animations and more. The children will be placed _below_ the normal icon contents.
+Components can accept arbitrary SVG elements as children, so long as they are valid children of the `<svg>` element. This can be used to modify an icon with background layers or shapes, filters, animations, and more. The children will be placed _below_ the normal icon contents.
 
 The following will cause the Cube icon to rotate and pulse:
 
@@ -126,7 +126,7 @@ const RotatingCube = () => {
 };
 ```
 
-> **Note:** The coordinate space of slotted elements is relative to the contents of the icon `viewBox`, which is a 256x256 square. Only [valid SVG elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#SVG_elements_by_category) will be rendered.
+> **Note:** The coordinate space of slotted elements is relative to the contents of the icon `viewBox`, which is 256x256 square. Only [valid SVG elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#SVG_elements_by_category) will be rendered.
 
 ### Imports
 
@@ -144,7 +144,7 @@ For information on using Phosphor Icons in Server Components, see See [React Ser
 
 ### Custom Icons
 
-It is possible to extend Phosphor with your own custom icons, taking advantage of the styling and context abstractions used in our library. To create a custom icon, first design your icons on a 256x256 pixel grid, and export them as SVG. For best results, flatten the icon so that you only export assets with `path` elements. Strip any `fill` or `stroke` attributes, as these will be inherited from the wrapper.
+It is possible to extend Phosphor with your custom icons, taking advantage of the styling and context abstractions used in our library. To create a custom icon, first design your icons on a 256x256 pixel grid, and export them as SVG. For best results, flatten the icon so that you only export assets with `path` elements. Strip any `fill` or `stroke` attributes, as these will be inherited from the wrapper.
 
 Next, create a new React `forwardRef` component, importing the `IconBase` component, as well as the `Icon` and `IconWeight` types from this library. Define a `Map<IconWeight, ReactElement>` that maps each icon weight to _the contents of each SVG asset_, effectively removing the wrapping `<svg>` element from each. Name your component, and render an `<IconBase />`, passing all props and the ref, as well as the `weights` you defined earlier, as JSX props:
 
