@@ -97,6 +97,6 @@
     "vitest": "^0.28.5"
   },
   "resolutions": {
-    "vite": "4.1.2"
+    "vite": "4.1.5"
   }
 }
