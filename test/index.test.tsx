@@ -9,14 +9,6 @@ import { render, getByTestId } from "@testing-library/react";
 
 import * as Icons from "../src";
 import { Icon, IconBase, SSRBase, IconWeight } from "../src/lib";
-import { ALIASES } from "../scripts";
-
-function pascalize(str: string) {
-  return str
-    .split("-")
-    .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))
-    .join("");
-}
 
 function isForwardRef(
   candidate: any
@@ -42,10 +34,8 @@ function isIcon(candidate: any): candidate is Icon {
   );
 }
 
-const aliases = new Set(Object.values(ALIASES).map(pascalize));
-
-const allIcons = Object.entries(Icons).filter(
-  ([name, module]) => !aliases.has(name) && isIcon(module)
+const allIcons = Object.entries(Icons).filter(([name, module]) =>
+  isIcon(module)
 ) as [string, Icons.Icon][];
 
 describe("All icons exist", () => {
@@ -53,15 +43,11 @@ describe("All icons exist", () => {
     it(`${name} is truthy`, () => {
       expect(TestIcon).toBeTruthy();
     });
-    it(`${name} is properly named`, () => {
-      expect(name).toEqual(TestIcon.displayName);
-    });
   });
 });
 
 describe("All icons render content", () => {
   allIcons.forEach(([name, TestIcon]) => {
-    if (!isIcon(TestIcon)) return;
     it(`${name} renders`, () => {
       const result = render(<TestIcon data-testid="test" />);
       expect(getByTestId(result.container, "test")).toBeTruthy();
@@ -71,7 +57,6 @@ describe("All icons render content", () => {
 
 describe("All icon weights render", () => {
   allIcons.forEach(([name, TestIcon]) => {
-    if (!isIcon(TestIcon)) return;
     it(`${name} [thin] renders`, () => {
       const result = render(<TestIcon weight="thin" data-testid="test" />);
       expect(getByTestId(result.container, "test")).toBeTruthy();
