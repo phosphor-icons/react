@@ -16,6 +16,7 @@ const aliases = new Set([
   "CircleWavyQuestion",
   "CircleWavyWarning",
   "TextBolder",
+  "Lemniscate",
 ]);
 
 const isIcon = (candidate: any): candidate is Icon =>
