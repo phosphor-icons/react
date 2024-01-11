@@ -73,7 +73,7 @@
     "serve": "vite serve ./example",
     "build": "vite build && tsc --emitDeclarationOnly",
     "test": "vitest",
-    "assemble": "node scripts/assemble.mjs",
+    "assemble": "tsx scripts/assemble.ts",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,vue}\" \"./example/**/*.{js,jsx,ts,tsx,json,vue}\" \"./scripts/**/*.{mjs, js,jsx,ts,tsx,json,vue}\""
   },
   "peerDependencies": {
@@ -91,6 +91,7 @@
     "prettier": "^2.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tsx": "^4.7.0",
     "typescript": "^4.9.4",
     "vite": "^4.1.2",
     "vitest": "^0.28.5"

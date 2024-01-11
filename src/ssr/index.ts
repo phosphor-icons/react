@@ -500,10 +500,7 @@ export { FileJpg } from "./FileJpg";
 export { FileJs } from "./FileJs";
 export { FileJsx } from "./FileJsx";
 export { FileLock } from "./FileLock";
-export {
-  FileMagnifyingGlass,
-  FileMagnifyingGlass as FileSearch,
-} from "./FileMagnifyingGlass";
+export { FileMagnifyingGlass } from "./FileMagnifyingGlass";
 export { FileMinus } from "./FileMinus";
 export { FilePdf } from "./FilePdf";
 export { FilePlus } from "./FilePlus";
@@ -685,7 +682,7 @@ export { Image } from "./Image";
 export { ImageSquare } from "./ImageSquare";
 export { Images } from "./Images";
 export { ImagesSquare } from "./ImagesSquare";
-export { Infinity } from "./Infinity";
+export { Infinity, Infinity as Lemniscate } from "./Infinity";
 export { Info } from "./Info";
 export { InstagramLogo } from "./InstagramLogo";
 export { Intersect } from "./Intersect";

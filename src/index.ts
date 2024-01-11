@@ -502,10 +502,7 @@ export { FileJpg } from "./csr/FileJpg";
 export { FileJs } from "./csr/FileJs";
 export { FileJsx } from "./csr/FileJsx";
 export { FileLock } from "./csr/FileLock";
-export {
-  FileMagnifyingGlass,
-  FileMagnifyingGlass as FileSearch,
-} from "./csr/FileMagnifyingGlass";
+export { FileMagnifyingGlass } from "./csr/FileMagnifyingGlass";
 export { FileMinus } from "./csr/FileMinus";
 export { FilePdf } from "./csr/FilePdf";
 export { FilePlus } from "./csr/FilePlus";
@@ -687,7 +684,7 @@ export { Image } from "./csr/Image";
 export { ImageSquare } from "./csr/ImageSquare";
 export { Images } from "./csr/Images";
 export { ImagesSquare } from "./csr/ImagesSquare";
-export { Infinity } from "./csr/Infinity";
+export { Infinity, Infinity as Lemniscate } from "./csr/Infinity";
 export { Info } from "./csr/Info";
 export { InstagramLogo } from "./csr/InstagramLogo";
 export { Intersect } from "./csr/Intersect";
