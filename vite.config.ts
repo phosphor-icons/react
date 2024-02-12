@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 import pkg from "./package.json";
 
 export default defineConfig({
-  plugins: [react({ jsxRuntime: "classic" })],
+  plugins: [react({ jsxRuntime: "automatic" })],
   build: {
     target: "ES2017",
     lib: {
