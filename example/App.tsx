@@ -1,8 +1,8 @@
 import { useState, useCallback } from "react";
 
-import * as Icons from "..";
-import { IconContext } from "..";
-import type { IconWeight, Icon } from "..";
+import * as Icons from "../dist";
+import { IconContext } from "../dist";
+import type { IconWeight, Icon } from "../dist";
 import { icons } from "../core/src/icons";
 import { CustomIcon } from "./CustomIcon";
 import { At } from "../dist/ssr";
