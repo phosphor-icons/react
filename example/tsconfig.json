@@ -15,6 +15,6 @@
     "preserveConstEnums": true,
     "removeComments": true,
     "sourceMap": true,
-    "strictNullChecks": true
-  }
+    "strictNullChecks": true,
+  },
 }

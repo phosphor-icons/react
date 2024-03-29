@@ -1,8 +1,8 @@
 import { useState, useCallback } from "react";
 
-import * as Icons from "../dist";
-import { IconContext } from "../dist";
-import type { IconWeight, Icon } from "../dist";
+import * as Icons from "..";
+import { IconContext } from "..";
+import type { IconWeight, Icon } from "..";
 import { icons } from "../core/src/icons";
 import { CustomIcon } from "./CustomIcon";
 import { At } from "../dist/ssr";
@@ -14,7 +14,7 @@ const isIcon = (candidate: any): candidate is Icons.Icon =>
   "displayName" in candidate;
 
 const allIcons: Icon[] = Object.entries(Icons)
-  .filter(([name, module]) => pascalNames.has(name) && isIcon(module))
+  .filter(([name, module]) => pascalNames.has(name as any) && isIcon(module))
   .map(([_, module]) => module as Icon);
 
 if (process.env.NODE_ENV === "development") {

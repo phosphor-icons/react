@@ -15,8 +15,8 @@ export const INDEX_PATH = path.join(__dirname, "../src/index.ts");
 export const WEIGHTS = Object.values(IconStyle);
 
 export const ALIASES = icons.reduce<Record<string, string>>((acc, curr) => {
-  if (curr.alias) {
-    acc[curr.name] = curr.alias.name;
+  if ((curr as any).alias) {
+    acc[curr.name] = (curr as any).alias.name;
   }
   return acc;
 }, {});

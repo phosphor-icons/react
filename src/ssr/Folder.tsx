@@ -9,4 +9,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Folder";
-export { I as Folder };
+export { I as Folder, I as FolderNotch };
