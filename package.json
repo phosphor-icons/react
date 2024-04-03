@@ -96,10 +96,10 @@
     "react-dom": "^18.2.0",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3",
-    "vite": "5.0.12",
+    "vite": "5.0.13",
     "vitest": "^1.2.1"
   },
   "resolutions": {
-    "vite": "5.0.12"
+    "vite": "5.0.13"
   }
 }
