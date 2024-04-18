@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 import pkg from "./package.json";
 
 export default defineConfig({
-  plugins: [react({ jsxRuntime: "automatic" })],
+  plugins: [react({ jsxRuntime: "classic" })],
   build: {
     target: "ES2017",
     lib: {
@@ -12,7 +12,7 @@ export default defineConfig({
       fileName: (format, name) => `${name}.${format === "umd" ? "cjs" : "mjs"}`,
     },
     rollupOptions: {
-      external: [...Object.keys(pkg.peerDependencies), "react/jsx-runtime"],
+      external: Object.keys(pkg.peerDependencies),
       input: "./src/index.ts",
       output: [
         {
