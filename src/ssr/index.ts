@@ -1,4 +1,4 @@
- /* GENERATED FILE */
+/* GENERATED FILE */
 export { default as SSRBase } from "../lib/SSRBase";
 
 export * from "./Acorn";

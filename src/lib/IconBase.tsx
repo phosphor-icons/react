@@ -1,4 +1,4 @@
-import { forwardRef, useContext, ReactElement } from "react";
+import React, { forwardRef, useContext, ReactElement } from "react";
 import { IconContext } from "./context";
 import { IconProps, IconWeight } from "./types";
 
