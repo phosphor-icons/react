@@ -1,3 +1,4 @@
+
 /* GENERATED FILE */
 import { forwardRef } from "react";
 import type { Icon } from "../lib/types";
@@ -9,4 +10,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "BatteryVerticalHigh";
-export { I as BatteryVerticalHigh };
+export { I as BatteryVerticalHigh }

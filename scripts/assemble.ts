@@ -64,7 +64,7 @@ function generateComponents(icons: AssetMap) {
 
     let defString = `\
 /* GENERATED FILE */
-import { ReactElement } from "react";
+import React, { ReactElement } from "react";
 import { IconWeight } from "../lib";
 
 export default new Map<IconWeight, ReactElement>([
