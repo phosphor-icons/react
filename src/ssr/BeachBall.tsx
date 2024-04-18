@@ -1,6 +1,5 @@
-
 /* GENERATED FILE */
-import { forwardRef } from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BeachBall";
@@ -10,4 +9,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "BeachBall";
-export { I as BeachBall }
+export { I as BeachBall };

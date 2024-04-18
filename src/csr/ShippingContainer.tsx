@@ -1,6 +1,5 @@
-
 /* GENERATED FILE */
-import { forwardRef } from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ShippingContainer";
@@ -10,4 +9,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ShippingContainer";
-export { I as ShippingContainer }
+export { I as ShippingContainer };

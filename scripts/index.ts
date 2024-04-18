@@ -2,7 +2,9 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import chalk from "chalk";
-import { IconStyle, icons } from "../core/src";
+import * as Core from "../core/src";
+
+const { IconStyle, icons } = (Core as any).default as typeof Core;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -21,7 +23,7 @@ export const ALIASES = icons.reduce<Record<string, string>>((acc, curr) => {
   return acc;
 }, {});
 
-export type AssetMap = Record<string, Record<IconStyle, string>>;
+export type AssetMap = Record<string, Record<Core.IconStyle, string>>;
 
 export function readAssetsFromDisk(): AssetMap {
   const assetsFolder = fs.readdirSync(ASSETS_PATH, "utf-8");
@@ -31,7 +33,7 @@ export function readAssetsFromDisk(): AssetMap {
   assetsFolder.forEach((weight) => {
     if (!fs.lstatSync(path.join(ASSETS_PATH, weight)).isDirectory()) return;
 
-    if (!WEIGHTS.includes(weight as IconStyle)) {
+    if (!WEIGHTS.includes(weight as Core.IconStyle)) {
       console.error(`${chalk.inverse.red(" ERR ")} Bad folder name ${weight}`);
       process.exit(1);
     }
@@ -88,7 +90,7 @@ export function verifyIcons(icons: AssetMap) {
       !(
         weightsPresent.length === 6 &&
         weightsPresent.every(
-          (w) => WEIGHTS.includes(w as IconStyle) && !!icon[w]
+          (w) => WEIGHTS.includes(w as Core.IconStyle) && !!icon[w]
         )
       )
     ) {

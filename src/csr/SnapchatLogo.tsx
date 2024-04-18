@@ -1,6 +1,5 @@
-
 /* GENERATED FILE */
-import { forwardRef } from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SnapchatLogo";
@@ -10,4 +9,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "SnapchatLogo";
-export { I as SnapchatLogo }
+export { I as SnapchatLogo };

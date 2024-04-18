@@ -1,6 +1,5 @@
-
 /* GENERATED FILE */
-import { forwardRef } from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SolarPanel";
@@ -10,4 +9,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "SolarPanel";
-export { I as SolarPanel }
+export { I as SolarPanel };

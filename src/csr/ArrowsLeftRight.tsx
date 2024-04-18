@@ -1,6 +1,5 @@
-
 /* GENERATED FILE */
-import { forwardRef } from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowsLeftRight";
@@ -10,4 +9,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ArrowsLeftRight";
-export { I as ArrowsLeftRight }
+export { I as ArrowsLeftRight };

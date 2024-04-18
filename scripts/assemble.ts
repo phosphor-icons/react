@@ -76,7 +76,7 @@ ${Object.entries(icon)
 
     let csrString = `
 /* GENERATED FILE */
-import { forwardRef } from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/${name}";
@@ -93,7 +93,7 @@ export { I as ${name}${
 
     let ssrString = `
 /* GENERATED FILE */
-import { forwardRef } from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/${name}";
