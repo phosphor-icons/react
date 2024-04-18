@@ -12,7 +12,7 @@ export default defineConfig({
       fileName: (format, name) => `${name}.${format === "umd" ? "cjs" : "mjs"}`,
     },
     rollupOptions: {
-      external: Object.keys(pkg.peerDependencies),
+      external: [...Object.keys(pkg.peerDependencies), "react/jsx-runtime"],
       input: "./src/index.ts",
       output: [
         {
