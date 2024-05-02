@@ -1,4 +1,5 @@
-> **ATTENTION:** As part of a major update, we will be replacing the existing `phosphor-react` package with `@phosphor-icons/react`. We recommend using this new version, as it has improved performance and a significantly smaller bundle size. No APIs have been changed, so drop-in replacement should be straightforward. The legacy package will continue to receive maintenance, but will not be updated with new icons upstream. [Take me to the legacy version ➜](https://github.com/phosphor-icons/react/tree/legacy)
+> [!IMPORTANT]
+> As part of a major update, we will be replacing the existing `phosphor-react` package with `@phosphor-icons/react`. We recommend using this new version, as it has improved performance and a significantly smaller bundle size. No APIs have been changed, so drop-in replacement should be straightforward. The legacy package will continue to receive maintenance, but will not be updated with new icons upstream. [Take me to the legacy version ➜](https://github.com/phosphor-icons/react/tree/legacy)
 
 <img src="/meta/phosphor-mark-tight-yellow.png" width="128" align="right" />
 
@@ -49,7 +50,8 @@ const MyServerComponent = () => {
 };
 ```
 
-> **Note**: These variants do not use React Context, and thus cannot inherit styles from an ancestor `IconContext`.
+> [!NOTE]
+> These variants do not use React Context, and thus cannot inherit styles from an ancestor `IconContext`.
 
 ### Props
 
@@ -90,9 +92,11 @@ const App = () => {
 
 You may create multiple Contexts for styling icons differently in separate regions of an application; icons use the nearest Context above them to determine their style.
 
-> **Note:** The context will also pass any provided SVG props down to icon instances, which can be useful E.G. in adding accessible `aria-label`s, `classNames`, etc.
+> [!NOTE]
+> The context will also pass any provided SVG props down to icon instances, which can be useful E.G. in adding accessible `aria-label`s, `classNames`, etc.
 
-> **Note**: React Context is not available in some environments. See [React Server Components and SSR](#react-server-components-and-ssr) for details.
+> [!NOTE]
+> React Context is not available in some environments. See [React Server Components and SSR](#react-server-components-and-ssr) for details.
 
 ### Composability
 
@@ -126,7 +130,8 @@ const RotatingCube = () => {
 };
 ```
 
-> **Note:** The coordinate space of slotted elements is relative to the contents of the icon `viewBox`, which is 256x256 square. Only [valid SVG elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#SVG_elements_by_category) will be rendered.
+> [!NOTE]
+> The coordinate space of slotted elements is relative to the contents of the icon `viewBox`, which is 256x256 square. Only [valid SVG elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#SVG_elements_by_category) will be rendered.
 
 ### Imports
 
@@ -176,7 +181,8 @@ CustomIcon.displayName = "CustomIcon";
 export default CustomIcon;
 ```
 
-> **NOTE:** If you have multiple child elements, wrap them in a `Fragment`. Typically our `duotone` icons have multiple elements, with the background layer at 20% opacity.
+> [!NOTE]
+> If you have multiple child elements, wrap them in a `Fragment`. Typically our `duotone` icons have multiple elements, with the background layer at 20% opacity.
 
 If Custom Icons are intended to be used in [React Server Components](#react-server-components-and-ssr), use `<SSRBase />` instead of `<IconBase />` as the render component.
 
