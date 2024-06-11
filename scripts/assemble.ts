@@ -10,6 +10,7 @@ import {
   SSR_PATH,
   DEFS_PATH,
   INDEX_PATH,
+  WEIGHTS,
   readAssetsFromDisk,
   verifyIcons,
   AssetMap,
@@ -69,19 +70,17 @@ import { IconWeight } from "../lib";
 
 export default new Map<IconWeight, ReactElement>([
 ${Object.entries(icon)
-  .map(([weight, path]) => `["${weight}", <>${path.trim()}</>]`)
+  .map(([weight, { jsx }]) => `["${weight}", <>${jsx.trim()}</>]`)
   .join(",")}
 ]);
 `;
 
     let doc = `
 /**
- * ${Object.entries(icon)
-   .map(
-     ([weight, path]) =>
-       `@${weight} ![img](data:image/svg+xml;base64,${Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256" fill="#000"><rect width="256" height="256" fill="#FFF" rx="40" ry="40"/>${path}</svg>`).toString("base64")})`
-   )
-   .join("\n * ")}
+ * ${WEIGHTS.map(
+   (weight) =>
+     `@${weight} ![img](data:image/svg+xml;base64,${icon[weight].preview})`
+ ).join("\n * ")}
  */`;
 
     let csrString = `
