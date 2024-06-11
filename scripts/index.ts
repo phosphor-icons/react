@@ -14,7 +14,14 @@ export const DEFS_PATH = path.join(__dirname, "../src/defs");
 export const CSR_PATH = path.join(__dirname, "../src/csr");
 export const SSR_PATH = path.join(__dirname, "../src/ssr");
 export const INDEX_PATH = path.join(__dirname, "../src/index.ts");
-export const WEIGHTS = Object.values(IconStyle);
+export const WEIGHTS = [
+  IconStyle.REGULAR,
+  IconStyle.THIN,
+  IconStyle.LIGHT,
+  IconStyle.BOLD,
+  IconStyle.FILL,
+  IconStyle.DUOTONE,
+] as const;
 
 export const ALIASES = icons.reduce<Record<string, string>>((acc, curr) => {
   if ((curr as any).alias) {
@@ -23,7 +30,10 @@ export const ALIASES = icons.reduce<Record<string, string>>((acc, curr) => {
   return acc;
 }, {});
 
-export type AssetMap = Record<string, Record<Core.IconStyle, string>>;
+export type AssetMap = Record<
+  string,
+  Record<Core.IconStyle, { preview: string; jsx: string }>
+>;
 
 export function readAssetsFromDisk(): AssetMap {
   const assetsFolder = fs.readdirSync(ASSETS_PATH, "utf-8");
@@ -53,12 +63,23 @@ export function readAssetsFromDisk(): AssetMap {
         icons[name] = {};
       }
       const filepath = path.join(ASSETS_PATH, weight, filename);
-      const file = fs.readFileSync(filepath);
-      icons[name][weight] = transformJSX(file.toString("utf-8"));
+      const file = fs.readFileSync(filepath).toString("utf-8");
+      icons[name][weight] = {
+        preview: generatePreview(file),
+        jsx: transformJSX(file),
+      };
     });
   });
 
   return icons;
+}
+
+function generatePreview(contents: string) {
+  const preview = contents.replace(
+    /<svg.*?>/g,
+    `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256" fill="#000"><rect width="256" height="256" fill="#FFF" rx="40" ry="40"/>`
+  );
+  return Buffer.from(preview).toString("base64");
 }
 
 function transformJSX(contents: string) {
