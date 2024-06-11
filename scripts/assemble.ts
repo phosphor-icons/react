@@ -74,6 +74,16 @@ ${Object.entries(icon)
 ]);
 `;
 
+    let doc = `
+/**
+ * ${Object.entries(icon)
+   .map(
+     ([weight, path]) =>
+       `@${weight} ![img](data:image/svg+xml;base64,${Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256" fill="#000"><rect width="256" height="256" fill="#FFF" rx="40" ry="40"/>${path}</svg>`).toString("base64")})`
+   )
+   .join("\n * ")}
+ */`;
+
     let csrString = `
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
@@ -81,6 +91,7 @@ import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/${name}";
 
+${doc}
 const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
@@ -98,6 +109,7 @@ import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/${name}";
 
+${doc}
 const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
