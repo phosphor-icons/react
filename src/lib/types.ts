@@ -1,4 +1,4 @@
-import { ComponentPropsWithRef } from "react";
+import { ComponentPropsWithoutRef, RefAttributes } from "react";
 
 export type IconWeight =
   | "thin"
@@ -8,7 +8,7 @@ export type IconWeight =
   | "fill"
   | "duotone";
 
-export interface IconProps extends ComponentPropsWithRef<"svg"> {
+export interface IconProps extends ComponentPropsWithoutRef<"svg">, RefAttributes<SVGSVGElement> {
   alt?: string;
   color?: string;
   size?: string | number;
