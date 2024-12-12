@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTk2LDY0YTgsOCwwLDAsMSwxNiwwVjgwYTgsOCwwLDAsMS0xNiwwWk02NCw5Nkg4MGE4LDgsMCwwLDEsMCwxNkg2NGE4LDgsMCwwLDEsMC0xNlptNjQuMDgsODUuNjYtNy4yMSw3LjIxYTM4LDM4LDAsMSwxLTUzLjc0LTUzLjc0bDcuMjEtNy4yMWE4LDgsMCwxLDEsMTEuMzIsMTEuMzFsLTcuMjIsNy4yMWEyMiwyMiwwLDAsMCwzMS4xMiwzMS4xMmw3LjIxLTcuMjJhOCw4LDAsMSwxLDExLjMxLDExLjMyWk0xNjAsMTkyYTgsOCwwLDAsMS0xNiwwVjE3NmE4LDgsMCwwLDEsMTYsMFptMzItMzJIMTc2YTgsOCwwLDAsMSwwLTE2aDE2YTgsOCwwLDAsMSwwLDE2Wm0tMy4xMy0zOS4xMy03LjIxLDcuMjFhOCw4LDAsMSwxLTExLjMyLTExLjMxbDcuMjItNy4yMWEyMiwyMiwwLDAsMC0zMS4xMi0zMS4xMmwtNy4yMSw3LjIyYTgsOCwwLDEsMS0xMS4zMS0xMS4zMmw3LjIxLTcuMjFhMzgsMzgsMCwxLDEsNTMuNzQsNTMuNzRaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM96,64a8,8,0,0,1,16,0V80a8,8,0,0,1-16,0ZM64,96H80a8,8,0,0,1,0,16H64a8,8,0,0,1,0-16Zm64.08,85.66-7.21,7.21a38,38,0,1,1-53.74-53.74l7.21-7.21a8,8,0,1,1,11.32,11.31l-7.22,7.21a22,22,0,0,0,31.12,31.12l7.21-7.22a8,8,0,1,1,11.31,11.32ZM160,192a8,8,0,0,1-16,0V176a8,8,0,0,1,16,0Zm32-32H176a8,8,0,0,1,0-16h16a8,8,0,0,1,0,16Zm-3.13-39.13-7.21,7.21a8,8,0,1,1-11.32-11.31l7.22-7.21a22,22,0,0,0-31.12-31.12l-7.21,7.22a8,8,0,1,1-11.31-11.32l7.21-7.21a38,38,0,1,1,53.74,53.74Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as LinkBreak };

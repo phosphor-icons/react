@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjUuOSw3NC43OCwxODEuMjEsMzAuMDlhMTQsMTQsMCwwLDAtMTkuOCwwTDM4LjEsMTUzLjQxYTEzLjk0LDEzLjk0LDAsMCwwLTQuMSw5LjlWMjA4YTE0LDE0LDAsMCwwLDE0LDE0SDkyLjY5YTEzLjk0LDEzLjk0LDAsMCwwLDkuOS00LjFMMjI1LjksOTQuNThhMTQsMTQsMCwwLDAsMC0xOS44Wk05NC4xLDIwOS40MWEyLDIsMCwwLDEtMS40MS41OUg0OGEyLDIsMCwwLDEtMi0yVjE2My4zMWEyLDIsMCwwLDEsLjU5LTEuNDFMMTM2LDcyLjQ4LDE4My41MSwxMjBaTTIxNy40MSw4Ni4xLDE5MiwxMTEuNTEsMTQ0LjQ5LDY0LDE2OS45LDM4LjU4YTIsMiwwLDAsMSwyLjgzLDBsNDQuNjgsNDQuNjlhMiwyLDAsMCwxLDAsMi44M1oiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M225.9,74.78,181.21,30.09a14,14,0,0,0-19.8,0L38.1,153.41a13.94,13.94,0,0,0-4.1,9.9V208a14,14,0,0,0,14,14H92.69a13.94,13.94,0,0,0,9.9-4.1L225.9,94.58a14,14,0,0,0,0-19.8ZM94.1,209.41a2,2,0,0,1-1.41.59H48a2,2,0,0,1-2-2V163.31a2,2,0,0,1,.59-1.41L136,72.48,183.51,120ZM217.41,86.1,192,111.51,144.49,64,169.9,38.58a2,2,0,0,1,2.83,0l44.68,44.69a2,2,0,0,1,0,2.83Z" />
+  </OptiBase>
+));
+
+I.displayName = "Light";
+export { I as PencilSimple };

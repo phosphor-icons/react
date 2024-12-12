@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNzRhNTAuMDYsNTAuMDYsMCwwLDEtNTAtNTAsNiw2LDAsMCwwLTYtNkgxMjhhNiw2LDAsMCwwLTYsNlYxNTZhMjIsMjIsMCwxLDEtMzEuNDMtMTkuODlBNiw2LDAsMCwwLDk0LDEzMC42OVY4OGE2LDYsMCwwLDAtNy01LjkxQzUyLjIsODguMjgsMjYsMTIwLjA1LDI2LDE1NmE3NCw3NCwwLDAsMCwxNDgsMFYxMTIuOTNBMTAxLjI4LDEwMS4yOCwwLDAsMCwyMjQsMTI2YTYsNiwwLDAsMCw2LTZWODBBNiw2LDAsMCwwLDIyNCw3NFptLTYsMzkuOGE4OS4xMyw4OS4xMywwLDAsMS00Ni41LTE2LjY5QTYsNiwwLDAsMCwxNjIsMTAydjU0YTYyLDYyLDAsMCwxLTEyNCwwYzAtMjcuNzIsMTguNDctNTIuNDgsNDQtNjAuMzh2MzEuNTNBMzQsMzQsMCwxLDAsMTM0LDE1NlYzMGgyOC4yOUE2Mi4wOSw2Mi4wOSwwLDAsMCwyMTgsODUuNzFaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M224,74a50.06,50.06,0,0,1-50-50,6,6,0,0,0-6-6H128a6,6,0,0,0-6,6V156a22,22,0,1,1-31.43-19.89A6,6,0,0,0,94,130.69V88a6,6,0,0,0-7-5.91C52.2,88.28,26,120.05,26,156a74,74,0,0,0,148,0V112.93A101.28,101.28,0,0,0,224,126a6,6,0,0,0,6-6V80A6,6,0,0,0,224,74Zm-6,39.8a89.13,89.13,0,0,1-46.5-16.69A6,6,0,0,0,162,102v54a62,62,0,0,1-124,0c0-27.72,18.47-52.48,44-60.38v31.53A34,34,0,1,0,134,156V30h28.29A62.09,62.09,0,0,0,218,85.71Z" />
+  </OptiBase>
+));
+
+I.displayName = "Light";
+export { I as TiktokLogo };

@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTI4YTEwNC4xNiwxMDQuMTYsMCwwLDEtOTEuNTUsMTAzLjI2LDQsNCwwLDAsMS00LjQ1LTRWMTUyaDI0YTgsOCwwLDAsMCw4LTguNTMsOC4xNyw4LjE3LDAsMCwwLTguMjUtNy40N0gxMzZWMTEyYTE2LDE2LDAsMCwxLDE2LTE2aDE2YTgsOCwwLDAsMCw4LTguNTNBOC4xNyw4LjE3LDAsMCwwLDE2Ny43Myw4MEgxNTJhMzIsMzIsMCwwLDAtMzIsMzJ2MjRIOTZhOCw4LDAsMCwwLTgsOC41M0E4LjE3LDguMTcsMCwwLDAsOTYuMjcsMTUySDEyMHY3NS4yOGE0LDQsMCwwLDEtNC40NCw0QTEwNC4xNSwxMDQuMTUsMCwwLDEsMjQuMDcsMTI0LjA5YzItNTQsNDUuNzQtOTcuOSw5OS43OC0xMDBBMTA0LjEyLDEwNC4xMiwwLDAsMSwyMzIsMTI4WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M232,128a104.16,104.16,0,0,1-91.55,103.26,4,4,0,0,1-4.45-4V152h24a8,8,0,0,0,8-8.53,8.17,8.17,0,0,0-8.25-7.47H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,8-8.53A8.17,8.17,0,0,0,167.73,80H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0-8,8.53A8.17,8.17,0,0,0,96.27,152H120v75.28a4,4,0,0,1-4.44,4A104.15,104.15,0,0,1,24.07,124.09c2-54,45.74-97.9,99.78-100A104.12,104.12,0,0,1,232,128Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as FacebookLogo };

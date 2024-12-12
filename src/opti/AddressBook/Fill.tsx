@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsMTEyYTI0LDI0LDAsMSwxLTI0LTI0QTI0LDI0LDAsMCwxLDE2MCwxMTJabTY0LTcyVjIxNmExNiwxNiwwLDAsMS0xNiwxNkg2NGExNiwxNiwwLDAsMS0xNi0xNlYxOTJIMzJhOCw4LDAsMCwxLDAtMTZINDhWMTM2SDMyYTgsOCwwLDAsMSwwLTE2SDQ4VjgwSDMyYTgsOCwwLDAsMSwwLTE2SDQ4VjQwQTE2LDE2LDAsMCwxLDY0LDI0SDIwOEExNiwxNiwwLDAsMSwyMjQsNDBaTTE5MC40LDE2My4yQTY3Ljg4LDY3Ljg4LDAsMCwwLDE2MywxNDEuNTFhNDAsNDAsMCwxLDAtNTMuOTQsMEE2Ny44OCw2Ny44OCwwLDAsMCw4MS42LDE2My4yYTgsOCwwLDEsMCwxMi44LDkuNiw1Miw1MiwwLDAsMSw4My4yLDAsOCw4LDAsMSwwLDEyLjgtOS42WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M160,112a24,24,0,1,1-24-24A24,24,0,0,1,160,112Zm64-72V216a16,16,0,0,1-16,16H64a16,16,0,0,1-16-16V192H32a8,8,0,0,1,0-16H48V136H32a8,8,0,0,1,0-16H48V80H32a8,8,0,0,1,0-16H48V40A16,16,0,0,1,64,24H208A16,16,0,0,1,224,40ZM190.4,163.2A67.88,67.88,0,0,0,163,141.51a40,40,0,1,0-53.94,0A67.88,67.88,0,0,0,81.6,163.2a8,8,0,1,0,12.8,9.6,52,52,0,0,1,83.2,0,8,8,0,1,0,12.8-9.6Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as AddressBook };

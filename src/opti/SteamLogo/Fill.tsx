@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzEuOTIsMTMyLjExYy0yLjA5LDU0LTQ1LjgzLDk3LjcyLTk5LjgxLDk5LjgxQTEwNC4wNiwxMDQuMDYsMCwwLDEsMjUuNiwxMDkuNzZhNCw0LDAsMCwxLDYuNzctMi4wOGw0Myw0M2EyOCwyOCwwLDAsMCw0Mi40MiwzNC45Mmw2MS4xLTQ5Ljg0YTM2LDM2LDAsMSwwLTUwLjcxLTUwLjY1bC00Myw1Mi43NEwzNSw4Ny42N2E0LDQsMCwwLDEtLjc2LTQuNiwxMDQsMTA0LDAsMCwxLDE5Ny43LDQ5Wk0xMjEuNTgsMTE4LjU1LDkwLjc3LDE1Ni4zM0ExMS44MywxMS44MywwLDAsMCw4OCwxNjMuMTksMTIuMTksMTIuMTksMCwwLDAsOTkuODUsMTc2YTExLjg0LDExLjg0LDAsMCwwLDcuNzgtMi43NGwwLDAsMzcuNzgtMzAuODFBMzYuMTgsMzYuMTgsMCwwLDEsMTIxLjU4LDExOC41NVpNMTc1LjksMTEwQTIwLDIwLDAsMSwwLDE1OCwxMjcuOSwyMCwyMCwwLDAsMCwxNzUuOSwxMTBaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M231.92,132.11c-2.09,54-45.83,97.72-99.81,99.81A104.06,104.06,0,0,1,25.6,109.76a4,4,0,0,1,6.77-2.08l43,43a28,28,0,0,0,42.42,34.92l61.1-49.84a36,36,0,1,0-50.71-50.65l-43,52.74L35,87.67a4,4,0,0,1-.76-4.6,104,104,0,0,1,197.7,49ZM121.58,118.55,90.77,156.33A11.83,11.83,0,0,0,88,163.19,12.19,12.19,0,0,0,99.85,176a11.84,11.84,0,0,0,7.78-2.74l0,0,37.78-30.81A36.18,36.18,0,0,1,121.58,118.55ZM175.9,110A20,20,0,1,0,158,127.9,20,20,0,0,0,175.9,110Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as SteamLogo };

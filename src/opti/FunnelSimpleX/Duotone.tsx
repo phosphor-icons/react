@@ -1,0 +1,21 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNTZWMjAwYTE2LDE2LDAsMCwxLTE2LDE2aC04bC0xNi0xNi0xNiwxNkg0MGExNiwxNiwwLDAsMS0xNi0xNlY1NkExNiwxNiwwLDAsMSw0MCw0MEgyMTZBMTYsMTYsMCwwLDEsMjMyLDU2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTE5MiwxNDRINjRhOCw4LDAsMCwxLDAtMTZIMTkyYTgsOCwwLDAsMSwwLDE2Wm00MC02NEgyNGE4LDgsMCwwLDAsMCwxNkgyMzJhOCw4LDAsMCwwLDAtMTZaTTEyOCwxNzZIMTA0YTgsOCwwLDAsMCwwLDE2aDI0YTgsOCwwLDAsMCwwLTE2Wm05My42Ni01LjY2YTgsOCwwLDAsMC0xMS4zMiwwTDE5MiwxODguNjlsLTE4LjM0LTE4LjM1YTgsOCwwLDAsMC0xMS4zMiwxMS4zMkwxODAuNjksMjAwbC0xOC4zNSwxOC4zNGE4LDgsMCwwLDAsMTEuMzIsMTEuMzJMMTkyLDIxMS4zMWwxOC4zNCwxOC4zNWE4LDgsMCwwLDAsMTEuMzItMTEuMzJMMjAzLjMxLDIwMGwxOC4zNS0xOC4zNEE4LDgsMCwwLDAsMjIxLjY2LDE3MC4zNFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path
+      d="M232,56V200a16,16,0,0,1-16,16h-8l-16-16-16,16H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56Z"
+      opacity="0.2"
+    />
+    <path d="M192,144H64a8,8,0,0,1,0-16H192a8,8,0,0,1,0,16Zm40-64H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16ZM128,176H104a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Zm93.66-5.66a8,8,0,0,0-11.32,0L192,188.69l-18.34-18.35a8,8,0,0,0-11.32,11.32L180.69,200l-18.35,18.34a8,8,0,0,0,11.32,11.32L192,211.31l18.34,18.35a8,8,0,0,0,11.32-11.32L203.31,200l18.35-18.34A8,8,0,0,0,221.66,170.34Z" />
+  </OptiBase>
+));
+
+I.displayName = "Duotone";
+export { I as FunnelSimpleX };

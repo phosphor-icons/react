@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODAuOCwxNjkuNiwxMjUuMzMsMTI4bDIzLjQ3LTE3LjZhOCw4LDAsMCwwLTkuNi0xMi44TDEyMCwxMTJWNDhsMTkuMiwxNC40YTgsOCwwLDEsMCw5LjYtMTIuOGwtMzItMjRBOCw4LDAsMCwwLDEwNCwzMnY4MEw1Mi44LDczLjZhOCw4LDAsMCwwLTkuNiwxMi44TDk4LjY3LDEyOCw0My4yLDE2OS42YTgsOCwwLDEsMCw5LjYsMTIuOEwxMDQsMTQ0djgwYTgsOCwwLDAsMCwxMi44LDYuNGw2NC00OGE4LDgsMCwwLDAsMC0xMi44Wk0xMjAsMjA4VjE0NGw0Mi42NywzMlpNMjM3LjY2LDk4LjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMkwyMDgsOTEuMzFsLTE4LjM0LDE4LjM1YTgsOCwwLDAsMS0xMS4zMi0xMS4zMkwxOTYuNjksODAsMTc4LjM0LDYxLjY2YTgsOCwwLDAsMSwxMS4zMi0xMS4zMkwyMDgsNjguNjlsMTguMzQtMTguMzVhOCw4LDAsMCwxLDExLjMyLDExLjMyTDIxOS4zMSw4MFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M180.8,169.6,125.33,128l23.47-17.6a8,8,0,0,0-9.6-12.8L120,112V48l19.2,14.4a8,8,0,1,0,9.6-12.8l-32-24A8,8,0,0,0,104,32v80L52.8,73.6a8,8,0,0,0-9.6,12.8L98.67,128,43.2,169.6a8,8,0,1,0,9.6,12.8L104,144v80a8,8,0,0,0,12.8,6.4l64-48a8,8,0,0,0,0-12.8ZM120,208V144l42.67,32ZM237.66,98.34a8,8,0,0,1-11.32,11.32L208,91.31l-18.34,18.35a8,8,0,0,1-11.32-11.32L196.69,80,178.34,61.66a8,8,0,0,1,11.32-11.32L208,68.69l18.34-18.35a8,8,0,0,1,11.32,11.32L219.31,80Z" />
+  </OptiBase>
+));
+
+I.displayName = "Regular";
+export { I as BluetoothX };

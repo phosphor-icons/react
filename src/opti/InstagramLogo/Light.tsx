@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsODJhNDYsNDYsMCwxLDAsNDYsNDZBNDYuMDYsNDYuMDYsMCwwLDAsMTI4LDgyWm0wLDgwYTM0LDM0LDAsMSwxLDM0LTM0QTM0LDM0LDAsMCwxLDEyOCwxNjJaTTE3NiwyNkg4MEE1NC4wNiw1NC4wNiwwLDAsMCwyNiw4MHY5NmE1NC4wNiw1NC4wNiwwLDAsMCw1NCw1NGg5NmE1NC4wNiw1NC4wNiwwLDAsMCw1NC01NFY4MEE1NC4wNiw1NC4wNiwwLDAsMCwxNzYsMjZabTQyLDE1MGE0Miw0MiwwLDAsMS00Miw0Mkg4MGE0Miw0MiwwLDAsMS00Mi00MlY4MEE0Miw0MiwwLDAsMSw4MCwzOGg5NmE0Miw0MiwwLDAsMSw0Miw0MlpNMTkwLDc2YTEwLDEwLDAsMSwxLTEwLTEwQTEwLDEwLDAsMCwxLDE5MCw3NloiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M128,82a46,46,0,1,0,46,46A46.06,46.06,0,0,0,128,82Zm0,80a34,34,0,1,1,34-34A34,34,0,0,1,128,162ZM176,26H80A54.06,54.06,0,0,0,26,80v96a54.06,54.06,0,0,0,54,54h96a54.06,54.06,0,0,0,54-54V80A54.06,54.06,0,0,0,176,26Zm42,150a42,42,0,0,1-42,42H80a42,42,0,0,1-42-42V80A42,42,0,0,1,80,38h96a42,42,0,0,1,42,42ZM190,76a10,10,0,1,1-10-10A10,10,0,0,1,190,76Z" />
+  </OptiBase>
+));
+
+I.displayName = "Light";
+export { I as InstagramLogo };

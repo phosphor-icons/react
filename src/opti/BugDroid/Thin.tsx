@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODYuMTcsNTEuNDlsMTYuNjYtMTYuNjZhNCw0LDAsMSwwLTUuNjYtNS42NmwtMTcsMTdhODMuNzIsODMuNzIsMCwwLDAtMTA0LjI2LDBsLTE3LTE3YTQsNCwwLDAsMC01LjY2LDUuNjZMNjkuODMsNTEuNDlBODMuNzUsODMuNzUsMCwwLDAsNDQsMTEydjQwYTg0LDg0LDAsMCwwLDE2OCwwVjExMkE4My43NSw4My43NSwwLDAsMCwxODYuMTcsNTEuNDlaTTEyOCwzNmE3Ni4wOCw3Ni4wOCwwLDAsMSw3Niw3NnYxMkg1MlYxMTJBNzYuMDgsNzYuMDgsMCwwLDEsMTI4LDM2Wm0wLDE5MmE3Ni4wOCw3Ni4wOCwwLDAsMS03Ni03NlYxMzJIMjA0djIwQTc2LjA4LDc2LjA4LDAsMCwxLDEyOCwyMjhaTTE0OCw5MmE4LDgsMCwxLDEsOCw4QTgsOCwwLDAsMSwxNDgsOTJaTTkyLDkyYTgsOCwwLDEsMSw4LDhBOCw4LDAsMCwxLDkyLDkyWiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M186.17,51.49l16.66-16.66a4,4,0,1,0-5.66-5.66l-17,17a83.72,83.72,0,0,0-104.26,0l-17-17a4,4,0,0,0-5.66,5.66L69.83,51.49A83.75,83.75,0,0,0,44,112v40a84,84,0,0,0,168,0V112A83.75,83.75,0,0,0,186.17,51.49ZM128,36a76.08,76.08,0,0,1,76,76v12H52V112A76.08,76.08,0,0,1,128,36Zm0,192a76.08,76.08,0,0,1-76-76V132H204v20A76.08,76.08,0,0,1,128,228ZM148,92a8,8,0,1,1,8,8A8,8,0,0,1,148,92ZM92,92a8,8,0,1,1,8,8A8,8,0,0,1,92,92Z" />
+  </OptiBase>
+));
+
+I.displayName = "Thin";
+export { I as BugDroid };

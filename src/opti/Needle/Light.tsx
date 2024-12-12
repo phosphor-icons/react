@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODguMjQsNjcuNzZhNiw2LDAsMCwxLDAsOC40OGwtMTYsMTZhNiw2LDAsMCwxLTguNDgtOC40OGwxNi0xNkE2LDYsMCwwLDEsMTg4LjI0LDY3Ljc2Wk0yMjIsNzJhMzcuNzQsMzcuNzQsMCwwLDEtMTEuMTMsMjYuODdsLTI0LDI0YTYsNiwwLDAsMS0zLjIzLDEuNjdjLTUyLjE0LDktMTM4LjUzLDk0Ljg0LTEzOS40LDk1LjdhNS44MSw1LjgxLDAsMCwxLTEuODIsMS4yNWgwQTYuMTIsNi4xMiwwLDAsMSw0MCwyMjJhNiw2LDAsMCwxLTQuMjQtMTAuMjRoMGMxLjQtMS40MSw4Ni43OC04Ny40NCw5NS42OS0xMzkuMzlhNiw2LDAsMCwxLDEuNjctMy4yM2wyNC0yNEEzOCwzOCwwLDAsMSwyMjIsNzJabS0xMiwwYTI2LDI2LDAsMCwwLTQ0LjM4LTE4LjM4TDE0Mi45Myw3Ni4zYy00LjE0LDIwLjc5LTE4LjYyLDQ3LjYxLTQzLjEzLDc5LjksMzIuMjktMjQuNTEsNTkuMTEtMzksNzkuOS00My4xM2wyMi42OC0yMi42OUEyNS43OSwyNS43OSwwLDAsMCwyMTAsNzJaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M188.24,67.76a6,6,0,0,1,0,8.48l-16,16a6,6,0,0,1-8.48-8.48l16-16A6,6,0,0,1,188.24,67.76ZM222,72a37.74,37.74,0,0,1-11.13,26.87l-24,24a6,6,0,0,1-3.23,1.67c-52.14,9-138.53,94.84-139.4,95.7a5.81,5.81,0,0,1-1.82,1.25h0A6.12,6.12,0,0,1,40,222a6,6,0,0,1-4.24-10.24h0c1.4-1.41,86.78-87.44,95.69-139.39a6,6,0,0,1,1.67-3.23l24-24A38,38,0,0,1,222,72Zm-12,0a26,26,0,0,0-44.38-18.38L142.93,76.3c-4.14,20.79-18.62,47.61-43.13,79.9,32.29-24.51,59.11-39,79.9-43.13l22.68-22.69A25.79,25.79,0,0,0,210,72Z" />
+  </OptiBase>
+));
+
+I.displayName = "Light";
+export { I as Needle };

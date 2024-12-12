@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNzZIMTYwYTM2LDM2LDAsMCwwLTMyLDE5LjU0QTM2LDM2LDAsMCwwLDk2LDc2SDI0YTQsNCwwLDAsMC00LDRWMjAwYTQsNCwwLDAsMCw0LDRIOTZhMjgsMjgsMCwwLDEsMjgsMjgsNCw0LDAsMCwwLDgsMCwyOCwyOCwwLDAsMSwyOC0yOGg3MmE0LDQsMCwwLDAsNC00VjgwQTQsNCwwLDAsMCwyMzIsNzZaTTk2LDE5NkgyOFY4NEg5NmEyOCwyOCwwLDAsMSwyOCwyOHY5Ny40QTM1LjkzLDM1LjkzLDAsMCwwLDk2LDE5NlptMTMyLDBIMTYwYTM1Ljk0LDM1Ljk0LDAsMCwwLTI4LDEzLjQxVjExMmEyOCwyOCwwLDAsMSwyOC0yOGg2OFpNOTIuOCw0NS42YTQ0LDQ0LDAsMCwxLDcwLjQsMCw0LDQsMCwwLDEtNi40LDQuOCwzNiwzNiwwLDAsMC01Ny42LDAsNCw0LDAsMSwxLTYuNC00LjhaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M232,76H160a36,36,0,0,0-32,19.54A36,36,0,0,0,96,76H24a4,4,0,0,0-4,4V200a4,4,0,0,0,4,4H96a28,28,0,0,1,28,28,4,4,0,0,0,8,0,28,28,0,0,1,28-28h72a4,4,0,0,0,4-4V80A4,4,0,0,0,232,76ZM96,196H28V84H96a28,28,0,0,1,28,28v97.4A35.93,35.93,0,0,0,96,196Zm132,0H160a35.94,35.94,0,0,0-28,13.41V112a28,28,0,0,1,28-28h68ZM92.8,45.6a44,44,0,0,1,70.4,0,4,4,0,0,1-6.4,4.8,36,36,0,0,0-57.6,0,4,4,0,1,1-6.4-4.8Z" />
+  </OptiBase>
+));
+
+I.displayName = "Thin";
+export { I as BookOpenUser };

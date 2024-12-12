@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMzZIMTY4YTEyLDEyLDAsMCwwLTguODIsMy44Nkw2Ni43NSwxNDBIMzJhMjAsMjAsMCwwLDAtMjAsMjB2NDBhMjAsMjAsMCwwLDAsMjAsMjBIODhhMTIsMTIsMCwwLDAsOC44Mi0zLjg2TDE4OS4yNSwxMTZIMjI0YTIwLDIwLDAsMCwwLDIwLTIwVjU2QTIwLDIwLDAsMCwwLDIyNCwzNlptLTQsNTZIMTg0YTEyLDEyLDAsMCwwLTguODIsMy44Nkw4Mi43NSwxOTZIMzZWMTY0SDcyYTEyLDEyLDAsMCwwLDguODItMy44NkwxNzMuMjUsNjBIMjIwWm0xMi40OSw3NS41MWExMiwxMiwwLDAsMS0xNywxN0wyMTIsMTgxdjI3YTEyLDEyLDAsMCwxLTI0LDBWMTgxbC0zLjUxLDMuNTJhMTIsMTIsMCwwLDEtMTctMTdsMjQtMjRhMTIsMTIsMCwwLDEsMTcsMFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M224,36H168a12,12,0,0,0-8.82,3.86L66.75,140H32a20,20,0,0,0-20,20v40a20,20,0,0,0,20,20H88a12,12,0,0,0,8.82-3.86L189.25,116H224a20,20,0,0,0,20-20V56A20,20,0,0,0,224,36Zm-4,56H184a12,12,0,0,0-8.82,3.86L82.75,196H36V164H72a12,12,0,0,0,8.82-3.86L173.25,60H220Zm12.49,75.51a12,12,0,0,1-17,17L212,181v27a12,12,0,0,1-24,0V181l-3.51,3.52a12,12,0,0,1-17-17l24-24a12,12,0,0,1,17,0Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as EscalatorUp };

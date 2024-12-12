@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjQuNDksMTYzLjUxYTEyLDEyLDAsMSwxLTE3LDBBMTIsMTIsMCwwLDEsMTY0LjQ5LDE2My41MVptLTgxLThhMTIsMTIsMCwxLDAsMTcsMEExMiwxMiwwLDAsMCw4My41MSwxNTUuNTFabTktMzlhMTIsMTIsMCwxLDAtMTcsMEExMiwxMiwwLDAsMCw5Mi40OSwxMTYuNDlabTQ4LTFhMTIsMTIsMCwxLDAsMCwxN0ExMiwxMiwwLDAsMCwxNDAuNDksMTE1LjUxWk0yMzIsMTI4QTEwNCwxMDQsMCwxLDEsMTI4LDI0YTgsOCwwLDAsMSw4LDgsNDAsNDAsMCwwLDAsNDAsNDAsOCw4LDAsMCwxLDgsOCw0MCw0MCwwLDAsMCw0MCw0MEE4LDgsMCwwLDEsMjMyLDEyOFptLTE2LjMxLDcuMzlBNTYuMTMsNTYuMTMsMCwwLDEsMTY4LjUsODcuNWE1Ni4xMyw1Ni4xMywwLDAsMS00Ny44OS00Ny4xOSw4OCw4OCwwLDEsMCw5NS4wOCw5NS4wOFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M164.49,163.51a12,12,0,1,1-17,0A12,12,0,0,1,164.49,163.51Zm-81-8a12,12,0,1,0,17,0A12,12,0,0,0,83.51,155.51Zm9-39a12,12,0,1,0-17,0A12,12,0,0,0,92.49,116.49Zm48-1a12,12,0,1,0,0,17A12,12,0,0,0,140.49,115.51ZM232,128A104,104,0,1,1,128,24a8,8,0,0,1,8,8,40,40,0,0,0,40,40,8,8,0,0,1,8,8,40,40,0,0,0,40,40A8,8,0,0,1,232,128Zm-16.31,7.39A56.13,56.13,0,0,1,168.5,87.5a56.13,56.13,0,0,1-47.89-47.19,88,88,0,1,0,95.08,95.08Z" />
+  </OptiBase>
+));
+
+I.displayName = "Regular";
+export { I as Cookie };

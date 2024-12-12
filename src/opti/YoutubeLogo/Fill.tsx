@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzQuMzMsNjkuNTJhMjQsMjQsMCwwLDAtMTQuNDktMTYuNEMxODUuNTYsMzkuODgsMTMxLDQwLDEyOCw0MHMtNTcuNTYtLjEyLTkxLjg0LDEzLjEyYTI0LDI0LDAsMCwwLTE0LjQ5LDE2LjRDMTkuMDgsNzkuNSwxNiw5Ny43NCwxNiwxMjhzMy4wOCw0OC41LDUuNjcsNTguNDhhMjQsMjQsMCwwLDAsMTQuNDksMTYuNDFDNjksMjE1LjU2LDEyMC40LDIxNiwxMjcuMzQsMjE2aDEuMzJjNi45NCwwLDU4LjM3LS40NCw5MS4xOC0xMy4xMWEyNCwyNCwwLDAsMCwxNC40OS0xNi40MWMyLjU5LTEwLDUuNjctMjguMjIsNS42Ny01OC40OFMyMzYuOTIsNzkuNSwyMzQuMzMsNjkuNTJabS03My43NCw2NS00MCwyOEE4LDgsMCwwLDEsMTA4LDE1NlYxMDBhOCw4LDAsMCwxLDEyLjU5LTYuNTVsNDAsMjhhOCw4LDAsMCwxLDAsMTMuMVoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-73.74,65-40,28A8,8,0,0,1,108,156V100a8,8,0,0,1,12.59-6.55l40,28a8,8,0,0,1,0,13.1Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as YoutubeLogo };

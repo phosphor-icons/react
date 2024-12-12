@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTEuNzcsNzNhOCw4LDAsMCwwLTguMjEuMzlMMjA4LDk3LjA1VjcyYTE2LDE2LDAsMCwwLTE2LTE2SDExMy4wNmE4LDgsMCwwLDAsMCwxNkgxOTJ2ODcuNjNhOCw4LDAsMCwwLDE2LDBWMTU5bDM1LjU2LDIzLjcxQTgsOCwwLDAsMCwyNDgsMTg0YTgsOCwwLDAsMCw4LThWODBBOCw4LDAsMCwwLDI1MS43Nyw3M1pNMjQwLDE2MS4wNWwtMzItMjEuMzNWMTE2LjI4TDI0MCw5NVpNNTMuOTIsMzQuNjJBOCw4LDAsMSwwLDQyLjA4LDQ1LjM4TDUxLjczLDU2SDMyQTE2LDE2LDAsMCwwLDE2LDcyVjE4NGExNiwxNiwwLDAsMCwxNiwxNkgxODIuNjRsMTkuNDQsMjEuMzhhOCw4LDAsMSwwLDExLjg0LTEwLjc2Wk0zMiwxODRWNzJINjYuMjhMMTY4LjEsMTg0WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M251.77,73a8,8,0,0,0-8.21.39L208,97.05V72a16,16,0,0,0-16-16H113.06a8,8,0,0,0,0,16H192v87.63a8,8,0,0,0,16,0V159l35.56,23.71A8,8,0,0,0,248,184a8,8,0,0,0,8-8V80A8,8,0,0,0,251.77,73ZM240,161.05l-32-21.33V116.28L240,95ZM53.92,34.62A8,8,0,1,0,42.08,45.38L51.73,56H32A16,16,0,0,0,16,72V184a16,16,0,0,0,16,16H182.64l19.44,21.38a8,8,0,1,0,11.84-10.76ZM32,184V72H66.28L168.1,184Z" />
+  </OptiBase>
+));
+
+I.displayName = "Regular";
+export { I as VideoCameraSlash };

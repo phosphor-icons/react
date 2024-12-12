@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMjZINzJBMzgsMzgsMCwwLDAsMzQsNjR2NzJhMjIsMjIsMCwwLDAsMjIsMjJoNDhhMiwyLDAsMCwxLDIsMi4yM0w5OC4wOCwyMDdhNi43NCw2Ljc0LDAsMCwwLS4wOCwxLDMwLDMwLDAsMCwwLDYwLDAsNi43NCw2Ljc0LDAsMCwwLS4wOC0xTDE1MCwxNjAuMjNhMiwyLDAsMCwxLDItMi4yM2g0OGEyMiwyMiwwLDAsMCwyMi0yMlYzMkE2LDYsMCwwLDAsMjE2LDI2Wk03MiwzOEgxNzhWODBhNiw2LDAsMCwwLDEyLDBWMzhoMjB2NjhINDZWNjRBMjYsMjYsMCwwLDEsNzIsMzhaTTIwMCwxNDZIMTUyYTE0LDE0LDAsMCwwLTEzLjg2LDE2bDAsLjE1TDE0NiwyMDguNDdhMTgsMTgsMCwwLDEtMzYsMGw3LjgyLTQ2LjM0LDAtLjE1QTE0LDE0LDAsMCwwLDEwNCwxNDZINTZhMTAsMTAsMCwwLDEtMTAtMTBWMTE4SDIxMHYxOEExMCwxMCwwLDAsMSwyMDAsMTQ2WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M216,26H72A38,38,0,0,0,34,64v72a22,22,0,0,0,22,22h48a2,2,0,0,1,2,2.23L98.08,207a6.74,6.74,0,0,0-.08,1,30,30,0,0,0,60,0,6.74,6.74,0,0,0-.08-1L150,160.23a2,2,0,0,1,2-2.23h48a22,22,0,0,0,22-22V32A6,6,0,0,0,216,26ZM72,38H178V80a6,6,0,0,0,12,0V38h20v68H46V64A26,26,0,0,1,72,38ZM200,146H152a14,14,0,0,0-13.86,16l0,.15L146,208.47a18,18,0,0,1-36,0l7.82-46.34,0-.15A14,14,0,0,0,104,146H56a10,10,0,0,1-10-10V118H210v18A10,10,0,0,1,200,146Z" />
+  </OptiBase>
+));
+
+I.displayName = "Light";
+export { I as PaintBrushBroad };

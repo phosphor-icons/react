@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzZIMTcwLjMyYTQ0LDQ0LDAsMCwwLTg0LjY0LDBINDhhMTIsMTIsMCwwLDAsMCwyNEg4NS42OGE0My44OSw0My44OSwwLDAsMCw5LDE2LjczQTY4LDY4LDAsMCwwLDYwLDEzNnY2NGEyMCwyMCwwLDAsMCwyMCwyMEg5NmEzMiwzMiwwLDAsMCw2NCwwaDE2YTIwLDIwLDAsMCwwLDIwLTIwVjEzNmE2OCw2OCwwLDAsMC0zNC43Mi01OS4yNyw0My44OSw0My44OSwwLDAsMCw5LTE2LjczSDIwOGExMiwxMiwwLDAsMCwwLTI0Wk0xMzYsMjIwYTgsOCwwLDAsMS0xNiwwVjE2NGE4LDgsMCwwLDEsMTYsMFptMzYtMjRIMTYwVjE2NGEzMiwzMiwwLDAsMC02NCwwdjMySDg0VjEzNmE0NCw0NCwwLDAsMSw4OCwwWk0xMDgsNDhhMjAsMjAsMCwxLDEsMjAsMjBBMjAsMjAsMCwwLDEsMTA4LDQ4WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M208,36H170.32a44,44,0,0,0-84.64,0H48a12,12,0,0,0,0,24H85.68a43.89,43.89,0,0,0,9,16.73A68,68,0,0,0,60,136v64a20,20,0,0,0,20,20H96a32,32,0,0,0,64,0h16a20,20,0,0,0,20-20V136a68,68,0,0,0-34.72-59.27,43.89,43.89,0,0,0,9-16.73H208a12,12,0,0,0,0-24ZM136,220a8,8,0,0,1-16,0V164a8,8,0,0,1,16,0Zm36-24H160V164a32,32,0,0,0-64,0v32H84V136a44,44,0,0,1,88,0ZM108,48a20,20,0,1,1,20,20A20,20,0,0,1,108,48Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as MopedFront };

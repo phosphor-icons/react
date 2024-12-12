@@ -8,7 +8,9 @@ export type IconWeight =
   | "fill"
   | "duotone";
 
-export interface IconProps extends ComponentPropsWithoutRef<"svg">, RefAttributes<SVGSVGElement> {
+export interface IconProps
+  extends ComponentPropsWithoutRef<"svg">,
+    RefAttributes<SVGSVGElement> {
   alt?: string;
   color?: string;
   size?: string | number;

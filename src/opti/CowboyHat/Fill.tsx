@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTIwYTgsOCwwLDAsMC02Ljc4LDMuNzZBMTc5LjksMTc5LjksMCwwLDEsMTk1LjQxLDE0M2wtMS42My04LjU3djBMMTc4LjMyLDUzLjA3YTE2LDE2LDAsMCwwLTI1LjcyLTkuNTVsLS4xMy4xTDEyOCw2NCwxMDMuNTMsNDMuNjJsLS4xMy0uMWExNiwxNiwwLDAsMC0yNS43Miw5LjUzTDYyLjIzLDEzNC4zOHYwTDYwLjU5LDE0M2ExNzkuMjcsMTc5LjI3LDAsMCwxLTEzLjgxLTE5LjI1QTgsOCwwLDAsMCw0MCwxMjBhNDAsNDAsMCwwLDAsMCw4MEgyMTZhNDAsNDAsMCwwLDAsMC04MFpNNzYuNjgsMTQ0SDE3OS4zMWwyLjU0LDEzLjM1YTExMy4yOCwxMTMuMjgsMCwwLDEtMjcuMzUsMTlDMTM5LjEsMTgzLjc3LDEyOC4wNiwxODQsMTI4LDE4NGMtLjMzLDAtMjUuNDktLjQtNTMuODYtMjYuNloiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M216,120a8,8,0,0,0-6.78,3.76A179.9,179.9,0,0,1,195.41,143l-1.63-8.57v0L178.32,53.07a16,16,0,0,0-25.72-9.55l-.13.1L128,64,103.53,43.62l-.13-.1a16,16,0,0,0-25.72,9.53L62.23,134.38v0L60.59,143a179.27,179.27,0,0,1-13.81-19.25A8,8,0,0,0,40,120a40,40,0,0,0,0,80H216a40,40,0,0,0,0-80ZM76.68,144H179.31l2.54,13.35a113.28,113.28,0,0,1-27.35,19C139.1,183.77,128.06,184,128,184c-.33,0-25.49-.4-53.86-26.6Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as CowboyHat };

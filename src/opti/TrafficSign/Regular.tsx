@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDMuMTUsMTE2LjI5LDEzOS43MSwxMi44NWExNi41NiwxNi41NiwwLDAsMC0yMy40MiwwTDEyLjg1LDExNi4yOWExNi41NiwxNi41NiwwLDAsMCwwLDIzLjQyTDExNi4yOSwyNDMuMTVoMGExNi41NiwxNi41NiwwLDAsMCwyMy40MiwwTDI0My4xNSwxMzkuNzFhMTYuNTYsMTYuNTYsMCwwLDAsMC0yMy40MlptLTExLjMxLDEyLjFMMTI4LjQsMjMxLjg0YS41OC41OCwwLDAsMS0uOCwwaDBMMjQuMTYsMTI4LjM5YS41Ni41NiwwLDAsMSwwLS43OEwxMjcuNiwyNC4xNmEuNTguNTgsMCwwLDEsLjgsMEwyMzEuODQsMTI3LjYxYS41Ni41NiwwLDAsMSwwLC43OFptLTU4LjE4LTE0YTgsOCwwLDAsMSwwLDExLjMybC0yNCwyNGE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMTQ4LjY5LDEyOEgxMTJhMTYsMTYsMCwwLDAtMTYsMTZ2OGE4LDgsMCwwLDEtMTYsMHYtOGEzMiwzMiwwLDAsMSwzMi0zMmgzNi42OWwtMTAuMzUtMTAuMzRhOCw4LDAsMCwxLDExLjMyLTExLjMyWiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M243.15,116.29,139.71,12.85a16.56,16.56,0,0,0-23.42,0L12.85,116.29a16.56,16.56,0,0,0,0,23.42L116.29,243.15h0a16.56,16.56,0,0,0,23.42,0L243.15,139.71a16.56,16.56,0,0,0,0-23.42Zm-11.31,12.1L128.4,231.84a.58.58,0,0,1-.8,0h0L24.16,128.39a.56.56,0,0,1,0-.78L127.6,24.16a.58.58,0,0,1,.8,0L231.84,127.61a.56.56,0,0,1,0,.78Zm-58.18-14a8,8,0,0,1,0,11.32l-24,24a8,8,0,0,1-11.32-11.32L148.69,128H112a16,16,0,0,0-16,16v8a8,8,0,0,1-16,0v-8a32,32,0,0,1,32-32h36.69l-10.35-10.34a8,8,0,0,1,11.32-11.32Z" />
+  </OptiBase>
+));
+
+I.displayName = "Regular";
+export { I as TrafficSign };

@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzcuNiwxNDMuNzgsMTY5LjEzLDMxLjUyQTE1LjkxLDE1LjkxLDAsMCwwLDE1NS41NiwyNEgxMDAuNDNhMTUuODksMTUuODksMCwwLDAtMTMuNTYsNy41MmwtLjA1LjA3TDE4LjQ0LDE0My43YTE2LDE2LDAsMCwwLS4zMywxNi40MmwyNy4zMiw0Ny44MkExNiwxNiwwLDAsMCw1OS4zMiwyMTZIMTk2LjY3YTE2LDE2LDAsMCwwLDEzLjg5LTguMDZsMjcuMzItNDcuODJBMTUuOTEsMTUuOTEsMCwwLDAsMjM3LjYsMTQzLjc4Wk0yMTksMTQ0SDE3Mi41MkwxMzcuMzMsODUuMzNsMjIuNzUtMzcuOTJaTTkyLjUzLDE2MGg3MC45NGwyNCw0MEg2OC41M1ptOS42LTE2TDEyOCwxMDAuODgsMTUzLjg3LDE0NFpNOTUuOTEsNDcuNDFsMjIuNzYsMzcuOTJMODMuNDcsMTQ0SDM3WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M237.6,143.78,169.13,31.52A15.91,15.91,0,0,0,155.56,24H100.43a15.89,15.89,0,0,0-13.56,7.52l-.05.07L18.44,143.7a16,16,0,0,0-.33,16.42l27.32,47.82A16,16,0,0,0,59.32,216H196.67a16,16,0,0,0,13.89-8.06l27.32-47.82A15.91,15.91,0,0,0,237.6,143.78ZM219,144H172.52L137.33,85.33l22.75-37.92ZM92.53,160h70.94l24,40H68.53Zm9.6-16L128,100.88,153.87,144ZM95.91,47.41l22.76,37.92L83.47,144H37Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as GoogleDriveLogo };

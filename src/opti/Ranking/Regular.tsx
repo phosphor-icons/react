@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMTIuNDEsMTAyLjUzYTgsOCwwLDAsMSw1LjA2LTEwLjEybDEyLTRBOCw4LDAsMCwxLDE0MCw5NnY0MGE4LDgsMCwwLDEtMTYsMFYxMDcuMWwtMS40Ny40OUE4LDgsMCwwLDEsMTEyLjQxLDEwMi41M1pNMjQ4LDIwOGE4LDgsMCwwLDEtOCw4SDE2YTgsOCwwLDAsMSwwLTE2aDhWMTA0QTE2LDE2LDAsMCwxLDQwLDg4SDgwVjU2QTE2LDE2LDAsMCwxLDk2LDQwaDY0YTE2LDE2LDAsMCwxLDE2LDE2djcyaDQwYTE2LDE2LDAsMCwxLDE2LDE2djU2aDhBOCw4LDAsMCwxLDI0OCwyMDhabS03Mi02NHY1Nmg0MFYxNDRaTTk2LDIwMGg2NFY1Nkg5NlptLTU2LDBIODBWMTA0SDQwWiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M112.41,102.53a8,8,0,0,1,5.06-10.12l12-4A8,8,0,0,1,140,96v40a8,8,0,0,1-16,0V107.1l-1.47.49A8,8,0,0,1,112.41,102.53ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16h8V104A16,16,0,0,1,40,88H80V56A16,16,0,0,1,96,40h64a16,16,0,0,1,16,16v72h40a16,16,0,0,1,16,16v56h8A8,8,0,0,1,248,208Zm-72-64v56h40V144ZM96,200h64V56H96Zm-56,0H80V104H40Z" />
+  </OptiBase>
+));
+
+I.displayName = "Regular";
+export { I as Ranking };

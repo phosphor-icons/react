@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTU2aC00VjcyYTI4LDI4LDAsMCwwLTI4LTI4SDU2QTI4LDI4LDAsMCwwLDI4LDcydjg0SDI0YTEyLDEyLDAsMCwwLTEyLDEydjI0YTI4LDI4LDAsMCwwLDI4LDI4SDIxNmEyOCwyOCwwLDAsMCwyOC0yOFYxNjhBMTIsMTIsMCwwLDAsMjMyLDE1NlpNNTIsNzJhNCw0LDAsMCwxLDQtNEgyMDBhNCw0LDAsMCwxLDQsNHY4NEg1MlpNMjIwLDE5MmE0LDQsMCwwLDEtNCw0SDQwYTQsNCwwLDAsMS00LTRWMTgwSDIyMFpNMTU2LDk2YTEyLDEyLDAsMCwxLTEyLDEySDExMmExMiwxMiwwLDAsMSwwLTI0aDMyQTEyLDEyLDAsMCwxLDE1Niw5NloiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M232,156h-4V72a28,28,0,0,0-28-28H56A28,28,0,0,0,28,72v84H24a12,12,0,0,0-12,12v24a28,28,0,0,0,28,28H216a28,28,0,0,0,28-28V168A12,12,0,0,0,232,156ZM52,72a4,4,0,0,1,4-4H200a4,4,0,0,1,4,4v84H52ZM220,192a4,4,0,0,1-4,4H40a4,4,0,0,1-4-4V180H220ZM156,96a12,12,0,0,1-12,12H112a12,12,0,0,1,0-24h32A12,12,0,0,1,156,96Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as Laptop };

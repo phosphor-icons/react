@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05MCw0OFYxNmE2LDYsMCwwLDEsMTIsMFY0OGE2LDYsMCwwLDEtMTIsMFptMzgsNmE2LDYsMCwwLDAsNi02VjE2YTYsNiwwLDAsMC0xMiwwVjQ4QTYsNiwwLDAsMCwxMjgsNTRabTMyLDBhNiw2LDAsMCwwLDYtNlYxNmE2LDYsMCwwLDAtMTIsMFY0OEE2LDYsMCwwLDAsMTYwLDU0Wm05MS42LDQ2LjhMMjIyLDEyM3Y2MWEzMCwzMCwwLDAsMS0zMCwzMEg2NGEzMCwzMCwwLDAsMS0zMC0zMFYxMjNMNC40LDEwMC44YTYsNiwwLDAsMSw3LjItOS42TDM0LDEwOFY4MGE2LDYsMCwwLDEsNi02SDIxNmE2LDYsMCwwLDEsNiw2djI4bDIyLjQtMTYuOGE2LDYsMCwwLDEsNy4yLDkuNlpNMjEwLDg2SDQ2djk4YTE4LDE4LDAsMCwwLDE4LDE4SDE5MmExOCwxOCwwLDAsMCwxOC0xOFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M90,48V16a6,6,0,0,1,12,0V48a6,6,0,0,1-12,0Zm38,6a6,6,0,0,0,6-6V16a6,6,0,0,0-12,0V48A6,6,0,0,0,128,54Zm32,0a6,6,0,0,0,6-6V16a6,6,0,0,0-12,0V48A6,6,0,0,0,160,54Zm91.6,46.8L222,123v61a30,30,0,0,1-30,30H64a30,30,0,0,1-30-30V123L4.4,100.8a6,6,0,0,1,7.2-9.6L34,108V80a6,6,0,0,1,6-6H216a6,6,0,0,1,6,6v28l22.4-16.8a6,6,0,0,1,7.2,9.6ZM210,86H46v98a18,18,0,0,0,18,18H192a18,18,0,0,0,18-18Z" />
+  </OptiBase>
+));
+
+I.displayName = "Light";
+export { I as CookingPot };

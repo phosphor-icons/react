@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDQsMjA0YTE2LDE2LDAsMSwxLTE2LTE2QTE2LDE2LDAsMCwxLDE0NCwyMDRaTTIzOS42MSw4My45MWExNzYsMTc2LDAsMCwwLTIyMy4yMiwwLDEyLDEyLDAsMSwwLDE1LjIzLDE4LjU1LDE1MiwxNTIsMCwwLDEsMTkyLjc2LDAsMTIsMTIsMCwxLDAsMTUuMjMtMTguNTVabS0zMi4xNiwzNS43M2ExMjgsMTI4LDAsMCwwLTE1OC45LDAsMTIsMTIsMCwwLDAsMTQuOSwxOC44MSwxMDQsMTA0LDAsMCwxLDEyOS4xLDAsMTIsMTIsMCwwLDAsMTQuOS0xOC44MVpNMTc1LjA3LDE1NS4zYTgwLjA1LDgwLjA1LDAsMCwwLTk0LjE0LDAsMTIsMTIsMCwwLDAsMTQuMTQsMTkuNCw1Niw1NiwwLDAsMSw2NS44NiwwLDEyLDEyLDAsMSwwLDE0LjE0LTE5LjRaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M144,204a16,16,0,1,1-16-16A16,16,0,0,1,144,204ZM239.61,83.91a176,176,0,0,0-223.22,0,12,12,0,1,0,15.23,18.55,152,152,0,0,1,192.76,0,12,12,0,1,0,15.23-18.55Zm-32.16,35.73a128,128,0,0,0-158.9,0,12,12,0,0,0,14.9,18.81,104,104,0,0,1,129.1,0,12,12,0,0,0,14.9-18.81ZM175.07,155.3a80.05,80.05,0,0,0-94.14,0,12,12,0,0,0,14.14,19.4,56,56,0,0,1,65.86,0,12,12,0,1,0,14.14-19.4Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as WifiHigh };

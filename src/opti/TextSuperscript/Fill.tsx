@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTEyNi41NSwxNzkuNDFhOCw4LDAsMSwxLTEzLjEsOS4xOEw5MiwxNTgsNzAuNTUsMTg4LjU5YTgsOCwwLDEsMS0xMy4xLTkuMThMODIuMjMsMTQ0LDU3LjQ1LDEwOC41OWE4LDgsMCwxLDEsMTMuMS05LjE4TDkyLDEzMC4wNWwyMS40NS0zMC42NGE4LDgsMCwwLDEsMTMuMSw5LjE4TDEwMS43NywxNDRaTTE5MiwxNjBIMTUyYTgsOCwwLDAsMS02LjQtMTIuOGwzNi00OGExMiwxMiwwLDEsMC0xOS4xNS0xNC40NiwxMy4wNiwxMy4wNiwwLDAsMC0yLjU4LDQuODEsOCw4LDAsMSwxLTE1LjY4LTMuMTgsMjguMTcsMjguMTcsMCwxLDEsNTAuMiwyMi40NEwxNjgsMTQ0aDI0YTgsOCwwLDAsMSwwLDE2WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM126.55,179.41a8,8,0,1,1-13.1,9.18L92,158,70.55,188.59a8,8,0,1,1-13.1-9.18L82.23,144,57.45,108.59a8,8,0,1,1,13.1-9.18L92,130.05l21.45-30.64a8,8,0,0,1,13.1,9.18L101.77,144ZM192,160H152a8,8,0,0,1-6.4-12.8l36-48a12,12,0,1,0-19.15-14.46,13.06,13.06,0,0,0-2.58,4.81,8,8,0,1,1-15.68-3.18,28.17,28.17,0,1,1,50.2,22.44L168,144h24a8,8,0,0,1,0,16Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as TextSuperscript };

@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wk04My42NiwxODAuMTJsLTQuOCw4YTgsOCwwLDEsMS0xMy43Mi04LjI0bDQuOC04YTgsOCwwLDAsMSwxMy43Miw4LjI0Wk0xMjgsMTUySDU2YTgsOCwwLDAsMSwwLTE2SDkxLjQ3bDI3LjItNDUuMzNMMTA1LjE0LDY4LjEyYTgsOCwwLDAsMSwxMy43Mi04LjI0TDEyOCw3NS4xMmw5LjE0LTE1LjI0YTgsOCwwLDAsMSwxMy43Miw4LjI0TDExMC4xMywxMzZIMTI4YTgsOCwwLDAsMSwwLDE2Wm03MiwwSDE3NC4xM2wxNi43MywyNy44OGE4LDgsMCwwLDEtMTMuNzIsOC4yNGwtMzguNC02NGE4LDgsMCwwLDEsMTMuNzItOC4yNEwxNjQuNTMsMTM2SDIwMGE4LDgsMCwwLDEsMCwxNloiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM83.66,180.12l-4.8,8a8,8,0,1,1-13.72-8.24l4.8-8a8,8,0,0,1,13.72,8.24ZM128,152H56a8,8,0,0,1,0-16H91.47l27.2-45.33L105.14,68.12a8,8,0,0,1,13.72-8.24L128,75.12l9.14-15.24a8,8,0,0,1,13.72,8.24L110.13,136H128a8,8,0,0,1,0,16Zm72,0H174.13l16.73,27.88a8,8,0,0,1-13.72,8.24l-38.4-64a8,8,0,0,1,13.72-8.24L164.53,136H200a8,8,0,0,1,0,16Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as AppStoreLogo };

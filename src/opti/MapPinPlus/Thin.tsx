@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjQsMTA0YTQsNCwwLDAsMS00LDRIMTMydjI4YTQsNCwwLDAsMS04LDBWMTA4SDk2YTQsNCwwLDAsMSwwLThoMjhWNzJhNCw0LDAsMCwxLDgsMHYyOGgyOEE0LDQsMCwwLDEsMTY0LDEwNFptNDgsMGMwLDMwLjQyLTE0LjE3LDYyLjc5LTQxLDkzLjYyYTI1MCwyNTAsMCwwLDEtNDAuNzMsMzcuNjYsNCw0LDAsMCwxLTQuNTgsMEEyNTAsMjUwLDAsMCwxLDg1LDE5Ny42MkM1OC4xNywxNjYuNzksNDQsMTM0LjQyLDQ0LDEwNGE4NCw4NCwwLDAsMSwxNjgsMFptLTgsMGE3Niw3NiwwLDAsMC0xNTIsMGMwLDM1LjksMjEuMTUsNjcuOCwzOC45LDg4LjIzQTI1NC42MiwyNTQuNjIsMCwwLDAsMTI4LDIyN2EyNTQuNjIsMjU0LjYyLDAsMCwwLDM3LjEtMzQuODFDMTgyLjg1LDE3MS44LDIwNCwxMzkuOSwyMDQsMTA0WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M164,104a4,4,0,0,1-4,4H132v28a4,4,0,0,1-8,0V108H96a4,4,0,0,1,0-8h28V72a4,4,0,0,1,8,0v28h28A4,4,0,0,1,164,104Zm48,0c0,30.42-14.17,62.79-41,93.62a250,250,0,0,1-40.73,37.66,4,4,0,0,1-4.58,0A250,250,0,0,1,85,197.62C58.17,166.79,44,134.42,44,104a84,84,0,0,1,168,0Zm-8,0a76,76,0,0,0-152,0c0,35.9,21.15,67.8,38.9,88.23A254.62,254.62,0,0,0,128,227a254.62,254.62,0,0,0,37.1-34.81C182.85,171.8,204,139.9,204,104Z" />
+  </OptiBase>
+));
+
+I.displayName = "Thin";
+export { I as MapPinPlus };

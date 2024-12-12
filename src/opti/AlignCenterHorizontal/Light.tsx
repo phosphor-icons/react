@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTM4SDEzNFYxMThoNTBhMTQsMTQsMCwwLDAsMTQtMTRWNjRhMTQsMTQsMCwwLDAtMTQtMTRIMTM0VjMyYTYsNiwwLDAsMC0xMiwwVjUwSDcyQTE0LDE0LDAsMCwwLDU4LDY0djQwYTE0LDE0LDAsMCwwLDE0LDE0aDUwdjIwSDQ4YTE0LDE0LDAsMCwwLTE0LDE0djQwYTE0LDE0LDAsMCwwLDE0LDE0aDc0djE4YTYsNiwwLDAsMCwxMiwwVjIwNmg3NGExNCwxNCwwLDAsMCwxNC0xNFYxNTJBMTQsMTQsMCwwLDAsMjA4LDEzOFpNNzAsMTA0VjY0YTIsMiwwLDAsMSwyLTJIMTg0YTIsMiwwLDAsMSwyLDJ2NDBhMiwyLDAsMCwxLTIsMkg3MkEyLDIsMCwwLDEsNzAsMTA0Wm0xNDAsODhhMiwyLDAsMCwxLTIsMkg0OGEyLDIsMCwwLDEtMi0yVjE1MmEyLDIsMCwwLDEsMi0ySDIwOGEyLDIsMCwwLDEsMiwyWiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M208,138H134V118h50a14,14,0,0,0,14-14V64a14,14,0,0,0-14-14H134V32a6,6,0,0,0-12,0V50H72A14,14,0,0,0,58,64v40a14,14,0,0,0,14,14h50v20H48a14,14,0,0,0-14,14v40a14,14,0,0,0,14,14h74v18a6,6,0,0,0,12,0V206h74a14,14,0,0,0,14-14V152A14,14,0,0,0,208,138ZM70,104V64a2,2,0,0,1,2-2H184a2,2,0,0,1,2,2v40a2,2,0,0,1-2,2H72A2,2,0,0,1,70,104Zm140,88a2,2,0,0,1-2,2H48a2,2,0,0,1-2-2V152a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2Z" />
+  </OptiBase>
+));
+
+I.displayName = "Light";
+export { I as AlignCenterHorizontal };

@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsODBhMzIsMzIsMCwxLDAtMzItMzJBMzIsMzIsMCwwLDAsMTc2LDgwWm0wLTQ4YTE2LDE2LDAsMSwxLTE2LDE2QTE2LDE2LDAsMCwxLDE3NiwzMlptLTgsMTM2YTY0LDY0LDAsMSwxLTY0LTY0LDgsOCwwLDAsMSwwLDE2LDQ4LDQ4LDAsMSwwLDQ4LDQ4LDgsOCwwLDAsMSwxNiwwWm0zOC4xOS0zNy4wN2E4LDgsMCwwLDEsMS42NSw2LjY0bC0xNiw4MEE4LDgsMCwwLDEsMTg0LDIyNGE3Ljc3LDcuNzcsMCwwLDEtMS41OC0uMTYsOCw4LDAsMCwxLTYuMjctOS40MUwxOTAuMjQsMTQ0SDEyOGE4LDgsMCwwLDEtNi45NC0xMmwyMC4wNi0zNC45YTgwLjA5LDgwLjA5LDAsMCwwLTg4LDkuMTdBOCw4LDAsMSwxLDQyLjkxLDk0YTk2LDk2LDAsMCwxLDExMy40Ni02LjQyLDgsOCwwLDAsMSwyLjU3LDEwLjY5TDE0MS44MiwxMjhIMjAwQTgsOCwwLDAsMSwyMDYuMTksMTMwLjkzWiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M176,80a32,32,0,1,0-32-32A32,32,0,0,0,176,80Zm0-48a16,16,0,1,1-16,16A16,16,0,0,1,176,32Zm-8,136a64,64,0,1,1-64-64,8,8,0,0,1,0,16,48,48,0,1,0,48,48,8,8,0,0,1,16,0Zm38.19-37.07a8,8,0,0,1,1.65,6.64l-16,80A8,8,0,0,1,184,224a7.77,7.77,0,0,1-1.58-.16,8,8,0,0,1-6.27-9.41L190.24,144H128a8,8,0,0,1-6.94-12l20.06-34.9a80.09,80.09,0,0,0-88,9.17A8,8,0,1,1,42.91,94a96,96,0,0,1,113.46-6.42,8,8,0,0,1,2.57,10.69L141.82,128H200A8,8,0,0,1,206.19,130.93Z" />
+  </OptiBase>
+));
+
+I.displayName = "Regular";
+export { I as WheelchairMotion };

@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjgsMTU2djM2YzAsMTMuODUtMS42MywyNi41Mi00LjU4LDM1LjY4YTEyLDEyLDAsMSwxLTIyLjg0LTcuMzZjMi4xNC02LjY1LDMuNDItMTcuMjQsMy40Mi0yOC4zMlYxNTZhOCw4LDAsMCwwLTE2LDB2NGExMiwxMiwwLDAsMS0yNCwwVjE0MGE4LDgsMCwwLDAtMTYsMHYxMmExMiwxMiwwLDAsMS0yNCwwVjg0YTgsOCwwLDAsMC0xNiwwVjE5MmExMiwxMiwwLDAsMS0yMi4xOCw2LjM0bC0xOC42OC0zMC0uMjEtLjM0QTgsOCwwLDAsMCw1MywxNzUuOTJMNzguMjcsMjE3LjhhMTIsMTIsMCwwLDEtMjAuNTYsMTIuMzlsLTI1LjMxLTQyLS4xMi0uMkEzMiwzMiwwLDAsMSw4NCwxNTAuODNWODRhMzIsMzIsMCwwLDEsNjQsMHYyNWEzMiwzMiwwLDAsMSwzNi43OCwxN0EzMiwzMiwwLDAsMSwyMjgsMTU2Wk01Niw5NkExMiwxMiwwLDAsMCw2OCw4NGE0OCw0OCwwLDAsMSw5NiwwLDEyLDEyLDAsMCwwLDI0LDBBNzIsNzIsMCwwLDAsNDQsODQsMTIsMTIsMCwwLDAsNTYsOTZaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M228,156v36c0,13.85-1.63,26.52-4.58,35.68a12,12,0,1,1-22.84-7.36c2.14-6.65,3.42-17.24,3.42-28.32V156a8,8,0,0,0-16,0v4a12,12,0,0,1-24,0V140a8,8,0,0,0-16,0v12a12,12,0,0,1-24,0V84a8,8,0,0,0-16,0V192a12,12,0,0,1-22.18,6.34l-18.68-30-.21-.34A8,8,0,0,0,53,175.92L78.27,217.8a12,12,0,0,1-20.56,12.39l-25.31-42-.12-.2A32,32,0,0,1,84,150.83V84a32,32,0,0,1,64,0v25a32,32,0,0,1,36.78,17A32,32,0,0,1,228,156ZM56,96A12,12,0,0,0,68,84a48,48,0,0,1,96,0,12,12,0,0,0,24,0A72,72,0,0,0,44,84,12,12,0,0,0,56,96Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as HandTap };

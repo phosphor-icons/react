@@ -13,6 +13,7 @@ export const ASSETS_PATH = path.join(__dirname, "../core/assets");
 export const DEFS_PATH = path.join(__dirname, "../src/defs");
 export const CSR_PATH = path.join(__dirname, "../src/csr");
 export const SSR_PATH = path.join(__dirname, "../src/ssr");
+export const OPTI_PATH = path.join(__dirname, "../src/opti");
 export const INDEX_PATH = path.join(__dirname, "../src/index.ts");
 export const WEIGHTS = [
   IconStyle.REGULAR,

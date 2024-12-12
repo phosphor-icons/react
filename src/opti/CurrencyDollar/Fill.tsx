@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsMTUyYTE2LDE2LDAsMCwxLTE2LDE2aC04VjEzNmg4QTE2LDE2LDAsMCwxLDE2MCwxNTJabTcyLTI0QTEwNCwxMDQsMCwxLDEsMTI4LDI0LDEwNC4xMSwxMDQuMTEsMCwwLDEsMjMyLDEyOFptLTU2LDI0YTMyLDMyLDAsMCwwLTMyLTMyaC04Vjg4aDRhMTYsMTYsMCwwLDEsMTYsMTYsOCw4LDAsMCwwLDE2LDAsMzIsMzIsMCwwLDAtMzItMzJoLTRWNjRhOCw4LDAsMCwwLTE2LDB2OGgtNGEzMiwzMiwwLDAsMCwwLDY0aDR2MzJoLThhMTYsMTYsMCwwLDEtMTYtMTYsOCw4LDAsMCwwLTE2LDAsMzIsMzIsMCwwLDAsMzIsMzJoOHY4YTgsOCwwLDAsMCwxNiwwdi04aDhBMzIsMzIsMCwwLDAsMTc2LDE1MlptLTc2LTQ4YTE2LDE2LDAsMCwwLDE2LDE2aDRWODhoLTRBMTYsMTYsMCwwLDAsMTAwLDEwNFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M160,152a16,16,0,0,1-16,16h-8V136h8A16,16,0,0,1,160,152Zm72-24A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-56,24a32,32,0,0,0-32-32h-8V88h4a16,16,0,0,1,16,16,8,8,0,0,0,16,0,32,32,0,0,0-32-32h-4V64a8,8,0,0,0-16,0v8h-4a32,32,0,0,0,0,64h4v32h-8a16,16,0,0,1-16-16,8,8,0,0,0-16,0,32,32,0,0,0,32,32h8v8a8,8,0,0,0,16,0v-8h8A32,32,0,0,0,176,152Zm-76-48a16,16,0,0,0,16,16h4V88h-4A16,16,0,0,0,100,104Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as CurrencyDollar };

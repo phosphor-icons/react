@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsMTk0LjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMkwxODQsMTg3LjMxbC0xOC4zNCwxOC4zNWE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMTcyLjY5LDE3NmwtMTguMzUtMTguMzRhOCw4LDAsMCwxLDExLjMyLTExLjMyTDE4NCwxNjQuNjlsMTguMzQtMTguMzVhOCw4LDAsMCwxLDExLjMyLDExLjMyTDE5NS4zMSwxNzZaTTE1Ny40MSwxMjAuMWEzMiwzMiwwLDAsMSwyMy45Miw4LjA1LDQsNCwwLDAsMCw1LjM0LDAsMzEuODgsMzEuODgsMCwwLDEsMTcuNzctOCw0LDQsMCwwLDAsMy41Ni00VjQwLjQ2YTE2LjQxLDE2LjQxLDAsMCwwLTkuMTgtMTQuOTMsMTYsMTYsMCwwLDAtMTguMTQsMy4xNmwtMTYwLDE2MGExNiwxNiwwLDAsMC0zLjE3LDE4LjEzQTE2LjQsMTYuNCwwLDAsMCwzMi40NiwyMTZoOTMuNmE0LDQsMCwwLDAsMy43OC01LjMsMzIsMzIsMCwwLDEsNi4zMS0zMiw0LDQsMCwwLDAsMC01LjM0LDMyLDMyLDAsMCwxLDIxLjI2LTUzLjIzWiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M213.66,194.34a8,8,0,0,1-11.32,11.32L184,187.31l-18.34,18.35a8,8,0,0,1-11.32-11.32L172.69,176l-18.35-18.34a8,8,0,0,1,11.32-11.32L184,164.69l18.34-18.35a8,8,0,0,1,11.32,11.32L195.31,176ZM157.41,120.1a32,32,0,0,1,23.92,8.05,4,4,0,0,0,5.34,0,31.88,31.88,0,0,1,17.77-8,4,4,0,0,0,3.56-4V40.46a16.41,16.41,0,0,0-9.18-14.93,16,16,0,0,0-18.14,3.16l-160,160a16,16,0,0,0-3.17,18.13A16.4,16.4,0,0,0,32.46,216h93.6a4,4,0,0,0,3.78-5.3,32,32,0,0,1,6.31-32,4,4,0,0,0,0-5.34,32,32,0,0,1,21.26-53.23Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as CellSignalX };

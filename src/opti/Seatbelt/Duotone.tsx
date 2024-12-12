@@ -1,0 +1,21 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05Miw2OGEzNiwzNiwwLDEsMSwzNiwzNkEzNiwzNiwwLDAsMSw5Miw2OFptMzYsNTJhNzIsNzIsMCwwLDAtNzIsNzJ2MzJIMjAwVjE5MkE3Miw3MiwwLDAsMCwxMjgsMTIwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTE3Miw2OGE0NCw0NCwwLDEsMC00NCw0NEE0NC4wNSw0NC4wNSwwLDAsMCwxNzIsNjhaTTEyOCw5NmEyOCwyOCwwLDEsMSwyOC0yOEEyOCwyOCwwLDAsMSwxMjgsOTZabTgwLDEyOGE4LDgsMCwwLDEtOCw4SDU2YTgsOCwwLDAsMS01LjI5LTE0bDk4LjA3LTg2LjU0YTY0LDY0LDAsMCwwLTg0LDUwLjMzQTgsOCwwLDAsMSw0OSwxNzkuMjVhODAsODAsMCwwLDEsMTEzLjE2LTU5LjU5TDE4Ni43MSw5OGE4LDgsMCwwLDEsMTAuNTgsMTJMNzcuMTYsMjE2SDIwMEE4LDgsMCwwLDEsMjA4LDIyNFptLTE0LjI3LTc3LjYyQTc5LjYsNzkuNiwwLDAsMSwyMDgsMTkyYTgsOCwwLDAsMS0xNiwwLDYzLjY3LDYzLjY3LDAsMCwwLTExLjQxLTM2LjQ5LDgsOCwwLDAsMSwxMy4xNC05LjEzWiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path
+      d="M92,68a36,36,0,1,1,36,36A36,36,0,0,1,92,68Zm36,52a72,72,0,0,0-72,72v32H200V192A72,72,0,0,0,128,120Z"
+      opacity="0.2"
+    />
+    <path d="M172,68a44,44,0,1,0-44,44A44.05,44.05,0,0,0,172,68ZM128,96a28,28,0,1,1,28-28A28,28,0,0,1,128,96Zm80,128a8,8,0,0,1-8,8H56a8,8,0,0,1-5.29-14l98.07-86.54a64,64,0,0,0-84,50.33A8,8,0,0,1,49,179.25a80,80,0,0,1,113.16-59.59L186.71,98a8,8,0,0,1,10.58,12L77.16,216H200A8,8,0,0,1,208,224Zm-14.27-77.62A79.6,79.6,0,0,1,208,192a8,8,0,0,1-16,0,63.67,63.67,0,0,0-11.41-36.49,8,8,0,0,1,13.14-9.13Z" />
+  </OptiBase>
+));
+
+I.displayName = "Duotone";
+export { I as Seatbelt };

@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzUsMTQ0LjUxLDE3OS4xMyw0OC42NWEyLjc1LDIuNzUsMCwwLDAtLjE3LS4yOUE2MCw2MCwwLDAsMCw3Nyw0OC4zNmEyLjc1LDIuNzUsMCwwLDAtLjE3LjI5TDIxLDE0NC41MUE2MCw2MCwwLDAsMCw3Mi4xLDIzNkgxODMuOUE2MCw2MCwwLDAsMCwyMzUsMTQ0LjUxWk0xNTYsMjEySDEwMFYxNzJoNTZabTU5LjM2LTE4LjVBMzUuNTUsMzUuNTUsMCwwLDEsMTgzLjksMjEySDE4MFYxNjhhMjAsMjAsMCwwLDAtMjAtMjBIOTZhMjAsMjAsMCwwLDAtMjAsMjB2NDRINzIuMWEzNiwzNiwwLDAsMS0zMC41OC01NWwuMTctLjI4TDk3LjUxLDYwLjg4YTM2LDM2LDAsMCwxLDYxLDBsNTUuODIsOTUuODUuMTcuMjhBMzUuNTgsMzUuNTgsMCwwLDEsMjE1LjM1LDE5My41WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M235,144.51,179.13,48.65a2.75,2.75,0,0,0-.17-.29A60,60,0,0,0,77,48.36a2.75,2.75,0,0,0-.17.29L21,144.51A60,60,0,0,0,72.1,236H183.9A60,60,0,0,0,235,144.51ZM156,212H100V172h56Zm59.36-18.5A35.55,35.55,0,0,1,183.9,212H180V168a20,20,0,0,0-20-20H96a20,20,0,0,0-20,20v44H72.1a36,36,0,0,1-30.58-55l.17-.28L97.51,60.88a36,36,0,0,1,61,0l55.82,95.85.17.28A35.58,35.58,0,0,1,215.35,193.5Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as Onigiri };

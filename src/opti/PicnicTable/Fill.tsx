@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDYuODUsOTZsMTQuNTQsMzJIOTQuNjFsMTQuNTQtMzJaTTIzMiw1NlYyMDBhMTYsMTYsMCwwLDEtMTYsMTZINDBhMTYsMTYsMCwwLDEtMTYtMTZWNTZBMTYsMTYsMCwwLDEsNDAsNDBIMjE2QTE2LDE2LDAsMCwxLDIzMiw1NlptLTI0LDgwYTgsOCwwLDAsMC04LThIMTc5TDE2NC40Miw5NkgxNzZhOCw4LDAsMCwwLDAtMTZIODBhOCw4LDAsMCwwLDAsMTZIOTEuNThMNzcsMTI4SDU2YTgsOCwwLDAsMCwwLDE2SDY5Ljc2bC0xMywyOC42OWE4LDgsMCwxLDAsMTQuNTYsNi42MmwxNi0zNS4zMWg4MS4zNGwxNi4wNSwzNS4zMWE4LDgsMCwwLDAsMTQuNTYtNi42MmwtMTMtMjguNjlIMjAwQTgsOCwwLDAsMCwyMDgsMTM2WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M146.85,96l14.54,32H94.61l14.54-32ZM232,56V200a16,16,0,0,1-16,16H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56Zm-24,80a8,8,0,0,0-8-8H179L164.42,96H176a8,8,0,0,0,0-16H80a8,8,0,0,0,0,16H91.58L77,128H56a8,8,0,0,0,0,16H69.76l-13,28.69a8,8,0,1,0,14.56,6.62l16-35.31h81.34l16.05,35.31a8,8,0,0,0,14.56-6.62l-13-28.69H200A8,8,0,0,0,208,136Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as PicnicTable };

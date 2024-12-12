@@ -8,6 +8,7 @@ import {
   ALIASES,
   CSR_PATH,
   SSR_PATH,
+  OPTI_PATH,
   DEFS_PATH,
   INDEX_PATH,
   WEIGHTS,
@@ -58,6 +59,11 @@ function generateComponents(icons: AssetMap) {
     fs.rmSync(SSR_PATH, { recursive: true });
   }
   fs.mkdirSync(SSR_PATH);
+
+  if (fs.existsSync(OPTI_PATH)) {
+    fs.rmSync(OPTI_PATH, { recursive: true });
+  }
+  fs.mkdirSync(OPTI_PATH);
 
   for (let key in icons) {
     const icon = icons[key];
@@ -118,6 +124,28 @@ export { I as ${name}${
       !!ALIASES[key] ? `, I as ${pascalize(ALIASES[key])}` : ""
     } }
 `;
+    let optiStrings = {};
+    for (let weight in icon) {
+      optiStrings[weight] = `
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,${icon[weight].preview})
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    ${icon[weight].jsx.trim()}
+  </OptiBase>
+));
+
+I.displayName = "${pascalize(weight)}";
+export { I as ${name}${!!ALIASES[key] ? `, I as ${pascalize(weight)}` : ""} }
+`;
+    }
 
     try {
       fs.writeFileSync(path.join(CSR_PATH, `${name}.tsx`), csrString, {
@@ -129,6 +157,16 @@ export { I as ${name}${
       fs.writeFileSync(path.join(DEFS_PATH, `${name}.tsx`), defString, {
         flag: "w",
       });
+      fs.mkdirSync(path.join(OPTI_PATH, `${name}`));
+      for (let weight in icon) {
+        fs.writeFileSync(
+          path.join(OPTI_PATH, name, `${pascalize(weight)}.tsx`),
+          optiStrings[weight],
+          {
+            flag: "w",
+          }
+        );
+      }
       console.log(`${chalk.inverse.green(" DONE ")} ${name}`);
       passes += 1;
     } catch (err) {
@@ -164,6 +202,13 @@ export * as SSR from "./ssr";
 export { default as SSRBase } from "../lib/SSRBase";
 
 `;
+
+  let optiIndex = `\
+/* GENERATED FILE */
+export { default as OptiBase } from "../lib/OptiBase";
+
+`;
+
   for (let key in icons) {
     const name = pascalize(key);
     csrIndex += `\
@@ -172,12 +217,18 @@ export * from "./csr/${name}";
     ssrIndex += `\
 export * from "./${name}";
 `;
+    optiIndex += `\
+export * as ${name} from "./${name}";
+`;
   }
   try {
     fs.writeFileSync(INDEX_PATH, csrIndex, {
       flag: "w",
     });
     fs.writeFileSync(path.join(SSR_PATH, "index.ts"), ssrIndex, {
+      flag: "w",
+    });
+    fs.writeFileSync(path.join(OPTI_PATH, "index.ts"), optiIndex, {
       flag: "w",
     });
     console.log(chalk.green("Export success"));

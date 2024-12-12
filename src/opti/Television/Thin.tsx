@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNjhIMTM3LjY2bDQxLjE3LTQxLjE3YTQsNCwwLDEsMC01LjY2LTUuNjZMMTI4LDY2LjM0LDgyLjgzLDIxLjE3YTQsNCwwLDAsMC01LjY2LDUuNjZMMTE4LjM0LDY4SDQwQTEyLDEyLDAsMCwwLDI4LDgwVjIwMGExMiwxMiwwLDAsMCwxMiwxMkgyMTZhMTIsMTIsMCwwLDAsMTItMTJWODBBMTIsMTIsMCwwLDAsMjE2LDY4Wk0zNiwyMDBWODBhNCw0LDAsMCwxLDQtNEgxNDhWMjA0SDQwQTQsNCwwLDAsMSwzNiwyMDBabTE4NCwwYTQsNCwwLDAsMS00LDRIMTU2Vjc2aDYwYTQsNCwwLDAsMSw0LDRabS0yNC04NGE4LDgsMCwxLDEtOC04QTgsOCwwLDAsMSwxOTYsMTE2Wm0wLDQ4YTgsOCwwLDEsMS04LThBOCw4LDAsMCwxLDE5NiwxNjRaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M216,68H137.66l41.17-41.17a4,4,0,1,0-5.66-5.66L128,66.34,82.83,21.17a4,4,0,0,0-5.66,5.66L118.34,68H40A12,12,0,0,0,28,80V200a12,12,0,0,0,12,12H216a12,12,0,0,0,12-12V80A12,12,0,0,0,216,68ZM36,200V80a4,4,0,0,1,4-4H148V204H40A4,4,0,0,1,36,200Zm184,0a4,4,0,0,1-4,4H156V76h60a4,4,0,0,1,4,4Zm-24-84a8,8,0,1,1-8-8A8,8,0,0,1,196,116Zm0,48a8,8,0,1,1-8-8A8,8,0,0,1,196,164Z" />
+  </OptiBase>
+));
+
+I.displayName = "Thin";
+export { I as Television };

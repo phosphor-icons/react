@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjAsODhoMGE5MS42Nyw5MS42NywwLDAsMC0xNC44OC01MC4xOEE0LDQsMCwwLDAsMjAxLjc3LDM2SDU0LjIzYTQsNCwwLDAsMC0zLjM1LDEuODJBOTEuNjcsOTEuNjcsMCwwLDAsMzYsODhoMGE5Mi4xMSw5Mi4xMSwwLDAsMCw4OCw5MS45MVYyMjBIODhhNCw0LDAsMCwwLDAsOGg4MGE0LDQsMCwwLDAsMC04SDEzMlYxNzkuOTFBOTIuMTEsOTIuMTEsMCwwLDAsMjIwLDg4Wk01Ni40Myw0NEgxOTkuNTdhODMuNSw4My41LDAsMCwxLDEyLjMyLDQwSDQ0LjExQTgzLjUsODMuNSwwLDAsMSw1Ni40Myw0NFpNMTI4LDE3MkE4NC4xLDg0LjEsMCwwLDEsNDQuMSw5MkgyMTEuOUE4NC4xLDg0LjEsMCwwLDEsMTI4LDE3MloiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M220,88h0a91.67,91.67,0,0,0-14.88-50.18A4,4,0,0,0,201.77,36H54.23a4,4,0,0,0-3.35,1.82A91.67,91.67,0,0,0,36,88h0a92.11,92.11,0,0,0,88,91.91V220H88a4,4,0,0,0,0,8h80a4,4,0,0,0,0-8H132V179.91A92.11,92.11,0,0,0,220,88ZM56.43,44H199.57a83.5,83.5,0,0,1,12.32,40H44.11A83.5,83.5,0,0,1,56.43,44ZM128,172A84.1,84.1,0,0,1,44.1,92H211.9A84.1,84.1,0,0,1,128,172Z" />
+  </OptiBase>
+));
+
+I.displayName = "Thin";
+export { I as Brandy };

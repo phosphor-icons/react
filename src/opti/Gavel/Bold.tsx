@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDYuMTQsMTEzLjg2bC0xNi0xNmEyMCwyMCwwLDAsMC0yMy4wNi0zLjc1bC00NS4yLTQ1LjJhMjAsMjAsMCwwLDAtMy43NC0yMy4wNmwtMTYtMTZhMjAsMjAsMCwwLDAtMjguMjgsMGwtNjQsNjRhMjAsMjAsMCwwLDAsMCwyOC4yOGwxNiwxNmEyMCwyMCwwLDAsMCwyMywzLjc5TDI5LjM2LDE4MS4zOGEzMiwzMiwwLDAsMCw0NS4yNiw0NS4yNkwxMzQsMTY3LjIxYTIwLDIwLDAsMCwwLDMuODEsMjIuOTRsMTYsMTZhMjAsMjAsMCwwLDAsMjguMjksMGw2NC02NGEyMCwyMCwwLDAsMCwwLTI4LjI5Wk04MCw5OC4zNCw2OS42NCw4OCwxMjgsMjkuNjUsMTM4LjM0LDQwWk01Ny42NCwyMDkuNjdhOCw4LDAsMCwxLTExLjMxLTExLjMybDU5LjUyLTU5LjUyLDExLjMxLDExLjMyWm05Mi43LTYwLjI5LTQzLjcyLTQzLjcyLDM5LTM5LDQzLjcyLDQzLjcyWm0xNy42NSwzN0wxNTcuNjUsMTc2LDIxNiwxMTcuNjYsMjI2LjM0LDEyOFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M246.14,113.86l-16-16a20,20,0,0,0-23.06-3.75l-45.2-45.2a20,20,0,0,0-3.74-23.06l-16-16a20,20,0,0,0-28.28,0l-64,64a20,20,0,0,0,0,28.28l16,16a20,20,0,0,0,23,3.79L29.36,181.38a32,32,0,0,0,45.26,45.26L134,167.21a20,20,0,0,0,3.81,22.94l16,16a20,20,0,0,0,28.29,0l64-64a20,20,0,0,0,0-28.29ZM80,98.34,69.64,88,128,29.65,138.34,40ZM57.64,209.67a8,8,0,0,1-11.31-11.32l59.52-59.52,11.31,11.32Zm92.7-60.29-43.72-43.72,39-39,43.72,43.72Zm17.65,37L157.65,176,216,117.66,226.34,128Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as Gavel };

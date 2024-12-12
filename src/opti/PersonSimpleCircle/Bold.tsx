@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjBBMTA4LDEwOCwwLDEsMCwyMzYsMTI4LDEwOC4xMiwxMDguMTIsMCwwLDAsMTI4LDIwWm0wLDE5MmE4NCw4NCwwLDEsMSw4NC04NEE4NC4wOSw4NC4wOSwwLDAsMSwxMjgsMjEyWk0xMDgsODBhMjAsMjAsMCwxLDEsMjAsMjBBMjAsMjAsMCwwLDEsMTA4LDgwWm03Niw0MGExMiwxMiwwLDAsMS0xMiwxMkgxNDB2LjUxbDI2LjEyLDQxLjA1YTEyLDEyLDAsMCwxLTMuNjgsMTYuNTZBMTEuODMsMTEuODMsMCwwLDEsMTU2LDE5MmExMiwxMiwwLDAsMS0xMC4xMy01LjU2TDEyOCwxNTguMzVsLTE3Ljg4LDI4LjA5YTEyLDEyLDAsMCwxLTIwLjI0LTEyLjg4TDExNiwxMzIuNTFWMTMySDg0YTEyLDEyLDAsMCwxLDAtMjRoODhBMTIsMTIsMCwwLDEsMTg0LDEyMFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm0,192a84,84,0,1,1,84-84A84.09,84.09,0,0,1,128,212ZM108,80a20,20,0,1,1,20,20A20,20,0,0,1,108,80Zm76,40a12,12,0,0,1-12,12H140v.51l26.12,41.05a12,12,0,0,1-3.68,16.56A11.83,11.83,0,0,1,156,192a12,12,0,0,1-10.13-5.56L128,158.35l-17.88,28.09a12,12,0,0,1-20.24-12.88L116,132.51V132H84a12,12,0,0,1,0-24h88A12,12,0,0,1,184,120Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as PersonSimpleCircle };

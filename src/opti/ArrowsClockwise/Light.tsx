@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjIsNDhWOTZhNiw2LDAsMCwxLTYsNkgxNjhhNiw2LDAsMCwxLDAtMTJoMzMuNTJMMTgzLjQ3LDcyYTgxLjUxLDgxLjUxLDAsMCwwLTU3LjUzLTI0aC0uNDZBODEuNSw4MS41LDAsMCwwLDY4LjE5LDcxLjI4YTYsNiwwLDEsMS04LjM4LTguNTgsOTMuMzgsOTMuMzgsMCwwLDEsNjUuNjctMjYuNzZIMTI2YTkzLjQ1LDkzLjQ1LDAsMCwxLDY2LDI3LjUzbDE4LDE4VjQ4YTYsNiwwLDAsMSwxMiwwWk0xODcuODEsMTg0LjcyYTgxLjUsODEuNSwwLDAsMS01Ny4yOSwyMy4zNGgtLjQ2YTgxLjUxLDgxLjUxLDAsMCwxLTU3LjUzLTI0TDU0LjQ4LDE2Nkg4OGE2LDYsMCwwLDAsMC0xMkg0MGE2LDYsMCwwLDAtNiw2djQ4YTYsNiwwLDAsMCwxMiwwVjE3NC40OGwxOCwxOC4wNWE5My40NSw5My40NSwwLDAsMCw2NiwyNy41M2guNTJhOTMuMzgsOTMuMzgsMCwwLDAsNjUuNjctMjYuNzYsNiw2LDAsMSwwLTguMzgtOC41OFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M222,48V96a6,6,0,0,1-6,6H168a6,6,0,0,1,0-12h33.52L183.47,72a81.51,81.51,0,0,0-57.53-24h-.46A81.5,81.5,0,0,0,68.19,71.28a6,6,0,1,1-8.38-8.58,93.38,93.38,0,0,1,65.67-26.76H126a93.45,93.45,0,0,1,66,27.53l18,18V48a6,6,0,0,1,12,0ZM187.81,184.72a81.5,81.5,0,0,1-57.29,23.34h-.46a81.51,81.51,0,0,1-57.53-24L54.48,166H88a6,6,0,0,0,0-12H40a6,6,0,0,0-6,6v48a6,6,0,0,0,12,0V174.48l18,18.05a93.45,93.45,0,0,0,66,27.53h.52a93.38,93.38,0,0,0,65.67-26.76,6,6,0,1,0-8.38-8.58Z" />
+  </OptiBase>
+));
+
+I.displayName = "Light";
+export { I as ArrowsClockwise };

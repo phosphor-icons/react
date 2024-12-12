@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuNjQsMjUuMzZhMzIsMzIsMCwwLDAtNDUuMjYsMHEtLjIxLjIxLS40Mi40NUwxMzEuNTUsODguMjIsMTIxLDc3LjY0YTI0LDI0LDAsMCwwLTMzLjk1LDBsLTc2LjY5LDc2LjdhOCw4LDAsMCwwLDAsMTEuMzFsODAsODBhOCw4LDAsMCwwLDExLjMxLDBMMTc4LjM2LDE2OWEyNCwyNCwwLDAsMCwwLTMzLjk1bC0xMC41OC0xMC41N0wyMzAuMTksNzFjLjE1LS4xNC4zMS0uMjguNDUtLjQzQTMyLDMyLDAsMCwwLDIzMC42NCwyNS4zNlpNOTYsMjI4LjY5LDc5LjMyLDIxMmwyMi4zNC0yMi4zNWE4LDgsMCwwLDAtMTEuMzEtMTEuMzFMNjgsMjAwLjY4LDU1LjMyLDE4OGwyMi4zNC0yMi4zNWE4LDgsMCwwLDAtMTEuMzEtMTEuMzFMNDQsMTc2LjY4LDI3LjMxLDE2MGw1MC4zNS01MC4zNCw2OC42OSw2OC42OVoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M230.64,25.36a32,32,0,0,0-45.26,0q-.21.21-.42.45L131.55,88.22,121,77.64a24,24,0,0,0-33.95,0l-76.69,76.7a8,8,0,0,0,0,11.31l80,80a8,8,0,0,0,11.31,0L178.36,169a24,24,0,0,0,0-33.95l-10.58-10.57L230.19,71c.15-.14.31-.28.45-.43A32,32,0,0,0,230.64,25.36ZM96,228.69,79.32,212l22.34-22.35a8,8,0,0,0-11.31-11.31L68,200.68,55.32,188l22.34-22.35a8,8,0,0,0-11.31-11.31L44,176.68,27.31,160l50.35-50.34,68.69,68.69Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as PaintBrushHousehold };

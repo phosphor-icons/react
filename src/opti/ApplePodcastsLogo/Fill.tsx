@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTkuOCwxNTEuODJhMTkuNjcsMTkuNjcsMCwwLDEsMy41OCwxNy4wNWwtMTIuMTgsNDhBMjAuMTcsMjAuMTcsMCwwLDEsMTMxLjU2LDIzMmgtNy4xMmEyMC4xNywyMC4xNywwLDAsMS0xOS42NC0xNS4xM2wtMTIuMTgtNDhhMTkuNjcsMTkuNjcsMCwwLDEsMy41OC0xNy4wNSwyMC4xNywyMC4xNywwLDAsMSwxNi03LjgyaDMxLjVBMjAuMTcsMjAuMTcsMCwwLDEsMTU5LjgsMTUxLjgyWk0xNTYsMTE2YTI4LDI4LDAsMSwwLTI4LDI4QTI4LDI4LDAsMCwwLDE1NiwxMTZabTI2LDI3YTgsOCwwLDEsMCwxNS40MSw0LjI5LDcyLDcyLDAsMSwwLTEzOC43NCwwQTgsOCwwLDAsMCw3NCwxNDMsNTYsNTYsMCwxLDEsMTgyLDE0M1pNMTI4LDI0QTEwNCwxMDQsMCwwLDAsNzAuMTgsMjE0LjQ2YTgsOCwwLDEsMCw4LjktMTMuMyw4OCw4OCwwLDEsMSw5Ny44NCwwLDgsOCwwLDAsMCw4LjksMTMuM0ExMDQsMTA0LDAsMCwwLDEyOCwyNFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M159.8,151.82a19.67,19.67,0,0,1,3.58,17.05l-12.18,48A20.17,20.17,0,0,1,131.56,232h-7.12a20.17,20.17,0,0,1-19.64-15.13l-12.18-48a19.67,19.67,0,0,1,3.58-17.05,20.17,20.17,0,0,1,16-7.82h31.5A20.17,20.17,0,0,1,159.8,151.82ZM156,116a28,28,0,1,0-28,28A28,28,0,0,0,156,116Zm26,27a8,8,0,1,0,15.41,4.29,72,72,0,1,0-138.74,0A8,8,0,0,0,74,143,56,56,0,1,1,182,143ZM128,24A104,104,0,0,0,70.18,214.46a8,8,0,1,0,8.9-13.3,88,88,0,1,1,97.84,0,8,8,0,0,0,8.9,13.3A104,104,0,0,0,128,24Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as ApplePodcastsLogo };

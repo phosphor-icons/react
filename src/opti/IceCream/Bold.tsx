@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjgsMTE2YTMyLjE0LDMyLjE0LDAsMCwwLTE2LjM3LTI3LjkyLDg0LDg0LDAsMCwwLTE2Ny4yNiwwLDMyLDMyLDAsMCwwLDEyLjUxLDU5Ljc3bDUzLjc1LDk0LjA3YTIwLDIwLDAsMCwwLDM0Ljc0LDBsNTMuNzUtOTQuMDdBMzIsMzIsMCwwLDAsMjI4LDExNlpNNTguMzksMTA4LjE2QTEyLDEyLDAsMCwwLDY4LDk2LjRWOTZhNjAsNjAsMCwwLDEsMTIwLDB2LjRhMTIsMTIsMCwwLDAsOS42MSwxMS43NkE4LDgsMCwwLDEsMTk2LDEyNEg2MGE4LDgsMCwwLDEtMS42MS0xNS44NFptMTEzLDM5Ljg0LTE2LjUsMjguODhMMTM4LjM5LDE0OFptLTg2Ljc4LDBoMjYuMTRsMzAuMzIsNTMuMDZMMTI4LDIyMy45NFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M228,116a32.14,32.14,0,0,0-16.37-27.92,84,84,0,0,0-167.26,0,32,32,0,0,0,12.51,59.77l53.75,94.07a20,20,0,0,0,34.74,0l53.75-94.07A32,32,0,0,0,228,116ZM58.39,108.16A12,12,0,0,0,68,96.4V96a60,60,0,0,1,120,0v.4a12,12,0,0,0,9.61,11.76A8,8,0,0,1,196,124H60a8,8,0,0,1-1.61-15.84Zm113,39.84-16.5,28.88L138.39,148Zm-86.78,0h26.14l30.32,53.06L128,223.94Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as IceCream };

@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsNDhIMTY4VjI0QTI0LDI0LDAsMCwwLDE0NCwwSDExMkEyNCwyNCwwLDAsMCw4OCwyNFY0OEg2NEExNiwxNiwwLDAsMCw0OCw2NFYyMDhhMTYsMTYsMCwwLDAsMTYsMTZIODB2MTZhOCw4LDAsMCwwLDE2LDBWMjI0aDY0djE2YTgsOCwwLDAsMCwxNiwwVjIyNGgxNmExNiwxNiwwLDAsMCwxNi0xNlY2NEExNiwxNiwwLDAsMCwxOTIsNDhaTTk2LDE5MmE4LDgsMCwwLDEtMTYsMFY4MGE4LDgsMCwwLDEsMTYsMFptNDAsMGE4LDgsMCwwLDEtMTYsMFY4MGE4LDgsMCwwLDEsMTYsMFpNMTUyLDQ4SDEwNFYyNGE4LDgsMCwwLDEsOC04aDMyYTgsOCwwLDAsMSw4LDhabTI0LDE0NGE4LDgsMCwwLDEtMTYsMFY4MGE4LDgsMCwwLDEsMTYsMFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M192,48H168V24A24,24,0,0,0,144,0H112A24,24,0,0,0,88,24V48H64A16,16,0,0,0,48,64V208a16,16,0,0,0,16,16H80v16a8,8,0,0,0,16,0V224h64v16a8,8,0,0,0,16,0V224h16a16,16,0,0,0,16-16V64A16,16,0,0,0,192,48ZM96,192a8,8,0,0,1-16,0V80a8,8,0,0,1,16,0Zm40,0a8,8,0,0,1-16,0V80a8,8,0,0,1,16,0ZM152,48H104V24a8,8,0,0,1,8-8h32a8,8,0,0,1,8,8Zm24,144a8,8,0,0,1-16,0V80a8,8,0,0,1,16,0Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as SuitcaseRolling };

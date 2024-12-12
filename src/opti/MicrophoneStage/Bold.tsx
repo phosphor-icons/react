@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMTJBNzUuOSw3NS45LDAsMCwwLDkyLjQ5LDk2LjMzTDIzLjkxLDE4OS44NWExOS44OSwxOS44OSwwLDAsMCwyLDI2bDE0LjI5LDE0LjI5YTE5Ljg5LDE5Ljg5LDAsMCwwLDI2LDJsOTMuNTItNjguNThBNzYsNzYsMCwxLDAsMTY4LDEyWm01Miw3NmE1MS42Niw1MS42NiwwLDAsMS03Ljc1LDI3LjI3TDE0MC43NCw0My43NUE1Miw1MiwwLDAsMSwyMjAsODhaTTU0LjcyLDIxMC43MWwtOS40My05LjQzLDU2LjE5LTc2LjYzYTc2LjQ2LDc2LjQ2LDAsMCwwLDI5Ljg3LDI5Ljg3Wk0xMTYsODhhNTEuNjMsNTEuNjMsMCwwLDEsNy43NS0yNy4yN2w3MS41MSw3MS41MUE1Miw1MiwwLDAsMSwxMTYsODhaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M168,12A75.9,75.9,0,0,0,92.49,96.33L23.91,189.85a19.89,19.89,0,0,0,2,26l14.29,14.29a19.89,19.89,0,0,0,26,2l93.52-68.58A76,76,0,1,0,168,12Zm52,76a51.66,51.66,0,0,1-7.75,27.27L140.74,43.75A52,52,0,0,1,220,88ZM54.72,210.71l-9.43-9.43,56.19-76.63a76.46,76.46,0,0,0,29.87,29.87ZM116,88a51.63,51.63,0,0,1,7.75-27.27l71.51,71.51A52,52,0,0,1,116,88Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as MicrophoneStage };

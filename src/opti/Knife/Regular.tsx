@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzEuODcsMzIuMTNhMjcuODQsMjcuODQsMCwwLDAtMzkuMzIsMEwxOC4zNCwyMDYuNGE4LDgsMCwwLDAsMy44NiwxMy40NUExNjAuNjcsMTYwLjY3LDAsMCwwLDU4LjQsMjI0YzMyLjk1LDAsNjUuOTItMTAuMiw5Ni45NS0zMC4yMywzMS43Ni0yMC41LDUwLjE5LTQzLjgyLDUxLTQ0LjgxYTgsOCwwLDAsMC0uNjQtMTAuNTlMMTg1LjMyLDExOGw0Ni41NS00Ni41NkEyNy44NSwyNy44NSwwLDAsMCwyMzEuODcsMzIuMTNaTTE4OS4xLDE0NC40NGEyMjAuNDEsMjIwLjQxLDAsMCwxLTQyLjg2LDM2LjE2Yy0zNC40MywyMi4xLTY5Ljk0LDMwLjkyLTEwNS43NywyNi4zTDE0NiwxMDEuMzNabTMxLjQ2LTg0LjNMMTc0LDEwNi43LDE1Ny4zMiw5MGw0Ni41NS00Ni41NmExMS44LDExLjgsMCwwLDEsMTYuNjksMTYuNjlaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M231.87,32.13a27.84,27.84,0,0,0-39.32,0L18.34,206.4a8,8,0,0,0,3.86,13.45A160.67,160.67,0,0,0,58.4,224c32.95,0,65.92-10.2,96.95-30.23,31.76-20.5,50.19-43.82,51-44.81a8,8,0,0,0-.64-10.59L185.32,118l46.55-46.56A27.85,27.85,0,0,0,231.87,32.13ZM189.1,144.44a220.41,220.41,0,0,1-42.86,36.16c-34.43,22.1-69.94,30.92-105.77,26.3L146,101.33Zm31.46-84.3L174,106.7,157.32,90l46.55-46.56a11.8,11.8,0,0,1,16.69,16.69Z" />
+  </OptiBase>
+));
+
+I.displayName = "Regular";
+export { I as Knife };

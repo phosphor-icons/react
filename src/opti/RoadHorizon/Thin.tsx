@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzUuNDksMTkwYTQsNCwwLDAsMS0xLjUzLDUuNDUsNC4wNyw0LjA3LDAsMCwxLTIsLjUxLDQsNCwwLDAsMS0zLjQ5LTJMMTU3LjY2LDY4SDEzMlY4MGE0LDQsMCwwLDEtOCwwVjY4SDk4LjM0TDI3LjQ5LDE5NEE0LDQsMCwwLDEsMjQsMTk2YTQuMDcsNC4wNywwLDAsMS0yLS41MUE0LDQsMCwwLDEsMjAuNTEsMTkwTDg5LjE2LDY4SDI0YTQsNCwwLDAsMSwwLThIMjMyYTQsNCwwLDAsMSwwLDhIMTY2Ljg0Wk0xMjgsMTE2YTQsNCwwLDAsMC00LDR2MTZhNCw0LDAsMCwwLDgsMFYxMjBBNCw0LDAsMCwwLDEyOCwxMTZabTAsNTZhNCw0LDAsMCwwLTQsNHYxNmE0LDQsMCwwLDAsOCwwVjE3NkE0LDQsMCwwLDAsMTI4LDE3MloiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M235.49,190a4,4,0,0,1-1.53,5.45,4.07,4.07,0,0,1-2,.51,4,4,0,0,1-3.49-2L157.66,68H132V80a4,4,0,0,1-8,0V68H98.34L27.49,194A4,4,0,0,1,24,196a4.07,4.07,0,0,1-2-.51A4,4,0,0,1,20.51,190L89.16,68H24a4,4,0,0,1,0-8H232a4,4,0,0,1,0,8H166.84ZM128,116a4,4,0,0,0-4,4v16a4,4,0,0,0,8,0V120A4,4,0,0,0,128,116Zm0,56a4,4,0,0,0-4,4v16a4,4,0,0,0,8,0V176A4,4,0,0,0,128,172Z" />
+  </OptiBase>
+));
+
+I.displayName = "Thin";
+export { I as RoadHorizon };

@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsODBhMzIsMzIsMCwxLDAtMzItMzJBMzIsMzIsMCwwLDAsMTYwLDgwWm0wLTQwYTgsOCwwLDEsMS04LDhBOCw4LDAsMCwxLDE2MCw0MFptOTQuMzIsMTUzLjg4TDE5OS43NiwxMDEuOEExOS44NSwxOS44NSwwLDAsMCwxODIuNTUsOTJoMGExOS44MywxOS44MywwLDAsMC0xNy4yLDkuOGwtMTguNywzMS41NS0zNy40Mi02My41YTIwLDIwLDAsMCwwLTM0LjQ2LDBMMS42NiwxOTMuOTFBMTIsMTIsMCwwLDAsMTIsMjEySDI0NGExMiwxMiwwLDAsMCwxMC4zMi0xOC4xMlpNOTIsODcuODcsMTA4LjU3LDExNkg3NS40M1pNMzMsMTg4bDI4LjI4LTQ4aDYxLjQ0TDE1MSwxODhabTE0NS44NiwwTDE2MC41NiwxNTdsMjItMzcuMUwyMjIuOTQsMTg4WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M160,80a32,32,0,1,0-32-32A32,32,0,0,0,160,80Zm0-40a8,8,0,1,1-8,8A8,8,0,0,1,160,40Zm94.32,153.88L199.76,101.8A19.85,19.85,0,0,0,182.55,92h0a19.83,19.83,0,0,0-17.2,9.8l-18.7,31.55-37.42-63.5a20,20,0,0,0-34.46,0L1.66,193.91A12,12,0,0,0,12,212H244a12,12,0,0,0,10.32-18.12ZM92,87.87,108.57,116H75.43ZM33,188l28.28-48h61.44L151,188Zm145.86,0L160.56,157l22-37.1L222.94,188Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as Mountains };

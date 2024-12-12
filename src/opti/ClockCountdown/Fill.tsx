@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsOTZhMTIsMTIsMCwxLDEsMTIsMTJBMTIsMTIsMCwwLDEsMjA4LDk2Wk0xOTYsNzJhMTIsMTIsMCwxLDAtMTItMTJBMTIsMTIsMCwwLDAsMTk2LDcyWm0yOC42Niw1NmE4LDgsMCwwLDAtOC42Myw3LjMxQTg4LjEyLDg4LjEyLDAsMSwxLDEyMC42Niw0MCw4LDgsMCwwLDAsMTE5LjM0LDI0LDEwNC4xMiwxMDQuMTIsMCwxLDAsMjMyLDEzNi42Niw4LDgsMCwwLDAsMjI0LjY2LDEyOFpNMTI4LDU2YTcyLDcyLDAsMSwxLTcyLDcyQTcyLjA4LDcyLjA4LDAsMCwxLDEyOCw1NlptLTgsNzJhOCw4LDAsMCwwLDgsOGg0OGE4LDgsMCwwLDAsMC0xNkgxMzZWODBhOCw4LDAsMCwwLTE2LDBabTQwLTgwYTEyLDEyLDAsMSwwLTEyLTEyQTEyLDEyLDAsMCwwLDE2MCw0OFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M208,96a12,12,0,1,1,12,12A12,12,0,0,1,208,96ZM196,72a12,12,0,1,0-12-12A12,12,0,0,0,196,72Zm28.66,56a8,8,0,0,0-8.63,7.31A88.12,88.12,0,1,1,120.66,40,8,8,0,0,0,119.34,24,104.12,104.12,0,1,0,232,136.66,8,8,0,0,0,224.66,128ZM128,56a72,72,0,1,1-72,72A72.08,72.08,0,0,1,128,56Zm-8,72a8,8,0,0,0,8,8h48a8,8,0,0,0,0-16H136V80a8,8,0,0,0-16,0Zm40-80a12,12,0,1,0-12-12A12,12,0,0,0,160,48Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as ClockCountdown };

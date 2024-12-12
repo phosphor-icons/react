@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMjBhMTIsMTIsMCwwLDAtMTIsMTJ2NC4yMkE2Ny45NCw2Ny45NCwwLDAsMCw2MCw4OHYyNGE2Ny45NCw2Ny45NCwwLDAsMCwxMTIsNTEuNzhWMTY4YTQ0LjA1LDQ0LjA1LDAsMCwxLTQ0LDQ0Yy0xNSwwLTMwLjI5LTcuNTgtMzguMTYtMTguODdhMTIsMTIsMCwwLDAtMTkuNjgsMTMuNzRDODIuNSwyMjQuNTYsMTA1LjIxLDIzNiwxMjgsMjM2YTY4LjA3LDY4LjA3LDAsMCwwLDY4LTY4VjMyQTEyLDEyLDAsMCwwLDE4NCwyMFpNMTI4LDE1NmE0NC4wNSw0NC4wNSwwLDAsMS00NC00NFY4OGE0NCw0NCwwLDAsMSw4OCwwdjI0QTQ0LjA1LDQ0LjA1LDAsMCwxLDEyOCwxNTZaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M184,20a12,12,0,0,0-12,12v4.22A67.94,67.94,0,0,0,60,88v24a67.94,67.94,0,0,0,112,51.78V168a44.05,44.05,0,0,1-44,44c-15,0-30.29-7.58-38.16-18.87a12,12,0,0,0-19.68,13.74C82.5,224.56,105.21,236,128,236a68.07,68.07,0,0,0,68-68V32A12,12,0,0,0,184,20ZM128,156a44.05,44.05,0,0,1-44-44V88a44,44,0,0,1,88,0v24A44.05,44.05,0,0,1,128,156Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as GoodreadsLogo };

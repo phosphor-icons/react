@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01Mi40NCwzNkE2LDYsMCwwLDAsNDgsMzQsMTQsMTQsMCwwLDAsMzQsNDhWMjA4YTE0LDE0LDAsMCwwLDE0LDE0SDIwOGE2LDYsMCwwLDAsNC40NC0xMFpNNDYuMjYsNDcsNzguMDcsODJINDZWNDhBMi4wNiwyLjA2LDAsMCwxLDQ2LjI2LDQ3Wk00OCwyMTBhMiwyLDAsMCwxLTItMlY5NEg4OUwxOTQuNDQsMjEwWk0yMjIsNDhWMTc3LjIzYTYsNiwwLDEsMS0xMiwwVjk0SDEzNC44OGE2LDYsMCwwLDEsMC0xMkgyMTBWNDhhMiwyLDAsMCwwLTItMkgxODJWNTZhNiw2LDAsMCwxLTEyLDBWNDZIOTEuMjVhNiw2LDAsMCwxLDAtMTJIMTcwVjI0YTYsNiwwLDAsMSwxMiwwVjM0aDI2QTE0LDE0LDAsMCwxLDIyMiw0OFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M52.44,36A6,6,0,0,0,48,34,14,14,0,0,0,34,48V208a14,14,0,0,0,14,14H208a6,6,0,0,0,4.44-10ZM46.26,47,78.07,82H46V48A2.06,2.06,0,0,1,46.26,47ZM48,210a2,2,0,0,1-2-2V94H89L194.44,210ZM222,48V177.23a6,6,0,1,1-12,0V94H134.88a6,6,0,0,1,0-12H210V48a2,2,0,0,0-2-2H182V56a6,6,0,0,1-12,0V46H91.25a6,6,0,0,1,0-12H170V24a6,6,0,0,1,12,0V34h26A14,14,0,0,1,222,48Z" />
+  </OptiBase>
+));
+
+I.displayName = "Light";
+export { I as CalendarSlash };

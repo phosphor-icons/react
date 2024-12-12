@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMTZINzJBMTYsMTYsMCwwLDAsNTYsMzJWNzcuMzNhMTYuMTIsMTYuMTIsMCwwLDAsMy4yLDkuNkw4MCwxMTQuNjdWMjI0YTE2LDE2LDAsMCwwLDE2LDE2aDY0YTE2LDE2LDAsMCwwLDE2LTE2VjExNC42N2wyMC44LTI3Ljc0YTE2LjEyLDE2LjEyLDAsMCwwLDMuMi05LjZWMzJBMTYsMTYsMCwwLDAsMTg0LDE2Wk03MiwzMkgxODRWNTZINzJWMzJabTkxLjIsNzMuMDdhMTYuMTIsMTYuMTIsMCwwLDAtMy4yLDkuNlYyMjRIOTZWMTE0LjY3YTE2LjEyLDE2LjEyLDAsMCwwLTMuMi05LjZMNzIsNzcuMzNWNzJIMTg0djUuMzNaTTEzNiwxMjB2MzJhOCw4LDAsMCwxLTE2LDBWMTIwYTgsOCwwLDAsMSwxNiwwWiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M184,16H72A16,16,0,0,0,56,32V77.33a16.12,16.12,0,0,0,3.2,9.6L80,114.67V224a16,16,0,0,0,16,16h64a16,16,0,0,0,16-16V114.67l20.8-27.74a16.12,16.12,0,0,0,3.2-9.6V32A16,16,0,0,0,184,16ZM72,32H184V56H72V32Zm91.2,73.07a16.12,16.12,0,0,0-3.2,9.6V224H96V114.67a16.12,16.12,0,0,0-3.2-9.6L72,77.33V72H184v5.33ZM136,120v32a8,8,0,0,1-16,0V120a8,8,0,0,1,16,0Z" />
+  </OptiBase>
+));
+
+I.displayName = "Regular";
+export { I as Flashlight };

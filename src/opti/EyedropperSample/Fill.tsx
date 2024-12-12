@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNjcuM2EzNS43OSwzNS43OSwwLDAsMC0xMS4yNi0yNS42NmMtMTQtMTMuMjgtMzYuNzItMTIuNzgtNTAuNjIsMS4xM0wxMzguOCw2Ni4yYTI0LDI0LDAsMCwwLTMzLjE0Ljc3bC01LDVhMTYsMTYsMCwwLDAsMCwyMi42NGwyLDIuMDYtNTEsNTFhMzkuNzUsMzkuNzUsMCwwLDAtMTAuNTMsMzhsLTgsMTguNDFBMTMuNjUsMTMuNjUsMCwwLDAsMzYsMjE5LjI5YTE1LjksMTUuOSwwLDAsMCwxNy43MSwzLjM2TDcxLjI0LDIxNWEzOS45LDM5LjksMCwwLDAsMzcuMDUtMTAuNzVsNTEtNTEsMi4wNiwyLjA2YTE2LDE2LDAsMCwwLDIyLjYyLDBsNS01YTI0LDI0LDAsMCwwLC43NC0zMy4xOGwyMy43NS0yMy44N0EzNS43NSwzNS43NSwwLDAsMCwyMjQsNjcuM1pNMTM4LDE1Mkg3MC4wN2w0NC00NCwzMy45NCwzNFoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M224,67.3a35.79,35.79,0,0,0-11.26-25.66c-14-13.28-36.72-12.78-50.62,1.13L138.8,66.2a24,24,0,0,0-33.14.77l-5,5a16,16,0,0,0,0,22.64l2,2.06-51,51a39.75,39.75,0,0,0-10.53,38l-8,18.41A13.65,13.65,0,0,0,36,219.29a15.9,15.9,0,0,0,17.71,3.36L71.24,215a39.9,39.9,0,0,0,37.05-10.75l51-51,2.06,2.06a16,16,0,0,0,22.62,0l5-5a24,24,0,0,0,.74-33.18l23.75-23.87A35.75,35.75,0,0,0,224,67.3ZM138,152H70.07l44-44,33.94,34Z" />
+  </OptiBase>
+));
+
+I.displayName = "Fill";
+export { I as EyedropperSample };

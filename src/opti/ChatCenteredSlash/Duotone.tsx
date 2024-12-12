@@ -1,0 +1,21 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNTZWMTg0YTgsOCwwLDAsMS04LDhIMTUwLjkzbC0xNiwyOGE4LDgsMCwwLDEtMTMuOSwwbC0xNi0yOEg0MGE4LDgsMCwwLDEtOC04VjU2YTgsOCwwLDAsMSw4LThIMjE2QTgsOCwwLDAsMSwyMjQsNTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNNTMuOTIsMzQuNjJBOCw4LDAsMCwwLDQwLDQwaDBBMTYsMTYsMCwwLDAsMjQsNTZWMTg0YTE2LDE2LDAsMCwwLDE2LDE2aDYwLjQzbDEzLjY4LDIzLjk0YTE2LDE2LDAsMCwwLDI3Ljc4LDBMMTU1LjU3LDIwMGgyNy4wN2wxOS40NCwyMS4zOGE4LDgsMCwxLDAsMTEuODQtMTAuNzZabTk3LDE0OS4zOGE4LDgsMCwwLDAtNyw0bC0xNiwyOC0xNi0yOGE4LDgsMCwwLDAtNy00SDQwVjU2SDUxLjczTDE2OC4xLDE4NFpNMjMyLDU2VjE4NmE4LDgsMCwwLDEtMTYsMFY1Nkg5OC41MmE4LDgsMCwxLDEsMC0xNkgyMTZBMTYsMTYsMCwwLDEsMjMyLDU2WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path
+      d="M224,56V184a8,8,0,0,1-8,8H150.93l-16,28a8,8,0,0,1-13.9,0l-16-28H40a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H216A8,8,0,0,1,224,56Z"
+      opacity="0.2"
+    />
+    <path d="M53.92,34.62A8,8,0,0,0,40,40h0A16,16,0,0,0,24,56V184a16,16,0,0,0,16,16h60.43l13.68,23.94a16,16,0,0,0,27.78,0L155.57,200h27.07l19.44,21.38a8,8,0,1,0,11.84-10.76Zm97,149.38a8,8,0,0,0-7,4l-16,28-16-28a8,8,0,0,0-7-4H40V56H51.73L168.1,184ZM232,56V186a8,8,0,0,1-16,0V56H98.52a8,8,0,1,1,0-16H216A16,16,0,0,1,232,56Z" />
+  </OptiBase>
+));
+
+I.displayName = "Duotone";
+export { I as ChatCenteredSlash };

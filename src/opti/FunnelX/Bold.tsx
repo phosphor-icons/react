@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuNzgsNjkuNDVBMjAsMjAsMCwwLDAsMjE2LDM2SDQwQTIwLDIwLDAsMCwwLDI1LjIsNjkuNDVsLjEyLjE0TDkyLDE0MC43NVYyMTZhMjAsMjAsMCwwLDAsMzEuMDksMTYuNjVsMzItMjEuMzRhMjAsMjAsMCwwLDAsOC45LTE2LjY0VjE0MC43NWw2Ni42Ny03MS4xNlpNMTQzLjIzLDEyNy44QTEyLDEyLDAsMCwwLDE0MCwxMzZ2NTYuNTJsLTI0LDE2VjEzNmExMiwxMiwwLDAsMC0zLjI0LTguMkw0OS4yMyw2MEgyMDYuNzVabTEwNS4yNiw3OS43MmExMiwxMiwwLDEsMS0xNywxN0wyMTYsMjA5bC0xNS41MiwxNS41MWExMiwxMiwwLDAsMS0xNy0xN0wxOTksMTkybC0xNS41Mi0xNS41MmExMiwxMiwwLDAsMSwxNy0xN0wyMTYsMTc1bDE1LjUxLTE1LjUyYTEyLDEyLDAsMSwxLDE3LDE3TDIzMywxOTJaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M230.78,69.45A20,20,0,0,0,216,36H40A20,20,0,0,0,25.2,69.45l.12.14L92,140.75V216a20,20,0,0,0,31.09,16.65l32-21.34a20,20,0,0,0,8.9-16.64V140.75l66.67-71.16ZM143.23,127.8A12,12,0,0,0,140,136v56.52l-24,16V136a12,12,0,0,0-3.24-8.2L49.23,60H206.75Zm105.26,79.72a12,12,0,1,1-17,17L216,209l-15.52,15.51a12,12,0,0,1-17-17L199,192l-15.52-15.52a12,12,0,0,1,17-17L216,175l15.51-15.52a12,12,0,1,1,17,17L233,192Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as FunnelX };

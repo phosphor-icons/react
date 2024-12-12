@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDQsNzZIMTJBMTIsMTIsMCwwLDAsMCw4OHY0YTEyOCwxMjgsMCwwLDAsMjU2LDBWODhBMTIsMTIsMCwwLDAsMjQ0LDc2Wk02NC41MiwxMDBoNDIuNjlMODQuNjcsMTM5LjA1QTYzLjg3LDYzLjg3LDAsMCwxLDY0LjUyLDEwMFpNMTI4LDExMmwyMi45NCwzOS43M2E2My43Niw2My43NiwwLDAsMS00NS44OCwwWm00My4zMywyNy4wNUwxNDguNzksMTAwaDQyLjY5QTYzLjg3LDYzLjg3LDAsMCwxLDE3MS4zMywxMzkuMDVaTTEyOCwxOTZBMTA0LjE1LDEwNC4xNSwwLDAsMSwyNC4zLDEwMEg0MC4zN2E4OCw4OCwwLDAsMCwxNzUuMjYsMEgyMzEuN0ExMDQuMTUsMTA0LjE1LDAsMCwxLDEyOCwxOTZaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M244,76H12A12,12,0,0,0,0,88v4a128,128,0,0,0,256,0V88A12,12,0,0,0,244,76ZM64.52,100h42.69L84.67,139.05A63.87,63.87,0,0,1,64.52,100ZM128,112l22.94,39.73a63.76,63.76,0,0,1-45.88,0Zm43.33,27.05L148.79,100h42.69A63.87,63.87,0,0,1,171.33,139.05ZM128,196A104.15,104.15,0,0,1,24.3,100H40.37a88,88,0,0,0,175.26,0H231.7A104.15,104.15,0,0,1,128,196Z" />
+  </OptiBase>
+));
+
+I.displayName = "Bold";
+export { I as OrangeSlice };

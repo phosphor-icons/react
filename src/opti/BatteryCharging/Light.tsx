@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNThIMzJBMjIsMjIsMCwwLDAsMTAsODB2OTZhMjIsMjIsMCwwLDAsMjIsMjJIMjAwYTIyLDIyLDAsMCwwLDIyLTIyVjgwQTIyLDIyLDAsMCwwLDIwMCw1OFptMTAsMTE4YTEwLDEwLDAsMCwxLTEwLDEwSDMyYTEwLDEwLDAsMCwxLTEwLTEwVjgwQTEwLDEwLDAsMCwxLDMyLDcwSDIwMGExMCwxMCwwLDAsMSwxMCwxMFptNDQtODB2NjRhNiw2LDAsMCwxLTEyLDBWOTZhNiw2LDAsMCwxLDEyLDBaTTEzNy4xLDEyNC44NWE2LDYsMCwwLDEsLjI3LDUuODNsLTE2LDMyYTYsNiwwLDEsMS0xMC43NC01LjM2TDEyMi4yOSwxMzRIMTAwYTYsNiwwLDAsMS01LjM3LTguNjhsMTYtMzJhNiw2LDAsMCwxLDEwLjc0LDUuMzZMMTA5LjcxLDEyMkgxMzJBNiw2LDAsMCwxLDEzNy4xLDEyNC44NVoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M200,58H32A22,22,0,0,0,10,80v96a22,22,0,0,0,22,22H200a22,22,0,0,0,22-22V80A22,22,0,0,0,200,58Zm10,118a10,10,0,0,1-10,10H32a10,10,0,0,1-10-10V80A10,10,0,0,1,32,70H200a10,10,0,0,1,10,10Zm44-80v64a6,6,0,0,1-12,0V96a6,6,0,0,1,12,0ZM137.1,124.85a6,6,0,0,1,.27,5.83l-16,32a6,6,0,1,1-10.74-5.36L122.29,134H100a6,6,0,0,1-5.37-8.68l16-32a6,6,0,0,1,10.74,5.36L109.71,122H132A6,6,0,0,1,137.1,124.85Z" />
+  </OptiBase>
+));
+
+I.displayName = "Light";
+export { I as BatteryCharging };

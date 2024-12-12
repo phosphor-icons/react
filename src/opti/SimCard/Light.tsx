@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTIuMjQsODMuNzZsLTU2LTU2QTYsNiwwLDAsMCwxNTIsMjZINTZBMTQsMTQsMCwwLDAsNDIsNDBWMjE2YTE0LDE0LDAsMCwwLDE0LDE0SDIwMGExNCwxNCwwLDAsMCwxNC0xNFY4OEE2LDYsMCwwLDAsMjEyLjI0LDgzLjc2Wk0yMDIsMjE2YTIsMiwwLDAsMS0yLDJINTZhMiwyLDAsMCwxLTItMlY0MGEyLDIsMCwwLDEsMi0yaDkzLjUyTDIwMiw5MC40OVpNNzQsMTIwdjcyYTYsNiwwLDAsMCw2LDZoOTZhNiw2LDAsMCwwLDYtNlYxMjBhNiw2LDAsMCwwLTYtNkg4MEE2LDYsMCwwLDAsNzQsMTIwWm0xMiw2aDg0djYwSDE1MFYxNTJhNiw2LDAsMCwwLTEyLDB2MzRIMTE4VjE1MmE2LDYsMCwwLDAtMTIsMHYzNEg4NloiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M212.24,83.76l-56-56A6,6,0,0,0,152,26H56A14,14,0,0,0,42,40V216a14,14,0,0,0,14,14H200a14,14,0,0,0,14-14V88A6,6,0,0,0,212.24,83.76ZM202,216a2,2,0,0,1-2,2H56a2,2,0,0,1-2-2V40a2,2,0,0,1,2-2h93.52L202,90.49ZM74,120v72a6,6,0,0,0,6,6h96a6,6,0,0,0,6-6V120a6,6,0,0,0-6-6H80A6,6,0,0,0,74,120Zm12,6h84v60H150V152a6,6,0,0,0-12,0v34H118V152a6,6,0,0,0-12,0v34H86Z" />
+  </OptiBase>
+));
+
+I.displayName = "Light";
+export { I as SimCard };

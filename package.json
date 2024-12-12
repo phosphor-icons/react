@@ -1,15 +1,13 @@
 {
-  "name": "@phosphor-icons/react",
+  "name": "phosphor-icons-react-optimized",
   "version": "2.1.7",
   "description": "A clean and friendly icon family for React",
   "author": {
-    "name": "Tobias Fried",
-    "email": "friedtm@gmail.com",
-    "url": "https://tobiasfried.com"
+    "name": "Hugues Alexandre",
+    "email": "hugues.alex@gmail.com"
   },
   "license": "MIT",
-  "repository": "phosphor-icons/react",
-  "homepage": "https://phosphoricons.com",
+  "repository": "bolbovic/phosphor-icons-react-optimized",
   "sideEffects": false,
   "private": false,
   "type": "module",
@@ -45,6 +43,16 @@
       "import": "./dist/ssr/*.mjs",
       "require": "./dist/index.cjs",
       "types": "./dist/ssr/*.d.ts"
+    },
+    "./dist/opti": {
+      "import": "./dist/opti/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/opti/index.d.ts"
+    },
+    "./dist/opti/*": {
+      "import": "./dist/opti/*.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/opti/*.d.ts"
     },
     "./package.json": {
       "default": "./package.json"

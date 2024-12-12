@@ -1,0 +1,18 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTk2LDk2LDAsMSwxLTk2LTk2QTk2LDk2LDAsMCwxLDIyNCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDI0QTEwNCwxMDQsMCwxLDAsMjMyLDEyOCwxMDQuMTEsMTA0LjExLDAsMCwwLDEyOCwyNFptMCwxOTJhODgsODgsMCwxLDEsODgtODhBODguMSw4OC4xLDAsMCwxLDEyOCwyMTZaTTk3LjA3LDEwMC4yNmE1OS4zMyw1OS4zMywwLDAsMSwwLDU1LjQ4LDgsOCwwLDEsMS0xNC4xNC03LjQ4LDQyLjc5LDQyLjc5LDAsMCwwLDAtNDAuNTIsOCw4LDAsMCwxLDE0LjE0LTcuNDhabTU2LTMyYTEyNi42NywxMjYuNjcsMCwwLDEsMCwxMTkuNTRBOCw4LDAsMCwxLDEzOSwxODAuMjNhMTEwLjYyLDExMC42MiwwLDAsMCwwLTEwNC40Niw4LDgsMCwwLDEsMTQuMTItNy41NFptLTI4LDE2YTkzLDkzLDAsMCwxLDAsODcuNTIsOCw4LDAsMSwxLTE0LjEyLTcuNTIsNzcsNzcsMCwwLDAsMC03Mi40OCw4LDgsMCwxLDEsMTQuMTItNy41MloiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z" opacity="0.2" />
+    <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216ZM97.07,100.26a59.33,59.33,0,0,1,0,55.48,8,8,0,1,1-14.14-7.48,42.79,42.79,0,0,0,0-40.52,8,8,0,0,1,14.14-7.48Zm56-32a126.67,126.67,0,0,1,0,119.54A8,8,0,0,1,139,180.23a110.62,110.62,0,0,0,0-104.46,8,8,0,0,1,14.12-7.54Zm-28,16a93,93,0,0,1,0,87.52,8,8,0,1,1-14.12-7.52,77,77,0,0,0,0-72.48,8,8,0,1,1,14.12-7.52Z" />
+  </OptiBase>
+));
+
+I.displayName = "Duotone";
+export { I as ContactlessPayment };

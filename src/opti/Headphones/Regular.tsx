@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDEuODksNTQuNjZBMTAzLjQzLDEwMy40MywwLDAsMCwxMjguNzksMjRIMTI4QTEwNCwxMDQsMCwwLDAsMjQsMTI4djU2YTI0LDI0LDAsMCwwLDI0LDI0SDY0YTI0LDI0LDAsMCwwLDI0LTI0VjE0NGEyNCwyNCwwLDAsMC0yNC0yNEg0MC4zNkE4OCw4OCwwLDAsMSwxMjgsNDBoLjY3YTg3LjcxLDg3LjcxLDAsMCwxLDg3LDgwSDE5MmEyNCwyNCwwLDAsMC0yNCwyNHY0MGEyNCwyNCwwLDAsMCwyNCwyNGgxNmEyNCwyNCwwLDAsMCwyNC0yNFYxMjhBMTAzLjQxLDEwMy40MSwwLDAsMCwyMDEuODksNTQuNjZaTTY0LDEzNmE4LDgsMCwwLDEsOCw4djQwYTgsOCwwLDAsMS04LDhINDhhOCw4LDAsMCwxLTgtOFYxMzZabTE1Miw0OGE4LDgsMCwwLDEtOCw4SDE5MmE4LDgsMCwwLDEtOC04VjE0NGE4LDgsMCwwLDEsOC04aDI0WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M201.89,54.66A103.43,103.43,0,0,0,128.79,24H128A104,104,0,0,0,24,128v56a24,24,0,0,0,24,24H64a24,24,0,0,0,24-24V144a24,24,0,0,0-24-24H40.36A88,88,0,0,1,128,40h.67a87.71,87.71,0,0,1,87,80H192a24,24,0,0,0-24,24v40a24,24,0,0,0,24,24h16a24,24,0,0,0,24-24V128A103.41,103.41,0,0,0,201.89,54.66ZM64,136a8,8,0,0,1,8,8v40a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V136Zm152,48a8,8,0,0,1-8,8H192a8,8,0,0,1-8-8V144a8,8,0,0,1,8-8h24Z" />
+  </OptiBase>
+));
+
+I.displayName = "Regular";
+export { I as Headphones };

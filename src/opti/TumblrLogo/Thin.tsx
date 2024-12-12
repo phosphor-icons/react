@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMTE2YTQsNCwwLDAsMCw0LTRWNzJhNCw0LDAsMCwwLTQtNEgxNDhWMjRhNCw0LDAsMCwwLTQtNEgxMTJhNCw0LDAsMCwwLTQsNEE0NC4wNSw0NC4wNSwwLDAsMSw2NCw2OGE0LDQsMCwwLDAtNCw0djQwYTQsNCwwLDAsMCw0LDRIOTJ2NjBhNjAuMDcsNjAuMDcsMCwwLDAsNjAsNjBoNDBhNCw0LDAsMCwwLDQtNFYxODRhNCw0LDAsMCwwLTQtNEgxNjBhMTIsMTIsMCwwLDEtMTItMTJWMTE2Wm0tMzIsNzJoMjh2NDBIMTUyYTUyLjA2LDUyLjA2LDAsMCwxLTUyLTUyVjExMmE0LDQsMCwwLDAtNC00SDY4Vjc1Ljg1QTUyLjA5LDUyLjA5LDAsMCwwLDExNS44NSwyOEgxNDBWNzJhNCw0LDAsMCwwLDQsNGg0NHYzMkgxNDRhNCw0LDAsMCwwLTQsNHY1NkEyMCwyMCwwLDAsMCwxNjAsMTg4WiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M192,116a4,4,0,0,0,4-4V72a4,4,0,0,0-4-4H148V24a4,4,0,0,0-4-4H112a4,4,0,0,0-4,4A44.05,44.05,0,0,1,64,68a4,4,0,0,0-4,4v40a4,4,0,0,0,4,4H92v60a60.07,60.07,0,0,0,60,60h40a4,4,0,0,0,4-4V184a4,4,0,0,0-4-4H160a12,12,0,0,1-12-12V116Zm-32,72h28v40H152a52.06,52.06,0,0,1-52-52V112a4,4,0,0,0-4-4H68V75.85A52.09,52.09,0,0,0,115.85,28H140V72a4,4,0,0,0,4,4h44v32H144a4,4,0,0,0-4,4v56A20,20,0,0,0,160,188Z" />
+  </OptiBase>
+));
+
+I.displayName = "Thin";
+export { I as TumblrLogo };

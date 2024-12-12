@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjYuMjcsMTE4LjExLDIwNi4zOCw0MmE3Ljk0LDcuOTQsMCwwLDAtMTUuMTYtLjc1TDE3Mi41Nyw5Mkg4My40M0w2NC43OCw0MS4yNEE3Ljk0LDcuOTQsMCwwLDAsNDkuNjIsNDJMMjkuNzMsMTE4LjExYTUzLjE2LDUzLjE2LDAsMCwwLDIwLjQ0LDU2LjY4bDczLjI3LDUxLjc2YTcuOSw3LjksMCwwLDAsOS4xMiwwbDczLjI3LTUxLjc2QTUzLjE2LDUzLjE2LDAsMCwwLDIyNi4yNywxMTguMTFabS0yNS4wNSw1MC4xNEwxMjgsMjIwLDU0Ljc4LDE2OC4yNWE0NS4xMSw0NS4xMSwwLDAsMS0xNy4zMS00OC4xMWwxOS44NC03Nkw3Ni44OSw5Ny4zOEE0LDQsMCwwLDAsODAuNjQsMTAwaDk0LjcyYTQsNCwwLDAsMCwzLjc1LTIuNjJsMTkuNTctNTMuMjIsMTkuODUsNzZBNDUuMTEsNDUuMTEsMCwwLDEsMjAxLjIyLDE2OC4yNVoiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M226.27,118.11,206.38,42a7.94,7.94,0,0,0-15.16-.75L172.57,92H83.43L64.78,41.24A7.94,7.94,0,0,0,49.62,42L29.73,118.11a53.16,53.16,0,0,0,20.44,56.68l73.27,51.76a7.9,7.9,0,0,0,9.12,0l73.27-51.76A53.16,53.16,0,0,0,226.27,118.11Zm-25.05,50.14L128,220,54.78,168.25a45.11,45.11,0,0,1-17.31-48.11l19.84-76L76.89,97.38A4,4,0,0,0,80.64,100h94.72a4,4,0,0,0,3.75-2.62l19.57-53.22,19.85,76A45.11,45.11,0,0,1,201.22,168.25Z" />
+  </OptiBase>
+));
+
+I.displayName = "Thin";
+export { I as GitlabLogoSimple };

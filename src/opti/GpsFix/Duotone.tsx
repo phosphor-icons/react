@@ -1,0 +1,21 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsNDhhODAsODAsMCwxLDAsODAsODBBODAsODAsMCwwLDAsMTI4LDQ4Wm0wLDExMmEzMiwzMiwwLDEsMSwzMi0zMkEzMiwzMiwwLDAsMSwxMjgsMTYwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTI0MCwxMjBIMjE1LjYzQTg4LjEzLDg4LjEzLDAsMCwwLDEzNiw0MC4zN1YxNmE4LDgsMCwwLDAtMTYsMFY0MC4zN0E4OC4xMyw4OC4xMywwLDAsMCw0MC4zNywxMjBIMTZhOCw4LDAsMCwwLDAsMTZINDAuMzdBODguMTMsODguMTMsMCwwLDAsMTIwLDIxNS42M1YyNDBhOCw4LDAsMCwwLDE2LDBWMjE1LjYzQTg4LjEzLDg4LjEzLDAsMCwwLDIxNS42MywxMzZIMjQwYTgsOCwwLDAsMCwwLTE2Wk0xMjgsMjAwYTcyLDcyLDAsMSwxLDcyLTcyQTcyLjA4LDcyLjA4LDAsMCwxLDEyOCwyMDBabTAtMTEyYTQwLDQwLDAsMSwwLDQwLDQwQTQwLDQwLDAsMCwwLDEyOCw4OFptMCw2NGEyNCwyNCwwLDEsMSwyNC0yNEEyNCwyNCwwLDAsMSwxMjgsMTUyWiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path
+      d="M128,48a80,80,0,1,0,80,80A80,80,0,0,0,128,48Zm0,112a32,32,0,1,1,32-32A32,32,0,0,1,128,160Z"
+      opacity="0.2"
+    />
+    <path d="M240,120H215.63A88.13,88.13,0,0,0,136,40.37V16a8,8,0,0,0-16,0V40.37A88.13,88.13,0,0,0,40.37,120H16a8,8,0,0,0,0,16H40.37A88.13,88.13,0,0,0,120,215.63V240a8,8,0,0,0,16,0V215.63A88.13,88.13,0,0,0,215.63,136H240a8,8,0,0,0,0-16ZM128,200a72,72,0,1,1,72-72A72.08,72.08,0,0,1,128,200Zm0-112a40,40,0,1,0,40,40A40,40,0,0,0,128,88Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,152Z" />
+  </OptiBase>
+));
+
+I.displayName = "Duotone";
+export { I as GpsFix };

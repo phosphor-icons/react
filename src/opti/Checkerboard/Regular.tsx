@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabS0xMi42OSw4OEwxMzYsNjAuNjlWNDhoMTIuNjlMMjA4LDEwNy4zMlYxMjBaTTEzNiw4My4zMSwxNzIuNjksMTIwSDEzNlptNzIsMS4zOEwxNzEuMzEsNDhIMjA4Wk0xMjAsNDh2NzJINDhWNDhaTTEwNy4zMSwyMDgsNDgsMTQ4LjY5VjEzNkg2MC42OUwxMjAsMTk1LjMxVjIwOFpNMTIwLDE3Mi42OSw4My4zMSwxMzZIMTIwWm0tNzItMS4zOEw4NC42OSwyMDhINDhaTTIwOCwyMDhIMTM2VjEzNmg3MnY3MloiLz48L3N2Zz4=)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm-12.69,88L136,60.69V48h12.69L208,107.32V120ZM136,83.31,172.69,120H136Zm72,1.38L171.31,48H208ZM120,48v72H48V48ZM107.31,208,48,148.69V136H60.69L120,195.31V208ZM120,172.69,83.31,136H120Zm-72-1.38L84.69,208H48ZM208,208H136V136h72v72Z" />
+  </OptiBase>
+));
+
+I.displayName = "Regular";
+export { I as Checkerboard };

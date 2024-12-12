@@ -1,0 +1,17 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAsNDhWODhhNiw2LDAsMCwxLTEyLDBWNTRIMTg0YTYsNiwwLDAsMSwwLTEyaDQwQTYsNiwwLDAsMSwyMzAsNDhaTTcyLDIwMkgzOFYxNjhhNiw2LDAsMCwwLTEyLDB2NDBhNiw2LDAsMCwwLDYsNkg3MmE2LDYsMCwwLDAsMC0xMlptMTUyLTQwYTYsNiwwLDAsMC02LDZ2MzRIMTg0YTYsNiwwLDAsMCwwLDEyaDQwYTYsNiwwLDAsMCw2LTZWMTY4QTYsNiwwLDAsMCwyMjQsMTYyWk0zMiw5NGE2LDYsMCwwLDAsNi02VjU0SDcyYTYsNiwwLDAsMCwwLTEySDMyYTYsNiwwLDAsMC02LDZWODhBNiw2LDAsMCwwLDMyLDk0Wk04MCw4MmE2LDYsMCwwLDAtNiw2djgwYTYsNiwwLDAsMCwxMiwwVjg4QTYsNiwwLDAsMCw4MCw4MlptMTAyLDg2Vjg4YTYsNiwwLDAsMC0xMiwwdjgwYTYsNiwwLDAsMCwxMiwwWk0xNDQsODJhNiw2LDAsMCwwLTYsNnY4MGE2LDYsMCwwLDAsMTIsMFY4OEE2LDYsMCwwLDAsMTQ0LDgyWm0tMzIsMGE2LDYsMCwwLDAtNiw2djgwYTYsNiwwLDAsMCwxMiwwVjg4QTYsNiwwLDAsMCwxMTIsODJaIi8+PC9zdmc+)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path d="M230,48V88a6,6,0,0,1-12,0V54H184a6,6,0,0,1,0-12h40A6,6,0,0,1,230,48ZM72,202H38V168a6,6,0,0,0-12,0v40a6,6,0,0,0,6,6H72a6,6,0,0,0,0-12Zm152-40a6,6,0,0,0-6,6v34H184a6,6,0,0,0,0,12h40a6,6,0,0,0,6-6V168A6,6,0,0,0,224,162ZM32,94a6,6,0,0,0,6-6V54H72a6,6,0,0,0,0-12H32a6,6,0,0,0-6,6V88A6,6,0,0,0,32,94ZM80,82a6,6,0,0,0-6,6v80a6,6,0,0,0,12,0V88A6,6,0,0,0,80,82Zm102,86V88a6,6,0,0,0-12,0v80a6,6,0,0,0,12,0ZM144,82a6,6,0,0,0-6,6v80a6,6,0,0,0,12,0V88A6,6,0,0,0,144,82Zm-32,0a6,6,0,0,0-6,6v80a6,6,0,0,0,12,0V88A6,6,0,0,0,112,82Z" />
+  </OptiBase>
+));
+
+I.displayName = "Light";
+export { I as Barcode };

@@ -1,0 +1,21 @@
+/* GENERATED FILE */
+import React, { forwardRef } from "react";
+import type { Icon } from "../../lib/types";
+import OptiBase from "../../lib/OptiBase";
+
+/**
+ * ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTUydjQwYTgsOCwwLDAsMS04LDhINDhhOCw4LDAsMCwxLTgtOFYxNTJhOCw4LDAsMCwxLDgtOEgyMDhBOCw4LDAsMCwxLDIxNiwxNTJabS04LTk2SDQ4YTgsOCwwLDAsMC04LDh2NDBhOCw4LDAsMCwwLDgsOEgyMDhhOCw4LDAsMCwwLDgtOFY2NEE4LDgsMCwwLDAsMjA4LDU2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIwOCwxMzZINDhhMTYsMTYsMCwwLDAtMTYsMTZ2NDBhMTYsMTYsMCwwLDAsMTYsMTZIMjA4YTE2LDE2LDAsMCwwLDE2LTE2VjE1MkExNiwxNiwwLDAsMCwyMDgsMTM2Wm0wLDU2SDQ4VjE1MkgyMDh2NDBabTAtMTQ0SDQ4QTE2LDE2LDAsMCwwLDMyLDY0djQwYTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY2NEExNiwxNiwwLDAsMCwyMDgsNDhabTAsNTZINDhWNjRIMjA4djQwWiIvPjwvc3ZnPg==)
+ */
+const I: Icon = forwardRef(({ children, ...props }, ref) => (
+  <OptiBase ref={ref} {...props}>
+    {children}
+    <path
+      d="M216,152v40a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V152a8,8,0,0,1,8-8H208A8,8,0,0,1,216,152Zm-8-96H48a8,8,0,0,0-8,8v40a8,8,0,0,0,8,8H208a8,8,0,0,0,8-8V64A8,8,0,0,0,208,56Z"
+      opacity="0.2"
+    />
+    <path d="M208,136H48a16,16,0,0,0-16,16v40a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V152A16,16,0,0,0,208,136Zm0,56H48V152H208v40Zm0-144H48A16,16,0,0,0,32,64v40a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V64A16,16,0,0,0,208,48Zm0,56H48V64H208v40Z" />
+  </OptiBase>
+));
+
+I.displayName = "Duotone";
+export { I as Rows };
