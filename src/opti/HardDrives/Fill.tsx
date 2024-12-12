@@ -15,4 +15,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Fill";
-export { I as HardDrives };
+export { I as Fill };

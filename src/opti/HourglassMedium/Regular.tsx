@@ -14,4 +14,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Regular";
-export { I as HourglassMedium };
+export { I as Regular };

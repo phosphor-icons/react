@@ -14,4 +14,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Thin";
-export { I as DeviceTabletCamera };
+export { I as Thin };

@@ -15,4 +15,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Duotone";
-export { I as ArrowLineDown };
+export { I as Duotone };

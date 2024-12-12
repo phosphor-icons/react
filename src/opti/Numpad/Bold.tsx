@@ -14,4 +14,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Bold";
-export { I as Numpad };
+export { I as Bold };

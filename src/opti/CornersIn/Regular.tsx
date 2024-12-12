@@ -14,4 +14,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Regular";
-export { I as CornersIn };
+export { I as Regular };

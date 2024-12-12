@@ -14,4 +14,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Thin";
-export { I as MonitorPlay };
+export { I as Thin };

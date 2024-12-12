@@ -14,4 +14,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Bold";
-export { I as AddressBook };
+export { I as Bold };

@@ -14,4 +14,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Thin";
-export { I as ShirtFolded };
+export { I as Thin };

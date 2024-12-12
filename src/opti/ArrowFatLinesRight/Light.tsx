@@ -14,4 +14,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Light";
-export { I as ArrowFatLinesRight };
+export { I as Light };

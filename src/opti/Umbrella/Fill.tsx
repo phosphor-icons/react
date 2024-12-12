@@ -14,4 +14,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Fill";
-export { I as Umbrella };
+export { I as Fill };

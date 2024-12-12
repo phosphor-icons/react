@@ -18,4 +18,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Duotone";
-export { I as SquareSplitHorizontal };
+export { I as Duotone };

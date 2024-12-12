@@ -14,4 +14,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Regular";
-export { I as Shrimp };
+export { I as Regular };

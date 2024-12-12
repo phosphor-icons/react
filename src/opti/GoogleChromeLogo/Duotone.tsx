@@ -15,4 +15,4 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "Duotone";
-export { I as GoogleChromeLogo };
+export { I as Duotone };

@@ -143,7 +143,7 @@ const I: Icon = forwardRef(({ children, ...props }, ref) => (
 ));
 
 I.displayName = "${pascalize(weight)}";
-export { I as ${name}${!!ALIASES[key] ? `, I as ${pascalize(weight)}` : ""} }
+export { I as ${pascalize(weight)} }
 `;
     }
 
