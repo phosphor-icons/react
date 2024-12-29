@@ -187,7 +187,7 @@ export default CustomIcon;
 If Custom Icons are intended to be used in [React Server Components](#react-server-components-and-ssr), use `<SSRBase />` instead of `<IconBase />` as the render component.
 
 <!-- BEGIN_LINKS -->
-## Our Related Projects
+## Our Projects
 
 - [@phosphor-icons/homepage](https://github.com/phosphor-icons/homepage) ▲ Phosphor homepage and general info
 - [@phosphor-icons/core](https://github.com/phosphor-icons/core) ▲ Phosphor icon assets and catalog
@@ -202,6 +202,7 @@ If Custom Icons are intended to be used in [React Server Components](#react-serv
 - [@phosphor-icons/sketch](https://github.com/phosphor-icons/sketch) ▲ Phosphor icons Sketch plugin
 - [@phosphor-icons/pack](https://github.com/phosphor-icons/pack) ▲ Phosphor web font stripper to generate minimal icon bundles
 - [@phosphor-icons/theme](https://github.com/phosphor-icons/theme) ▲ A VS Code (and other IDE) theme with the Phosphor color palette
+- [@phosphor-icons/unplugin](https://github.com/phosphor-icons/theme) ▲ A framework-agnostic bundler plugin for generating Phosphor scripte sheets in web apps
 
 ## Community Projects
 
@@ -216,6 +217,9 @@ If Custom Icons are intended to be used in [React Server Components](#react-serv
 - [phosphor-leptos](https://github.com/SorenHolstHansen/phosphor-leptos) ▲ Phosphor icon component library for Leptos apps (rust)
 - [wordpress-phosphor-icons-block](https://github.com/robruiz/phosphor-icons-block) ▲ Phosphor icon block for use in WordPress v5.8+
 - [ember-phosphor-icons](https://github.com/IgnaceMaes/ember-phosphor-icons) ▲ Phosphor icons for Ember apps
+- [compose-phosphor-icons](https://github.com/adamglin0/compose-phosphor-icon) ▲ Phosphor icons for Compose Multiplatform
+- [phosphor-uikit](https://github.com/pepaslabs/phosphor-uikit) ▲ Xcode asset catalog generator for Swift/UIKit
+- [phosphor-icons-tailwindcss](https://github.com/vnphanquang/phosphor-icons-tailwindcss) ▲ TailwindCSS plugin for Phosphor icons
 
 If you've made a port of Phosphor and you want to see it here, just open a PR [here](https://github.com/phosphor-icons/homepage)!
 
