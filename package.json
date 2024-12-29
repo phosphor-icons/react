@@ -72,6 +72,7 @@
     "UI",
     "UX"
   ],
+  "packageManager": "pnpm@9",
   "scripts": {
     "serve": "vite serve ./example",
     "build": "vite build && tsc --emitDeclarationOnly",
