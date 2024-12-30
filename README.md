@@ -1,9 +1,11 @@
 > [!IMPORTANT]
 > As part of a major update, we will be replacing the existing `phosphor-react` package with `@phosphor-icons/react`. We recommend using this new version, as it has improved performance and a significantly smaller bundle size. No APIs have been changed, so drop-in replacement should be straightforward. The legacy package will continue to receive maintenance, but will not be updated with new icons upstream. [Take me to the legacy version ➜](https://github.com/phosphor-icons/react/tree/legacy)
 
-<img src="/meta/phosphor-mark-tight-yellow.png" width="128" align="right" />
-
 # @phosphor-icons/react
+
+<!-- BEGIN_LOGO -->
+<img src="/.github/phosphor-mark-tight-yellow.png" width="128" align="right" />
+<!-- END_LOGO -->
 
 Phosphor is a flexible icon family for interfaces, diagrams, presentations — whatever, really. Explore all our icons at [phosphoricons.com](https://phosphoricons.com).
 
@@ -100,7 +102,7 @@ You may create multiple Contexts for styling icons differently in separate regio
 
 ### Composability
 
-<img src="/meta/cube-rotate.svg" width="128" align="right" />
+<img src="/.github/cube-rotate.svg" width="128" align="right" />
 
 Components can accept arbitrary SVG elements as children, so long as they are valid children of the `<svg>` element. This can be used to modify an icon with background layers or shapes, filters, animations, and more. The children will be placed _below_ the normal icon contents.
 
