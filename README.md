@@ -55,7 +55,7 @@ If you're using Next.js 13+, consider using [optimizePackageImports](https://nex
 ```tsx
 module.exports = {
   experimental: {
-    optimizePackageImports: ['@phosphor-icons/react'],
+    optimizePackageImports: ["@phosphor-icons/react"],
   },
 }
 ```
