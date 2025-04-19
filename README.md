@@ -48,7 +48,7 @@ When importing icons during development within a React environment directly from
 import { BellSimple } from "@phosphor-icons/react/dist/icons/BellSimple";
 ```
 
-Alternatively,
+**Alternatively,**
 
 If you're using Next.js 13+, consider using [optimizePackageImports](https://nextjs.org/docs/app/api-reference/config/next-config-js/optimizePackageImports) in your next.config.js to have Next.js only load the modules that you are actually using. With this approach, you can use `@phosphor-icons/react` directly without causing Next.js to compile all its modules:
 
