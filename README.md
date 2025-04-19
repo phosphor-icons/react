@@ -40,6 +40,27 @@ const App = () => {
 };
 ```
 
+### Import Performance Optimization
+
+When importing icons during development directly from the main module `@phosphor-icons/react`, some bundlers may eagerly transpile all 9,000+ modules exported by the package. This behavior can drastically increase compilation time.
+To avoid transpiling all modules, import individual icons from their specific file paths instead:
+
+```tsx
+import { BellSimple } from "@phosphor-icons/react/dist/icons/BellSimple";
+```
+
+#### Next.js Specific Optimizations
+
+If you're using Next.js 13+, consider using [optimizePackageImports](https://nextjs.org/docs/app/api-reference/config/next-config-js/optimizePackageImports) in your next.config.js to have Next.js only load the modules that you are actually using. With this approach, you can use `@phosphor-icons/react` directly without causing Next.js to compile all its modules:
+
+```tsx
+module.exports = {
+  experimental: {
+    optimizePackageImports: ["@phosphor-icons/react"],
+  },
+}
+```
+
 ### React Server Components and SSR
 
 When using Phosphor Icons in an SSR environment, within a React Server Component, or in any environment that does not permit the use of the Context API ([Next.js](https://nextjs.org/) Server Component, for example), import icons from the `/dist/ssr` submodule:
