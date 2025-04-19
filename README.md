@@ -42,7 +42,8 @@ const App = () => {
 
 ### Import Performance Optimization
 
-When importing icons during development within a React environment directly from the main module: `@phosphor-icons/react`, the React environment compiles all the 9k+ modules exported from `@phosphor-icons/react`. This greatly increases the compliation time. To avoid compiling all modules, import individual icons from their specific icon files:
+When importing icons during development directly from the main module `@phosphor-icons/react`, some bundlers may eagerly transpile all 9,000+ modules exported by the package. This behavior can drastically increase compilation time.
+To avoid transpiling all modules, import individual icons from their specific file paths instead:
 
 ```tsx
 import { BellSimple } from "@phosphor-icons/react/dist/icons/BellSimple";
