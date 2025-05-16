@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GitMerge";
-export { I as GitMerge };
+I.displayName = "GitMergeIcon";
+
+/** @deprecated Use GitMergeIcon */
+export const GitMerge = I;
+export { I as GitMergeIcon };

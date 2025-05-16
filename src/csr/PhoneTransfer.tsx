@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PhoneTransfer";
-export { I as PhoneTransfer };
+I.displayName = "PhoneTransferIcon";
+
+/** @deprecated Use PhoneTransferIcon */
+export const PhoneTransfer = I;
+export { I as PhoneTransferIcon };

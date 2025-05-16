@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SplitHorizontal";
-export { I as SplitHorizontal };
+I.displayName = "SplitHorizontalIcon";
+
+/** @deprecated Use SplitHorizontalIcon */
+export const SplitHorizontal = I;
+export { I as SplitHorizontalIcon };

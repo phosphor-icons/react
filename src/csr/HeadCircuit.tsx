@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "HeadCircuit";
-export { I as HeadCircuit };
+I.displayName = "HeadCircuitIcon";
+
+/** @deprecated Use HeadCircuitIcon */
+export const HeadCircuit = I;
+export { I as HeadCircuitIcon };

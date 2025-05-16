@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Lock";
-export { I as Lock };
+I.displayName = "LockIcon";
+
+/** @deprecated Use LockIcon */
+export const Lock = I;
+export { I as LockIcon };

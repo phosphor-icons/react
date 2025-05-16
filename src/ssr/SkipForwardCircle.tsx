@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SkipForwardCircle";
-export { I as SkipForwardCircle };
+I.displayName = "SkipForwardCircleIcon";
+
+/** @deprecated Use SkipForwardCircleIcon */
+export const SkipForwardCircle = I;
+export { I as SkipForwardCircleIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BluetoothX";
-export { I as BluetoothX };
+I.displayName = "BluetoothXIcon";
+
+/** @deprecated Use BluetoothXIcon */
+export const BluetoothX = I;
+export { I as BluetoothXIcon };

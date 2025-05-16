@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ChatTeardropText";
-export { I as ChatTeardropText };
+I.displayName = "ChatTeardropTextIcon";
+
+/** @deprecated Use ChatTeardropTextIcon */
+export const ChatTeardropText = I;
+export { I as ChatTeardropTextIcon };

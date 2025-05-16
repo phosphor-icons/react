@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Lasso";
-export { I as Lasso };
+I.displayName = "LassoIcon";
+
+/** @deprecated Use LassoIcon */
+export const Lasso = I;
+export { I as LassoIcon };

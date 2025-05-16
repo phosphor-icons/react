@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Percent";
-export { I as Percent };
+I.displayName = "PercentIcon";
+
+/** @deprecated Use PercentIcon */
+export const Percent = I;
+export { I as PercentIcon };

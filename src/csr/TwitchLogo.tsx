@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TwitchLogo";
-export { I as TwitchLogo };
+I.displayName = "TwitchLogoIcon";
+
+/** @deprecated Use TwitchLogoIcon */
+export const TwitchLogo = I;
+export { I as TwitchLogoIcon };

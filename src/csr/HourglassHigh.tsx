@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "HourglassHigh";
-export { I as HourglassHigh };
+I.displayName = "HourglassHighIcon";
+
+/** @deprecated Use HourglassHighIcon */
+export const HourglassHigh = I;
+export { I as HourglassHighIcon };

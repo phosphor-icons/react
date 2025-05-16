@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SubsetOf";
-export { I as SubsetOf };
+I.displayName = "SubsetOfIcon";
+
+/** @deprecated Use SubsetOfIcon */
+export const SubsetOf = I;
+export { I as SubsetOfIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "WifiX";
-export { I as WifiX };
+I.displayName = "WifiXIcon";
+
+/** @deprecated Use WifiXIcon */
+export const WifiX = I;
+export { I as WifiXIcon };

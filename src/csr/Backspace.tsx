@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Backspace";
-export { I as Backspace };
+I.displayName = "BackspaceIcon";
+
+/** @deprecated Use BackspaceIcon */
+export const Backspace = I;
+export { I as BackspaceIcon };

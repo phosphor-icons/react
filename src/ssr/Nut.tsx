@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Nut";
-export { I as Nut };
+I.displayName = "NutIcon";
+
+/** @deprecated Use NutIcon */
+export const Nut = I;
+export { I as NutIcon };

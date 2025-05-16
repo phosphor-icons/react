@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SteamLogo";
-export { I as SteamLogo };
+I.displayName = "SteamLogoIcon";
+
+/** @deprecated Use SteamLogoIcon */
+export const SteamLogo = I;
+export { I as SteamLogoIcon };

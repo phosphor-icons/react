@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MarkdownLogo";
-export { I as MarkdownLogo };
+I.displayName = "MarkdownLogoIcon";
+
+/** @deprecated Use MarkdownLogoIcon */
+export const MarkdownLogo = I;
+export { I as MarkdownLogoIcon };

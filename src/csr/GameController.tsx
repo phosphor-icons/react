@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GameController";
-export { I as GameController };
+I.displayName = "GameControllerIcon";
+
+/** @deprecated Use GameControllerIcon */
+export const GameController = I;
+export { I as GameControllerIcon };

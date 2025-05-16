@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GoogleDriveLogo";
-export { I as GoogleDriveLogo };
+I.displayName = "GoogleDriveLogoIcon";
+
+/** @deprecated Use GoogleDriveLogoIcon */
+export const GoogleDriveLogo = I;
+export { I as GoogleDriveLogoIcon };

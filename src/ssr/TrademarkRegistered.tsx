@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TrademarkRegistered";
-export { I as TrademarkRegistered };
+I.displayName = "TrademarkRegisteredIcon";
+
+/** @deprecated Use TrademarkRegisteredIcon */
+export const TrademarkRegistered = I;
+export { I as TrademarkRegisteredIcon };

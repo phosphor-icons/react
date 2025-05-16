@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SimCard";
-export { I as SimCard };
+I.displayName = "SimCardIcon";
+
+/** @deprecated Use SimCardIcon */
+export const SimCard = I;
+export { I as SimCardIcon };

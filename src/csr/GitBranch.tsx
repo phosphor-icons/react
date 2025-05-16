@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GitBranch";
-export { I as GitBranch };
+I.displayName = "GitBranchIcon";
+
+/** @deprecated Use GitBranchIcon */
+export const GitBranch = I;
+export { I as GitBranchIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Radio";
-export { I as Radio };
+I.displayName = "RadioIcon";
+
+/** @deprecated Use RadioIcon */
+export const Radio = I;
+export { I as RadioIcon };

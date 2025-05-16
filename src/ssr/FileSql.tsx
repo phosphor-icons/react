@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FileSql";
-export { I as FileSql };
+I.displayName = "FileSqlIcon";
+
+/** @deprecated Use FileSqlIcon */
+export const FileSql = I;
+export { I as FileSqlIcon };

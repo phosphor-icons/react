@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Keyhole";
-export { I as Keyhole };
+I.displayName = "KeyholeIcon";
+
+/** @deprecated Use KeyholeIcon */
+export const Keyhole = I;
+export { I as KeyholeIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Paperclip";
-export { I as Paperclip };
+I.displayName = "PaperclipIcon";
+
+/** @deprecated Use PaperclipIcon */
+export const Paperclip = I;
+export { I as PaperclipIcon };

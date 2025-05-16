@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BracketsAngle";
-export { I as BracketsAngle };
+I.displayName = "BracketsAngleIcon";
+
+/** @deprecated Use BracketsAngleIcon */
+export const BracketsAngle = I;
+export { I as BracketsAngleIcon };

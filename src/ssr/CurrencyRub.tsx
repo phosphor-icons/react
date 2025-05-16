@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CurrencyRub";
-export { I as CurrencyRub };
+I.displayName = "CurrencyRubIcon";
+
+/** @deprecated Use CurrencyRubIcon */
+export const CurrencyRub = I;
+export { I as CurrencyRubIcon };

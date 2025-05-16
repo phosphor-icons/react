@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CheckCircle";
-export { I as CheckCircle };
+I.displayName = "CheckCircleIcon";
+
+/** @deprecated Use CheckCircleIcon */
+export const CheckCircle = I;
+export { I as CheckCircleIcon };

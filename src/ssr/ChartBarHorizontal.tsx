@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ChartBarHorizontal";
-export { I as ChartBarHorizontal };
+I.displayName = "ChartBarHorizontalIcon";
+
+/** @deprecated Use ChartBarHorizontalIcon */
+export const ChartBarHorizontal = I;
+export { I as ChartBarHorizontalIcon };

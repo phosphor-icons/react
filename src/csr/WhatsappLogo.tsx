@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "WhatsappLogo";
-export { I as WhatsappLogo };
+I.displayName = "WhatsappLogoIcon";
+
+/** @deprecated Use WhatsappLogoIcon */
+export const WhatsappLogo = I;
+export { I as WhatsappLogoIcon };

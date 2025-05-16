@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Meteor";
-export { I as Meteor };
+I.displayName = "MeteorIcon";
+
+/** @deprecated Use MeteorIcon */
+export const Meteor = I;
+export { I as MeteorIcon };

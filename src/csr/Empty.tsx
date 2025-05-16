@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Empty";
-export { I as Empty };
+I.displayName = "EmptyIcon";
+
+/** @deprecated Use EmptyIcon */
+export const Empty = I;
+export { I as EmptyIcon };

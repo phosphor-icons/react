@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PaypalLogo";
-export { I as PaypalLogo };
+I.displayName = "PaypalLogoIcon";
+
+/** @deprecated Use PaypalLogoIcon */
+export const PaypalLogo = I;
+export { I as PaypalLogoIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "OpenAiLogo";
-export { I as OpenAiLogo };
+I.displayName = "OpenAiLogoIcon";
+
+/** @deprecated Use OpenAiLogoIcon */
+export const OpenAiLogo = I;
+export { I as OpenAiLogoIcon };

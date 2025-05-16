@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FunnelX";
-export { I as FunnelX };
+I.displayName = "FunnelXIcon";
+
+/** @deprecated Use FunnelXIcon */
+export const FunnelX = I;
+export { I as FunnelXIcon };

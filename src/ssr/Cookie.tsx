@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Cookie";
-export { I as Cookie };
+I.displayName = "CookieIcon";
+
+/** @deprecated Use CookieIcon */
+export const Cookie = I;
+export { I as CookieIcon };

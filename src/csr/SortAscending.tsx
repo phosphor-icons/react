@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SortAscending";
-export { I as SortAscending };
+I.displayName = "SortAscendingIcon";
+
+/** @deprecated Use SortAscendingIcon */
+export const SortAscending = I;
+export { I as SortAscendingIcon };

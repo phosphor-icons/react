@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TextColumns";
-export { I as TextColumns };
+I.displayName = "TextColumnsIcon";
+
+/** @deprecated Use TextColumnsIcon */
+export const TextColumns = I;
+export { I as TextColumnsIcon };

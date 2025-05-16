@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "UserFocus";
-export { I as UserFocus };
+I.displayName = "UserFocusIcon";
+
+/** @deprecated Use UserFocusIcon */
+export const UserFocus = I;
+export { I as UserFocusIcon };

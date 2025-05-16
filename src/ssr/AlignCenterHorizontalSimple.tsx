@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "AlignCenterHorizontalSimple";
-export { I as AlignCenterHorizontalSimple };
+I.displayName = "AlignCenterHorizontalSimpleIcon";
+
+/** @deprecated Use AlignCenterHorizontalSimpleIcon */
+export const AlignCenterHorizontalSimple = I;
+export { I as AlignCenterHorizontalSimpleIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MagnifyingGlass";
-export { I as MagnifyingGlass };
+I.displayName = "MagnifyingGlassIcon";
+
+/** @deprecated Use MagnifyingGlassIcon */
+export const MagnifyingGlass = I;
+export { I as MagnifyingGlassIcon };

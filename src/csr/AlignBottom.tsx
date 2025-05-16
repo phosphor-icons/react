@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "AlignBottom";
-export { I as AlignBottom };
+I.displayName = "AlignBottomIcon";
+
+/** @deprecated Use AlignBottomIcon */
+export const AlignBottom = I;
+export { I as AlignBottomIcon };

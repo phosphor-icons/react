@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ProjectorScreen";
-export { I as ProjectorScreen };
+I.displayName = "ProjectorScreenIcon";
+
+/** @deprecated Use ProjectorScreenIcon */
+export const ProjectorScreen = I;
+export { I as ProjectorScreenIcon };

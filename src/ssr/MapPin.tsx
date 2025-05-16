@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MapPin";
-export { I as MapPin };
+I.displayName = "MapPinIcon";
+
+/** @deprecated Use MapPinIcon */
+export const MapPin = I;
+export { I as MapPinIcon };

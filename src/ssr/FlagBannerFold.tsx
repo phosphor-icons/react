@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FlagBannerFold";
-export { I as FlagBannerFold };
+I.displayName = "FlagBannerFoldIcon";
+
+/** @deprecated Use FlagBannerFoldIcon */
+export const FlagBannerFold = I;
+export { I as FlagBannerFoldIcon };

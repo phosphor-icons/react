@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Seal";
-export { I as Seal, I as CircleWavy };
+I.displayName = "SealIcon";
+
+/** @deprecated Use SealIcon */
+export const Seal = I;
+export { I as SealIcon, I as CircleWavyIcon };

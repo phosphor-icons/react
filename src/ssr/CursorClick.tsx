@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CursorClick";
-export { I as CursorClick };
+I.displayName = "CursorClickIcon";
+
+/** @deprecated Use CursorClickIcon */
+export const CursorClick = I;
+export { I as CursorClickIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PushPin";
-export { I as PushPin };
+I.displayName = "PushPinIcon";
+
+/** @deprecated Use PushPinIcon */
+export const PushPin = I;
+export { I as PushPinIcon };

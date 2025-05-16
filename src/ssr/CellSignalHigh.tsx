@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CellSignalHigh";
-export { I as CellSignalHigh };
+I.displayName = "CellSignalHighIcon";
+
+/** @deprecated Use CellSignalHighIcon */
+export const CellSignalHigh = I;
+export { I as CellSignalHighIcon };

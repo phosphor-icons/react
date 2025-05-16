@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Exclude";
-export { I as Exclude };
+I.displayName = "ExcludeIcon";
+
+/** @deprecated Use ExcludeIcon */
+export const Exclude = I;
+export { I as ExcludeIcon };

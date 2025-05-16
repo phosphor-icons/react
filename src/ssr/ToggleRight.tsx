@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ToggleRight";
-export { I as ToggleRight };
+I.displayName = "ToggleRightIcon";
+
+/** @deprecated Use ToggleRightIcon */
+export const ToggleRight = I;
+export { I as ToggleRightIcon };

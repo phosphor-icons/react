@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MicrosoftTeamsLogo";
-export { I as MicrosoftTeamsLogo };
+I.displayName = "MicrosoftTeamsLogoIcon";
+
+/** @deprecated Use MicrosoftTeamsLogoIcon */
+export const MicrosoftTeamsLogo = I;
+export { I as MicrosoftTeamsLogoIcon };

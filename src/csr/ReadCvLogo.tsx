@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ReadCvLogo";
-export { I as ReadCvLogo };
+I.displayName = "ReadCvLogoIcon";
+
+/** @deprecated Use ReadCvLogoIcon */
+export const ReadCvLogo = I;
+export { I as ReadCvLogoIcon };

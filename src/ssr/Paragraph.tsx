@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Paragraph";
-export { I as Paragraph };
+I.displayName = "ParagraphIcon";
+
+/** @deprecated Use ParagraphIcon */
+export const Paragraph = I;
+export { I as ParagraphIcon };

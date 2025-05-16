@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "AppStoreLogo";
-export { I as AppStoreLogo };
+I.displayName = "AppStoreLogoIcon";
+
+/** @deprecated Use AppStoreLogoIcon */
+export const AppStoreLogo = I;
+export { I as AppStoreLogoIcon };

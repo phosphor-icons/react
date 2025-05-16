@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FileMagnifyingGlass";
-export { I as FileMagnifyingGlass, I as FileSearch };
+I.displayName = "FileMagnifyingGlassIcon";
+
+/** @deprecated Use FileMagnifyingGlassIcon */
+export const FileMagnifyingGlass = I;
+export { I as FileMagnifyingGlassIcon, I as FileSearchIcon };

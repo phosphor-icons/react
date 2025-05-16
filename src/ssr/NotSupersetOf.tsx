@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "NotSupersetOf";
-export { I as NotSupersetOf };
+I.displayName = "NotSupersetOfIcon";
+
+/** @deprecated Use NotSupersetOfIcon */
+export const NotSupersetOf = I;
+export { I as NotSupersetOfIcon };

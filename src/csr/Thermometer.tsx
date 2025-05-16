@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Thermometer";
-export { I as Thermometer };
+I.displayName = "ThermometerIcon";
+
+/** @deprecated Use ThermometerIcon */
+export const Thermometer = I;
+export { I as ThermometerIcon };

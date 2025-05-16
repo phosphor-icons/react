@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DiscordLogo";
-export { I as DiscordLogo };
+I.displayName = "DiscordLogoIcon";
+
+/** @deprecated Use DiscordLogoIcon */
+export const DiscordLogo = I;
+export { I as DiscordLogoIcon };

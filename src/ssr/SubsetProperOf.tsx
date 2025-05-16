@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SubsetProperOf";
-export { I as SubsetProperOf };
+I.displayName = "SubsetProperOfIcon";
+
+/** @deprecated Use SubsetProperOfIcon */
+export const SubsetProperOf = I;
+export { I as SubsetProperOfIcon };

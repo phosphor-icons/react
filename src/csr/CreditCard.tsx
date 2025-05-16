@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CreditCard";
-export { I as CreditCard };
+I.displayName = "CreditCardIcon";
+
+/** @deprecated Use CreditCardIcon */
+export const CreditCard = I;
+export { I as CreditCardIcon };

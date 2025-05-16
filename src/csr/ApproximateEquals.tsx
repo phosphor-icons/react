@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ApproximateEquals";
-export { I as ApproximateEquals };
+I.displayName = "ApproximateEqualsIcon";
+
+/** @deprecated Use ApproximateEqualsIcon */
+export const ApproximateEquals = I;
+export { I as ApproximateEqualsIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SquareSplitVertical";
-export { I as SquareSplitVertical };
+I.displayName = "SquareSplitVerticalIcon";
+
+/** @deprecated Use SquareSplitVerticalIcon */
+export const SquareSplitVertical = I;
+export { I as SquareSplitVerticalIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TextSubscript";
-export { I as TextSubscript };
+I.displayName = "TextSubscriptIcon";
+
+/** @deprecated Use TextSubscriptIcon */
+export const TextSubscript = I;
+export { I as TextSubscriptIcon };

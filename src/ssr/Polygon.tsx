@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Polygon";
-export { I as Polygon };
+I.displayName = "PolygonIcon";
+
+/** @deprecated Use PolygonIcon */
+export const Polygon = I;
+export { I as PolygonIcon };

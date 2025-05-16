@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TerminalWindow";
-export { I as TerminalWindow };
+I.displayName = "TerminalWindowIcon";
+
+/** @deprecated Use TerminalWindowIcon */
+export const TerminalWindow = I;
+export { I as TerminalWindowIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Graph";
-export { I as Graph };
+I.displayName = "GraphIcon";
+
+/** @deprecated Use GraphIcon */
+export const Graph = I;
+export { I as GraphIcon };

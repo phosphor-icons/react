@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GitFork";
-export { I as GitFork };
+I.displayName = "GitForkIcon";
+
+/** @deprecated Use GitForkIcon */
+export const GitFork = I;
+export { I as GitForkIcon };

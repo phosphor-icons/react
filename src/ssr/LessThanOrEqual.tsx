@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LessThanOrEqual";
-export { I as LessThanOrEqual };
+I.displayName = "LessThanOrEqualIcon";
+
+/** @deprecated Use LessThanOrEqualIcon */
+export const LessThanOrEqual = I;
+export { I as LessThanOrEqualIcon };

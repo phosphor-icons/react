@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Textbox";
-export { I as Textbox };
+I.displayName = "TextboxIcon";
+
+/** @deprecated Use TextboxIcon */
+export const Textbox = I;
+export { I as TextboxIcon };

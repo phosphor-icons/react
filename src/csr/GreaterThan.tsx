@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GreaterThan";
-export { I as GreaterThan };
+I.displayName = "GreaterThanIcon";
+
+/** @deprecated Use GreaterThanIcon */
+export const GreaterThan = I;
+export { I as GreaterThanIcon };

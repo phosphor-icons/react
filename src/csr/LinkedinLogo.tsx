@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LinkedinLogo";
-export { I as LinkedinLogo };
+I.displayName = "LinkedinLogoIcon";
+
+/** @deprecated Use LinkedinLogoIcon */
+export const LinkedinLogo = I;
+export { I as LinkedinLogoIcon };

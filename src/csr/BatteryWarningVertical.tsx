@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BatteryWarningVertical";
-export { I as BatteryWarningVertical };
+I.displayName = "BatteryWarningVerticalIcon";
+
+/** @deprecated Use BatteryWarningVerticalIcon */
+export const BatteryWarningVertical = I;
+export { I as BatteryWarningVerticalIcon };

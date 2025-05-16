@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MouseMiddleClick";
-export { I as MouseMiddleClick };
+I.displayName = "MouseMiddleClickIcon";
+
+/** @deprecated Use MouseMiddleClickIcon */
+export const MouseMiddleClick = I;
+export { I as MouseMiddleClickIcon };

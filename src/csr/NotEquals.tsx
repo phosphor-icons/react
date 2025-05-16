@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "NotEquals";
-export { I as NotEquals };
+I.displayName = "NotEqualsIcon";
+
+/** @deprecated Use NotEqualsIcon */
+export const NotEquals = I;
+export { I as NotEqualsIcon };

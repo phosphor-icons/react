@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Sparkle";
-export { I as Sparkle };
+I.displayName = "SparkleIcon";
+
+/** @deprecated Use SparkleIcon */
+export const Sparkle = I;
+export { I as SparkleIcon };

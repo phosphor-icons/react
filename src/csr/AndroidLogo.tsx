@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "AndroidLogo";
-export { I as AndroidLogo };
+I.displayName = "AndroidLogoIcon";
+
+/** @deprecated Use AndroidLogoIcon */
+export const AndroidLogo = I;
+export { I as AndroidLogoIcon };

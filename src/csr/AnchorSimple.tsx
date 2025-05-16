@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "AnchorSimple";
-export { I as AnchorSimple };
+I.displayName = "AnchorSimpleIcon";
+
+/** @deprecated Use AnchorSimpleIcon */
+export const AnchorSimple = I;
+export { I as AnchorSimpleIcon };

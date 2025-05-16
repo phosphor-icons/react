@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LineSegments";
-export { I as LineSegments };
+I.displayName = "LineSegmentsIcon";
+
+/** @deprecated Use LineSegmentsIcon */
+export const LineSegments = I;
+export { I as LineSegmentsIcon };

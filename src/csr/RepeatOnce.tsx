@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "RepeatOnce";
-export { I as RepeatOnce };
+I.displayName = "RepeatOnceIcon";
+
+/** @deprecated Use RepeatOnceIcon */
+export const RepeatOnce = I;
+export { I as RepeatOnceIcon };

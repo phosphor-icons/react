@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "RainbowCloud";
-export { I as RainbowCloud };
+I.displayName = "RainbowCloudIcon";
+
+/** @deprecated Use RainbowCloudIcon */
+export const RainbowCloud = I;
+export { I as RainbowCloudIcon };

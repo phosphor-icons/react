@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "VirtualReality";
-export { I as VirtualReality };
+I.displayName = "VirtualRealityIcon";
+
+/** @deprecated Use VirtualRealityIcon */
+export const VirtualReality = I;
+export { I as VirtualRealityIcon };

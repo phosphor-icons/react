@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ClockCounterClockwise";
-export { I as ClockCounterClockwise };
+I.displayName = "ClockCounterClockwiseIcon";
+
+/** @deprecated Use ClockCounterClockwiseIcon */
+export const ClockCounterClockwise = I;
+export { I as ClockCounterClockwiseIcon };

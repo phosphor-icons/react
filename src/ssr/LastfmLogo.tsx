@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LastfmLogo";
-export { I as LastfmLogo };
+I.displayName = "LastfmLogoIcon";
+
+/** @deprecated Use LastfmLogoIcon */
+export const LastfmLogo = I;
+export { I as LastfmLogoIcon };

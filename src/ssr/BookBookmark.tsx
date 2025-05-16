@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BookBookmark";
-export { I as BookBookmark };
+I.displayName = "BookBookmarkIcon";
+
+/** @deprecated Use BookBookmarkIcon */
+export const BookBookmark = I;
+export { I as BookBookmarkIcon };

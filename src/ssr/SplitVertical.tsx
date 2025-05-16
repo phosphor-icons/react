@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SplitVertical";
-export { I as SplitVertical };
+I.displayName = "SplitVerticalIcon";
+
+/** @deprecated Use SplitVerticalIcon */
+export const SplitVertical = I;
+export { I as SplitVerticalIcon };

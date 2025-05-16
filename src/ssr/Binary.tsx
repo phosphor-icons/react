@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Binary";
-export { I as Binary };
+I.displayName = "BinaryIcon";
+
+/** @deprecated Use BinaryIcon */
+export const Binary = I;
+export { I as BinaryIcon };

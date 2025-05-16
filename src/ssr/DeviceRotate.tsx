@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DeviceRotate";
-export { I as DeviceRotate };
+I.displayName = "DeviceRotateIcon";
+
+/** @deprecated Use DeviceRotateIcon */
+export const DeviceRotate = I;
+export { I as DeviceRotateIcon };

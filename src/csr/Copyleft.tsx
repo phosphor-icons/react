@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Copyleft";
-export { I as Copyleft };
+I.displayName = "CopyleftIcon";
+
+/** @deprecated Use CopyleftIcon */
+export const Copyleft = I;
+export { I as CopyleftIcon };

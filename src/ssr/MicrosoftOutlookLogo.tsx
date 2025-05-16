@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MicrosoftOutlookLogo";
-export { I as MicrosoftOutlookLogo };
+I.displayName = "MicrosoftOutlookLogoIcon";
+
+/** @deprecated Use MicrosoftOutlookLogoIcon */
+export const MicrosoftOutlookLogo = I;
+export { I as MicrosoftOutlookLogoIcon };

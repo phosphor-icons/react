@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TextStrikethrough";
-export { I as TextStrikethrough };
+I.displayName = "TextStrikethroughIcon";
+
+/** @deprecated Use TextStrikethroughIcon */
+export const TextStrikethrough = I;
+export { I as TextStrikethroughIcon };

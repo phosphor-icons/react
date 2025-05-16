@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SpeakerSimpleNone";
-export { I as SpeakerSimpleNone };
+I.displayName = "SpeakerSimpleNoneIcon";
+
+/** @deprecated Use SpeakerSimpleNoneIcon */
+export const SpeakerSimpleNone = I;
+export { I as SpeakerSimpleNoneIcon };

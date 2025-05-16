@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MapPinLine";
-export { I as MapPinLine };
+I.displayName = "MapPinLineIcon";
+
+/** @deprecated Use MapPinLineIcon */
+export const MapPinLine = I;
+export { I as MapPinLineIcon };

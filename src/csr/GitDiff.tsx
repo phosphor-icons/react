@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GitDiff";
-export { I as GitDiff };
+I.displayName = "GitDiffIcon";
+
+/** @deprecated Use GitDiffIcon */
+export const GitDiff = I;
+export { I as GitDiffIcon };

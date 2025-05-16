@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Recycle";
-export { I as Recycle };
+I.displayName = "RecycleIcon";
+
+/** @deprecated Use RecycleIcon */
+export const Recycle = I;
+export { I as RecycleIcon };

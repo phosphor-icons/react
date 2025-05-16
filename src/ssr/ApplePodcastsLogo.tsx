@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ApplePodcastsLogo";
-export { I as ApplePodcastsLogo };
+I.displayName = "ApplePodcastsLogoIcon";
+
+/** @deprecated Use ApplePodcastsLogoIcon */
+export const ApplePodcastsLogo = I;
+export { I as ApplePodcastsLogoIcon };

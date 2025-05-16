@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "HighlighterCircle";
-export { I as HighlighterCircle };
+I.displayName = "HighlighterCircleIcon";
+
+/** @deprecated Use HighlighterCircleIcon */
+export const HighlighterCircle = I;
+export { I as HighlighterCircleIcon };

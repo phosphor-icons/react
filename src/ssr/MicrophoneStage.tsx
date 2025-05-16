@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MicrophoneStage";
-export { I as MicrophoneStage };
+I.displayName = "MicrophoneStageIcon";
+
+/** @deprecated Use MicrophoneStageIcon */
+export const MicrophoneStage = I;
+export { I as MicrophoneStageIcon };

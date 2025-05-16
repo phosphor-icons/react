@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TextSuperscript";
-export { I as TextSuperscript };
+I.displayName = "TextSuperscriptIcon";
+
+/** @deprecated Use TextSuperscriptIcon */
+export const TextSuperscript = I;
+export { I as TextSuperscriptIcon };

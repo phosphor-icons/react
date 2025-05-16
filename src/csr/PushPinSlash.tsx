@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PushPinSlash";
-export { I as PushPinSlash };
+I.displayName = "PushPinSlashIcon";
+
+/** @deprecated Use PushPinSlashIcon */
+export const PushPinSlash = I;
+export { I as PushPinSlashIcon };

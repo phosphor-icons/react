@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "WebhooksLogo";
-export { I as WebhooksLogo };
+I.displayName = "WebhooksLogoIcon";
+
+/** @deprecated Use WebhooksLogoIcon */
+export const WebhooksLogo = I;
+export { I as WebhooksLogoIcon };

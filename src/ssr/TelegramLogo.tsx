@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TelegramLogo";
-export { I as TelegramLogo };
+I.displayName = "TelegramLogoIcon";
+
+/** @deprecated Use TelegramLogoIcon */
+export const TelegramLogo = I;
+export { I as TelegramLogoIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LineVertical";
-export { I as LineVertical };
+I.displayName = "LineVerticalIcon";
+
+/** @deprecated Use LineVerticalIcon */
+export const LineVertical = I;
+export { I as LineVerticalIcon };

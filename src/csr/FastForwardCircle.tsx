@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FastForwardCircle";
-export { I as FastForwardCircle };
+I.displayName = "FastForwardCircleIcon";
+
+/** @deprecated Use FastForwardCircleIcon */
+export const FastForwardCircle = I;
+export { I as FastForwardCircleIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MicrosoftExcelLogo";
-export { I as MicrosoftExcelLogo };
+I.displayName = "MicrosoftExcelLogoIcon";
+
+/** @deprecated Use MicrosoftExcelLogoIcon */
+export const MicrosoftExcelLogo = I;
+export { I as MicrosoftExcelLogoIcon };

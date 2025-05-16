@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PinterestLogo";
-export { I as PinterestLogo };
+I.displayName = "PinterestLogoIcon";
+
+/** @deprecated Use PinterestLogoIcon */
+export const PinterestLogo = I;
+export { I as PinterestLogoIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "HighDefinition";
-export { I as HighDefinition };
+I.displayName = "HighDefinitionIcon";
+
+/** @deprecated Use HighDefinitionIcon */
+export const HighDefinition = I;
+export { I as HighDefinitionIcon };

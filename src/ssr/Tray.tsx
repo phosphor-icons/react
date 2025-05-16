@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Tray";
-export { I as Tray };
+I.displayName = "TrayIcon";
+
+/** @deprecated Use TrayIcon */
+export const Tray = I;
+export { I as TrayIcon };

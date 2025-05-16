@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FolderOpen";
-export { I as FolderOpen, I as FolderNotchOpen };
+I.displayName = "FolderOpenIcon";
+
+/** @deprecated Use FolderOpenIcon */
+export const FolderOpen = I;
+export { I as FolderOpenIcon, I as FolderNotchOpenIcon };

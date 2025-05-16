@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Gps";
-export { I as Gps };
+I.displayName = "GpsIcon";
+
+/** @deprecated Use GpsIcon */
+export const Gps = I;
+export { I as GpsIcon };

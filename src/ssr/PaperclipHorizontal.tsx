@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PaperclipHorizontal";
-export { I as PaperclipHorizontal };
+I.displayName = "PaperclipHorizontalIcon";
+
+/** @deprecated Use PaperclipHorizontalIcon */
+export const PaperclipHorizontal = I;
+export { I as PaperclipHorizontalIcon };

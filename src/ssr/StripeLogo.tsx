@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "StripeLogo";
-export { I as StripeLogo };
+I.displayName = "StripeLogoIcon";
+
+/** @deprecated Use StripeLogoIcon */
+export const StripeLogo = I;
+export { I as StripeLogoIcon };

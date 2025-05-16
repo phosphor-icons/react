@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GoogleChromeLogo";
-export { I as GoogleChromeLogo };
+I.displayName = "GoogleChromeLogoIcon";
+
+/** @deprecated Use GoogleChromeLogoIcon */
+export const GoogleChromeLogo = I;
+export { I as GoogleChromeLogoIcon };

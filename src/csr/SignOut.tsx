@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SignOut";
-export { I as SignOut };
+I.displayName = "SignOutIcon";
+
+/** @deprecated Use SignOutIcon */
+export const SignOut = I;
+export { I as SignOutIcon };

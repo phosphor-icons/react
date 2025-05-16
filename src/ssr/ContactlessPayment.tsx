@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ContactlessPayment";
-export { I as ContactlessPayment };
+I.displayName = "ContactlessPaymentIcon";
+
+/** @deprecated Use ContactlessPaymentIcon */
+export const ContactlessPayment = I;
+export { I as ContactlessPaymentIcon };

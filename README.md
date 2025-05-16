@@ -27,14 +27,14 @@ npm i @phosphor-icons/react
 Simply import the icons you need, and add them anywhere in your render method. Phosphor supports tree-shaking, so your bundle only includes code for the icons you use.
 
 ```tsx
-import { Horse, Heart, Cube } from "@phosphor-icons/react";
+import { HorseIcon, HeartIcon, CubeIcon } from "@phosphor-icons/react";
 
 const App = () => {
   return (
     <main>
-      <Horse />
-      <Heart color="#AE2983" weight="fill" size={32} />
-      <Cube color="teal" weight="duotone" />
+      <HorseIcon />
+      <HeartIcon color="#AE2983" weight="fill" size={32} />
+      <CubeIcon color="teal" weight="duotone" />
     </main>
   );
 };
@@ -66,10 +66,10 @@ module.exports = {
 When using Phosphor Icons in an SSR environment, within a React Server Component, or in any environment that does not permit the use of the Context API ([Next.js](https://nextjs.org/) Server Component, for example), import icons from the `/dist/ssr` submodule:
 
 ```tsx
-import { Fish } from "@phosphor-icons/react/dist/ssr";
+import { FishIcon } from "@phosphor-icons/react/dist/ssr";
 
 const MyServerComponent = () => {
-  return <Fish weight="duotone" />;
+  return <FishIcon weight="duotone" />;
 };
 ```
 
@@ -91,7 +91,7 @@ Icon components accept all props that you can pass to a normal SVG element, incl
 Phosphor takes advantage of React Context to make applying a default style to all icons simple. Create an `IconContext.Provider` at the root of the app (or anywhere above the icons in the tree) and pass in a configuration object with props to be applied by default to all icons:
 
 ```tsx
-import { IconContext, Horse, Heart, Cube } from "@phosphor-icons/react";
+import { IconContext, HorseIcon, HeartIcon, CubeIcon } from "@phosphor-icons/react";
 
 const App = () => {
   return (
@@ -104,9 +104,9 @@ const App = () => {
       }}
     >
       <div>
-        <Horse /> {/* I'm lime-green, 32px, and bold! */}
-        <Heart /> {/* Me too! */}
-        <Cube /> {/* Me three :) */}
+        <HorseIcon /> {/* I'm lime-green, 32px, and bold! */}
+        <HeartIcon /> {/* Me too! */}
+        <CubeIcon /> {/* Me three :) */}
       </div>
     </IconContext.Provider>
   );
@@ -132,7 +132,7 @@ The following will cause the Cube icon to rotate and pulse:
 ```jsx
 const RotatingCube = () => {
   return (
-    <Cube color="darkorchid" weight="duotone">
+    <CubeIcon color="darkorchid" weight="duotone">
       <animate
         attributeName="opacity"
         values="0;1;0"
@@ -148,7 +148,7 @@ const RotatingCube = () => {
         to="360 0 0"
         repeatCount="indefinite"
       ></animateTransform>
-    </Cube>
+    </CubeIcon>
   );
 };
 ```
@@ -163,9 +163,9 @@ You may wish to import all icons at once for use in your project, though dependi
 ```tsx
 import * as Icon from "@phosphor-icons/react";
 
-<Icon.Smiley />
-<Icon.Folder weight="thin" />
-<Icon.BatteryHalf size="24px" />
+<Icon.SmileyIcon />
+<Icon.FolderIcon weight="thin" />
+<Icon.BatteryHalfIcon size="24px" />
 ```
 
 For information on using Phosphor Icons in Server Components, see See [React Server Components and SSR](#react-server-components-and-ssr).

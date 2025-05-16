@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LinkBreak";
-export { I as LinkBreak };
+I.displayName = "LinkBreakIcon";
+
+/** @deprecated Use LinkBreakIcon */
+export const LinkBreak = I;
+export { I as LinkBreakIcon };

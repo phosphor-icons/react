@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Feather";
-export { I as Feather };
+I.displayName = "FeatherIcon";
+
+/** @deprecated Use FeatherIcon */
+export const Feather = I;
+export { I as FeatherIcon };

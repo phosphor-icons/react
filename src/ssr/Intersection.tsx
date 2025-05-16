@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Intersection";
-export { I as Intersection };
+I.displayName = "IntersectionIcon";
+
+/** @deprecated Use IntersectionIcon */
+export const Intersection = I;
+export { I as IntersectionIcon };

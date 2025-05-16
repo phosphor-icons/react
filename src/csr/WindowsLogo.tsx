@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "WindowsLogo";
-export { I as WindowsLogo };
+I.displayName = "WindowsLogoIcon";
+
+/** @deprecated Use WindowsLogoIcon */
+export const WindowsLogo = I;
+export { I as WindowsLogoIcon };

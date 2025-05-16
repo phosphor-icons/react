@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Flask";
-export { I as Flask };
+I.displayName = "FlaskIcon";
+
+/** @deprecated Use FlaskIcon */
+export const Flask = I;
+export { I as FlaskIcon };

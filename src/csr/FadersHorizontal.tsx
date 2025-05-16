@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FadersHorizontal";
-export { I as FadersHorizontal };
+I.displayName = "FadersHorizontalIcon";
+
+/** @deprecated Use FadersHorizontalIcon */
+export const FadersHorizontal = I;
+export { I as FadersHorizontalIcon };

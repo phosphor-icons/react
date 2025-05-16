@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FilmScript";
-export { I as FilmScript };
+I.displayName = "FilmScriptIcon";
+
+/** @deprecated Use FilmScriptIcon */
+export const FilmScript = I;
+export { I as FilmScriptIcon };

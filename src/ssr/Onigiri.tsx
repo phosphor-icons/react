@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Onigiri";
-export { I as Onigiri };
+I.displayName = "OnigiriIcon";
+
+/** @deprecated Use OnigiriIcon */
+export const Onigiri = I;
+export { I as OnigiriIcon };

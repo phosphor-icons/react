@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ChartDonut";
-export { I as ChartDonut };
+I.displayName = "ChartDonutIcon";
+
+/** @deprecated Use ChartDonutIcon */
+export const ChartDonut = I;
+export { I as ChartDonutIcon };

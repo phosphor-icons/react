@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DropSlash";
-export { I as DropSlash };
+I.displayName = "DropSlashIcon";
+
+/** @deprecated Use DropSlashIcon */
+export const DropSlash = I;
+export { I as DropSlashIcon };

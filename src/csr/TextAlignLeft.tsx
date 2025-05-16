@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TextAlignLeft";
-export { I as TextAlignLeft };
+I.displayName = "TextAlignLeftIcon";
+
+/** @deprecated Use TextAlignLeftIcon */
+export const TextAlignLeft = I;
+export { I as TextAlignLeftIcon };

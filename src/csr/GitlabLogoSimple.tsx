@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GitlabLogoSimple";
-export { I as GitlabLogoSimple };
+I.displayName = "GitlabLogoSimpleIcon";
+
+/** @deprecated Use GitlabLogoSimpleIcon */
+export const GitlabLogoSimple = I;
+export { I as GitlabLogoSimpleIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CellSignalSlash";
-export { I as CellSignalSlash };
+I.displayName = "CellSignalSlashIcon";
+
+/** @deprecated Use CellSignalSlashIcon */
+export const CellSignalSlash = I;
+export { I as CellSignalSlashIcon };

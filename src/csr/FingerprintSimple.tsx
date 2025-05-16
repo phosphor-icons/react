@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FingerprintSimple";
-export { I as FingerprintSimple };
+I.displayName = "FingerprintSimpleIcon";
+
+/** @deprecated Use FingerprintSimpleIcon */
+export const FingerprintSimple = I;
+export { I as FingerprintSimpleIcon };

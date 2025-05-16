@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FileCpp";
-export { I as FileCpp };
+I.displayName = "FileCppIcon";
+
+/** @deprecated Use FileCppIcon */
+export const FileCpp = I;
+export { I as FileCppIcon };

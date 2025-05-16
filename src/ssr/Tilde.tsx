@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Tilde";
-export { I as Tilde };
+I.displayName = "TildeIcon";
+
+/** @deprecated Use TildeIcon */
+export const Tilde = I;
+export { I as TildeIcon };

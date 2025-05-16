@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Screencast";
-export { I as Screencast };
+I.displayName = "ScreencastIcon";
+
+/** @deprecated Use ScreencastIcon */
+export const Screencast = I;
+export { I as ScreencastIcon };

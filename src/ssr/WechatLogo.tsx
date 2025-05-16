@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "WechatLogo";
-export { I as WechatLogo };
+I.displayName = "WechatLogoIcon";
+
+/** @deprecated Use WechatLogoIcon */
+export const WechatLogo = I;
+export { I as WechatLogoIcon };

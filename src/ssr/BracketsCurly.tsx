@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BracketsCurly";
-export { I as BracketsCurly };
+I.displayName = "BracketsCurlyIcon";
+
+/** @deprecated Use BracketsCurlyIcon */
+export const BracketsCurly = I;
+export { I as BracketsCurlyIcon };
