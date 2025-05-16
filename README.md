@@ -46,7 +46,7 @@ When importing icons during development directly from the main module `@phosphor
 To avoid transpiling all modules, import individual icons from their specific file paths instead:
 
 ```tsx
-import { BellSimple } from "@phosphor-icons/react/dist/icons/BellSimple";
+import { BellSimpleIcon } from "@phosphor-icons/react/dist/csr/BellSimple";
 ```
 
 #### Next.js Specific Optimizations
