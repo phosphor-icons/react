@@ -1,6 +1,6 @@
 {
   "name": "@phosphor-icons/react",
-  "version": "2.1.8-rc.1",
+  "version": "2.1.8",
   "description": "A clean and friendly icon family for React",
   "author": {
     "name": "Tobias Fried",
@@ -74,7 +74,7 @@
   "packageManager": "pnpm@10.6.3",
   "scripts": {
     "serve": "vite serve ./example",
-    "build": "vite build && tsc --emitDeclarationOnly",
+    "build": "vite build",
     "test": "vitest",
     "assemble": "tsx scripts/assemble.ts",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,vue}\" \"./example/**/*.{js,jsx,ts,tsx,json,vue}\" \"./scripts/**/*.{mjs, js,jsx,ts,tsx,json,vue}\""
