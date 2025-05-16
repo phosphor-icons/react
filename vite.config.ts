@@ -1,15 +1,17 @@
 import { resolve } from "path";
 import { defineConfig } from "vitest/config";
 import react from "@vitejs/plugin-react";
+import dts from "vite-plugin-dts";
 import pkg from "./package.json";
 
 export default defineConfig({
-  plugins: [react({ jsxRuntime: "classic" })],
+  plugins: [react(), dts()],
   build: {
-    target: "ES2017",
+    target: "ES2018",
     lib: {
+      name: "Phosphor",
       entry: resolve(__dirname, "src/index.ts"),
-      fileName: (format, name) => `${name}.${format === "umd" ? "cjs" : "mjs"}`,
+      fileName: (format, name) => `${name}.${format}.js`,
     },
     rollupOptions: {
       external: Object.keys(pkg.peerDependencies),
@@ -25,8 +27,16 @@ export default defineConfig({
           },
         },
         {
+          format: "cjs",
+          name: "Phosphor",
+          globals: {
+            react: "React",
+            "react-dom": "ReactDOM",
+          },
+        },
+        {
           format: "umd",
-          name: "PhosphorReact",
+          name: "Phosphor",
           globals: {
             react: "React",
             "react-dom": "ReactDOM",

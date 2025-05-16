@@ -1,12 +1,12 @@
 {
-  "include": ["./src"],
-  "exclude": ["./test"],
+  "include": ["src"],
+  "exclude": ["test"],
   "compilerOptions": {
     "module": "ESNext",
-    "target": "ESNext",
+    "target": "ES2018",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "rootDir": "./src",
-    "outDir": "./dist",
+    "rootDir": "src",
+    "outDir": "dist",
     "baseUrl": "./",
     "paths": {
       "*": ["src/*"],
