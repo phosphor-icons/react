@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CaretCircleDoubleDown";
@@ -12,7 +12,7 @@ import weights from "../defs/CaretCircleDoubleDown";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDEuNTcsNTQuNDNBMTA0LjE1LDEwNC4xNSwwLDEsMCwyMzIsMTI4LDEwNC4xNywxMDQuMTcsMCwwLDAsMjAxLjU3LDU0LjQzWm0tMzUuOSw5NS4yNC0zMiwzMmE4LDgsMCwwLDEtMTEuMzIsMGwtMzItMzJhOCw4LDAsMSwxLDExLjMyLTExLjMyTDEyOCwxNjQuNzFsMjYuMzUtMjYuMzZhOCw4LDAsMSwxLDExLjMyLDExLjMyWm0wLTU2LTMyLDMyYTgsOCwwLDAsMS0xMS4zMiwwbC0zMi0zMmE4LDgsMCwxLDEsMTEuMzItMTEuMzJMMTI4LDEwOC42OGwyNi4zNS0yNi4zNmE4LDgsMCwxLDEsMTEuMzIsMTEuMzJaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTUuODgsMTk1Ljg4YTk2LDk2LDAsMSwxLDAtMTM1Ljc2QTk2LDk2LDAsMCwxLDE5NS44OCwxOTUuODhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjAxLjU0LDU0LjQ2QTEwNCwxMDQsMCwwLDAsNTQuNDYsMjAxLjU0LDEwNCwxMDQsMCwwLDAsMjAxLjU0LDU0LjQ2Wk0xOTAuMjMsMTkwLjIzYTg4LDg4LDAsMSwxLDAtMTI0LjQ2QTg4LjExLDg4LjExLDAsMCwxLDE5MC4yMywxOTAuMjNaTTE2NS42Niw4Mi4zNGE4LDgsMCwwLDEsMCwxMS4zMmwtMzIsMzJhOCw4LDAsMCwxLTExLjMyLDBsLTMyLTMyYTgsOCwwLDAsMSwxMS4zMi0xMS4zMkwxMjgsMTA4LjY5bDI2LjM0LTI2LjM1QTgsOCwwLDAsMSwxNjUuNjYsODIuMzRabTAsNTZhOCw4LDAsMCwxLDAsMTEuMzJsLTMyLDMyYTgsOCwwLDAsMS0xMS4zMiwwbC0zMi0zMmE4LDgsMCwwLDEsMTEuMzItMTEuMzJMMTI4LDE2NC42OWwyNi4zNC0yNi4zNUE4LDgsMCwwLDEsMTY1LjY2LDEzOC4zNFoiLz48L3N2Zz4=)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

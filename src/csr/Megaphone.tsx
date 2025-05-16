@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Megaphone";
@@ -12,7 +12,7 @@ import weights from "../defs/Megaphone";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNzJIMTYwLjJjLTIuOTEtLjE3LTUzLjYyLTMuNzQtMTAxLjkxLTQ0LjI0QTE2LDE2LDAsMCwwLDMyLDQwVjIwMGExNiwxNiwwLDAsMCwyNi4yOSwxMi4yNWMzNy43Ny0zMS42OCw3Ny00MC43Niw5My43MS00My4zdjMxLjcyQTE2LDE2LDAsMCwwLDE1OS4xMiwyMTRsMTEsNy4zM0ExNiwxNiwwLDAsMCwxOTQuNSwyMTJsMTEuNzctNDQuMzZBNDgsNDgsMCwwLDAsMjAwLDcyWk0xNzksMjA3Ljg5bDAsLjExLTExLTcuMzNWMTY4aDIxLjZaTTIwMCwxNTJIMTY4Vjg4aDMyYTMyLDMyLDAsMSwxLDAsNjRaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTIwYTQwLDQwLDAsMCwxLTQwLDQwSDE2MFY4MGg0MEE0MCw0MCwwLDAsMSwyNDAsMTIwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTI0OCwxMjBhNDguMDUsNDguMDUsMCwwLDAtNDgtNDhIMTYwLjJjLTIuOTEtLjE3LTUzLjYyLTMuNzQtMTAxLjkxLTQ0LjI0QTE2LDE2LDAsMCwwLDMyLDQwVjIwMGExNiwxNiwwLDAsMCwyNi4yOSwxMi4yNWMzNy43Ny0zMS42OCw3Ny00MC43Niw5My43MS00My4zdjMxLjcyQTE2LDE2LDAsMCwwLDE1OS4xMiwyMTRsMTEsNy4zM0ExNiwxNiwwLDAsMCwxOTQuNSwyMTJsMTEuNzctNDQuMzZBNDguMDcsNDguMDcsMCwwLDAsMjQ4LDEyMFpNNDgsMTk5LjkzVjQwaDBjNDIuODEsMzUuOTEsODYuNjMsNDUsMTA0LDQ3LjI0djY1LjQ4QzEzNC42NSwxNTUsOTAuODQsMTY0LjA3LDQ4LDE5OS45M1ptMTMxLDgsMCwuMTEtMTEtNy4zM1YxNjhoMjEuNlpNMjAwLDE1MkgxNjhWODhoMzJhMzIsMzIsMCwxLDEsMCw2NFoiLz48L3N2Zz4=)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

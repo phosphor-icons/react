@@ -12,7 +12,7 @@
       "*": ["src/*"],
     },
     "types": ["vite/client"],
-    "jsx": "react-jsx",
+    "jsx": "react",
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "emitDeclarationOnly": true,

@@ -65,7 +65,8 @@ function generateComponents(icons: AssetMap) {
 
     let defString = `\
 /* GENERATED FILE */
-import React, { ReactElement } from "react";
+import * as React from "react";
+import type { ReactElement } from "react";
 import { IconWeight } from "../lib";
 
 export default new Map<IconWeight, ReactElement>([
@@ -85,13 +86,13 @@ ${Object.entries(icon)
 
     let csrString = `
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/${name}";
 
 ${doc}
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
@@ -106,13 +107,13 @@ export { I as ${name}Icon${
 
     let ssrString = `
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/${name}";
 
 ${doc}
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 

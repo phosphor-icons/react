@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CellSignalMedium";
@@ -12,7 +12,7 @@ import weights from "../defs/CellSignalMedium";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTguMTIsMjUuMjNhMTYsMTYsMCwwLDAtMTcuNDQsMy40NmwtMTYwLDE2MEExNiwxNiwwLDAsMCwzMiwyMTZIMTkyYTE2LDE2LDAsMCwwLDE2LTE2VjQwQTE1Ljk0LDE1Ljk0LDAsMCwwLDE5OC4xMiwyNS4yM1pNMTkyLDIwMEgxMjhWMTA0bDY0LTY0WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjAsMTAwLjdWMjA4SDMyYTgsOCwwLDAsMS01LjY2LTEzLjY2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTE5OC4xMiwyNS4yM2ExNiwxNiwwLDAsMC0xNy40NCwzLjQ2bC0xNjAsMTYwQTE2LDE2LDAsMCwwLDMyLDIxNkgxOTJhMTYsMTYsMCwwLDAsMTYtMTZWNDBBMTUuOTQsMTUuOTQsMCwwLDAsMTk4LjEyLDI1LjIzWk0xMTIsMTIwdjgwSDMyWm04MCw4MEgxMjhWMTA0bDY0LTY0WiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 

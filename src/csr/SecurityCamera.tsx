@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SecurityCamera";
@@ -12,7 +12,7 @@ import weights from "../defs/SecurityCamera";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMTM2YTgsOCwwLDAsMC04LDh2MTZIMTk1LjMxTDE3NywxNDEuNjZsNTAuMzQtNTAuMzVhMTYsMTYsMCwwLDAsMC0yMi42MkwxODkuNjYsMzFoMEwxNzEuMzEsMTIuNjlhMTYsMTYsMCwwLDAtMjIuNjMsMEwyLjkyLDE1OC45NEExMCwxMCwwLDAsMCwxMCwxNzZINDkuMzdsMzUuMzIsMzUuMzFhMTYsMTYsMCwwLDAsMjIuNjIsMEwxNjUuNjYsMTUzLDE4NCwxNzEuMzFBMTUuODYsMTUuODYsMCwwLDAsMTk1LjMxLDE3NkgyNDB2MTZhOCw4LDAsMCwwLDE2LDBWMTQ0QTgsOCwwLDAsMCwyNDgsMTM2Wk0xNjAsMjRsMTIuNjksMTIuNjlMNDkuMzcsMTYwSDI0LjQ2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuNjYsODUuNjZsLTEyMCwxMjBhOCw4LDAsMCwxLTExLjMyLDBMNTIuNjksMTY4LDE4NCwzNi42OWwzNy42NiwzNy42NUE4LDgsMCwwLDEsMjIxLjY2LDg1LjY2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTI0OCwxMzZhOCw4LDAsMCwwLTgsOHYxNkgxOTUuMzFMMTc3LDE0MS42Nmw1MC4zNC01MC4zNWExNiwxNiwwLDAsMCwwLTIyLjYybC01Ni01NmExNiwxNiwwLDAsMC0yMi42MywwTDIuOTIsMTU4Ljk0QTEwLDEwLDAsMCwwLDEwLDE3Nkg0OS4zN2wzNS4zMiwzNS4zMWExNiwxNiwwLDAsMCwyMi42MiwwTDE2NS42NiwxNTMsMTg0LDE3MS4zMUExNS44NiwxNS44NiwwLDAsMCwxOTUuMzEsMTc2SDI0MHYxNmE4LDgsMCwwLDAsMTYsMFYxNDRBOCw4LDAsMCwwLDI0OCwxMzZaTTE2MCwyNGwxMi42OSwxMi42OUw0OS4zNywxNjBIMjQuNDZaTTk2LDIwMCw2NCwxNjgsMTg0LDQ4bDMyLDMyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

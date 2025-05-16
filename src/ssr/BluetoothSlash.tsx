@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BluetoothSlash";
@@ -12,7 +12,7 @@ import weights from "../defs/BluetoothSlash";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuMzgsMjIxLjkyYTgsOCwwLDAsMS0xMS4zLS41NGwtMjYuNDUtMjkuMUwxMzIuOCwyMzAuNGE4LDgsMCwwLDEtOC44OS40Nyw4LjI5LDguMjksMCwwLDEtMy45MS03LjE4VjE0NEw2OC44LDE4Mi40YTgsOCwwLDAsMS0xMS4xNi0xLjU1LDguMjYsOC4yNiwwLDAsMSwxLjgxLTExLjQzbDYxLjQ3LTQ2LjExTDUwLjA4LDQ1LjM4QTgsOCwwLDAsMSw2MS45MiwzNC42MmwxNjAsMTc2QTgsOCwwLDAsMSwyMjEuMzgsMjIxLjkyWk0xNTUsMTEzLjIyYTQsNCwwLDAsMCw1LjM2LjUxTDE5Ni44LDg2LjRhOCw4LDAsMCwwLDAtMTIuOGwtNjQtNDhhOCw4LDAsMCwwLTEwLC4yOUE4LjI1LDguMjUsMCwwLDAsMTIwLDMyLjI0VjczLjE4YTQsNCwwLDAsMCwxLDIuNjlaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTI4bDY0LDQ4LTY0LDQ4Wm0wLTk2djk2bDY0LTQ4WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIyMS45MiwyMTAuNjJsLTE2MC0xNzZBOCw4LDAsMCwwLDUwLjA4LDQ1LjM4bDcwLjg0LDc3LjkzTDU5LjIsMTY5LjZhOCw4LDAsMSwwLDkuNiwxMi44TDEyMCwxNDR2ODBhOCw4LDAsMCwwLDEyLjgsNi40bDUwLjgzLTM4LjEyLDI2LjQ1LDI5LjFhOCw4LDAsMSwwLDExLjg0LTEwLjc2Wk0xMzYsMjA4VjE0NGwxMS43Myw4LjgsMjUuMDgsMjcuNTlaTTEyMCw3MS42M1YzMmE4LDgsMCwwLDEsMTIuOC02LjRsNjQsNDhhOCw4LDAsMCwxLDAsMTIuOGwtMzMuNTMsMjUuMTVhOCw4LDAsMCwxLTkuNi0xMi44bDI1LTE4Ljc1TDEzNiw0OFY3MS42M2E4LDgsMCwwLDEtMTYsMFoiLz48L3N2Zz4=)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 

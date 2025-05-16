@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ThermometerSimple";
@@ -12,7 +12,7 @@ import weights from "../defs/ThermometerSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsMTQ2LjA4VjQwYTMyLDMyLDAsMCwwLTY0LDBWMTQ2LjA4YTU2LDU2LDAsMSwwLDY0LDBaTTEyOCwyNGExNiwxNiwwLDAsMSwxNiwxNnY2NEgxMTJWNDBBMTYsMTYsMCwwLDEsMTI4LDI0WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsMTM4VjQ4YTMyLDMyLDAsMCwwLTY0LDB2OTBhNTYsNTYsMCwxLDAsNjQsMFptLTMyLDcwYTI0LDI0LDAsMSwxLDI0LTI0QTI0LDI0LDAsMCwxLDEyOCwyMDhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTM2LDE1M1Y4OGE4LDgsMCwwLDAtMTYsMHY2NWEzMiwzMiwwLDEsMCwxNiwwWm0tOCw0N2ExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwxMjgsMjAwWm00MC02NlY0OGE0MCw0MCwwLDAsMC04MCwwdjg2YTY0LDY0LDAsMSwwLDgwLDBabS00MCw5OGE0OCw0OCwwLDAsMS0yNy40Mi04Ny40QTgsOCwwLDAsMCwxMDQsMTM4VjQ4YTI0LDI0LDAsMCwxLDQ4LDB2OTBhOCw4LDAsMCwwLDMuNDIsNi41NkE0OCw0OCwwLDAsMSwxMjgsMjMyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

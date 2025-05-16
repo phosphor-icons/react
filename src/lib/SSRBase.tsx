@@ -1,11 +1,12 @@
-import React, { forwardRef, ReactElement } from "react";
+import * as React from "react";
+import type { ReactElement } from "react";
 import { IconProps, IconWeight } from "./types";
 
 interface IconBaseProps extends IconProps {
   weights: Map<IconWeight, ReactElement>;
 }
 
-const SSRBase = forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
+const SSRBase = React.forwardRef<SVGSVGElement, IconBaseProps>((props, ref) => {
   const {
     alt,
     color = "currentColor",

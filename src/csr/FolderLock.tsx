@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FolderLock";
@@ -12,7 +12,7 @@ import weights from "../defs/FolderLock";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNzJIMTMxLjMxTDEwNCw0NC42OUExNS44NiwxNS44NiwwLDAsMCw5Mi42OSw0MEg0MEExNiwxNiwwLDAsMCwyNCw1NlYyMDAuNjJBMTUuNCwxNS40LDAsMCwwLDM5LjM4LDIxNmg3My4xOGE4LDgsMCwwLDAsMC0xNkg0MFY4OEgyMTZ2MTZhOCw4LDAsMCwwLDE2LDBWODhBMTYsMTYsMCwwLDAsMjE2LDcyWk00MCw3MlY1Nkg5Mi42OWwxNiwxNlptMTg0LDg4aC04di00YTI4LDI4LDAsMCwwLTU2LDB2NGgtOGE4LDgsMCwwLDAtOCw4djQwYTgsOCwwLDAsMCw4LDhoNzJhOCw4LDAsMCwwLDgtOFYxNjhBOCw4LDAsMCwwLDIyNCwxNjBabS0yNCwwSDE3NnYtNGExMiwxMiwwLDAsMSwyNCwwWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTY4djQwSDE1MlYxNjhaTTkyLjY5LDQ4SDQwYTgsOCwwLDAsMC04LDhWODBoOTZMOTguMzQsNTAuMzRBOCw4LDAsMCwwLDkyLjY5LDQ4WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIyNCwxNjBoLTh2LTRhMjgsMjgsMCwwLDAtNTYsMHY0aC04YTgsOCwwLDAsMC04LDh2NDBhOCw4LDAsMCwwLDgsOGg3MmE4LDgsMCwwLDAsOC04VjE2OEE4LDgsMCwwLDAsMjI0LDE2MFptLTQ4LTRhMTIsMTIsMCwwLDEsMjQsMHY0SDE3NlptNDAsNDRIMTYwVjE3Nmg1NlptMC0xMjhIMTMxLjMxTDEwNCw0NC42OUExNS44NiwxNS44NiwwLDAsMCw5Mi42OSw0MEg0MEExNiwxNiwwLDAsMCwyNCw1NlYyMDAuNjJBMTUuNCwxNS40LDAsMCwwLDM5LjM4LDIxNmg3My4xOGE4LDgsMCwwLDAsMC0xNkg0MFY4OEgyMTZ2MTZhOCw4LDAsMCwwLDE2LDBWODhBMTYsMTYsMCwwLDAsMjE2LDcyWk05Mi42OSw1NmwxNiwxNkg0MFY1NloiLz48L3N2Zz4=)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

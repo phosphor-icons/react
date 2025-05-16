@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TumblrLogo";
@@ -12,7 +12,7 @@ import weights from "../defs/TumblrLogo";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsMTIwdjQ4YTgsOCwwLDAsMCw4LDhoMzJhOCw4LDAsMCwxLDgsOHY0OGE4LDgsMCwwLDEtOCw4SDE1MmE2NC4wNyw2NC4wNywwLDAsMS02NC02NFYxMjBINjRhOCw4LDAsMCwxLTgtOFY3MmE4LDgsMCwwLDEsOC04LDQwLDQwLDAsMCwwLDQwLTQwLDgsOCwwLDAsMSw4LThoMzJhOCw4LDAsMCwxLDgsOFY2NGg0MGE4LDgsMCwwLDEsOCw4djQwYTgsOCwwLDAsMS04LDhaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDQsMTEydjU2YTE2LDE2LDAsMCwwLDE2LDE2aDMydjQ4SDE1MmE1Niw1NiwwLDAsMS01Ni01NlYxMTJINjRWNzJoMGE0OCw0OCwwLDAsMCw0OC00OGgzMlY3Mmg0OHY0MFoiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0xOTIsMTIwYTgsOCwwLDAsMCw4LThWNzJhOCw4LDAsMCwwLTgtOEgxNTJWMjRhOCw4LDAsMCwwLTgtOEgxMTJhOCw4LDAsMCwwLTgsOEE0MCw0MCwwLDAsMSw2NCw2NGE4LDgsMCwwLDAtOCw4djQwYTgsOCwwLDAsMCw4LDhIODh2NTZhNjQuMDcsNjQuMDcsMCwwLDAsNjQsNjRoNDBhOCw4LDAsMCwwLDgtOFYxODRhOCw4LDAsMCwwLTgtOEgxNjBhOCw4LDAsMCwxLTgtOFYxMjBabS0zMiw3MmgyNHYzMkgxNTJhNDguMDUsNDguMDUsMCwwLDEtNDgtNDhWMTEyYTgsOCwwLDAsMC04LThINzJWNzkuNDNBNTYuMTMsNTYuMTMsMCwwLDAsMTE5LjQzLDMySDEzNlY3MmE4LDgsMCwwLDAsOCw4aDQwdjI0SDE0NGE4LDgsMCwwLDAtOCw4djU2QTI0LDI0LDAsMCwwLDE2MCwxOTJaIi8+PC9zdmc+)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 

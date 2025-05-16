@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TrademarkRegistered";
@@ -12,7 +12,7 @@ import weights from "../defs/TrademarkRegistered";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsMTEyYTE2LDE2LDAsMCwxLTE2LDE2SDExMlY5NmgyNEExNiwxNiwwLDAsMSwxNTIsMTEyWm04MCwxNkExMDQsMTA0LDAsMSwxLDEyOCwyNCwxMDQuMTEsMTA0LjExLDAsMCwxLDIzMiwxMjhabS0xNiwwYTg4LDg4LDAsMSwwLTg4LDg4QTg4LjEsODguMSwwLDAsMCwyMTYsMTI4Wm0tMTYsMGE3Miw3MiwwLDEsMS03Mi03MkE3Mi4wOCw3Mi4wOCwwLDAsMSwyMDAsMTI4Wm0tMzMuMzQsMzUuNTYtMTUuNTctMjMuMzVBMzIsMzIsMCwwLDAsMTM2LDgwSDEwNGE4LDgsMCwwLDAtOCw4djgwYTgsOCwwLDAsMCwxNiwwVjE0NGgyMi4zOWwxOSwyOC40NGE4LDgsMCwwLDAsMTMuMzItOC44OFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTk2LDk2LDAsMSwxLTk2LTk2QTk2LDk2LDAsMCwxLDIyNCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDI0QTEwNCwxMDQsMCwxLDAsMjMyLDEyOCwxMDQuMTEsMTA0LjExLDAsMCwwLDEyOCwyNFptMCwxOTJhODgsODgsMCwxLDEsODgtODhBODguMSw4OC4xLDAsMCwxLDEyOCwyMTZabTIzLjA5LTc1Ljc5QTMyLDMyLDAsMCwwLDEzNiw4MEgxMDRhOCw4LDAsMCwwLTgsOHY4MGE4LDgsMCwwLDAsMTYsMFYxNDRoMjIuMzlsMTksMjguNDRhOCw4LDAsMCwwLDEzLjMyLTguODhaTTExMiw5NmgyNGExNiwxNiwwLDAsMSwwLDMySDExMloiLz48L3N2Zz4=)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
