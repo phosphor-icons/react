@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@testing-library/react':
         specifier: ^14.1.2
-        version: 14.1.2(react-dom@18.2.0)(react@18.2.0)
+        version: 14.1.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@types/node':
         specifier: ^18.19.8
         version: 18.19.8
@@ -22,7 +22,7 @@ importers:
         version: 18.2.18
       '@vitejs/plugin-react':
         specifier: ^4.2.1
-        version: 4.2.1(vite@5.2.9)
+        version: 4.2.1(vite@5.2.9(@types/node@18.19.8))
       chalk:
         specifier: ^5.3.0
         version: 5.3.0
@@ -1427,8 +1427,8 @@ packages:
     engines: {node: '>=8'}
     hasBin: true
 
-  ws@8.16.0:
-    resolution: {integrity: sha512-HS0c//TP7Ina87TfiPUz1rQzMhHrl/SG2guqRcTOIUYD2q8uhUdNHZYJUaQ8aTGPzCh+c6oawMKW35nFl1dxyQ==}
+  ws@8.17.1:
+    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -1821,7 +1821,7 @@ snapshots:
       lz-string: 1.5.0
       pretty-format: 27.5.1
 
-  '@testing-library/react@14.1.2(react-dom@18.2.0)(react@18.2.0)':
+  '@testing-library/react@14.1.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@babel/runtime': 7.23.8
       '@testing-library/dom': 9.3.4
@@ -1874,7 +1874,7 @@ snapshots:
 
   '@types/scheduler@0.16.8': {}
 
-  '@vitejs/plugin-react@4.2.1(vite@5.2.9)':
+  '@vitejs/plugin-react@4.2.1(vite@5.2.9(@types/node@18.19.8))':
     dependencies:
       '@babel/core': 7.23.7
       '@babel/plugin-transform-react-jsx-self': 7.23.3(@babel/core@7.23.7)
@@ -2386,7 +2386,7 @@ snapshots:
       whatwg-encoding: 2.0.0
       whatwg-mimetype: 3.0.0
       whatwg-url: 12.0.1
-      ws: 8.16.0
+      ws: 8.17.1
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - bufferutil
@@ -2710,16 +2710,15 @@ snapshots:
 
   vite@5.2.9(@types/node@18.19.8):
     dependencies:
-      '@types/node': 18.19.8
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.14.3
     optionalDependencies:
+      '@types/node': 18.19.8
       fsevents: 2.3.3
 
   vitest@1.5.0(@types/node@18.19.8)(jsdom@21.1.2):
     dependencies:
-      '@types/node': 18.19.8
       '@vitest/expect': 1.5.0
       '@vitest/runner': 1.5.0
       '@vitest/snapshot': 1.5.0
@@ -2729,7 +2728,6 @@ snapshots:
       chai: 4.4.1
       debug: 4.3.4
       execa: 8.0.1
-      jsdom: 21.1.2
       local-pkg: 0.5.0
       magic-string: 0.30.5
       pathe: 1.1.2
@@ -2741,6 +2739,9 @@ snapshots:
       vite: 5.2.9(@types/node@18.19.8)
       vite-node: 1.5.0(@types/node@18.19.8)
       why-is-node-running: 2.2.2
+    optionalDependencies:
+      '@types/node': 18.19.8
+      jsdom: 21.1.2
     transitivePeerDependencies:
       - less
       - lightningcss
@@ -2799,7 +2800,7 @@ snapshots:
       siginfo: 2.0.0
       stackback: 0.0.2
 
-  ws@8.16.0: {}
+  ws@8.17.1: {}
 
   xml-name-validator@4.0.0: {}
 
