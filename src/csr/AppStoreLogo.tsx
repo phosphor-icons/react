@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AppStoreLogo";
@@ -12,7 +12,7 @@ import weights from "../defs/AppStoreLogo";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wk04My42NiwxODAuMTJsLTQuOCw4YTgsOCwwLDEsMS0xMy43Mi04LjI0bDQuOC04YTgsOCwwLDAsMSwxMy43Miw4LjI0Wk0xMjgsMTUySDU2YTgsOCwwLDAsMSwwLTE2SDkxLjQ3bDI3LjItNDUuMzNMMTA1LjE0LDY4LjEyYTgsOCwwLDAsMSwxMy43Mi04LjI0TDEyOCw3NS4xMmw5LjE0LTE1LjI0YTgsOCwwLDAsMSwxMy43Miw4LjI0TDExMC4xMywxMzZIMTI4YTgsOCwwLDAsMSwwLDE2Wm03MiwwSDE3NC4xM2wxNi43MywyNy44OGE4LDgsMCwwLDEtMTMuNzIsOC4yNGwtMzguNC02NGE4LDgsMCwwLDEsMTMuNzItOC4yNEwxNjQuNTMsMTM2SDIwMGE4LDgsMCwwLDEsMCwxNloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzkuNjQsMTYwSDc2LjM2TDEyOCw3Mi42MloiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik02NC4zNCwxOTYuMDdsLTkuNDUsMTZhOCw4LDAsMSwxLTEzLjc4LTguMTRsOS40Ni0xNmE4LDgsMCwxLDEsMTMuNzcsOC4xNFpNMjMyLDE1MkgxODQuMmwtMzAuNzMtNTJhOCw4LDAsMSwwLTEzLjc3LDguMTRsNjEuNDEsMTAzLjkzYTgsOCwwLDAsMCwxMy43OC04LjE0TDE5My42NiwxNjhIMjMyYTgsOCwwLDAsMCwwLTE2Wm0tODkuNTMsMEg5MC4zOEwxNTguODksMzYuMDdhOCw4LDAsMCwwLTEzLjc4LTguMTRMMTI4LDU2Ljg5bC0xNy4xMS0yOWE4LDgsMCwxLDAtMTMuNzgsOC4xNGwyMS42LDM2LjU1TDcxLjgsMTUySDI0YTgsOCwwLDAsMCwwLDE2SDE0Mi40N2E4LDgsMCwxLDAsMC0xNloiLz48L3N2Zz4=)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

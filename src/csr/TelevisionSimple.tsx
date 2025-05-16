@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TelevisionSimple";
@@ -12,7 +12,7 @@ import weights from "../defs/TelevisionSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNjRIMTQ3LjMxbDM0LjM1LTM0LjM0YTgsOCwwLDEsMC0xMS4zMi0xMS4zMkwxMjgsNjAuNjksODUuNjYsMTguMzRBOCw4LDAsMCwwLDc0LjM0LDI5LjY2TDEwOC42OSw2NEg0MEExNiwxNiwwLDAsMCwyNCw4MFYyMDBhMTYsMTYsMCwwLDAsMTYsMTZIMjE2YTE2LDE2LDAsMCwwLDE2LTE2VjgwQTE2LDE2LDAsMCwwLDIxNiw2NFptMCwxMzZINDBWODBIMjE2VjIwMFpNMjAwLDEwMHY4MGE0LDQsMCwwLDEtNCw0SDYwYTQsNCwwLDAsMS00LTRWMTAwYTQsNCwwLDAsMSw0LTRIMTk2QTQsNCwwLDAsMSwyMDAsMTAwWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsODBWMjAwYTgsOCwwLDAsMS04LDhINDBhOCw4LDAsMCwxLTgtOFY4MGE4LDgsMCwwLDEsOC04SDIxNkE4LDgsMCwwLDEsMjI0LDgwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIxNiw2NEgxNDcuMzFsMzQuMzUtMzQuMzRhOCw4LDAsMSwwLTExLjMyLTExLjMyTDEyOCw2MC42OSw4NS42NiwxOC4zNEE4LDgsMCwwLDAsNzQuMzQsMjkuNjZMMTA4LjY5LDY0SDQwQTE2LDE2LDAsMCwwLDI0LDgwVjIwMGExNiwxNiwwLDAsMCwxNiwxNkgyMTZhMTYsMTYsMCwwLDAsMTYtMTZWODBBMTYsMTYsMCwwLDAsMjE2LDY0Wm0wLDEzNkg0MFY4MEgyMTZWMjAwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

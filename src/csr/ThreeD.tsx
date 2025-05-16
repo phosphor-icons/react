@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ThreeD";
@@ -12,7 +12,7 @@ import weights from "../defs/ThreeD";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMTI4YTMyLDMyLDAsMCwxLTMyLDMyaC04Vjk2aDhBMzIsMzIsMCwwLDEsMTg0LDEyOFptNDgtNzJWMjAwYTE2LDE2LDAsMCwxLTE2LDE2SDQwYTE2LDE2LDAsMCwxLTE2LTE2VjU2QTE2LDE2LDAsMCwxLDQwLDQwSDIxNkExNiwxNiwwLDAsMSwyMzIsNTZaTTExMiwxNDRhMzIsMzIsMCwwLDAtMTguMzEtMjguOTJMMTEwLjQsOTIuOEE4LDgsMCwwLDAsMTA0LDgwSDY0YTgsOCwwLDAsMCwwLDE2SDg4TDczLjYsMTE1LjJBOCw4LDAsMCwwLDgwLDEyOGExNiwxNiwwLDEsMS0xMC42NiwyNy45Myw4LDgsMCwxLDAtMTAuNjgsMTEuOTJBMzIsMzIsMCwwLDAsMTEyLDE0NFptODgtMTZhNDguMDUsNDguMDUsMCwwLDAtNDgtNDhIMTM2YTgsOCwwLDAsMC04LDh2ODBhOCw4LDAsMCwwLDgsOGgxNkE0OC4wNSw0OC4wNSwwLDAsMCwyMDAsMTI4WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhWMjA4SDMyVjQ4WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTk2LDE0OGEyMCwyMCwwLDAsMC0yMC0yMCw4LDgsMCwwLDEtNi41NS0xMi41OUw4OC42Myw4OEg1NmE4LDgsMCwwLDEsMC0xNmg0OGE4LDgsMCwwLDEsNi41NSwxMi41OWwtMjEsMzBBMzYsMzYsMCwwLDEsNzYsMTg0YTM1LjcxLDM1LjcxLDAsMCwxLTI1LjcxLTEwLjgxQTgsOCwwLDEsMSw2MS43MSwxNjIsMjAsMjAsMCwwLDAsOTYsMTQ4Wm02NC03NmE1Niw1NiwwLDAsMSwwLDExMkgxMzZhOCw4LDAsMCwxLTgtOFY4MGE4LDgsMCwwLDEsOC04Wm0wLDE2SDE0NHY4MGgxNmE0MCw0MCwwLDAsMCwwLTgwWk0zMiw1NkgyMjRhOCw4LDAsMCwwLDAtMTZIMzJhOCw4LDAsMCwwLDAsMTZaTTIyNCwyMDBIMzJhOCw4LDAsMCwwLDAsMTZIMjI0YTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChatCenteredDots";
@@ -12,7 +12,7 @@ import weights from "../defs/ChatCenteredDots";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMTg0YTE2LDE2LDAsMCwwLDE2LDE2aDYwLjQzbDEzLjY4LDIzLjk0YTE2LDE2LDAsMCwwLDI3Ljc4LDBMMTU1LjU3LDIwMEgyMTZhMTYsMTYsMCwwLDAsMTYtMTZWNTZBMTYsMTYsMCwwLDAsMjE2LDQwWk04NCwxMzJhMTIsMTIsMCwxLDEsMTItMTJBMTIsMTIsMCwwLDEsODQsMTMyWm00NCwwYTEyLDEyLDAsMSwxLDEyLTEyQTEyLDEyLDAsMCwxLDEyOCwxMzJabTQ0LDBhMTIsMTIsMCwxLDEsMTItMTJBMTIsMTIsMCwwLDEsMTcyLDEzMloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNTZWMTg0YTgsOCwwLDAsMS04LDhIMTUwLjkzbC0xNiwyOGE4LDgsMCwwLDEtMTMuOSwwbC0xNi0yOEg0MGE4LDgsMCwwLDEtOC04VjU2YTgsOCwwLDAsMSw4LThIMjE2QTgsOCwwLDAsMSwyMjQsNTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTE2LDEyMGExMiwxMiwwLDEsMSwxMiwxMkExMiwxMiwwLDAsMSwxMTYsMTIwWk04NCwxMzJhMTIsMTIsMCwxLDAtMTItMTJBMTIsMTIsMCwwLDAsODQsMTMyWm04OCwwYTEyLDEyLDAsMSwwLTEyLTEyQTEyLDEyLDAsMCwwLDE3MiwxMzJabTYwLTc2VjE4NGExNiwxNiwwLDAsMS0xNiwxNkgxNTUuNTdsLTEzLjY4LDIzLjk0YTE2LDE2LDAsMCwxLTI3Ljc4LDBMMTAwLjQzLDIwMEg0MGExNiwxNiwwLDAsMS0xNi0xNlY1NkExNiwxNiwwLDAsMSw0MCw0MEgyMTZBMTYsMTYsMCwwLDEsMjMyLDU2Wm0tMTYsMEg0MFYxODRoNjUuMDdhOCw4LDAsMCwxLDcsNGwxNiwyOCwxNi0yOGE4LDgsMCwwLDEsNy00SDIxNloiLz48L3N2Zz4=)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 

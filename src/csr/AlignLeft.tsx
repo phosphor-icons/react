@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AlignLeft";
@@ -12,7 +12,7 @@ import weights from "../defs/AlignLeft";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTUydjQwYTE2LDE2LDAsMCwxLTE2LDE2SDgwYTE2LDE2LDAsMCwxLTE2LTE2VjE1MmExNiwxNiwwLDAsMSwxNi0xNkgyMTZBMTYsMTYsMCwwLDEsMjMyLDE1MlpNNDAsMzJhOCw4LDAsMCwwLTgsOFYyMTZhOCw4LDAsMCwwLDE2LDBWNDBBOCw4LDAsMCwwLDQwLDMyWm00MCw4OGg5NmExNiwxNiwwLDAsMCwxNi0xNlY2NGExNiwxNiwwLDAsMC0xNi0xNkg4MEExNiwxNiwwLDAsMCw2NCw2NHY0MEExNiwxNiwwLDAsMCw4MCwxMjBaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik03MiwxMDRWNjRhOCw4LDAsMCwxLDgtOGg5NmE4LDgsMCwwLDEsOCw4djQwYTgsOCwwLDAsMS04LDhIODBBOCw4LDAsMCwxLDcyLDEwNFptMTQ0LDQwSDgwYTgsOCwwLDAsMC04LDh2NDBhOCw4LDAsMCwwLDgsOEgyMTZhOCw4LDAsMCwwLDgtOFYxNTJBOCw4LDAsMCwwLDIxNiwxNDRaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjE2LDEzNkg4MGExNiwxNiwwLDAsMC0xNiwxNnY0MGExNiwxNiwwLDAsMCwxNiwxNkgyMTZhMTYsMTYsMCwwLDAsMTYtMTZWMTUyQTE2LDE2LDAsMCwwLDIxNiwxMzZabTAsNTZIODBWMTUySDIxNnY0MFpNNDgsNDBWMjE2YTgsOCwwLDAsMS0xNiwwVjQwYTgsOCwwLDAsMSwxNiwwWm0zMiw4MGg5NmExNiwxNiwwLDAsMCwxNi0xNlY2NGExNiwxNiwwLDAsMC0xNi0xNkg4MEExNiwxNiwwLDAsMCw2NCw2NHY0MEExNiwxNiwwLDAsMCw4MCwxMjBabTAtNTZoOTZ2NDBIODBaIi8+PC9zdmc+)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

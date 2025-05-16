@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Seatbelt";
@@ -12,7 +12,7 @@ import weights from "../defs/Seatbelt";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTEyYTQ0LDQ0LDAsMSwxLDQ0LTQ0QTQ0LjA1LDQ0LjA1LDAsMCwxLDEyOCwxMTJabTcyLDEwNEg3Ny4xNkwxOTcuMjksMTEwYTguMTcsOC4xNywwLDAsMCwxLjEtMS4xOSw4LjA3LDguMDcsMCwwLDAsMS42MS01LjA4QTgsOCwwLDAsMCwxODYuNzEsOThsLTI0LjU0LDIxLjY1QTgwLDgwLDAsMCwwLDQ5LDE3OS4yNWE4LjMzLDguMzMsMCwwLDAtLjEsMS4xTDQ4LDIyMy44M0E4LDgsMCwwLDAsNTYsMjMySDIwMGE4LDgsMCwwLDAsMC0xNlptLTExLjg4LTczYTgsOCwwLDAsMC02LjI1LDEuOTRMMTE5LjQ3LDIwMEgyMDBhOCw4LDAsMCwwLDgtOCw3OS42LDc5LjYsMCwwLDAtMTQuMjctNDUuNjJBOCw4LDAsMCwwLDE4OC4xMiwxNDNaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05Miw2OGEzNiwzNiwwLDEsMSwzNiwzNkEzNiwzNiwwLDAsMSw5Miw2OFptMzYsNTJhNzIsNzIsMCwwLDAtNzIsNzJ2MzJIMjAwVjE5MkE3Miw3MiwwLDAsMCwxMjgsMTIwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTE3Miw2OGE0NCw0NCwwLDEsMC00NCw0NEE0NC4wNSw0NC4wNSwwLDAsMCwxNzIsNjhaTTEyOCw5NmEyOCwyOCwwLDEsMSwyOC0yOEEyOCwyOCwwLDAsMSwxMjgsOTZabTgwLDEyOGE4LDgsMCwwLDEtOCw4SDU2YTgsOCwwLDAsMS01LjI5LTE0bDk4LjA3LTg2LjU0YTY0LDY0LDAsMCwwLTg0LDUwLjMzQTgsOCwwLDAsMSw0OSwxNzkuMjVhODAsODAsMCwwLDEsMTEzLjE2LTU5LjU5TDE4Ni43MSw5OGE4LDgsMCwwLDEsMTAuNTgsMTJMNzcuMTYsMjE2SDIwMEE4LDgsMCwwLDEsMjA4LDIyNFptLTE0LjI3LTc3LjYyQTc5LjYsNzkuNiwwLDAsMSwyMDgsMTkyYTgsOCwwLDAsMS0xNiwwLDYzLjY3LDYzLjY3LDAsMCwwLTExLjQxLTM2LjQ5LDgsOCwwLDAsMSwxMy4xNC05LjEzWiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 

@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Headlights";
@@ -12,7 +12,7 @@ import weights from "../defs/Headlights";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsODBhOCw4LDAsMCwxLDgtOGg3MmE4LDgsMCwwLDEsMCwxNkgxNjhBOCw4LDAsMCwxLDE2MCw4MFptODAsODhIMTY4YTgsOCwwLDAsMCwwLDE2aDcyYTgsOCwwLDAsMCwwLTE2Wm0wLTY0SDE2OGE4LDgsMCwwLDAsMCwxNmg3MmE4LDgsMCwwLDAsMC0xNlptMCwzMkgxNjhhOCw4LDAsMCwwLDAsMTZoNzJhOCw4LDAsMCwwLDAtMTZaTTEyOCw0OEg4OC45QzQ0LjYyLDQ4LDguMzMsODMuNjIsOCwxMjcuMzlBODAsODAsMCwwLDAsODgsMjA4aDQwYTE2LDE2LDAsMCwwLDE2LTE2VjY0QTE2LDE2LDAsMCwwLDEyOCw0OFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsNjRWMTkyYTgsOCwwLDAsMS04LDhIODhhNzIsNzIsMCwwLDEtNzItNzIuNTVDMTYuMyw4Ny43NSw0OS4yLDU2LDg4LjksNTZIMTI4QTgsOCwwLDAsMSwxMzYsNjRaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTYwLDgwYTgsOCwwLDAsMSw4LThoNzJhOCw4LDAsMCwxLDAsMTZIMTY4QTgsOCwwLDAsMSwxNjAsODBabTgwLDg4SDE2OGE4LDgsMCwwLDAsMCwxNmg3MmE4LDgsMCwwLDAsMC0xNlptMC02NEgxNjhhOCw4LDAsMCwwLDAsMTZoNzJhOCw4LDAsMCwwLDAtMTZabTAsMzJIMTY4YTgsOCwwLDAsMCwwLDE2aDcyYTgsOCwwLDAsMCwwLTE2Wk0xNDQsNjRWMTkyYTE2LDE2LDAsMCwxLTE2LDE2SDg4QTgwLDgwLDAsMCwxLDgsMTI3LjM5QzguMzMsODMuNjIsNDQuNjIsNDgsODguOSw0OEgxMjhBMTYsMTYsMCwwLDEsMTQ0LDY0Wm0tMTYsMEg4OC45QzUzLjM4LDY0LDI0LjI2LDkyLjQ5LDI0LDEyNy41MUE2NCw2NCwwLDAsMCw4OCwxOTJoNDBaIi8+PC9zdmc+)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 

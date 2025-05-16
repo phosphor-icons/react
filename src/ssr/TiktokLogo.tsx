@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TiktokLogo";
@@ -12,7 +12,7 @@ import weights from "../defs/TiktokLogo";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsODB2NDBhOCw4LDAsMCwxLTgsOCwxMDMuMjUsMTAzLjI1LDAsMCwxLTQ4LTExLjcxVjE1NmE3Niw3NiwwLDAsMS0xNTIsMGMwLTM2LjksMjYuOTEtNjkuNTIsNjIuNi03NS44OEE4LDgsMCwwLDEsOTYsODh2NDIuNjlhOCw4LDAsMCwxLTQuNTcsNy4yM0EyMCwyMCwwLDEsMCwxMjAsMTU2VjI0YTgsOCwwLDAsMSw4LThoNDBhOCw4LDAsMCwxLDgsOCw0OC4wNSw0OC4wNSwwLDAsMCw0OCw0OEE4LDgsMCwwLDEsMjMyLDgwWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTIwYTk1LjU1LDk1LjU1LDAsMCwxLTU2LTE4djU0YTY4LDY4LDAsMCwxLTEzNiwwYzAtMzMuNDYsMjQuMTctNjIuMzMsNTYtNjh2NDIuNjlBMjgsMjgsMCwxLDAsMTI4LDE1NlYyNGg0MGE1Niw1NiwwLDAsMCw1Niw1NloiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0yMjQsNzJhNDguMDUsNDguMDUsMCwwLDEtNDgtNDgsOCw4LDAsMCwwLTgtOEgxMjhhOCw4LDAsMCwwLTgsOFYxNTZhMjAsMjAsMCwxLDEtMjguNTctMTguMDhBOCw4LDAsMCwwLDk2LDEzMC42OVY4OGE4LDgsMCwwLDAtOS40LTcuODhDNTAuOTEsODYuNDgsMjQsMTE5LjEsMjQsMTU2YTc2LDc2LDAsMCwwLDE1MiwwVjExNi4yOUExMDMuMjUsMTAzLjI1LDAsMCwwLDIyNCwxMjhhOCw4LDAsMCwwLDgtOFY4MEE4LDgsMCwwLDAsMjI0LDcyWm0tOCwzOS42NGE4Ny4xOSw4Ny4xOSwwLDAsMS00My4zMy0xNi4xNUE4LDgsMCwwLDAsMTYwLDEwMnY1NGE2MCw2MCwwLDAsMS0xMjAsMGMwLTI1LjksMTYuNjQtNDkuMTMsNDAtNTcuNnYyNy42N0EzNiwzNiwwLDEsMCwxMzYsMTU2VjMyaDI0LjVBNjQuMTQsNjQuMTQsMCwwLDAsMjE2LDg3LjVaIi8+PC9zdmc+)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 

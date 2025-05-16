@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PaperclipHorizontal";
@@ -12,7 +12,7 @@ import weights from "../defs/PaperclipHorizontal";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm00MCwxNDRINzJhMjQsMjQsMCwwLDEsMC00OGg5NmE4LDgsMCwwLDEsMCwxNkg3MmE4LDgsMCwwLDAsMCwxNmg5NmEyNCwyNCwwLDAsMCwwLTQ4SDk2YTgsOCwwLDAsMSwwLTE2aDcyYTQwLDQwLDAsMCwxLDAsODBaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTI4YTQ4LDQ4LDAsMCwxLTQ4LDQ4SDQ4YTMyLDMyLDAsMCwxLDAtNjRIODBWODBIMTkyQTQ4LDQ4LDAsMCwxLDI0MCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjQ4LDEyOGE1Ni4wNiw1Ni4wNiwwLDAsMS01Niw1Nkg0OGE0MCw0MCwwLDAsMSwwLTgwSDE5MmEyNCwyNCwwLDAsMSwwLDQ4SDgwYTgsOCwwLDAsMSwwLTE2SDE5MmE4LDgsMCwwLDAsMC0xNkg0OGEyNCwyNCwwLDAsMCwwLDQ4SDE5MmE0MCw0MCwwLDAsMCwwLTgwSDgwYTgsOCwwLDAsMSwwLTE2SDE5MkE1Ni4wNiw1Ni4wNiwwLDAsMSwyNDgsMTI4WiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 

@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HourglassSimpleMedium";
@@ -12,7 +12,7 @@ import weights from "../defs/HourglassSimpleMedium";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTEuMTgsMTk2LjU2LDEzOS41NywxMjhsNzEuNjEtNjguNTZhMS41OSwxLjU5LDAsMCwxLC4xMy0uMTNBMTYsMTYsMCwwLDAsMjAwLDMySDU2QTE2LDE2LDAsMCwwLDQ0LjY5LDU5LjMxYTEuNTksMS41OSwwLDAsMSwuMTMuMTNMMTE2LjQzLDEyOCw0NC44MiwxOTYuNTZhMS41OSwxLjU5LDAsMCwxLS4xMy4xM0ExNiwxNiwwLDAsMCw1NiwyMjRIMjAwYTE2LDE2LDAsMCwwLDExLjMyLTI3LjMxQTEuNTksMS41OSwwLDAsMSwyMTEuMTgsMTk2LjU2Wk01Niw0OGgwdjBabTE0NCwwTDE3NC45Miw3Mkg4MS4wOEw1Niw0OFpNNTYsMjA4bDY0LTYxLjI2VjE2OGE4LDgsMCwwLDAsMTYsMFYxNDYuNzRMMjAwLDIwOFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzguMTMsODAsMTI4LDEyOCw3Ny44Nyw4MFoiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0yMTEuMTgsMTk2LjU2LDEzOS41NywxMjhsNzEuNjEtNjguNTZhMS41OSwxLjU5LDAsMCwxLC4xMy0uMTNBMTYsMTYsMCwwLDAsMjAwLDMySDU2QTE2LDE2LDAsMCwwLDQ0LjY5LDU5LjMxYTEuNTksMS41OSwwLDAsMSwuMTMuMTNMMTE2LjQzLDEyOCw0NC44MiwxOTYuNTZhMS41OSwxLjU5LDAsMCwxLS4xMy4xM0ExNiwxNiwwLDAsMCw1NiwyMjRIMjAwYTE2LDE2LDAsMCwwLDExLjMyLTI3LjMxQTEuNTksMS41OSwwLDAsMSwyMTEuMTgsMTk2LjU2Wk01Niw0OGgwdjBaTTk3Ljc5LDg4aDYwLjQyTDEyOCwxMTYuOTJaTTIwMCw0OCwxNzQuOTIsNzJIODEuMDhMNTYsNDhaTTU2LDIwOGw2NC02MS4yNlYxNjhhOCw4LDAsMCwwLDE2LDBWMTQ2Ljc0TDIwMCwyMDhaIi8+PC9zdmc+)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 

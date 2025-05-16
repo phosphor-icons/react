@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GenderNonbinary";
@@ -12,7 +12,7 @@ import weights from "../defs/GenderNonbinary";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMjRINTZBMTYsMTYsMCwwLDAsNDAsNDBWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlY0MEExNiwxNiwwLDAsMCwyMDAsMjRaTTEyOCwyMDhhNTIsNTIsMCwwLDEtOC0xMDMuMzhWODMuODJMOTEsOTUuNDNBOCw4LDAsMCwxLDg1LDgwLjU3TDEwNi40Niw3Miw4NSw2My40M0E4LDgsMCwwLDEsOTEsNDguNTdsMzcsMTQuODEsMzctMTQuODFBOCw4LDAsMSwxLDE3MSw2My40M0wxNDkuNTQsNzIsMTcxLDgwLjU3QTgsOCwwLDAsMSwxNjUsOTUuNDNMMTM2LDgzLjgydjIwLjhBNTIsNTIsMCwwLDEsMTI4LDIwOFptMzYtNTJhMzYsMzYsMCwxLDEtMzYtMzZBMzYsMzYsMCwwLDEsMTY0LDE1NloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMTY4YTY0LDY0LDAsMSwxLTY0LTY0QTY0LDY0LDAsMCwxLDE5MiwxNjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTM2LDk2LjQ2VjYyLjEzbDI3Ljg4LDE2LjczYTgsOCwwLDEsMCw4LjI0LTEzLjcyTDE0My41NSw0OGwyOC41Ny0xNy4xNGE4LDgsMCwwLDAtOC4yNC0xMy43MkwxMjgsMzguNjcsOTIuMTIsMTcuMTRhOCw4LDAsMCwwLTguMjQsMTMuNzJMMTEyLjQ1LDQ4LDgzLjg4LDY1LjE0YTgsOCwwLDAsMCw4LjI0LDEzLjcyTDEyMCw2Mi4xM1Y5Ni40NmE3Miw3MiwwLDEsMCwxNiwwWk0xMjgsMjI0YTU2LDU2LDAsMSwxLDU2LTU2QTU2LjA2LDU2LjA2LDAsMCwxLDEyOCwyMjRaIi8+PC9zdmc+)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

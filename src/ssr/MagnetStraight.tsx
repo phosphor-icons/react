@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MagnetStraight";
@@ -12,7 +12,7 @@ import weights from "../defs/MagnetStraight";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBIMTYwYTE2LDE2LDAsMCwwLTE2LDE2djg4YTE2LDE2LDAsMCwxLTMyLDBWNTZBMTYsMTYsMCwwLDAsOTYsNDBINTZBMTYsMTYsMCwwLDAsNDAsNTZ2ODhhODgsODgsMCwwLDAsODgsODhoLjY3YzQ4LjE1LS4zNiw4Ny4zMy00MC4yOSw4Ny4zMy04OVY1NkExNiwxNiwwLDAsMCwyMDAsNDBabTAsMTZWOTZIMTYwVjU2Wk05Niw1NlY5Nkg1NlY1NloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDQsNTZWOTZINDhWNTZhOCw4LDAsMCwxLDgtOEg5NkE4LDgsMCwwLDEsMTA0LDU2Wm05Ni04SDE2MGE4LDgsMCwwLDAtOCw4Vjk2aDU2VjU2QTgsOCwwLDAsMCwyMDAsNDhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjAwLDQwSDE2MGExNiwxNiwwLDAsMC0xNiwxNnY4OGExNiwxNiwwLDAsMS0zMiwwVjU2QTE2LDE2LDAsMCwwLDk2LDQwSDU2QTE2LDE2LDAsMCwwLDQwLDU2djg4YTg4LDg4LDAsMCwwLDg4LDg4aC42N2M0OC4xNS0uMzYsODcuMzMtNDAuMjksODcuMzMtODlWNTZBMTYsMTYsMCwwLDAsMjAwLDQwWm0wLDE2Vjg4SDE2MFY1NlpNOTYsNTZWODhINTZWNTZabTMyLjU1LDE2MEE3Miw3MiwwLDAsMSw1NiwxNDRWMTA0SDk2djQwYTMyLDMyLDAsMCwwLDY0LDBWMTA0aDQwdjM5QzIwMCwxODMsMTY4LDIxNS43MSwxMjguNTUsMjE2WiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 

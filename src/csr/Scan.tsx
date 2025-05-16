@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Scan";
@@ -12,7 +12,7 @@ import weights from "../defs/Scan";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDBWODBhOCw4LDAsMCwxLTE2LDBWNDhIMTc2YTgsOCwwLDAsMSwwLTE2aDQwQTgsOCwwLDAsMSwyMjQsNDBaTTgwLDIwOEg0OFYxNzZhOCw4LDAsMCwwLTE2LDB2NDBhOCw4LDAsMCwwLDgsOEg4MGE4LDgsMCwwLDAsMC0xNlptMTM2LTQwYTgsOCwwLDAsMC04LDh2MzJIMTc2YTgsOCwwLDAsMCwwLDE2aDQwYTgsOCwwLDAsMCw4LThWMTc2QTgsOCwwLDAsMCwyMTYsMTY4Wk00MCw4OGE4LDgsMCwwLDAsOC04VjQ4SDgwYTgsOCwwLDAsMCwwLTE2SDQwYTgsOCwwLDAsMC04LDhWODBBOCw4LDAsMCwwLDQwLDg4Wm0zMi04djk2YTgsOCwwLDAsMCw4LDhoOTZhOCw4LDAsMCwwLDgtOFY4MGE4LDgsMCwwLDAtOC04SDgwQTgsOCwwLDAsMCw3Miw4MFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsODB2OTZIODBWODBaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjI0LDQwVjgwYTgsOCwwLDAsMS0xNiwwVjQ4SDE3NmE4LDgsMCwwLDEsMC0xNmg0MEE4LDgsMCwwLDEsMjI0LDQwWk04MCwyMDhINDhWMTc2YTgsOCwwLDAsMC0xNiwwdjQwYTgsOCwwLDAsMCw4LDhIODBhOCw4LDAsMCwwLDAtMTZabTEzNi00MGE4LDgsMCwwLDAtOCw4djMySDE3NmE4LDgsMCwwLDAsMCwxNmg0MGE4LDgsMCwwLDAsOC04VjE3NkE4LDgsMCwwLDAsMjE2LDE2OFpNNDAsODhhOCw4LDAsMCwwLDgtOFY0OEg4MGE4LDgsMCwwLDAsMC0xNkg0MGE4LDgsMCwwLDAtOCw4VjgwQTgsOCwwLDAsMCw0MCw4OFpNODAsNzJoOTZhOCw4LDAsMCwxLDgsOHY5NmE4LDgsMCwwLDEtOCw4SDgwYTgsOCwwLDAsMS04LThWODBBOCw4LDAsMCwxLDgwLDcyWm04LDk2aDgwVjg4SDg4WiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

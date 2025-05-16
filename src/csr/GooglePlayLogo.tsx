@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GooglePlayLogo";
@@ -12,7 +12,7 @@ import weights from "../defs/GooglePlayLogo";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzkuODIsMTE0LjE4LDcyLDE4LjE2YTE2LDE2LDAsMCwwLTE2LjEyLDBBMTUuNjgsMTUuNjgsMCwwLDAsNDgsMzEuODdWMjI0LjEzYTE1LjY4LDE1LjY4LDAsMCwwLDcuOTIsMTMuNjcsMTYsMTYsMCwwLDAsMTYuMTIsMGwxNjcuNzgtOTZhMTUuNzYsMTUuNzYsMCwwLDAsMC0yNy42NFpNMTYwLDEzOS4zMWwxOC45MiwxOC45Mi04OC41LDUwLjY2Wk05MC40LDQ3LjFsODguNTMsNTAuNjdMMTYwLDExNi42OVpNMTkzLjMxLDE1MGwtMjItMjIsMjItMjIsMzguNDMsMjJaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsMTI4LDU4LjMyLDIzMEE3LjcsNy43LDAsMCwxLDU2LDIyNC40NVYzMS41NUE3LjcsNy43LDAsMCwxLDU4LjMyLDI2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIzOS44MiwxMTQuMTgsNzIsMTguMTZhMTYsMTYsMCwwLDAtMTYuMTIsMEExNS42OCwxNS42OCwwLDAsMCw0OCwzMS44N1YyMjQuMTNhMTUuNjgsMTUuNjgsMCwwLDAsNy45MiwxMy42NywxNiwxNiwwLDAsMCwxNi4xMiwwbDE2Ny43OC05NmExNS43NiwxNS43NiwwLDAsMCwwLTI3LjY0Wk02NCwyMTIuNjdWNDMuMzNMMTQ4LjY5LDEyOFptOTYtNzMuMzYsMTguOTIsMTguOTItODguNSw1MC42NlpNOTAuNCw0Ny4xbDg4LjUzLDUwLjY3TDE2MCwxMTYuNjlaTTE5My4zMSwxNTBsLTIyLTIyLDIyLTIyLDM4LjQzLDIyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

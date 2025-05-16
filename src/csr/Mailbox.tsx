@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Mailbox";
@@ -12,7 +12,7 @@ import weights from "../defs/Mailbox";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDQsMTUyYTgsOCwwLDAsMS04LDhINTZhOCw4LDAsMCwxLDAtMTZIOTZBOCw4LDAsMCwxLDEwNCwxNTJaTTE2OCwzMmgyNGE4LDgsMCwwLDAsMC0xNkgxNjBhOCw4LDAsMCwwLTgsOFY1NmgxNlptNzIsODR2NjBhMTYsMTYsMCwwLDEtMTYsMTZIMTM2djMyYTgsOCwwLDAsMS0xNiwwVjE5MkgzMmExNiwxNiwwLDAsMS0xNi0xNlYxMTZBNjAuMDcsNjAuMDcsMCwwLDEsNzYsNTZoNzZ2ODhhOCw4LDAsMCwwLDE2LDBWNTZoMTJBNjAuMDcsNjAuMDcsMCwwLDEsMjQwLDExNlptLTEyMCwwYTQ0LDQ0LDAsMCwwLTg4LDB2NjBoODhaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTE2djYwYTgsOCwwLDAsMS04LDhIMTI4VjExNkE1Miw1MiwwLDAsMCw3Niw2NEgxODBBNTIsNTIsMCwwLDEsMjMyLDExNloiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0xMDQsMTUyYTgsOCwwLDAsMS04LDhINTZhOCw4LDAsMCwxLDAtMTZIOTZBOCw4LDAsMCwxLDEwNCwxNTJabTEzNi0zNnY2MGExNiwxNiwwLDAsMS0xNiwxNkgxMzZ2MzJhOCw4LDAsMCwxLTE2LDBWMTkySDMyYTE2LDE2LDAsMCwxLTE2LTE2VjExNkE2MC4wNyw2MC4wNywwLDAsMSw3Niw1Nmg3NlYyNGE4LDgsMCwwLDEsOC04aDMyYTgsOCwwLDAsMSwwLDE2SDE2OFY1NmgxMkE2MC4wNyw2MC4wNywwLDAsMSwyNDAsMTE2Wk0xMjAsMTc2VjExNmE0NCw0NCwwLDAsMC04OCwwdjYwWm0xMDQtNjBhNDQuMDUsNDQuMDUsMCwwLDAtNDQtNDRIMTY4djcyYTgsOCwwLDAsMS0xNiwwVjcySDExNi43NUE1OS44Niw1OS44NiwwLDAsMSwxMzYsMTE2djYwaDg4WiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 

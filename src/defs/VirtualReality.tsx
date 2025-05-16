@@ -1,5 +1,6 @@
 /* GENERATED FILE */
-import React, { ReactElement } from "react";
+import * as React from "react";
+import type { ReactElement } from "react";
 import { IconWeight } from "../lib";
 
 export default new Map<IconWeight, ReactElement>([

@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MedalMilitary";
@@ -12,7 +12,7 @@ import weights from "../defs/MedalMilitary";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDcsNDBINDlBMTcsMTcsMCwwLDAsMzIsNTd2NDkuMjFhMTcsMTcsMCwwLDAsMTAsMTUuNDdsNjIuNiwyOC40NWE0OCw0OCwwLDEsMCw0Ni44OCwwTDIxNCwxMjEuNjhhMTcsMTcsMCwwLDAsMTAtMTUuNDdWNTdBMTcsMTcsMCwwLDAsMjA3LDQwWk05Niw1Nmg2NHY3Mi42N2wtMzIsMTQuNTRMOTYsMTI4LjY3Wm0zMiwxNjhhMzIsMzIsMCwxLDEsMzItMzJBMzIsMzIsMCwwLDEsMTI4LDIyNFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMTkyYTQwLDQwLDAsMSwxLTQwLTQwQTQwLDQwLDAsMCwxLDE2OCwxOTJaTTIwNyw0OEgxNjh2ODUuODJsNDIuNzItMTkuNDJhOSw5LDAsMCwwLDUuMjgtOC4yVjU3QTksOSwwLDAsMCwyMDcsNDhaTTg4LDQ4SDQ5YTksOSwwLDAsMC05LDl2NDkuMmE5LDksMCwwLDAsNS4yOCw4LjJMODgsMTMzLjgyWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIwNyw0MEg0OUExNywxNywwLDAsMCwzMiw1N3Y0OS4yMWExNywxNywwLDAsMCwxMCwxNS40N2w2Mi42LDI4LjQ1YTQ4LDQ4LDAsMSwwLDQ2Ljg4LDBMMjE0LDEyMS42OGExNywxNywwLDAsMCwxMC0xNS40N1Y1N0ExNywxNywwLDAsMCwyMDcsNDBaTTE2MCw1NnY3Mi42N2wtMzIsMTQuNTRMOTYsMTI4LjY3VjU2Wk00OCwxMDYuMjFWNTdhMSwxLDAsMCwxLDEtMUg4MHY2NS4zOUw0OC41OSwxMDcuMTJBMSwxLDAsMCwxLDQ4LDEwNi4yMVpNMTI4LDIyNGEzMiwzMiwwLDEsMSwzMi0zMkEzMiwzMiwwLDAsMSwxMjgsMjI0Wm04MC0xMTcuNzlhMSwxLDAsMCwxLS41OS45MUwxNzYsMTIxLjM5VjU2aDMxYTEsMSwwLDAsMSwxLDFaIi8+PC9zdmc+)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 

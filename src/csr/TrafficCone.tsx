@@ -1,5 +1,5 @@
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TrafficCone";
@@ -12,7 +12,7 @@ import weights from "../defs/TrafficCone";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMjA4SDIxMy42OUwxNTMuNDIsMzQuNzVBMTYsMTYsMCwwLDAsMTM4LjMxLDI0SDExNy42OWExNiwxNiwwLDAsMC0xNS4xMSwxMC43NEw0Mi4zMSwyMDhIMjRhOCw4LDAsMCwwLDAsMTZIMjMyYTgsOCwwLDAsMCwwLTE2Wk05NS40MywxMDRoNjUuMTRsMTYuNyw0OEg3OC43M1oiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODguNTIsMTYwaC0xMjFMODkuNzQsOTZoNzYuNTJaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjMyLDIwOEgyMTMuNjlMMTUzLjQyLDM0Ljc1QTE2LDE2LDAsMCwwLDEzOC4zMSwyNEgxMTcuNjlhMTYsMTYsMCwwLDAtMTUuMTEsMTAuNzRMNDIuMzEsMjA4SDI0YTgsOCwwLDAsMCwwLDE2SDIzMmE4LDgsMCwwLDAsMC0xNlpNMTE3LjY5LDQwaDIwLjYyTDE1NSw4OEgxMDFaTTk1LjQzLDEwNGg2NS4xNGwxNi43LDQ4SDc4LjczWk01OS4yNSwyMDhsMTMuOTItNDBIMTgyLjgzbDEzLjkyLDQwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
