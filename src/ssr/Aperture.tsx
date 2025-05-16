@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Aperture";
-export { I as Aperture };
+I.displayName = "ApertureIcon";
+
+/** @deprecated Use ApertureIcon */
+export const Aperture = I;
+export { I as ApertureIcon };

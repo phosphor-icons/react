@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FileJpg";
-export { I as FileJpg };
+I.displayName = "FileJpgIcon";
+
+/** @deprecated Use FileJpgIcon */
+export const FileJpg = I;
+export { I as FileJpgIcon };

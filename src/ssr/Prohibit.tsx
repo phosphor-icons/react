@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Prohibit";
-export { I as Prohibit };
+I.displayName = "ProhibitIcon";
+
+/** @deprecated Use ProhibitIcon */
+export const Prohibit = I;
+export { I as ProhibitIcon };

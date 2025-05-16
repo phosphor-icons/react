@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FileHtml";
-export { I as FileHtml };
+I.displayName = "FileHtmlIcon";
+
+/** @deprecated Use FileHtmlIcon */
+export const FileHtml = I;
+export { I as FileHtmlIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Resize";
-export { I as Resize };
+I.displayName = "ResizeIcon";
+
+/** @deprecated Use ResizeIcon */
+export const Resize = I;
+export { I as ResizeIcon };

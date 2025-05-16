@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GenderTransgender";
-export { I as GenderTransgender };
+I.displayName = "GenderTransgenderIcon";
+
+/** @deprecated Use GenderTransgenderIcon */
+export const GenderTransgender = I;
+export { I as GenderTransgenderIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SelectionInverse";
-export { I as SelectionInverse };
+I.displayName = "SelectionInverseIcon";
+
+/** @deprecated Use SelectionInverseIcon */
+export const SelectionInverse = I;
+export { I as SelectionInverseIcon };

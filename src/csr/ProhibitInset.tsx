@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ProhibitInset";
-export { I as ProhibitInset };
+I.displayName = "ProhibitInsetIcon";
+
+/** @deprecated Use ProhibitInsetIcon */
+export const ProhibitInset = I;
+export { I as ProhibitInsetIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "UserCirclePlus";
-export { I as UserCirclePlus };
+I.displayName = "UserCirclePlusIcon";
+
+/** @deprecated Use UserCirclePlusIcon */
+export const UserCirclePlus = I;
+export { I as UserCirclePlusIcon };

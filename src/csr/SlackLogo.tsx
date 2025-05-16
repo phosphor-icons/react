@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SlackLogo";
-export { I as SlackLogo };
+I.displayName = "SlackLogoIcon";
+
+/** @deprecated Use SlackLogoIcon */
+export const SlackLogo = I;
+export { I as SlackLogoIcon };

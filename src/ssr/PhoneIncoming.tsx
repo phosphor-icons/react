@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PhoneIncoming";
-export { I as PhoneIncoming };
+I.displayName = "PhoneIncomingIcon";
+
+/** @deprecated Use PhoneIncomingIcon */
+export const PhoneIncoming = I;
+export { I as PhoneIncomingIcon };

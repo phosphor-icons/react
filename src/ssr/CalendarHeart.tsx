@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CalendarHeart";
-export { I as CalendarHeart };
+I.displayName = "CalendarHeartIcon";
+
+/** @deprecated Use CalendarHeartIcon */
+export const CalendarHeart = I;
+export { I as CalendarHeartIcon };

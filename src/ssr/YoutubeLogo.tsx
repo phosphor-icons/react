@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "YoutubeLogo";
-export { I as YoutubeLogo };
+I.displayName = "YoutubeLogoIcon";
+
+/** @deprecated Use YoutubeLogoIcon */
+export const YoutubeLogo = I;
+export { I as YoutubeLogoIcon };

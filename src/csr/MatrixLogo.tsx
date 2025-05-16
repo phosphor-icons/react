@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MatrixLogo";
-export { I as MatrixLogo };
+I.displayName = "MatrixLogoIcon";
+
+/** @deprecated Use MatrixLogoIcon */
+export const MatrixLogo = I;
+export { I as MatrixLogoIcon };

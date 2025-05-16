@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FileAudio";
-export { I as FileAudio };
+I.displayName = "FileAudioIcon";
+
+/** @deprecated Use FileAudioIcon */
+export const FileAudio = I;
+export { I as FileAudioIcon };

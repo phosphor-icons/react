@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ChartLine";
-export { I as ChartLine };
+I.displayName = "ChartLineIcon";
+
+/** @deprecated Use ChartLineIcon */
+export const ChartLine = I;
+export { I as ChartLineIcon };

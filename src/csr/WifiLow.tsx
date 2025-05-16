@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "WifiLow";
-export { I as WifiLow };
+I.displayName = "WifiLowIcon";
+
+/** @deprecated Use WifiLowIcon */
+export const WifiLow = I;
+export { I as WifiLowIcon };

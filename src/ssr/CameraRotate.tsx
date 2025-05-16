@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CameraRotate";
-export { I as CameraRotate };
+I.displayName = "CameraRotateIcon";
+
+/** @deprecated Use CameraRotateIcon */
+export const CameraRotate = I;
+export { I as CameraRotateIcon };

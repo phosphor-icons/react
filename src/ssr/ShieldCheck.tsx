@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ShieldCheck";
-export { I as ShieldCheck };
+I.displayName = "ShieldCheckIcon";
+
+/** @deprecated Use ShieldCheckIcon */
+export const ShieldCheck = I;
+export { I as ShieldCheckIcon };

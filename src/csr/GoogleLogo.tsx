@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GoogleLogo";
-export { I as GoogleLogo };
+I.displayName = "GoogleLogoIcon";
+
+/** @deprecated Use GoogleLogoIcon */
+export const GoogleLogo = I;
+export { I as GoogleLogoIcon };

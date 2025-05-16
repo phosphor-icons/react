@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "WaveformSlash";
-export { I as WaveformSlash };
+I.displayName = "WaveformSlashIcon";
+
+/** @deprecated Use WaveformSlashIcon */
+export const WaveformSlash = I;
+export { I as WaveformSlashIcon };

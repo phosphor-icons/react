@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GreaterThanOrEqual";
-export { I as GreaterThanOrEqual };
+I.displayName = "GreaterThanOrEqualIcon";
+
+/** @deprecated Use GreaterThanOrEqualIcon */
+export const GreaterThanOrEqual = I;
+export { I as GreaterThanOrEqualIcon };

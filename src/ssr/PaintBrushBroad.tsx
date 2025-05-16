@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PaintBrushBroad";
-export { I as PaintBrushBroad };
+I.displayName = "PaintBrushBroadIcon";
+
+/** @deprecated Use PaintBrushBroadIcon */
+export const PaintBrushBroad = I;
+export { I as PaintBrushBroadIcon };

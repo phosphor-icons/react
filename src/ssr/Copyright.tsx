@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Copyright";
-export { I as Copyright };
+I.displayName = "CopyrightIcon";
+
+/** @deprecated Use CopyrightIcon */
+export const Copyright = I;
+export { I as CopyrightIcon };

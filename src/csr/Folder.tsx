@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Folder";
-export { I as Folder, I as FolderNotch };
+I.displayName = "FolderIcon";
+
+/** @deprecated Use FolderIcon */
+export const Folder = I;
+export { I as FolderIcon, I as FolderNotchIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MouseLeftClick";
-export { I as MouseLeftClick };
+I.displayName = "MouseLeftClickIcon";
+
+/** @deprecated Use MouseLeftClickIcon */
+export const MouseLeftClick = I;
+export { I as MouseLeftClickIcon };

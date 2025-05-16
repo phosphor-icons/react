@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ExclamationMark";
-export { I as ExclamationMark };
+I.displayName = "ExclamationMarkIcon";
+
+/** @deprecated Use ExclamationMarkIcon */
+export const ExclamationMark = I;
+export { I as ExclamationMarkIcon };

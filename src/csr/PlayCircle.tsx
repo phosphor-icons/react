@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PlayCircle";
-export { I as PlayCircle };
+I.displayName = "PlayCircleIcon";
+
+/** @deprecated Use PlayCircleIcon */
+export const PlayCircle = I;
+export { I as PlayCircleIcon };

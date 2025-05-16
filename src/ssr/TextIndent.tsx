@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TextIndent";
-export { I as TextIndent };
+I.displayName = "TextIndentIcon";
+
+/** @deprecated Use TextIndentIcon */
+export const TextIndent = I;
+export { I as TextIndentIcon };

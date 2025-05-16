@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "AngularLogo";
-export { I as AngularLogo };
+I.displayName = "AngularLogoIcon";
+
+/** @deprecated Use AngularLogoIcon */
+export const AngularLogo = I;
+export { I as AngularLogoIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "QrCode";
-export { I as QrCode };
+I.displayName = "QrCodeIcon";
+
+/** @deprecated Use QrCodeIcon */
+export const QrCode = I;
+export { I as QrCodeIcon };

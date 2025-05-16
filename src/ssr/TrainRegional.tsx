@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TrainRegional";
-export { I as TrainRegional };
+I.displayName = "TrainRegionalIcon";
+
+/** @deprecated Use TrainRegionalIcon */
+export const TrainRegional = I;
+export { I as TrainRegionalIcon };

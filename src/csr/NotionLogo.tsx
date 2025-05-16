@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "NotionLogo";
-export { I as NotionLogo };
+I.displayName = "NotionLogoIcon";
+
+/** @deprecated Use NotionLogoIcon */
+export const NotionLogo = I;
+export { I as NotionLogoIcon };

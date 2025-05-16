@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MicrosoftWordLogo";
-export { I as MicrosoftWordLogo };
+I.displayName = "MicrosoftWordLogoIcon";
+
+/** @deprecated Use MicrosoftWordLogoIcon */
+export const MicrosoftWordLogo = I;
+export { I as MicrosoftWordLogoIcon };

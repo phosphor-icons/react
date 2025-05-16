@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ShootingStar";
-export { I as ShootingStar };
+I.displayName = "ShootingStarIcon";
+
+/** @deprecated Use ShootingStarIcon */
+export const ShootingStar = I;
+export { I as ShootingStarIcon };

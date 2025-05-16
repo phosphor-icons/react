@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "YinYang";
-export { I as YinYang };
+I.displayName = "YinYangIcon";
+
+/** @deprecated Use YinYangIcon */
+export const YinYang = I;
+export { I as YinYangIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CursorText";
-export { I as CursorText };
+I.displayName = "CursorTextIcon";
+
+/** @deprecated Use CursorTextIcon */
+export const CursorText = I;
+export { I as CursorTextIcon };

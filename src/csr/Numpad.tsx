@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Numpad";
-export { I as Numpad };
+I.displayName = "NumpadIcon";
+
+/** @deprecated Use NumpadIcon */
+export const Numpad = I;
+export { I as NumpadIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LockLaminated";
-export { I as LockLaminated };
+I.displayName = "LockLaminatedIcon";
+
+/** @deprecated Use LockLaminatedIcon */
+export const LockLaminated = I;
+export { I as LockLaminatedIcon };

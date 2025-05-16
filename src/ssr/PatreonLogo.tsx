@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PatreonLogo";
-export { I as PatreonLogo };
+I.displayName = "PatreonLogoIcon";
+
+/** @deprecated Use PatreonLogoIcon */
+export const PatreonLogo = I;
+export { I as PatreonLogoIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DropboxLogo";
-export { I as DropboxLogo };
+I.displayName = "DropboxLogoIcon";
+
+/** @deprecated Use DropboxLogoIcon */
+export const DropboxLogo = I;
+export { I as DropboxLogoIcon };

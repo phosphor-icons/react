@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CellTower";
-export { I as CellTower };
+I.displayName = "CellTowerIcon";
+
+/** @deprecated Use CellTowerIcon */
+export const CellTower = I;
+export { I as CellTowerIcon };

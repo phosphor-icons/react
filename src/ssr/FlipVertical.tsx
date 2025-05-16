@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FlipVertical";
-export { I as FlipVertical };
+I.displayName = "FlipVerticalIcon";
+
+/** @deprecated Use FlipVerticalIcon */
+export const FlipVertical = I;
+export { I as FlipVerticalIcon };

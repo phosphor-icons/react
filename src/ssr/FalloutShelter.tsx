@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FalloutShelter";
-export { I as FalloutShelter };
+I.displayName = "FalloutShelterIcon";
+
+/** @deprecated Use FalloutShelterIcon */
+export const FalloutShelter = I;
+export { I as FalloutShelterIcon };

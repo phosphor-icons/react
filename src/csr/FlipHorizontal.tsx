@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FlipHorizontal";
-export { I as FlipHorizontal };
+I.displayName = "FlipHorizontalIcon";
+
+/** @deprecated Use FlipHorizontalIcon */
+export const FlipHorizontal = I;
+export { I as FlipHorizontalIcon };

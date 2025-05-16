@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BoundingBox";
-export { I as BoundingBox };
+I.displayName = "BoundingBoxIcon";
+
+/** @deprecated Use BoundingBoxIcon */
+export const BoundingBox = I;
+export { I as BoundingBoxIcon };

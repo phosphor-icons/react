@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "StandardDefinition";
-export { I as StandardDefinition };
+I.displayName = "StandardDefinitionIcon";
+
+/** @deprecated Use StandardDefinitionIcon */
+export const StandardDefinition = I;
+export { I as StandardDefinitionIcon };

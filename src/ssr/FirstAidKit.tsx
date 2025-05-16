@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FirstAidKit";
-export { I as FirstAidKit };
+I.displayName = "FirstAidKitIcon";
+
+/** @deprecated Use FirstAidKitIcon */
+export const FirstAidKit = I;
+export { I as FirstAidKitIcon };

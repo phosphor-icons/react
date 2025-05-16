@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SoundcloudLogo";
-export { I as SoundcloudLogo };
+I.displayName = "SoundcloudLogoIcon";
+
+/** @deprecated Use SoundcloudLogoIcon */
+export const SoundcloudLogo = I;
+export { I as SoundcloudLogoIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GlobeHemisphereEast";
-export { I as GlobeHemisphereEast };
+I.displayName = "GlobeHemisphereEastIcon";
+
+/** @deprecated Use GlobeHemisphereEastIcon */
+export const GlobeHemisphereEast = I;
+export { I as GlobeHemisphereEastIcon };

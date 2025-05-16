@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BehanceLogo";
-export { I as BehanceLogo };
+I.displayName = "BehanceLogoIcon";
+
+/** @deprecated Use BehanceLogoIcon */
+export const BehanceLogo = I;
+export { I as BehanceLogoIcon };

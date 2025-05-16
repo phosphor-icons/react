@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Keyboard";
-export { I as Keyboard };
+I.displayName = "KeyboardIcon";
+
+/** @deprecated Use KeyboardIcon */
+export const Keyboard = I;
+export { I as KeyboardIcon };

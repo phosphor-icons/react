@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ClosedCaptioning";
-export { I as ClosedCaptioning };
+I.displayName = "ClosedCaptioningIcon";
+
+/** @deprecated Use ClosedCaptioningIcon */
+export const ClosedCaptioning = I;
+export { I as ClosedCaptioningIcon };

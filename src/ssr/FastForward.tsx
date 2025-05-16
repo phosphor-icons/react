@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FastForward";
-export { I as FastForward };
+I.displayName = "FastForwardIcon";
+
+/** @deprecated Use FastForwardIcon */
+export const FastForward = I;
+export { I as FastForwardIcon };

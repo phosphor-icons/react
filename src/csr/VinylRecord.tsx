@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "VinylRecord";
-export { I as VinylRecord };
+I.displayName = "VinylRecordIcon";
+
+/** @deprecated Use VinylRecordIcon */
+export const VinylRecord = I;
+export { I as VinylRecordIcon };

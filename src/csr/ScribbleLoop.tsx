@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ScribbleLoop";
-export { I as ScribbleLoop };
+I.displayName = "ScribbleLoopIcon";
+
+/** @deprecated Use ScribbleLoopIcon */
+export const ScribbleLoop = I;
+export { I as ScribbleLoopIcon };

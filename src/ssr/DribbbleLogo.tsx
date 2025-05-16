@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DribbbleLogo";
-export { I as DribbbleLogo };
+I.displayName = "DribbbleLogoIcon";
+
+/** @deprecated Use DribbbleLogoIcon */
+export const DribbbleLogo = I;
+export { I as DribbbleLogoIcon };

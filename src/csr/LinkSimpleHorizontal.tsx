@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LinkSimpleHorizontal";
-export { I as LinkSimpleHorizontal };
+I.displayName = "LinkSimpleHorizontalIcon";
+
+/** @deprecated Use LinkSimpleHorizontalIcon */
+export const LinkSimpleHorizontal = I;
+export { I as LinkSimpleHorizontalIcon };

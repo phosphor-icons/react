@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Placeholder";
-export { I as Placeholder };
+I.displayName = "PlaceholderIcon";
+
+/** @deprecated Use PlaceholderIcon */
+export const Placeholder = I;
+export { I as PlaceholderIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CornersIn";
-export { I as CornersIn };
+I.displayName = "CornersInIcon";
+
+/** @deprecated Use CornersInIcon */
+export const CornersIn = I;
+export { I as CornersInIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LinktreeLogo";
-export { I as LinktreeLogo };
+I.displayName = "LinktreeLogoIcon";
+
+/** @deprecated Use LinktreeLogoIcon */
+export const LinktreeLogo = I;
+export { I as LinktreeLogoIcon };

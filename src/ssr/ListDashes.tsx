@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ListDashes";
-export { I as ListDashes };
+I.displayName = "ListDashesIcon";
+
+/** @deprecated Use ListDashesIcon */
+export const ListDashes = I;
+export { I as ListDashesIcon };

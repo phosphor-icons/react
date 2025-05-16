@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "EyeClosed";
-export { I as EyeClosed };
+I.displayName = "EyeClosedIcon";
+
+/** @deprecated Use EyeClosedIcon */
+export const EyeClosed = I;
+export { I as EyeClosedIcon };

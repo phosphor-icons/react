@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MapTrifold";
-export { I as MapTrifold };
+I.displayName = "MapTrifoldIcon";
+
+/** @deprecated Use MapTrifoldIcon */
+export const MapTrifold = I;
+export { I as MapTrifoldIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BluetoothConnected";
-export { I as BluetoothConnected };
+I.displayName = "BluetoothConnectedIcon";
+
+/** @deprecated Use BluetoothConnectedIcon */
+export const BluetoothConnected = I;
+export { I as BluetoothConnectedIcon };

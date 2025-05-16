@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TreeView";
-export { I as TreeView };
+I.displayName = "TreeViewIcon";
+
+/** @deprecated Use TreeViewIcon */
+export const TreeView = I;
+export { I as TreeViewIcon };

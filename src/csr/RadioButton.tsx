@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "RadioButton";
-export { I as RadioButton };
+I.displayName = "RadioButtonIcon";
+
+/** @deprecated Use RadioButtonIcon */
+export const RadioButton = I;
+export { I as RadioButtonIcon };

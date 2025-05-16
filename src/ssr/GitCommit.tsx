@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GitCommit";
-export { I as GitCommit };
+I.displayName = "GitCommitIcon";
+
+/** @deprecated Use GitCommitIcon */
+export const GitCommit = I;
+export { I as GitCommitIcon };

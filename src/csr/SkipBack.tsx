@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SkipBack";
-export { I as SkipBack };
+I.displayName = "SkipBackIcon";
+
+/** @deprecated Use SkipBackIcon */
+export const SkipBack = I;
+export { I as SkipBackIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "NotSubsetOf";
-export { I as NotSubsetOf };
+I.displayName = "NotSubsetOfIcon";
+
+/** @deprecated Use NotSubsetOfIcon */
+export const NotSubsetOf = I;
+export { I as NotSubsetOfIcon };

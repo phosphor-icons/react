@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PictureInPicture";
-export { I as PictureInPicture };
+I.displayName = "PictureInPictureIcon";
+
+/** @deprecated Use PictureInPictureIcon */
+export const PictureInPicture = I;
+export { I as PictureInPictureIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowLineUpRight";
-export { I as ArrowLineUpRight };
+I.displayName = "ArrowLineUpRightIcon";
+
+/** @deprecated Use ArrowLineUpRightIcon */
+export const ArrowLineUpRight = I;
+export { I as ArrowLineUpRightIcon };

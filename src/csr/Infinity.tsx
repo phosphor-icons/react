@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Infinity";
-export { I as Infinity, I as Lemniscate };
+I.displayName = "InfinityIcon";
+
+/** @deprecated Use InfinityIcon */
+export const Infinity = I;
+export { I as InfinityIcon, I as LemniscateIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ShareNetwork";
-export { I as ShareNetwork };
+I.displayName = "ShareNetworkIcon";
+
+/** @deprecated Use ShareNetworkIcon */
+export const ShareNetwork = I;
+export { I as ShareNetworkIcon };

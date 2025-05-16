@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BezierCurve";
-export { I as BezierCurve };
+I.displayName = "BezierCurveIcon";
+
+/** @deprecated Use BezierCurveIcon */
+export const BezierCurve = I;
+export { I as BezierCurveIcon };

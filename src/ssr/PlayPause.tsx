@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PlayPause";
-export { I as PlayPause };
+I.displayName = "PlayPauseIcon";
+
+/** @deprecated Use PlayPauseIcon */
+export const PlayPause = I;
+export { I as PlayPauseIcon };

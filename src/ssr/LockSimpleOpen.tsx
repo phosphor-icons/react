@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LockSimpleOpen";
-export { I as LockSimpleOpen };
+I.displayName = "LockSimpleOpenIcon";
+
+/** @deprecated Use LockSimpleOpenIcon */
+export const LockSimpleOpen = I;
+export { I as LockSimpleOpenIcon };

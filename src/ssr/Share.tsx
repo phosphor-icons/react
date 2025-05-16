@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Share";
-export { I as Share };
+I.displayName = "ShareIcon";
+
+/** @deprecated Use ShareIcon */
+export const Share = I;
+export { I as ShareIcon };

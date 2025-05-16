@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FileArchive";
-export { I as FileArchive };
+I.displayName = "FileArchiveIcon";
+
+/** @deprecated Use FileArchiveIcon */
+export const FileArchive = I;
+export { I as FileArchiveIcon };

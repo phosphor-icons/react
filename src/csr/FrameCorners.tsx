@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FrameCorners";
-export { I as FrameCorners };
+I.displayName = "FrameCornersIcon";
+
+/** @deprecated Use FrameCornersIcon */
+export const FrameCorners = I;
+export { I as FrameCornersIcon };

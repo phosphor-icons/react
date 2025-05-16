@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "NotMemberOf";
-export { I as NotMemberOf };
+I.displayName = "NotMemberOfIcon";
+
+/** @deprecated Use NotMemberOfIcon */
+export const NotMemberOf = I;
+export { I as NotMemberOfIcon };

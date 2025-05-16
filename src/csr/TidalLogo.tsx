@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TidalLogo";
-export { I as TidalLogo };
+I.displayName = "TidalLogoIcon";
+
+/** @deprecated Use TidalLogoIcon */
+export const TidalLogo = I;
+export { I as TidalLogoIcon };

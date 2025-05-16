@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CalendarPlus";
-export { I as CalendarPlus };
+I.displayName = "CalendarPlusIcon";
+
+/** @deprecated Use CalendarPlusIcon */
+export const CalendarPlus = I;
+export { I as CalendarPlusIcon };

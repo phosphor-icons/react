@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SkypeLogo";
-export { I as SkypeLogo };
+I.displayName = "SkypeLogoIcon";
+
+/** @deprecated Use SkypeLogoIcon */
+export const SkypeLogo = I;
+export { I as SkypeLogoIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Airplay";
-export { I as Airplay };
+I.displayName = "AirplayIcon";
+
+/** @deprecated Use AirplayIcon */
+export const Airplay = I;
+export { I as AirplayIcon };

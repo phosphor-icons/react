@@ -1,5 +1,5 @@
 import { ReactElement, forwardRef } from "react";
-import { IconBase, Icon, IconWeight } from "../dist";
+import { IconBase, Icon, IconWeight } from "..";
 
 const weights = new Map<IconWeight, ReactElement>([
   [

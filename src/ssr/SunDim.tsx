@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SunDim";
-export { I as SunDim };
+I.displayName = "SunDimIcon";
+
+/** @deprecated Use SunDimIcon */
+export const SunDim = I;
+export { I as SunDimIcon };

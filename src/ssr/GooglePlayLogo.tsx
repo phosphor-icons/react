@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GooglePlayLogo";
-export { I as GooglePlayLogo };
+I.displayName = "GooglePlayLogoIcon";
+
+/** @deprecated Use GooglePlayLogoIcon */
+export const GooglePlayLogo = I;
+export { I as GooglePlayLogoIcon };

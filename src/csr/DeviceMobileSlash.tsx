@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DeviceMobileSlash";
-export { I as DeviceMobileSlash };
+I.displayName = "DeviceMobileSlashIcon";
+
+/** @deprecated Use DeviceMobileSlashIcon */
+export const DeviceMobileSlash = I;
+export { I as DeviceMobileSlashIcon };

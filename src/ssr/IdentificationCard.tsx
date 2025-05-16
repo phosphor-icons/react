@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "IdentificationCard";
-export { I as IdentificationCard };
+I.displayName = "IdentificationCardIcon";
+
+/** @deprecated Use IdentificationCardIcon */
+export const IdentificationCard = I;
+export { I as IdentificationCardIcon };

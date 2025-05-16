@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FootballHelmet";
-export { I as FootballHelmet };
+I.displayName = "FootballHelmetIcon";
+
+/** @deprecated Use FootballHelmetIcon */
+export const FootballHelmet = I;
+export { I as FootballHelmetIcon };

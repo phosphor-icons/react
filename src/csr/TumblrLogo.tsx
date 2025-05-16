@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TumblrLogo";
-export { I as TumblrLogo };
+I.displayName = "TumblrLogoIcon";
+
+/** @deprecated Use TumblrLogoIcon */
+export const TumblrLogo = I;
+export { I as TumblrLogoIcon };

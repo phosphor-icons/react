@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CodaLogo";
-export { I as CodaLogo };
+I.displayName = "CodaLogoIcon";
+
+/** @deprecated Use CodaLogoIcon */
+export const CodaLogo = I;
+export { I as CodaLogoIcon };

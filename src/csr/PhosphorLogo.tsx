@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PhosphorLogo";
-export { I as PhosphorLogo };
+I.displayName = "PhosphorLogoIcon";
+
+/** @deprecated Use PhosphorLogoIcon */
+export const PhosphorLogo = I;
+export { I as PhosphorLogoIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FolderSimpleLock";
-export { I as FolderSimpleLock };
+I.displayName = "FolderSimpleLockIcon";
+
+/** @deprecated Use FolderSimpleLockIcon */
+export const FolderSimpleLock = I;
+export { I as FolderSimpleLockIcon };

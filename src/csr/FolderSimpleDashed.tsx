@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FolderSimpleDashed";
-export { I as FolderSimpleDashed, I as FolderSimpleDotted };
+I.displayName = "FolderSimpleDashedIcon";
+
+/** @deprecated Use FolderSimpleDashedIcon */
+export const FolderSimpleDashed = I;
+export { I as FolderSimpleDashedIcon, I as FolderSimpleDottedIcon };

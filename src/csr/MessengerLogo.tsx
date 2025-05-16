@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MessengerLogo";
-export { I as MessengerLogo };
+I.displayName = "MessengerLogoIcon";
+
+/** @deprecated Use MessengerLogoIcon */
+export const MessengerLogo = I;
+export { I as MessengerLogoIcon };

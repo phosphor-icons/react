@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MusicNotes";
-export { I as MusicNotes };
+I.displayName = "MusicNotesIcon";
+
+/** @deprecated Use MusicNotesIcon */
+export const MusicNotes = I;
+export { I as MusicNotesIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FunnelSimpleX";
-export { I as FunnelSimpleX };
+I.displayName = "FunnelSimpleXIcon";
+
+/** @deprecated Use FunnelSimpleXIcon */
+export const FunnelSimpleX = I;
+export { I as FunnelSimpleXIcon };

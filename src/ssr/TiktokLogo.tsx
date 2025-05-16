@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TiktokLogo";
-export { I as TiktokLogo };
+I.displayName = "TiktokLogoIcon";
+
+/** @deprecated Use TiktokLogoIcon */
+export const TiktokLogo = I;
+export { I as TiktokLogoIcon };

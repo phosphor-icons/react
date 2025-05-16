@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SealWarning";
-export { I as SealWarning, I as CircleWavyWarning };
+I.displayName = "SealWarningIcon";
+
+/** @deprecated Use SealWarningIcon */
+export const SealWarning = I;
+export { I as SealWarningIcon, I as CircleWavyWarningIcon };

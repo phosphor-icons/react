@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BatteryLow";
-export { I as BatteryLow };
+I.displayName = "BatteryLowIcon";
+
+/** @deprecated Use BatteryLowIcon */
+export const BatteryLow = I;
+export { I as BatteryLowIcon };

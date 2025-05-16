@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ToggleLeft";
-export { I as ToggleLeft };
+I.displayName = "ToggleLeftIcon";
+
+/** @deprecated Use ToggleLeftIcon */
+export const ToggleLeft = I;
+export { I as ToggleLeftIcon };

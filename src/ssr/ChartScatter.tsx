@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ChartScatter";
-export { I as ChartScatter };
+I.displayName = "ChartScatterIcon";
+
+/** @deprecated Use ChartScatterIcon */
+export const ChartScatter = I;
+export { I as ChartScatterIcon };

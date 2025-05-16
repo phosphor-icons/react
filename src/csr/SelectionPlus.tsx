@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SelectionPlus";
-export { I as SelectionPlus };
+I.displayName = "SelectionPlusIcon";
+
+/** @deprecated Use SelectionPlusIcon */
+export const SelectionPlus = I;
+export { I as SelectionPlusIcon };

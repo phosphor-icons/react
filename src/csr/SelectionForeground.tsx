@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SelectionForeground";
-export { I as SelectionForeground };
+I.displayName = "SelectionForegroundIcon";
+
+/** @deprecated Use SelectionForegroundIcon */
+export const SelectionForeground = I;
+export { I as SelectionForegroundIcon };

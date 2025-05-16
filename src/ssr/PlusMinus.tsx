@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PlusMinus";
-export { I as PlusMinus };
+I.displayName = "PlusMinusIcon";
+
+/** @deprecated Use PlusMinusIcon */
+export const PlusMinus = I;
+export { I as PlusMinusIcon };

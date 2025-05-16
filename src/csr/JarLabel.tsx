@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "JarLabel";
-export { I as JarLabel };
+I.displayName = "JarLabelIcon";
+
+/** @deprecated Use JarLabelIcon */
+export const JarLabel = I;
+export { I as JarLabelIcon };

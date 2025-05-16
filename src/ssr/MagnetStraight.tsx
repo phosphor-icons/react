@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MagnetStraight";
-export { I as MagnetStraight };
+I.displayName = "MagnetStraightIcon";
+
+/** @deprecated Use MagnetStraightIcon */
+export const MagnetStraight = I;
+export { I as MagnetStraightIcon };

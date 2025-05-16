@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PaintBucket";
-export { I as PaintBucket };
+I.displayName = "PaintBucketIcon";
+
+/** @deprecated Use PaintBucketIcon */
+export const PaintBucket = I;
+export { I as PaintBucketIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowsSplit";
-export { I as ArrowsSplit };
+I.displayName = "ArrowsSplitIcon";
+
+/** @deprecated Use ArrowsSplitIcon */
+export const ArrowsSplit = I;
+export { I as ArrowsSplitIcon };

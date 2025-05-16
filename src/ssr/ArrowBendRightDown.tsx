@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowBendRightDown";
-export { I as ArrowBendRightDown };
+I.displayName = "ArrowBendRightDownIcon";
+
+/** @deprecated Use ArrowBendRightDownIcon */
+export const ArrowBendRightDown = I;
+export { I as ArrowBendRightDownIcon };

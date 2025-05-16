@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FigmaLogo";
-export { I as FigmaLogo };
+I.displayName = "FigmaLogoIcon";
+
+/** @deprecated Use FigmaLogoIcon */
+export const FigmaLogo = I;
+export { I as FigmaLogoIcon };

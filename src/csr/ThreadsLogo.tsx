@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ThreadsLogo";
-export { I as ThreadsLogo };
+I.displayName = "ThreadsLogoIcon";
+
+/** @deprecated Use ThreadsLogoIcon */
+export const ThreadsLogo = I;
+export { I as ThreadsLogoIcon };

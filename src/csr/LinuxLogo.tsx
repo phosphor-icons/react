@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LinuxLogo";
-export { I as LinuxLogo };
+I.displayName = "LinuxLogoIcon";
+
+/** @deprecated Use LinuxLogoIcon */
+export const LinuxLogo = I;
+export { I as LinuxLogoIcon };

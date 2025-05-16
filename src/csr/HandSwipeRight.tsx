@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "HandSwipeRight";
-export { I as HandSwipeRight };
+I.displayName = "HandSwipeRightIcon";
+
+/** @deprecated Use HandSwipeRightIcon */
+export const HandSwipeRight = I;
+export { I as HandSwipeRightIcon };

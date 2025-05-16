@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SupersetOf";
-export { I as SupersetOf };
+I.displayName = "SupersetOfIcon";
+
+/** @deprecated Use SupersetOfIcon */
+export const SupersetOf = I;
+export { I as SupersetOfIcon };

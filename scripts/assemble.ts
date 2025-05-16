@@ -95,9 +95,12 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "${name}";
-export { I as ${name}${
-      !!ALIASES[key] ? `, I as ${pascalize(ALIASES[key])}` : ""
+I.displayName = "${name}Icon";
+
+/** @deprecated Use ${name}Icon */
+export const ${name} = I;
+export { I as ${name}Icon${
+      !!ALIASES[key] ? `, I as ${pascalize(ALIASES[key])}Icon` : ""
     } }
 `;
 
@@ -113,9 +116,12 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "${name}";
-export { I as ${name}${
-      !!ALIASES[key] ? `, I as ${pascalize(ALIASES[key])}` : ""
+I.displayName = "${name}Icon";
+
+/** @deprecated Use ${name}Icon */
+export const ${name} = I;
+export { I as ${name}Icon${
+      !!ALIASES[key] ? `, I as ${pascalize(ALIASES[key])}Icon` : ""
     } }
 `;
 
@@ -189,7 +195,7 @@ export * from "./${name}";
   }
 }
 
-function pascalize(str) {
+function pascalize(str: string) {
   return str
     .split("-")
     .map((substr) => substr.replace(/^\w/, (c) => c.toUpperCase()))

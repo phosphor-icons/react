@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GpsFix";
-export { I as GpsFix };
+I.displayName = "GpsFixIcon";
+
+/** @deprecated Use GpsFixIcon */
+export const GpsFix = I;
+export { I as GpsFixIcon };

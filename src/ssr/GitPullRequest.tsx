@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GitPullRequest";
-export { I as GitPullRequest };
+I.displayName = "GitPullRequestIcon";
+
+/** @deprecated Use GitPullRequestIcon */
+export const GitPullRequest = I;
+export { I as GitPullRequestIcon };

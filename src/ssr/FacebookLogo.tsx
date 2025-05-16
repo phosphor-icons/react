@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FacebookLogo";
-export { I as FacebookLogo };
+I.displayName = "FacebookLogoIcon";
+
+/** @deprecated Use FacebookLogoIcon */
+export const FacebookLogo = I;
+export { I as FacebookLogoIcon };

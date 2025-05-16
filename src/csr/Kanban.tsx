@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Kanban";
-export { I as Kanban };
+I.displayName = "KanbanIcon";
+
+/** @deprecated Use KanbanIcon */
+export const Kanban = I;
+export { I as KanbanIcon };

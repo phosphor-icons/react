@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SpinnerGap";
-export { I as SpinnerGap };
+I.displayName = "SpinnerGapIcon";
+
+/** @deprecated Use SpinnerGapIcon */
+export const SpinnerGap = I;
+export { I as SpinnerGapIcon };

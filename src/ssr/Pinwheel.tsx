@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Pinwheel";
-export { I as Pinwheel };
+I.displayName = "PinwheelIcon";
+
+/** @deprecated Use PinwheelIcon */
+export const Pinwheel = I;
+export { I as PinwheelIcon };

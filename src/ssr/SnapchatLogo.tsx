@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SnapchatLogo";
-export { I as SnapchatLogo };
+I.displayName = "SnapchatLogoIcon";
+
+/** @deprecated Use SnapchatLogoIcon */
+export const SnapchatLogo = I;
+export { I as SnapchatLogoIcon };

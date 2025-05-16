@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SubtractSquare";
-export { I as SubtractSquare };
+I.displayName = "SubtractSquareIcon";
+
+/** @deprecated Use SubtractSquareIcon */
+export const SubtractSquare = I;
+export { I as SubtractSquareIcon };

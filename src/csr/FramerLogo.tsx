@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FramerLogo";
-export { I as FramerLogo };
+I.displayName = "FramerLogoIcon";
+
+/** @deprecated Use FramerLogoIcon */
+export const FramerLogo = I;
+export { I as FramerLogoIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SubtitlesSlash";
-export { I as SubtitlesSlash };
+I.displayName = "SubtitlesSlashIcon";
+
+/** @deprecated Use SubtitlesSlashIcon */
+export const SubtitlesSlash = I;
+export { I as SubtitlesSlashIcon };

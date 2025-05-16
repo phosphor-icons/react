@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TextUnderline";
-export { I as TextUnderline };
+I.displayName = "TextUnderlineIcon";
+
+/** @deprecated Use TextUnderlineIcon */
+export const TextUnderline = I;
+export { I as TextUnderlineIcon };

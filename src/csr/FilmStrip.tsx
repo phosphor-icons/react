@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FilmStrip";
-export { I as FilmStrip };
+I.displayName = "FilmStripIcon";
+
+/** @deprecated Use FilmStripIcon */
+export const FilmStrip = I;
+export { I as FilmStripIcon };

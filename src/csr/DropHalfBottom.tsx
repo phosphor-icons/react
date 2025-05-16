@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DropHalfBottom";
-export { I as DropHalfBottom };
+I.displayName = "DropHalfBottomIcon";
+
+/** @deprecated Use DropHalfBottomIcon */
+export const DropHalfBottom = I;
+export { I as DropHalfBottomIcon };

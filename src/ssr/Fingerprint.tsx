@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Fingerprint";
-export { I as Fingerprint };
+I.displayName = "FingerprintIcon";
+
+/** @deprecated Use FingerprintIcon */
+export const Fingerprint = I;
+export { I as FingerprintIcon };

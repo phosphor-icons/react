@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LinkSimpleHorizontalBreak";
-export { I as LinkSimpleHorizontalBreak };
+I.displayName = "LinkSimpleHorizontalBreakIcon";
+
+/** @deprecated Use LinkSimpleHorizontalBreakIcon */
+export const LinkSimpleHorizontalBreak = I;
+export { I as LinkSimpleHorizontalBreakIcon };

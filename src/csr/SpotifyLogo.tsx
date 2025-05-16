@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SpotifyLogo";
-export { I as SpotifyLogo };
+I.displayName = "SpotifyLogoIcon";
+
+/** @deprecated Use SpotifyLogoIcon */
+export const SpotifyLogo = I;
+export { I as SpotifyLogoIcon };

@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CubeTransparent";
-export { I as CubeTransparent };
+I.displayName = "CubeTransparentIcon";
+
+/** @deprecated Use CubeTransparentIcon */
+export const CubeTransparent = I;
+export { I as CubeTransparentIcon };

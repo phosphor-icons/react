@@ -16,5 +16,8 @@ const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CircleNotch";
-export { I as CircleNotch };
+I.displayName = "CircleNotchIcon";
+
+/** @deprecated Use CircleNotchIcon */
+export const CircleNotch = I;
+export { I as CircleNotchIcon };
