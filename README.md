@@ -66,7 +66,7 @@ module.exports = {
 When using Phosphor Icons in an SSR environment, within a React Server Component, or in any environment that does not permit the use of the Context API ([Next.js](https://nextjs.org/) Server Component, for example), import icons from the `/dist/ssr` submodule:
 
 ```tsx
-import { FishIcon } from "@phosphor-icons/react/dist/ssr";
+import { FishIcon } from "@phosphor-icons/react/ssr";
 
 const MyServerComponent = () => {
   return <FishIcon weight="duotone" />;

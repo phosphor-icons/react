@@ -1,6 +1,6 @@
 {
   "name": "@phosphor-icons/react",
-  "version": "2.1.9",
+  "version": "2.1.10",
   "description": "A clean and friendly icon family for React",
   "type": "module",
   "author": {
@@ -36,7 +36,17 @@
       "types": "./dist/lib/*.d.ts",
       "require": "./dist/index.cjs.js"
     },
+    "./lib": {
+      "import": "./dist/lib/index.es.js",
+      "types": "./dist/lib/index.d.ts",
+      "require": "./dist/index.cjs.js"
+    },
     "./dist/ssr": {
+      "import": "./dist/ssr/index.es.js",
+      "types": "./dist/ssr/index.d.ts",
+      "require": "./dist/index.cjs.js"
+    },
+    "./ssr": {
       "import": "./dist/ssr/index.es.js",
       "types": "./dist/ssr/index.d.ts",
       "require": "./dist/index.cjs.js"
