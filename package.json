@@ -1,7 +1,8 @@
 {
   "name": "@phosphor-icons/react",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "description": "A clean and friendly icon family for React",
+  "type": "module",
   "author": {
     "name": "Tobias Fried",
     "email": "friedtm@gmail.com",
