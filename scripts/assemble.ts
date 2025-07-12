@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import chalk from "chalk";
 import { exec } from "node:child_process";
+import { JSDOM } from "jsdom";
 
 import {
   ALIASES,
@@ -48,6 +49,8 @@ import {
 function generateComponents(icons: AssetMap) {
   let passes = 0;
   let fails = 0;
+  const dom = new JSDOM(`<!DOCTYPE html><body></body>`);
+  const domParser = new dom.window.DOMParser();
 
   if (fs.existsSync(CSR_PATH)) {
     fs.rmSync(CSR_PATH, { recursive: true });
@@ -71,7 +74,16 @@ import { IconWeight } from "../lib";
 
 export default new Map<IconWeight, ReactElement>([
 ${Object.entries(icon)
-  .map(([weight, { jsx }]) => `["${weight}", <>${jsx.trim()}</>]`)
+  .map(([weight, { jsx }]) => {
+    const doc = domParser.parseFromString(
+      `<svg xmlns="http://www.w3.org/2000/svg">${jsx}</svg>`,
+      "image/svg+xml"
+    );
+    const svgElm = doc.querySelector("svg");
+    const normalizedJSX =
+      svgElm?.children?.length === 1 ? jsx.trim() : `<>${jsx.trim()}</>`;
+    return `["${weight}", ${normalizedJSX}]`;
+  })
   .join(",")}
 ]);
 `;
