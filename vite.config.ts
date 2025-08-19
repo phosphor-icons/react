@@ -1,11 +1,12 @@
-import { resolve } from "path";
-import { defineConfig } from "vitest/config";
 import react from "@vitejs/plugin-react";
+import { resolve } from "path";
+import preserveDirectives from "rollup-preserve-directives";
 import dts from "vite-plugin-dts";
+import { defineConfig } from "vitest/config";
 import pkg from "./package.json";
 
 export default defineConfig({
-  plugins: [react({ jsxRuntime: "classic" }), dts()],
+  plugins: [react({ jsxRuntime: "classic" }), preserveDirectives(), dts()],
   build: {
     target: "ES2018",
     lib: {
