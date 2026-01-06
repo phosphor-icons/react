@@ -13,48 +13,48 @@
   "homepage": "https://phosphoricons.com",
   "sideEffects": false,
   "private": false,
-  "main": "./dist/index.cjs.js",
+  "main": "./dist/index.cjs",
   "module": "./dist/index.es.js",
   "exports": {
     ".": {
       "import": "./dist/index.es.js",
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs.js"
+      "require": "./dist/index.cjs"
     },
     "./dist/icons/*": {
       "import": "./dist/csr/*.es.js",
       "types": "./dist/csr/*.d.ts",
-      "require": "./dist/index.cjs.js"
+      "require": "./dist/index.cjs"
     },
     "./dist/csr/*": {
       "import": "./dist/csr/*.es.js",
       "types": "./dist/csr/*.d.ts",
-      "require": "./dist/index.cjs.js"
+      "require": "./dist/index.cjs"
     },
     "./dist/lib/*": {
       "import": "./dist/lib/*.es.js",
       "types": "./dist/lib/*.d.ts",
-      "require": "./dist/index.cjs.js"
+      "require": "./dist/index.cjs"
     },
     "./lib": {
       "import": "./dist/lib/index.es.js",
       "types": "./dist/lib/index.d.ts",
-      "require": "./dist/index.cjs.js"
+      "require": "./dist/index.cjs"
     },
     "./dist/ssr": {
       "import": "./dist/ssr/index.es.js",
       "types": "./dist/ssr/index.d.ts",
-      "require": "./dist/index.cjs.js"
+      "require": "./dist/index.cjs"
     },
     "./ssr": {
       "import": "./dist/ssr/index.es.js",
       "types": "./dist/ssr/index.d.ts",
-      "require": "./dist/index.cjs.js"
+      "require": "./dist/index.cjs"
     },
     "./dist/ssr/*": {
       "import": "./dist/ssr/*.es.js",
       "types": "./dist/ssr/*.d.ts",
-      "require": "./dist/index.cjs.js"
+      "require": "./dist/index.cjs"
     },
     "./package.json": {
       "default": "./package.json"
@@ -62,7 +62,7 @@
     "./*": {
       "import": "./dist/csr/*.es.js",
       "types": "./dist/csr/*.d.ts",
-      "require": "./dist/index.cjs.js"
+      "require": "./dist/index.cjs"
     }
   },
   "types": "./dist/index.d.ts",
