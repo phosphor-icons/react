@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ShuffleAngular";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzcuNjYsMTc4LjM0YTgsOCwwLDAsMSwwLDExLjMybC0yNCwyNGE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMjEyLjY5LDE5MkgxNjhhOCw4LDAsMCwxLTYuNTEtMy4zNUw4My44OCw4MEgzMmE4LDgsMCwwLDEsMC0xNkg4OGE4LDgsMCwwLDEsNi41MSwzLjM1TDE3Mi4xMiwxNzZoNDAuNTdsLTEwLjM1LTEwLjM0YTgsOCwwLDAsMSwxMS4zMi0xMS4zMlpNMTQzLDEwN2E4LDgsMCwwLDAsMTEuMTYtMS44NmwxOC0yNS4xMmg0MC41N0wyMDIuMzQsOTAuMzRhOCw4LDAsMCwwLDExLjMyLDExLjMybDI0LTI0YTgsOCwwLDAsMCwwLTExLjMybC0yNC0yNGE4LDgsMCwwLDAtMTEuMzIsMTEuMzJMMjEyLjY5LDY0SDE2OGE4LDgsMCwwLDAtNi41MSwzLjM1TDE0MS4xNSw5NS44MkE4LDgsMCwwLDAsMTQzLDEwN1ptLTMwLDQyYTgsOCwwLDAsMC0xMS4xNiwxLjg2TDgzLjg4LDE3NkgzMmE4LDgsMCwwLDAsMCwxNkg4OGE4LDgsMCwwLDAsNi41MS0zLjM1bDIwLjM0LTI4LjQ3QTgsOCwwLDAsMCwxMTMsMTQ5WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ShuffleAngularIcon";
 
 /** @deprecated Use ShuffleAngularIcon */
 export const ShuffleAngular = I;
-export { I as ShuffleAngularIcon };
+export { I as ShuffleAngularIcon }

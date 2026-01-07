@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GitlabLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuMTUsMTE3LjEsMjEwLjI1LDQxYTExLjk0LDExLjk0LDAsMCwwLTIyLjc5LTEuMTFMMTY5Ljc4LDg4SDg2LjIyTDY4LjU0LDM5Ljg3QTExLjk0LDExLjk0LDAsMCwwLDQ1Ljc1LDQxTDI1Ljg1LDExNy4xYTU3LjE5LDU3LjE5LDAsMCwwLDIyLDYxbDczLjI3LDUxLjc2YTExLjkxLDExLjkxLDAsMCwwLDEzLjc0LDBsNzMuMjctNTEuNzZBNTcuMTksNTcuMTksMCwwLDAsMjMwLjE1LDExNy4xWk01OCw1Ny41LDczLjEzLDk4Ljc2QTgsOCwwLDAsMCw4MC42NCwxMDRoOTQuNzJhOCw4LDAsMCwwLDcuNTEtNS4yNEwxOTgsNTcuNWwxMy4wNyw1MEwxMjgsMTY2LjIxLDQ0LjksMTA3LjVaTTQwLjY4LDEyNC4xMSwxMTQuMTMsMTc2LDkzLjQxLDE5MC42NSw1Ny4wOSwxNjVBNDEuMDYsNDEuMDYsMCwwLDEsNDAuNjgsMTI0LjExWm04Ny4zMiw5MS0yMC43My0xNC42NUwxMjgsMTg1LjhsMjAuNzMsMTQuNjRaTTE5OC45MSwxNjVsLTM2LjMyLDI1LjY2TDE0MS44NywxNzZsNzMuNDUtNTEuOUE0MS4wNiw0MS4wNiwwLDAsMSwxOTguOTEsMTY1WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "GitlabLogoIcon";
 
 /** @deprecated Use GitlabLogoIcon */
 export const GitlabLogo = I;
-export { I as GitlabLogoIcon };
+export { I as GitlabLogoIcon }

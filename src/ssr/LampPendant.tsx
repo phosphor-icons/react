@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LampPendant";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsNzQuNzhWNzJhMTYsMTYsMCwwLDAtMTYtMTZIMTM2VjE2YTgsOCwwLDAsMC0xNiwwVjU2SDk2QTE2LDE2LDAsMCwwLDgwLDcydjIuNzhBMTExLjczLDExMS43MywwLDAsMCwxNiwxNzZhOCw4LDAsMCwwLDgsOEg4OGE0MCw0MCwwLDAsMCw4MCwwaDY0YTgsOCwwLDAsMCw4LThBMTExLjczLDExMS43MywwLDAsMCwxNzYsNzQuNzhaTTEyOCwyMDhhMjQsMjQsMCwwLDEtMjQtMjRoNDhBMjQsMjQsMCwwLDEsMTI4LDIwOFpNMzIuMzMsMTY4QTk1Ljc5LDk1Ljc5LDAsMCwxLDkxLjA4LDg3LjM1LDgsOCwwLDAsMCw5Niw4MFY3Mmg2NHY4YTgsOCwwLDAsMCw0LjkyLDcuMzhBOTUuNzksOTUuNzksMCwwLDEsMjIzLjY3LDE2OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "LampPendantIcon";
 
 /** @deprecated Use LampPendantIcon */
 export const LampPendant = I;
-export { I as LampPendantIcon };
+export { I as LampPendantIcon }

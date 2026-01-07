@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Eject";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTUySDQ4YTE2LDE2LDAsMCwwLTE2LDE2djI0YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlYxNjhBMTYsMTYsMCwwLDAsMjA4LDE1MlptMCw0MEg0OFYxNjhIMjA4Wk00OC4yNCwxMzZIMjA3Ljc2YTE2LjE4LDE2LjE4LDAsMCwwLDE0LjkzLTkuNzYsMTUuNTksMTUuNTksMCwwLDAtMy4xLTE3LjEyTDE0NS44NiwzMS42MWEyNC43NiwyNC43NiwwLDAsMC0zNS43MiwwTDM2LjQxLDEwOS4xMmgwYTE1LjU5LDE1LjU5LDAsMCwwLTMuMSwxNy4xMkExNi4xOCwxNi4xOCwwLDAsMCw0OC4yNCwxMzZabTczLjQ5LTkzLjM2YTguNzcsOC43NywwLDAsMSwxMi41NCwwTDIwNy44NSwxMjBINDguMTRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "EjectIcon";
 
 /** @deprecated Use EjectIcon */
 export const Eject = I;
-export { I as EjectIcon };
+export { I as EjectIcon }

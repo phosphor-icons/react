@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/House";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTkuMzEsMTA4LjY4bC04MC04MGExNiwxNiwwLDAsMC0yMi42MiwwbC04MCw4MEExNS44NywxNS44NywwLDAsMCwzMiwxMjB2OTZhOCw4LDAsMCwwLDgsOGg2NGE4LDgsMCwwLDAsOC04VjE2MGgzMnY1NmE4LDgsMCwwLDAsOCw4aDY0YTgsOCwwLDAsMCw4LThWMTIwQTE1Ljg3LDE1Ljg3LDAsMCwwLDIxOS4zMSwxMDguNjhaTTIwOCwyMDhIMTYwVjE1MmE4LDgsMCwwLDAtOC04SDEwNGE4LDgsMCwwLDAtOCw4djU2SDQ4VjEyMGw4MC04MCw4MCw4MFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "HouseIcon";
 
 /** @deprecated Use HouseIcon */
 export const House = I;
-export { I as HouseIcon };
+export { I as HouseIcon }

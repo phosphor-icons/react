@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChartDonut";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRhOCw4LDAsMCwwLTgsOFY4OGE4LDgsMCwwLDAsOCw4LDMyLDMyLDAsMSwxLTI3LjcyLDE2LDgsOCwwLDAsMC0yLjkzLTEwLjkzbC00OC41LTI4QTgsOCwwLDAsMCwzNy45Miw3NiwxMDQsMTA0LDAsMSwwLDEyOCwyNFpNNDguMDksOTEuMSw4MywxMTEuMjZBNDguMDksNDguMDksMCwwLDAsODAsMTI4YzAsMS41My4wOCwzLC4yMiw0LjUyTDQxLjI4LDE0M0E4OC4xNiw4OC4xNiwwLDAsMSw0OC4wOSw5MS4xWm0tMi42Nyw2Ny4zMSwzOS0xMC40NEE0OC4xLDQ4LjEsMCwwLDAsMTIwLDE3NS4zMnY0MC4zMUE4OC4yLDg4LjIsMCwwLDEsNDUuNDIsMTU4LjQxWk0xMzYsMjE1LjYzVjE3NS4zMmE0OCw0OCwwLDAsMCwwLTk0LjY1VjQwLjM2YTg4LDg4LDAsMCwxLDAsMTc1LjI3WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ChartDonutIcon";
 
 /** @deprecated Use ChartDonutIcon */
 export const ChartDonut = I;
-export { I as ChartDonutIcon };
+export { I as ChartDonutIcon }

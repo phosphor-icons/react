@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChatsCircle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIuMDcsMTg2Ljc2YTgwLDgwLDAsMCwwLTYyLjUtMTE0LjE3QTgwLDgwLDAsMSwwLDIzLjkzLDEzOC43NmwtNy4yNywyNC43MWExNiwxNiwwLDAsMCwxOS44NywxOS44N2wyNC43MS03LjI3YTgwLjM5LDgwLjM5LDAsMCwwLDI1LjE4LDcuMzUsODAsODAsMCwwLDAsMTA4LjM0LDQwLjY1bDI0LjcxLDcuMjdhMTYsMTYsMCwwLDAsMTkuODctMTkuODZaTTYyLDE1OS41YTguMjgsOC4yOCwwLDAsMC0yLjI2LjMyTDMyLDE2OGw4LjE3LTI3Ljc2YTgsOCwwLDAsMC0uNjMtNiw2NCw2NCwwLDEsMSwyNi4yNiwyNi4yNkE4LDgsMCwwLDAsNjIsMTU5LjVabTE1My43OSwyOC43M0wyMjQsMjE2bC0yNy43Ni04LjE3YTgsOCwwLDAsMC02LC42Myw2NC4wNSw2NC4wNSwwLDAsMS04NS44Ny0yNC44OEE3OS45Myw3OS45MywwLDAsMCwxNzQuNyw4OS43MWE2NCw2NCwwLDAsMSw0MS43NSw5Mi40OEE4LDgsMCwwLDAsMjE1LjgyLDE4OC4yM1oiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ChatsCircleIcon";
 
 /** @deprecated Use ChatsCircleIcon */
 export const ChatsCircle = I;
-export { I as ChatsCircleIcon };
+export { I as ChatsCircleIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SpeakerSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01My45MiwzNC42MkE4LDgsMCwxLDAsNDIuMDgsNDUuMzhMNzMuNTUsODBIMzJBMTYsMTYsMCwwLDAsMTYsOTZ2NjRhMTYsMTYsMCwwLDAsMTYsMTZINzcuMjVsNjkuODQsNTQuMzFBOCw4LDAsMCwwLDE2MCwyMjRWMTc1LjA5bDQyLjA4LDQ2LjI5YTgsOCwwLDEsMCwxMS44NC0xMC43NlpNMzIsOTZINzJ2NjRIMzJaTTE0NCwyMDcuNjQsODgsMTY0LjA5Vjk1Ljg5bDU2LDYxLjZabTQyLTYzLjc3YTI0LDI0LDAsMCwwLDAtMzEuNzIsOCw4LDAsMSwxLDEyLTEwLjU3LDQwLDQwLDAsMCwxLDAsNTIuODgsOCw4LDAsMCwxLTEyLTEwLjU5Wm0tODAuMTYtNzZhOCw4LDAsMCwxLDEuNC0xMS4yM2wzOS44NS0zMUE4LDgsMCwwLDEsMTYwLDMydjc0LjgzYTgsOCwwLDAsMS0xNiwwVjQ4LjM2bC0yNi45NCwyMUE4LDgsMCwwLDEsMTA1Ljg0LDY3LjkxWk0yNDgsMTI4YTc5LjksNzkuOSwwLDAsMS0yMC4zNyw1My4zNCw4LDgsMCwwLDEtMTEuOTItMTAuNjcsNjQsNjQsMCwwLDAsMC04NS4zMyw4LDgsMCwxLDEsMTEuOTItMTAuNjdBNzkuODMsNzkuODMsMCwwLDEsMjQ4LDEyOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "SpeakerSlashIcon";
 
 /** @deprecated Use SpeakerSlashIcon */
 export const SpeakerSlash = I;
-export { I as SpeakerSlashIcon };
+export { I as SpeakerSlashIcon }

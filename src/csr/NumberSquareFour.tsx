@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NumberSquareFour";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTAsMTc2SDQ4VjQ4SDIwOFYyMDhabS00OC02NGgtOFY4MGE4LDgsMCwwLDAtMTQuMzEtNC45MWwtNTYsNzJBOCw4LDAsMCwwLDg4LDE2MGg0OHYxNmE4LDgsMCwwLDAsMTYsMFYxNjBoOGE4LDgsMCwwLDAsMC0xNlptLTI0LDBIMTA0LjM2TDEzNiwxMDMuMzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "NumberSquareFourIcon";
 
 /** @deprecated Use NumberSquareFourIcon */
 export const NumberSquareFour = I;
-export { I as NumberSquareFourIcon };
+export { I as NumberSquareFourIcon }

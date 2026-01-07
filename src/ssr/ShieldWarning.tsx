@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ShieldWarning";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjAsMTM2Vjk2YTgsOCwwLDAsMSwxNiwwdjQwYTgsOCwwLDAsMS0xNiwwWm04LDQ4YTEyLDEyLDAsMSwwLTEyLTEyQTEyLDEyLDAsMCwwLDEyOCwxODRaTTIyNCw1NnY1NmMwLDUyLjcyLTI1LjUyLDg0LjY3LTQ2LjkzLDEwMi4xOS0yMy4wNiwxOC44Ni00NiwyNS4yNy00NywyNS41M2E4LDgsMCwwLDEtNC4yLDBjLTEtLjI2LTIzLjkxLTYuNjctNDctMjUuNTNDNTcuNTIsMTk2LjY3LDMyLDE2NC43MiwzMiwxMTJWNTZBMTYsMTYsMCwwLDEsNDgsNDBIMjA4QTE2LDE2LDAsMCwxLDIyNCw1NlptLTE2LDBMNDgsNTZsMCw1NmMwLDM3LjMsMTMuODIsNjcuNTEsNDEuMDcsODkuODFBMTI4LjI1LDEyOC4yNSwwLDAsMCwxMjgsMjIzLjYyYTEyOS4zLDEyOS4zLDAsMCwwLDM5LjQxLTIyLjJDMTk0LjM0LDE3OS4xNiwyMDgsMTQ5LjA3LDIwOCwxMTJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ShieldWarningIcon";
 
 /** @deprecated Use ShieldWarningIcon */
 export const ShieldWarning = I;
-export { I as ShieldWarningIcon };
+export { I as ShieldWarningIcon }

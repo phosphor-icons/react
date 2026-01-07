@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Stack";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuOTEsMTcyQTgsOCwwLDAsMSwyMjgsMTgyLjkxbC05Niw1NmE4LDgsMCwwLDEtOC4wNiwwbC05Ni01NkE4LDgsMCwwLDEsMzYsMTY5LjA5bDkyLDUzLjY1LDkyLTUzLjY1QTgsOCwwLDAsMSwyMzAuOTEsMTcyWk0yMjAsMTIxLjA5bC05Miw1My42NUwzNiwxMjEuMDlBOCw4LDAsMCwwLDI4LDEzNC45MWw5Niw1NmE4LDgsMCwwLDAsOC4wNiwwbDk2LTU2QTgsOCwwLDEsMCwyMjAsMTIxLjA5Wk0yNCw4MGE4LDgsMCwwLDEsNC02LjkxbDk2LTU2YTgsOCwwLDAsMSw4LjA2LDBsOTYsNTZhOCw4LDAsMCwxLDAsMTMuODJsLTk2LDU2YTgsOCwwLDAsMS04LjA2LDBsLTk2LTU2QTgsOCwwLDAsMSwyNCw4MFptMjMuODgsMEwxMjgsMTI2Ljc0LDIwOC4xMiw4MCwxMjgsMzMuMjZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "StackIcon";
 
 /** @deprecated Use StackIcon */
 export const Stack = I;
-export { I as StackIcon };
+export { I as StackIcon }

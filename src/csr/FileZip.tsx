@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FileZip";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMTQ0SDE2OGE4LDgsMCwwLDAtOCw4djU2YTgsOCwwLDAsMCwxNiwwdi04aDhhMjgsMjgsMCwwLDAsMC01NlptMCw0MGgtOFYxNjBoOGExMiwxMiwwLDAsMSwwLDI0Wm0tNDgtMzJ2NTZhOCw4LDAsMCwxLTE2LDBWMTUyYTgsOCwwLDAsMSwxNiwwWk05NiwyMDhhOCw4LDAsMCwxLTgsOEg1NmE4LDgsMCwwLDEtNy0xMmwyNS4xNi00NEg1NmE4LDgsMCwwLDEsMC0xNkg4OGE4LDgsMCwwLDEsNywxMkw2OS43OSwyMDBIODhBOCw4LDAsMCwxLDk2LDIwOFpNMjEzLjY2LDgyLjM0bC01Ni01NkE4LDgsMCwwLDAsMTUyLDI0SDU2QTE2LDE2LDAsMCwwLDQwLDQwdjcyYTgsOCwwLDAsMCwxNiwwVjQwaDg4Vjg4YTgsOCwwLDAsMCw4LDhoNDh2MTZhOCw4LDAsMCwwLDE2LDBWODhBOCw4LDAsMCwwLDIxMy42Niw4Mi4zNFpNMTYwLDgwVjUxLjMxTDE4OC42OSw4MFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "FileZipIcon";
 
 /** @deprecated Use FileZipIcon */
 export const FileZip = I;
-export { I as FileZipIcon };
+export { I as FileZipIcon }

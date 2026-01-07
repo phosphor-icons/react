@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TreasureChest";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsNDBINzJBNTYuMDYsNTYuMDYsMCwwLDAsMTYsOTZ2OTZhMTYsMTYsMCwwLDAsMTYsMTZIMjI0YTE2LDE2LDAsMCwwLDE2LTE2Vjk2QTU2LjA2LDU2LjA2LDAsMCwwLDE4NCw0MFptNDAsNTZ2OEgxOTJWNTYuOEE0MC4wNyw0MC4wNywwLDAsMSwyMjQsOTZabS04OCw0MEgxMjBWMTA0aDE2Wm0tMjQsMTZoMzJhOCw4LDAsMCwwLDgtOFYxMjBoMjR2NzJIODBWMTIwaDI0djI0QTgsOCwwLDAsMCwxMTIsMTUyWm00MC00OFY5NmE4LDgsMCwwLDAtOC04SDExMmE4LDgsMCwwLDAtOCw4djhIODBWNTZoOTZ2NDhaTTY0LDU2LjhWMTA0SDMyVjk2QTQwLjA3LDQwLjA3LDAsMCwxLDY0LDU2LjhaTTMyLDEyMEg2NHY3MkgzMlptMTkyLDcySDE5MlYxMjBoMzJ2NzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "TreasureChestIcon";
 
 /** @deprecated Use TreasureChestIcon */
 export const TreasureChest = I;
-export { I as TreasureChestIcon };
+export { I as TreasureChestIcon }

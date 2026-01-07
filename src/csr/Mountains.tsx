@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Mountains";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjQsODBhMjgsMjgsMCwxLDAtMjgtMjhBMjgsMjgsMCwwLDAsMTY0LDgwWm0wLTQwYTEyLDEyLDAsMSwxLTEyLDEyQTEyLDEyLDAsMCwxLDE2NCw0MFptOTAuODgsMTU1LjkyLTU0LjU2LTkyLjA4QTE1Ljg3LDE1Ljg3LDAsMCwwLDE4Ni41NSw5NmgwYTE1Ljg1LDE1Ljg1LDAsMCwwLTEzLjc2LDcuODRMMTQ2LjYzLDE0OGwtNDQuODQtNzYuMWExNiwxNiwwLDAsMC0yNy41OCwwTDEuMTEsMTk1Ljk0QTgsOCwwLDAsMCw4LDIwOEgyNDhhOCw4LDAsMCwwLDYuODgtMTIuMDhaTTg4LDgwbDIzLjU3LDQwSDY0LjQzWk0yMiwxOTJsMzMtNTZoNjZsMTguNzQsMzEuOCwwLDBMMTU0LDE5MlptMTUwLjU3LDAtMTYuNjYtMjguMjhMMTg2LjU1LDExMiwyMzQsMTkyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "MountainsIcon";
 
 /** @deprecated Use MountainsIcon */
 export const Mountains = I;
-export { I as MountainsIcon };
+export { I as MountainsIcon }

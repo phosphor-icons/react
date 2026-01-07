@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FloppyDiskBack";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJIODMuMzFBMTUuODYsMTUuODYsMCwwLDAsNzIsMzYuNjlMMzYuNjksNzJBMTUuODYsMTUuODYsMCwwLDAsMzIsODMuMzFWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTg4LDQ4aDgwVjgwSDg4Wk0yMDgsMjA4SDQ4VjgzLjMxbDI0LTI0VjgwQTE2LDE2LDAsMCwwLDg4LDk2aDgwYTE2LDE2LDAsMCwwLDE2LTE2VjQ4aDI0Wm0tODAtOTZhNDAsNDAsMCwxLDAsNDAsNDBBNDAsNDAsMCwwLDAsMTI4LDExMlptMCw2NGEyNCwyNCwwLDEsMSwyNC0yNEEyNCwyNCwwLDAsMSwxMjgsMTc2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FloppyDiskBackIcon";
 
 /** @deprecated Use FloppyDiskBackIcon */
 export const FloppyDiskBack = I;
-export { I as FloppyDiskBackIcon };
+export { I as FloppyDiskBackIcon }

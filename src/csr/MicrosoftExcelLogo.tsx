@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MicrosoftExcelLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMjRINzJBMTYsMTYsMCwwLDAsNTYsNDBWNjRINDBBMTYsMTYsMCwwLDAsMjQsODB2OTZhMTYsMTYsMCwwLDAsMTYsMTZINTZ2MjRhMTYsMTYsMCwwLDAsMTYsMTZIMjAwYTE2LDE2LDAsMCwwLDE2LTE2VjQwQTE2LDE2LDAsMCwwLDIwMCwyNFptLTQwLDgwaDQwdjQ4SDE2MFptNDAtMTZIMTYwVjgwYTE2LDE2LDAsMCwwLTE2LTE2VjQwaDU2Wk03Miw0MGg1NlY2NEg3MlpNNDAsODBIMTQ0djc5LjgzYzAsLjA2LDAsLjExLDAsLjE3czAsLjExLDAsLjE3VjE3Nkg0MFpNNzIsMTkyaDU2djI0SDcyWm03MiwyNFYxOTJhMTYsMTYsMCwwLDAsMTYtMTZ2LThoNDB2NDhaTTY1Ljg1LDE0Ni44OCw4MS41OSwxMjgsNjUuODUsMTA5LjEyYTgsOCwwLDAsMSwxMi4zLTEwLjI0TDkyLDExNS41bDEzLjg1LTE2LjYyYTgsOCwwLDEsMSwxMi4zLDEwLjI0TDEwMi40MSwxMjhsMTUuNzQsMTguODhhOCw4LDAsMCwxLTEyLjMsMTAuMjRMOTIsMTQwLjUsNzguMTUsMTU3LjEyYTgsOCwwLDAsMS0xMi4zLTEwLjI0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "MicrosoftExcelLogoIcon";
 
 /** @deprecated Use MicrosoftExcelLogoIcon */
 export const MicrosoftExcelLogo = I;
-export { I as MicrosoftExcelLogoIcon };
+export { I as MicrosoftExcelLogoIcon }

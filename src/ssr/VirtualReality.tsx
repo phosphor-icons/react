@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/VirtualReality";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjMuNDksOTguODFsLTI0LDY0YTgsOCwwLDAsMS0xNSwwbC0yNC02NGE4LDgsMCwxLDEsMTUtNS42MmwxNi41MSw0NCwxNi41MS00NGE4LDgsMCwxLDEsMTUsNS42MlpNMjU2LDEyOGE4MC4wOSw4MC4wOSwwLDAsMS04MCw4MEg4MEE4MCw4MCwwLDAsMSw4MCw0OGg5NkE4MC4wOSw4MC4wOSwwLDAsMSwyNTYsMTI4Wm0tMTYsMGE2NC4wNyw2NC4wNywwLDAsMC02NC02NEg4MGE2NCw2NCwwLDAsMCwwLDEyOGg5NkE2NC4wNyw2NC4wNywwLDAsMCwyNDAsMTI4Wm0tNTkuMTYsMTAuMzVMMTkxLDE1NmE4LDgsMCwwLDEtMTMuOSw3Ljk0bC0xMS40NC0yMGMtLjUzLDAtMS4wNy4wNS0xLjYxLjA1SDE1MnYxNmE4LDgsMCwwLDEtMTYsMFY5NmE4LDgsMCwwLDEsOC04aDIwYTI4LDI4LDAsMCwxLDE2Ljg0LDUwLjM1Wk0xNTIsMTI4aDEyYTEyLDEyLDAsMCwwLDAtMjRIMTUyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "VirtualRealityIcon";
 
 /** @deprecated Use VirtualRealityIcon */
 export const VirtualReality = I;
-export { I as VirtualRealityIcon };
+export { I as VirtualRealityIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowUUpLeft";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTQ0YTY0LjA3LDY0LjA3LDAsMCwxLTY0LDY0SDgwYTgsOCwwLDAsMSwwLTE2aDg4YTQ4LDQ4LDAsMCwwLDAtOTZINTEuMzFsMzQuMzUsMzQuMzRhOCw4LDAsMCwxLTExLjMyLDExLjMybC00OC00OGE4LDgsMCwwLDEsMC0xMS4zMmw0OC00OEE4LDgsMCwwLDEsODUuNjYsNDUuNjZMNTEuMzEsODBIMTY4QTY0LjA3LDY0LjA3LDAsMCwxLDIzMiwxNDRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ArrowUUpLeftIcon";
 
 /** @deprecated Use ArrowUUpLeftIcon */
 export const ArrowUUpLeft = I;
-export { I as ArrowUUpLeftIcon };
+export { I as ArrowUUpLeftIcon }

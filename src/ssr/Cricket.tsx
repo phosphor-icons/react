@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Cricket";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDMuMzEsODEuMzcsMTkwLjYzLDI4LjY5YTE2LDE2LDAsMCwwLTIyLjYzLDBMNjAuNjksMTM2YTE2LDE2LDAsMCwwLDAsMjIuNjNsMjAuNjgsMjAuNjgtNDcsNDdhOCw4LDAsMCwwLDExLjMyLDExLjMybDQ3LTQ3LDIwLjY4LDIwLjY4YTE2LDE2LDAsMCwwLDIyLjYzLDBMMjQzLjMxLDEwNGExNiwxNiwwLDAsMCwwLTIyLjYzWk0xMjQuNjksMjAwLDEwNCwxNzkuMzFsMjkuNjYtMjkuNjVhOCw4LDAsMCwwLTExLjMyLTExLjMyTDkyLjY5LDE2OCw3MiwxNDcuMzEsMTA3LjMxLDExMkgxNjB2NTIuNjlaTTIzMiw5Mi42OWwtNTYsNTZWMTA0YTgsOCwwLDAsMC04LThIMTIzLjMxbDU2LTU2TDIzMiw5Mi42OFpNNjAsODhBMjgsMjgsMCwxLDAsMzIsNjAsMjgsMjgsMCwwLDAsNjAsODhabTAtNDBBMTIsMTIsMCwxLDEsNDgsNjAsMTIsMTIsMCwwLDEsNjAsNDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CricketIcon";
 
 /** @deprecated Use CricketIcon */
 export const Cricket = I;
-export { I as CricketIcon };
+export { I as CricketIcon }

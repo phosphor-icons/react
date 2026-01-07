@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowsInSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsNTMuNjYsMTYzLjMxLDEwNEgxOTJhOCw4LDAsMCwxLDAsMTZIMTQ0YTgsOCwwLDAsMS04LThWNjRhOCw4LDAsMCwxLDE2LDBWOTIuNjlsNTAuMzQtNTAuMzVhOCw4LDAsMCwxLDExLjMyLDExLjMyWk0xMTIsMTM2SDY0YTgsOCwwLDAsMCwwLDE2SDkyLjY5TDQyLjM0LDIwMi4zNGE4LDgsMCwwLDAsMTEuMzIsMTEuMzJMMTA0LDE2My4zMVYxOTJhOCw4LDAsMCwwLDE2LDBWMTQ0QTgsOCwwLDAsMCwxMTIsMTM2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ArrowsInSimpleIcon";
 
 /** @deprecated Use ArrowsInSimpleIcon */
 export const ArrowsInSimple = I;
-export { I as ArrowsInSimpleIcon };
+export { I as ArrowsInSimpleIcon }

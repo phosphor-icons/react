@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Siren";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjAsMTZWOGE4LDgsMCwwLDEsMTYsMHY4YTgsOCwwLDAsMS0xNiwwWm04MCwzMmE4LDgsMCwwLDAsNS42Ni0yLjM0bDgtOGE4LDgsMCwwLDAtMTEuMzItMTEuMzJsLTgsOEE4LDgsMCwwLDAsMjAwLDQ4Wk01MC4zNCw0NS42NkE4LDgsMCwwLDAsNjEuNjYsMzQuMzRsLTgtOEE4LDgsMCwwLDAsNDIuMzQsMzcuNjZabTg3LDI2LjQ1YTgsOCwwLDEsMC0yLjY0LDE1Ljc4QzE1My42Nyw5MS4wOCwxNjgsMTA4LjMyLDE2OCwxMjhhOCw4LDAsMCwwLDE2LDBDMTg0LDEwMC42LDE2My45Myw3Ni41NywxMzcuMzIsNzIuMTFaTTIzMiwxNzZ2MjRhMTYsMTYsMCwwLDEtMTYsMTZINDBhMTYsMTYsMCwwLDEtMTYtMTZWMTc2YTE2LDE2LDAsMCwxLDE2LTE2VjEyOGE4OCw4OCwwLDAsMSw4OC42Ny04OGM0OC4xNS4zNiw4Ny4zMyw0MC4yOSw4Ny4zMyw4OXYzMUExNiwxNiwwLDAsMSwyMzIsMTc2Wk01NiwxNjBIMjAwVjEyOWMwLTQwLTMyLjA1LTcyLjcxLTcxLjQ1LTczSDEyOGE3Miw3MiwwLDAsMC03Miw3MlptMTYwLDQwVjE3Nkg0MHYyNEgyMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "SirenIcon";
 
 /** @deprecated Use SirenIcon */
 export const Siren = I;
-export { I as SirenIcon };
+export { I as SirenIcon }

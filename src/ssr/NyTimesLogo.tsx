@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/NyTimesLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzIsMTM2YTEyLDEyLDAsMSwxLTEyLDEyQTEyLDEyLDAsMCwxLDE3MiwxMzZabTEyLjYyLTMyLjc1TDExOC45MSw3Mi41OUE3MS45NSw3MS45NSwwLDAsMCw1Ni4wNiwxNDEuM2w2OC4xOC0zNi4zNkE4LDgsMCwwLDEsMTM2LDExMlYyMTUuNTVhNzEuNjQsNzEuNjQsMCwwLDAsNjAuNzEtNTBBOCw4LDAsMCwxLDIxMiwxNzAuNCw4OCw4OCwwLDEsMSw1MS43NCwxMDAuMSwzNiwzNiwwLDAsMSw2OCwzMmE4LjA1LDguMDUsMCwwLDEsMy4zOC43NUwxODkuNjMsODcuOTNBMjAsMjAsMCwwLDAsMTg4LDQ4YTgsOCwwLDAsMSwwLTE2LDM2LDM2LDAsMCwxLDAsNzJBOC4wNSw4LjA1LDAsMCwxLDE4NC42MiwxMDMuMjVaTTg4LDIwMy44M1YxNDIuNEw1Ny41MSwxNTguNjZBNzIuMTUsNzIuMTUsMCwwLDAsODgsMjAzLjgzWm0zMi03OC41LTE2LDguNTR2NzhhNzEsNzEsMCwwLDAsMTYsMy42N1pNOTYuMTMsNjIsNjYuMzcsNDguMDdhMjAsMjAsMCwwLDAtNS4yLDM4LjcxYy42LS43MSwxLjItMS40MiwxLjg0LTIuMTFBODgsODgsMCwwLDEsOTYuMTMsNjJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "NyTimesLogoIcon";
 
 /** @deprecated Use NyTimesLogoIcon */
 export const NyTimesLogo = I;
-export { I as NyTimesLogoIcon };
+export { I as NyTimesLogoIcon }

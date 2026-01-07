@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ShieldChevron";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNDBINDhBMTYsMTYsMCwwLDAsMzIsNTZ2NTZjMCw1Mi43MiwyNS41Miw4NC42Nyw0Ni45MywxMDIuMTksMjMuMDYsMTguODYsNDYsMjUuMjYsNDcsMjUuNTNhOCw4LDAsMCwwLDQuMiwwYzEtLjI3LDIzLjkxLTYuNjcsNDctMjUuNTNDMTk4LjQ4LDE5Ni42NywyMjQsMTY0LjcyLDIyNCwxMTJWNTZBMTYsMTYsMCwwLDAsMjA4LDQwWk0xNjcuNCwyMDEuNDJBMTI5LjMsMTI5LjMsMCwwLDEsMTI4LDIyMy42MmExMjguMjUsMTI4LjI1LDAsMCwxLTM4LjkyLTIxLjgxLDExMS44MiwxMTEuODIsMCwwLDEtMjQuNTEtMjcuNjRMMTI4LDEyOS43N2w2My40Myw0NC40QTExMS41NiwxMTEuNTYsMCwwLDEsMTY3LjQsMjAxLjQyWk0yMDgsMTEycTAsMjYuMzEtOS4xNCw0Ny44NGwtNjYuMjctNDYuMzlhOCw4LDAsMCwwLTkuMTgsMEw1Ny4xMywxNTkuODRDNTEuMDYsMTQ1LjUyLDQ4LDEyOS41NCw0OCwxMTJsMC01NiwxNjAsMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ShieldChevronIcon";
 
 /** @deprecated Use ShieldChevronIcon */
 export const ShieldChevron = I;
-export { I as ShieldChevronIcon };
+export { I as ShieldChevronIcon }

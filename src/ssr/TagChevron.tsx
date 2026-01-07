@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TagChevron";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDYuNjYsMTIzLjU2LDIwMSw1NS4xMkExNiwxNiwwLDAsMCwxODcuNzIsNDhIMzJhOCw4LDAsMCwwLTYuNjYsMTIuNDRMNzAuMzksMTI4bC00NSw2Ny41NkE4LDgsMCwwLDAsMzIsMjA4SDE4Ny43MkExNiwxNiwwLDAsMCwyMDEsMjAwLjg4bDQ1LjYzLTY4LjQ0QTgsOCwwLDAsMCwyNDYuNjYsMTIzLjU2Wk0xODcuNzIsMTkySDQ3bDM5LjcxLTU5LjU2YTgsOCwwLDAsMCwwLTguODhMNDcsNjRIMTg3LjcybDQyLjY3LDY0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TagChevronIcon";
 
 /** @deprecated Use TagChevronIcon */
 export const TagChevron = I;
-export { I as TagChevronIcon };
+export { I as TagChevronIcon }

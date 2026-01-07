@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CursorClick";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCwyNFYxNmE4LDgsMCwwLDEsMTYsMHY4YTgsOCwwLDAsMS0xNiwwWk0xNiwxMDRoOGE4LDgsMCwwLDAsMC0xNkgxNmE4LDgsMCwwLDAsMCwxNlpNMTI0LjQyLDM5LjE2YTgsOCwwLDAsMCwxMC43NC0zLjU4bDgtMTZhOCw4LDAsMCwwLTE0LjMxLTcuMTZsLTgsMTZBOCw4LDAsMCwwLDEyNC40MiwzOS4xNlptLTk2LDgxLjY5LTE2LDhhOCw4LDAsMCwwLDcuMTYsMTQuMzFsMTYtOGE4LDgsMCwxLDAtNy4xNi0xNC4zMVpNMjE5LjMxLDE4NGExNiwxNiwwLDAsMSwwLDIyLjYzbC0xMi42OCwxMi42OGExNiwxNiwwLDAsMS0yMi42MywwTDEzMi43LDE2OCwxMTUsMjE0LjA5YzAsLjEtLjA4LjIxLS4xMy4zMmExNS44MywxNS44MywwLDAsMS0xNC42LDkuNTlsLS43OSwwYTE1LjgzLDE1LjgzLDAsMCwxLTE0LjQxLTExTDMyLjgsNTIuOTJBMTYsMTYsMCwwLDEsNTIuOTIsMzIuOEwyMTMsODUuMDdhMTYsMTYsMCwwLDEsMS40MSwyOS44bC0uMzIuMTNMMTY4LDEzMi42OVpNMjA4LDE5NS4zMSwxNTYuNjksMTQ0aDBhMTYsMTYsMCwwLDEsNC45My0yNmwuMzItLjE0LDQ1Ljk1LTE3LjY0TDQ4LDQ4bDUyLjIsMTU5Ljg2LDE3LjY1LTQ2YzAtLjExLjA4LS4yMi4xMy0uMzNhMTYsMTYsMCwwLDEsMTEuNjktOS4zNCwxNi43MiwxNi43MiwwLDAsMSwzLS4yOCwxNiwxNiwwLDAsMSwxMS4zLDQuNjlMMTk1LjMxLDIwOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CursorClickIcon";
 
 /** @deprecated Use CursorClickIcon */
 export const CursorClick = I;
-export { I as CursorClickIcon };
+export { I as CursorClickIcon }

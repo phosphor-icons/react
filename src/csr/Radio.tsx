@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Radio";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDQsMTY4YTgsOCwwLDAsMS04LDhINjRhOCw4LDAsMCwxLDAtMTZIOTZBOCw4LDAsMCwxLDEwNCwxNjhabS04LTQwSDY0YTgsOCwwLDAsMCwwLDE2SDk2YTgsOCwwLDAsMCwwLTE2Wm0wLTMySDY0YTgsOCwwLDAsMCwwLDE2SDk2YTgsOCwwLDAsMCwwLTE2Wk0yMzIsODBWMTkyYTE2LDE2LDAsMCwxLTE2LDE2SDQwYTE2LDE2LDAsMCwxLTE2LTE2VjcyYTgsOCwwLDAsMSw1LjctNy42NmwxNjAtNDhhOCw4LDAsMCwxLDQuNiwxNS4zM0w4Ni41MSw2NEgyMTZBMTYsMTYsMCwwLDEsMjMyLDgwWk0yMTYsMTkyVjgwSDQwVjE5MkgyMTZabS0xNi01NmE0MCw0MCwwLDEsMS00MC00MEE0MCw0MCwwLDAsMSwyMDAsMTM2Wm0tMTYsMGEyNCwyNCwwLDEsMC0yNCwyNEEyNCwyNCwwLDAsMCwxODQsMTM2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "RadioIcon";
 
 /** @deprecated Use RadioIcon */
 export const Radio = I;
-export { I as RadioIcon };
+export { I as RadioIcon }

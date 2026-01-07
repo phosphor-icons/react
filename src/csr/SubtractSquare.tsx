@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SubtractSquare";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTYwVjk2YTgsOCwwLDAsMC04LThIMTY4VjQwYTgsOCwwLDAsMC04LThINDBhOCw4LDAsMCwwLTgsOFYxNjBhOCw4LDAsMCwwLDgsOEg4OHY0OGE4LDgsMCwwLDAsOCw4SDIxNmE4LDgsMCwwLDAsOC04VjE2MFptLTYwLjY5LDQ4LTQwLTQwaDMzLjM4bDQwLDQwWk0xNjgsMTU2LjY5VjEyMy4zMWw0MCw0MHYzMy4zOFptNDAtMTZMMTcxLjMxLDEwNEgyMDhaTTQ4LDQ4SDE1MnY1NmgwdjQ4SDQ4Wm01NiwxMjMuMzFMMTQwLjY5LDIwOEgxMDRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "SubtractSquareIcon";
 
 /** @deprecated Use SubtractSquareIcon */
 export const SubtractSquare = I;
-export { I as SubtractSquareIcon };
+export { I as SubtractSquareIcon }

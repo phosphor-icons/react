@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BracketsCurly";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik00My4xOCwxMjhhMjkuNzgsMjkuNzgsMCwwLDEsOCwxMC4yNmM0LjgsOS45LDQuOCwyMiw0LjgsMzMuNzQsMCwyNC4zMSwxLDM2LDI0LDM2YTgsOCwwLDAsMSwwLDE2Yy0xNy40OCwwLTI5LjMyLTYuMTQtMzUuMi0xOC4yNi00LjgtOS45LTQuOC0yMi00LjgtMzMuNzQsMC0yNC4zMS0xLTM2LTI0LTM2YTgsOCwwLDAsMSwwLTE2YzIzLDAsMjQtMTEuNjksMjQtMzYsMC0xMS43MiwwLTIzLjg0LDQuOC0zMy43NEM1MC42OCwzOC4xNCw2Mi41MiwzMiw4MCwzMmE4LDgsMCwwLDEsMCwxNkM1Nyw0OCw1Niw1OS42OSw1Niw4NGMwLDExLjcyLDAsMjMuODQtNC44LDMzLjc0QTI5Ljc4LDI5Ljc4LDAsMCwxLDQzLjE4LDEyOFpNMjQwLDEyMGMtMjMsMC0yNC0xMS42OS0yNC0zNiwwLTExLjcyLDAtMjMuODQtNC44LTMzLjc0QzIwNS4zMiwzOC4xNCwxOTMuNDgsMzIsMTc2LDMyYTgsOCwwLDAsMCwwLDE2YzIzLDAsMjQsMTEuNjksMjQsMzYsMCwxMS43MiwwLDIzLjg0LDQuOCwzMy43NGEyOS43OCwyOS43OCwwLDAsMCw4LDEwLjI2LDI5Ljc4LDI5Ljc4LDAsMCwwLTgsMTAuMjZjLTQuOCw5LjktNC44LDIyLTQuOCwzMy43NCwwLDI0LjMxLTEsMzYtMjQsMzZhOCw4LDAsMCwwLDAsMTZjMTcuNDgsMCwyOS4zMi02LjE0LDM1LjItMTguMjYsNC44LTkuOSw0LjgtMjIsNC44LTMzLjc0LDAtMjQuMzEsMS0zNiwyNC0zNmE4LDgsMCwwLDAsMC0xNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BracketsCurlyIcon";
 
 /** @deprecated Use BracketsCurlyIcon */
 export const BracketsCurly = I;
-export { I as BracketsCurlyIcon };
+export { I as BracketsCurlyIcon }

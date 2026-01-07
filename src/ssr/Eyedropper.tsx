@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Eyedropper";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNjcuM2EzNS43OSwzNS43OSwwLDAsMC0xMS4yNi0yNS42NmMtMTQtMTMuMjgtMzYuNzItMTIuNzgtNTAuNjIsMS4xM0wxNDIuOCw2Mi4yYTI0LDI0LDAsMCwwLTMzLjE0Ljc3bC05LDlhMTYsMTYsMCwwLDAsMCwyMi42NGwyLDIuMDYtNTEsNTFhMzkuNzUsMzkuNzUsMCwwLDAtMTAuNTMsMzhsLTgsMTguNDFBMTMuNjgsMTMuNjgsMCwwLDAsMzYsMjE5LjNhMTUuOTIsMTUuOTIsMCwwLDAsMTcuNzEsMy4zNUw3MS4yMywyMTVhMzkuODksMzkuODksMCwwLDAsMzcuMDYtMTAuNzVsNTEtNTEsMi4wNiwyLjA2YTE2LDE2LDAsMCwwLDIyLjYyLDBsOS05YTI0LDI0LDAsMCwwLC43NC0zMy4xOGwxOS43NS0xOS44N0EzNS43NSwzNS43NSwwLDAsMCwyMjQsNjcuM1pNOTcsMTkzYTI0LDI0LDAsMCwxLTI0LDYsOCw4LDAsMCwwLTUuNTUuMzFsLTE4LjEsNy45MUw1NywxODkuNDFhOCw4LDAsMCwwLC4yNS01Ljc1QTIzLjg4LDIzLjg4LDAsMCwxLDYzLDE1OWw1MS01MSwzMy45NCwzNFpNMjAyLjEzLDgybC0yNS4zNywyNS41MmE4LDgsMCwwLDAsMCwxMS4zbDQuODksNC44OWE4LDgsMCwwLDEsMCwxMS4zMmwtOSw5TDExMiw4My4yNmw5LTlhOCw4LDAsMCwxLDExLjMxLDBsNC44OSw0Ljg5YTgsOCwwLDAsMCwxMS4zMywwbDI0Ljk0LTI1LjA5YzcuODEtNy44MiwyMC41LTguMTgsMjguMjktLjgxYTIwLDIwLDAsMCwxLC4zOSwyOC43WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "EyedropperIcon";
 
 /** @deprecated Use EyedropperIcon */
 export const Eyedropper = I;
-export { I as EyedropperIcon };
+export { I as EyedropperIcon }

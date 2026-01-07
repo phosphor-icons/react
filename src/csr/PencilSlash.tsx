@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PencilSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01My45MiwzNC42MkE4LDgsMCwxLDAsNDIuMDgsNDUuMzhsNDguMiw1M0wzNi42OCwxNTJBMTUuODksMTUuODksMCwwLDAsMzIsMTYzLjMxVjIwOGExNiwxNiwwLDAsMCwxNiwxNkg5Mi42OUExNS44NiwxNS44NiwwLDAsMCwxMDQsMjE5LjMxbDUwLjQtNTAuMzksNDcuNjksNTIuNDZhOCw4LDAsMSwwLDExLjg0LTEwLjc2Wm02Myw5My4xMkw2OCwxNzYuNjksNTEuMzEsMTYwbDQ5Ljc1LTQ5Ljc0Wk00OCwxNzkuMzEsNzYuNjksMjA4SDQ4Wm00OCwyNS4zOEw3OS4zMiwxODhsNDguNDEtNDguNDEsMTUuODksMTcuNDhaTTIyNy4zMiw3My4zNywxODIuNjMsMjguNjlhMTYsMTYsMCwwLDAtMjIuNjMsMEwxMTguMzMsNzAuMzZhOCw4LDAsMCwwLDExLjMyLDExLjMxTDEzNiw3NS4zMSwxNTIuNjksOTIsMTQ1LDk5LjY5QTgsOCwwLDEsMCwxNTYuMzEsMTExbDcuNjktNy42OUwxODAuNjksMTIwbC05LDlBOCw4LDAsMCwwLDE4MywxNDAuMzRMMjI3LjMyLDk2QTE2LDE2LDAsMCwwLDIyNy4zMiw3My4zN1pNMTkyLDEwOC42OSwxNDcuMzIsNjRsMjQtMjRMMjE2LDg0LjY5WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PencilSlashIcon";
 
 /** @deprecated Use PencilSlashIcon */
 export const PencilSlash = I;
-export { I as PencilSlashIcon };
+export { I as PencilSlashIcon }

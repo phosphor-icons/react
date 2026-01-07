@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Watch";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTI4YTc5Ljk0LDc5Ljk0LDAsMCwwLTMyLjctNjQuNDdsLTYuMjQtMzQuMzhBMTYsMTYsMCwwLDAsMTUzLjMyLDE2SDEwMi42OEExNiwxNiwwLDAsMCw4Ni45NCwyOS4xNUw4MC43LDYzLjUzYTc5LjksNzkuOSwwLDAsMCwwLDEyOC45NGw2LjI0LDM0LjM4QTE2LDE2LDAsMCwwLDEwMi42OCwyNDBoNTAuNjRhMTYsMTYsMCwwLDAsMTUuNzQtMTMuMTVsNi4yNC0zNC4zOEE3OS45NCw3OS45NCwwLDAsMCwyMDgsMTI4Wk0xMDIuNjgsMzJoNTAuNjRsMy45MSwyMS41NWE3OS43NSw3OS43NSwwLDAsMC01OC40NiwwWk02NCwxMjhhNjQsNjQsMCwxLDEsNjQsNjRBNjQuMDcsNjQuMDcsMCwwLDEsNjQsMTI4Wm04OS4zMiw5NkgxMDIuNjhsLTMuOTEtMjEuNTVhNzkuNzUsNzkuNzUsMCwwLDAsNTguNDYsMFpNMTIwLDEyOFY4OGE4LDgsMCwwLDEsMTYsMHYzMmgzMmE4LDgsMCwwLDEsMCwxNkgxMjhBOCw4LDAsMCwxLDEyMCwxMjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "WatchIcon";
 
 /** @deprecated Use WatchIcon */
 export const Watch = I;
-export { I as WatchIcon };
+export { I as WatchIcon }

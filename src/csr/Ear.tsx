@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Ear";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTA0YTgsOCwwLDAsMS0xNiwwLDcyLDcyLDAsMCwwLTE0NCwwYzAsMjYuNyw4LjUzLDM0LjkyLDE3LjU3LDQzLjY0QzgyLjIxLDE1Niw5MiwxNjUuNDEsOTIsMTg4YTM2LDM2LDAsMCwwLDM2LDM2YzEwLjI0LDAsMTguNDUtNC4xNiwyNS44My0xMy4wOWE4LDgsMCwxLDEsMTIuMzQsMTAuMThDMTU1LjgxLDIzMy42NCwxNDMsMjQwLDEyOCwyNDBhNTIuMDYsNTIuMDYsMCwwLDEtNTItNTJjMC0xNS43OS01LjY4LTIxLjI3LTEzLjU0LTI4Ljg0QzUyLjQ2LDE0OS41LDQwLDEzNy41LDQwLDEwNGE4OCw4OCwwLDAsMSwxNzYsMFptLTM4LjEzLDU3LjA4QTgsOCwwLDAsMCwxNjYuOTMsMTY0LDgsOCwwLDAsMSwxNTIsMTYwYzAtOS4zMyw0LjgyLTE1Ljc2LDEwLjQtMjMuMiw2LjM3LTguNSwxMy42LTE4LjEzLDEzLjYtMzIuOGE0OCw0OCwwLDAsMC05NiwwLDgsOCwwLDAsMCwxNiwwLDMyLDMyLDAsMCwxLDY0LDBjMCw5LjMzLTQuODIsMTUuNzYtMTAuNCwyMy4yLTYuMzcsOC41LTEzLjYsMTguMTMtMTMuNiwzMi44YTI0LDI0LDAsMCwwLDQ0Ljc4LDEyQTgsOCwwLDAsMCwxNzcuODcsMTYxLjA4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "EarIcon";
 
 /** @deprecated Use EarIcon */
 export const Ear = I;
-export { I as EarIcon };
+export { I as EarIcon }

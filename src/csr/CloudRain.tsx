@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CloudRain";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTguNjYsMTk2LjQ0bC0zMiw0OGE4LDgsMCwxLDEtMTMuMzItOC44OGwzMi00OGE4LDgsMCwwLDEsMTMuMzIsOC44OFpNMjMyLDkyYTc2LjA4LDc2LjA4LDAsMCwxLTc2LDc2SDEzMi4yOGwtMjkuNjIsNDQuNDRhOCw4LDAsMSwxLTEzLjMyLTguODhMMTEzLjA1LDE2OEg3NkE1Miw1MiwwLDAsMSw3Niw2NGE1My4yNiw1My4yNiwwLDAsMSw4LjkyLjc2QTc2LjA4LDc2LjA4LDAsMCwxLDIzMiw5MlptLTE2LDBBNjAuMDYsNjAuMDYsMCwwLDAsOTYsODguNDZhOCw4LDAsMCwxLTE2LS45MnEuMjEtMy42Ni43Ny03LjIzQTM4LjExLDM4LjExLDAsMCwwLDc2LDgwYTM2LDM2LDAsMCwwLDAsNzJoODBBNjAuMDcsNjAuMDcsMCwwLDAsMjE2LDkyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CloudRainIcon";
 
 /** @deprecated Use CloudRainIcon */
 export const CloudRain = I;
-export { I as CloudRainIcon };
+export { I as CloudRainIcon }

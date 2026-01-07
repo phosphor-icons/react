@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LockKey";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTEyYTI4LDI4LDAsMCwwLTgsNTQuODNWMTg0YTgsOCwwLDAsMCwxNiwwVjE2Ni44M0EyOCwyOCwwLDAsMCwxMjgsMTEyWm0wLDQwYTEyLDEyLDAsMSwxLDEyLTEyQTEyLDEyLDAsMCwxLDEyOCwxNTJabTgwLTcySDE3NlY1NmE0OCw0OCwwLDAsMC05NiwwVjgwSDQ4QTE2LDE2LDAsMCwwLDMyLDk2VjIwOGExNiwxNiwwLDAsMCwxNiwxNkgyMDhhMTYsMTYsMCwwLDAsMTYtMTZWOTZBMTYsMTYsMCwwLDAsMjA4LDgwWk05Niw1NmEzMiwzMiwwLDAsMSw2NCwwVjgwSDk2Wk0yMDgsMjA4SDQ4Vjk2SDIwOFYyMDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "LockKeyIcon";
 
 /** @deprecated Use LockKeyIcon */
 export const LockKey = I;
-export { I as LockKeyIcon };
+export { I as LockKeyIcon }

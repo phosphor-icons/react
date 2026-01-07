@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BabyCarriage";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsMzJoLThhMTYsMTYsMCwwLDAtMTYsMTZ2NTZINTUuMkE0MC4wNyw0MC4wNywwLDAsMCwxNiw3MmE4LDgsMCwwLDAsMCwxNiwyNCwyNCwwLDAsMSwyNCwyNCw4MC4wOSw4MC4wOSwwLDAsMCw4MCw4MGg0MGE4MCw4MCwwLDAsMCwwLTE2MFptNjMuNDgsNzJIMTY2LjgxbDQxLjg2LTMzLjQ5QTYzLjczLDYzLjczLDAsMCwxLDIyMy40OCwxMDRaTTE2MCw0OGE2My41OSw2My41OSwwLDAsMSwzNi42OSwxMS42MUwxNTIsOTUuMzVWNDhabTAsMTI4SDEyMGE2NC4wOSw2NC4wOSwwLDAsMS02My41LTU2aDE2N0E2NC4wOSw2NC4wOSwwLDAsMSwxNjAsMTc2Wm0tNTYsNDhhMTYsMTYsMCwxLDEtMTYtMTZBMTYsMTYsMCwwLDEsMTA0LDIyNFptMTA0LDBhMTYsMTYsMCwxLDEtMTYtMTZBMTYsMTYsMCwwLDEsMjA4LDIyNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BabyCarriageIcon";
 
 /** @deprecated Use BabyCarriageIcon */
 export const BabyCarriage = I;
-export { I as BabyCarriageIcon };
+export { I as BabyCarriageIcon }

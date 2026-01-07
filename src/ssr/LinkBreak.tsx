@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LinkBreak";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTguNjMsNTcuMzdhMzIsMzIsMCwwLDAtNDUuMTktLjA2TDE0MS43OSw2OS41MmE4LDgsMCwwLDEtMTEuNTgtMTFsMTEuNzItMTIuMjlhMS41OSwxLjU5LDAsMCwxLC4xMy0uMTMsNDgsNDgsMCwwLDEsNjcuODgsNjcuODgsMS41OSwxLjU5LDAsMCwxLS4xMy4xM2wtMTIuMjksMTEuNzJhOCw4LDAsMCwxLTExLTExLjU4bDEyLjIxLTExLjY1QTMyLDMyLDAsMCwwLDE5OC42Myw1Ny4zN1pNMTE0LjIxLDE4Ni40OGwtMTEuNjUsMTIuMjFhMzIsMzIsMCwwLDEtNDUuMjUtNDUuMjVsMTIuMjEtMTEuNjVhOCw4LDAsMCwwLTExLTExLjU4TDQ2LjE5LDE0MS45M2ExLjU5LDEuNTksMCwwLDAtLjEzLjEzLDQ4LDQ4LDAsMCwwLDY3Ljg4LDY3Ljg4LDEuNTksMS41OSwwLDAsMCwuMTMtLjEzbDExLjcyLTEyLjI5YTgsOCwwLDEsMC0xMS41OC0xMVpNMjE2LDE1MkgxOTJhOCw4LDAsMCwwLDAsMTZoMjRhOCw4LDAsMCwwLDAtMTZaTTQwLDEwNEg2NGE4LDgsMCwwLDAsMC0xNkg0MGE4LDgsMCwwLDAsMCwxNlptMTIwLDgwYTgsOCwwLDAsMC04LDh2MjRhOCw4LDAsMCwwLDE2LDBWMTkyQTgsOCwwLDAsMCwxNjAsMTg0Wk05Niw3MmE4LDgsMCwwLDAsOC04VjQwYTgsOCwwLDAsMC0xNiwwVjY0QTgsOCwwLDAsMCw5Niw3MloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "LinkBreakIcon";
 
 /** @deprecated Use LinkBreakIcon */
 export const LinkBreak = I;
-export { I as LinkBreakIcon };
+export { I as LinkBreakIcon }

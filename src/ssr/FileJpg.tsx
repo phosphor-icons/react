@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FileJpg";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjAsMTQ0SDEwNGE4LDgsMCwwLDAtOCw4djU2YTgsOCwwLDAsMCwxNiwwdi04aDhhMjgsMjgsMCwwLDAsMC01NlptMCw0MGgtOFYxNjBoOGExMiwxMiwwLDAsMSwwLDI0Wm05NiwwdjE2Ljg3YTgsOCwwLDAsMS0yLjIyLDUuNTNBMzAuMDYsMzAuMDYsMCwwLDEsMTkyLDIxNmMtMTcuNjUsMC0zMi0xNi4xNS0zMi0zNnMxNC4zNS0zNiwzMi0zNmEyOS4zOCwyOS4zOCwwLDAsMSwxNi40OCw1LjEyLDgsOCwwLDAsMS05LDEzLjI2QTEzLjIxLDEzLjIxLDAsMCwwLDE5MiwxNjBjLTguODIsMC0xNiw5LTE2LDIwczcuMTgsMjAsMTYsMjBhMTMuNjMsMTMuNjMsMCwwLDAsOC0yLjcxVjE5MmE4LDgsMCwwLDEsMC0xNmg4QTgsOCwwLDAsMSwyMTYsMTg0Wk04MCwxNTJ2MzhhMjYsMjYsMCwwLDEtNTIsMCw4LDgsMCwwLDEsMTYsMCwxMCwxMCwwLDAsMCwyMCwwVjE1MmE4LDgsMCwwLDEsMTYsMFpNMjEzLjY2LDgyLjM0bC01Ni01NkE4LDgsMCwwLDAsMTUyLDI0SDU2QTE2LDE2LDAsMCwwLDQwLDQwdjcyYTgsOCwwLDAsMCwxNiwwVjQwaDg4Vjg4YTgsOCwwLDAsMCw4LDhoNDh2MTZhOCw4LDAsMCwwLDE2LDBWODhBOCw4LDAsMCwwLDIxMy42Niw4Mi4zNFpNMTYwLDgwVjUxLjMxTDE4OC42OSw4MFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "FileJpgIcon";
 
 /** @deprecated Use FileJpgIcon */
 export const FileJpg = I;
-export { I as FileJpgIcon };
+export { I as FileJpgIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PatreonLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODcuMzcsMzJjLTE4Ljc5LTcuNjgtNDEuMTQtOS45Mi02Mi45My02LjMtMjMuNDQsMy45LTQzLjczLDE0LTU4LjY4LDI5LjItMTEuMTIsMTEuMzItMjQuNjIsMzMuMzUtMjUuNyw3NC0uNywyNi40OSw0LjM5LDU1LjQ0LDEzLjYxLDc3LjQ1Uzc0LjYxLDI0MCw4Ny41MiwyNDBjMjIuOTQsMCwzMy4yMy0yMC4wOCw0My4xNy0zOS41LDctMTMuNiwxNC4xNi0yNy42NiwyNS41NS0zNS4zOGgwYzUuODYtNCwxMy44LTcsMjIuMjEtMTAuMjgsMjMuODYtOS4yLDUzLjU1LTIwLjY2LDUzLjU1LTYxLjY3QzIzMiw2NS45LDIxNS43Myw0My42LDE4Ny4zNywzMlpNMTcyLjY5LDEzOS45MWMtOS4yOCwzLjU4LTE4LjA1LDctMjUuNDMsMTItMTQuNzgsMTAtMjMuMywyNi42Ni0zMC44MSw0MS4zM0MxMDYuNjcsMjEyLjMsMTAwLjA1LDIyNCw4Ny41MiwyMjRjLTQuNTIsMC0xMi4xOC03LjM3LTE5LjA5LTIzLjg1LTguMzktMjAtMTMtNDYuNDktMTIuMzctNzAuODMuNzMtMjcuNjYsOC4yMy01MC4xMSwyMS4xMS02My4yMUM5NS4yMyw0Ny43NCwxMjAuNzksNDAsMTQ0LjU3LDQwYTk4LjQ4LDk4LjQ4LDAsMCwxLDM2Ljc0LDYuNzZjMTMsNS4zLDM0LjY5LDE4LjM4LDM0LjY5LDQ2LjM3QzIxNiwxMjMuMjEsMTk1LjkzLDEzMSwxNzIuNjksMTM5LjkxWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PatreonLogoIcon";
 
 /** @deprecated Use PatreonLogoIcon */
 export const PatreonLogo = I;
-export { I as PatreonLogoIcon };
+export { I as PatreonLogoIcon }

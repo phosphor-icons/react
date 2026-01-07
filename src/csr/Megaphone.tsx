@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Megaphone";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMTIwYTQ4LjA1LDQ4LjA1LDAsMCwwLTQ4LTQ4SDE2MC4yYy0yLjkxLS4xNy01My42Mi0zLjc0LTEwMS45MS00NC4yNEExNiwxNiwwLDAsMCwzMiw0MFYyMDBhMTYsMTYsMCwwLDAsMjYuMjksMTIuMjVjMzcuNzctMzEuNjgsNzctNDAuNzYsOTMuNzEtNDMuM3YzMS43MkExNiwxNiwwLDAsMCwxNTkuMTIsMjE0bDExLDcuMzNBMTYsMTYsMCwwLDAsMTk0LjUsMjEybDExLjc3LTQ0LjM2QTQ4LjA3LDQ4LjA3LDAsMCwwLDI0OCwxMjBaTTQ4LDE5OS45M1Y0MGgwYzQyLjgxLDM1LjkxLDg2LjYzLDQ1LDEwNCw0Ny4yNHY2NS40OEMxMzQuNjUsMTU1LDkwLjg0LDE2NC4wNyw0OCwxOTkuOTNabTEzMSw4LDAsLjExLTExLTcuMzNWMTY4aDIxLjZaTTIwMCwxNTJIMTY4Vjg4aDMyYTMyLDMyLDAsMSwxLDAsNjRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "MegaphoneIcon";
 
 /** @deprecated Use MegaphoneIcon */
 export const Megaphone = I;
-export { I as MegaphoneIcon };
+export { I as MegaphoneIcon }

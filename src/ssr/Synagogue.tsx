@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Synagogue";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNTcuMzhWMzJhOCw4LDAsMCwwLTE2LDBWNTcuMzhBMjQsMjQsMCwwLDAsMTc2LDgwdjQyLjIxTDEzNiw5OS4zNlY3MmE4LDgsMCwwLDAtMTYsMFY5OS4zNkw4MCwxMjIuMjFWODBBMjQsMjQsMCwwLDAsNjQsNTcuMzhWMzJhOCw4LDAsMCwwLTE2LDBWNTcuMzhBMjQsMjQsMCwwLDAsMzIsODBWMjE2YTgsOCwwLDAsMCw4LDhoNzJhOCw4LDAsMCwwLDgtOFYxNzZhOCw4LDAsMCwxLDE2LDB2NDBhOCw4LDAsMCwwLDgsOGg3MmE4LDgsMCwwLDAsOC04VjgwQTI0LDI0LDAsMCwwLDIwOCw1Ny4zOFpNMjAwLDcyYTgsOCwwLDAsMSw4LDh2MjRIMTkyVjgwQTgsOCwwLDAsMSwyMDAsNzJaTTU2LDcyYTgsOCwwLDAsMSw4LDh2MjRINDhWODBBOCw4LDAsMCwxLDU2LDcyWm0tOCw0OEg2NHY4OEg0OFptODAsMzJhMjQsMjQsMCwwLDAtMjQsMjR2MzJIODBWMTQwLjY0bDQ4LTI3LjQzLDQ4LDI3LjQzVjIwOEgxNTJWMTc2QTI0LDI0LDAsMCwwLDEyOCwxNTJabTY0LDU2VjEyMGgxNnY4OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "SynagogueIcon";
 
 /** @deprecated Use SynagogueIcon */
 export const Synagogue = I;
-export { I as SynagogueIcon };
+export { I as SynagogueIcon }

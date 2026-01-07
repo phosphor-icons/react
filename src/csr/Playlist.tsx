@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Playlist";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0zMiw2NGE4LDgsMCwwLDEsOC04SDIxNmE4LDgsMCwwLDEsMCwxNkg0MEE4LDgsMCwwLDEsMzIsNjRabTgsNzJIMTYwYTgsOCwwLDAsMCwwLTE2SDQwYTgsOCwwLDAsMCwwLDE2Wm03Miw0OEg0MGE4LDgsMCwwLDAsMCwxNmg3MmE4LDgsMCwwLDAsMC0xNlptMTM1LjY2LTU3LjdhOCw4LDAsMCwxLTEwLDUuMzZMMjA4LDEyMi43NVYxOTJhMzIuMDUsMzIuMDUsMCwxLDEtMTYtMjcuNjlWMTEyYTgsOCwwLDAsMSwxMC4zLTcuNjZsNDAsMTJBOCw4LDAsMCwxLDI0Ny42NiwxMjYuM1pNMTkyLDE5MmExNiwxNiwwLDEsMC0xNiwxNkExNiwxNiwwLDAsMCwxOTIsMTkyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PlaylistIcon";
 
 /** @deprecated Use PlaylistIcon */
 export const Playlist = I;
-export { I as PlaylistIcon };
+export { I as PlaylistIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FigmaLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsOTZhNDAsNDAsMCwwLDAtMjQtNzJIOTZBNDAsNDAsMCwwLDAsNzIsOTZhNDAsNDAsMCwwLDAsMS4zNyw2NUE0NCw0NCwwLDEsMCwxNDQsMTk2VjE2MGE0MCw0MCwwLDEsMCw0OC02NFptMC0zMmEyNCwyNCwwLDAsMS0yNCwyNEgxNDRWNDBoMjRBMjQsMjQsMCwwLDEsMTkyLDY0Wk03Miw2NEEyNCwyNCwwLDAsMSw5Niw0MGgzMlY4OEg5NkEyNCwyNCwwLDAsMSw3Miw2NFptMjQsODhhMjQsMjQsMCwwLDEsMC00OGgzMnY0OEg5NlptMzIsNDRhMjgsMjgsMCwxLDEtMjgtMjhoMjhabTQwLTQ0YTI0LDI0LDAsMSwxLDI0LTI0QTI0LDI0LDAsMCwxLDE2OCwxNTJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FigmaLogoIcon";
 
 /** @deprecated Use FigmaLogoIcon */
 export const FigmaLogo = I;
-export { I as FigmaLogoIcon };
+export { I as FigmaLogoIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PlugCharging";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNTZIMTc2VjE2YTgsOCwwLDAsMC0xNiwwVjU2SDk2VjE2YTgsOCwwLDAsMC0xNiwwVjU2SDMyLjU1QzI2LjI4LDU2LDI0LDYwLjc4LDI0LDY0YTgsOCwwLDAsMCw4LDhINDh2ODhhNDAsNDAsMCwwLDAsNDAsNDBoMzJ2NDBhOCw4LDAsMCwwLDE2LDBWMjAwaDMyYTQwLDQwLDAsMCwwLDQwLTQwVjcyaDE2YTgsOCwwLDAsMCwwLTE2Wk0xNjgsMTg0SDg4YTI0LDI0LDAsMCwxLTI0LTI0VjcySDE5MnY4OEEyNCwyNCwwLDAsMSwxNjgsMTg0Wm0tMTcuNDItNjAuNTZhOCw4LDAsMCwxLC45MSw3LjM3bC0xMiwzMmE4LDgsMCwwLDEtMTUtNS42Mmw4LTIxLjE5SDExMmE4LDgsMCwwLDEtNy40OS0xMC44MWwxMi0zMmE4LDgsMCwxLDEsMTUsNS42MmwtOCwyMS4xOUgxNDRBOCw4LDAsMCwxLDE1MC41OCwxMjMuNDRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "PlugChargingIcon";
 
 /** @deprecated Use PlugChargingIcon */
 export const PlugCharging = I;
-export { I as PlugChargingIcon };
+export { I as PlugChargingIcon }

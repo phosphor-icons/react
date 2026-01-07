@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HeadCircuit";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIuNSwxNzEuNDdBODguMzQsODguMzQsMCwwLDAsMjI0LDEwMS45M2MtMS00NS43MS0zNy42MS04My40LTgzLjI0LTg1LjhBODgsODgsMCwwLDAsNDgsMTAyTDI1LjU1LDE0NS4xOGMtLjA5LjE4LS4xOC4zNi0uMjYuNTRhMTYsMTYsMCwwLDAsNy41NSwyMC42MmwuMjUuMTFMNTYsMTc2Ljk0VjIwOGExNiwxNiwwLDAsMCwxNiwxNmg0OGE4LDgsMCwwLDAsMC0xNkg3MlYxNzEuODFhOCw4LDAsMCwwLTQuNjctNy4yOEw0MCwxNTJsMjMuMDctNDQuMzRBNy45LDcuOSwwLDAsMCw2NCwxMDRhNzIsNzIsMCwwLDEsNTYtNzAuMjFWNDkuMzhhMjQsMjQsMCwxLDAsMTYsMFYzMmMxLjMsMCwyLjYsMCwzLjkuMUE3Mi4yNiw3Mi4yNiwwLDAsMSwyMDMuODQsODBIMTg0YTgsOCwwLDAsMC02LjE1LDIuODhMMTUyLjM0LDExMy41YTI0LjA2LDI0LjA2LDAsMSwwLDEyLjI4LDEwLjI1TDE4Ny43NSw5NmgxOS43OXEuMzYsMy4xMi40NCw2LjNhNzIuMjYsNzIuMjYsMCwwLDEtMjguNzgsNTkuMyw4LDgsMCwwLDAtMy4xNCw3LjM5bDgsNjRhOCw4LDAsMCwwLDcuOTMsNyw4LjM5LDguMzksMCwwLDAsMS0uMDYsOCw4LDAsMCwwLDYuOTUtOC45M1pNMTI4LDgwYTgsOCwwLDEsMSw4LThBOCw4LDAsMCwxLDEyOCw4MFptMTYsNjRhOCw4LDAsMSwxLDgtOEE4LDgsMCwwLDEsMTQ0LDE0NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "HeadCircuitIcon";
 
 /** @deprecated Use HeadCircuitIcon */
 export const HeadCircuit = I;
-export { I as HeadCircuitIcon };
+export { I as HeadCircuitIcon }

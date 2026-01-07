@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FireSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDMuMzgsMTcuODVhOCw4LDAsMCwwLTEyLjYzLDMuNDFsLTIyLDYwLjQxTDg0LjU5LDU4LjI2YTgsOCwwLDAsMC0xMS45My44OUM1MSw4Ny41Myw0MCwxMTYuMDgsNDAsMTQ0YTg4LDg4LDAsMCwwLDE3NiwwQzIxNiw4NC41NSwxNjUuMjEsMzYsMTQzLjM4LDE3Ljg1Wk0xMjgsMjE2YTcyLjA4LDcyLjA4LDAsMCwxLTcyLTcyYzAtMjIsOC4wOS00NC43OSwyNC4wNi02Ny44NGwyNi4zNywyNS41OGE4LDgsMCwwLDAsMTMuMDktM2wyMi4yNy02MS4wN0MxNjQuMjEsNTguMDgsMjAwLDk3LjkxLDIwMCwxNDRBNzIuMDgsNzIuMDgsMCwwLDEsMTI4LDIxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "FireSimpleIcon";
 
 /** @deprecated Use FireSimpleIcon */
 export const FireSimple = I;
-export { I as FireSimpleIcon };
+export { I as FireSimpleIcon }

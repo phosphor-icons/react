@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Shapes";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik03MS41OSw2MS40N2E4LDgsMCwwLDAtMTUuMTgsMGwtNDAsMTIwQTgsOCwwLDAsMCwyNCwxOTJoODBhOCw4LDAsMCwwLDcuNTktMTAuNTNaTTM1LjEsMTc2LDY0LDg5LjMsOTIuOSwxNzZaTTIwOCw3NmE1Miw1MiwwLDEsMC01Miw1MkE1Mi4wNiw1Mi4wNiwwLDAsMCwyMDgsNzZabS04OCwwYTM2LDM2LDAsMSwxLDM2LDM2QTM2LDM2LDAsMCwxLDEyMCw3NlptMTA0LDY4SDEzNmE4LDgsMCwwLDAtOCw4djU2YTgsOCwwLDAsMCw4LDhoODhhOCw4LDAsMCwwLDgtOFYxNTJBOCw4LDAsMCwwLDIyNCwxNDRabS04LDU2SDE0NFYxNjBoNzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ShapesIcon";
 
 /** @deprecated Use ShapesIcon */
 export const Shapes = I;
-export { I as ShapesIcon };
+export { I as ShapesIcon }

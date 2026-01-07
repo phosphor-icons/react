@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Ladder";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTUuNTIsMjEzLjI2LDE2NC41MSw3M2w5LjA5LTI1SDE4NGE4LDgsMCwwLDAsMC0xNkg4OGE4LDgsMCwwLDAsMCwxNmg0LjU4TDMyLjQ4LDIxMy4yNmE4LDgsMCwwLDAsNC43OSwxMC4yNkE4LjE0LDguMTQsMCwwLDAsNDAsMjI0YTgsOCwwLDAsMCw3LjUyLTUuMjdMNTcuMjQsMTkyaDQ3bC03Ljc0LDIxLjI2YTgsOCwwLDAsMCw0Ljc5LDEwLjI2QTguMTQsOC4xNCwwLDAsMCwxMDQsMjI0YTgsOCwwLDAsMCw3LjUyLTUuMjdMMTMwLDE2OEgxODJsMTguNDUsNTAuNzNBOCw4LDAsMCwwLDIwOCwyMjRhOC4xNCw4LjE0LDAsMCwwLDIuNzMtLjQ4QTgsOCwwLDAsMCwyMTUuNTIsMjEzLjI2Wm0tODgtODUuMjZoLTQ3TDkyLjE1LDk2aDQ3Wm0yOS4wOS04MEwxNDQuOTQsODBIOThMMTA5LjYsNDhaTTYzLjA2LDE3Niw3NC43LDE0NGg0N0wxMTAsMTc2Wm03Mi43Mi0yNEwxNTYsOTYuNDEsMTc2LjIxLDE1MloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "LadderIcon";
 
 /** @deprecated Use LadderIcon */
 export const Ladder = I;
-export { I as LadderIcon };
+export { I as LadderIcon }

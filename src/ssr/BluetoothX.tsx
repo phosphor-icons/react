@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BluetoothX";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODAuOCwxNjkuNiwxMjUuMzMsMTI4bDIzLjQ3LTE3LjZhOCw4LDAsMCwwLTkuNi0xMi44TDEyMCwxMTJWNDhsMTkuMiwxNC40YTgsOCwwLDEsMCw5LjYtMTIuOGwtMzItMjRBOCw4LDAsMCwwLDEwNCwzMnY4MEw1Mi44LDczLjZhOCw4LDAsMCwwLTkuNiwxMi44TDk4LjY3LDEyOCw0My4yLDE2OS42YTgsOCwwLDEsMCw5LjYsMTIuOEwxMDQsMTQ0djgwYTgsOCwwLDAsMCwxMi44LDYuNGw2NC00OGE4LDgsMCwwLDAsMC0xMi44Wk0xMjAsMjA4VjE0NGw0Mi42NywzMlpNMjM3LjY2LDk4LjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMkwyMDgsOTEuMzFsLTE4LjM0LDE4LjM1YTgsOCwwLDAsMS0xMS4zMi0xMS4zMkwxOTYuNjksODAsMTc4LjM0LDYxLjY2YTgsOCwwLDAsMSwxMS4zMi0xMS4zMkwyMDgsNjguNjlsMTguMzQtMTguMzVhOCw4LDAsMCwxLDExLjMyLDExLjMyTDIxOS4zMSw4MFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BluetoothXIcon";
 
 /** @deprecated Use BluetoothXIcon */
 export const BluetoothX = I;
-export { I as BluetoothXIcon };
+export { I as BluetoothXIcon }

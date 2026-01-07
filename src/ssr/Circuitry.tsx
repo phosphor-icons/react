@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Circuitry";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTg4LDE2MGE4LDgsMCwxLDEtOCw4QTgsOCwwLDAsMSw4OCwxNjBaTTQ4LDQ4SDgwdjk3LjM4YTI0LDI0LDAsMSwwLDE2LDBWMTE1LjMxbDQ4LDQ4VjIwOEg0OFpNMjA4LDIwOEgxNjBWMTYwYTgsOCwwLDAsMC0yLjM0LTUuNjZMOTYsOTIuNjlWNDhoMzJWNzJhOCw4LDAsMCwwLDIuMzQsNS42NmwxNiwxNkEyMy43NCwyMy43NCwwLDAsMCwxNDQsMTA0YTI0LDI0LDAsMSwwLDI0LTI0LDIzLjc0LDIzLjc0LDAsMCwwLTEwLjM0LDIuMzVMMTQ0LDY4LjY5VjQ4aDY0VjIwOFpNMTY4LDk2YTgsOCwwLDEsMS04LDhBOCw4LDAsMCwxLDE2OCw5NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CircuitryIcon";
 
 /** @deprecated Use CircuitryIcon */
 export const Circuitry = I;
-export { I as CircuitryIcon };
+export { I as CircuitryIcon }

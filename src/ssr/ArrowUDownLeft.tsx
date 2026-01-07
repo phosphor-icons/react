@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowUDownLeft";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTEyYTY0LjA3LDY0LjA3LDAsMCwxLTY0LDY0SDUxLjMxbDM0LjM1LDM0LjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMmwtNDgtNDhhOCw4LDAsMCwxLDAtMTEuMzJsNDgtNDhhOCw4LDAsMCwxLDExLjMyLDExLjMyTDUxLjMxLDE2MEgxNjhhNDgsNDgsMCwwLDAsMC05Nkg4MGE4LDgsMCwwLDEsMC0xNmg4OEE2NC4wNyw2NC4wNywwLDAsMSwyMzIsMTEyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ArrowUDownLeftIcon";
 
 /** @deprecated Use ArrowUDownLeftIcon */
 export const ArrowUDownLeft = I;
-export { I as ArrowUDownLeftIcon };
+export { I as ArrowUDownLeftIcon }

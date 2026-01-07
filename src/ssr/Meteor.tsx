@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Meteor";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05NiwxMjBhNDAsNDAsMCwxLDAsNDAsNDBBNDAsNDAsMCwwLDAsOTYsMTIwWm0wLDY0YTI0LDI0LDAsMSwxLDI0LTI0QTI0LDI0LDAsMCwxLDk2LDE4NFptMTI1LjY2LTYxLjY2YTgsOCwwLDAsMSwwLDExLjMybC00OCw0OGE4LDgsMCwwLDEtMTEuMzItMTEuMzJsNDgtNDhBOCw4LDAsMCwxLDIyMS42NiwxMjIuMzRaTTE2MCwxMzZhOCw4LDAsMCwxLTUuNjYtMTMuNjZsMjQtMjRhOCw4LDAsMCwxLDExLjMyLDExLjMybC0yNCwyNEE4LDgsMCwwLDEsMTYwLDEzNlptNjkuNjYtNjYuMzQtMTYsMTZhOCw4LDAsMCwxLTExLjMyLTExLjMybDE2LTE2YTgsOCwwLDAsMSwxMS4zMiwxMS4zMlpNMTIyLjM0LDkwLjM0bDcyLTcyYTgsOCwwLDEsMSwxMS4zMiwxMS4zMmwtNzIsNzJhOCw4LDAsMCwxLTExLjMyLTExLjMyWk0xNDYuOTEsMTk5LjZhOCw4LDAsMCwxLDAsMTEuMzFBNzIsNzIsMCwxLDEsNDUuMDksMTA5LjA5bDgyLjc0LTgyLjc1YTgsOCwwLDEsMSwxMS4zMiwxMS4zMkw1Ni40LDEyMC40YTU2LDU2LDAsMCwwLDc5LjIsNzkuMkE4LDgsMCwwLDEsMTQ2LjkxLDE5OS42WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "MeteorIcon";
 
 /** @deprecated Use MeteorIcon */
 export const Meteor = I;
-export { I as MeteorIcon };
+export { I as MeteorIcon }

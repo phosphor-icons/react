@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Elevator";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabS0zMiw4MHY5NkgxMzZWMTEyWm0tNTYsOTZIODBWMTEyaDQwWm04OCwwSDE5MlYxMDRhOCw4LDAsMCwwLTgtOEg3MmE4LDgsMCwwLDAtOCw4VjIwOEg0OFY0OEgyMDhWMjA4Wk0xNTIsNzJhOCw4LDAsMCwxLTgsOEgxMTJhOCw4LDAsMCwxLDAtMTZoMzJBOCw4LDAsMCwxLDE1Miw3MloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ElevatorIcon";
 
 /** @deprecated Use ElevatorIcon */
 export const Elevator = I;
-export { I as ElevatorIcon };
+export { I as ElevatorIcon }

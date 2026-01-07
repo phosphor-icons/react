@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Pentagon";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjUuNTYsODcuNTYsMTM3LjY0LDE5LjI1bC0uMTgtLjE0YTE1LjkzLDE1LjkzLDAsMCwwLTE4LjkyLDBsLS4xOC4xNEwzMC40NCw4Ny41NmExNiwxNiwwLDAsMC01LjcsMTcuNjNsMzIsMTA3LjU0LjA2LjE3QTE1Ljk0LDE1Ljk0LDAsMCwwLDcyLDIyNEgxODRhMTUuOTQsMTUuOTQsMCwwLDAsMTUuMjMtMTEuMWwuMDYtLjE3LDMyLTEwNy41NEExNiwxNiwwLDAsMCwyMjUuNTYsODcuNTZabS05LjYyLDEzTDE4NCwyMDhINzJsLTMyLTEwNy40NC0uMDYtLjE3aDBsLjE4LS4xNEwxMjgsMzJsODcuODIsNjguMjMuMTguMTRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "PentagonIcon";
 
 /** @deprecated Use PentagonIcon */
 export const Pentagon = I;
-export { I as PentagonIcon };
+export { I as PentagonIcon }

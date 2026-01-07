@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Hand";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODgsNDhhMjcuNzUsMjcuNzUsMCwwLDAtMTIsMi43MVY0NGEyOCwyOCwwLDAsMC01NC42NS04LjZBMjgsMjgsMCwwLDAsODAsNjB2NjRsLTMuODItNi4xM2EyOCwyOCwwLDAsMC00OC42LDI3LjgyYzE2LDMzLjc3LDI4LjkzLDU3LjcyLDQzLjcyLDcyLjY5Qzg2LjI0LDIzMy41NCwxMDMuMiwyNDAsMTI4LDI0MGE4OC4xLDg4LjEsMCwwLDAsODgtODhWNzZBMjgsMjgsMCwwLDAsMTg4LDQ4Wm0xMiwxMDRhNzIuMDgsNzIuMDgsMCwwLDEtNzIsNzJjLTIwLjM4LDAtMzMuNTEtNC44OC00NS4zMy0xNi44NUM2OS40NCwxOTMuNzQsNTcuMjYsMTcxLDQxLjksMTM4LjU4YTYuMzYsNi4zNiwwLDAsMC0uMy0uNTgsMTIsMTIsMCwwLDEsMjAuNzktMTIsMS43NiwxLjc2LDAsMCwwLC4xNC4yM2wxOC42NywzMEE4LDgsMCwwLDAsOTYsMTUyVjYwYTEyLDEyLDAsMCwxLDI0LDB2NjBhOCw4LDAsMCwwLDE2LDBWNDRhMTIsMTIsMCwwLDEsMjQsMHY3NmE4LDgsMCwwLDAsMTYsMFY3NmExMiwxMiwwLDAsMSwyNCwwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "HandIcon";
 
 /** @deprecated Use HandIcon */
 export const Hand = I;
-export { I as HandIcon };
+export { I as HandIcon }

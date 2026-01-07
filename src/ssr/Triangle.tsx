@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Triangle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzYuOCwxODguMDksMTQ5LjM1LDM2LjIyYTI0Ljc2LDI0Ljc2LDAsMCwwLTQyLjcsMEwxOS4yLDE4OC4wOWEyMy41MSwyMy41MSwwLDAsMCwwLDIzLjcyQTI0LjM0LDI0LjM0LDAsMCwwLDQwLjU1LDIyNGgxNzQuOWEyNC4zNCwyNC4zNCwwLDAsMCwyMS4zMy0xMi4xOUEyMy41MSwyMy41MSwwLDAsMCwyMzYuOCwxODguMDlaTTIyMi45MywyMDMuOGE4LjUsOC41LDAsMCwxLTcuNDgsNC4ySDQwLjU1YTguNSw4LjUsMCwwLDEtNy40OC00LjIsNy41OSw3LjU5LDAsMCwxLDAtNy43MkwxMjAuNTIsNDQuMjFhOC43NSw4Ljc1LDAsMCwxLDE1LDBsODcuNDUsMTUxLjg3QTcuNTksNy41OSwwLDAsMSwyMjIuOTMsMjAzLjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "TriangleIcon";
 
 /** @deprecated Use TriangleIcon */
 export const Triangle = I;
-export { I as TriangleIcon };
+export { I as TriangleIcon }

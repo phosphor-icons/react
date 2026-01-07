@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MessengerLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODEuNjYsMTA2LjM0YTgsOCwwLDAsMSwwLDExLjMybC0zMiwzMmE4LDgsMCwwLDEtMTEuMzIsMEwxMTIsMTIzLjMxLDg1LjY2LDE0OS42NmE4LDgsMCwwLDEtMTEuMzItMTEuMzJsMzItMzJhOCw4LDAsMCwxLDExLjMyLDBMMTQ0LDEzMi42OWwyNi4zNC0yNi4zNUE4LDgsMCwwLDEsMTgxLjY2LDEwNi4zNFpNMjMyLDEyOEExMDQsMTA0LDAsMCwxLDc5LjEyLDIxOS44Mkw0NS4wNywyMzEuMTdhMTYsMTYsMCwwLDEtMjAuMjQtMjAuMjRsMTEuMzUtMzQuMDVBMTA0LDEwNCwwLDEsMSwyMzIsMTI4Wm0tMTYsMEE4OCw4OCwwLDEsMCw1MS44MSwxNzIuMDZhOCw4LDAsMCwxLC42Niw2LjU0TDQwLDIxNiw3Ny40LDIwMy41MmE4LDgsMCwwLDEsNi41NC42N0E4OCw4OCwwLDAsMCwyMTYsMTI4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "MessengerLogoIcon";
 
 /** @deprecated Use MessengerLogoIcon */
 export const MessengerLogo = I;
-export { I as MessengerLogoIcon };
+export { I as MessengerLogoIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BookOpenText";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNDhIMTYwYTQwLDQwLDAsMCwwLTMyLDE2QTQwLDQwLDAsMCwwLDk2LDQ4SDI0YTgsOCwwLDAsMC04LDhWMjAwYTgsOCwwLDAsMCw4LDhIOTZhMjQsMjQsMCwwLDEsMjQsMjQsOCw4LDAsMCwwLDE2LDAsMjQsMjQsMCwwLDEsMjQtMjRoNzJhOCw4LDAsMCwwLDgtOFY1NkE4LDgsMCwwLDAsMjMyLDQ4Wk05NiwxOTJIMzJWNjRIOTZhMjQsMjQsMCwwLDEsMjQsMjRWMjAwQTM5LjgxLDM5LjgxLDAsMCwwLDk2LDE5MlptMTI4LDBIMTYwYTM5LjgxLDM5LjgxLDAsMCwwLTI0LDhWODhhMjQsMjQsMCwwLDEsMjQtMjRoNjRaTTE2MCw4OGg0MGE4LDgsMCwwLDEsMCwxNkgxNjBhOCw4LDAsMCwxLDAtMTZabTQ4LDQwYTgsOCwwLDAsMS04LDhIMTYwYTgsOCwwLDAsMSwwLTE2aDQwQTgsOCwwLDAsMSwyMDgsMTI4Wm0wLDMyYTgsOCwwLDAsMS04LDhIMTYwYTgsOCwwLDAsMSwwLTE2aDQwQTgsOCwwLDAsMSwyMDgsMTYwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "BookOpenTextIcon";
 
 /** @deprecated Use BookOpenTextIcon */
 export const BookOpenText = I;
-export { I as BookOpenTextIcon };
+export { I as BookOpenTextIcon }

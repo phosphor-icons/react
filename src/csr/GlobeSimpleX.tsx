@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GlobeSimpleX";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuNjYsMTczLjY2LDIwMy4zMSwxOTJsMTguMzUsMTguMzRhOCw4LDAsMCwxLTExLjMyLDExLjMyTDE5MiwyMDMuMzFsLTE4LjM0LDE4LjM1YTgsOCwwLDAsMS0xMS4zMi0xMS4zMkwxODAuNjksMTkybC0xOC4zNS0xOC4zNGE4LDgsMCwwLDEsMTEuMzItMTEuMzJMMTkyLDE4MC42OWwxOC4zNC0xOC4zNWE4LDgsMCwwLDEsMTEuMzIsMTEuMzJaTTIzMiwxMjhhOCw4LDAsMCwxLTgsOEg5Ni4yNWMzLDUzLjczLDM1LjMzLDgwLjYsMzYuNzcsODEuNzdoMEE4LDgsMCwwLDEsMTI4LDIzMiwxMDQsMTA0LDAsMSwxLDIzMiwxMjhaTTE0OC40MSw0Mi40QzE1OS45NCw1Ny42NywxNzQsODMuNDksMTc1Ljc5LDEyMGgzOS44NEE4OC4xOSw4OC4xOSwwLDAsMCwxNDguNDEsNDIuNFpNMTI4LDQzYy05LjU0LDkuOTItMjkuNDYsMzUuNDItMzEuNzcsNzdoNjMuNTRDMTU3LjQ2LDc4LjQsMTM3LjU1LDUyLjksMTI4LDQzWk00MC4zNywxMjBIODAuMjFDODIsODMuNDksOTYuMDYsNTcuNjcsMTA3LjU5LDQyLjRBODguMTksODguMTksMCwwLDAsNDAuMzcsMTIwWm0zOS44NCwxNkg0MC4zN2E4OC4xOSw4OC4xOSwwLDAsMCw2Ny4yMiw3Ny42Qzk2LjA2LDE5OC4zMyw4MiwxNzIuNTEsODAuMjEsMTM2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "GlobeSimpleXIcon";
 
 /** @deprecated Use GlobeSimpleXIcon */
 export const GlobeSimpleX = I;
-export { I as GlobeSimpleXIcon };
+export { I as GlobeSimpleXIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/WarningOctagon";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjAsMTM2VjgwYTgsOCwwLDAsMSwxNiwwdjU2YTgsOCwwLDAsMS0xNiwwWk0yMzIsOTEuNTV2NzIuOWExNS44NiwxNS44NiwwLDAsMS00LjY5LDExLjMxbC01MS41NSw1MS41NUExNS44NiwxNS44NiwwLDAsMSwxNjQuNDUsMjMySDkxLjU1YTE1Ljg2LDE1Ljg2LDAsMCwxLTExLjMxLTQuNjlMMjguNjksMTc1Ljc2QTE1Ljg2LDE1Ljg2LDAsMCwxLDI0LDE2NC40NVY5MS41NWExNS44NiwxNS44NiwwLDAsMSw0LjY5LTExLjMxTDgwLjI0LDI4LjY5QTE1Ljg2LDE1Ljg2LDAsMCwxLDkxLjU1LDI0aDcyLjlhMTUuODYsMTUuODYsMCwwLDEsMTEuMzEsNC42OWw1MS41NSw1MS41NUExNS44NiwxNS44NiwwLDAsMSwyMzIsOTEuNTVabS0xNiwwTDE2NC40NSw0MEg5MS41NUw0MCw5MS41NXY3Mi45TDkxLjU1LDIxNmg3Mi45TDIxNiwxNjQuNDVaTTEyOCwxNjBhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsMTI4LDE2MFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "WarningOctagonIcon";
 
 /** @deprecated Use WarningOctagonIcon */
 export const WarningOctagon = I;
-export { I as WarningOctagonIcon };
+export { I as WarningOctagonIcon }

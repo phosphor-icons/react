@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TextOutdent";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTgsOCwwLDAsMS04LDhIMTEyYTgsOCwwLDAsMSwwLTE2SDIxNkE4LDgsMCwwLDEsMjI0LDEyOFpNMTEyLDcySDIxNmE4LDgsMCwwLDAsMC0xNkgxMTJhOCw4LDAsMCwwLDAsMTZaTTIxNiwxODRINDBhOCw4LDAsMCwwLDAsMTZIMjE2YTgsOCwwLDAsMCwwLTE2Wk03MiwxNDRhOCw4LDAsMCwwLDUuNjYtMTMuNjZMNDMuMzEsOTYsNzcuNjYsNjEuNjZBOCw4LDAsMCwwLDY2LjM0LDUwLjM0bC00MCw0MGE4LDgsMCwwLDAsMCwxMS4zMmw0MCw0MEE4LDgsMCwwLDAsNzIsMTQ0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TextOutdentIcon";
 
 /** @deprecated Use TextOutdentIcon */
 export const TextOutdent = I;
-export { I as TextOutdentIcon };
+export { I as TextOutdentIcon }

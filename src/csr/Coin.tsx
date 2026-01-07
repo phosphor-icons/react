@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Coin";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDcuNTgsNjMuODRDMTg2Ljg1LDUzLjQ4LDE1OS4zMyw0OCwxMjgsNDhTNjkuMTUsNTMuNDgsNDguNDIsNjMuODQsMTYsODguNzgsMTYsMTA0djQ4YzAsMTUuMjIsMTEuODIsMjkuODUsMzIuNDIsNDAuMTZTOTYuNjcsMjA4LDEyOCwyMDhzNTguODUtNS40OCw3OS41OC0xNS44NFMyNDAsMTY3LjIyLDI0MCwxNTJWMTA0QzI0MCw4OC43OCwyMjguMTgsNzQuMTUsMjA3LjU4LDYzLjg0Wk0xMjgsNjRjNjIuNjQsMCw5NiwyMy4yMyw5Niw0MHMtMzMuMzYsNDAtOTYsNDAtOTYtMjMuMjMtOTYtNDBTNjUuMzYsNjQsMTI4LDY0Wm0tOCw5NS44NnYzMmMtMTktLjYyLTM1LTMuNDItNDgtNy40OVYxNTMuMDVBMjAzLjQzLDIwMy40MywwLDAsMCwxMjAsMTU5Ljg2Wm0xNiwwYTIwMy40MywyMDMuNDMsMCwwLDAsNDgtNi44MXYzMS4zMWMtMTMsNC4wNy0yOSw2Ljg3LTQ4LDcuNDlaTTMyLDE1MlYxMzMuNTNhODIuODgsODIuODgsMCwwLDAsMTYuNDIsMTAuNjNjMi40MywxLjIxLDUsMi4zNSw3LjU4LDMuNDNWMTc4QzQwLjE3LDE3MC4xNiwzMiwxNjAuMjksMzIsMTUyWm0xNjgsMjZWMTQ3LjU5YzIuNjEtMS4wOCw1LjE1LTIuMjIsNy41OC0zLjQzQTgyLjg4LDgyLjg4LDAsMCwwLDIyNCwxMzMuNTNWMTUyQzIyNCwxNjAuMjksMjE1LjgzLDE3MC4xNiwyMDAsMTc4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CoinIcon";
 
 /** @deprecated Use CoinIcon */
 export const Coin = I;
-export { I as CoinIcon };
+export { I as CoinIcon }

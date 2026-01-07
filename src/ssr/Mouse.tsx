@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Mouse";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDQsMTZIMTEyQTY0LjA3LDY0LjA3LDAsMCwwLDQ4LDgwdjk2YTY0LjA3LDY0LjA3LDAsMCwwLDY0LDY0aDMyYTY0LjA3LDY0LjA3LDAsMCwwLDY0LTY0VjgwQTY0LjA3LDY0LjA3LDAsMCwwLDE0NCwxNlptNDgsNjR2MjRIMTM2VjMyaDhBNDguMDUsNDguMDUsMCwwLDEsMTkyLDgwWk0xMTIsMzJoOHY3Mkg2NFY4MEE0OC4wNSw0OC4wNSwwLDAsMSwxMTIsMzJabTMyLDE5MkgxMTJhNDguMDUsNDguMDUsMCwwLDEtNDgtNDhWMTIwSDE5MnY1NkE0OC4wNSw0OC4wNSwwLDAsMSwxNDQsMjI0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "MouseIcon";
 
 /** @deprecated Use MouseIcon */
 export const Mouse = I;
-export { I as MouseIcon };
+export { I as MouseIcon }

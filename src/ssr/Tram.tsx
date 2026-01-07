@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Tram";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsNDhIMTM2VjI0aDMyYTgsOCwwLDAsMCwwLTE2SDg4YTgsOCwwLDAsMCwwLDE2aDMyVjQ4SDcyQTMyLDMyLDAsMCwwLDQwLDgwVjE4NGEzMiwzMiwwLDAsMCwzMiwzMmg4TDY1LjYsMjM1LjJhOCw4LDAsMSwwLDEyLjgsOS42TDEwMCwyMTZoNTZsMjEuNiwyOC44YTgsOCwwLDEsMCwxMi44LTkuNkwxNzYsMjE2aDhhMzIsMzIsMCwwLDAsMzItMzJWODBBMzIsMzIsMCwwLDAsMTg0LDQ4Wk03Miw2NEgxODRhMTYsMTYsMCwwLDEsMTYsMTZ2NDBINTZWODBBMTYsMTYsMCwwLDEsNzIsNjRaTTE4NCwyMDBINzJhMTYsMTYsMCwwLDEtMTYtMTZWMTM2SDIwMHY0OEExNiwxNiwwLDAsMSwxODQsMjAwWk05NiwxNzJhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsOTYsMTcyWm04OCwwYTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE4NCwxNzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "TramIcon";
 
 /** @deprecated Use TramIcon */
 export const Tram = I;
-export { I as TramIcon };
+export { I as TramIcon }

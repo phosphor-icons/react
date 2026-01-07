@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FileMd";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsODIuMzRsLTU2LTU2QTgsOCwwLDAsMCwxNTIsMjRINTZBMTYsMTYsMCwwLDAsNDAsNDB2NzJhOCw4LDAsMCwwLDE2LDBWNDBoODhWODhhOCw4LDAsMCwwLDgsOGg0OFYyMjRhOCw4LDAsMCwwLDE2LDBWODhBOCw4LDAsMCwwLDIxMy42Niw4Mi4zNFpNMTYwLDUxLjMxLDE4OC42OSw4MEgxNjBaTTE0NCwxNDRIMTI4YTgsOCwwLDAsMC04LDh2NTZhOCw4LDAsMCwwLDgsOGgxNmEzNiwzNiwwLDAsMCwwLTcyWm0wLDU2aC04VjE2MGg4YTIwLDIwLDAsMCwxLDAsNDBabS00MC00OHY1NmE4LDgsMCwwLDEtMTYsMFYxNzcuMzhMNzQuNTUsMTk2LjU5YTgsOCwwLDAsMS0xMy4xLDBMNDgsMTc3LjM4VjIwOGE4LDgsMCwwLDEtMTYsMFYxNTJhOCw4LDAsMCwxLDE0LjU1LTQuNTlMNjgsMTc4LjA1bDIxLjQ1LTMwLjY0QTgsOCwwLDAsMSwxMDQsMTUyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FileMdIcon";
 
 /** @deprecated Use FileMdIcon */
 export const FileMd = I;
-export { I as FileMdIcon };
+export { I as FileMdIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HandTap";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01Niw3NmE2MCw2MCwwLDAsMSwxMjAsMCw4LDgsMCwwLDEtMTYsMCw0NCw0NCwwLDAsMC04OCwwLDgsOCwwLDEsMS0xNiwwWm0xNDAsNDRhMjcuOSwyNy45LDAsMCwwLTEzLjM2LDMuMzlBMjgsMjgsMCwwLDAsMTQ0LDEwNi43Vjc2YTI4LDI4LDAsMCwwLTU2LDB2ODBsLTMuODItNi4xM2EyOCwyOCwwLDAsMC00OC40MSwyOC4xN2wyOS4zMiw1MEE4LDgsMCwxLDAsNzguODksMjIwTDQ5LjYsMTcwYTEyLDEyLDAsMSwxLDIwLjc4LTEybC4xNC4yMywxOC42OCwzMEE4LDgsMCwwLDAsMTA0LDE4NFY3NmExMiwxMiwwLDAsMSwyNCwwdjY4YTgsOCwwLDEsMCwxNiwwVjEzMmExMiwxMiwwLDAsMSwyNCwwdjIwYTgsOCwwLDAsMCwxNiwwdi00YTEyLDEyLDAsMCwxLDI0LDB2MzZjMCwyMS42MS03LjEsMzYuMy03LjE2LDM2LjQyYTgsOCwwLDAsMCwzLjU4LDEwLjczQTcuOSw3LjksMCwwLDAsMjA4LDIzMmE4LDgsMCwwLDAsNy4xNi00LjQyYy4zNy0uNzMsOC44NS0xOCw4Ljg1LTQzLjU4VjE0OEEyOCwyOCwwLDAsMCwxOTYsMTIwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "HandTapIcon";
 
 /** @deprecated Use HandTapIcon */
 export const HandTap = I;
-export { I as HandTapIcon };
+export { I as HandTapIcon }

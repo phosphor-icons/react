@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChatTeardropSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01My45MiwzNC42MkE4LDgsMCwxLDAsNDIuMDgsNDUuMzhsMTMuMTgsMTQuNUE5OS4zOSw5OS4zOSwwLDAsMCwzMiwxMjR2ODRhMTYsMTYsMCwwLDAsMTYsMTZoODRhMTAwLjMzLDEwMC4zMywwLDAsMCw1Ni41My0xNy41M2wxMy41NSwxNC45MWE4LDgsMCwxLDAsMTEuODQtMTAuNzZaTTEzMiwyMDhINDhWMTI0QTgzLjQ2LDgzLjQ2LDAsMCwxLDY2LjE1LDcxLjg1TDE3Ny42NiwxOTQuNTFBODMsODMsMCwwLDEsMTMyLDIwOFptMTAwLTg0YTk5Ljg3LDk5Ljg3LDAsMCwxLTE0LjM1LDUxLjY1LDgsOCwwLDAsMS0xMy43LTguMjhBODQsODQsMCwwLDAsOTUuNjYsNDguMjVhOCw4LDAsMCwxLTYuOTQtMTQuNDJBMTAwLDEwMCwwLDAsMSwyMzIsMTI0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ChatTeardropSlashIcon";
 
 /** @deprecated Use ChatTeardropSlashIcon */
 export const ChatTeardropSlash = I;
-export { I as ChatTeardropSlashIcon };
+export { I as ChatTeardropSlashIcon }

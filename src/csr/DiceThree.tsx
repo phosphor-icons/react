@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/DiceThree";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMzJINjRBMzIsMzIsMCwwLDAsMzIsNjRWMTkyYTMyLDMyLDAsMCwwLDMyLDMySDE5MmEzMiwzMiwwLDAsMCwzMi0zMlY2NEEzMiwzMiwwLDAsMCwxOTIsMzJabTE2LDE2MGExNiwxNiwwLDAsMS0xNiwxNkg2NGExNiwxNiwwLDAsMS0xNi0xNlY2NEExNiwxNiwwLDAsMSw2NCw0OEgxOTJhMTYsMTYsMCwwLDEsMTYsMTZaTTEwNCw5MkExMiwxMiwwLDEsMSw5Miw4MCwxMiwxMiwwLDAsMSwxMDQsOTJabTM2LDM2YTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE0MCwxMjhabTM2LDM2YTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE3NiwxNjRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "DiceThreeIcon";
 
 /** @deprecated Use DiceThreeIcon */
 export const DiceThree = I;
-export { I as DiceThreeIcon };
+export { I as DiceThreeIcon }

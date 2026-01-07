@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BracketsRound";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik00MCwxMjhjMCw1OC4yOSwzNC42Nyw4MC4yNSwzNi4xNSw4MS4xNmE4LDgsMCwwLDEtOC4yNywxMy43QzY2LjA5LDIyMS43OCwyNCwxOTUuNzUsMjQsMTI4UzY2LjA5LDM0LjIyLDY3Ljg4LDMzLjE0YTgsOCwwLDAsMSw4LjI2LDEzLjdDNzQuNTQsNDcuODMsNDAsNjkuODIsNDAsMTI4Wk0xODguMTIsMzMuMTRhOCw4LDAsMCwwLTguMjcsMTMuN0MxODEuMzMsNDcuNzUsMjE2LDY5LjcxLDIxNiwxMjhzLTM0LjY3LDgwLjI1LTM2LjEyLDgxLjE0YTgsOCwwLDAsMCw4LjI0LDEzLjcyQzE4OS45MSwyMjEuNzgsMjMyLDE5NS43NSwyMzIsMTI4UzE4OS45MSwzNC4yMiwxODguMTIsMzMuMTRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BracketsRoundIcon";
 
 /** @deprecated Use BracketsRoundIcon */
 export const BracketsRound = I;
-export { I as BracketsRoundIcon };
+export { I as BracketsRoundIcon }

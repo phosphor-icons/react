@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Dna";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMjA0LjVWMjMyYTgsOCwwLDAsMS0xNiwwVjIwNC41YTYzLjY3LDYzLjY3LDAsMCwwLTM1LjM4LTU3LjI1bC00OC40LTI0LjE5QTc5LjU4LDc5LjU4LDAsMCwxLDU2LDUxLjVWMjRhOCw4LDAsMCwxLDE2LDBWNTEuNWE2My42Nyw2My42NywwLDAsMCwzNS4zOCw1Ny4yNWw0OC40LDI0LjE5QTc5LjU4LDc5LjU4LDAsMCwxLDIwMCwyMDQuNVpNMTYwLDIwMEg3Mi4xN2E2My41OSw2My41OSwwLDAsMSwzLjIzLTE2aDcyLjcxYTgsOCwwLDAsMCwwLTE2SDgzLjQ2YTYzLjcxLDYzLjcxLDAsMCwxLDE0LjY1LTE1LjA4QTgsOCwwLDEsMCw4OC42NCwxNDAsODAuMjcsODAuMjcsMCwwLDAsNTYsMjA0LjVWMjMyYTgsOCwwLDAsMCwxNiwwVjIxNmg4OGE4LDgsMCwwLDAsMC0xNlpNMTkyLDE2YTgsOCwwLDAsMC04LDhWNDBIOTZhOCw4LDAsMCwwLDAsMTZoODcuODNhNjMuNTksNjMuNTksMCwwLDEtMy4yMywxNkgxMDcuODlhOCw4LDAsMSwwLDAsMTZoNjQuNjVhNjMuNzEsNjMuNzEsMCwwLDEtMTQuNjUsMTUuMDgsOCw4LDAsMCwwLDkuNDcsMTIuOUE4MC4yNyw4MC4yNywwLDAsMCwyMDAsNTEuNVYyNEE4LDgsMCwwLDAsMTkyLDE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "DnaIcon";
 
 /** @deprecated Use DnaIcon */
 export const Dna = I;
-export { I as DnaIcon };
+export { I as DnaIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/UserCircleMinus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsNTZhOCw4LDAsMCwxLDgtOGg0OGE4LDgsMCwwLDEsMCwxNkgxNzZBOCw4LDAsMCwxLDE2OCw1NlptNTguMDgsMzcuMzNhMTAzLjkzLDEwMy45MywwLDEsMS04MC43Ni02Ny44OSw4LDgsMCwwLDEtMi42NCwxNS43OEE4OC4wNyw4OC4wNywwLDAsMCw0MCwxMjhhODcuNjIsODcuNjIsMCwwLDAsMjIuMjQsNTguNDFBNzkuNjYsNzkuNjYsMCwwLDEsOTguMywxNTcuNjZhNDgsNDgsMCwxLDEsNTkuNCwwLDc5LjY2LDc5LjY2LDAsMCwxLDM2LjA2LDI4Ljc1QTg4LDg4LDAsMCwwLDIxMSw5OC42N2E4LDgsMCwwLDEsMTUuMDktNS4zNFpNMTI4LDE1MmEzMiwzMiwwLDEsMC0zMi0zMkEzMiwzMiwwLDAsMCwxMjgsMTUyWm0wLDY0YTg3LjU3LDg3LjU3LDAsMCwwLDUzLjkyLTE4LjUsNjQsNjQsMCwwLDAtMTA3Ljg0LDBBODcuNTcsODcuNTcsMCwwLDAsMTI4LDIxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "UserCircleMinusIcon";
 
 /** @deprecated Use UserCircleMinusIcon */
 export const UserCircleMinus = I;
-export { I as UserCircleMinusIcon };
+export { I as UserCircleMinusIcon }

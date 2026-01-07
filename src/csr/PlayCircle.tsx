@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PlayCircle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlptNDguMjQtOTQuNzgtNjQtNDBBOCw4LDAsMCwwLDEwMCw4OHY4MGE4LDgsMCwwLDAsMTIuMjQsNi43OGw2NC00MGE4LDgsMCwwLDAsMC0xMy41NlpNMTE2LDE1My41N1YxMDIuNDNMMTU2LjkxLDEyOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PlayCircleIcon";
 
 /** @deprecated Use PlayCircleIcon */
 export const PlayCircle = I;
-export { I as PlayCircleIcon };
+export { I as PlayCircleIcon }

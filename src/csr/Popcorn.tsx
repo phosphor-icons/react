@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Popcorn";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjkuNTIsNzQuMjFhOCw4LDAsMCwwLTcuMTMtMkE0NCw0NCwwLDAsMCwxNjgsNDEuNjdhNDQsNDQsMCwwLDAtODAsMCw0NCw0NCwwLDAsMC01NC40LDMwLjUxLDgsOCwwLDAsMC05LjQsOS42NUw1NC43NiwyMTEuNjdBMTYsMTYsMCwwLDAsNzAuMzQsMjI0SDE4NS42NmExNiwxNiwwLDAsMCwxNS41OC0xMi4zM0wyMzEuNzksODEuODNBOCw4LDAsMCwwLDIyOS41Miw3NC4yMVpNNzYsNTZhMjcuNjgsMjcuNjgsMCwwLDEsMTMuMTEsMy4yNiw4LDgsMCwwLDAsMTEuNTYtNS4zNCwyOCwyOCwwLDAsMSw1NC42NiwwLDgsOCwwLDAsMCwxMS41Niw1LjM0QTI4LDI4LDAsMCwxLDIwNyw3Ni41NGwtMzguNTYsMTEtMzQuNDktMTMuOGExNiwxNiwwLDAsMC0xMS44OCwwTDg3LjU3LDg3LjU2LDQ5LDc2LjU0QTI4LDI4LDAsMCwxLDc2LDU2Wk03MC4zNCwyMDgsNDIuOTEsOTEuNDRsMzcuODUsMTAuODFMOTQuODYsMjA4Wk0xNDUsMjA4SDExMUw5Ni43NSwxMDEuMTIsMTI4LDg4LjYybDMxLjI1LDEyLjVabTQwLjY2LDBIMTYxLjE0bDE0LjEtMTA1Ljc1LDM3Ljg1LTEwLjgxWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PopcornIcon";
 
 /** @deprecated Use PopcornIcon */
 export const Popcorn = I;
-export { I as PopcornIcon };
+export { I as PopcornIcon }

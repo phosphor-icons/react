@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Wheelchair";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTUuNTksMTg5LjQ3YTgsOCwwLDAsMC0xMC4xMi01LjA2bC0xNy40Miw1LjgxLTI4LjktNTcuOEE4LDgsMCwwLDAsMTkyLDEyOEgxMTJWMTA0aDU2YTgsOCwwLDAsMCwwLTE2SDExMlY3OWEzMiwzMiwwLDEsMC0xNiwwVjg5LjgxQTcyLDcyLDAsMCwwLDExMiwyMzJjMzMuNTIsMCw2My42OS0yMi43MSw3MS43NS01NGE4LDgsMCwxLDAtMTUuNS00QzE2Mi4wOSwxOTgsMTM3LjkxLDIxNiwxMTIsMjE2QTU2LDU2LDAsMCwxLDk2LDEwNi4zNFYxMzZhOCw4LDAsMCwwLDgsOGg4My4wNWwyOS43OSw1OS41OGE4LDgsMCwwLDAsOS42OSw0bDI0LThBOCw4LDAsMCwwLDI1NS41OSwxODkuNDdaTTg4LDQ4YTE2LDE2LDAsMSwxLDE2LDE2QTE2LDE2LDAsMCwxLDg4LDQ4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "WheelchairIcon";
 
 /** @deprecated Use WheelchairIcon */
 export const Wheelchair = I;
-export { I as WheelchairIcon };
+export { I as WheelchairIcon }

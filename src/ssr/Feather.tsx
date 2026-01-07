@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Feather";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuMjgsMzQuNzVhNjQsNjQsMCwwLDAtOTAuNDksMEw2MC42OSwxMDRBMTUuOSwxNS45LDAsMCwwLDU2LDExNS4zMXY3My4zOEwyNi4zNCwyMTguMzRhOCw4LDAsMCwwLDExLjMyLDExLjMyTDY3LjMyLDIwMEgxNDAuN0ExNS45MiwxNS45MiwwLDAsMCwxNTIsMTk1LjMybDAsMCw2OS4yMy03MEE2NCw2NCwwLDAsMCwyMjEuMjgsMzQuNzVaTTE0Mi4wNyw0Ni4wNkE0OCw0OCwwLDAsMSwyMTEuNzksMTEySDE1NS4zM2wzNC4zNS0zNC4zNGE4LDgsMCwwLDAtMTEuMzItMTEuMzJMMTIwLDEyNC42OVY2Ny44N1pNNzIsMTE1LjM1bDMyLTMxLjY3djU3bC0zMiwzMlpNMTQwLjcsMTg0SDgzLjMybDU2LTU2aDU2Ljc0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FeatherIcon";
 
 /** @deprecated Use FeatherIcon */
 export const Feather = I;
-export { I as FeatherIcon };
+export { I as FeatherIcon }

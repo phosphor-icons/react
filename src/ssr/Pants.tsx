@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Pants";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjMuODgsMjE0bC0yMi0xNzZBMTYsMTYsMCwwLDAsMTg2LDI0SDcwQTE2LDE2LDAsMCwwLDU0LjEyLDM4bC0yMiwxNzZBMTYsMTYsMCwwLDAsNDgsMjMySDg4LjY5YTE2LDE2LDAsMCwwLDE1LjUxLTEyLjA2bDIzLjgtOTIsMjMuNzksOTEuOTRBMTYsMTYsMCwwLDAsMTY3LjMxLDIzMkgyMDhhMTYsMTYsMCwwLDAsMTUuODgtMThaTTE5Mi45LDk1LjJBMzIuMTMsMzIuMTMsMCwwLDEsMTY5LDcyaDIxWk0xODYsNDBsMiwxNkg2OGwyLTE2Wk02Niw3Mkg4N0EzMi4xMywzMi4xMywwLDAsMSw2My4xLDk1LjJaTTg4LjY5LDIxNkg0OEw2MSwxMTEuNzNBNDguMDgsNDguMDgsMCwwLDAsMTAzLjMyLDcySDEyMFY5NVptNzguNi0uMDZMMTM2LDk1VjcyaDE2LjY4QTQ4LjA4LDQ4LjA4LDAsMCwwLDE5NSwxMTEuNzNMMjA4LDIxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PantsIcon";
 
 /** @deprecated Use PantsIcon */
 export const Pants = I;
-export { I as PantsIcon };
+export { I as PantsIcon }

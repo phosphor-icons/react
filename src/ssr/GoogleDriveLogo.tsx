@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GoogleDriveLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzcuNiwxNDMuNzgsMTY5LjEzLDMxLjUyQTE1LjkxLDE1LjkxLDAsMCwwLDE1NS41NiwyNEgxMDAuNDNhMTUuODksMTUuODksMCwwLDAtMTMuNTYsNy41MmwtLjA1LjA3TDE4LjQ0LDE0My43YTE2LDE2LDAsMCwwLS4zMywxNi40MmwyNy4zMiw0Ny44MkExNiwxNiwwLDAsMCw1OS4zMiwyMTZIMTk2LjY3YTE2LDE2LDAsMCwwLDEzLjg5LTguMDZsMjcuMzItNDcuODJBMTUuOTEsMTUuOTEsMCwwLDAsMjM3LjYsMTQzLjc4Wk0yMTksMTQ0SDE3Mi41MkwxMzcuMzMsODUuMzNsMjIuNzUtMzcuOTJabS0xMTYuODcsMEwxMjgsMTAwLjg4LDE1My44NywxNDRabTYxLjM0LDE2LDI0LDQwSDY4LjUzbDI0LTQwWk0xMjgsNjkuNzgsMTEwLjEyLDQwbDM1Ljc4LS4wNVpNOTUuOTEsNDcuNDFsMjIuNzYsMzcuOTJMODMuNDcsMTQ0SDM3Wk0zNi41NCwxNjBINzMuODdMNTQuNzIsMTkxLjkyWm0xNjQuNzQsMzEuOTNMMTgyLjEyLDE2MGgzNy40MVoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "GoogleDriveLogoIcon";
 
 /** @deprecated Use GoogleDriveLogoIcon */
 export const GoogleDriveLogo = I;
-export { I as GoogleDriveLogoIcon };
+export { I as GoogleDriveLogoIcon }

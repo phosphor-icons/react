@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/UserList";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsODBhOCw4LDAsMCwxLDgtOGg4OGE4LDgsMCwwLDEsMCwxNkgxNjBBOCw4LDAsMCwxLDE1Miw4MFptOTYsNDBIMTYwYTgsOCwwLDAsMCwwLDE2aDg4YTgsOCwwLDAsMCwwLTE2Wm0wLDQ4SDE4NGE4LDgsMCwwLDAsMCwxNmg2NGE4LDgsMCwwLDAsMC0xNlptLTk2LjI1LDIyYTgsOCwwLDAsMS01Ljc2LDkuNzQsNy41NSw3LjU1LDAsMCwxLTIsLjI2LDgsOCwwLDAsMS03Ljc1LTZjLTYuMTYtMjMuOTQtMzAuMzQtNDItNTYuMjUtNDJzLTUwLjA5LDE4LjA1LTU2LjI1LDQyYTgsOCwwLDAsMS0xNS41LTRjNS41OS0yMS43MSwyMS44NC0zOS4yOSw0Mi40Ni00OGE0OCw0OCwwLDEsMSw1OC41OCwwQzEyOS45MSwxNTAuNzEsMTQ2LjE2LDE2OC4yOSwxNTEuNzUsMTkwWk04MCwxMzZhMzIsMzIsMCwxLDAtMzItMzJBMzIsMzIsMCwwLDAsODAsMTM2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "UserListIcon";
 
 /** @deprecated Use UserListIcon */
 export const UserList = I;
-export { I as UserListIcon };
+export { I as UserListIcon }

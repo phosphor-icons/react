@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TextStrikethrough";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTgsOCwwLDAsMS04LDhIMTc1LjkzYzkuMTksNy4xMSwxNi4wNywxNy4yLDE2LjA3LDMyLDAsMTMuMzQtNywyNS43LTE5Ljc1LDM0Ljc5QzE2MC4zMywyMTEuMzEsMTQ0LjYxLDIxNiwxMjgsMjE2cy0zMi4zMy00LjY5LTQ0LjI1LTEzLjIxQzcxLDE5My43LDY0LDE4MS4zNCw2NCwxNjhhOCw4LDAsMCwxLDE2LDBjMCwxNy4zNSwyMiwzMiw0OCwzMnM0OC0xNC42NSw0OC0zMmMwLTE0Ljg1LTEwLjU0LTIzLjU4LTM4Ljc3LTMySDQwYTgsOCwwLDAsMSwwLTE2SDIxNkE4LDgsMCwwLDEsMjI0LDEyOFpNNzYuMzMsMTA0YTgsOCwwLDAsMCw3LjYxLTEwLjQ5QTE3LjMsMTcuMywwLDAsMSw4My4xMSw4OGMwLTE4LjI0LDE5LjMtMzIsNDQuODktMzIsMTguODQsMCwzNC4xNiw3LjQyLDQxLDE5Ljg1YTgsOCwwLDAsMCwxNC03LjdDMTczLjMzLDUwLjUyLDE1Mi43Nyw0MCwxMjgsNDAsOTMuMjksNDAsNjcuMTEsNjAuNjMsNjcuMTEsODhhMzMuNzMsMzMuNzMsMCwwLDAsMS42MiwxMC40OUE4LDgsMCwwLDAsNzYuMzMsMTA0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TextStrikethroughIcon";
 
 /** @deprecated Use TextStrikethroughIcon */
 export const TextStrikethrough = I;
-export { I as TextStrikethroughIcon };
+export { I as TextStrikethroughIcon }

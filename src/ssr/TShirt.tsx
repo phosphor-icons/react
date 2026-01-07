@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TShirt";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDcuNTksNjEuMjIsMTk1LjgzLDMzQTgsOCwwLDAsMCwxOTIsMzJIMTYwYTgsOCwwLDAsMC04LDgsMjQsMjQsMCwwLDEtNDgsMCw4LDgsMCwwLDAtOC04SDY0YTgsOCwwLDAsMC0zLjg0LDFMOC40MSw2MS4yMkExNS43NiwxNS43NiwwLDAsMCwxLjgyLDgyLjQ4bDE5LjI3LDM2LjgxQTE2LjM3LDE2LjM3LDAsMCwwLDM1LjY3LDEyOEg1NnY4MGExNiwxNiwwLDAsMCwxNiwxNkgxODRhMTYsMTYsMCwwLDAsMTYtMTZWMTI4aDIwLjM0YTE2LjM3LDE2LjM3LDAsMCwwLDE0LjU4LTguNzFsMTkuMjctMzYuODFBMTUuNzYsMTUuNzYsMCwwLDAsMjQ3LjU5LDYxLjIyWk0zNS42NywxMTJhLjYyLjYyLDAsMCwxLS40MS0uMTNMMTYuMDksNzUuMjYsNTYsNTMuNDhWMTEyWk0xODQsMjA4SDcyVjQ4aDE2LjhhNDAsNDAsMCwwLDAsNzguMzgsMEgxODRabTM2Ljc1LTk2LjE0YS41NS41NSwwLDAsMS0uNDEuMTRIMjAwVjUzLjQ4bDM5LjkyLDIxLjc4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TShirtIcon";
 
 /** @deprecated Use TShirtIcon */
 export const TShirt = I;
-export { I as TShirtIcon };
+export { I as TShirtIcon }

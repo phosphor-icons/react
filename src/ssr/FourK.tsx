@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FourK";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNCw0OGE4LDgsMCwwLDEsOC04SDIyNGE4LDgsMCwwLDEsMCwxNkgzMkE4LDgsMCwwLDEsMjQsNDhaTTIyNCwyMDBIMzJhOCw4LDAsMCwwLDAsMTZIMjI0YTgsOCwwLDAsMCwwLTE2Wk0xNDQsNzJhOCw4LDAsMCwwLTgsOHY5NmE4LDgsMCwwLDAsMTYsMFYxNDdsMTMuMDktMTUsMjgsNDhBOCw4LDAsMSwwLDIwNi45MSwxNzJsLTMwLjctNTIuNjNMMjA2LDg1LjI3YTgsOCwwLDEsMC0xMi0xMC41NGwtNDIsNDhWODBBOCw4LDAsMCwwLDE0NCw3MlpNODgsMTc2VjE2MEg0MGE4LDgsMCwwLDEtNi4zMS0xMi45MWw1Ni03MkE4LDgsMCwwLDEsMTA0LDgwdjY0aDhhOCw4LDAsMCwxLDAsMTZoLTh2MTZhOCw4LDAsMCwxLTE2LDBabTAtMzJWMTAzLjMyTDU2LjM2LDE0NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "FourKIcon";
 
 /** @deprecated Use FourKIcon */
 export const FourK = I;
-export { I as FourKIcon };
+export { I as FourKIcon }

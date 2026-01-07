@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Thermometer";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTIsNTZhMjgsMjgsMCwxLDAsMjgsMjhBMjgsMjgsMCwwLDAsMjEyLDU2Wm0wLDQwYTEyLDEyLDAsMSwxLDEyLTEyQTEyLDEyLDAsMCwxLDIxMiw5NlptLTg0LDU3Vjg4YTgsOCwwLDAsMC0xNiwwdjY1YTMyLDMyLDAsMSwwLDE2LDBabS04LDQ3YTE2LDE2LDAsMSwxLDE2LTE2QTE2LDE2LDAsMCwxLDEyMCwyMDBabTQwLTY2VjQ4YTQwLDQwLDAsMCwwLTgwLDB2ODZhNjQsNjQsMCwxLDAsODAsMFptLTQwLDk4YTQ4LDQ4LDAsMCwxLTI3LjQyLTg3LjRBOCw4LDAsMCwwLDk2LDEzOFY0OGEyNCwyNCwwLDAsMSw0OCwwdjkwYTgsOCwwLDAsMCwzLjQyLDYuNTZBNDgsNDgsMCwwLDEsMTIwLDIzMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ThermometerIcon";
 
 /** @deprecated Use ThermometerIcon */
 export const Thermometer = I;
-export { I as ThermometerIcon };
+export { I as ThermometerIcon }

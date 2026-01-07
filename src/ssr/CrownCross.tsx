@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CrownCross";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODAsNTZjLTE3Ljc0LDAtMzMuMjEsNi40OC00NCwxNy4xNlY0MGgxNmE4LDgsMCwwLDAsMC0xNkgxMzZWOGE4LDgsMCwwLDAtMTYsMFYyNEgxMDRhOCw4LDAsMCwwLDAsMTZoMTZWNzMuMTZDMTA5LjIxLDYyLjQ4LDkzLjc0LDU2LDc2LDU2YTYwLjA3LDYwLjA3LDAsMCwwLTYwLDYwYzAsMjkuODYsMTQuNTQsNDguODUsMjYuNzMsNTkuNTJBOTAuNDgsOTAuNDgsMCwwLDAsNjQsMTg5LjM0VjIwOGExNiwxNiwwLDAsMCwxNiwxNmg5NmExNiwxNiwwLDAsMCwxNi0xNlYxODkuMzRhOTAuNDgsOTAuNDgsMCwwLDAsMjEuMjctMTMuODJDMjI1LjQ2LDE2NC44NSwyNDAsMTQ1Ljg2LDI0MCwxMTZBNjAuMDcsNjAuMDcsMCwwLDAsMTgwLDU2Wm0xLjQ3LDEyMC40MUE4LDgsMCwwLDAsMTc2LDE4NHYyNEg4MFYxODRhOCw4LDAsMCwwLTUuNDctNy41OUM3NC4xLDE3Ni4yNywzMiwxNjEuNywzMiwxMTZBNDQuMDUsNDQuMDUsMCwwLDEsNzYsNzJjMjUuNSwwLDQ0LDE2LjgyLDQ0LDQwdjY0YTgsOCwwLDAsMCwxNiwwVjExMmMwLTIzLjE4LDE4LjUtNDAsNDQtNDBhNDQuMDUsNDQuMDUsMCwwLDEsNDQsNDRDMjI0LDE2MS40LDE4My4xOCwxNzUuODMsMTgxLjQ3LDE3Ni40MVoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CrownCrossIcon";
 
 /** @deprecated Use CrownCrossIcon */
 export const CrownCross = I;
-export { I as CrownCrossIcon };
+export { I as CrownCrossIcon }

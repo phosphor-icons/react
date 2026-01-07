@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Anchor";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTM2YTgsOCwwLDAsMC04LDhjMCwyNC42OS0xMy43NywyOS42NC0zOC4xLDM2LjI4LTExLjM2LDMuMS0yNC4xMiw2LjYtMzMuOSwxNC4zNFYxMjhoMzJhOCw4LDAsMCwwLDAtMTZIMTM2Vjg3YTMyLDMyLDAsMSwwLTE2LDB2MjVIODhhOCw4LDAsMCwwLDAsMTZoMzJ2NjYuNjJjLTkuNzgtNy43NC0yMi41NC0xMS4yNC0zMy45LTE0LjM0QzYxLjc3LDE3My42NCw0OCwxNjguNjksNDgsMTQ0YTgsOCwwLDAsMC0xNiwwYzAsMzguMTEsMjcuNjcsNDUuNjYsNDkuOSw1MS43MkMxMDYuMjMsMjAyLjM2LDEyMCwyMDcuMzEsMTIwLDIzMmE4LDgsMCwwLDAsMTYsMGMwLTI0LjY5LDEzLjc3LTI5LjY0LDM4LjEtMzYuMjhDMTk2LjMzLDE4OS42NiwyMjQsMTgyLjExLDIyNCwxNDRBOCw4LDAsMCwwLDIxNiwxMzZaTTExMiw1NmExNiwxNiwwLDEsMSwxNiwxNkExNiwxNiwwLDAsMSwxMTIsNTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "AnchorIcon";
 
 /** @deprecated Use AnchorIcon */
 export const Anchor = I;
-export { I as AnchorIcon };
+export { I as AnchorIcon }

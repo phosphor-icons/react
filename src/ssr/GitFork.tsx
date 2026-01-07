@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GitFork";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNjRhMzIsMzIsMCwxLDAtNDAsMzF2MTdhOCw4LDAsMCwxLTgsOEg4MGE4LDgsMCwwLDEtOC04Vjk1YTMyLDMyLDAsMSwwLTE2LDB2MTdhMjQsMjQsMCwwLDAsMjQsMjRoNDB2MjVhMzIsMzIsMCwxLDAsMTYsMFYxMzZoNDBhMjQsMjQsMCwwLDAsMjQtMjRWOTVBMzIuMDYsMzIuMDYsMCwwLDAsMjI0LDY0Wk00OCw2NEExNiwxNiwwLDEsMSw2NCw4MCwxNiwxNiwwLDAsMSw0OCw2NFptOTYsMTI4YTE2LDE2LDAsMSwxLTE2LTE2QTE2LDE2LDAsMCwxLDE0NCwxOTJaTTE5Miw4MGExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwxOTIsODBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "GitForkIcon";
 
 /** @deprecated Use GitForkIcon */
 export const GitFork = I;
-export { I as GitForkIcon };
+export { I as GitForkIcon }

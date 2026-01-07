@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowsInLineVertical";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTgsOCwwLDAsMS04LDhINDBhOCw4LDAsMCwxLDAtMTZIMjE2QTgsOCwwLDAsMSwyMjQsMTI4Wk0xMjIuMzQsMTAxLjY2YTgsOCwwLDAsMCwxMS4zMiwwbDMyLTMyYTgsOCwwLDAsMC0xMS4zMi0xMS4zMkwxMzYsNzYuNjlWMTZhOCw4LDAsMCwwLTE2LDBWNzYuNjlMMTAxLjY2LDU4LjM0QTgsOCwwLDAsMCw5MC4zNCw2OS42NlptMTEuMzIsNTIuNjhhOCw4LDAsMCwwLTExLjMyLDBsLTMyLDMyYTgsOCwwLDAsMCwxMS4zMiwxMS4zMkwxMjAsMTc5LjMxVjI0MGE4LDgsMCwwLDAsMTYsMFYxNzkuMzFsMTguMzQsMTguMzVhOCw4LDAsMCwwLDExLjMyLTExLjMyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ArrowsInLineVerticalIcon";
 
 /** @deprecated Use ArrowsInLineVerticalIcon */
 export const ArrowsInLineVertical = I;
-export { I as ArrowsInLineVerticalIcon };
+export { I as ArrowsInLineVerticalIcon }

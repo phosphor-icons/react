@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Armchair";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsODguOFY3MmE0MCw0MCwwLDAsMC00MC00MEg4MEE0MCw0MCwwLDAsMCw0MCw3MlY4OC44YTQwLDQwLDAsMCwwLDAsNzguNFYyMDBhMTYsMTYsMCwwLDAsMTYsMTZIMjAwYTE2LDE2LDAsMCwwLDE2LTE2VjE2Ny4yYTQwLDQwLDAsMCwwLDAtNzguNFpNODAsNDhoOTZhMjQsMjQsMCwwLDEsMjQsMjRWODguOEE0MC4wNyw0MC4wNywwLDAsMCwxNjgsMTI4SDg4QTQwLjA3LDQwLjA3LDAsMCwwLDU2LDg4LjhWNzJBMjQsMjQsMCwwLDEsODAsNDhaTTIwOC4zOSwxNTJIMjA4YTgsOCwwLDAsMC04LDh2NDBINTZWMTYwYTgsOCwwLDAsMC04LThoLS4zOUEyNCwyNCwwLDEsMSw3MiwxMjh2NDBhOCw4LDAsMCwwLDE2LDBWMTQ0aDgwdjI0YTgsOCwwLDAsMCwxNiwwVjEyOGEyNCwyNCwwLDEsMSwyNC4zOSwyNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ArmchairIcon";
 
 /** @deprecated Use ArmchairIcon */
 export const Armchair = I;
-export { I as ArmchairIcon };
+export { I as ArmchairIcon }

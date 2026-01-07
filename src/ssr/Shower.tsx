@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Shower";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik02NCwyMzZhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsNjQsMjM2Wm0yMC00NGExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCw4NCwxOTJabS02NCwwYTEyLDEyLDAsMSwwLDEyLDEyQTEyLDEyLDAsMCwwLDIwLDE5MlptMzItMzJhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsNTIsMTYwWk0yNTYsNDBhOCw4LDAsMCwxLTgsOEgyMTkuMzFMMTkxLjQ2LDc1Ljg2LDE2OS44LDIwMi42NWExNiwxNiwwLDAsMS0yNy4wOSw4LjY2bC05OC05OGExNiwxNiwwLDAsMSw4LjY5LTI3LjFMMTgwLjE0LDY0LjU0bDMwLjItMzAuMkE4LDgsMCwwLDEsMjE2LDMyaDMyQTgsOCwwLDAsMSwyNTYsNDBaTTE3NC4yMSw4MS43OSw1NiwxMDJsOTgsOThaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ShowerIcon";
 
 /** @deprecated Use ShowerIcon */
 export const Shower = I;
-export { I as ShowerIcon };
+export { I as ShowerIcon }

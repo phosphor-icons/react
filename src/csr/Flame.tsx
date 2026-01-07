@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Flame";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzMuNzksNTEuNDhhMjIxLjI1LDIyMS4yNSwwLDAsMC00MS42Ny0zNC4zNCw4LDgsMCwwLDAtOC4yNCwwQTIyMS4yNSwyMjEuMjUsMCwwLDAsODIuMjEsNTEuNDhDNTQuNTksODAuNDgsNDAsMTEyLjQ3LDQwLDE0NGE4OCw4OCwwLDAsMCwxNzYsMEMyMTYsMTEyLjQ3LDIwMS40MSw4MC40OCwxNzMuNzksNTEuNDhaTTk2LDE4NGMwLTI3LjY3LDIyLjUzLTQ3LjI4LDMyLTU0LjMsOS40OCw3LDMyLDI2LjYzLDMyLDU0LjNhMzIsMzIsMCwwLDEtNjQsMFptNzcuMjcsMTUuOTNBNDcuOCw0Ny44LDAsMCwwLDE3NiwxODRjMC00NC00Mi4wOS02OS43OS00My44OC03MC44NmE4LDgsMCwwLDAtOC4yNCwwQzEyMi4wOSwxMTQuMjEsODAsMTQwLDgwLDE4NGE0Ny44LDQ3LjgsMCwwLDAsMi43MywxNS45M0E3MS44OCw3MS44OCwwLDAsMSw1NiwxNDRjMC0zNC40MSwyMC40LTYzLjE1LDM3LjUyLTgxLjE5QTIxNi4yMSwyMTYuMjEsMCwwLDEsMTI4LDMzLjU0YTIxNS43NywyMTUuNzcsMCwwLDEsMzQuNDgsMjkuMjdDMTkzLjQ5LDk1LjUsMjAwLDEyNSwyMDAsMTQ0QTcxLjg4LDcxLjg4LDAsMCwxLDE3My4yNywxOTkuOTNaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FlameIcon";
 
 /** @deprecated Use FlameIcon */
 export const Flame = I;
-export { I as FlameIcon };
+export { I as FlameIcon }

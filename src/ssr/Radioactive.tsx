@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Radioactive";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05MiwxMzZINDBhMTYsMTYsMCwwLDEtMTEuNzYtNS4yMSwxNi4yMSwxNi4yMSwwLDAsMS00LjE3LTEyLjM3QTEwMy44MywxMDMuODMsMCwwLDEsNjcuNjUsNDIuOTMsMTYsMTYsMCwwLDEsOTAuNzUsNDhsMjYsNDVhOCw4LDAsMSwxLTEzLjg2LDhMNzYuODksNTZBODcuODMsODcuODMsMCwwLDAsNDAsMTE5Ljg2YS4xOS4xOSwwLDAsMCwuMDcuMTZMOTIsMTIwYTgsOCwwLDAsMSwwLDE2Wm0xMzkuOTMtMTcuNThhMTAzLjgzLDEwMy44MywwLDAsMC00My41OC03NS40OUExNiwxNiwwLDAsMCwxNjUuMjUsNDhMMTM5LjMsOTNhOCw4LDAsMCwwLDEzLjg2LDhsMjYtNDVBODcuODcsODcuODcsMCwwLDEsMjE2LDExOS44NmMwLC4wNywwLC4xMiwwLC4xNEgxNjRhOCw4LDAsMCwwLDAsMTZoNTJhMTYsMTYsMCwwLDAsMTEuNzYtNS4yMUExNi4yMSwxNi4yMSwwLDAsMCwyMzEuOTMsMTE4LjQyWm0tNzksMzYuNzZhOCw4LDAsMSwwLTEzLjg2LDhsMjUuODQsNDQuNzNhODguMjIsODguMjIsMCwwLDEtNzMuODEsMGwyNS44My00NC43M2E4LDgsMCwxLDAtMTMuODYtOEw3Ny4yNSwxOTkuOTFhMTYsMTYsMCwwLDAsNy4xMiwyMi41MiwxMDQuMjQsMTA0LjI0LDAsMCwwLDg3LjI2LDAsMTYsMTYsMCwwLDAsNy4xMi0yMi41MlpNMTI4LDE0MGExMiwxMiwwLDEsMC0xMi0xMkExMiwxMiwwLDAsMCwxMjgsMTQwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "RadioactiveIcon";
 
 /** @deprecated Use RadioactiveIcon */
 export const Radioactive = I;
-export { I as RadioactiveIcon };
+export { I as RadioactiveIcon }

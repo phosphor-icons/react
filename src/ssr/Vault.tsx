@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Vault";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMTkyYTE2LDE2LDAsMCwwLDE2LDE2SDU2djE2YTgsOCwwLDAsMCwxNiwwVjIwOEgxODR2MTZhOCw4LDAsMCwwLDE2LDBWMjA4aDE2YTE2LDE2LDAsMCwwLDE2LTE2VjU2QTE2LDE2LDAsMCwwLDIxNiw0MFptMCwxNTJINDBWNTZIMjE2djY0SDE5OS4zMmE0OCw0OCwwLDEsMCwwLDE2SDIxNnY1NlptLTUwLjE2LTcyYTE2LDE2LDAsMSwwLDAsMTZIMTgzYTMyLDMyLDAsMSwxLDAtMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "VaultIcon";
 
 /** @deprecated Use VaultIcon */
 export const Vault = I;
-export { I as VaultIcon };
+export { I as VaultIcon }

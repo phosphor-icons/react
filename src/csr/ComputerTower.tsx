@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ComputerTower";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCw3MmE4LDgsMCwwLDEsOC04aDY0YTgsOCwwLDAsMSwwLDE2SDk2QTgsOCwwLDAsMSw4OCw3MlptOCw0MGg2NGE4LDgsMCwwLDAsMC0xNkg5NmE4LDgsMCwwLDAsMCwxNlpNMjA4LDQwVjIxNmExNiwxNiwwLDAsMS0xNiwxNkg2NGExNiwxNiwwLDAsMS0xNi0xNlY0MEExNiwxNiwwLDAsMSw2NCwyNEgxOTJBMTYsMTYsMCwwLDEsMjA4LDQwWm0tMTYsMEg2NFYyMTZIMTkyWk0xMjgsMTY4YTEyLDEyLDAsMSwwLDEyLDEyQTEyLDEyLDAsMCwwLDEyOCwxNjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ComputerTowerIcon";
 
 /** @deprecated Use ComputerTowerIcon */
 export const ComputerTower = I;
-export { I as ComputerTowerIcon };
+export { I as ComputerTowerIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/EggCrack";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODYuNjYsNTkuNTZDMTY4LjQ3LDMyLjI5LDE0Ni41NCwxNiwxMjgsMTZTODcuNTMsMzIuMjksNjkuMzQsNTkuNTZDNTAuNyw4Ny41NCw0MCwxMjEuMjMsNDAsMTUyYTg4LDg4LDAsMCwwLDE3NiwwQzIxNiwxMjEuMjMsMjA1LjMsODcuNTQsMTg2LjY2LDU5LjU2Wk0xMjgsMjI0YTcyLjA4LDcyLjA4LDAsMCwxLTcyLTcyYzAtMjcuNjksOS43Mi01OC4xNSwyNi42Ni04My41NkM5Ny4xOSw0Ni42NCwxMTUuNDEsMzIsMTI4LDMyYzkuNSwwLDIyLjIsOC4zMywzNC4xLDIxLjc4TDEyMiw5OC42N2E4LDgsMCwwLDAsNCwxMy4wOWwyNC42LDYuMTUtNi41LDMyLjUyYTgsOCwwLDAsMCw2LjI3LDkuNDFBNy43Nyw3Ljc3LDAsMCwwLDE1MiwxNjBhOCw4LDAsMCwwLDcuODMtNi40M2w4LTQwYTgsOCwwLDAsMC01LjktOS4zM2wtMTkuMTYtNC43OUwxNzIuMSw2Ni42Yy40Mi42MS44MywxLjIyLDEuMjQsMS44NEMxOTAuMjgsOTMuODUsMjAwLDEyNC4zMSwyMDAsMTUyQTcyLjA4LDcyLjA4LDAsMCwxLDEyOCwyMjRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "EggCrackIcon";
 
 /** @deprecated Use EggCrackIcon */
 export const EggCrack = I;
-export { I as EggCrackIcon };
+export { I as EggCrackIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Barricade";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNjRIMzJBMTYsMTYsMCwwLDAsMTYsODB2NzJhMTYsMTYsMCwwLDAsMTYsMTZINTZ2MzJhOCw4LDAsMCwwLDE2LDBWMTY4SDE4NHYzMmE4LDgsMCwwLDAsMTYsMFYxNjhoMjRhMTYsMTYsMCwwLDAsMTYtMTZWODBBMTYsMTYsMCwwLDAsMjI0LDY0Wm0wLDY0LjY5TDE3NS4zMSw4MEgyMjRaTTgwLjY5LDgwbDcyLDcySDEwMy4zMUwzMiw4MC42OVY4MFpNMzIsMTAzLjMxLDgwLjY5LDE1MkgzMlpNMjI0LDE1MkgxNzUuMzFsLTcyLTcyaDQ5LjM4TDIyNCwxNTEuMzJWMTUyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "BarricadeIcon";
 
 /** @deprecated Use BarricadeIcon */
 export const Barricade = I;
-export { I as BarricadeIcon };
+export { I as BarricadeIcon }

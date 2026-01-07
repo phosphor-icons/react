@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Alarm";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsNDBhOTYsOTYsMCwxLDAsOTYsOTZBOTYuMTEsOTYuMTEsMCwwLDAsMTI4LDQwWm0wLDE3NmE4MCw4MCwwLDEsMSw4MC04MEE4MC4wOSw4MC4wOSwwLDAsMSwxMjgsMjE2Wk02MS42NiwzNy42NmwtMzIsMzJBOCw4LDAsMCwxLDE4LjM0LDU4LjM0bDMyLTMyQTgsOCwwLDAsMSw2MS42NiwzNy42NlptMTc2LDMyYTgsOCwwLDAsMS0xMS4zMiwwbC0zMi0zMmE4LDgsMCwwLDEsMTEuMzItMTEuMzJsMzIsMzJBOCw4LDAsMCwxLDIzNy42Niw2OS42NlpNMTg0LDEyOGE4LDgsMCwwLDEsMCwxNkgxMjhhOCw4LDAsMCwxLTgtOFY4MGE4LDgsMCwwLDEsMTYsMHY0OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "AlarmIcon";
 
 /** @deprecated Use AlarmIcon */
 export const Alarm = I;
-export { I as AlarmIcon };
+export { I as AlarmIcon }

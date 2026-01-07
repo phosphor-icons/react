@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Prohibit";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm04OCwxMDRhODcuNTYsODcuNTYsMCwwLDEtMjAuNDEsNTYuMjhMNzEuNzIsNjAuNEE4OCw4OCwwLDAsMSwyMTYsMTI4Wk00MCwxMjhBODcuNTYsODcuNTYsMCwwLDEsNjAuNDEsNzEuNzJMMTg0LjI4LDE5NS42QTg4LDg4LDAsMCwxLDQwLDEyOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ProhibitIcon";
 
 /** @deprecated Use ProhibitIcon */
 export const Prohibit = I;
-export { I as ProhibitIcon };
+export { I as ProhibitIcon }

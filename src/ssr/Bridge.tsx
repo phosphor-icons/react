@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Bridge";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTYwSDIwMFYxMDEuMzRhNzEuODksNzEuODksMCwwLDAsMjksMjEuNDIsOCw4LDAsMCwwLDYtMTQuODNBNTUuNzgsNTUuNzgsMCwwLDEsMjAwLDU2YTgsOCwwLDAsMC0xNiwwQTU2LDU2LDAsMCwxLDcyLDU2YTgsOCwwLDAsMC0xNiwwLDU1Ljc4LDU1Ljc4LDAsMCwxLTM1LDUxLjkzLDgsOCwwLDAsMCw2LDE0LjgzLDcxLjg5LDcxLjg5LDAsMCwwLDI5LTIxLjQyVjE2MEgyNGE4LDgsMCwwLDAsMCwxNkg1NnYyNGE4LDgsMCwwLDAsMTYsMFYxNzZIMTg0djI0YTgsOCwwLDAsMCwxNiwwVjE3NmgzMmE4LDgsMCwwLDAsMC0xNlptLTg4LTMzLjhWMTYwSDExMlYxMjYuMmE3Miw3MiwwLDAsMCwzMiwwWm0tNzItMjVhNzIuNDcsNzIuNDcsMCwwLDAsMjQsMTkuMjdWMTYwSDcyWk0xNjAsMTYwVjEyMC40OGE3Mi40Nyw3Mi40NywwLDAsMCwyNC0xOS4yN1YxNjBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BridgeIcon";
 
 /** @deprecated Use BridgeIcon */
 export const Bridge = I;
-export { I as BridgeIcon };
+export { I as BridgeIcon }

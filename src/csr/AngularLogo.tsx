@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AngularLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjcuMDgsNjQuNjJsLTk2LTQwYTcuOTMsNy45MywwLDAsMC02LjE2LDBsLTk2LDQwYTgsOCwwLDAsMC00Ljg1LDguNDRsMTYsMTIwYTgsOCwwLDAsMCw0LjM1LDYuMWw4MCw0MGE4LDgsMCwwLDAsNy4xNiwwbDgwLTQwYTgsOCwwLDAsMCw0LjM1LTYuMWwxNi0xMjBBOCw4LDAsMCwwLDIyNy4wOCw2NC42MlpNMjAwLjYzLDE4Ni43NCwxMjgsMjIzLjA2LDU1LjM3LDE4Ni43NCw0MC43NCw3NywxMjgsNDAuNjcsMjE1LjI2LDc3Wk0xMjEsODQuMTJsLTQwLDcyYTgsOCwwLDEsMCwxNCw3Ljc2TDEwNiwxNDRIMTUwbDExLDE5Ljg4YTgsOCwwLDEsMCwxNC03Ljc2bC00MC03MmE4LDgsMCwwLDAtMTQsMFpNMTQxLjA3LDEyOEgxMTQuOTNMMTI4LDEwNC40N1oiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "AngularLogoIcon";
 
 /** @deprecated Use AngularLogoIcon */
 export const AngularLogo = I;
-export { I as AngularLogoIcon };
+export { I as AngularLogoIcon }

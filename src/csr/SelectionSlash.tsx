@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SelectionSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDQsNDBhOCw4LDAsMCwxLDgtOGgzMmE4LDgsMCwwLDEsMCwxNkgxMTJBOCw4LDAsMCwxLDEwNCw0MFptNDAsMTY4SDExMmE4LDgsMCwwLDAsMCwxNmgzMmE4LDgsMCwwLDAsMC0xNlpNMjA4LDMySDE4NGE4LDgsMCwwLDAsMCwxNmgyNFY3MmE4LDgsMCwwLDAsMTYsMFY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTgsNzJhOCw4LDAsMCwwLTgsOHYzMmE4LDgsMCwwLDAsMTYsMFYxMTJBOCw4LDAsMCwwLDIxNiwxMDRaTTQwLDE1MmE4LDgsMCwwLDAsOC04VjExMmE4LDgsMCwwLDAtMTYsMHYzMkE4LDgsMCwwLDAsNDAsMTUyWm0zMiw1Nkg0OFYxODRhOCw4LDAsMCwwLTE2LDB2MjRhMTYsMTYsMCwwLDAsMTYsMTZINzJhOCw4LDAsMCwwLDAtMTZaTTUzLjkyLDM0LjYyQTgsOCwwLDEsMCw0Mi4wOCw0NS4zOGwxNjAsMTc2YTgsOCwwLDEsMCwxMS44NC0xMC43NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "SelectionSlashIcon";
 
 /** @deprecated Use SelectionSlashIcon */
 export const SelectionSlash = I;
-export { I as SelectionSlashIcon };
+export { I as SelectionSlashIcon }

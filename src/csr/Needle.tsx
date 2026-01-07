@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Needle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODkuNjYsNjYuMzRhOCw4LDAsMCwxLDAsMTEuMzJsLTE2LDE2YTgsOCwwLDAsMS0xMS4zMi0xMS4zMmwxNi0xNkE4LDgsMCwwLDEsMTg5LjY2LDY2LjM0Wk0yMjQsNzJhMzkuNzEsMzkuNzEsMCwwLDEtMTEuNzIsMjguMjhsLTI0LDI0YTgsOCwwLDAsMS00LjMsMi4yM2MtNTEuNDksOC44NC0xMzcuNDYsOTQuMjgtMTM4LjMyLDk1LjE1aDBhOCw4LDAsMCwxLTExLjMxLTExLjMyaDBDMzYsMjA4LjczLDEyMC42OSwxMjMuMjgsMTI5LjQ5LDcyYTgsOCwwLDAsMSwyLjIzLTQuM2wyNC0yNEE0MCw0MCwwLDAsMSwyMjQsNzJabS0xNiwwYTI0LDI0LDAsMCwwLTQxLTE3TDE0NC43Nyw3Ny4yOWMtNC40MSwyMS4xNS0xOC45LDQ2LjE5LTM1LjQ5LDY5LjQzLDIzLjI0LTE2LjU5LDQ4LjI4LTMxLjA4LDY5LjQzLTM1LjQ5TDIwMSw4OUEyMy44NSwyMy44NSwwLDAsMCwyMDgsNzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "NeedleIcon";
 
 /** @deprecated Use NeedleIcon */
 export const Needle = I;
-export { I as NeedleIcon };
+export { I as NeedleIcon }

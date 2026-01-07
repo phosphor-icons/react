@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Basket";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsMTIwdjU2YTgsOCwwLDAsMS0xNiwwVjEyMGE4LDgsMCwwLDEsMTYsMFptMzYuODQtLjgtNS42LDU2QTgsOCwwLDAsMCwxNzQuNCwxODRhNy4zMiw3LjMyLDAsMCwwLC44MSwwLDgsOCwwLDAsMCw3Ljk1LTcuMmw1LjYtNTZhOCw4LDAsMCwwLTE1LjkyLTEuNlptLTg5LjY4LDBhOCw4LDAsMCwwLTE1LjkyLDEuNmw1LjYsNTZhOCw4LDAsMCwwLDgsNy4yLDcuMzIsNy4zMiwwLDAsMCwuODEsMCw4LDgsMCwwLDAsNy4xNi04Ljc2Wk0yMzkuOTMsODkuMDYsMjI0Ljg2LDIwMi4xMkExNi4wNiwxNi4wNiwwLDAsMSwyMDksMjE2SDQ3YTE2LjA2LDE2LjA2LDAsMCwxLTE1Ljg2LTEzLjg4TDE2LjA3LDg5LjA2QTgsOCwwLDAsMSwyNCw4MEg2OC4zN0wxMjIsMTguNzNhOCw4LDAsMCwxLDEyLDBMMTg3LjYzLDgwSDIzMmE4LDgsMCwwLDEsNy45Myw5LjA2Wk04OS42Myw4MGg3Ni43NEwxMjgsMzYuMTVaTTIyMi44Niw5NkgzMy4xNEw0NywyMDBIMjA5WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "BasketIcon";
 
 /** @deprecated Use BasketIcon */
 export const Basket = I;
-export { I as BasketIcon };
+export { I as BasketIcon }

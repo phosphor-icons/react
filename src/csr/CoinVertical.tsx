@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CoinVertical";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTguNTEsNTYuMDlDMTg2LjQ0LDM1LjQsMTY5LjkyLDI0LDE1MiwyNEgxMDRDODYuMDgsMjQsNjkuNTYsMzUuNCw1Ny40OSw1Ni4wOSw0Ni4yMSw3NS40Miw0MCwxMDEsNDAsMTI4czYuMjEsNTIuNTgsMTcuNDksNzEuOTFDNjkuNTYsMjIwLjYsODYuMDgsMjMyLDEwNCwyMzJoNDhjMTcuOTIsMCwzNC40NC0xMS40LDQ2LjUxLTMyLjA5QzIwOS43OSwxODAuNTgsMjE2LDE1NSwyMTYsMTI4UzIwOS43OSw3NS40MiwxOTguNTEsNTYuMDlaTTE5OS43OSwxMjBoLTMyYTE1Mi43OCwxNTIuNzgsMCwwLDAtOS42OC00OEgxODguN0MxOTQuODIsODUuMzgsMTk4Ljg2LDEwMiwxOTkuNzksMTIwWm0tMjAuNi02NEgxNTAuNDZhODMuMTMsODMuMTMsMCwwLDAtMTItMTZIMTUyQzE2Miw0MCwxNzEuNCw0NiwxNzkuMTksNTZaTTU2LDEyOGMwLTQ3LjcsMjItODgsNDgtODhzNDgsNDAuMyw0OCw4OC0yMiw4OC00OCw4OFM1NiwxNzUuNyw1NiwxMjhabTk2LDg4SDEzOC40OWE4My4xMyw4My4xMywwLDAsMCwxMi0xNmgyOC43M0MxNzEuNCwyMTAsMTYyLDIxNiwxNTIsMjE2Wm0zNi43LTMySDE1OC4xMmExNTIuNzgsMTUyLjc4LDAsMCwwLDkuNjgtNDhoMzJDMTk4Ljg2LDE1NCwxOTQuODIsMTcwLjYyLDE4OC43LDE4NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CoinVerticalIcon";
 
 /** @deprecated Use CoinVerticalIcon */
 export const CoinVertical = I;
-export { I as CoinVerticalIcon };
+export { I as CoinVerticalIcon }

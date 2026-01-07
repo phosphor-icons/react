@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PushPinSimpleSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04My4yNSw0MGE4LDgsMCwwLDEsOC04SDE5MmE4LDgsMCwwLDEsMCwxNmgtNi40NmwxOC43NSwxMDYuM2E4LDgsMCwwLDEtNi40OCw5LjI2LDcuNTIsNy41MiwwLDAsMS0xLjQuMTMsOCw4LDAsMCwxLTcuODctNi42MUwxNjkuMjksNDhoLTc4QTgsOCwwLDAsMSw4My4yNSw0MFpNMjEzLjM4LDIyMS45MmE4LDgsMCwwLDEtMTEuMy0uNTRMMTY4LjEsMTg0SDEzNnY1NmE4LDgsMCwwLDEtMTYsMFYxODRINDBhOCw4LDAsMCwxLDAtMTZoOS4yOUw2Ni4yNCw3Miw0Mi4wOCw0NS4zOEE4LDgsMCwxLDEsNTMuOTIsMzQuNjJsMTYwLDE3NkE4LDgsMCwwLDEsMjEzLjM4LDIyMS45MlpNMTUzLjU1LDE2OCw3OS44NCw4Ni45Miw2NS41NCwxNjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "PushPinSimpleSlashIcon";
 
 /** @deprecated Use PushPinSimpleSlashIcon */
 export const PushPinSimpleSlash = I;
-export { I as PushPinSimpleSlashIcon };
+export { I as PushPinSimpleSlashIcon }

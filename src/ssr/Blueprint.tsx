@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Blueprint";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNTZINzJWNDBhOCw4LDAsMCwwLTgtOEg0OEEzMiwzMiwwLDAsMCwxNiw2NFYxNzZhMzIsMzIsMCwwLDAsMzIsMzJIMjMyYTgsOCwwLDAsMCw4LThWNjRBOCw4LDAsMCwwLDIzMiw1NlpNMzIsNjRBMTYsMTYsMCwwLDEsNDgsNDhoOHY5Nkg0OGEzMS44MiwzMS44MiwwLDAsMC0xNiw0LjI5Wk0yMjQsMTkySDQ4YTE2LDE2LDAsMCwxLDAtMzJINjRhOCw4LDAsMCwwLDgtOFY3MkgyMjRaTTEwNCwxMzZhOCw4LDAsMCwwLDAsMTZoMTZ2OGE4LDgsMCwwLDAsMTYsMHYtOGgyNHY4YTgsOCwwLDAsMCwxNiwwdi04aDE2YTgsOCwwLDAsMCwwLTE2SDE3NlYxMjBoMTZhOCw4LDAsMCwwLDAtMTZIMTc2Vjk2YTgsOCwwLDAsMC0xNiwwdjhIMTM2Vjk2YTgsOCwwLDAsMC0xNiwwdjhIMTA0YTgsOCwwLDAsMCwwLDE2aDE2djE2Wm0zMi0xNmgyNHYxNkgxMzZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BlueprintIcon";
 
 /** @deprecated Use BlueprintIcon */
 export const Blueprint = I;
-export { I as BlueprintIcon };
+export { I as BlueprintIcon }

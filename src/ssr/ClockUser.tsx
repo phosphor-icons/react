@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ClockUser";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsNzJ2NDMuMDVsMzYuNDItMTguMjFhOCw4LDAsMCwxLDcuMTYsMTQuMzFsLTQ4LDI0QTgsOCwwLDAsMSwxMjAsMTI4VjcyYTgsOCwwLDAsMSwxNiwwWm0tOCwxNDRhODgsODgsMCwxLDEsODgtODgsOCw4LDAsMCwwLDE2LDBBMTA0LDEwNCwwLDEsMCwxMjgsMjMyYTgsOCwwLDAsMCwwLTE2Wm0xMDMuNzMsNS45NGE4LDgsMCwxLDEtMTUuNDYsNC4xMUMyMTMuNDQsMjE1LjQyLDIwMy40NiwyMDgsMTkyLDIwOHMtMjEuNDQsNy40Mi0yNC4yNywxOC4wNUE4LDgsMCwwLDEsMTYwLDIzMmE4LjE1LDguMTUsMCwwLDEtMi4wNi0uMjcsOCw4LDAsMCwxLTUuNjctOS43OSw0MCw0MCwwLDAsMSwxNy4xMS0yMy4zMiwzMiwzMiwwLDEsMSw0NS4yMywwQTQwLDQwLDAsMCwxLDIzMS43MywyMjEuOTRaTTE3NiwxNzZhMTYsMTYsMCwxLDAsMTYtMTZBMTYsMTYsMCwwLDAsMTc2LDE3NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ClockUserIcon";
 
 /** @deprecated Use ClockUserIcon */
 export const ClockUser = I;
-export { I as ClockUserIcon };
+export { I as ClockUserIcon }

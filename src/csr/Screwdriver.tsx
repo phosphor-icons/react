@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Screwdriver";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDUuNjYsNTAuMzJhOCw4LDAsMCwxLDAsMTEuMzJsLTU2LDU2YTgsOCwwLDAsMS0xMS4zMi0xMS4zMWw1Ni01NkE4LDgsMCwwLDEsMjA1LjY2LDUwLjMyWk0yNDgsNTguNDFhNTAuMTMsNTAuMTMsMCwwLDEtMTQuNzcsMzUuNjZMMTgwLDE0Ny4zQTE1Ljg2LDE1Ljg2LDAsMCwxLDE2OC42OSwxNTJIMTUydjE2LjgzYTE2LDE2LDAsMCwxLTMuMjUsOS42Niw4LjA4LDguMDgsMCwwLDEtLjcyLjgzbC04LDhhMTYsMTYsMCwwLDEtMjIuNjIsMEw5OC43LDE2OC42bC03Nyw3Ny4wNmE4LDgsMCwwLDEtMTEuMzItMTEuMzJsNzcuMDUtNzcuMDUtMTguNy0xOC43MWExNiwxNiwwLDAsMSwwLTIyLjYzbDgtOGE4LDgsMCwwLDEsLjgyLS43MkExNi4xNCwxNi4xNCwwLDAsMSw4Ny4xNywxMDRIMTA0Vjg3LjNBMTUuOTIsMTUuOTIsMCwwLDEsMTA4LjY4LDc2bDUzLjI0LTUzLjIzQTUwLjQzLDUwLjQzLDAsMCwxLDI0OCw1OC40MVptLTE2LDBhMzQuNDMsMzQuNDMsMCwwLDAtNTguNzctMjQuMzVMMTIwLDg3LjNWMTA0YTE2LDE2LDAsMCwxLTE2LDE2SDg3LjI4TDgwLDEyNy4yNywxMjguNzIsMTc2bDcuMjgtNy4yOFYxNTJhMTYsMTYsMCwwLDEsMTYtMTZoMTYuNjlsNTMuMjMtNTMuMjRBMzQuMjEsMzQuMjEsMCwwLDAsMjMyLDU4LjQxWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ScrewdriverIcon";
 
 /** @deprecated Use ScrewdriverIcon */
 export const Screwdriver = I;
-export { I as ScrewdriverIcon };
+export { I as ScrewdriverIcon }

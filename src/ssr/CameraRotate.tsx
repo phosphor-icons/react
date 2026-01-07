@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CameraRotate";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNTZIMTgwLjI4TDE2Ni42NSwzNS41NkE4LDgsMCwwLDAsMTYwLDMySDk2YTgsOCwwLDAsMC02LjY1LDMuNTZMNzUuNzEsNTZINDhBMjQsMjQsMCwwLDAsMjQsODBWMTkyYTI0LDI0LDAsMCwwLDI0LDI0SDIwOGEyNCwyNCwwLDAsMCwyNC0yNFY4MEEyNCwyNCwwLDAsMCwyMDgsNTZabTgsMTM2YTgsOCwwLDAsMS04LDhINDhhOCw4LDAsMCwxLTgtOFY4MGE4LDgsMCwwLDEsOC04SDgwYTgsOCwwLDAsMCw2LjY2LTMuNTZMMTAwLjI4LDQ4aDU1LjQzbDEzLjYzLDIwLjQ0QTgsOCwwLDAsMCwxNzYsNzJoMzJhOCw4LDAsMCwxLDgsOFpNMTc2LDk2djI0YTgsOCwwLDAsMS04LDhIMTQ0YTgsOCwwLDAsMSwwLTE2aDUuMTVhMzIuMTIsMzIuMTIsMCwwLDAtNDAuMzQtMS42MUE4LDgsMCwwLDEsOTkuMTksOTcuNiw0OC4yMSw0OC4yMSwwLDAsMSwxNjAsMTAwLjIzVjk2YTgsOCwwLDAsMSwxNiwwWm0tMTcuNjEsNTkuMmE4LDgsMCwwLDEtMS41OCwxMS4yQTQ4LjIxLDQ4LjIxLDAsMCwxLDk2LDE2My43N1YxNjhhOCw4LDAsMCwxLTE2LDBWMTQ0YTgsOCwwLDAsMSw4LThoMjRhOCw4LDAsMCwxLDAsMTZoLTUuMTVhMzIuMTIsMzIuMTIsMCwwLDAsNDAuMzQsMS42MUE4LDgsMCwwLDEsMTU4LjM5LDE1NS4yWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CameraRotateIcon";
 
 /** @deprecated Use CameraRotateIcon */
 export const CameraRotate = I;
-export { I as CameraRotateIcon };
+export { I as CameraRotateIcon }

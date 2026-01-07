@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FolderStar";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjAuNTYsMjAwSDQwVjg4SDIxNnYzMmE4LDgsMCwwLDAsMTYsMFY4OGExNiwxNiwwLDAsMC0xNi0xNkgxMzEuMzFMMTA0LDQ0LjY5QTE1Ljg2LDE1Ljg2LDAsMCwwLDkyLjY5LDQwSDQwQTE2LDE2LDAsMCwwLDI0LDU2VjIwMC42MkExNS40LDE1LjQsMCwwLDAsMzkuMzgsMjE2aDgxLjE4YTgsOCwwLDAsMCwwLTE2Wk05Mi42OSw1NmwxNiwxNkg0MFY1NlpNMjM5LjYzLDE1OS4yYTgsOCwwLDAsMC03LTUuNTZsLTI5Ljg0LTIuMzEtMTEuNDMtMjYuNWE4LDgsMCwwLDAtMTQuNywwbC0xMS40MywyNi41LTI5Ljg0LDIuMzFhOCw4LDAsMCwwLTQuNDcsMTQuMTRsMjIuNTEsMTguNTktNi44NSwyNy43MWE4LDgsMCwwLDAsMTEuODIsOC44MUwxODQsMjA3LjgybDI1LjYxLDE1LjA3YTgsOCwwLDAsMCwxMS44Mi04LjgxbC02Ljg1LTI3LjcxLDIyLjUxLTE4LjU5QTgsOCwwLDAsMCwyMzkuNjMsMTU5LjJabS0zOS4xMiwxOGE4LDgsMCwwLDAtMi42OCw4LjA5bDMuNSwxNC4xMi0xMy4yNy03LjgxYTgsOCwwLDAsMC04LjEyLDBsLTEzLjI3LDcuODEsMy41LTE0LjEyYTgsOCwwLDAsMC0yLjY4LTguMDlsLTExLjExLTkuMTgsMTQuODktMS4xNWE4LDgsMCwwLDAsNi43My00LjhsNi0xMy45Miw2LDEzLjkyYTgsOCwwLDAsMCw2LjczLDQuOGwxNC44OSwxLjE1WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FolderStarIcon";
 
 /** @deprecated Use FolderStarIcon */
 export const FolderStar = I;
-export { I as FolderStarIcon };
+export { I as FolderStarIcon }

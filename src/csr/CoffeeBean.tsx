@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CoffeeBean";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTEuNzUsNDQuMjVDMTk1LDI3LjQ3LDE3MC4zNywyMC43OSwxNDIuNDYsMjUuNDRjLTI2LjkxLDQuNDktNTMuODcsMTkuMDktNzUuOSw0MS4xMnMtMzYuNjMsNDktNDEuMTIsNzUuOWMtNC42NSwyNy45MSwyLDUyLjUxLDE4LjgxLDY5LjI5QzU3LjU0LDIyNS4wNSw3NS43NSwyMzIsOTYuNjIsMjMyYTEwMy42NiwxMDMuNjYsMCwwLDAsMTYuOTItMS40NGMyNi45MS00LjQ5LDUzLjg3LTE5LjA5LDc1LjktNDEuMTJzMzYuNjMtNDksNDEuMTItNzUuOUMyMzUuMjEsODUuNjMsMjI4LjUzLDYxLDIxMS43NSw0NC4yNVpNNzcuODcsNzcuODdDMTAyLjU2LDUzLjE5LDEzMywzOS45MywxNTkuMTUsMzkuOTNhNjIuMjYsNjIuMjYsMCwwLDEsMjksNi42N0ExMDguNDgsMTA4LjQ4LDAsMCwwLDE1Ny4xLDYzLjU0Yy0xOS4yLDE1LjE2LTMxLjYzLDM2LjMyLTM2Ljk0LDYyLjg5LTkuNzIsNDguNTgtNDQuNyw2NS4xOC02Ny40OCw3MC44NEMyOC43MSwxNjguNzYsMzkuNCwxMTYuMzUsNzcuODcsNzcuODdaTTE3OC4xMywxNzguMTNjLTM0LjY5LDM0LjY4LTgwLjcxLDQ2Ljc4LTExMC4zMiwzMS4yN0ExMDguNzIsMTA4LjcyLDAsMCwwLDk4LjksMTkyLjQ2YzE5LjItMTUuMTYsMzEuNjMtMzYuMzIsMzYuOTQtNjIuODksOS43Mi00OC41OCw0NC43LTY1LjE4LDY3LjQ4LTcwLjg0QzIyNy4yOSw4Ny4yNCwyMTYuNiwxMzkuNjUsMTc4LjEzLDE3OC4xM1oiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CoffeeBeanIcon";
 
 /** @deprecated Use CoffeeBeanIcon */
 export const CoffeeBean = I;
-export { I as CoffeeBeanIcon };
+export { I as CoffeeBeanIcon }

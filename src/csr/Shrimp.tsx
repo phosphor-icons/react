@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Shrimp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsMTE2YTEyLDEyLDAsMSwxLDEyLDEyQTEyLDEyLDAsMCwxLDEzNiwxMTZabTg3LjgtMzAuNjJBODAuMDksODAuMDksMCwwLDEsMTQ0LDE2MEgxMTJhMTIsMTIsMCwwLDAsMCwyNGg1NmE4LDgsMCwwLDEsMCwxNkgxMjB2MTZoMzJhOCw4LDAsMCwxLDAsMTZIOTZBODAsODAsMCwwLDEsOTYsNzJIMjEyYTEyLDEyLDAsMCwwLDAtMjRIMTI4YTI0LDI0LDAsMCwxLTI0LTI0LDgsOCwwLDAsMSwxNiwwLDgsOCwwLDAsMCw4LDhoODRhMjgsMjgsMCwwLDEsMTEuOCw1My4zOFptLTE3MywxMTEuOTEsMzMuMjItMjMuNzNjMC0uNTEsMC0xLDAtMS41NmEyOCwyOCwwLDAsMSwxLTcuNDhMMzMsMTQwLjg3YTYzLjc0LDYzLjc0LDAsMCwwLDE3Ljg0LDU2LjQyWm0zOS04LjJMNjQuMTIsMjA3LjQ2QTYzLjYsNjMuNiwwLDAsMCw5NiwyMTZoOFYxOTguODNBMjguMTMsMjguMTMsMCwwLDEsODkuODQsMTg5LjA5Wk0xMDQsMTQ1LjE3Vjg4SDk2YTY0LjA3LDY0LjA3LDAsMCwwLTU4LjIyLDM3LjQ4bDU1Ljg3LDI1LjM5QTI4LDI4LDAsMCwxLDEwNCwxNDUuMTdaTTIwNy41LDg4SDEyMHY1NmgyNEE2NC4wOSw2NC4wOSwwLDAsMCwyMDcuNSw4OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ShrimpIcon";
 
 /** @deprecated Use ShrimpIcon */
 export const Shrimp = I;
-export { I as ShrimpIcon };
+export { I as ShrimpIcon }

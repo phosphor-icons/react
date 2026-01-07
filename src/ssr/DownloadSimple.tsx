@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/DownloadSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTQ0djY0YTgsOCwwLDAsMS04LDhINDBhOCw4LDAsMCwxLTgtOFYxNDRhOCw4LDAsMCwxLDE2LDB2NTZIMjA4VjE0NGE4LDgsMCwwLDEsMTYsMFptLTEwMS42Niw1LjY2YTgsOCwwLDAsMCwxMS4zMiwwbDQwLTQwYTgsOCwwLDAsMC0xMS4zMi0xMS4zMkwxMzYsMTI0LjY5VjMyYTgsOCwwLDAsMC0xNiwwdjkyLjY5TDkzLjY2LDk4LjM0YTgsOCwwLDAsMC0xMS4zMiwxMS4zMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "DownloadSimpleIcon";
 
 /** @deprecated Use DownloadSimpleIcon */
 export const DownloadSimple = I;
-export { I as DownloadSimpleIcon };
+export { I as DownloadSimpleIcon }

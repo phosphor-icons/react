@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Scissors";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTcuNzMsMTEzLjEzQTgsOCwwLDAsMSwxNTkuODIsMTAyTDIyNy40OCw1NS43YTgsOCwwLDAsMSw5LDEzLjIxbC02Ny42Nyw0Ni4zYTcuOTIsNy45MiwwLDAsMS00LjUxLDEuNEE4LDgsMCwwLDEsMTU3LjczLDExMy4xM1ptODAuODcsODUuMDlhOCw4LDAsMCwxLTExLjEyLDIuMDhMMTM2LDEzNy43LDkzLjQ5LDE2Ni43OGEzNiwzNiwwLDEsMS05LTEzLjE5TDEyMS44MywxMjgsODQuNDQsMTAyLjQxYTM1Ljg2LDM1Ljg2LDAsMSwxLDktMTMuMTlsMTQzLDk3Ljg3QTgsOCwwLDAsMSwyMzguNiwxOTguMjJaTTgwLDE4MGEyMCwyMCwwLDEsMC01Ljg2LDE0LjE0QTE5Ljg1LDE5Ljg1LDAsMCwwLDgwLDE4MFpNNzQuMTQsOTAuMTNhMjAsMjAsMCwxLDAtMjguMjgsMEExOS44NSwxOS44NSwwLDAsMCw3NC4xNCw5MC4xM1oiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ScissorsIcon";
 
 /** @deprecated Use ScissorsIcon */
 export const Scissors = I;
-export { I as ScissorsIcon };
+export { I as ScissorsIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CrosshairSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm04LDE5MS42M1YxODRhOCw4LDAsMCwwLTE2LDB2MzEuNjNBODguMTMsODguMTMsMCwwLDEsNDAuMzcsMTM2SDcyYTgsOCwwLDAsMCwwLTE2SDQwLjM3QTg4LjEzLDg4LjEzLDAsMCwxLDEyMCw0MC4zN1Y3MmE4LDgsMCwwLDAsMTYsMFY0MC4zN0E4OC4xMyw4OC4xMywwLDAsMSwyMTUuNjMsMTIwSDE4NGE4LDgsMCwwLDAsMCwxNmgzMS42M0E4OC4xMyw4OC4xMywwLDAsMSwxMzYsMjE1LjYzWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CrosshairSimpleIcon";
 
 /** @deprecated Use CrosshairSimpleIcon */
 export const CrosshairSimple = I;
-export { I as CrosshairSimpleIcon };
+export { I as CrosshairSimpleIcon }

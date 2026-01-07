@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChartPieSlice";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDAsMTE2LjQzYTgsOCwwLDAsMCw0LTYuOTN2LTcyQTgsOCwwLDAsMCw5My4zNCwzMCwxMDQuMDYsMTA0LjA2LDAsMCwwLDI1LjczLDE0N2E4LDgsMCwwLDAsNC41Miw1LjgxLDcuODYsNy44NiwwLDAsMCwzLjM1Ljc0LDgsOCwwLDAsMCw0LTEuMDdaTTg4LDQ5LjYydjU1LjI2TDQwLjEyLDEzMi41MUM0MCwxMzEsNDAsMTI5LjQ4LDQwLDEyOEE4OC4xMiw4OC4xMiwwLDAsMSw4OCw0OS42MlpNMTI4LDI0YTgsOCwwLDAsMC04LDh2OTEuODJMNDEuMTksMTY5LjczYTgsOCwwLDAsMC0yLjg3LDExQTEwNCwxMDQsMCwxLDAsMTI4LDI0Wm0wLDE5MmE4OC40Nyw4OC40NywwLDAsMS03MS40OS0zNi42OGw3NS41Mi00NGE4LDgsMCwwLDAsNC02LjkyVjQwLjM2QTg4LDg4LDAsMCwxLDEyOCwyMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ChartPieSliceIcon";
 
 /** @deprecated Use ChartPieSliceIcon */
 export const ChartPieSlice = I;
-export { I as ChartPieSliceIcon };
+export { I as ChartPieSliceIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowsCounterClockwise";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCwxMDRINDBhOCw4LDAsMCwxLTgtOFY0OGE4LDgsMCwwLDEsMTYsMFY3Ni42OUw2Mi42Myw2Mi4wNkE5NS40Myw5NS40MywwLDAsMSwxMzAsMzMuOTRoLjUzYTk1LjM2LDk1LjM2LDAsMCwxLDY3LjA3LDI3LjMzLDgsOCwwLDAsMS0xMS4xOCwxMS40NCw3OS41Miw3OS41MiwwLDAsMC01NS44OS0yMi43N2gtLjQ1QTc5LjU2LDc5LjU2LDAsMCwwLDczLjk0LDczLjM3TDU5LjMxLDg4SDg4YTgsOCwwLDAsMSwwLDE2Wm0xMjgsNDhIMTY4YTgsOCwwLDAsMCwwLDE2aDI4LjY5bC0xNC42MywxNC42M2E3OS41Niw3OS41NiwwLDAsMS01Ni4xMywyMy40M2gtLjQ1YTc5LjUyLDc5LjUyLDAsMCwxLTU1Ljg5LTIyLjc3LDgsOCwwLDEsMC0xMS4xOCwxMS40NCw5NS4zNiw5NS4zNiwwLDAsMCw2Ny4wNywyNy4zM0gxMjZhOTUuNDMsOTUuNDMsMCwwLDAsNjcuMzYtMjguMTJMMjA4LDE3OS4zMVYyMDhhOCw4LDAsMCwwLDE2LDBWMTYwQTgsOCwwLDAsMCwyMTYsMTUyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ArrowsCounterClockwiseIcon";
 
 /** @deprecated Use ArrowsCounterClockwiseIcon */
 export const ArrowsCounterClockwise = I;
-export { I as ArrowsCounterClockwiseIcon };
+export { I as ArrowsCounterClockwiseIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FrameCorners";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsODB2MzJhOCw4LDAsMCwxLTE2LDBWODhIMTYwYTgsOCwwLDAsMSwwLTE2aDMyQTgsOCwwLDAsMSwyMDAsODBaTTk2LDE2OEg3MlYxNDRhOCw4LDAsMCwwLTE2LDB2MzJhOCw4LDAsMCwwLDgsOEg5NmE4LDgsMCwwLDAsMC0xNlpNMjMyLDU2VjIwMGExNiwxNiwwLDAsMS0xNiwxNkg0MGExNiwxNiwwLDAsMS0xNi0xNlY1NkExNiwxNiwwLDAsMSw0MCw0MEgyMTZBMTYsMTYsMCwwLDEsMjMyLDU2Wk0yMTYsMjAwVjU2SDQwVjIwMEgyMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FrameCornersIcon";
 
 /** @deprecated Use FrameCornersIcon */
 export const FrameCorners = I;
-export { I as FrameCornersIcon };
+export { I as FrameCornersIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SubtitlesSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik00OCwxMzZhOCw4LDAsMCwxLDgtOEg3MmE4LDgsMCwwLDEsMCwxNkg1NkE4LDgsMCwwLDEsNDgsMTM2Wm0xNjUuOTIsNzQuNjJhOCw4LDAsMSwxLTExLjg0LDEwLjc2TDE4OS45MiwyMDhIMzJhMTYsMTYsMCwwLDEtMTYtMTZWNjRBMTYsMTYsMCwwLDEsMzIsNDhINDQuNDZsLTIuMzgtMi42MkE4LDgsMCwxLDEsNTMuOTIsMzQuNjJaTTE3NS4zNywxOTJsLTE0LjU1LTE2SDU2YTgsOCwwLDAsMSwwLTE2aDkwLjI4bC0xNC41NS0xNkgxMDRhOCw4LDAsMCwxLDAtMTZoMTMuMTlMNTksNjRIMzJWMTkyWk0yMDAsMTQ0YTgsOCwwLDAsMCwwLTE2SDE3OC41MmE4LDgsMCwxLDAsMCwxNlptMjQtOTZIMTA1Ljc5YTgsOCwwLDAsMCwwLDE2SDIyNFYxOTQuODNhOCw4LDAsMSwwLDE2LDBWNjRBMTYsMTYsMCwwLDAsMjI0LDQ4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SubtitlesSlashIcon";
 
 /** @deprecated Use SubtitlesSlashIcon */
 export const SubtitlesSlash = I;
-export { I as SubtitlesSlashIcon };
+export { I as SubtitlesSlashIcon }

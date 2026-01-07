@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ThermometerSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsMTUzVjg4YTgsOCwwLDAsMC0xNiwwdjY1YTMyLDMyLDAsMSwwLDE2LDBabS04LDQ3YTE2LDE2LDAsMSwxLDE2LTE2QTE2LDE2LDAsMCwxLDEyOCwyMDBabTQwLTY2VjQ4YTQwLDQwLDAsMCwwLTgwLDB2ODZhNjQsNjQsMCwxLDAsODAsMFptLTQwLDk4YTQ4LDQ4LDAsMCwxLTI3LjQyLTg3LjRBOCw4LDAsMCwwLDEwNCwxMzhWNDhhMjQsMjQsMCwwLDEsNDgsMHY5MGE4LDgsMCwwLDAsMy40Miw2LjU2QTQ4LDQ4LDAsMCwxLDEyOCwyMzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ThermometerSimpleIcon";
 
 /** @deprecated Use ThermometerSimpleIcon */
 export const ThermometerSimple = I;
-export { I as ThermometerSimpleIcon };
+export { I as ThermometerSimpleIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChatCircleSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01My45MiwzNC42MkE4LDgsMCwxLDAsNDIuMDgsNDUuMzhMNTIuMzMsNTYuNjZBMTA0LjA2LDEwNC4wNiwwLDAsMCwzNi4xOCwxNzYuODhMMjQuODMsMjEwLjkzYTE2LDE2LDAsMCwwLDIwLjI0LDIwLjI0bDM0LjA1LTExLjM1YTEwNCwxMDQsMCwwLDAsMTEyLjctOS43M2wxMC4yNiwxMS4yOWE4LDgsMCwxLDAsMTEuODQtMTAuNzZaTTEyOCwyMTZhODcuODcsODcuODcsMCwwLDEtNDQuMDYtMTEuODEsOCw4LDAsMCwwLTYuNTQtLjY2TDQwLDIxNiw1Mi40NywxNzguNmE4LDgsMCwwLDAtLjY2LTYuNTRBODgsODgsMCwwLDEsNjMuMTQsNjguNTRMMTgxLDE5OC4yM0E4Ny43Nyw4Ny43NywwLDAsMSwxMjgsMjE2Wm0xMDQtODhhMTA0LjE1LDEwNC4xNSwwLDAsMS0xMi4zOCw0OS4yNSw4LDgsMCwwLDEtMTQuMDktNy41OEE4OCw4OCwwLDAsMCw5My44OCw0Ni44NmE4LDgsMCwwLDEtNi4yMS0xNC43NUExMDQuMDYsMTA0LjA2LDAsMCwxLDIzMiwxMjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ChatCircleSlashIcon";
 
 /** @deprecated Use ChatCircleSlashIcon */
 export const ChatCircleSlash = I;
-export { I as ChatCircleSlashIcon };
+export { I as ChatCircleSlashIcon }

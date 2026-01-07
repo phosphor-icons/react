@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MouseRightClick";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDQsMTZIMTEyQTY0LjA3LDY0LjA3LDAsMCwwLDQ4LDgwdjk2YTY0LjA3LDY0LjA3LDAsMCwwLDY0LDY0aDMyYTY0LjA3LDY0LjA3LDAsMCwwLDY0LTY0VjgwQTY0LjA3LDY0LjA3LDAsMCwwLDE0NCwxNlptLTgsNjcuMzEsMzkuNDktMzkuNDlBNDguNDksNDguNDksMCwwLDEsMTg2LjY2LDU4bC00Niw0NkgxMzZabTU1Ljc4LTcuNzhjLjE0LDEuNDcuMjIsMywuMjIsNC40N3YyNEgxNjMuMzFaTTE2MS40MSwzNS4yOCwxMzYsNjAuNjlWMzJoOEE0Ny43Myw0Ny43MywwLDAsMSwxNjEuNDEsMzUuMjhaTTExMiwzMmg4djcySDY0VjgwQTQ4LjA1LDQ4LjA1LDAsMCwxLDExMiwzMlptMzIsMTkySDExMmE0OC4wNSw0OC4wNSwwLDAsMS00OC00OFYxMjBIMTkydjU2QTQ4LjA1LDQ4LjA1LDAsMCwxLDE0NCwyMjRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "MouseRightClickIcon";
 
 /** @deprecated Use MouseRightClickIcon */
 export const MouseRightClick = I;
-export { I as MouseRightClickIcon };
+export { I as MouseRightClickIcon }

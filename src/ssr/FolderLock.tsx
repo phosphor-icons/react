@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FolderLock";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTYwaC04di00YTI4LDI4LDAsMCwwLTU2LDB2NGgtOGE4LDgsMCwwLDAtOCw4djQwYTgsOCwwLDAsMCw4LDhoNzJhOCw4LDAsMCwwLDgtOFYxNjhBOCw4LDAsMCwwLDIyNCwxNjBabS00OC00YTEyLDEyLDAsMCwxLDI0LDB2NEgxNzZabTQwLDQ0SDE2MFYxNzZoNTZabTAtMTI4SDEzMS4zMUwxMDQsNDQuNjlBMTUuODYsMTUuODYsMCwwLDAsOTIuNjksNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMjAwLjYyQTE1LjQsMTUuNCwwLDAsMCwzOS4zOCwyMTZoNzMuMThhOCw4LDAsMCwwLDAtMTZINDBWODhIMjE2djE2YTgsOCwwLDAsMCwxNiwwVjg4QTE2LDE2LDAsMCwwLDIxNiw3MlpNOTIuNjksNTZsMTYsMTZINDBWNTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FolderLockIcon";
 
 /** @deprecated Use FolderLockIcon */
 export const FolderLock = I;
-export { I as FolderLockIcon };
+export { I as FolderLockIcon }

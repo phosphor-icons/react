@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NumberSquareFive";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTAsMTc2SDQ4VjQ4SDIwOFYyMDhaTTExOC43OCw4OGwtNC4xOSwyNS4xNEEzOC44LDM4LjgsMCwwLDEsMTI0LDExMmEzNiwzNiwwLDAsMSwwLDcyLDM1LjU0LDM1LjU0LDAsMCwxLTI1LjcxLTEwLjQsOCw4LDAsMSwxLDExLjQyLTExLjJBMTkuNzMsMTkuNzMsMCwwLDAsMTI0LDE2OGEyMCwyMCwwLDAsMCwwLTQwLDE5LjczLDE5LjczLDAsMCwwLTE0LjI5LDUuNiw4LDgsMCwwLDEtMTMuNi02LjkybDgtNDhBOCw4LDAsMCwxLDExMiw3Mmg0MGE4LDgsMCwwLDEsMCwxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "NumberSquareFiveIcon";
 
 /** @deprecated Use NumberSquareFiveIcon */
 export const NumberSquareFive = I;
-export { I as NumberSquareFiveIcon };
+export { I as NumberSquareFiveIcon }

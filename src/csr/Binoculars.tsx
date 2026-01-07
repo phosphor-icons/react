@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Binoculars";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzcuMiwxNTEuODd2MGE0Ny4xLDQ3LjEsMCwwLDAtMi4zNS01LjQ1TDE5My4yNiw1MS44YTcuODIsNy44MiwwLDAsMC0xLjY2LTIuNDQsMzIsMzIsMCwwLDAtNDUuMjYsMEE4LDgsMCwwLDAsMTQ0LDU1VjgwSDExMlY1NWE4LDgsMCwwLDAtMi4zNC01LjY2LDMyLDMyLDAsMCwwLTQ1LjI2LDAsNy44Miw3LjgyLDAsMCwwLTEuNjYsMi40NEwyMS4xNSwxNDYuNGE0Ny4xLDQ3LjEsMCwwLDAtMi4zNSw1LjQ1djBBNDgsNDgsMCwxLDAsMTEyLDE2OFY5NmgzMnY3MmE0OCw0OCwwLDEsMCw5My4yLTE2LjEzWk03Ni43MSw1OS43NWExNiwxNiwwLDAsMSwxOS4yOS0xdjczLjUxYTQ3LjksNDcuOSwwLDAsMC00Ni43OS05LjkyWk02NCwyMDBhMzIsMzIsMCwxLDEsMzItMzJBMzIsMzIsMCwwLDEsNjQsMjAwWk0xNjAsNTguNzRhMTYsMTYsMCwwLDEsMTkuMjksMWwyNy41LDYyLjU4QTQ3LjksNDcuOSwwLDAsMCwxNjAsMTMyLjI1Wk0xOTIsMjAwYTMyLDMyLDAsMSwxLDMyLTMyQTMyLDMyLDAsMCwxLDE5MiwyMDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BinocularsIcon";
 
 /** @deprecated Use BinocularsIcon */
 export const Binoculars = I;
-export { I as BinocularsIcon };
+export { I as BinocularsIcon }

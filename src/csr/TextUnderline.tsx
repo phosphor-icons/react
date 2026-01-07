@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TextUnderline";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMjI0YTgsOCwwLDAsMS04LDhINjRhOCw4LDAsMCwxLDAtMTZIMTkyQTgsOCwwLDAsMSwyMDAsMjI0Wm0tNzItMjRhNjQuMDcsNjQuMDcsMCwwLDAsNjQtNjRWNTZhOCw4LDAsMCwwLTE2LDB2ODBhNDgsNDgsMCwwLDEtOTYsMFY1NmE4LDgsMCwwLDAtMTYsMHY4MEE2NC4wNyw2NC4wNywwLDAsMCwxMjgsMjAwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TextUnderlineIcon";
 
 /** @deprecated Use TextUnderlineIcon */
 export const TextUnderline = I;
-export { I as TextUnderlineIcon };
+export { I as TextUnderlineIcon }

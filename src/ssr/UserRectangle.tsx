@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/UserRectangle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIxNmExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMTYsNDBaTTk2LDEyMGEzMiwzMiwwLDEsMSwzMiwzMkEzMiwzMiwwLDAsMSw5NiwxMjBaTTcyLjU3LDIwMGE2NCw2NCwwLDAsMSwxMTAuODYsMFpNMjE2LDIwMEgyMDEuMzNhODAuMTQsODAuMTQsMCwwLDAtNDMuNjktNDIuMjgsNDgsNDgsMCwxLDAtNTkuMjgsMEE4MC4xNCw4MC4xNCwwLDAsMCw1NC42NywyMDBINDBWNTZIMjE2VjIwMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "UserRectangleIcon";
 
 /** @deprecated Use UserRectangleIcon */
 export const UserRectangle = I;
-export { I as UserRectangleIcon };
+export { I as UserRectangleIcon }

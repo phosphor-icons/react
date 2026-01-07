@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ToiletPaper";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik03NiwxMjBhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsNzYsMTIwWm0xNjQsMHY4OGExNiwxNiwwLDAsMS0xNiwxNkgxMTJhMTYsMTYsMCwwLDEtMTYtMTZWMTg2LjM1Qzg3LjM3LDIwMC4zNyw3Ni4xOCwyMDgsNjQsMjA4Yy0xMy44NywwLTI2LjQ2LTkuODktMzUuNDQtMjcuODVDMjAuNDYsMTY0LDE2LDE0Mi41OSwxNiwxMjBzNC40Ni00My45NSwxMi41Ni02MC4xNUMzNy41NCw0MS44OSw1MC4xMywzMiw2NCwzMkgxOTJjMTMuODcsMCwyNi40Niw5Ljg5LDM1LjQ0LDI3Ljg1QzIzNS41NCw3Ni4wNSwyNDAsOTcuNDEsMjQwLDEyMFpNOTYsMTIwYzAtNDIuNDMtMTYuODYtNzItMzItNzJTMzIsNzcuNTcsMzIsMTIwczE2Ljg2LDcyLDMyLDcyUzk2LDE2Mi40Myw5NiwxMjBabTEyOCw4OFYxMjhIMjA4YTgsOCwwLDAsMSwwLTE2aDE1Ljc5QzIyMS44NCw3My45LDIwNi4xNiw0OCwxOTIsNDhIOTIuMTJhNzMuNiw3My42LDAsMCwxLDcuMzIsMTEuODVjNy4xNCwxNC4yOCwxMS40NCwzMi41NiwxMi4zNyw1Mi4xNUgxMjhhOCw4LDAsMCwxLDAsMTZIMTEydjgwWm0tNDgtOTZIMTYwYTgsOCwwLDAsMCwwLDE2aDE2YTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ToiletPaperIcon";
 
 /** @deprecated Use ToiletPaperIcon */
 export const ToiletPaper = I;
-export { I as ToiletPaperIcon };
+export { I as ToiletPaperIcon }

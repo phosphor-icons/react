@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HandWithdraw";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTk4LjY1VjI0MGE4LDgsMCwwLDEtMTYsMFYxOTguNjVBNzQuODQsNzQuODQsMCwwLDAsMTkyLDE0NHY1OC4zNWE4LDgsMCwwLDEtMTQuNjksNC4zOGwtMTAuNjgtMTYuMzFjLS4wOC0uMTItLjE2LS4yNS0uMjMtLjM4YTEyLDEyLDAsMCwwLTIwLjg5LDExLjgzbDIyLjEzLDMzLjc5YTgsOCwwLDAsMS0xMy4zOSw4Ljc2bC0yMi4yNi0zNC0uMjQtLjM4QTI4LDI4LDAsMCwxLDE3NiwxNzYuNFY2NEgxNjBhOCw4LDAsMCwxLDAtMTZoMTZhMTYsMTYsMCwwLDEsMTYsMTZ2NTkuNjJBOTAuODksOTAuODksMCwwLDEsMjMyLDE5OC42NVpNODgsNTZhOCw4LDAsMCwwLTgtOEg2NEExNiwxNiwwLDAsMCw0OCw2NFYyMDBhOCw4LDAsMCwwLDE2LDBWNjRIODBBOCw4LDAsMCwwLDg4LDU2Wm02OS42Niw0Mi4zNGE4LDgsMCwwLDAtMTEuMzIsMEwxMjgsMTE2LjY5VjE2YTgsOCwwLDAsMC0xNiwwVjExNi42OUw5My42Niw5OC4zNGE4LDgsMCwwLDAtMTEuMzIsMTEuMzJsMzIsMzJhOCw4LDAsMCwwLDExLjMyLDBsMzItMzJBOCw4LDAsMCwwLDE1Ny42Niw5OC4zNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "HandWithdrawIcon";
 
 /** @deprecated Use HandWithdrawIcon */
 export const HandWithdraw = I;
-export { I as HandWithdrawIcon };
+export { I as HandWithdrawIcon }

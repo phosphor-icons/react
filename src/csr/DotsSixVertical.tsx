@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/DotsSixVertical";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDQsNjBBMTIsMTIsMCwxLDEsOTIsNDgsMTIsMTIsMCwwLDEsMTA0LDYwWm02MCwxMmExMiwxMiwwLDEsMC0xMi0xMkExMiwxMiwwLDAsMCwxNjQsNzJaTTkyLDExNmExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCw5MiwxMTZabTcyLDBhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsMTY0LDExNlpNOTIsMTg0YTEyLDEyLDAsMSwwLDEyLDEyQTEyLDEyLDAsMCwwLDkyLDE4NFptNzIsMGExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCwxNjQsMTg0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "DotsSixVerticalIcon";
 
 /** @deprecated Use DotsSixVerticalIcon */
 export const DotsSixVertical = I;
-export { I as DotsSixVerticalIcon };
+export { I as DotsSixVerticalIcon }

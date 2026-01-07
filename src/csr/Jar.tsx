@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Jar";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsNDguODFWMzJhMTYsMTYsMCwwLDAtMTYtMTZIODhBMTYsMTYsMCwwLDAsNzIsMzJWNDguODFBNDAuMDUsNDAuMDUsMCwwLDAsNDAsODhWMjAwYTQwLDQwLDAsMCwwLDQwLDQwaDk2YTQwLDQwLDAsMCwwLDQwLTQwVjg4QTQwLjA1LDQwLjA1LDAsMCwwLDE4NCw0OC44MVpNMTY4LDQ4SDE1MlYzMmgxNlptLTQ4LDBWMzJoMTZWNDhaTTEwNCwzMlY0OEg4OFYzMlptOTYsMTY4YTI0LDI0LDAsMCwxLTI0LDI0SDgwYTI0LDI0LDAsMCwxLTI0LTI0Vjg4QTI0LDI0LDAsMCwxLDgwLDY0aDk2YTI0LDI0LDAsMCwxLDI0LDI0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "JarIcon";
 
 /** @deprecated Use JarIcon */
 export const Jar = I;
-export { I as JarIcon };
+export { I as JarIcon }

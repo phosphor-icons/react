@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SprayBottle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsODBhOCw4LDAsMCwwLDgtOCw1Ni4wNiw1Ni4wNiwwLDAsMC01Ni01Nkg4MEExNiwxNiwwLDAsMCw2NCwzMlY4MGEyNCwyNCwwLDAsMS0yNCwyNCw4LDgsMCwwLDAsMCwxNkE0MCw0MCwwLDAsMCw4MCw4MGgzMnYyNC42MmEyMy44NywyMy44NywwLDAsMS05LDE4Ljc0TDg3LDEzNi4xNWEzOS43OSwzOS43OSwwLDAsMC0xNSwzMS4yM1YyMjRhMTYsMTYsMCwwLDAsMTYsMTZIMTkyYTE2LDE2LDAsMCwwLDE2LTE2VjIxMS40N0EyNzAuODgsMjcwLjg4LDAsMCwwLDE3NCw4MFpNODAsMzJoNzJhNDAuMDgsNDAuMDgsMCwwLDEsMzkuMiwzMkg4MFpNMTkyLDIxMS40N1YyMjRIODhWMTY3LjM4YTIzLjg3LDIzLjg3LDAsMCwxLDktMTguNzRsMTYtMTIuNzlhMzkuNzksMzkuNzksMCwwLDAsMTUtMzEuMjNWODBoMjcuNTJBMjU0Ljg2LDI1NC44NiwwLDAsMSwxOTIsMjExLjQ3WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SprayBottleIcon";
 
 /** @deprecated Use SprayBottleIcon */
 export const SprayBottle = I;
-export { I as SprayBottleIcon };
+export { I as SprayBottleIcon }

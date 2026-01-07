@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Shuffle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzcuNjYsMTc4LjM0YTgsOCwwLDAsMSwwLDExLjMybC0yNCwyNGE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMjEyLjY5LDE5MkgyMDAuOTRhNzIuMTIsNzIuMTIsMCwwLDEtNTguNTktMzAuMTVsLTQxLjcyLTU4LjRBNTYuMSw1Ni4xLDAsMCwwLDU1LjA2LDgwSDMyYTgsOCwwLDAsMSwwLTE2SDU1LjA2YTcyLjEyLDcyLjEyLDAsMCwxLDU4LjU5LDMwLjE1bDQxLjcyLDU4LjRBNTYuMSw1Ni4xLDAsMCwwLDIwMC45NCwxNzZoMTEuNzVsLTEwLjM1LTEwLjM0YTgsOCwwLDAsMSwxMS4zMi0xMS4zMlpNMTQzLDEwN2E4LDgsMCwwLDAsMTEuMTYtMS44NmwxLjItMS42N0E1Ni4xLDU2LjEsMCwwLDEsMjAwLjk0LDgwaDExLjc1TDIwMi4zNCw5MC4zNGE4LDgsMCwwLDAsMTEuMzIsMTEuMzJsMjQtMjRhOCw4LDAsMCwwLDAtMTEuMzJsLTI0LTI0YTgsOCwwLDAsMC0xMS4zMiwxMS4zMkwyMTIuNjksNjRIMjAwLjk0YTcyLjEyLDcyLjEyLDAsMCwwLTU4LjU5LDMwLjE1bC0xLjIsMS42N0E4LDgsMCwwLDAsMTQzLDEwN1ptLTMwLDQyYTgsOCwwLDAsMC0xMS4xNiwxLjg2bC0xLjIsMS42N0E1Ni4xLDU2LjEsMCwwLDEsNTUuMDYsMTc2SDMyYTgsOCwwLDAsMCwwLDE2SDU1LjA2YTcyLjEyLDcyLjEyLDAsMCwwLDU4LjU5LTMwLjE1bDEuMi0xLjY3QTgsOCwwLDAsMCwxMTMsMTQ5WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ShuffleIcon";
 
 /** @deprecated Use ShuffleIcon */
 export const Shuffle = I;
-export { I as ShuffleIcon };
+export { I as ShuffleIcon }

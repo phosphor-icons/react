@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NumberSquareZero";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsNzJjLTE0LjIzLDAtMjYsNi40NC0zNCwxOC42MS02LjQ3LDkuODYtMTAsMjMuMTQtMTAsMzcuMzlzMy41NiwyNy41MywxMCwzNy4zOWM4LDEyLjE3LDE5Ljc0LDE4LjYxLDM0LDE4LjYxczI2LTYuNDQsMzQtMTguNjFjNi40Ny05Ljg2LDEwLTIzLjE0LDEwLTM3LjM5cy0zLjU2LTI3LjUzLTEwLTM3LjM5QzE1NCw3OC40NCwxNDIuMjMsNzIsMTI4LDcyWm0wLDk2Yy0yMi4xLDAtMjgtMjUuMTQtMjgtNDBzNS45LTQwLDI4LTQwLDI4LDI1LjE0LDI4LDQwUzE1MC4xLDE2OCwxMjgsMTY4Wk0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTAsMTc2SDQ4VjQ4SDIwOFYyMDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "NumberSquareZeroIcon";
 
 /** @deprecated Use NumberSquareZeroIcon */
 export const NumberSquareZero = I;
-export { I as NumberSquareZeroIcon };
+export { I as NumberSquareZeroIcon }

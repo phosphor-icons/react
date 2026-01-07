@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/WebhooksLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzguMTYsMTc2SDExMS4zMkE0OCw0OCwwLDEsMSwyNS42LDEzOS4xOWE4LDgsMCwwLDEsMTIuOCw5LjYxQTMxLjY5LDMxLjY5LDAsMCwwLDMyLDE2OGEzMiwzMiwwLDAsMCw2NCwwLDgsOCwwLDAsMSw4LThoNzQuMTZhMTYsMTYsMCwxLDEsMCwxNlpNNjQsMTg0YTE2LDE2LDAsMCwwLDE0LjA4LTIzLjYxbDM1Ljc3LTU4LjE0YTgsOCwwLDAsMC0yLjYyLTExLDMyLDMyLDAsMSwxLDQ2LjEtNDAuMDZBOCw4LDAsMSwwLDE3Miw0NC43OWE0OCw0OCwwLDEsMC03NS42Miw1NS4zM0w2NC40NCwxNTJjLS4xNSwwLS4yOSwwLS40NCwwYTE2LDE2LDAsMCwwLDAsMzJabTEyOC02NGE0OC4xOCw0OC4xOCwwLDAsMC0xOCwzLjQ5TDE0Mi4wOCw3MS42QTE2LDE2LDAsMSwwLDEyOCw4MGwuNDQsMCwzNS43OCw1OC4xNWE4LDgsMCwwLDAsMTEsMi42MUEzMiwzMiwwLDEsMSwxOTIsMjAwYTgsOCwwLDAsMCwwLDE2LDQ4LDQ4LDAsMCwwLDAtOTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "WebhooksLogoIcon";
 
 /** @deprecated Use WebhooksLogoIcon */
 export const WebhooksLogo = I;
-export { I as WebhooksLogoIcon };
+export { I as WebhooksLogoIcon }

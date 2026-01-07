@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowsMerge";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsNDB2NjRhOCw4LDAsMCwxLTIuMzQsNS42NkwxMzYsMTYzLjMxdjQ5LjM4bDE4LjM0LTE4LjM1YTgsOCwwLDAsMSwxMS4zMiwxMS4zMmwtMzIsMzJhOCw4LDAsMCwxLTExLjMyLDBsLTMyLTMyYTgsOCwwLDAsMSwxMS4zMi0xMS4zMkwxMjAsMjEyLjY5VjE2My4zMUw2Ni4zNCwxMDkuNjZBOCw4LDAsMCwxLDY0LDEwNFY0MGE4LDgsMCwwLDEsMTYsMHY2MC42OWw0OCw0OCw0OC00OFY0MGE4LDgsMCwwLDEsMTYsMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ArrowsMergeIcon";
 
 /** @deprecated Use ArrowsMergeIcon */
 export const ArrowsMerge = I;
-export { I as ArrowsMergeIcon };
+export { I as ArrowsMergeIcon }

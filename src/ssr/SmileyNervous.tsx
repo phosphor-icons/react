@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SmileyNervous";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlpNODAsMTA4YTEyLDEyLDAsMSwxLDEyLDEyQTEyLDEyLDAsMCwxLDgwLDEwOFptNzIsMGExMiwxMiwwLDEsMSwxMiwxMkExMiwxMiwwLDAsMSwxNTIsMTA4Wm0zMiw2MGE4LDgsMCwwLDEtOCw4Yy0xMCwwLTE1LjA2LTYuNzQtMTguNC0xMS4yLTMtNC0zLjkyLTQuOC01LjYtNC44cy0yLjU3Ljc2LTUuNiw0LjhDMTQzLjA2LDE2OS4yNiwxMzgsMTc2LDEyOCwxNzZzLTE1LjA2LTYuNzQtMTguNC0xMS4yYy0zLTQtMy45Mi00LjgtNS42LTQuOHMtMi41Ny43Ni01LjYsNC44Qzk1LjA2LDE2OS4yNiw5MCwxNzYsODAsMTc2YTgsOCwwLDAsMSwwLTE2YzEuNjgsMCwyLjU3LS43Niw1LjYtNC44Qzg4Ljk0LDE1MC43NCw5NCwxNDQsMTA0LDE0NHMxNS4wNiw2Ljc0LDE4LjQsMTEuMmMzLDQsMy45Miw0LjgsNS42LDQuOHMyLjU3LS43Niw1LjYtNC44YzMuMzQtNC40Niw4LjQtMTEuMiwxOC40LTExLjJzMTUuMDYsNi43NCwxOC40LDExLjJjMyw0LDMuOTIsNC44LDUuNiw0LjhBOCw4LDAsMCwxLDE4NCwxNjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "SmileyNervousIcon";
 
 /** @deprecated Use SmileyNervousIcon */
 export const SmileyNervous = I;
-export { I as SmileyNervousIcon };
+export { I as SmileyNervousIcon }

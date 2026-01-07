@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/AirTrafficControl";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjkuMTEsNzAuODJBMTYsMTYsMCwwLDAsMjE2LDY0SDEzNlYzMmgxNmE4LDgsMCwwLDAsMC0xNkgxMDRhOCw4LDAsMCwwLDAsMTZoMTZWNjRINDBBMTYsMTYsMCwwLDAsMjUsODUuNDdsMjYuMTksNzJhMTYsMTYsMCwwLDAsMTUsMTAuNTNIOTZ2NjRhOCw4LDAsMCwwLDE2LDBWMTY4aDMydjY0YTgsOCwwLDAsMCwxNiwwVjE2OGgyOS44MmExNiwxNiwwLDAsMCwxNS0xMC41M2wyNi4xOS03MkExNiwxNiwwLDAsMCwyMjkuMTEsNzAuODJaTTExMC42OCwxNTIsOTcuNTgsODBoNjAuODRsLTEzLjEsNzJaTTQwLDgwSDgxLjMybDEzLjA5LDcySDY2LjE4Wm0xNDkuODIsNzJIMTYxLjU5bDEzLjA5LTcySDIxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "AirTrafficControlIcon";
 
 /** @deprecated Use AirTrafficControlIcon */
 export const AirTrafficControl = I;
-export { I as AirTrafficControlIcon };
+export { I as AirTrafficControlIcon }

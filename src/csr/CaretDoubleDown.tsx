@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CaretDoubleDown";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsMTMwLjM0YTgsOCwwLDAsMSwwLDExLjMybC04MCw4MGE4LDgsMCwwLDEtMTEuMzIsMGwtODAtODBhOCw4LDAsMCwxLDExLjMyLTExLjMyTDEyOCwyMDQuNjlsNzQuMzQtNzQuMzVBOCw4LDAsMCwxLDIxMy42NiwxMzAuMzRabS05MS4zMiwxMS4zMmE4LDgsMCwwLDAsMTEuMzIsMGw4MC04MGE4LDgsMCwwLDAtMTEuMzItMTEuMzJMMTI4LDEyNC42OSw1My42Niw1MC4zNEE4LDgsMCwwLDAsNDIuMzQsNjEuNjZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CaretDoubleDownIcon";
 
 /** @deprecated Use CaretDoubleDownIcon */
 export const CaretDoubleDown = I;
-export { I as CaretDoubleDownIcon };
+export { I as CaretDoubleDownIcon }

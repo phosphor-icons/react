@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Notepad";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMTI4YTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwxMjhabS04LDI0SDk2YTgsOCwwLDAsMCwwLDE2aDY0YTgsOCwwLDAsMCwwLTE2Wk0yMTYsNDBWMjAwYTMyLDMyLDAsMCwxLTMyLDMySDcyYTMyLDMyLDAsMCwxLTMyLTMyVjQwYTgsOCwwLDAsMSw4LThINzJWMjRhOCw4LDAsMCwxLDE2LDB2OGgzMlYyNGE4LDgsMCwwLDEsMTYsMHY4aDMyVjI0YTgsOCwwLDAsMSwxNiwwdjhoMjRBOCw4LDAsMCwxLDIxNiw0MFptLTE2LDhIMTg0djhhOCw4LDAsMCwxLTE2LDBWNDhIMTM2djhhOCw4LDAsMCwxLTE2LDBWNDhIODh2OGE4LDgsMCwwLDEtMTYsMFY0OEg1NlYyMDBhMTYsMTYsMCwwLDAsMTYsMTZIMTg0YTE2LDE2LDAsMCwwLDE2LTE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "NotepadIcon";
 
 /** @deprecated Use NotepadIcon */
 export const Notepad = I;
-export { I as NotepadIcon };
+export { I as NotepadIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Building";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMjI0SDIwOFYzMmg4YTgsOCwwLDAsMCwwLTE2SDQwYTgsOCwwLDAsMCwwLDE2aDhWMjI0SDI0YTgsOCwwLDAsMCwwLDE2SDIzMmE4LDgsMCwwLDAsMC0xNlpNNjQsMzJIMTkyVjIyNEgxNjBWMTg0YTgsOCwwLDAsMC04LThIMTA0YTgsOCwwLDAsMC04LDh2NDBINjRabTgwLDE5MkgxMTJWMTkyaDMyWk04OCw2NGE4LDgsMCwwLDEsOC04aDE2YTgsOCwwLDAsMSwwLDE2SDk2QTgsOCwwLDAsMSw4OCw2NFptNDgsMGE4LDgsMCwwLDEsOC04aDE2YTgsOCwwLDAsMSwwLDE2SDE0NEE4LDgsMCwwLDEsMTM2LDY0Wk04OCwxMDRhOCw4LDAsMCwxLDgtOGgxNmE4LDgsMCwwLDEsMCwxNkg5NkE4LDgsMCwwLDEsODgsMTA0Wm00OCwwYTgsOCwwLDAsMSw4LThoMTZhOCw4LDAsMCwxLDAsMTZIMTQ0QTgsOCwwLDAsMSwxMzYsMTA0Wk04OCwxNDRhOCw4LDAsMCwxLDgtOGgxNmE4LDgsMCwwLDEsMCwxNkg5NkE4LDgsMCwwLDEsODgsMTQ0Wm00OCwwYTgsOCwwLDAsMSw4LThoMTZhOCw4LDAsMCwxLDAsMTZIMTQ0QTgsOCwwLDAsMSwxMzYsMTQ0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "BuildingIcon";
 
 /** @deprecated Use BuildingIcon */
 export const Building = I;
-export { I as BuildingIcon };
+export { I as BuildingIcon }

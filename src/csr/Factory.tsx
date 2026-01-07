@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Factory";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMTYsMTc2YTgsOCwwLDAsMS04LDhIODBhOCw4LDAsMCwxLDAtMTZoMjhBOCw4LDAsMCwxLDExNiwxNzZabTYwLThIMTQ4YTgsOCwwLDAsMCwwLDE2aDI4YTgsOCwwLDAsMCwwLTE2Wm02NCw0OGE4LDgsMCwwLDEtOCw4SDI0YTgsOCwwLDAsMSwwLTE2aDhWODhhOCw4LDAsMCwxLDEyLjgtNi40TDk2LDEyMFY4OGE4LDgsMCwwLDEsMTIuOC02LjRsMzguNzQsMjkuMDVMMTU5LjEsMjkuNzRBMTYuMDgsMTYuMDgsMCwwLDEsMTc0Ljk0LDE2aDE4LjEyQTE2LjA4LDE2LjA4LDAsMCwxLDIwOC45LDI5Ljc0bDE1LDEwNS4xM3MuMDguNzguMDgsMS4xM3Y3Mmg4QTgsOCwwLDAsMSwyNDAsMjE2Wm0tNzcuODYtOTQuNCw4LjUzLDYuNGgzNi4xMUwxOTMuMDYsMzJIMTc0Ljk0Wk00OCwyMDhIMjA4VjE0NEgxNjhhOCw4LDAsMCwxLTQuOC0xLjZsLTE0LjQtMTAuOCwwLDBMMTEyLDEwNHYzMmE4LDgsMCwwLDEtMTIuOCw2LjRMNDgsMTA0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FactoryIcon";
 
 /** @deprecated Use FactoryIcon */
 export const Factory = I;
-export { I as FactoryIcon };
+export { I as FactoryIcon }

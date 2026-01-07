@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChatCircleText";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMTEyYTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwxMTJabS04LDI0SDk2YTgsOCwwLDAsMCwwLDE2aDY0YTgsOCwwLDAsMCwwLTE2Wm03Mi04QTEwNCwxMDQsMCwwLDEsNzkuMTIsMjE5LjgyTDQ1LjA3LDIzMS4xN2ExNiwxNiwwLDAsMS0yMC4yNC0yMC4yNGwxMS4zNS0zNC4wNUExMDQsMTA0LDAsMSwxLDIzMiwxMjhabS0xNiwwQTg4LDg4LDAsMSwwLDUxLjgxLDE3Mi4wNmE4LDgsMCwwLDEsLjY2LDYuNTRMNDAsMjE2LDc3LjQsMjAzLjUzYTcuODUsNy44NSwwLDAsMSwyLjUzLS40Miw4LDgsMCwwLDEsNCwxLjA4QTg4LDg4LDAsMCwwLDIxNiwxMjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ChatCircleTextIcon";
 
 /** @deprecated Use ChatCircleTextIcon */
 export const ChatCircleText = I;
-export { I as ChatCircleTextIcon };
+export { I as ChatCircleTextIcon }

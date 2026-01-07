@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CalendarStar";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJIMTg0VjI0YTgsOCwwLDAsMC0xNiwwdjhIODhWMjRhOCw4LDAsMCwwLTE2LDB2OEg0OEExNiwxNiwwLDAsMCwzMiw0OFYyMDhhMTYsMTYsMCwwLDAsMTYsMTZIMjA4YTE2LDE2LDAsMCwwLDE2LTE2VjQ4QTE2LDE2LDAsMCwwLDIwOCwzMlptMCwxNzZINDhWNDhINzJ2OGE4LDgsMCwwLDAsMTYsMFY0OGg4MHY4YTgsOCwwLDAsMCwxNiwwVjQ4aDI0VjIwOFptLTMxLjM4LTk0LjM2LTI5Ljg0LTIuMzEtMTEuNDMtMjYuNWE4LDgsMCwwLDAtMTQuNywwbC0xMS40MywyNi41LTI5Ljg0LDIuMzFhOCw4LDAsMCwwLTQuNDcsMTQuMTRsMjIuNTIsMTguNTktNi44NiwyNy43MWE4LDgsMCwwLDAsMTEuODIsOC44MUwxMjgsMTY3LjgybDI1LjYxLDE1LjA3YTgsOCwwLDAsMCwxMS44Mi04LjgxbC02Ljg2LTI3LjcxLDIyLjUyLTE4LjU5YTgsOCwwLDAsMC00LjQ3LTE0LjE0Wm0tMzIuMTEsMjMuNmE4LDgsMCwwLDAtMi42OCw4LjA5bDMuNSwxNC4xMi0xMy4yNy03LjgxYTgsOCwwLDAsMC04LjEyLDBsLTEzLjI3LDcuODEsMy41LTE0LjEyYTgsOCwwLDAsMC0yLjY4LTguMDlsLTExLjExLTkuMTgsMTQuODktMS4xNWE4LDgsMCwwLDAsNi43My00LjhsNi0xMy45Miw2LDEzLjkyYTgsOCwwLDAsMCw2LjczLDQuOGwxNC44OSwxLjE1WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CalendarStarIcon";
 
 /** @deprecated Use CalendarStarIcon */
 export const CalendarStar = I;
-export { I as CalendarStarIcon };
+export { I as CalendarStarIcon }

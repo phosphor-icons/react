@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HandCoins";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuMzMsMTQxLjA2YTI0LjQzLDI0LjQzLDAsMCwwLTIxLjI0LTQuMjNsLTQxLjg0LDkuNjJBMjgsMjgsMCwwLDAsMTQwLDExMkg4OS45NGEzMS44MiwzMS44MiwwLDAsMC0yMi42Myw5LjM3TDQ0LjY5LDE0NEgxNkExNiwxNiwwLDAsMCwwLDE2MHY0MGExNiwxNiwwLDAsMCwxNiwxNkgxMjBhNy45Myw3LjkzLDAsMCwwLDEuOTQtLjI0bDY0LTE2YTYuOTQsNi45NCwwLDAsMCwxLjE5LS40TDIyNiwxODIuODJsLjQ0LS4yYTI0LjYsMjQuNiwwLDAsMCwzLjkzLTQxLjU2Wk0xNiwxNjBINDB2NDBIMTZabTIwMy40Myw4LjIxLTM4LDE2LjE4TDExOSwyMDBINTZWMTU1LjMxbDIyLjYzLTIyLjYyQTE1Ljg2LDE1Ljg2LDAsMCwxLDg5Ljk0LDEyOEgxNDBhMTIsMTIsMCwwLDEsMCwyNEgxMTJhOCw4LDAsMCwwLDAsMTZoMzJhOC4zMiw4LjMyLDAsMCwwLDEuNzktLjJsNjctMTUuNDEuMzEtLjA4YTguNiw4LjYsMCwwLDEsNi4zLDE1LjlaTTE2NCw5NmEzNiwzNiwwLDAsMCw1LjktLjQ4LDM2LDM2LDAsMSwwLDI4LjIyLTQ3QTM2LDM2LDAsMSwwLDE2NCw5NlptNjAtMTJhMjAsMjAsMCwxLDEtMjAtMjBBMjAsMjAsMCwwLDEsMjI0LDg0Wk0xNjQsNDBhMjAsMjAsMCwwLDEsMTkuMjUsMTQuNjEsMzYsMzYsMCwwLDAtMTUsMjQuOTNBMjAuNDIsMjAuNDIsMCwwLDEsMTY0LDgwYTIwLDIwLDAsMCwxLDAtNDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "HandCoinsIcon";
 
 /** @deprecated Use HandCoinsIcon */
 export const HandCoins = I;
-export { I as HandCoinsIcon };
+export { I as HandCoinsIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Pentagram";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzkuMTgsOTEuMDVBMTUuNzUsMTUuNzUsMCwwLDAsMjI0LDgwaC02MUwxNDMuMjMsMTkuMjZhMTUuOTMsMTUuOTMsMCwwLDAtMzAuNDUtLjA1TDkzLjA2LDgwSDMyYTE2LDE2LDAsMCwwLTkuMzcsMjlsNDkuNDYsMzUuNThMNTMuMTUsMjAzQTE1Ljc1LDE1Ljc1LDAsMCwwLDU5LDIyMC44OGExNS43NCwxNS43NCwwLDAsMCwxOC43NywwTDEyOCwxODQuNzVsNTAuMjMsMzYuMTNBMTYsMTYsMCwwLDAsMjAyLjg1LDIwM2wtMTktNTguNDYsNDkuNDktMzUuNjFBMTUuNzQsMTUuNzQsMCwwLDAsMjM5LjE4LDkxLjA1Wk0xMjgsMjQuMTUsMTQ2LjEyLDgwSDEwOS44OFpNMzIsOTZIODcuODdMNzcuMywxMjguNTZabTM2LjM0LDExMmgwbDE3LjM5LTUzLjU5LDI4LjU0LDIwLjU0Wm0yMi41Ny02OS41N0wxMDQuNjksOTZoNDYuNjJsMTMuNzUsNDIuMzhMMTI4LDE2NVptOTYuNjksNjkuNTcsMCwwLTQ1LjktMzMsMjguNTQtMjAuNTRabS04LjkzLTc5LjM4TDE2OC4xMyw5NkgyMjRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "PentagramIcon";
 
 /** @deprecated Use PentagramIcon */
 export const Pentagram = I;
-export { I as PentagramIcon };
+export { I as PentagramIcon }

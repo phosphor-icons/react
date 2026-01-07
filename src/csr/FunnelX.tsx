@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FunnelX";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjcuODIsNjYuNzZBMTYsMTYsMCwwLDAsMjE2LDQwSDQwQTE2LDE2LDAsMCwwLDI4LjE5LDY2Ljc2bC4wOC4wOUw5NiwxMzkuMTdWMjE2YTE2LDE2LDAsMCwwLDI0Ljg3LDEzLjMybDMyLTIxLjM0QTE2LDE2LDAsMCwwLDE2MCwxOTQuNjZWMTM5LjE3bDY3LjczLTcyLjMyWk00MCw1NmgwWm0xMDYuMTksNzQuNTlBOCw4LDAsMCwwLDE0NCwxMzZ2NTguNjZMMTEyLDIxNlYxMzZhOCw4LDAsMCwwLTIuMTYtNS40Nkw0MCw1NkgyMTZabTk5LjQ5LDc5LjgxYTgsOCwwLDAsMS0xMS4zMiwxMS4zMkwyMTYsMjAzLjMybC0xOC4zNCwxOC4zNWE4LDgsMCwwLDEtMTEuMzEtMTEuMzJMMjA0LjY5LDE5MmwtMTguMzQtMTguMzVhOCw4LDAsMCwxLDExLjMxLTExLjMxTDIxNiwxODAuNjlsMTguMzQtMTguMzRhOCw4LDAsMCwxLDExLjMyLDExLjMxTDIyNy4zMSwxOTJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FunnelXIcon";
 
 /** @deprecated Use FunnelXIcon */
 export const FunnelX = I;
-export { I as FunnelXIcon };
+export { I as FunnelXIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GraphicsCard";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNDhIMTZhOCw4LDAsMCwwLTgsOFYyMDhhOCw4LDAsMCwwLDE2LDBWMTkySDQwdjE2YTgsOCwwLDAsMCwxNiwwVjE5Mkg3MnYxNmE4LDgsMCwwLDAsMTYsMFYxOTJoMTZ2MTZhOCw4LDAsMCwwLDE2LDBWMTkySDIzMmExNiwxNiwwLDAsMCwxNi0xNlY2NEExNiwxNiwwLDAsMCwyMzIsNDhabTAsMTI4SDI0VjY0SDIzMlptLTU2LTE2YTQwLDQwLDAsMSwwLTQwLTQwQTQwLDQwLDAsMCwwLDE3NiwxNjBabS0yNC00MGEyMy43NCwyMy43NCwwLDAsMSwyLjM1LTEwLjM0bDMyLDMyQTIzLjc0LDIzLjc0LDAsMCwxLDE3NiwxNDQsMjQsMjQsMCwwLDEsMTUyLDEyMFptNDgsMGEyMy43NCwyMy43NCwwLDAsMS0yLjM1LDEwLjM0bC0zMi0zMkEyMy43NCwyMy43NCwwLDAsMSwxNzYsOTYsMjQsMjQsMCwwLDEsMjAwLDEyMFpNODAsMTYwYTQwLDQwLDAsMSwwLTQwLTQwQTQwLDQwLDAsMCwwLDgwLDE2MFpNNTYsMTIwYTIzLjc0LDIzLjc0LDAsMCwxLDIuMzUtMTAuMzRsMzIsMzJBMjMuNzQsMjMuNzQsMCwwLDEsODAsMTQ0LDI0LDI0LDAsMCwxLDU2LDEyMFptNDgsMGEyMy43NCwyMy43NCwwLDAsMS0yLjM1LDEwLjM0bC0zMi0zMkEyMy43NCwyMy43NCwwLDAsMSw4MCw5NiwyNCwyNCwwLDAsMSwxMDQsMTIwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "GraphicsCardIcon";
 
 /** @deprecated Use GraphicsCardIcon */
 export const GraphicsCard = I;
-export { I as GraphicsCardIcon };
+export { I as GraphicsCardIcon }

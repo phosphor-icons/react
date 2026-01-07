@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Hoodie";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzcuMzEsMTIwLjUzLDE4MywzOS4xMkExNiwxNiwwLDAsMCwxNjkuNzMsMzJIODYuMjdBMTYsMTYsMCwwLDAsNzMsMzkuMTJMMTguNjksMTIwLjUzYTE2LDE2LDAsMCwwLTIuMTMsMTMuMDlMMzgsMjEyLjIxQTE2LDE2LDAsMCwwLDUzLjQzLDIyNEg4MGExNiwxNiwwLDAsMCwxNi0xNlYxOTJoNjR2MTZhMTYsMTYsMCwwLDAsMTYsMTZoMjYuNTdBMTYsMTYsMCwwLDAsMjE4LDIxMi4yMWwyMS40NC03OC41OUExNiwxNiwwLDAsMCwyMzcuMzEsMTIwLjUzWk04MCwxNzZWNjlsMjQsMTQuMTVWMTM2YTgsOCwwLDAsMCwxNiwwVjkyLjU3bDMuOTQsMi4zMmE4LDgsMCwwLDAsOC4xMiwwTDEzNiw5Mi41N1YxMjhhOCw4LDAsMCwwLDE2LDBWODMuMTRMMTc2LDY5VjE3NlpNMTY5LjczLDQ4bDIuOTIsNC4zOUwxMjgsNzguNzEsODMuMzUsNTIuMzksODYuMjcsNDhaTTgwLDIwOEg1My40M0wzMiwxMjkuNDFsMzItNDhWMTc2YTE2LDE2LDAsMCwwLDE2LDE2Wm0xMjIuNTcsMEgxNzZWMTkyYTE2LDE2LDAsMCwwLDE2LTE2VjgxLjQxbDMyLDQ4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "HoodieIcon";
 
 /** @deprecated Use HoodieIcon */
 export const Hoodie = I;
-export { I as HoodieIcon };
+export { I as HoodieIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TreeView";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMTUyaDMyYTE2LDE2LDAsMCwwLDE2LTE2VjEwNGExNiwxNiwwLDAsMC0xNi0xNkgxNzZhMTYsMTYsMCwwLDAtMTYsMTZ2OEg4OFY4MGg4YTE2LDE2LDAsMCwwLDE2LTE2VjMyQTE2LDE2LDAsMCwwLDk2LDE2SDY0QTE2LDE2LDAsMCwwLDQ4LDMyVjY0QTE2LDE2LDAsMCwwLDY0LDgwaDhWMTkyYTI0LDI0LDAsMCwwLDI0LDI0aDY0djhhMTYsMTYsMCwwLDAsMTYsMTZoMzJhMTYsMTYsMCwwLDAsMTYtMTZWMTkyYTE2LDE2LDAsMCwwLTE2LTE2SDE3NmExNiwxNiwwLDAsMC0xNiwxNnY4SDk2YTgsOCwwLDAsMS04LThWMTI4aDcydjhBMTYsMTYsMCwwLDAsMTc2LDE1MlpNNjQsMzJIOTZWNjRINjRaTTE3NiwxOTJoMzJ2MzJIMTc2Wm0wLTg4aDMydjMySDE3NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "TreeViewIcon";
 
 /** @deprecated Use TreeViewIcon */
 export const TreeView = I;
-export { I as TreeViewIcon };
+export { I as TreeViewIcon }

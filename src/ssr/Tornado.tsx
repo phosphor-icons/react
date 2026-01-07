@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Tornado";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNDBhOCw4LDAsMCwxLTgsOEg1NmE4LDgsMCwwLDEsMC0xNkgyMjRBOCw4LDAsMCwxLDIzMiw0MFpNMTg0LDcyYTgsOCwwLDAsMC04LThIMzJhOCw4LDAsMCwwLDAsMTZIMTc2QTgsOCwwLDAsMCwxODQsNzJabS0xNiwzMmE4LDgsMCwwLDAtOC04SDU2YTgsOCwwLDAsMCwwLDE2SDE2MEE4LDgsMCwwLDAsMTY4LDEwNFptMTYsMzJhOCw4LDAsMCwwLTgtOEg4OGE4LDgsMCwwLDAsMCwxNmg4OEE4LDgsMCwwLDAsMTg0LDEzNlptMCwyNEgxMjBhOCw4LDAsMCwwLDAsMTZoNjRhOCw4LDAsMCwwLDAtMTZabS0yNCwzMkgxMjhhOCw4LDAsMCwwLDAsMTZoMzJhOCw4LDAsMCwwLDAtMTZabS0zMiwzMkgxMTJhOCw4LDAsMCwwLDAsMTZoMTZhOCw4LDAsMCwwLDAtMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "TornadoIcon";
 
 /** @deprecated Use TornadoIcon */
 export const Tornado = I;
-export { I as TornadoIcon };
+export { I as TornadoIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChatCircleDots";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDAsMTI4YTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE0MCwxMjhaTTg0LDExNmExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCw4NCwxMTZabTg4LDBhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsMTcyLDExNlptNjAsMTJBMTA0LDEwNCwwLDAsMSw3OS4xMiwyMTkuODJMNDUuMDcsMjMxLjE3YTE2LDE2LDAsMCwxLTIwLjI0LTIwLjI0bDExLjM1LTM0LjA1QTEwNCwxMDQsMCwxLDEsMjMyLDEyOFptLTE2LDBBODgsODgsMCwxLDAsNTEuODEsMTcyLjA2YTgsOCwwLDAsMSwuNjYsNi41NEw0MCwyMTYsNzcuNCwyMDMuNTNhNy44NSw3Ljg1LDAsMCwxLDIuNTMtLjQyLDgsOCwwLDAsMSw0LDEuMDhBODgsODgsMCwwLDAsMjE2LDEyOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ChatCircleDotsIcon";
 
 /** @deprecated Use ChatCircleDotsIcon */
 export const ChatCircleDots = I;
-export { I as ChatCircleDotsIcon };
+export { I as ChatCircleDotsIcon }

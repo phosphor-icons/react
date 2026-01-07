@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/UserSwitch";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTMuNjYsMTMzLjY2bC0yNCwyNGE4LDgsMCwwLDEtMTEuMzIsMGwtMjQtMjRhOCw4LDAsMCwxLDExLjMyLTExLjMyTDIxNiwxMzIuNjlWMTI4QTg4LDg4LDAsMCwwLDU2LjQ5LDc2LjY3YTgsOCwwLDAsMS0xMy05LjM0QTEwNCwxMDQsMCwwLDEsMjMyLDEyOHY0LjY5bDEwLjM0LTEwLjM1YTgsOCwwLDAsMSwxMS4zMiwxMS4zMlptLTQxLjE4LDU1QTEwNCwxMDQsMCwwLDEsMjQsMTI4di00LjY5TDEzLjY2LDEzMy42NkE4LDgsMCwwLDEsMi4zNCwxMjIuMzRsMjQtMjRhOCw4LDAsMCwxLDExLjMyLDBsMjQsMjRhOCw4LDAsMCwxLTExLjMyLDExLjMyTDQwLDEyMy4zMVYxMjhhODcuNjIsODcuNjIsMCwwLDAsMjIuMjQsNTguNDFBNzkuNjYsNzkuNjYsMCwwLDEsOTguMywxNTcuNjZhNDgsNDgsMCwxLDEsNTkuNCwwLDc5LjU5LDc5LjU5LDAsMCwxLDM2LjA4LDI4Ljc4LDg5LjY4LDg5LjY4LDAsMCwwLDUuNzEtNy4xMSw4LDgsMCwwLDEsMTMsOS4zNFpNMTI4LDE1MmEzMiwzMiwwLDEsMC0zMi0zMkEzMiwzMiwwLDAsMCwxMjgsMTUyWm0wLDY0YTg4LjIsODguMiwwLDAsMCw1My45Mi0xOC40OSw2NCw2NCwwLDAsMC0xMDcuODQsMEE4Ny41Nyw4Ny41NywwLDAsMCwxMjgsMjE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "UserSwitchIcon";
 
 /** @deprecated Use UserSwitchIcon */
 export const UserSwitch = I;
-export { I as UserSwitchIcon };
+export { I as UserSwitchIcon }

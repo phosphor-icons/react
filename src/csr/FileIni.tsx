@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FileIni";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik00OCwxNTJ2NTZhOCw4LDAsMCwxLTE2LDBWMTUyYTgsOCwwLDAsMSwxNiwwWm03Mi04YTgsOCwwLDAsMC04LDh2MzFMODYuNTEsMTQ3LjM1QTgsOCwwLDAsMCw3MiwxNTJ2NTZhOCw4LDAsMCwwLDE2LDBWMTc3bDI1LjQ5LDM1LjY5QTgsOCwwLDAsMCwxMjAsMjE2YTcuOTEsNy45MSwwLDAsMCwyLjQ0LS4zOEE4LDgsMCwwLDAsMTI4LDIwOFYxNTJBOCw4LDAsMCwwLDEyMCwxNDRabTQwLDBhOCw4LDAsMCwwLTgsOHY1NmE4LDgsMCwwLDAsMTYsMFYxNTJBOCw4LDAsMCwwLDE2MCwxNDRabTU2LTU2VjIyNGE4LDgsMCwwLDEtMTYsMFY5NkgxNTJhOCw4LDAsMCwxLTgtOFY0MEg1NnY3MmE4LDgsMCwwLDEtMTYsMFY0MEExNiwxNiwwLDAsMSw1NiwyNGg5NmE4LDgsMCwwLDEsNS42NiwyLjM0bDU2LDU2QTgsOCwwLDAsMSwyMTYsODhabS01Ni04aDI4LjY5TDE2MCw1MS4zMVoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "FileIniIcon";
 
 /** @deprecated Use FileIniIcon */
 export const FileIni = I;
-export { I as FileIniIcon };
+export { I as FileIniIcon }

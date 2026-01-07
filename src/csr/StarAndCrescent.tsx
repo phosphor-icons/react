@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/StarAndCrescent";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTUuNjQsMTk5LjI4YTgwLDgwLDAsMCwxLDAtMTQyLjU2LDgsOCwwLDAsMCwwLTE0LjI1QTk0LjkzLDk0LjkzLDAsMCwwLDExMiwzMmE5Niw5NiwwLDAsMCwwLDE5Miw5NC45Myw5NC45MywwLDAsMCw0My42NC0xMC40Nyw4LDgsMCwwLDAsMC0xNC4yNVpNMTEyLDIwOEE4MCw4MCwwLDEsMSwxMzQuNCw1MS4xNmE5Ni4wOCw5Ni4wOCwwLDAsMCwwLDE1My42OEE3OS44Miw3OS44MiwwLDAsMSwxMTIsMjA4Wm0xMzkuMTctODcuMzUtMjYuNS0xMS40My0yLjMxLTI5Ljg0YTgsOCwwLDAsMC0xNC4xNC00LjQ3TDE4OS42Myw5Ny40MmwtMjcuNzEtNi44NWE4LDgsMCwwLDAtOC44MSwxMS44MkwxNjguMTgsMTI4bC0xNS4wNywyNS42MWE4LDgsMCwwLDAsOC44MSwxMS44MmwyNy43MS02Ljg1LDE4LjU5LDIyLjUxYTgsOCwwLDAsMCwxNC4xNC00LjQ3bDIuMzEtMjkuODQsMjYuNS0xMS40M2E4LDgsMCwwLDAsMC0xNC43Wk0yMTMuODksMTM0YTgsOCwwLDAsMC00LjgsNi43M2wtMS4xNSwxNC44OS05LjE4LTExLjExYTgsOCwwLDAsMC02LjE3LTIuOTEsOC40LDguNCwwLDAsMC0xLjkyLjIzbC0xNC4xMiwzLjUsNy44MS0xMy4yN2E4LDgsMCwwLDAsMC04LjEybC03LjgxLTEzLjI3LDE0LjEyLDMuNWE4LDgsMCwwLDAsOC4wOS0yLjY4bDkuMTgtMTEuMTEsMS4xNSwxNC44OWE4LDgsMCwwLDAsNC44LDYuNzNsMTMuOTIsNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "StarAndCrescentIcon";
 
 /** @deprecated Use StarAndCrescentIcon */
 export const StarAndCrescent = I;
-export { I as StarAndCrescentIcon };
+export { I as StarAndCrescentIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SunHorizon";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTUySDE5OS41NWE3My41NCw3My41NCwwLDAsMCwuNDUtOCw3Miw3MiwwLDAsMC0xNDQsMCw3My41NCw3My41NCwwLDAsMCwuNDUsOEgxNmE4LDgsMCwwLDAsMCwxNkgyNDBhOCw4LDAsMCwwLDAtMTZaTTcyLDE0NGE1Niw1NiwwLDEsMSwxMTEuNDEsOEg3Mi41OUE1Ni4xMyw1Ni4xMywwLDAsMSw3MiwxNDRabTE0NCw1NmE4LDgsMCwwLDEtOCw4SDQ4YTgsOCwwLDAsMSwwLTE2SDIwOEE4LDgsMCwwLDEsMjE2LDIwMFpNNzIuODQsNDMuNThhOCw4LDAsMCwxLDE0LjMyLTcuMTZsOCwxNmE4LDgsMCwwLDEtMTQuMzIsNy4xNlptLTU2LDQ4Ljg0YTgsOCwwLDAsMSwxMC43NC0zLjU3bDE2LDhhOCw4LDAsMCwxLTcuMTYsMTQuMzFsLTE2LThBOCw4LDAsMCwxLDE2Ljg0LDkyLjQyWm0xOTIsMTUuMTZhOCw4LDAsMCwxLDMuNTgtMTAuNzNsMTYtOGE4LDgsMCwxLDEsNy4xNiwxNC4zMWwtMTYsOGE4LDgsMCwwLDEtMTAuNzQtMy41OFptLTQ4LTU1LjE2LDgtMTZhOCw4LDAsMCwxLDE0LjMyLDcuMTZsLTgsMTZhOCw4LDAsMSwxLTE0LjMyLTcuMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "SunHorizonIcon";
 
 /** @deprecated Use SunHorizonIcon */
 export const SunHorizon = I;
-export { I as SunHorizonIcon };
+export { I as SunHorizonIcon }

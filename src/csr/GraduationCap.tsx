@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GraduationCap";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTEuNzYsODguOTRsLTEyMC02NGE4LDgsMCwwLDAtNy41MiwwbC0xMjAsNjRhOCw4LDAsMCwwLDAsMTQuMTJMMzIsMTE3Ljg3djQ4LjQyYTE1LjkxLDE1LjkxLDAsMCwwLDQuMDYsMTAuNjVDNDkuMTYsMTkxLjUzLDc4LjUxLDIxNiwxMjgsMjE2YTEzMCwxMzAsMCwwLDAsNDgtOC43NlYyNDBhOCw4LDAsMCwwLDE2LDBWMTk5LjUxYTExNS42MywxMTUuNjMsMCwwLDAsMjcuOTQtMjIuNTdBMTUuOTEsMTUuOTEsMCwwLDAsMjI0LDE2Ni4yOVYxMTcuODdsMjcuNzYtMTQuODFhOCw4LDAsMCwwLDAtMTQuMTJaTTEyOCwyMDBjLTQzLjI3LDAtNjguNzItMjEuMTQtODAtMzMuNzFWMTI2LjRsNzYuMjQsNDAuNjZhOCw4LDAsMCwwLDcuNTIsMEwxNzYsMTQzLjQ3djQ2LjM0QzE2My40LDE5NS42OSwxNDcuNTIsMjAwLDEyOCwyMDBabTgwLTMzLjc1YTk3LjgzLDk3LjgzLDAsMCwxLTE2LDE0LjI1VjEzNC45M2wxNi04LjUzWk0xODgsMTE4Ljk0bC0uMjItLjEzLTU2LTI5Ljg3YTgsOCwwLDAsMC03LjUyLDE0LjEyTDE3MSwxMjhsLTQzLDIyLjkzTDI1LDk2LDEyOCw0MS4wNywyMzEsOTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "GraduationCapIcon";
 
 /** @deprecated Use GraduationCapIcon */
 export const GraduationCap = I;
-export { I as GraduationCapIcon };
+export { I as GraduationCapIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CalendarSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01My45MiwzNC42MkE4LDgsMCwwLDAsNDgsMzIsMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGE4LDgsMCwwLDAsNS45Mi0xMy4zOFpNNzMuNTUsODBINDhWNTEuODhaTTQ4LDIwOFY5Nkg4OC4xTDE4OS45MiwyMDhaTTIyNCw0OFYxNzcuMjNhOCw4LDAsMSwxLTE2LDBWOTZIMTM0Ljg4YTgsOCwwLDAsMSwwLTE2SDIwOFY0OEgxODR2OGE4LDgsMCwwLDEtMTYsMFY0OEg5MS4yNWE4LDgsMCwwLDEsMC0xNkgxNjhWMjRhOCw4LDAsMCwxLDE2LDB2OGgyNEExNiwxNiwwLDAsMSwyMjQsNDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CalendarSlashIcon";
 
 /** @deprecated Use CalendarSlashIcon */
 export const CalendarSlash = I;
-export { I as CalendarSlashIcon };
+export { I as CalendarSlashIcon }

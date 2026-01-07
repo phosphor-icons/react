@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Kanban";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDhINDBhOCw4LDAsMCwwLTgsOFYyMDhhMTYsMTYsMCwwLDAsMTYsMTZIODhhMTYsMTYsMCwwLDAsMTYtMTZWMTYwaDQ4djE2YTE2LDE2LDAsMCwwLDE2LDE2aDQwYTE2LDE2LDAsMCwwLDE2LTE2VjU2QTgsOCwwLDAsMCwyMTYsNDhaTTg4LDIwOEg0OFYxMjhIODhabTAtOTZINDhWNjRIODhabTY0LDMySDEwNFY2NGg0OFptNTYsMzJIMTY4VjEyOGg0MFptMC02NEgxNjhWNjRoNDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "KanbanIcon";
 
 /** @deprecated Use KanbanIcon */
 export const Kanban = I;
-export { I as KanbanIcon };
+export { I as KanbanIcon }

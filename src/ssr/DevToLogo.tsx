@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/DevToLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNTZIMjRBMTYsMTYsMCwwLDAsOCw3MlYxODRhMTYsMTYsMCwwLDAsMTYsMTZIMjMyYTE2LDE2LDAsMCwwLDE2LTE2VjcyQTE2LDE2LDAsMCwwLDIzMiw1NlptMCwxMjhIMjRWNzJIMjMyVjE4NFpNMTI4LDEwNHYxNmg4YTgsOCwwLDAsMSwwLDE2aC04djE2aDE2YTgsOCwwLDAsMSwwLDE2SDEyMGE4LDgsMCwwLDEtOC04Vjk2YTgsOCwwLDAsMSw4LThoMjRhOCw4LDAsMCwxLDAsMTZabTg3LjctNS44My0xOCw2NGE4LDgsMCwwLDEtMTUuNCwwbC0xOC02NGE4LDgsMCwwLDEsMTUuNC00LjM0TDE5MCwxMzAuNDVsMTAuMy0zNi42MmE4LDgsMCwxLDEsMTUuNCw0LjM0Wk02NCw4OEg1NmE4LDgsMCwwLDAtOCw4djY0YTgsOCwwLDAsMCw4LDhoOGEzMiwzMiwwLDAsMCwzMi0zMlYxMjBBMzIsMzIsMCwwLDAsNjQsODhabTE2LDQ4YTE2LDE2LDAsMCwxLTE2LDE2VjEwNGExNiwxNiwwLDAsMSwxNiwxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "DevToLogoIcon";
 
 /** @deprecated Use DevToLogoIcon */
 export const DevToLogo = I;
-export { I as DevToLogoIcon };
+export { I as DevToLogoIcon }

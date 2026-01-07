@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SlackLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuMTMsMTI4QTMyLDMyLDAsMCwwLDE4NCw3Ni4zMVY1NmEzMiwzMiwwLDAsMC01Ni0yMS4xM0EzMiwzMiwwLDAsMCw3Ni4zMSw3Mkg1NmEzMiwzMiwwLDAsMC0yMS4xMyw1NkEzMiwzMiwwLDAsMCw3MiwxNzkuNjlWMjAwYTMyLDMyLDAsMCwwLDU2LDIxLjEzQTMyLDMyLDAsMCwwLDE3OS42OSwxODRIMjAwYTMyLDMyLDAsMCwwLDIxLjEzLTU2Wk03MiwxNTJhMTYsMTYsMCwxLDEtMTYtMTZINzJabTQ4LDQ4YTE2LDE2LDAsMCwxLTMyLDBWMTUyYTE2LDE2LDAsMCwxLDE2LTE2aDE2Wm0wLTgwSDU2YTE2LDE2LDAsMCwxLDAtMzJoNDhhMTYsMTYsMCwwLDEsMTYsMTZabTAtNDhIMTA0YTE2LDE2LDAsMSwxLDE2LTE2Wm0xNi0xNmExNiwxNiwwLDAsMSwzMiwwdjQ4YTE2LDE2LDAsMCwxLTE2LDE2SDEzNlptMTYsMTYwYTE2LDE2LDAsMCwxLTE2LTE2VjE4NGgxNmExNiwxNiwwLDAsMSwwLDMyWm00OC00OEgxNTJhMTYsMTYsMCwwLDEtMTYtMTZWMTM2aDY0YTE2LDE2LDAsMCwxLDAsMzJabTAtNDhIMTg0VjEwNGExNiwxNiwwLDEsMSwxNiwxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "SlackLogoIcon";
 
 /** @deprecated Use SlackLogoIcon */
 export const SlackLogo = I;
-export { I as SlackLogoIcon };
+export { I as SlackLogoIcon }

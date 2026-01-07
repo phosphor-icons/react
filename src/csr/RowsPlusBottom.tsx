@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/RowsPlusBottom";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTEySDQ4YTE2LDE2LDAsMCwwLTE2LDE2djI0YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlYxMjhBMTYsMTYsMCwwLDAsMjA4LDExMlptMCw0MEg0OFYxMjhIMjA4djI0Wm0wLTExMkg0OEExNiwxNiwwLDAsMCwzMiw1NlY4MEExNiwxNiwwLDAsMCw0OCw5NkgyMDhhMTYsMTYsMCwwLDAsMTYtMTZWNTZBMTYsMTYsMCwwLDAsMjA4LDQwWm0wLDQwSDQ4VjU2SDIwOFY4MFpNMTYwLDIxNmE4LDgsMCwwLDEtOCw4SDEzNnYxNmE4LDgsMCwwLDEtMTYsMFYyMjRIMTA0YTgsOCwwLDAsMSwwLTE2aDE2VjE5MmE4LDgsMCwwLDEsMTYsMHYxNmgxNkE4LDgsMCwwLDEsMTYwLDIxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "RowsPlusBottomIcon";
 
 /** @deprecated Use RowsPlusBottomIcon */
 export const RowsPlusBottom = I;
-export { I as RowsPlusBottomIcon };
+export { I as RowsPlusBottomIcon }

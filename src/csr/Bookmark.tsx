@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Bookmark";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMzJINzJBMTYsMTYsMCwwLDAsNTYsNDhWMjI0YTgsOCwwLDAsMCwxMi4yNCw2Ljc4TDEyOCwxOTMuNDNsNTkuNzcsMzcuMzVBOCw4LDAsMCwwLDIwMCwyMjRWNDhBMTYsMTYsMCwwLDAsMTg0LDMyWm0wLDE2VjE2MS41N2wtNTEuNzctMzIuMzVhOCw4LDAsMCwwLTguNDgsMEw3MiwxNjEuNTZWNDhaTTEzMi4yMywxNzcuMjJhOCw4LDAsMCwwLTguNDgsMEw3MiwyMDkuNTdWMTgwLjQzbDU2LTM1LDU2LDM1djI5LjE0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "BookmarkIcon";
 
 /** @deprecated Use BookmarkIcon */
 export const Bookmark = I;
-export { I as BookmarkIcon };
+export { I as BookmarkIcon }

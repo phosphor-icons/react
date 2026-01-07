@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SplitHorizontal";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMTIsNDhWMjA4YTgsOCwwLDAsMS0xNiwwVjEzNkg0My4zMWwxOC4zNSwxOC4zNGE4LDgsMCwwLDEtMTEuMzIsMTEuMzJsLTMyLTMyYTgsOCwwLDAsMSwwLTExLjMybDMyLTMyYTgsOCwwLDAsMSwxMS4zMiwxMS4zMkw0My4zMSwxMjBIOTZWNDhhOCw4LDAsMCwxLDE2LDBabTEyNS42Niw3NC4zNC0zMi0zMmE4LDgsMCwwLDAtMTEuMzIsMTEuMzJMMjEyLjY5LDEyMEgxNjBWNDhhOCw4LDAsMCwwLTE2LDBWMjA4YTgsOCwwLDAsMCwxNiwwVjEzNmg1Mi42OWwtMTguMzUsMTguMzRhOCw4LDAsMCwwLDExLjMyLDExLjMybDMyLTMyQTgsOCwwLDAsMCwyMzcuNjYsMTIyLjM0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SplitHorizontalIcon";
 
 /** @deprecated Use SplitHorizontalIcon */
 export const SplitHorizontal = I;
-export { I as SplitHorizontalIcon };
+export { I as SplitHorizontalIcon }

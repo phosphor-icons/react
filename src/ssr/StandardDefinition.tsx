@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/StandardDefinition";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDQsNzJhOCw4LDAsMCwwLTgsOHY5NmE4LDgsMCwwLDAsOCw4aDI0YTU2LDU2LDAsMCwwLDAtMTEyWm02NCw1NmE0MCw0MCwwLDAsMS00MCw0MEgxNTJWODhoMTZBNDAsNDAsMCwwLDEsMjA4LDEyOFpNMjQsNDhhOCw4LDAsMCwxLDgtOEgyMjRhOCw4LDAsMCwxLDAsMTZIMzJBOCw4LDAsMCwxLDI0LDQ4Wk0yMzIsMjA4YTgsOCwwLDAsMS04LDhIMzJhOCw4LDAsMCwxLDAtMTZIMjI0QTgsOCwwLDAsMSwyMzIsMjA4Wk0xMDQsMTUyYzAtOS40OC04LjYxLTEzLTI2Ljg4LTE4LjI2QzYxLjM3LDEyOS4yLDQxLjc4LDEyMy41NSw0MS43OCwxMDRjMC0xOC4yNCwxNi40My0zMiwzOC4yMi0zMiwxNS43MiwwLDI5LjE4LDcuMywzNS4xMiwxOWE4LDgsMCwxLDEtMTQuMjcsNy4yMkM5Ny42NCw5MS45Myw4OS42NSw4OCw4MCw4OGMtMTIuNjcsMC0yMi4yMiw2Ljg4LTIyLjIyLDE2LDAsNyw5LDEwLjEsMjMuNzcsMTQuMzZDOTcuNzgsMTIzLDEyMCwxMjkuNDUsMTIwLDE1MmMwLDE3LjY0LTE3Ljk0LDMyLTQwLDMycy00MC0xNC4zNi00MC0zMmE4LDgsMCwwLDEsMTYsMGMwLDguNjcsMTEsMTYsMjQsMTZTMTA0LDE2MC42NywxMDQsMTUyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "StandardDefinitionIcon";
 
 /** @deprecated Use StandardDefinitionIcon */
 export const StandardDefinition = I;
-export { I as StandardDefinitionIcon };
+export { I as StandardDefinitionIcon }

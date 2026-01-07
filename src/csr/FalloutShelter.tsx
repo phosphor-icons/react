@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FalloutShelter";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlptNzEuMDUtOTEuNzdBOCw4LDAsMCwwLDE5MiwxMjBIMTQzbDIzLjcxLTM1LjU2QTgsOCwwLDAsMCwxNjAsNzJIOTZhOCw4LDAsMCwwLTYuNjYsMTIuNDRMMTEzLjA1LDEyMEg2NGE4LDgsMCwwLDAtNi42NiwxMi40NGwzMiw0OGE4LDgsMCwwLDAsMTMuMzIsMGwyNS4zNC0zOCwyNS4zNCwzOGE4LDgsMCwwLDAsMTMuMzIsMGwzMi00OEE4LDgsMCwwLDAsMTk5LjA1LDEyNC4yM1pNMTQ1LjA1LDg4LDEyOCwxMTMuNTgsMTExLDg4Wk05NiwxNjEuNTgsNzksMTM2aDM0LjFabTY0LDBMMTQzLDEzNmgzNC4xWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FalloutShelterIcon";
 
 /** @deprecated Use FalloutShelterIcon */
 export const FalloutShelter = I;
-export { I as FalloutShelterIcon };
+export { I as FalloutShelterIcon }

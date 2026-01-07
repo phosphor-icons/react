@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/NumberSquareSix";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTAsMTc2SDQ4VjQ4SDIwOFYyMDhabS04MC05NmMtLjYxLDAtMS4yMiwwLTEuODIsMEwxNDIuODcsODQuMWE4LDgsMCwwLDAtMTMuNzQtOC4ybC0zMi4yMyw1NEEzNiwzNiwwLDEsMCwxMjgsMTEyWm0wLDU2YTIwLDIwLDAsMSwxLDIwLTIwQTIwLDIwLDAsMCwxLDEyOCwxNjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "NumberSquareSixIcon";
 
 /** @deprecated Use NumberSquareSixIcon */
 export const NumberSquareSix = I;
-export { I as NumberSquareSixIcon };
+export { I as NumberSquareSixIcon }

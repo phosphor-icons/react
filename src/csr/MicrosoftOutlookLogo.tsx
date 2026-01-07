@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MicrosoftOutlookLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjAsMTI4YTMyLDMyLDAsMSwwLTMyLDMyQTMyLDMyLDAsMCwwLDEyMCwxMjhabS00OCwwYTE2LDE2LDAsMSwxLDE2LDE2QTE2LDE2LDAsMCwxLDcyLDEyOFptMTUyLTI0SDIwOFY0MGE4LDgsMCwwLDAtOC04SDEwNGE4LDgsMCwwLDAtOCw4VjY0SDQwQTE2LDE2LDAsMCwwLDI0LDgwdjk2YTE2LDE2LDAsMCwwLDE2LDE2SDcydjE2YTE2LDE2LDAsMCwwLDE2LDE2SDIxNmExNiwxNiwwLDAsMCwxNi0xNlYxMTJBOCw4LDAsMCwwLDIyNCwxMDRabS01OC4zNCw2MEwyMTYsMTI3LjY1djcyLjdaTTExMiw0OGg4MHY3Ny4yNGwtNDAsMjguODlWODBhMTYsMTYsMCwwLDAtMTYtMTZIMTEyWk00MCw4MGg5NnY3Ny45YzAsLjEyLDAsLjI0LDAsLjM2VjE3Nkg0MFpNODgsMTkyaDQ4YTE2LDE2LDAsMCwwLDE2LTE2di0yLjEzTDE5OS4yNiwyMDhIODhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "MicrosoftOutlookLogoIcon";
 
 /** @deprecated Use MicrosoftOutlookLogoIcon */
 export const MicrosoftOutlookLogo = I;
-export { I as MicrosoftOutlookLogoIcon };
+export { I as MicrosoftOutlookLogoIcon }

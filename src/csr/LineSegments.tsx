@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/LineSegments";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzguNjQsMzMuMzZhMzIsMzIsMCwwLDAtNDUuMjYsMGgwYTMyLDMyLDAsMCwwLDAsNDUuMjZjLjI5LjI5LjYuNTcuOS44NWwtMjYuNjMsNDkuNDZhMzIuMTksMzIuMTksMCwwLDAtMjMuOSwzLjVsLTIwLjE4LTIwLjE4YTMyLDMyLDAsMCwwLTUwLjItMzguODloMGEzMiwzMiwwLDAsMCwwLDQ1LjI2Yy4yOS4yOS41OS41Ny44OS44NUw0Ny42MywxNjguOTRhMzIsMzIsMCwwLDAtMzAuMjcsOC40NGgwYTMyLDMyLDAsMSwwLDQ1LjI2LDBjLS4yOS0uMjktLjYtLjU3LS45LS44NWwyNi42My00OS40NkEzMi40LDMyLjQsMCwwLDAsOTYsMTI4YTMyLDMyLDAsMCwwLDE2LjI1LTQuNDFsMjAuMTgsMjAuMThhMzIsMzIsMCwxLDAsNTAuMi02LjM4Yy0uMjktLjI5LS41OS0uNTctLjg5LS44NWwyNi42My00OS40NkEzMi4zMywzMi4zMywwLDAsMCwyMTYsODhhMzIsMzIsMCwwLDAsMjIuNjMtNTQuNjJaTTUxLjMsMjExLjMzYTE2LDE2LDAsMCwxLTIyLjYzLTIyLjY0aDBBMTYsMTYsMCwxLDEsNTEuMywyMTEuMzNabTMzLjM4LTEwNGExNiwxNiwwLDAsMSwwLTIyLjYzaDBhMTYsMTYsMCwxLDEsMCwyMi42M1ptODYuNjQsNjRhMTYsMTYsMCwwLDEtMjIuNjMtMjIuNjNoMGExNiwxNiwwLDAsMSwyMi42MywyMi42M1ptNTYtMTA0QTE2LDE2LDAsMSwxLDIwNC43LDQ0LjY3aDBhMTYsMTYsMCwwLDEsMjIuNjMsMjIuNjRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "LineSegmentsIcon";
 
 /** @deprecated Use LineSegmentsIcon */
 export const LineSegments = I;
-export { I as LineSegmentsIcon };
+export { I as LineSegmentsIcon }

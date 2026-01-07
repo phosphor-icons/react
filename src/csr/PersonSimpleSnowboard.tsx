@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PersonSimpleSnowboard";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjQsODBhMjgsMjgsMCwxLDAtMjgtMjhBMjgsMjgsMCwwLDAsMTY0LDgwWm0wLTQwYTEyLDEyLDAsMSwxLTEyLDEyQTEyLDEyLDAsMCwxLDE2NCw0MFptNTQuMjUsNzIuMzItMTM2LTQwYTgsOCwwLDEsMC00LjUyLDE1LjM1bDQwLjg1LDEyTDg1LjA3LDE1MCw0MC4zNCwxMzdhMjUuMTgsMjUuMTgsMCwxLDAtMTQuMTMsNDguMzRMMTgzLjY1LDIzMWEyNS44OCwyNS44OCwwLDAsMCw3LjE0LDEsMjUuMTcsMjUuMTcsMCwwLDAsNy00OS4zNmwtNTAuODktMTQuNzUsMTkuNzUtMjkuNDRhOCw4LDAsMCwwLTQuNDItMTIuMTRsLTM1LjMzLTEwLjIzLDcuNzgtMTEuNjcsNzkuMDcsMjMuMjZhOCw4LDAsMCwwLDQuNTEtMTUuMzVaTTIwMCwyMDYuODFhOS4wNyw5LjA3LDAsMCwxLTMuNjcsNy4zLDkuMjcsOS4yNywwLDAsMS04LjIyLDEuNUwzMC42NywxNzBhOS4yNCw5LjI0LDAsMCwxLTYuNjctOC44LDkuMDYsOS4wNiwwLDAsMSwzLjY2LTcuMyw5LjI2LDkuMjYsMCwwLDEsOC4yMy0xLjVMMTkzLjMzLDE5OEE5LjIzLDkuMjMsMCwwLDEsMjAwLDIwNi44MVptLTUyLjc1LTY4LjE4LTE2LjQ5LDI0LjU5LTI5LjU4LTguNTgsMTYuNC0yNC42WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PersonSimpleSnowboardIcon";
 
 /** @deprecated Use PersonSimpleSnowboardIcon */
 export const PersonSimpleSnowboard = I;
-export { I as PersonSimpleSnowboardIcon };
+export { I as PersonSimpleSnowboardIcon }

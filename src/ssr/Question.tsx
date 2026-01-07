@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Question";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDAsMTgwYTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE0MCwxODBaTTEyOCw3MmMtMjIuMDYsMC00MCwxNi4xNS00MCwzNnY0YTgsOCwwLDAsMCwxNiwwdi00YzAtMTEsMTAuNzctMjAsMjQtMjBzMjQsOSwyNCwyMC0xMC43NywyMC0yNCwyMGE4LDgsMCwwLDAtOCw4djhhOCw4LDAsMCwwLDE2LDB2LS43MmMxOC4yNC0zLjM1LDMyLTE3LjksMzItMzUuMjhDMTY4LDg4LjE1LDE1MC4wNiw3MiwxMjgsNzJabTEwNCw1NkExMDQsMTA0LDAsMSwxLDEyOCwyNCwxMDQuMTEsMTA0LjExLDAsMCwxLDIzMiwxMjhabS0xNiwwYTg4LDg4LDAsMSwwLTg4LDg4QTg4LjEsODguMSwwLDAsMCwyMTYsMTI4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "QuestionIcon";
 
 /** @deprecated Use QuestionIcon */
 export const Question = I;
-export { I as QuestionIcon };
+export { I as QuestionIcon }

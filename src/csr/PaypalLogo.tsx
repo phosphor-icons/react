@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PaypalLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjAuMTIsOTMuNTRhNTUuOCw1NS44LDAsMCwwLTIwLjE5LTE2LjE4QTU2LDU2LDAsMCwwLDE0NCwyNEg4NEExNiwxNiwwLDAsMCw2OC40OCwzNi4xMmwtMzYsMTQ0QTE2LDE2LDAsMCwwLDQ4LDIwMGgyNy41bC0zLDEyLjEyQTE2LDE2LDAsMCwwLDg4LDIzMmgzMS41QTE2LDE2LDAsMCwwLDEzNSwyMTkuODhMMTQ0LDE4NGgzMmE1Niw1NiwwLDAsMCw0NC4xNC05MC40NlpNNDgsMTg0LDg0LDQwaDYwYTQwLDQwLDAsMCwxLDM5LjMsMzIuNDlBNTcsNTcsMCwwLDAsMTc2LDcySDEyMGExNiwxNiwwLDAsMC0xNS41MywxMi4xMkw3OS41MiwxODRINDhaTTE4Myw4OC42MmMtLjA4LjM2LS4xNS43Mi0uMjQsMS4wOEEzOS45NCwzOS45NCwwLDAsMSwxNDQsMTIwSDExMmw4LTMyaDU2QTQwLjA3LDQwLjA3LDAsMCwxLDE4Myw4OC42MlptMzEuNzYsNDkuMDhBMzkuOTQsMzkuOTQsMCwwLDEsMTc2LDE2OEgxNDRhMTYsMTYsMCwwLDAtMTUuNTIsMTIuMTJsLTksMzUuODhIODhsMjAtODBoMzZhNTUuOSw1NS45LDAsMCwwLDU0LTQxLjM5LDQwLjIsNDAuMiwwLDAsMSw5LjQ4LDguNzdBMzkuNzMsMzkuNzMsMCwwLDEsMjE0Ljc4LDEzNy43WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PaypalLogoIcon";
 
 /** @deprecated Use PaypalLogoIcon */
 export const PaypalLogo = I;
-export { I as PaypalLogoIcon };
+export { I as PaypalLogoIcon }

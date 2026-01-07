@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CaretCircleDoubleLeft";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDEuNTQsNTQuNDZBMTA0LDEwNCwwLDAsMCw1NC40NiwyMDEuNTQsMTA0LDEwNCwwLDAsMCwyMDEuNTQsNTQuNDZaTTE5MC4yMywxOTAuMjNhODgsODgsMCwxLDEsMC0xMjQuNDZBODguMTEsODguMTEsMCwwLDEsMTkwLjIzLDE5MC4yM1ptLTE2LjU3LTg4LjU3TDE0Ny4zMSwxMjhsMjYuMzUsMjYuMzRhOCw4LDAsMCwxLTExLjMyLDExLjMybC0zMi0zMmE4LDgsMCwwLDEsMC0xMS4zMmwzMi0zMmE4LDgsMCwwLDEsMTEuMzIsMTEuMzJabS01NiwwTDkxLjMxLDEyOGwyNi4zNSwyNi4zNGE4LDgsMCwwLDEtMTEuMzIsMTEuMzJsLTMyLTMyYTgsOCwwLDAsMSwwLTExLjMybDMyLTMyYTgsOCwwLDAsMSwxMS4zMiwxMS4zMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CaretCircleDoubleLeftIcon";
 
 /** @deprecated Use CaretCircleDoubleLeftIcon */
 export const CaretCircleDoubleLeft = I;
-export { I as CaretCircleDoubleLeftIcon };
+export { I as CaretCircleDoubleLeftIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/AlignBottom";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMjE2YTgsOCwwLDAsMS04LDhINDBhOCw4LDAsMCwxLDAtMTZIMjE2QTgsOCwwLDAsMSwyMjQsMjE2Wm0tODgtNDBWODBhMTYsMTYsMCwwLDEsMTYtMTZoNDBhMTYsMTYsMCwwLDEsMTYsMTZ2OTZhMTYsMTYsMCwwLDEtMTYsMTZIMTUyQTE2LDE2LDAsMCwxLDEzNiwxNzZabTE2LDBoNDBWODBIMTUyWk00OCwxNzZWNDBBMTYsMTYsMCwwLDEsNjQsMjRoNDBhMTYsMTYsMCwwLDEsMTYsMTZWMTc2YTE2LDE2LDAsMCwxLTE2LDE2SDY0QTE2LDE2LDAsMCwxLDQ4LDE3NlptMTYsMGg0MFY0MEg2NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "AlignBottomIcon";
 
 /** @deprecated Use AlignBottomIcon */
 export const AlignBottom = I;
-export { I as AlignBottomIcon };
+export { I as AlignBottomIcon }

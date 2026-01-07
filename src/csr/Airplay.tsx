@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Airplay";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzQuMDgsMTU0Ljc5YTgsOCwwLDAsMC0xMi4xNSwwbC00OCw1NkE4LDgsMCwwLDAsODAsMjI0aDk2YTgsOCwwLDAsMCw2LjA3LTEzLjIxWk05Ny4zOSwyMDgsMTI4LDE3Mi4yOSwxNTguNjEsMjA4Wk0yMzIsNjRWMTc2YTI0LDI0LDAsMCwxLTI0LDI0aC04YTgsOCwwLDAsMSwwLTE2aDhhOCw4LDAsMCwwLDgtOFY2NGE4LDgsMCwwLDAtOC04SDQ4YTgsOCwwLDAsMC04LDhWMTc2YTgsOCwwLDAsMCw4LDhoOGE4LDgsMCwwLDEsMCwxNkg0OGEyNCwyNCwwLDAsMS0yNC0yNFY2NEEyNCwyNCwwLDAsMSw0OCw0MEgyMDhBMjQsMjQsMCwwLDEsMjMyLDY0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "AirplayIcon";
 
 /** @deprecated Use AirplayIcon */
 export const Airplay = I;
-export { I as AirplayIcon };
+export { I as AirplayIcon }

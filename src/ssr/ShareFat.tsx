@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ShareFat";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzcuNjYsMTA2LjM1bC04MC04MEE4LDgsMCwwLDAsMTQ0LDMyVjcyLjM1Yy0yNS45NCwyLjIyLTU0LjU5LDE0LjkyLTc4LjE2LDM0LjkxLTI4LjM4LDI0LjA4LTQ2LjA1LDU1LjExLTQ5Ljc2LDg3LjM3YTEyLDEyLDAsMCwwLDIwLjY4LDkuNThoMGMxMS0xMS43MSw1MC4xNC00OC43NCwxMDcuMjQtNTJWMTkyYTgsOCwwLDAsMCwxMy42Niw1LjY1bDgwLTgwQTgsOCwwLDAsMCwyMzcuNjYsMTA2LjM1Wk0xNjAsMTcyLjY5VjE0NGE4LDgsMCwwLDAtOC04Yy0yOC4wOCwwLTU1LjQzLDcuMzMtODEuMjksMjEuOGExOTYuMTcsMTk2LjE3LDAsMCwwLTM2LjU3LDI2LjUyYzUuOC0yMy44NCwyMC40Mi00Ni41MSw0Mi4wNS02NC44NkM5OS40MSw5OS43NywxMjcuNzUsODgsMTUyLDg4YTgsOCwwLDAsMCw4LThWNTEuMzJMMjIwLjY5LDExMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ShareFatIcon";
 
 /** @deprecated Use ShareFatIcon */
 export const ShareFat = I;
-export { I as ShareFatIcon };
+export { I as ShareFatIcon }

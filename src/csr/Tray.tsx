@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Tray";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTAsMTZWMTUyaC0yOC43QTE1Ljg2LDE1Ljg2LDAsMCwwLDE2OCwxNTYuNjlMMTQ4LjY5LDE3NkgxMDcuMzFMODgsMTU2LjY5QTE1Ljg2LDE1Ljg2LDAsMCwwLDc2LjY5LDE1Mkg0OFY0OFptMCwxNjBINDhWMTY4SDc2LjY5TDk2LDE4Ny4zMUExNS44NiwxNS44NiwwLDAsMCwxMDcuMzEsMTkyaDQxLjM4QTE1Ljg2LDE1Ljg2LDAsMCwwLDE2MCwxODcuMzFMMTc5LjMxLDE2OEgyMDh2NDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "TrayIcon";
 
 /** @deprecated Use TrayIcon */
 export const Tray = I;
-export { I as TrayIcon };
+export { I as TrayIcon }

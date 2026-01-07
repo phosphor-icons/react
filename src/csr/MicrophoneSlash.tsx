@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MicrophoneSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuOTIsMjE4LjYybC0xNjAtMTc2QTgsOCwwLDAsMCw0Mi4wOCw1My4zOEw4MCw5NS4wOVYxMjhhNDgsNDgsMCwwLDAsNjkuMTEsNDMuMTJsMTEuMSwxMi4yQTYzLjQxLDYzLjQxLDAsMCwxLDEyOCwxOTJhNjQuMDcsNjQuMDcsMCwwLDEtNjQtNjQsOCw4LDAsMCwwLTE2LDAsODAuMTEsODAuMTEsMCwwLDAsNzIsNzkuNlYyNDBhOCw4LDAsMCwwLDE2LDBWMjA3LjU5YTc4LjgzLDc4LjgzLDAsMCwwLDM1LjE2LTEyLjIybDMwLjkyLDM0YTgsOCwwLDEsMCwxMS44NC0xMC43NlpNMTI4LDE2MGEzMiwzMiwwLDAsMS0zMi0zMlYxMTIuNjlsNDEuNjYsNDUuODJBMzIsMzIsMCwwLDEsMTI4LDE2MFptNTcuNTItMy45MUE2My4zMiw2My4zMiwwLDAsMCwxOTIsMTI4YTgsOCwwLDAsMSwxNiwwLDc5LjE2LDc5LjE2LDAsMCwxLTguMTEsMzUuMTIsOCw4LDAsMCwxLTcuMTksNC40OSw3Ljg4LDcuODgsMCwwLDEtMy41MS0uODJBOCw4LDAsMCwxLDE4NS41MiwxNTYuMDlaTTg0LDQ0Ljg3QTQ4LDQ4LDAsMCwxLDE3Niw2NHY2NGE0OS4xOSw0OS4xOSwwLDAsMS0uMjYsNSw4LDgsMCwwLDEtOCw3LjE3LDguMTMsOC4xMywwLDAsMS0uODQsMCw4LDgsMCwwLDEtNy4xMi04Ljc5Yy4xMS0xLjEuMTctMi4yNC4xNy0zLjM2VjY0QTMyLDMyLDAsMCwwLDk4LjY0LDUxLjI1LDgsOCwwLDEsMSw4NCw0NC44N1oiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "MicrophoneSlashIcon";
 
 /** @deprecated Use MicrophoneSlashIcon */
 export const MicrophoneSlash = I;
-export { I as MicrophoneSlashIcon };
+export { I as MicrophoneSlashIcon }

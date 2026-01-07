@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Van";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTQuMDcsMTA2Ljc5LDIwOC41Myw1My43M0ExNiwxNiwwLDAsMCwxOTYuMjYsNDhIMzJBMTYsMTYsMCwwLDAsMTYsNjRWMTc2YTE2LDE2LDAsMCwwLDE2LDE2SDQ5YTMyLDMyLDAsMCwwLDYyLDBoNTBhMzIsMzIsMCwwLDAsNjIsMGgxN2ExNiwxNiwwLDAsMCwxNi0xNlYxMTJBOCw4LDAsMCwwLDI1NC4wNywxMDYuNzlaTTIzMC41OSwxMDRIMTc2VjY0aDIwLjI2Wk0xMDQsMTA0VjY0aDU2djQwWk04OCw2NHY0MEgzMlY2NFpNODAsMjAwYTE2LDE2LDAsMSwxLDE2LTE2QTE2LDE2LDAsMCwxLDgwLDIwMFptMTEyLDBhMTYsMTYsMCwxLDEsMTYtMTZBMTYsMTYsMCwwLDEsMTkyLDIwMFptMzEtMjRhMzIsMzIsMCwwLDAtNjIsMEgxMTFhMzIsMzIsMCwwLDAtNjIsMEgzMlYxMjBIMjQwdjU2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "VanIcon";
 
 /** @deprecated Use VanIcon */
 export const Van = I;
-export { I as VanIcon };
+export { I as VanIcon }

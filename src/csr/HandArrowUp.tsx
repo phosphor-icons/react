@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HandArrowUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuMzMsMTQxLjA2YTI0LjQzLDI0LjQzLDAsMCwwLTIxLjI0LTQuMjNsLTQxLjg0LDkuNjJBMjgsMjgsMCwwLDAsMTQwLDExMkg4OS45NGEzMS44MiwzMS44MiwwLDAsMC0yMi42Myw5LjM3TDQ0LjY5LDE0NEgxNkExNiwxNiwwLDAsMCwwLDE2MHY0MGExNiwxNiwwLDAsMCwxNiwxNkgxMjBhNy45Myw3LjkzLDAsMCwwLDEuOTQtLjI0bDY0LTE2YTcuMzUsNy4zNSwwLDAsMCwxLjItLjRMMjI2LDE4Mi44MmwuNDQtLjJhMjQuNiwyNC42LDAsMCwwLDMuOTMtNDEuNTZaTTQwLDIwMEgxNlYxNjBINDBabTE3OS40My0zMS43OS0zOCwxNi4xOEwxMTksMjAwSDU2VjE1NS4zMWwyMi42My0yMi42MkExNS44NiwxNS44NiwwLDAsMSw4OS45NCwxMjhIMTQwYTEyLDEyLDAsMCwxLDAsMjRIMTEyYTgsOCwwLDAsMCwwLDE2aDMyYTguMzIsOC4zMiwwLDAsMCwxLjc5LS4ybDY3LTE1LjQxLjMxLS4wOGE4LjYsOC42LDAsMCwxLDYuMywxNS45Wk0xNTQuMzQsNjEuNjZhOCw4LDAsMCwxLDAtMTEuMzJsMzItMzJhOCw4LDAsMCwxLDExLjMyLDBsMzIsMzJhOCw4LDAsMCwxLTExLjMyLDExLjMyTDIwMCw0My4zMVYxMDRhOCw4LDAsMCwxLTE2LDBWNDMuMzFMMTY1LjY2LDYxLjY2QTgsOCwwLDAsMSwxNTQuMzQsNjEuNjZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "HandArrowUpIcon";
 
 /** @deprecated Use HandArrowUpIcon */
 export const HandArrowUp = I;
-export { I as HandArrowUpIcon };
+export { I as HandArrowUpIcon }

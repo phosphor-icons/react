@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/DiceFive";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMzJINjRBMzIsMzIsMCwwLDAsMzIsNjRWMTkyYTMyLDMyLDAsMCwwLDMyLDMySDE5MmEzMiwzMiwwLDAsMCwzMi0zMlY2NEEzMiwzMiwwLDAsMCwxOTIsMzJabTE2LDE2MGExNiwxNiwwLDAsMS0xNiwxNkg2NGExNiwxNiwwLDAsMS0xNi0xNlY2NEExNiwxNiwwLDAsMSw2NCw0OEgxOTJhMTYsMTYsMCwwLDEsMTYsMTZaTTEwNCw5MkExMiwxMiwwLDEsMSw5Miw4MCwxMiwxMiwwLDAsMSwxMDQsOTJabTcyLDBhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTc2LDkyWm0tNzIsNzJhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTA0LDE2NFptMzYtMzZhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTQwLDEyOFptMzYsMzZhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTc2LDE2NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "DiceFiveIcon";
 
 /** @deprecated Use DiceFiveIcon */
 export const DiceFive = I;
-export { I as DiceFiveIcon };
+export { I as DiceFiveIcon }

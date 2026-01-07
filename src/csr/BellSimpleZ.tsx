@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BellSimpleZ";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMjI0YTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMSwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwyMjRabS0yNC04OEgxMjdsMjMuNy0zNS41NkE4LDgsMCwwLDAsMTQ0LDg4SDExMmE4LDgsMCwwLDAsMCwxNmgxNy4wNWwtMjMuNywzNS41NkE4LDgsMCwwLDAsMTEyLDE1MmgzMmE4LDgsMCwwLDAsMC0xNlptNzcuODQsNTZBMTUuOCwxNS44LDAsMCwxLDIwOCwyMDBINDhhMTYsMTYsMCwwLDEtMTMuOC0yNC4wNkMzOS43NSwxNjYuMzgsNDgsMTM5LjM0LDQ4LDEwNGE4MCw4MCwwLDEsMSwxNjAsMGMwLDM1LjMzLDguMjYsNjIuMzgsMTMuODEsNzEuOTRBMTUuODksMTUuODksMCwwLDEsMjIxLjg0LDE5MlpNMjA4LDE4NGMtNy43My0xMy4yNy0xNi00My45NS0xNi04MGE2NCw2NCwwLDEsMC0xMjgsMGMwLDM2LjA2LTguMjgsNjYuNzQtMTYsODBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BellSimpleZIcon";
 
 /** @deprecated Use BellSimpleZIcon */
 export const BellSimpleZ = I;
-export { I as BellSimpleZIcon };
+export { I as BellSimpleZIcon }

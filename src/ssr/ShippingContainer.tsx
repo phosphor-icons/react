@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ShippingContainer";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzYuNCw3MC42NSwxMzAuMiw0MC4zMWE4LDgsMCwwLDAtMy4zMy0uMjNMMjEuNzQsNTUuMUExNi4wOCwxNi4wOCwwLDAsMCw4LDcwLjk0VjE4NS4wNkExNi4wOCwxNi4wOCwwLDAsMCwyMS43NCwyMDAuOWwxMDUuMTMsMTVBOC40Nyw4LjQ3LDAsMCwwLDEyOCwyMTZhNy44NSw3Ljg1LDAsMCwwLDIuMi0uMzFsMTA2LjItMzAuMzRBMTYuMDcsMTYuMDcsMCwwLDAsMjQ4LDE3MFY4NkExNi4wNywxNi4wNywwLDAsMCwyMzYuNCw3MC42NVpNOTYsMTIwSDgwVjYyLjk0bDQwLTUuNzJWMTk4Ljc4bC00MC01LjcyVjEzNkg5NmE4LDgsMCwwLDAsMC0xNlpNMjQsNzAuOTRsNDAtNS43MlYxMjBINDhhOCw4LDAsMCwwLDAsMTZINjR2NTQuNzhsLTQwLTUuNzJaTTEzNiwxOTcuMzlWNTguNjFMMjMyLDg2VjE3MFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ShippingContainerIcon";
 
 /** @deprecated Use ShippingContainerIcon */
 export const ShippingContainer = I;
-export { I as ShippingContainerIcon };
+export { I as ShippingContainerIcon }

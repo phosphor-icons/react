@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TagSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDYuNjYsMTIzLjU2LDIwMSw1NS4xM0ExNS45NCwxNS45NCwwLDAsMCwxODcuNzIsNDhINDBBMTYsMTYsMCwwLDAsMjQsNjRWMTkyYTE2LDE2LDAsMCwwLDE2LDE2SDE4Ny43MkExNiwxNiwwLDAsMCwyMDEsMjAwLjg4bDQ1LjYzLTY4LjQ0QTgsOCwwLDAsMCwyNDYuNjYsMTIzLjU2Wk0xODcuNzIsMTkySDQwVjY0SDE4Ny43Mmw0Mi42Niw2NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "TagSimpleIcon";
 
 /** @deprecated Use TagSimpleIcon */
 export const TagSimple = I;
-export { I as TagSimpleIcon };
+export { I as TagSimpleIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BeerBottle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDUuNjYsNDIuMzRsLTMyLTMyYTgsOCwwLDAsMC0xMS4zMiwxMS4zMmwxLjQ4LDEuNDdMMTQ4LjY1LDY0LjUxbC0zOC4yMiw3LjY1YTguMDUsOC4wNSwwLDAsMC00LjA5LDIuMThMMjMsMTU3LjY2YTI0LDI0LDAsMCwwLDAsMzMuOTRMNjQuNCwyMzNhMjQsMjQsMCwwLDAsMzMuOTQsMGw4My4zMi04My4zMWE4LDgsMCwwLDAsMi4xOC00LjA5bDcuNjUtMzguMjIsNDEuMzgtNTUuMTcsMS40NywxLjQ4YTgsOCwwLDAsMCwxMS4zMi0xMS4zMlpNOTYsMTA3LjMxLDE0OC42OSwxNjAsMTA0LDIwNC42OSw1MS4zMSwxNTJaTTgxLjM3LDIyNGE3Ljk0LDcuOTQsMCwwLDEtNS42NS0yLjM0TDM0LjM0LDE4MC4yOGE4LDgsMCwwLDEsMC0xMS4zMUw0MCwxNjMuMzEsOTIuNjksMjE2LDg3LDIyMS42NkE4LDgsMCwwLDEsODEuMzcsMjI0Wk0xNzcuNiw5OS4yYTcuOTIsNy45MiwwLDAsMC0xLjQ0LDMuMjNsLTcuNTMsMzcuNjNMMTYwLDE0OC42OSwxMDcuMzEsOTZsOC42My04LjYzLDM3LjYzLTcuNTNhNy45Miw3LjkyLDAsMCwwLDMuMjMtMS40NGw1OC40NS00My44NCw2LjE5LDYuMTlaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BeerBottleIcon";
 
 /** @deprecated Use BeerBottleIcon */
 export const BeerBottle = I;
-export { I as BeerBottleIcon };
+export { I as BeerBottleIcon }

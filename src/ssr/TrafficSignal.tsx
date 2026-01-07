@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TrafficSignal";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsNTZhMzIsMzIsMCwxLDAsMzIsMzJBMzIsMzIsMCwwLDAsMTI4LDU2Wm0wLDQ4YTE2LDE2LDAsMSwxLDE2LTE2QTE2LDE2LDAsMCwxLDEyOCwxMDRabTAsMzJhMzIsMzIsMCwxLDAsMzIsMzJBMzIsMzIsMCwwLDAsMTI4LDEzNlptMCw0OGExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwxMjgsMTg0Wm04OC00MEgyMDBWODBoMTZhOCw4LDAsMCwwLDAtMTZIMjAwVjQwYTE2LDE2LDAsMCwwLTE2LTE2SDcyQTE2LDE2LDAsMCwwLDU2LDQwVjY0SDQwYTgsOCwwLDAsMCwwLDE2SDU2djY0SDQwYTgsOCwwLDAsMCwwLDE2SDU2djU2YTE2LDE2LDAsMCwwLDE2LDE2SDE4NGExNiwxNiwwLDAsMCwxNi0xNlYxNjBoMTZhOCw4LDAsMCwwLDAtMTZabS0zMiw3Mkg3MlY0MEgxODRWMjE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TrafficSignalIcon";
 
 /** @deprecated Use TrafficSignalIcon */
 export const TrafficSignal = I;
-export { I as TrafficSignalIcon };
+export { I as TrafficSignalIcon }

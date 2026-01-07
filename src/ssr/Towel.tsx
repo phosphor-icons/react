@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Towel";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMjRINzJBMjQsMjQsMCwwLDAsNDgsNDhWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDE3NmExNiwxNiwwLDAsMCwxNi0xNlY0OGE4LDgsMCwwLDEsMTYsMFYxNTJhOCw4LDAsMCwwLDE2LDBWNDhBMjQsMjQsMCwwLDAsMjAwLDI0Wk03Miw0MEgxNzcuMzdBMjMuODQsMjMuODQsMCwwLDAsMTc2LDQ4VjE4NEg2NFY0OEE4LDgsMCwwLDEsNzIsNDBaTTY0LDIxNlYyMDBIMTc2djE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TowelIcon";
 
 /** @deprecated Use TowelIcon */
 export const Towel = I;
-export { I as TowelIcon };
+export { I as TowelIcon }

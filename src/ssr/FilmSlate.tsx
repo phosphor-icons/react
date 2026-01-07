@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FilmSlate";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTA0SDEwMi4wOUwyMTAsNzUuNTFhOCw4LDAsMCwwLDUuNjgtOS44NGwtOC4xNi0zMGExNS45MywxNS45MywwLDAsMC0xOS40Mi0xMS4xM0wzNS44MSw2NC43NGExNS43NSwxNS43NSwwLDAsMC05LjcsNy40LDE1LjUxLDE1LjUxLDAsMCwwLTEuNTUsMTJMMzIsMTExLjU2YzAsLjE0LDAsLjI5LDAsLjQ0djg4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlYxMTJBOCw4LDAsMCwwLDIxNiwxMDRaTTE5Mi4xNiw0MGw2LDIyLjA3LTIyLjYyLDZMMTQ3LjQyLDUxLjgzWm0tNjYuNjksMTcuNiwyOC4xMiwxNi4yNC0zNi45NCw5Ljc1TDg4LjUzLDY3LjM3Wm0tNzkuNCw0NC42Mi02LTIyLjA4LDI2LjUtN0w5NC42OSw4OS40Wk0yMDgsMjAwSDQ4VjEyMEgyMDh2ODBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FilmSlateIcon";
 
 /** @deprecated Use FilmSlateIcon */
 export const FilmSlate = I;
-export { I as FilmSlateIcon };
+export { I as FilmSlateIcon }

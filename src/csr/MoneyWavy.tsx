@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MoneyWavy";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDQuMjQsNjBhOCw4LDAsMCwwLTcuNzUtLjRjLTQyLjkzLDIxLTczLjU5LDExLjE2LTEwNiwuNzgtMzQtMTAuODktNjkuMjUtMjIuMTQtMTE3Ljk1LDEuNjRBOCw4LDAsMCwwLDgsNjkuMjRWMTg5LjE3YTgsOCwwLDAsMCwxMS41MSw3LjE5YzQyLjkzLTIxLDczLjU5LTExLjE2LDEwNi4wNS0uNzgsMTkuMjQsNi4xNSwzOC44NCwxMi40Miw2MSwxMi40MiwxNy4wOSwwLDM1LjczLTMuNzIsNTYuOTEtMTQuMDZhOCw4LDAsMCwwLDQuNDktNy4xOFY2Ni44M0E4LDgsMCwwLDAsMjQ0LjI0LDYwWk0yMzIsMTgxLjY3Yy00MC42LDE4LjE3LTcwLjI1LDguNjktMTAxLjU2LTEuMzItMTkuMjQtNi4xNS0zOC44NC0xMi40Mi02MS0xMi40MmExMjIsMTIyLDAsMCwwLTQ1LjQsOVY3NC4zM2M0MC42LTE4LjE3LDcwLjI1LTguNjksMTAxLjU2LDEuMzJTMTg5LjE0LDk2LDIzMiw3OS4wOVpNMTI4LDk2YTMyLDMyLDAsMSwwLDMyLDMyQTMyLDMyLDAsMCwwLDEyOCw5NlptMCw0OGExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwxMjgsMTQ0Wk01Niw5NnY0OGE4LDgsMCwwLDEtMTYsMFY5NmE4LDgsMCwxLDEsMTYsMFptMTQ0LDY0VjExMmE4LDgsMCwxLDEsMTYsMHY0OGE4LDgsMCwxLDEtMTYsMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "MoneyWavyIcon";
 
 /** @deprecated Use MoneyWavyIcon */
 export const MoneyWavy = I;
-export { I as MoneyWavyIcon };
+export { I as MoneyWavyIcon }

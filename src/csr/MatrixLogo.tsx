@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MatrixLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik03MiwyMTZhOCw4LDAsMCwxLTgsOEg0MGE4LDgsMCwwLDEtOC04VjQwYTgsOCwwLDAsMSw4LThINjRhOCw4LDAsMCwxLDAsMTZINDhWMjA4SDY0QTgsOCwwLDAsMSw3MiwyMTZaTTIxNiwzMkgxOTJhOCw4LDAsMCwwLDAsMTZoMTZWMjA4SDE5MmE4LDgsMCwwLDAsMCwxNmgyNGE4LDgsMCwwLDAsOC04VjQwQTgsOCwwLDAsMCwyMTYsMzJabS0zMiw4OGEzMiwzMiwwLDAsMC01Ni0yMS4xMywzMS45MywzMS45MywwLDAsMC00MC43MS02LjE1QTgsOCwwLDAsMCw3Miw5NnY2NGE4LDgsMCwwLDAsMTYsMFYxMjBhMTYsMTYsMCwwLDEsMzIsMHY0MGE4LDgsMCwwLDAsMTYsMFYxMjBhMTYsMTYsMCwwLDEsMzIsMHY0MGE4LDgsMCwwLDAsMTYsMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "MatrixLogoIcon";
 
 /** @deprecated Use MatrixLogoIcon */
 export const MatrixLogo = I;
-export { I as MatrixLogoIcon };
+export { I as MatrixLogoIcon }

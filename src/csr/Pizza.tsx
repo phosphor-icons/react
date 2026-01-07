@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Pizza";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzkuNTQsNjNhMTUuOTEsMTUuOTEsMCwwLDAtNy4yNS05LjksMjAxLjQ5LDIwMS40OSwwLDAsMC0yMDguNTgsMCwxNiwxNiwwLDAsMC01LjM3LDIybDk2LDE1Ny4yN2ExNiwxNiwwLDAsMCwyNy4zNiwwbDk2LTE1Ny4yN0ExNS44MiwxNS44MiwwLDAsMCwyMzkuNTQsNjNaTTYzLjU5LDExOC41YTI0LDI0LDAsMSwxLDI0LjQ3LDQwLjA5Wm04Ny45Miw2Ni45NUEyNCwyNCwwLDAsMSwxNzYsMTQ1LjM3Wm0zMi45My01My45M2E0MCw0MCwwLDAsMC00MS4zOCw2Ny43N0wxMjgsMjI0LDk2LjUsMTcyLjQzYTQwLDQwLDAsMSwwLTQxLjM1LTY3Ljc2TDQ4LjgsOTQuMjZhMTUyLDE1MiwwLDAsMSwxNTguMzksMFptMzEuMS01MC45M2ExNjguMTIsMTY4LjEyLDAsMCwwLTE3NS4wOCwwTDMyLDY2Ljc3YTE4NS42LDE4NS42LDAsMCwxLDE5MiwwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PizzaIcon";
 
 /** @deprecated Use PizzaIcon */
 export const Pizza = I;
-export { I as PizzaIcon };
+export { I as PizzaIcon }

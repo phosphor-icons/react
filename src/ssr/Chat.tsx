@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Chat";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDhINDBBMTYsMTYsMCwwLDAsMjQsNjRWMjI0YTE1Ljg0LDE1Ljg0LDAsMCwwLDkuMjUsMTQuNUExNi4wNSwxNi4wNSwwLDAsMCw0MCwyNDBhMTUuODksMTUuODksMCwwLDAsMTAuMjUtMy43OGwuMDktLjA3TDgzLDIwOEgyMTZhMTYsMTYsMCwwLDAsMTYtMTZWNjRBMTYsMTYsMCwwLDAsMjE2LDQ4Wk00MCwyMjRoMFpNMjE2LDE5Mkg4MGE4LDgsMCwwLDAtNS4yMywxLjk1TDQwLDIyNFY2NEgyMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ChatIcon";
 
 /** @deprecated Use ChatIcon */
 export const Chat = I;
-export { I as ChatIcon };
+export { I as ChatIcon }

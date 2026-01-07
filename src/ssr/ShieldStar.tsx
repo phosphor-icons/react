@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ShieldStar";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04MC41NywxMTdBOCw4LDAsMCwxLDkxLDExMi41N2wyOSwxMS42MVY5NmE4LDgsMCwwLDEsMTYsMHYyOC4xOGwyOS0xMS42MUE4LDgsMCwxLDEsMTcxLDEyNy40M2wtMzAuMzEsMTIuMTJMMTU4LjQsMTYzLjJhOCw4LDAsMSwxLTEyLjgsOS42TDEyOCwxNDkuMzMsMTEwLjQsMTcyLjhhOCw4LDAsMSwxLTEyLjgtOS42bDE3Ljc0LTIzLjY1TDg1LDEyNy40M0E4LDgsMCwwLDEsODAuNTcsMTE3Wk0yMjQsNTZ2NTZjMCw1Mi43Mi0yNS41Miw4NC42Ny00Ni45MywxMDIuMTktMjMuMDYsMTguODYtNDYsMjUuMjctNDcsMjUuNTNhOCw4LDAsMCwxLTQuMiwwYy0xLS4yNi0yMy45MS02LjY3LTQ3LTI1LjUzQzU3LjUyLDE5Ni42NywzMiwxNjQuNzIsMzIsMTEyVjU2QTE2LDE2LDAsMCwxLDQ4LDQwSDIwOEExNiwxNiwwLDAsMSwyMjQsNTZabS0xNiwwTDQ4LDU2bDAsNTZjMCwzNy4zLDEzLjgyLDY3LjUxLDQxLjA3LDg5LjgxQTEyOC4yNSwxMjguMjUsMCwwLDAsMTI4LDIyMy42MmExMjkuMywxMjkuMywwLDAsMCwzOS40MS0yMi4yQzE5NC4zNCwxNzkuMTYsMjA4LDE0OS4wNywyMDgsMTEyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ShieldStarIcon";
 
 /** @deprecated Use ShieldStarIcon */
 export const ShieldStar = I;
-export { I as ShieldStarIcon };
+export { I as ShieldStarIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TeaBag";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTYwYTE2LDE2LDAsMCwxLTE2LTE2VjY0QTU2LDU2LDAsMCwwLDk2LDY0djhINzYuNTNhMTYuMDksMTYuMDksMCwwLDAtMTMuNzIsNy43N0w0Mi4yOCwxMTRBMTYuMDYsMTYuMDYsMCwwLDAsNDAsMTIyLjIyVjIxNmExNiwxNiwwLDAsMCwxNiwxNmg5NmExNiwxNiwwLDAsMCwxNi0xNlYxMjIuMjJhMTYuMDYsMTYuMDYsMCwwLDAtMi4yOC04LjI0TDE0NS4xOSw3OS43N0ExNi4wOSwxNi4wOSwwLDAsMCwxMzEuNDcsNzJIMTEyVjY0YTQwLDQwLDAsMCwxLDgwLDB2ODBhMzIsMzIsMCwwLDAsMzIsMzIsOCw4LDAsMCwwLDAtMTZaTTEzMS40Nyw4OCwxNTIsMTIyLjIyVjIxNkg1NlYxMjIuMjJMNzYuNTMsODhIOTZ2NDhhOCw4LDAsMCwwLDE2LDBWODhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "TeaBagIcon";
 
 /** @deprecated Use TeaBagIcon */
 export const TeaBag = I;
-export { I as TeaBagIcon };
+export { I as TeaBagIcon }

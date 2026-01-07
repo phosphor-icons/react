@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ClockClockwise";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsODB2NDMuNDdsMzYuMTIsMjEuNjdhOCw4LDAsMCwxLTguMjQsMTMuNzJsLTQwLTI0QTgsOCwwLDAsMSwxMjAsMTI4VjgwYTgsOCwwLDAsMSwxNiwwWm04OC0yNGE4LDgsMCwwLDAtOCw4VjgyYy02LjM1LTcuMzYtMTIuODMtMTQuNDUtMjAuMTItMjEuODNhOTYsOTYsMCwxLDAtMiwxMzcuNyw4LDgsMCwwLDAtMTEtMTEuNjRBODAsODAsMCwxLDEsMTg0LjU0LDcxLjRDMTkyLjY4LDc5LjY0LDE5OS44MSw4Ny41OCwyMDcsOTZIMTg0YTgsOCwwLDAsMCwwLDE2aDQwYTgsOCwwLDAsMCw4LThWNjRBOCw4LDAsMCwwLDIyNCw1NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ClockClockwiseIcon";
 
 /** @deprecated Use ClockClockwiseIcon */
 export const ClockClockwise = I;
-export { I as ClockClockwiseIcon };
+export { I as ClockClockwiseIcon }

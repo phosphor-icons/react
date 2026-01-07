@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Parallelogram";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDUuNDMsNDcuMzFBMTUuOTQsMTUuOTQsMCwwLDAsMjMyLDQwSDg4LjgxYTE2LDE2LDAsMCwwLTE0LjU5LDkuNDNsLTY0LjgsMTQ0QTE2LDE2LDAsMCwwLDI0LDIxNkgxNjcuMTlhMTYsMTYsMCwwLDAsMTQuNTktOS40M2w2NC44LTE0NEExNiwxNiwwLDAsMCwyNDUuNDMsNDcuMzFaTTE2Ny4xOSwyMDBIMjRMODguODEsNTZIMjMyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ParallelogramIcon";
 
 /** @deprecated Use ParallelogramIcon */
 export const Parallelogram = I;
-export { I as ParallelogramIcon };
+export { I as ParallelogramIcon }

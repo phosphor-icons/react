@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Stool";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNjRWNDBhMTYsMTYsMCwwLDAtMTYtMTZINzJBMTYsMTYsMCwwLDAsNTYsNDBWNjRBMTYsMTYsMCwwLDAsNzIsODBoNi42NEw1Ni4xLDIyMi43NWE4LDgsMCwwLDAsNi42NSw5LjE1QTcuODIsNy44MiwwLDAsMCw2NCwyMzJhOCw4LDAsMCwwLDcuODktNi43NUw3OS42OCwxNzZoOTYuNjRsNy43OCw0OS4yNUE4LDgsMCwwLDAsMTkyLDIzMmE3LjgyLDcuODIsMCwwLDAsMS4yNi0uMSw4LDgsMCwwLDAsNi42NS05LjE1TDE3Ny4zNiw4MEgxODRBMTYsMTYsMCwwLDAsMjAwLDY0Wk03Miw0MEgxODRWNjRINzJaTTE3My43OSwxNjBIODIuMjFMOTQuODQsODBoNjYuMzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "StoolIcon";
 
 /** @deprecated Use StoolIcon */
 export const Stool = I;
-export { I as StoolIcon };
+export { I as StoolIcon }

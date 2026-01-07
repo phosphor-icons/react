@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CarBattery";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMTM2YTgsOCwwLDAsMS04LDhoLTh2OGE4LDgsMCwwLDEtMTYsMHYtOGgtOGE4LDgsMCwwLDEsMC0xNmg4di04YTgsOCwwLDAsMSwxNiwwdjhoOEE4LDgsMCwwLDEsMTkyLDEzNlptLTg4LThINzJhOCw4LDAsMCwwLDAsMTZoMzJhOCw4LDAsMCwwLDAtMTZaTTI0MCw4OHY5NmExNiwxNiwwLDAsMS0xNiwxNkgzMmExNiwxNiwwLDAsMS0xNi0xNlY4OEExNiwxNiwwLDAsMSwzMiw3Mkg0OFY1NkExNiwxNiwwLDAsMSw2NCw0MEg5NmExNiwxNiwwLDAsMSwxNiwxNlY3MmgzMlY1NmExNiwxNiwwLDAsMSwxNi0xNmgzMmExNiwxNiwwLDAsMSwxNiwxNlY3MmgxNkExNiwxNiwwLDAsMSwyNDAsODhaTTE2MCw3MmgzMlY1NkgxNjBaTTY0LDcySDk2VjU2SDY0Wk0yMjQsMTg0Vjg4SDMydjk2SDIyNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CarBatteryIcon";
 
 /** @deprecated Use CarBatteryIcon */
 export const CarBattery = I;
-export { I as CarBatteryIcon };
+export { I as CarBatteryIcon }

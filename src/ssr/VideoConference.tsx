@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/VideoConference";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIxNmExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMTYsNDBabTAsODBIMTY4VjU2aDQ4Wk00MCw1NkgxNTJWMjAwSDQwWk0yMTYsMjAwSDE2OFYxMzZoNDh2NjRaTTE4MCw4OGExMiwxMiwwLDEsMSwxMiwxMkExMiwxMiwwLDAsMSwxODAsODhabTI0LDgwYTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDIwNCwxNjhabS02OC4yNS0yYTM5Ljc2LDM5Ljc2LDAsMCwwLTE3LjE5LTIzLjM0LDMyLDMyLDAsMSwwLTQ1LjEyLDBBMzkuODQsMzkuODQsMCwwLDAsNTYuMjUsMTY2YTgsOCwwLDAsMCwxNS41LDRjMi42NC0xMC4yNSwxMy4wNi0xOCwyNC4yNS0xOHMyMS42Miw3LjczLDI0LjI1LDE4YTgsOCwwLDEsMCwxNS41LTRaTTgwLDEyMGExNiwxNiwwLDEsMSwxNiwxNkExNiwxNiwwLDAsMSw4MCwxMjBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "VideoConferenceIcon";
 
 /** @deprecated Use VideoConferenceIcon */
 export const VideoConference = I;
-export { I as VideoConferenceIcon };
+export { I as VideoConferenceIcon }

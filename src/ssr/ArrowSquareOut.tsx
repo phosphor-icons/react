@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowSquareOut";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTA0YTgsOCwwLDAsMS0xNiwwVjU5LjMybC02Ni4zMyw2Ni4zNGE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMTk2LjY4LDQ4SDE1MmE4LDgsMCwwLDEsMC0xNmg2NGE4LDgsMCwwLDEsOCw4Wm0tNDAsMjRhOCw4LDAsMCwwLTgsOHY3Mkg0OFY4MGg3MmE4LDgsMCwwLDAsMC0xNkg0OEExNiwxNiwwLDAsMCwzMiw4MFYyMDhhMTYsMTYsMCwwLDAsMTYsMTZIMTc2YTE2LDE2LDAsMCwwLDE2LTE2VjEzNkE4LDgsMCwwLDAsMTg0LDEyOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ArrowSquareOutIcon";
 
 /** @deprecated Use ArrowSquareOutIcon */
 export const ArrowSquareOut = I;
-export { I as ArrowSquareOutIcon };
+export { I as ArrowSquareOutIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BatteryVerticalMedium";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMzJIODBBMjQsMjQsMCwwLDAsNTYsNTZWMjI0YTI0LDI0LDAsMCwwLDI0LDI0aDk2YTI0LDI0LDAsMCwwLDI0LTI0VjU2QTI0LDI0LDAsMCwwLDE3NiwzMlptOCwxOTJhOCw4LDAsMCwxLTgsOEg4MGE4LDgsMCwwLDEtOC04VjU2YTgsOCwwLDAsMSw4LThoOTZhOCw4LDAsMCwxLDgsOFptLTE2LTI0YTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwyMDBaTTg4LDhhOCw4LDAsMCwxLDgtOGg2NGE4LDgsMCwwLDEsMCwxNkg5NkE4LDgsMCwwLDEsODgsOFptODAsMTUyYTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwxNjBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BatteryVerticalMediumIcon";
 
 /** @deprecated Use BatteryVerticalMediumIcon */
 export const BatteryVerticalMedium = I;
-export { I as BatteryVerticalMediumIcon };
+export { I as BatteryVerticalMediumIcon }

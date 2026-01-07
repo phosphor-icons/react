@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Asclepius";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNzl2MWE0MCw0MCwwLDAsMS00MCw0MEgxMzZ2ODBoOGExNiwxNiwwLDAsMCwxMC42Ny0yNy45Myw4LDgsMCwwLDEsMTAuNjYtMTEuOTJBMzIsMzIsMCwwLDEsMTQ0LDIxNmgtOHYxNmE4LDgsMCwwLDEtMTYsMFYyMTZIOTZhOCw4LDAsMCwxLDAtMTZoMjRWMTIwSDk2YTE2LDE2LDAsMCwwLDAsMzIsOCw4LDAsMCwxLDAsMTYsMzIsMzIsMCwwLDEsMC02NGgyNFYyNGE4LDgsMCwwLDEsMTYsMHY4MGg0MGEyNCwyNCwwLDAsMCwyNC0yNFY3OWEyMywyMywwLDAsMC0yMy0yM0gxNjBhOCw4LDAsMCwxLDAtMTZoMTdhMzksMzksMCwwLDEsMzksMzlaTTU2LDk2SDMyYTgsOCwwLDAsMS04LThWODBBNDAsNDAsMCwwLDEsNjQsNDBIOTZhOCw4LDAsMCwxLDAsMTZBNDAsNDAsMCwwLDEsNTYsOTZaTTgwLDU2SDY0QTI0LDI0LDAsMCwwLDQwLDgwSDU2QTI0LDI0LDAsMCwwLDgwLDU2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "AsclepiusIcon";
 
 /** @deprecated Use AsclepiusIcon */
 export const Asclepius = I;
-export { I as AsclepiusIcon, I as CaduceusIcon };
+export { I as AsclepiusIcon, I as CaduceusIcon }

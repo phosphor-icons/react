@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FastForwardCircle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlptNjguOC05NC40LTQ4LTM2QTgsOCwwLDAsMCwxMzYsOTJ2NzJhOCw4LDAsMCwwLDEyLjgsNi40bDQ4LTM2YTgsOCwwLDAsMCwwLTEyLjhaTTE1MiwxNDhWMTA4bDI2LjY3LDIwWm0tMTkuMi0yNi40LTQ4LTM2QTgsOCwwLDAsMCw3Miw5MnY3MmE4LDgsMCwwLDAsMTIuOCw2LjRsNDgtMzZhOCw4LDAsMCwwLDAtMTIuOFpNODgsMTQ4VjEwOGwyNi42NywyMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "FastForwardCircleIcon";
 
 /** @deprecated Use FastForwardCircleIcon */
 export const FastForwardCircle = I;
-export { I as FastForwardCircleIcon };
+export { I as FastForwardCircleIcon }

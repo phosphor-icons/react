@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PersonSimpleWalk";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsODBhMzIsMzIsMCwxLDAtMzItMzJBMzIsMzIsMCwwLDAsMTUyLDgwWm0wLTQ4YTE2LDE2LDAsMSwxLTE2LDE2QTE2LDE2LDAsMCwxLDE1MiwzMlptNjQsMTEyYTgsOCwwLDAsMS04LDhjLTM1LjMxLDAtNTIuOTUtMTcuODEtNjcuMTItMzIuMTItMi43NC0yLjc3LTUuMzYtNS40LTgtNy44NGwtMTMuNDMsMzAuODgsMzcuMiwyNi41N0E4LDgsMCwwLDEsMTYwLDE3NnY1NmE4LDgsMCwwLDEtMTYsMFYxODAuMTJsLTMxLjA3LTIyLjJMNzkuMzQsMjM1LjE5QTgsOCwwLDAsMSw3MiwyNDBhNy44NCw3Ljg0LDAsMCwxLTMuMTktLjY3LDgsOCwwLDAsMS00LjE1LTEwLjUybDU0LjA4LTEyNC4zN2MtOS4zMS0xLjY1LTIwLjkyLDEuMi0zNC43LDguNThhMTYzLjg4LDE2My44OCwwLDAsMC0zMC41NywyMS43Nyw4LDgsMCwwLDEtMTAuOTUtMTEuNjZjMi41LTIuMzUsNjEuNjktNTcuMjMsOTguNzItMjUuMDgsMy44MywzLjMyLDcuNDgsNywxMSwxMC41N0MxNjYuMTksMTIyLjcsMTc5LjM2LDEzNiwyMDgsMTM2QTgsOCwwLDAsMSwyMTYsMTQ0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PersonSimpleWalkIcon";
 
 /** @deprecated Use PersonSimpleWalkIcon */
 export const PersonSimpleWalk = I;
-export { I as PersonSimpleWalkIcon };
+export { I as PersonSimpleWalkIcon }

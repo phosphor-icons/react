@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Bandaids";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQuNTcsMTI4bDI3LjcxLTI3LjcyYTQwLDQwLDAsMSwwLTU2LjU2LTU2LjU2TDEyOCw3MS40MywxMDAuMjgsNDMuNzJhNDAsNDAsMCwxLDAtNTYuNTYsNTYuNTZMNzEuNDMsMTI4LDQzLjcyLDE1NS43MmE0MCw0MCwwLDEsMCw1Ni41Niw1Ni41NkwxMjgsMTg0LjU3bDI3LjcyLDI3LjcxYTQwLDQwLDAsMSwwLDU2LjU2LTU2LjU2Wk0xNjcsNTVBMjQsMjQsMCwxLDEsMjAxLDg5bC0yNy43MiwyNy43MkwxMzkuMzEsODIuNzVabS01LjA5LDczTDEyOCwxNjEuOTQsOTQuMDYsMTI4LDEyOCw5NC4wNlpNNTUsODloMEEyNCwyNCwwLDEsMSw4OSw1NWwyNy43MiwyNy43Mkw4Mi43NSwxMTYuNjlaTTg5LDIwMUEyNCwyNCwwLDEsMSw1NSwxNjdsMjcuNzItMjcuNzIsMzMuOTQsMzMuOTRabTExMiwwQTI0LDI0LDAsMCwxLDE2NywyMDFsLTI3LjcyLTI3LjcyLDMzLjk0LTMzLjk0TDIwMSwxNjdBMjQsMjQsMCwwLDEsMjAxLDIwMVptLTg1LTczYTEyLDEyLDAsMSwxLDEyLDEyQTEyLDEyLDAsMCwxLDExNiwxMjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BandaidsIcon";
 
 /** @deprecated Use BandaidsIcon */
 export const Bandaids = I;
-export { I as BandaidsIcon };
+export { I as BandaidsIcon }

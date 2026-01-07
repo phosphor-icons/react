@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GasPump";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDEsNjkuNjYsMjIxLjY2LDUwLjM0YTgsOCwwLDAsMC0xMS4zMiwxMS4zMkwyMjkuNjYsODFBOCw4LDAsMCwxLDIzMiw4Ni42M1YxNjhhOCw4LDAsMCwxLTE2LDBWMTI4YTI0LDI0LDAsMCwwLTI0LTI0SDE3NlY1NmEyNCwyNCwwLDAsMC0yNC0yNEg3MkEyNCwyNCwwLDAsMCw0OCw1NlYyMDhIMzJhOCw4LDAsMCwwLDAsMTZIMTkyYTgsOCwwLDAsMCwwLTE2SDE3NlYxMjBoMTZhOCw4LDAsMCwxLDgsOHY0MGEyNCwyNCwwLDAsMCw0OCwwVjg2LjYzQTIzLjg1LDIzLjg1LDAsMCwwLDI0MSw2OS42NlpNNjQsMjA4VjU2YTgsOCwwLDAsMSw4LThoODBhOCw4LDAsMCwxLDgsOFYyMDhabTgwLTk2YTgsOCwwLDAsMS04LDhIODhhOCw4LDAsMCwxLDAtMTZoNDhBOCw4LDAsMCwxLDE0NCwxMTJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "GasPumpIcon";
 
 /** @deprecated Use GasPumpIcon */
 export const GasPump = I;
-export { I as GasPumpIcon };
+export { I as GasPumpIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BookBookmark";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMjRINzJBMzIsMzIsMCwwLDAsNDAsNTZWMjI0YTgsOCwwLDAsMCw4LDhIMTkyYTgsOCwwLDAsMCwwLTE2SDU2YTE2LDE2LDAsMCwxLDE2LTE2SDIwOGE4LDgsMCwwLDAsOC04VjMyQTgsOCwwLDAsMCwyMDgsMjRaTTEyMCw0MGg0OHY3MkwxNDguNzksOTcuNmE4LDgsMCwwLDAtOS42LDBMMTIwLDExMlptODAsMTQ0SDcyYTMxLjgyLDMxLjgyLDAsMCwwLTE2LDQuMjlWNTZBMTYsMTYsMCwwLDEsNzIsNDBoMzJ2ODhhOCw4LDAsMCwwLDEyLjgsNi40TDE0NCwxMTRsMjcuMjEsMjAuNEE4LDgsMCwwLDAsMTc2LDEzNmE4LDgsMCwwLDAsOC04VjQwaDE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "BookBookmarkIcon";
 
 /** @deprecated Use BookBookmarkIcon */
 export const BookBookmark = I;
-export { I as BookBookmarkIcon };
+export { I as BookBookmarkIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SmileyMelting";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMTQwYTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE3NiwxNDBaTTEyOCw5MmExMiwxMiwwLDEsMC0xMiwxMkExMiwxMiwwLDAsMCwxMjgsOTJabTczLTM4QTEwNCwxMDQsMCwwLDAsNTAuNDgsMTk3LjMzLDgsOCwwLDEsMCw2Mi40LDE4Ni42NmE4OCw4OCwwLDEsMSwxMzEuMTksMCw4LDgsMCwwLDAsMTEuOTMsMTAuNjdBMTA0LDEwNCwwLDAsMCwyMDEsNTRaTTE1MiwxNjhIMTM2Yy0yMS43NCwwLTQ4LTE3Ljg0LTQ4LTQwYTQxLjMzLDQxLjMzLDAsMCwxLC41NS02LjY4LDgsOCwwLDEsMC0xNS43OC0yLjY0QTU2LjksNTYuOSwwLDAsMCw3MiwxMjhjMCwxNC44OCw3LjQ2LDI5LjEzLDIxLDQwLjE1QzEwNS40LDE3OC4yMiwxMjEuMDcsMTg0LDEzNiwxODRoMTZhOCw4LDAsMCwxLDAsMTZIOTZhMjQsMjQsMCwwLDAsMCw0OCw4LDgsMCwwLDAsMC0xNiw4LDgsMCwwLDEsMC0xNmg1NmEyNCwyNCwwLDAsMCwwLTQ4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SmileyMeltingIcon";
 
 /** @deprecated Use SmileyMeltingIcon */
 export const SmileyMelting = I;
-export { I as SmileyMeltingIcon };
+export { I as SmileyMeltingIcon }

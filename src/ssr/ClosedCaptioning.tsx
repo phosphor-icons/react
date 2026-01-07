@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ClosedCaptioning";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhIMzJBMTYsMTYsMCwwLDAsMTYsNjRWMTkyYTE2LDE2LDAsMCwwLDE2LDE2SDIyNGExNiwxNiwwLDAsMCwxNi0xNlY2NEExNiwxNiwwLDAsMCwyMjQsNDhabTAsMTQ0SDMyVjY0SDIyNFYxOTJaTTExOC45MiwxNTEuNzFBOCw4LDAsMCwxLDExNiwxNjIuNjRhNDAsNDAsMCwxLDEsMC02OS4yOCw4LDgsMCwxLDEtOCwxMy44NSwyNCwyNCwwLDEsMCwwLDQxLjU4QTgsOCwwLDAsMSwxMTguOTIsMTUxLjcxWm04MCwwQTgsOCwwLDAsMSwxOTYsMTYyLjY0YTQwLDQwLDAsMSwxLDAtNjkuMjgsOCw4LDAsMSwxLTgsMTMuODUsMjQsMjQsMCwxLDAsMCw0MS41OEE4LDgsMCwwLDEsMTk4LjkyLDE1MS43MVoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ClosedCaptioningIcon";
 
 /** @deprecated Use ClosedCaptioningIcon */
 export const ClosedCaptioning = I;
-export { I as ClosedCaptioningIcon };
+export { I as ClosedCaptioningIcon }

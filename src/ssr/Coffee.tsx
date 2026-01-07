@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Coffee";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04MCw1NlYyNGE4LDgsMCwwLDEsMTYsMFY1NmE4LDgsMCwwLDEtMTYsMFptNDAsOGE4LDgsMCwwLDAsOC04VjI0YTgsOCwwLDAsMC0xNiwwVjU2QTgsOCwwLDAsMCwxMjAsNjRabTMyLDBhOCw4LDAsMCwwLDgtOFYyNGE4LDgsMCwwLDAtMTYsMFY1NkE4LDgsMCwwLDAsMTUyLDY0Wm05Niw1NnY4YTQwLDQwLDAsMCwxLTM3LjUxLDM5LjkxLDk2LjU5LDk2LjU5LDAsMCwxLTI3LDQwLjA5SDIwOGE4LDgsMCwwLDEsMCwxNkgzMmE4LDgsMCwwLDEsMC0xNkg1Ni41NEE5Ni4zLDk2LjMsMCwwLDEsMjQsMTM2Vjg4YTgsOCwwLDAsMSw4LThIMjA4QTQwLDQwLDAsMCwxLDI0OCwxMjBaTTIwMCw5Nkg0MHY0MGE4MC4yNyw4MC4yNywwLDAsMCw0NS4xMiw3Mmg2OS43NkE4MC4yNyw4MC4yNywwLDAsMCwyMDAsMTM2Wm0zMiwyNGEyNCwyNCwwLDAsMC0xNi0yMi42MlYxMzZhOTUuNzgsOTUuNzgsMCwwLDEtMS4yLDE1QTI0LDI0LDAsMCwwLDIzMiwxMjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CoffeeIcon";
 
 /** @deprecated Use CoffeeIcon */
 export const Coffee = I;
-export { I as CoffeeIcon };
+export { I as CoffeeIcon }

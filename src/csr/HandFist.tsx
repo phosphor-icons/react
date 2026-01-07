@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HandFist";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsODBIMTg0VjY0YTMyLDMyLDAsMCwwLTU2LTIxLjEzQTMyLDMyLDAsMCwwLDcyLjIxLDYwLjQyLDMyLDMyLDAsMCwwLDI0LDg4djQwYTEwNCwxMDQsMCwwLDAsMjA4LDBWMTEyQTMyLDMyLDAsMCwwLDIwMCw4MFpNMTUyLDQ4YTE2LDE2LDAsMCwxLDE2LDE2VjgwSDEzNlY2NEExNiwxNiwwLDAsMSwxNTIsNDhaTTg4LDY0YTE2LDE2LDAsMCwxLDMyLDB2NDBhMTYsMTYsMCwwLDEtMzIsMFpNNDAsODhhMTYsMTYsMCwwLDEsMzIsMHYxNmExNiwxNiwwLDAsMS0zMiwwWm0xNzYsNDBhODgsODgsMCwwLDEtMTc1LjkyLDMuNzVBMzEuOTMsMzEuOTMsMCwwLDAsODAsMTI1LjEzYTMxLjkzLDMxLjkzLDAsMCwwLDQ0LjU4LDMuMzUsMzIuMjEsMzIuMjEsMCwwLDAsMTEuOCwxMS40NEE0Ny44OCw0Ny44OCwwLDAsMCwxMjAsMTc2YTgsOCwwLDAsMCwxNiwwLDMyLDMyLDAsMCwxLDMyLTMyLDgsOCwwLDAsMCwwLTE2SDE1MmExNiwxNiwwLDAsMS0xNi0xNlY5Nmg2NGExNiwxNiwwLDAsMSwxNiwxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "HandFistIcon";
 
 /** @deprecated Use HandFistIcon */
 export const HandFist = I;
-export { I as HandFistIcon };
+export { I as HandFistIcon }

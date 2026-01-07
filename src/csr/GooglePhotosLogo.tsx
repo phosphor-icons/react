@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GooglePhotosLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTIwSDE5Mi40OUE3Miw3MiwwLDAsMCwxMjgsMTZhOCw4LDAsMCwwLTgsOFY2My41MUE3Miw3MiwwLDAsMCwxNiwxMjhhOCw4LDAsMCwwLDgsOEg2My41MUE3Miw3MiwwLDAsMCwxMjgsMjQwYTgsOCwwLDAsMCw4LThWMTkyLjQ5QTcyLDcyLDAsMCwwLDI0MCwxMjgsOCw4LDAsMCwwLDIzMiwxMjBaTTE4NCw4OEE1NS4zMSw1NS4zMSwwLDAsMSwxNzQsMTIwSDEzNlYzMi41N0E1Ni4wOSw1Ni4wOSwwLDAsMSwxODQsODhaTTg4LDcyYTU1LjMxLDU1LjMxLDAsMCwxLDMyLDEwdjM4SDMyLjU3QTU2LjA5LDU2LjA5LDAsMCwxLDg4LDcyWk03MiwxNjhhNTUuMzEsNTUuMzEsMCwwLDEsMTAtMzJoMzh2ODcuNDNBNTYuMDksNTYuMDksMCwwLDEsNzIsMTY4Wm05NiwxNkE1NS4zMSw1NS4zMSwwLDAsMSwxMzYsMTc0VjEzNmg4Ny40M0E1Ni4wOSw1Ni4wOSwwLDAsMSwxNjgsMTg0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "GooglePhotosLogoIcon";
 
 /** @deprecated Use GooglePhotosLogoIcon */
 export const GooglePhotosLogo = I;
-export { I as GooglePhotosLogoIcon };
+export { I as GooglePhotosLogoIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AirplaneInFlight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMjE2YTgsOCwwLDAsMS04LDhINzJhOCw4LDAsMSwxLDAtMTZIMjE2QTgsOCwwLDAsMSwyMjQsMjE2Wm0yNC04MHYyNGE4LDgsMCwwLDEtOCw4SDYxLjA3YTM5Ljc1LDM5Ljc1LDAsMCwxLTM4LjMxLTI4LjUxTDguNjksOTIuNkExNiwxNiwwLDAsMSwyNCw3Mmg4YTgsOCwwLDAsMSw1LjY1LDIuMzRMNTkuMzIsOTZIODEuODFsLTktMjYuOTRBMTYsMTYsMCwwLDEsODgsNDhoOGE4LDgsMCwwLDEsNS42NiwyLjM0TDE0Ny4zMiw5NkgyMDhBNDAsNDAsMCwwLDEsMjQ4LDEzNlptLTE2LDBhMjQsMjQsMCwwLDAtMjQtMjRIMTQ0YTgsOCwwLDAsMS01LjY1LTIuMzRMOTIuNjksNjRIODhsMTIuNDksMzcuNDdBOCw4LDAsMCwxLDkyLjkxLDExMkg1NmE4LDgsMCwwLDEtNS42Ni0yLjM0TDI4LjY5LDg4SDI0bDE0LjA3LDQ2LjlhMjMuODUsMjMuODUsMCwwLDAsMjMsMTcuMUgyMzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "AirplaneInFlightIcon";
 
 /** @deprecated Use AirplaneInFlightIcon */
 export const AirplaneInFlight = I;
-export { I as AirplaneInFlightIcon };
+export { I as AirplaneInFlightIcon }

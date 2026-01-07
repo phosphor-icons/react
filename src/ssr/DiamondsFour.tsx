@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/DiamondsFour";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjIuMzQsMTA5LjY2YTgsOCwwLDAsMCwxMS4zMiwwbDQwLTQwYTgsOCwwLDAsMCwwLTExLjMybC00MC00MGE4LDgsMCwwLDAtMTEuMzIsMGwtNDAsNDBhOCw4LDAsMCwwLDAsMTEuMzJaTTEyOCwzNS4zMSwxNTYuNjksNjQsMTI4LDkyLjY5LDk5LjMxLDY0Wm01LjY2LDExMWE4LDgsMCwwLDAtMTEuMzIsMGwtNDAsNDBhOCw4LDAsMCwwLDAsMTEuMzJsNDAsNDBhOCw4LDAsMCwwLDExLjMyLDBsNDAtNDBhOCw4LDAsMCwwLDAtMTEuMzJaTTEyOCwyMjAuNjksOTkuMzEsMTkyLDEyOCwxNjMuMzEsMTU2LjY5LDE5MlptMTA5LjY2LTk4LjM1LTQwLTQwYTgsOCwwLDAsMC0xMS4zMiwwbC00MCw0MGE4LDgsMCwwLDAsMCwxMS4zMmw0MCw0MGE4LDgsMCwwLDAsMTEuMzIsMGw0MC00MEE4LDgsMCwwLDAsMjM3LjY2LDEyMi4zNFpNMTkyLDE1Ni42OSwxNjMuMzEsMTI4LDE5Miw5OS4zMSwyMjAuNjksMTI4Wm0tODIuMzQtMzQuMzUtNDAtNDBhOCw4LDAsMCwwLTExLjMyLDBsLTQwLDQwYTgsOCwwLDAsMCwwLDExLjMybDQwLDQwYTgsOCwwLDAsMCwxMS4zMiwwbDQwLTQwQTgsOCwwLDAsMCwxMDkuNjYsMTIyLjM0Wk02NCwxNTYuNjksMzUuMzEsMTI4LDY0LDk5LjMxLDkyLjY5LDEyOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "DiamondsFourIcon";
 
 /** @deprecated Use DiamondsFourIcon */
 export const DiamondsFour = I;
-export { I as DiamondsFourIcon };
+export { I as DiamondsFourIcon }

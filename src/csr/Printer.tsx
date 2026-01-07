@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Printer";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTQuNjcsNzJIMjAwVjQwYTgsOCwwLDAsMC04LThINjRhOCw4LDAsMCwwLTgsOFY3Mkg0MS4zM0MyNy4zNiw3MiwxNiw4Mi43NywxNiw5NnY4MGE4LDgsMCwwLDAsOCw4SDU2djMyYTgsOCwwLDAsMCw4LDhIMTkyYTgsOCwwLDAsMCw4LThWMTg0aDMyYTgsOCwwLDAsMCw4LThWOTZDMjQwLDgyLjc3LDIyOC42NCw3MiwyMTQuNjcsNzJaTTcyLDQ4SDE4NFY3Mkg3MlpNMTg0LDIwOEg3MlYxNjBIMTg0Wm00MC00MEgyMDBWMTUyYTgsOCwwLDAsMC04LThINjRhOCw4LDAsMCwwLTgsOHYxNkgzMlY5NmMwLTQuNDEsNC4xOS04LDkuMzMtOEgyMTQuNjdjNS4xNCwwLDkuMzMsMy41OSw5LjMzLDhabS0yNC01MmExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwyMDAsMTE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PrinterIcon";
 
 /** @deprecated Use PrinterIcon */
 export const Printer = I;
-export { I as PrinterIcon };
+export { I as PrinterIcon }

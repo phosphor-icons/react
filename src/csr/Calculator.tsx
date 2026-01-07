@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Calculator";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04MCwxMjBoOTZhOCw4LDAsMCwwLDgtOFY2NGE4LDgsMCwwLDAtOC04SDgwYTgsOCwwLDAsMC04LDh2NDhBOCw4LDAsMCwwLDgwLDEyMFptOC00OGg4MHYzMkg4OFpNMjAwLDI0SDU2QTE2LDE2LDAsMCwwLDQwLDQwVjIxNmExNiwxNiwwLDAsMCwxNiwxNkgyMDBhMTYsMTYsMCwwLDAsMTYtMTZWNDBBMTYsMTYsMCwwLDAsMjAwLDI0Wm0wLDE5Mkg1NlY0MEgyMDBaTTEwMCwxNDhhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTAwLDE0OFptNDAsMGExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwxNDAsMTQ4Wm00MCwwYTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE4MCwxNDhabS04MCw0MGExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwxMDAsMTg4Wm00MCwwYTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE0MCwxODhabTQwLDBhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTgwLDE4OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CalculatorIcon";
 
 /** @deprecated Use CalculatorIcon */
 export const Calculator = I;
-export { I as CalculatorIcon };
+export { I as CalculatorIcon }

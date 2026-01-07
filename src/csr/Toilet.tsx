@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Toilet";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjAsNjRhOCw4LDAsMCwxLTgsOEg5NmE4LDgsMCwwLDEsMC0xNmgxNkE4LDgsMCwwLDEsMTIwLDY0Wm01Mi4zMiwxMzMuMTQsMy41MiwyNC42QTE2LDE2LDAsMCwxLDE2MCwyNDBIOTZhMTYsMTYsMCwwLDEtMTUuODQtMTguMjZsMy41Mi0yNC42QTk2LjA5LDk2LjA5LDAsMCwxLDMyLDExMmE4LDgsMCwwLDEsOC04SDU2VjQwQTE2LDE2LDAsMCwxLDcyLDI0SDE4NGExNiwxNiwwLDAsMSwxNiwxNnY2NGgxNmE4LDgsMCwwLDEsOCw4QTk2LjA5LDk2LjA5LDAsMCwxLDE3Mi4zMiwxOTcuMTRaTTcyLDEwNEgxODRWNDBINzJabTg1LjA3LDk5LjVhOTYuMTUsOTYuMTUsMCwwLDEtNTguMTQsMEw5NiwyMjRoNjRaTTIwNy42LDEyMEg0OC40YTgwLDgwLDAsMCwwLDE1OS4yLDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ToiletIcon";
 
 /** @deprecated Use ToiletIcon */
 export const Toilet = I;
-export { I as ToiletIcon };
+export { I as ToiletIcon }

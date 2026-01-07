@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Camera";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNTZIMTgwLjI4TDE2Ni42NSwzNS41NkE4LDgsMCwwLDAsMTYwLDMySDk2YTgsOCwwLDAsMC02LjY1LDMuNTZMNzUuNzEsNTZINDhBMjQsMjQsMCwwLDAsMjQsODBWMTkyYTI0LDI0LDAsMCwwLDI0LDI0SDIwOGEyNCwyNCwwLDAsMCwyNC0yNFY4MEEyNCwyNCwwLDAsMCwyMDgsNTZabTgsMTM2YTgsOCwwLDAsMS04LDhINDhhOCw4LDAsMCwxLTgtOFY4MGE4LDgsMCwwLDEsOC04SDgwYTgsOCwwLDAsMCw2LjY2LTMuNTZMMTAwLjI4LDQ4aDU1LjQzbDEzLjYzLDIwLjQ0QTgsOCwwLDAsMCwxNzYsNzJoMzJhOCw4LDAsMCwxLDgsOFpNMTI4LDg4YTQ0LDQ0LDAsMSwwLDQ0LDQ0QTQ0LjA1LDQ0LjA1LDAsMCwwLDEyOCw4OFptMCw3MmEyOCwyOCwwLDEsMSwyOC0yOEEyOCwyOCwwLDAsMSwxMjgsMTYwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CameraIcon";
 
 /** @deprecated Use CameraIcon */
 export const Camera = I;
-export { I as CameraIcon };
+export { I as CameraIcon }

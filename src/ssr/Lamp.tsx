@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Lamp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDcuMzUsMTQ4Ljg1bC00OC0xMTJBOCw4LDAsMCwwLDE5MiwzMkg2NGE4LDgsMCwwLDAtNy4zNSw0Ljg1bC00OCwxMTJBOCw4LDAsMCwwLDE2LDE2MEgxMjB2NDhIOTZhOCw4LDAsMCwwLDAsMTZoNjRhOCw4LDAsMCwwLDAtMTZIMTM2VjE2MGg1NnYzMmE4LDgsMCwwLDAsMTYsMFYxNjBoMzJhOCw4LDAsMCwwLDcuMzUtMTEuMTVaTTI4LjEzLDE0NCw2OS4yOCw0OEgxODYuNzJsNDEuMTUsOTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "LampIcon";
 
 /** @deprecated Use LampIcon */
 export const Lamp = I;
-export { I as LampIcon };
+export { I as LampIcon }

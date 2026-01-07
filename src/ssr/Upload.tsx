@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Upload";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTM2djY0YTE2LDE2LDAsMCwxLTE2LDE2SDMyYTE2LDE2LDAsMCwxLTE2LTE2VjEzNmExNiwxNiwwLDAsMSwxNi0xNkg4MGE4LDgsMCwwLDEsMCwxNkgzMnY2NEgyMjRWMTM2SDE3NmE4LDgsMCwwLDEsMC0xNmg0OEExNiwxNiwwLDAsMSwyNDAsMTM2Wk04NS42Niw3Ny42NiwxMjAsNDMuMzFWMTI4YTgsOCwwLDAsMCwxNiwwVjQzLjMxbDM0LjM0LDM0LjM1YTgsOCwwLDAsMCwxMS4zMi0xMS4zMmwtNDgtNDhhOCw4LDAsMCwwLTExLjMyLDBsLTQ4LDQ4QTgsOCwwLDAsMCw4NS42Niw3Ny42NlpNMjAwLDE2OGExMiwxMiwwLDEsMC0xMiwxMkExMiwxMiwwLDAsMCwyMDAsMTY4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "UploadIcon";
 
 /** @deprecated Use UploadIcon */
 export const Upload = I;
-export { I as UploadIcon };
+export { I as UploadIcon }

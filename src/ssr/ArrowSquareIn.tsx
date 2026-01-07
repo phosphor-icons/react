@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowSquareIn";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTM2djY0YTgsOCwwLDAsMS0xNiwwVjE1NS4zMkw0NS42NiwyMjEuNjZhOCw4LDAsMCwxLTExLjMyLTExLjMyTDEwMC42OCwxNDRINTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDEyOCwxMzZaTTIwOCwzMkg4MEExNiwxNiwwLDAsMCw2NCw0OFY5NmE4LDgsMCwwLDAsMTYsMFY0OEgyMDhWMTc2SDE2MGE4LDgsMCwwLDAsMCwxNmg0OGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ArrowSquareInIcon";
 
 /** @deprecated Use ArrowSquareInIcon */
 export const ArrowSquareIn = I;
-export { I as ArrowSquareInIcon };
+export { I as ArrowSquareInIcon }

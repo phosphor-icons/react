@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Windmill";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMjI0SDE4Mi45NGwtNi4zLTQ0LjEyLDMuMjQsMS45MWExNiwxNiwwLDAsMCwyMS45MS01LjY3bDEyLTIwLjM0YTE2LDE2LDAsMCwwLTUuNjctMjEuOTFsLTM1LTIwLjYxLDQwLjY5LTY5LjEzYTE2LDE2LDAsMCwwLTUuNjctMjEuOTFsLTIwLjM0LTEyYTE2LDE2LDAsMCwwLTIxLjkxLDUuNjdsLTIwLjYxLDM1TDc2LjEyLDEwLjIyYTE2LDE2LDAsMCwwLTIxLjkxLDUuNjdsLTEyLDIwLjMzYTE2LDE2LDAsMCwwLDUuNjcsMjEuOTJsMzUsMjAuNjFMNDIuMjEsMTQ3Ljg4YTE2LDE2LDAsMCwwLDUuNjcsMjEuOTFsMjAuMzQsMTJhMTUuNTcsMTUuNTcsMCwwLDAsMTAuNTgsMkw3My4wNiwyMjRIMzJhOCw4LDAsMCwwLDAsMTZIMjI0YTgsOCwwLDAsMCwwLTE2Wm0tMjQtNzYuMzRMMTg4LDE2OGwtNjkuMTMtNDAuNjksMTItMjAuMzVaTTE3OS42NiwyNCwyMDAsMzZsLTQwLjY5LDY5LjE0TDEzOSw5My4xN1pNNTYsNDQuMzUsNjgsMjQsMTM3LjE0LDY0LjdsLTEyLDIwLjM1Wk03Ni4zNCwxNjgsNTYsMTU2LDk2LjY5LDg2Ljg2bDIwLjM2LDEyWm0xMi44OCw1Nkw5OCwxNjIuOGwxMi43Ny0yMS43TDE1OSwxNjkuNWw3Ljc5LDU0LjVaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "WindmillIcon";
 
 /** @deprecated Use WindmillIcon */
 export const Windmill = I;
-export { I as WindmillIcon };
+export { I as WindmillIcon }

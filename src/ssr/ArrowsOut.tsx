@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowsOut";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDhWOTZhOCw4LDAsMCwxLTE2LDBWNjcuMzFsLTQyLjM0LDQyLjM1YTgsOCwwLDAsMS0xMS4zMi0xMS4zMkwxODguNjksNTZIMTYwYTgsOCwwLDAsMSwwLTE2aDQ4QTgsOCwwLDAsMSwyMTYsNDhaTTk4LjM0LDE0Ni4zNCw1NiwxODguNjlWMTYwYTgsOCwwLDAsMC0xNiwwdjQ4YTgsOCwwLDAsMCw4LDhIOTZhOCw4LDAsMCwwLDAtMTZINjcuMzFsNDIuMzUtNDIuMzRhOCw4LDAsMCwwLTExLjMyLTExLjMyWk0yMDgsMTUyYTgsOCwwLDAsMC04LDh2MjguNjlsLTQyLjM0LTQyLjM1YTgsOCwwLDAsMC0xMS4zMiwxMS4zMkwxODguNjksMjAwSDE2MGE4LDgsMCwwLDAsMCwxNmg0OGE4LDgsMCwwLDAsOC04VjE2MEE4LDgsMCwwLDAsMjA4LDE1MlpNNjcuMzEsNTZIOTZhOCw4LDAsMCwwLDAtMTZINDhhOCw4LDAsMCwwLTgsOFY5NmE4LDgsMCwwLDAsMTYsMFY2Ny4zMWw0Mi4zNCw0Mi4zNWE4LDgsMCwwLDAsMTEuMzItMTEuMzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ArrowsOutIcon";
 
 /** @deprecated Use ArrowsOutIcon */
 export const ArrowsOut = I;
-export { I as ArrowsOutIcon };
+export { I as ArrowsOutIcon }

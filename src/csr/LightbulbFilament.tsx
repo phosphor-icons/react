@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/LightbulbFilament";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMjMyYTgsOCwwLDAsMS04LDhIODhhOCw4LDAsMCwxLDAtMTZoODBBOCw4LDAsMCwxLDE3NiwyMzJabTQwLTEyOGE4Ny41NSw4Ny41NSwwLDAsMS0zMy42NCw2OS4yMUExNi4yNCwxNi4yNCwwLDAsMCwxNzYsMTg2djZhMTYsMTYsMCwwLDEtMTYsMTZIOTZhMTYsMTYsMCwwLDEtMTYtMTZ2LTZhMTYsMTYsMCwwLDAtNi4yMy0xMi42NkE4Ny41OSw4Ny41OSwwLDAsMSw0MCwxMDQuNUMzOS43NCw1Ni44Myw3OC4yNiwxNy4xNSwxMjUuODgsMTZBODgsODgsMCwwLDEsMjE2LDEwNFptLTE2LDBhNzIsNzIsMCwwLDAtNzMuNzQtNzJjLTM5LC45Mi03MC40NywzMy4zOS03MC4yNiw3Mi4zOWE3MS42NCw3MS42NCwwLDAsMCwyNy42NCw1Ni4zaDBBMzIsMzIsMCwwLDEsOTYsMTg2djZoMjRWMTQ3LjMxTDkwLjM0LDExNy42NmE4LDgsMCwwLDEsMTEuMzItMTEuMzJMMTI4LDEzMi42OWwyNi4zNC0yNi4zNWE4LDgsMCwwLDEsMTEuMzIsMTEuMzJMMTM2LDE0Ny4zMVYxOTJoMjR2LTZhMzIuMTIsMzIuMTIsMCwwLDEsMTIuNDctMjUuMzVBNzEuNjUsNzEuNjUsMCwwLDAsMjAwLDEwNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "LightbulbFilamentIcon";
 
 /** @deprecated Use LightbulbFilamentIcon */
 export const LightbulbFilament = I;
-export { I as LightbulbFilamentIcon };
+export { I as LightbulbFilamentIcon }

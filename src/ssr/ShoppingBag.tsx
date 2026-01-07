@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ShoppingBag";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIxNmExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMTYsNDBabTAsMTYwSDQwVjU2SDIxNlYyMDBaTTE3Niw4OGE0OCw0OCwwLDAsMS05NiwwLDgsOCwwLDAsMSwxNiwwLDMyLDMyLDAsMCwwLDY0LDAsOCw4LDAsMCwxLDE2LDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ShoppingBagIcon";
 
 /** @deprecated Use ShoppingBagIcon */
 export const ShoppingBag = I;
-export { I as ShoppingBagIcon };
+export { I as ShoppingBagIcon }

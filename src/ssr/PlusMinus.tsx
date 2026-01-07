@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PlusMinus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDUuNjYsNjEuNjZsLTE0NCwxNDRhOCw4LDAsMCwxLTExLjMyLTExLjMybDE0NC0xNDRhOCw4LDAsMCwxLDExLjMyLDExLjMyWk02NCwxMTJhOCw4LDAsMCwwLDE2LDBWODBoMzJhOCw4LDAsMCwwLDAtMTZIODBWMzJhOCw4LDAsMCwwLTE2LDBWNjRIMzJhOCw4LDAsMCwwLDAsMTZINjRabTE2MCw2NEgxNDRhOCw4LDAsMCwwLDAsMTZoODBhOCw4LDAsMCwwLDAtMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "PlusMinusIcon";
 
 /** @deprecated Use PlusMinusIcon */
 export const PlusMinus = I;
-export { I as PlusMinusIcon };
+export { I as PlusMinusIcon }

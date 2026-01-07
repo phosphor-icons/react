@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChatCircle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDAsMCwzNi4xOCwxNzYuODhMMjQuODMsMjEwLjkzYTE2LDE2LDAsMCwwLDIwLjI0LDIwLjI0bDM0LjA1LTExLjM1QTEwNCwxMDQsMCwxLDAsMTI4LDI0Wm0wLDE5MmE4Ny44Nyw4Ny44NywwLDAsMS00NC4wNi0xMS44MSw4LDgsMCwwLDAtNi41NC0uNjdMNDAsMjE2LDUyLjQ3LDE3OC42YTgsOCwwLDAsMC0uNjYtNi41NEE4OCw4OCwwLDEsMSwxMjgsMjE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ChatCircleIcon";
 
 /** @deprecated Use ChatCircleIcon */
 export const ChatCircle = I;
-export { I as ChatCircleIcon };
+export { I as ChatCircleIcon }

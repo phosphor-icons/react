@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Scribble";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDUuNjcsMTg5LjY2YTE0LjYxLDE0LjYxLDAsMCwwLDAsMjAuNjgsOCw4LDAsMCwxLTExLjMyLDExLjMyLDMwLjY0LDMwLjY0LDAsMCwxLDAtNDMuMzJsOS4zOC05LjM3QTE0LjYzLDE0LjYzLDAsMCwwLDE4MywxNDguMjhMMTE2LjI4LDIxNUEzMC42MywzMC42MywwLDAsMSw3MywxNzEuNzJMMTcxLjcyLDczQTE0LjYzLDE0LjYzLDAsMCwwLDE1MSw1Mi4yOEw4NC4yOCwxMTlBMzAuNjMsMzAuNjMsMCwwLDEsNDEsNzUuNzJMODIuMzQsMzQuMzRBOCw4LDAsMCwxLDkzLjY1LDQ1LjY2TDUyLjI3LDg3QTE0LjYzLDE0LjYzLDAsMCwwLDczLDEwNy43MkwxMzkuNzIsNDFBMzAuNjMsMzAuNjMsMCwwLDEsMTgzLDg0LjI4TDg0LjI4LDE4M0ExNC42MywxNC42MywwLDAsMCwxMDUsMjAzLjcyTDE3MS43MiwxMzdBMzAuNjMsMzAuNjMsMCwwLDEsMjE1LDE4MC4yOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ScribbleIcon";
 
 /** @deprecated Use ScribbleIcon */
 export const Scribble = I;
-export { I as ScribbleIcon };
+export { I as ScribbleIcon }

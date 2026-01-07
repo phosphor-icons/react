@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Fan";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzMsMTM1YTYwLDYwLDAsMCwwLTg5LjYyLTM1LjQ1bDE2LjM5LTY1LjQ0YTgsOCwwLDAsMC0zLjQ1LTguNjhBNjAsNjAsMCwxLDAsOTUuNjksMTI4LjkxTDMwLjgyLDE0Ny40NGE4LDgsMCwwLDAtNS44LDcuMzIsNjAsNjAsMCwwLDAsNDQuNDIsNjAuNjYsNjAuNTIsNjAuNTIsMCwwLDAsMTUuNjIsMi4wNyw2MC4wNyw2MC4wNywwLDAsMCw1OS44OC02Mmw0OC40OCw0Ni45MmE4LDgsMCwwLDAsOS4yNSwxLjM1QTYwLDYwLDAsMCwwLDIzMywxMzVabS0xMjEtN2ExNiwxNiwwLDEsMSwxNiwxNkExNiwxNiwwLDAsMSwxMTIsMTI4Wk04MCw3NmE0NCw0NCwwLDAsMSw2Mi43NS0zOS44MkwxMjcuNzcsOTZBMzIsMzIsMCwwLDAsOTkuODUsMTEyLjgsNDMuODUsNDMuODUsMCwwLDEsODAsNzZabTI3LDExOS41N2E0NCw0NCwwLDAsMS02NS44Ni0zNC40M2w1OS4zMS0xNi45NEEzMiwzMiwwLDAsMCwxMjgsMTYwbC45MSwwQTQzLjgyLDQzLjgyLDAsMCwxLDEwNywxOTUuNTdabTEwNi4xNy0yM2E0My45Miw0My45MiwwLDAsMS0xMywxNC4xNGwtNDQuMzItNDIuODlhMzEuOTEsMzEuOTEsMCwwLDAtLjU5LTMyLjU3LDQ0LDQ0LDAsMCwxLDU3LjkxLDYxLjMyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FanIcon";
 
 /** @deprecated Use FanIcon */
 export const Fan = I;
-export { I as FanIcon };
+export { I as FanIcon }

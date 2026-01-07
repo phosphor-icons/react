@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Selection";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsNDBhOCw4LDAsMCwxLTgsOEgxMTJhOCw4LDAsMCwxLDAtMTZoMzJBOCw4LDAsMCwxLDE1Miw0MFptLTgsMTY4SDExMmE4LDgsMCwwLDAsMCwxNmgzMmE4LDgsMCwwLDAsMC0xNlpNMjA4LDMySDE4NGE4LDgsMCwwLDAsMCwxNmgyNFY3MmE4LDgsMCwwLDAsMTYsMFY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTgsNzJhOCw4LDAsMCwwLTgsOHYzMmE4LDgsMCwwLDAsMTYsMFYxMTJBOCw4LDAsMCwwLDIxNiwxMDRabTAsNzJhOCw4LDAsMCwwLTgsOHYyNEgxODRhOCw4LDAsMCwwLDAsMTZoMjRhMTYsMTYsMCwwLDAsMTYtMTZWMTg0QTgsOCwwLDAsMCwyMTYsMTc2Wk00MCwxNTJhOCw4LDAsMCwwLDgtOFYxMTJhOCw4LDAsMCwwLTE2LDB2MzJBOCw4LDAsMCwwLDQwLDE1MlptMzIsNTZINDhWMTg0YTgsOCwwLDAsMC0xNiwwdjI0YTE2LDE2LDAsMCwwLDE2LDE2SDcyYTgsOCwwLDAsMCwwLTE2Wk03MiwzMkg0OEExNiwxNiwwLDAsMCwzMiw0OFY3MmE4LDgsMCwwLDAsMTYsMFY0OEg3MmE4LDgsMCwwLDAsMC0xNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "SelectionIcon";
 
 /** @deprecated Use SelectionIcon */
 export const Selection = I;
-export { I as SelectionIcon };
+export { I as SelectionIcon }

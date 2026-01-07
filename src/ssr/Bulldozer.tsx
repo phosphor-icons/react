@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Bulldozer";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMjAwaC04YTgsOCwwLDAsMS04LThWMTYwYTgsOCwwLDAsMSw4LThoOGE4LDgsMCwwLDAsMC0xNmgtOGEyNCwyNCwwLDAsMC0yNCwyNHY4SDE5OS4yYTQwLjA5LDQwLjA5LDAsMCwwLTMzLjcxLTMxLjYxTDEyOS40NCw0OS44NUExNiwxNiwwLDAsMCwxMTQuNjcsNDBIMjRBMTYsMTYsMCwwLDAsOCw1NnY5NmE0MCw0MCwwLDAsMCwzMiw2NEgxNjBhNDAuMDcsNDAuMDcsMCwwLDAsMzkuMi0zMkgyMTZ2OGEyNCwyNCwwLDAsMCwyNCwyNGg4YTgsOCwwLDAsMCwwLTE2Wk0xNDgsMTM2SDY0VjU2aDUwLjY3Wk00OCw1NnY4MEg0MGEzOS43MiwzOS43MiwwLDAsMC0xNiwzLjM1VjU2Wk0xNjAsMjAwSDQwYTI0LDI0LDAsMCwxLDAtNDhIMTYwYTI0LDI0LDAsMCwxLDAsNDhabTgtMjRhOCw4LDAsMCwxLTgsOEg0MGE4LDgsMCwwLDEsMC0xNkgxNjBBOCw4LDAsMCwxLDE2OCwxNzZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BulldozerIcon";
 
 /** @deprecated Use BulldozerIcon */
 export const Bulldozer = I;
-export { I as BulldozerIcon };
+export { I as BulldozerIcon }

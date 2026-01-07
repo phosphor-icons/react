@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/NuclearPlant";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsMzJoMjRhOCw4LDAsMCwwLDgtOCw4LDgsMCwwLDEsMTYsMCwyNCwyNCwwLDAsMS0yNCwyNEgxNTJhOCw4LDAsMCwwLTgsOCw4LDgsMCwwLDEtMTYsMEEyNCwyNCwwLDAsMSwxNTIsMzJaTTEwNCw2NGE4LDgsMCwwLDAsOC04LDQwLDQwLDAsMCwxLDQwLTQwaDhhOCw4LDAsMCwwLDAtMTZoLThBNTYuMDYsNTYuMDYsMCwwLDAsOTYsNTYsOCw4LDAsMCwwLDEwNCw2NFpNMjQ4LDIxNmE4LDgsMCwwLDEtOCw4SDE2YTgsOCwwLDAsMSwwLTE2SDMyLjc0YzEzLjc3LTI3LjgzLDI5LjQ4LTY4LjY5LDMxLjEyLTExMi42NkExNS45MSwxNS45MSwwLDAsMSw3OS44NSw4MGg4OC4zM2ExNiwxNiwwLDAsMSwxNiwxNS4yOGMyLjEsNDcuODQsMjMuODQsOTIuMzcsMzUuMjksMTEyLjcySDI0MEE4LDgsMCwwLDEsMjQ4LDIxNlpNMTY4LjE4LDk2aC0xNmMxLjc3LDQzLjcyLDE3LjM5LDg0LjMyLDMxLjA5LDExMmgxOEMxODguNjgsMTg0LjA4LDE3MC4xOCwxNDEuNjQsMTY4LjE4LDk2Wk01MC41LDIwOGgxMTVDMTUyLDE3OS4wOSwxMzcuNzcsMTM5LjA5LDEzNi4xNSw5NmE3LjQ2LDcuNDYsMCwwLDEtMS0uMDZMNzkuODUsOTZDNzguMjQsMTM5LjA2LDY0LjA2LDE3OS4wNyw1MC41LDIwOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "NuclearPlantIcon";
 
 /** @deprecated Use NuclearPlantIcon */
 export const NuclearPlant = I;
-export { I as NuclearPlantIcon };
+export { I as NuclearPlantIcon }

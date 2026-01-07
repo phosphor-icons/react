@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CircleDashed";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05Ni4yNiwzNy4wNUE4LDgsMCwwLDEsMTAyLDI3LjI5YTEwNC4xMSwxMDQuMTEsMCwwLDEsNTIsMCw4LDgsMCwwLDEtMiwxNS43NSw4LjE1LDguMTUsMCwwLDEtMi0uMjYsODguMDksODguMDksMCwwLDAtNDQsMEE4LDgsMCwwLDEsOTYuMjYsMzcuMDVaTTUzLjc5LDU1LjE0YTEwNC4wNSwxMDQuMDUsMCwwLDAtMjYsNDUsOCw4LDAsMCwwLDE1LjQyLDQuMjcsODgsODgsMCwwLDEsMjItMzguMDlBOCw4LDAsMCwwLDUzLjc5LDU1LjE0Wk00My4yMSwxNTEuNTVhOCw4LDAsMSwwLTE1LjQyLDQuMjgsMTA0LjEyLDEwNC4xMiwwLDAsMCwyNiw0NSw4LDgsMCwwLDAsMTEuNDEtMTEuMjJBODguMTQsODguMTQsMCwwLDEsNDMuMjEsMTUxLjU1Wk0xNTAsMjEzLjIyYTg4LDg4LDAsMCwxLTQ0LDAsOCw4LDAsMSwwLTQsMTUuNDksMTA0LjExLDEwNC4xMSwwLDAsMCw1MiwwLDgsOCwwLDAsMC00LTE1LjQ5Wk0yMjIuNjUsMTQ2YTgsOCwwLDAsMC05Ljg1LDUuNTgsODcuOTEsODcuOTEsMCwwLDEtMjIsMzguMDgsOCw4LDAsMSwwLDExLjQyLDExLjIxLDEwNCwxMDQsMCwwLDAsMjYtNDVBOCw4LDAsMCwwLDIyMi42NSwxNDZabS05Ljg2LTQxLjU0YTgsOCwwLDAsMCwxNS40Mi00LjI4LDEwNCwxMDQsMCwwLDAtMjYtNDUsOCw4LDAsMSwwLTExLjQxLDExLjIyQTg4LDg4LDAsMCwxLDIxMi43OSwxMDQuNDVaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CircleDashedIcon";
 
 /** @deprecated Use CircleDashedIcon */
 export const CircleDashed = I;
-export { I as CircleDashedIcon };
+export { I as CircleDashedIcon }

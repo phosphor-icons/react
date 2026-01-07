@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Heartbeat";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik03MiwxNDRIMzJhOCw4LDAsMCwxLDAtMTZINjcuNzJsMTMuNjItMjAuNDRhOCw4LDAsMCwxLDEzLjMyLDBsMjUuMzQsMzgsOS4zNC0xNEE4LDgsMCwwLDEsMTM2LDEyOGgyNGE4LDgsMCwwLDEsMCwxNkgxNDAuMjhsLTEzLjYyLDIwLjQ0YTgsOCwwLDAsMS0xMy4zMiwwTDg4LDEyNi40MmwtOS4zNCwxNEE4LDgsMCwwLDEsNzIsMTQ0Wk0xNzgsNDBjLTIwLjY1LDAtMzguNzMsOC44OC01MCwyMy44OUMxMTYuNzMsNDguODgsOTguNjUsNDAsNzgsNDBhNjIuMDcsNjIuMDcsMCwwLDAtNjIsNjJjMCwuNzUsMCwxLjUsMCwyLjI1YTgsOCwwLDEsMCwxNi0uNWMwLS41OCwwLTEuMTcsMC0xLjc1QTQ2LjA2LDQ2LjA2LDAsMCwxLDc4LDU2YzE5LjQ1LDAsMzUuNzgsMTAuMzYsNDIuNiwyN2E4LDgsMCwwLDAsMTQuOCwwYzYuODItMTYuNjcsMjMuMTUtMjcsNDIuNi0yN2E0Ni4wNiw0Ni4wNiwwLDAsMSw0Niw0NmMwLDUzLjYxLTc3Ljc2LDEwMi4xNS05NiwxMTIuOC0xMC44My02LjMxLTQyLjYzLTI2LTY2LjY4LTUyLjIxYTgsOCwwLDEsMC0xMS44LDEwLjgyYzMxLjE3LDM0LDcyLjkzLDU2LjY4LDc0LjY5LDU3LjYzYTgsOCwwLDAsMCw3LjU4LDBDMTM2LjIxLDIyOC42NiwyNDAsMTcyLDI0MCwxMDJBNjIuMDcsNjIuMDcsMCwwLDAsMTc4LDQwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "HeartbeatIcon";
 
 /** @deprecated Use HeartbeatIcon */
 export const Heartbeat = I;
-export { I as HeartbeatIcon };
+export { I as HeartbeatIcon }

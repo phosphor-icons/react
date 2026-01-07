@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TrolleySuitcase";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCwyMjRhMTYsMTYsMCwxLDEtMTYtMTZBMTYsMTYsMCwwLDEsODgsMjI0Wm0xMjgtMTZhMTYsMTYsMCwxLDAsMTYsMTZBMTYsMTYsMCwwLDAsMjE2LDIwOFptMjQtMzJINTZWNzUuMzFBMTUuODYsMTUuODYsMCwwLDAsNTEuMzEsNjRMMjkuNjYsNDIuMzRBOCw4LDAsMCwwLDE4LjM0LDUzLjY2TDQwLDc1LjMxVjE3NkgzMmE4LDgsMCwwLDAsMCwxNkgyNDBhOCw4LDAsMCwwLDAtMTZaTTcyLDE0NFY3MkExNiwxNiwwLDAsMSw4OCw1NmgzMlY0MGExNiwxNiwwLDAsMSwxNi0xNmgzMmExNiwxNiwwLDAsMSwxNiwxNlY1NmgzMmExNiwxNiwwLDAsMSwxNiwxNnY3MmExNiwxNiwwLDAsMS0xNiwxNkg4OEExNiwxNiwwLDAsMSw3MiwxNDRabTY0LTg4aDMyVjQwSDEzNlpNODgsMTQ0SDIxNlY3Mkg4OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "TrolleySuitcaseIcon";
 
 /** @deprecated Use TrolleySuitcaseIcon */
 export const TrolleySuitcase = I;
-export { I as TrolleySuitcaseIcon };
+export { I as TrolleySuitcaseIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SpeakerX";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTUuNTEsMjQuODFhOCw4LDAsMCwwLTguNDIuODhMNzcuMjUsODBIMzJBMTYsMTYsMCwwLDAsMTYsOTZ2NjRhMTYsMTYsMCwwLDAsMTYsMTZINzcuMjVsNjkuODQsNTQuMzFBOCw4LDAsMCwwLDE2MCwyMjRWMzJBOCw4LDAsMCwwLDE1NS41MSwyNC44MVpNMzIsOTZINzJ2NjRIMzJaTTE0NCwyMDcuNjQsODgsMTY0LjA5VjkxLjkxbDU2LTQzLjU1Wm0xMDEuNjYtNjEuM2E4LDgsMCwwLDEtMTEuMzIsMTEuMzJMMjE2LDEzOS4zMWwtMTguMzQsMTguMzVhOCw4LDAsMCwxLTExLjMyLTExLjMyTDIwNC42OSwxMjhsLTE4LjM1LTE4LjM0YTgsOCwwLDAsMSwxMS4zMi0xMS4zMkwyMTYsMTE2LjY5bDE4LjM0LTE4LjM1YTgsOCwwLDAsMSwxMS4zMiwxMS4zMkwyMjcuMzEsMTI4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SpeakerXIcon";
 
 /** @deprecated Use SpeakerXIcon */
 export const SpeakerX = I;
-export { I as SpeakerXIcon };
+export { I as SpeakerXIcon }

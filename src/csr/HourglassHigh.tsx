@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HourglassHigh";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMjRINzJBMTYsMTYsMCwwLDAsNTYsNDBWNzZhMTYuMDcsMTYuMDcsMCwwLDAsNi40LDEyLjhMMTE0LjY3LDEyOCw2Mi40LDE2Ny4yQTE2LjA3LDE2LjA3LDAsMCwwLDU2LDE4MHYzNmExNiwxNiwwLDAsMCwxNiwxNkgxODRhMTYsMTYsMCwwLDAsMTYtMTZWMTgwLjM2YTE2LjA5LDE2LjA5LDAsMCwwLTYuMzUtMTIuNzdMMTQxLjI3LDEyOGw1Mi4zOC0zOS42QTE2LjA1LDE2LjA1LDAsMCwwLDIwMCw3NS42NFY0MEExNiwxNiwwLDAsMCwxODQsMjRabTAsMTZWNTZINzJWNDBabTAsMTc2SDcyVjE4MGw1Ni00Miw1Niw0Mi4zNVptLTU2LTk4TDcyLDc2VjcySDE4NHYzLjY0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "HourglassHighIcon";
 
 /** @deprecated Use HourglassHighIcon */
 export const HourglassHigh = I;
-export { I as HourglassHighIcon };
+export { I as HourglassHighIcon }

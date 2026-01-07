@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Cookie";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjQuNDksMTYzLjUxYTEyLDEyLDAsMSwxLTE3LDBBMTIsMTIsMCwwLDEsMTY0LjQ5LDE2My41MVptLTgxLThhMTIsMTIsMCwxLDAsMTcsMEExMiwxMiwwLDAsMCw4My41MSwxNTUuNTFabTktMzlhMTIsMTIsMCwxLDAtMTcsMEExMiwxMiwwLDAsMCw5Mi40OSwxMTYuNDlabTQ4LTFhMTIsMTIsMCwxLDAsMCwxN0ExMiwxMiwwLDAsMCwxNDAuNDksMTE1LjUxWk0yMzIsMTI4QTEwNCwxMDQsMCwxLDEsMTI4LDI0YTgsOCwwLDAsMSw4LDgsNDAsNDAsMCwwLDAsNDAsNDAsOCw4LDAsMCwxLDgsOCw0MCw0MCwwLDAsMCw0MCw0MEE4LDgsMCwwLDEsMjMyLDEyOFptLTE2LjMxLDcuMzlBNTYuMTMsNTYuMTMsMCwwLDEsMTY4LjUsODcuNWE1Ni4xMyw1Ni4xMywwLDAsMS00Ny44OS00Ny4xOSw4OCw4OCwwLDEsMCw5NS4wOCw5NS4wOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CookieIcon";
 
 /** @deprecated Use CookieIcon */
 export const Cookie = I;
-export { I as CookieIcon };
+export { I as CookieIcon }

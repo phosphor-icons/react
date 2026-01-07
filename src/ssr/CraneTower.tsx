@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CraneTower";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsODBIMTA4Ljk0TDg3LjE2LDM2LjQyQTgsOCwwLDAsMCw4MCwzMkg0OGE4LDgsMCwwLDAtOCw4VjgwSDI0YTgsOCwwLDAsMCwwLDE2SDQwVjIwOEgyNGE4LDgsMCwwLDAsMCwxNkgxMjhhOCw4LDAsMCwwLDAtMTZIMTEyVjk2aDk2djg4SDE5MnYtOGE4LDgsMCwwLDAtMTYsMHY4YTE2LDE2LDAsMCwwLDE2LDE2aDE2YTE2LDE2LDAsMCwwLDE2LTE2Vjk2aDE2YTgsOCwwLDAsMCwwLTE2Wk01Niw0OEg3NS4wNmwxNiwzMkg1NlptMCwxNjBWMTYwSDk2djQ4Wm00MC02NEg1NlY5Nkg5NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CraneTowerIcon";
 
 /** @deprecated Use CraneTowerIcon */
 export const CraneTower = I;
-export { I as CraneTowerIcon };
+export { I as CraneTowerIcon }

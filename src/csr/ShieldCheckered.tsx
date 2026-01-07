@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ShieldCheckered";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNDBINDhBMTYsMTYsMCwwLDAsMzIsNTZ2NTZjMCw1Mi43MiwyNS41Miw4NC42Nyw0Ni45MywxMDIuMTksMjMuMDYsMTguODYsNDYsMjUuMjcsNDcsMjUuNTNhOCw4LDAsMCwwLDQuMiwwYzEtLjI2LDIzLjkxLTYuNjcsNDctMjUuNTNDMTk4LjQ4LDE5Ni42NywyMjQsMTY0LjcyLDIyNCwxMTJWNTZBMTYsMTYsMCwwLDAsMjA4LDQwWm0wLDE2djU2YzAsMi43MS0uMDgsNS4zNy0uMjMsOEgxMzZWNTZaTTQ4LDU2aDcydjY0SDQ4LjIzYy0uMTUtMi42My0uMjMtNS4yOS0uMjMtOFptMi4wNiw4MEgxMjB2ODQuNTVhMTMwLjg1LDEzMC44NSwwLDAsMS0zMC45My0xOC43NEM2Ny45MiwxODQuNTEsNTQuODcsMTYyLjQ0LDUwLjA4LDEzNlpNMTY3LjQsMjAxLjQyQTEzMS4zMSwxMzEuMzEsMCwwLDEsMTM2LDIyMC41M1YxMzZoNjkuOTFDMjAxLjE2LDE2Mi4yNCwxODguMjcsMTg0LjE4LDE2Ny40LDIwMS40MloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ShieldCheckeredIcon";
 
 /** @deprecated Use ShieldCheckeredIcon */
 export const ShieldCheckered = I;
-export { I as ShieldCheckeredIcon };
+export { I as ShieldCheckeredIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Bicycle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTEyYTQ3LjgxLDQ3LjgxLDAsMCwwLTE2LjkzLDMuMDlMMTY1LjkzLDcySDE5MmE4LDgsMCwwLDEsOCw4LDgsOCwwLDAsMCwxNiwwLDI0LDI0LDAsMCwwLTI0LTI0SDE1MmE4LDgsMCwwLDAtNi45MSwxMmwxMS42NSwyMEg5OS4yNkw4Mi45MSw2MEE4LDgsMCwwLDAsNzYsNTZINDhhOCw4LDAsMCwwLDAsMTZINzEuNDFMODUuMTIsOTUuNTEsNjkuNDEsMTE3LjA2YTQ4LjEzLDQ4LjEzLDAsMSwwLDEyLjkyLDkuNDRsMTEuNTktMTUuOUwxMjUuMDksMTY0QTgsOCwwLDEsMCwxMzguOTEsMTU2bC0zMC4zMi01Mmg1Ny40OGwxMS4xOSwxOS4xN0E0OCw0OCwwLDEsMCwyMDgsMTEyWk04MCwxNjBhMzIsMzIsMCwxLDEtMjAuMjEtMjkuNzRsLTE4LjI1LDI1YTgsOCwwLDEsMCwxMi45Miw5LjQybDE4LjI1LTI1QTMxLjg4LDMxLjg4LDAsMCwxLDgwLDE2MFptMTI4LDMyYTMyLDMyLDAsMCwxLTIyLjUxLTU0LjcyTDIwMS4wOSwxNjRBOCw4LDAsMSwwLDIxNC45MSwxNTZMMTk5LjMsMTI5LjIxQTMyLDMyLDAsMSwxLDIwOCwxOTJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BicycleIcon";
 
 /** @deprecated Use BicycleIcon */
 export const Bicycle = I;
-export { I as BicycleIcon };
+export { I as BicycleIcon }

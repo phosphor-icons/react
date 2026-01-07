@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/LinktreeLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsMTYwdjcyYTgsOCwwLDAsMS0xNiwwVjE2MGE4LDgsMCwwLDEsMTYsMFptNzItNjRIMTQ3LjMxbDQyLjM1LTQyLjM0YTgsOCwwLDAsMC0xMS4zMi0xMS4zMkwxMzYsODQuNjlWMjRhOCw4LDAsMCwwLTE2LDBWODQuNjlMNzcuNjYsNDIuMzRBOCw4LDAsMCwwLDY2LjM0LDUzLjY2TDEwOC42OSw5Nkg0OGE4LDgsMCwwLDAsMCwxNmg2MC42OUw2Ni4zNCwxNTQuMzRhOCw4LDAsMCwwLDExLjMyLDExLjMyTDEyOCwxMTUuMzFsNTAuMzQsNTAuMzVhOCw4LDAsMCwwLDExLjMyLTExLjMyTDE0Ny4zMSwxMTJIMjA4YTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "LinktreeLogoIcon";
 
 /** @deprecated Use LinktreeLogoIcon */
 export const LinktreeLogo = I;
-export { I as LinktreeLogoIcon };
+export { I as LinktreeLogoIcon }

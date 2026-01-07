@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MouseMiddleClick";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDQsMTZIMTEyQTY0LjA3LDY0LjA3LDAsMCwwLDQ4LDgwdjk2YTY0LjA3LDY0LjA3LDAsMCwwLDY0LDY0aDMyYTY0LjA3LDY0LjA3LDAsMCwwLDY0LTY0VjgwQTY0LjA3LDY0LjA3LDAsMCwwLDE0NCwxNlptNDgsNjR2MjRIMTUyVjg4YTE2LDE2LDAsMCwwLTE2LTE2VjMyaDhBNDguMDUsNDguMDUsMCwwLDEsMTkyLDgwWm0tNTYsNTZIMTIwVjg4aDE2djIzLjlhLjUxLjUxLDAsMCwwLDAsLjJaTTExMiwzMmg4VjcyYTE2LDE2LDAsMCwwLTE2LDE2djE2SDY0VjgwQTQ4LjA1LDQ4LjA1LDAsMCwxLDExMiwzMlptMzIsMTkySDExMmE0OC4wNSw0OC4wNSwwLDAsMS00OC00OFYxMjBoNDB2MTZhMTYsMTYsMCwwLDAsMTYsMTZoMTZhMTYsMTYsMCwwLDAsMTYtMTZWMTIwaDQwdjU2QTQ4LjA1LDQ4LjA1LDAsMCwxLDE0NCwyMjRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "MouseMiddleClickIcon";
 
 /** @deprecated Use MouseMiddleClickIcon */
 export const MouseMiddleClick = I;
-export { I as MouseMiddleClickIcon };
+export { I as MouseMiddleClickIcon }

@@ -158,30 +158,37 @@ export { I as ${name}Icon${
 }
 
 function generateExports(icons: AssetMap) {
-  let csrIndex = `\
+  let index = `\
 /* GENERATED FILE */
 export type { Icon, IconProps, IconWeight } from "./lib";
 export { IconContext, IconBase } from "./lib";
 export * as SSR from "./ssr";
+export * as CSR from "./csr";
+`;
+  let csrIndex = `\
+/* GENERATED FILE */
 
 `;
 
   let ssrIndex = `\
- /* GENERATED FILE */
+/* GENERATED FILE */
 export { default as SSRBase } from "../lib/SSRBase";
 
 `;
   for (let key in icons) {
     const name = pascalize(key);
     csrIndex += `\
-export * from "./csr/${name}";
+export * from "./${name}";
 `;
     ssrIndex += `\
 export * from "./${name}";
 `;
   }
   try {
-    fs.writeFileSync(INDEX_PATH, csrIndex, {
+    fs.writeFileSync(INDEX_PATH, index, {
+      flag: "w",
+    });
+    fs.writeFileSync(path.join(CSR_PATH, "index.ts"), csrIndex, {
       flag: "w",
     });
     fs.writeFileSync(path.join(SSR_PATH, "index.ts"), ssrIndex, {

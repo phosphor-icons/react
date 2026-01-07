@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CaretCircleUpDown";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlpNMTY1LjY2LDk4LjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMkwxMjgsODMuMzFsLTI2LjM0LDI2LjM1QTgsOCwwLDAsMSw5MC4zNCw5OC4zNGwzMi0zMmE4LDgsMCwwLDEsMTEuMzIsMFptMCw0OGE4LDgsMCwwLDEsMCwxMS4zMmwtMzIsMzJhOCw4LDAsMCwxLTExLjMyLDBsLTMyLTMyYTgsOCwwLDAsMSwxMS4zMi0xMS4zMkwxMjgsMTcyLjY5bDI2LjM0LTI2LjM1QTgsOCwwLDAsMSwxNjUuNjYsMTQ2LjM0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CaretCircleUpDownIcon";
 
 /** @deprecated Use CaretCircleUpDownIcon */
 export const CaretCircleUpDown = I;
-export { I as CaretCircleUpDownIcon };
+export { I as CaretCircleUpDownIcon }

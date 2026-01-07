@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChartPie";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm03MS44Nyw1My4yN0wxMzYsMTE0LjE0VjQwLjM3QTg4LDg4LDAsMCwxLDE5OS44Nyw3Ny4yN1pNMTIwLDQwLjM3djgzbC03MS44OSw0MS41QTg4LDg4LDAsMCwxLDEyMCw0MC4zN1pNMTI4LDIxNmE4OCw4OCwwLDAsMS03MS44Ny0zNy4yN0wyMDcuODksOTEuMTJBODgsODgsMCwwLDEsMTI4LDIxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ChartPieIcon";
 
 /** @deprecated Use ChartPieIcon */
 export const ChartPie = I;
-export { I as ChartPieIcon };
+export { I as ChartPieIcon }

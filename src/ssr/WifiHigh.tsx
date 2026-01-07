@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/WifiHigh";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDAsMjA0YTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE0MCwyMDRaTTIzNy4wOCw4N0ExNzIsMTcyLDAsMCwwLDE4LjkyLDg3LDgsOCwwLDAsMCwyOS4wOCw5OS4zN2ExNTYsMTU2LDAsMCwxLDE5Ny44NCwwQTgsOCwwLDAsMCwyMzcuMDgsODdaTTIwNSwxMjIuNzdhMTI0LDEyNCwwLDAsMC0xNTMuOTQsMEE4LDgsMCwwLDAsNjEsMTM1LjMxYTEwOCwxMDgsMCwwLDEsMTM0LjA2LDAsOCw4LDAsMCwwLDExLjI0LTEuM0E4LDgsMCwwLDAsMjA1LDEyMi43N1ptLTMyLjI2LDM1Ljc2YTc2LjA1LDc2LjA1LDAsMCwwLTg5LjQyLDAsOCw4LDAsMCwwLDkuNDIsMTIuOTQsNjAsNjAsMCwwLDEsNzAuNTgsMCw4LDgsMCwxLDAsOS40Mi0xMi45NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "WifiHighIcon";
 
 /** @deprecated Use WifiHighIcon */
 export const WifiHigh = I;
-export { I as WifiHighIcon };
+export { I as WifiHighIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CloudArrowUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzguMzQsMTY1LjY2LDE2MCwxNDcuMzFWMjA4YTgsOCwwLDAsMS0xNiwwVjE0Ny4zMWwtMTguMzQsMTguMzVhOCw4LDAsMCwxLTExLjMyLTExLjMybDMyLTMyYTgsOCwwLDAsMSwxMS4zMiwwbDMyLDMyYTgsOCwwLDAsMS0xMS4zMiwxMS4zMlpNMTYwLDQwQTg4LjA4LDg4LjA4LDAsMCwwLDgxLjI5LDg4LjY4LDY0LDY0LDAsMSwwLDcyLDIxNmg0MGE4LDgsMCwwLDAsMC0xNkg3MmE0OCw0OCwwLDAsMSwwLTk2YzEuMSwwLDIuMiwwLDMuMjkuMTJBODgsODgsMCwwLDAsNzIsMTI4YTgsOCwwLDAsMCwxNiwwLDcyLDcyLDAsMSwxLDEwMC44LDY2LDgsOCwwLDAsMCwzLjIsMTUuMzQsNy45LDcuOSwwLDAsMCwzLjItLjY4QTg4LDg4LDAsMCwwLDE2MCw0MFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CloudArrowUpIcon";
 
 /** @deprecated Use CloudArrowUpIcon */
 export const CloudArrowUp = I;
-export { I as CloudArrowUpIcon };
+export { I as CloudArrowUpIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GenderFemale";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsOTZhODAsODAsMCwxLDAtODgsNzkuNlYyMDBIODhhOCw4LDAsMCwwLDAsMTZoMzJ2MjRhOCw4LDAsMCwwLDE2LDBWMjE2aDMyYTgsOCwwLDAsMCwwLTE2SDEzNlYxNzUuNkE4MC4xMSw4MC4xMSwwLDAsMCwyMDgsOTZaTTY0LDk2YTY0LDY0LDAsMSwxLDY0LDY0QTY0LjA3LDY0LjA3LDAsMCwxLDY0LDk2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "GenderFemaleIcon";
 
 /** @deprecated Use GenderFemaleIcon */
 export const GenderFemale = I;
-export { I as GenderFemaleIcon };
+export { I as GenderFemaleIcon }

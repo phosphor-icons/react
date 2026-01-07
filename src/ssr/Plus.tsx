@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Plus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTgsOCwwLDAsMS04LDhIMTM2djgwYTgsOCwwLDAsMS0xNiwwVjEzNkg0MGE4LDgsMCwwLDEsMC0xNmg4MFY0MGE4LDgsMCwwLDEsMTYsMHY4MGg4MEE4LDgsMCwwLDEsMjI0LDEyOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PlusIcon";
 
 /** @deprecated Use PlusIcon */
 export const Plus = I;
-export { I as PlusIcon };
+export { I as PlusIcon }

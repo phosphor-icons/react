@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LightningA";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzUuODQsMTExLjU0YTgsOCwwLDAsMC00LjU2LTUuN2wtNTAtMjIuNDNMMTM1LDI1Ljg1YTgsOCwwLDAsMC0xMy42NS03LjI4TDI2LjEzLDEyMS40MmE4LDgsMCwwLDAsMi41OSwxMi43M2w1MCwyMi40NEw2NSwyMTQuMTVhOCw4LDAsMCwwLDEzLjY1LDcuMjhsOTUuMi0xMDIuODVBOCw4LDAsMCwwLDE3NS44NCwxMTEuNTRaTTg3LjYyLDE4OC4yMWw4LjE2LTM0LjM2YTgsOCwwLDAsMC00LjUtOS4xNUw0NS40MywxMjQuMTJsNjYuOTUtNzIuMzMtOC4xNiwzNC4zNmE4LDgsMCwwLDAsNC41LDkuMTVsNDUuODQsMjAuNThabTE1MS41MywyNC4yMS0zNi03MmE4LDgsMCwwLDAtMTQuMzEsMGwtMzYsNzJhOCw4LDAsMCwwLDE0LjMxLDcuMTZMMTc2Ljk0LDIwMGgzOC4xMWw5Ljc5LDE5LjU4QTgsOCwwLDAsMCwyMzIsMjI0YTgsOCwwLDAsMCw3LjE1LTExLjU4Wk0xODQuOTQsMTg0LDE5NiwxNjEuODksMjA3LjA1LDE4NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "LightningAIcon";
 
 /** @deprecated Use LightningAIcon */
 export const LightningA = I;
-export { I as LightningAIcon };
+export { I as LightningAIcon }

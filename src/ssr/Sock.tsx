@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Sock";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMTZIMTA0QTE2LDE2LDAsMCwwLDg4LDMydjc2LjY5TDQ5LjI1LDE0Ny40M2E1OC45Miw1OC45MiwwLDAsMCw4My4zMiw4My4zMkwyMDEsMTYyLjM0YTIzLjg1LDIzLjg1LDAsMCwwLDctMTdWMzJBMTYsMTYsMCwwLDAsMTkyLDE2Wm0wLDE2aDBWNDhIMTA0VjMyWk0xMjEuMjUsMjE5LjQzYTQyLjkxLDQyLjkxLDAsMSwxLTYwLjY4LTYwLjY4bDQxLjA5LTQxLjA5QTgsOCwwLDAsMCwxMDQsMTEyVjY0aDg4djQwLjU4QTU2LjA5LDU2LjA5LDAsMCwwLDE0NCwxNjBhNTUuNCw1NS40LDAsMCwwLDcuOTMsMjguNzZaTTE4OS42NiwxNTFsLTI1LjkxLDI1LjkxQTM5LjYsMzkuNiwwLDAsMSwxNjAsMTYwYTQwLjA1LDQwLjA1LDAsMCwxLDMyLTM5LjE5djI0LjU2QTgsOCwwLDAsMSwxODkuNjYsMTUxWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SockIcon";
 
 /** @deprecated Use SockIcon */
 export const Sock = I;
-export { I as SockIcon };
+export { I as SockIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/RainbowCloud";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMTEyYTQ4LjE4LDQ4LjE4LDAsMCwwLTQ0LjY2LDMwLjQsMzEsMzEsMCwwLDAtMy4zNC0uMThjLTE3LjY1LDAtMzIsMTQuNzYtMzIsMzIuODlTMTM0LjM1LDIwOCwxNTIsMjA4aDQ4YTQ4LDQ4LDAsMCwwLDAtOTZabTAsODBIMTUyYy04LjgyLDAtMTYtNy41OC0xNi0xNi44OXM3LjE4LTE2Ljg5LDE2LTE2Ljg5YTE1LDE1LDAsMCwxLDUuNzgsMS4xNCw4LDgsMCwwLDAsMTAuODctNS44MUEzMiwzMiwwLDEsMSwyMDAsMTkyWk0yNCwxNjB2MTZhOCw4LDAsMCwxLTE2LDBWMTYwQTEwNCwxMDQsMCwwLDEsMTg0LjUsODUuNDRhOCw4LDAsMCwxLTExLjE1LDExLjQ3QTg4LDg4LDAsMCwwLDI0LDE2MFptMzIsMHYxNmE4LDgsMCwwLDEtMTYsMFYxNjBhNzIsNzIsMCwwLDEsMTE0LjYtNTgsOCw4LDAsMSwxLTkuNDcsMTIuODlBNTYsNTYsMCwwLDAsNTYsMTYwWm02MS41Ny0yMy4zNUEyNCwyNCwwLDAsMCw4OCwxNjB2MTZhOCw4LDAsMCwxLTE2LDBWMTYwYTQwLDQwLDAsMCwxLDQ5LjI3LTM4LjkyLDgsOCwwLDEsMS0zLjcsMTUuNTdaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "RainbowCloudIcon";
 
 /** @deprecated Use RainbowCloudIcon */
 export const RainbowCloud = I;
-export { I as RainbowCloudIcon };
+export { I as RainbowCloudIcon }

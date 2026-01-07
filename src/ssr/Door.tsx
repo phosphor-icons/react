@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Door";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMjE2SDIwOFY0MGExNiwxNiwwLDAsMC0xNi0xNkg2NEExNiwxNiwwLDAsMCw0OCw0MFYyMTZIMjRhOCw4LDAsMCwwLDAsMTZIMjMyYTgsOCwwLDAsMCwwLTE2Wk02NCw0MEgxOTJWMjE2SDY0Wm0xMDQsOTJhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTY4LDEzMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "DoorIcon";
 
 /** @deprecated Use DoorIcon */
 export const Door = I;
-export { I as DoorIcon };
+export { I as DoorIcon }

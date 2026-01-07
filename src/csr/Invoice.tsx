@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Invoice";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yOCwxMjhhOCw4LDAsMCwxLDAtMTZINTZhOCw4LDAsMCwwLDAtMTZINDBhMjQsMjQsMCwwLDEsMC00OCw4LDgsMCwwLDEsMTYsMGg4YTgsOCwwLDAsMSwwLDE2SDQwYTgsOCwwLDAsMCwwLDE2SDU2YTI0LDI0LDAsMCwxLDAsNDgsOCw4LDAsMCwxLTE2LDBaTTIzMiw1NlYxOTJhMTYsMTYsMCwwLDEtMTYsMTZINDBhMTYsMTYsMCwwLDEtMTYtMTZWMTUyYTgsOCwwLDAsMSwxNiwwdjQwSDE2MFYxNjBIODBhOCw4LDAsMCwxLDAtMTZoODBWMTEySDEwNGE4LDgsMCwwLDEsMC0xNkgyMTZWNjRIOTZhOCw4LDAsMCwxLDAtMTZIMjI0QTgsOCwwLDAsMSwyMzIsNTZabS01Niw4OGg0MFYxMTJIMTc2Wm00MCw0OFYxNjBIMTc2djMyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "InvoiceIcon";
 
 /** @deprecated Use InvoiceIcon */
 export const Invoice = I;
-export { I as InvoiceIcon };
+export { I as InvoiceIcon }

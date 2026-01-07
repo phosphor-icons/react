@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BracketsAngle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04Ni43NSw0NC4zLDMzLjQ4LDEyOGw1My4yNyw4My43YTgsOCwwLDAsMS0yLjQ2LDExLjA1QTcuOTEsNy45MSwwLDAsMSw4MCwyMjRhOCw4LDAsMCwxLTYuNzYtMy43MWwtNTYtODhhOCw4LDAsMCwxLDAtOC41OWw1Ni04OGE4LDgsMCwxLDEsMTMuNSw4LjU5Wm0xNTIsNzkuNDEtNTYtODhhOCw4LDAsMSwwLTEzLjUsOC41OUwyMjIuNTIsMTI4bC01My4yNyw4My43YTgsOCwwLDAsMCwyLjQ2LDExLjA1QTcuOTEsNy45MSwwLDAsMCwxNzYsMjI0YTgsOCwwLDAsMCw2Ljc2LTMuNzFsNTYtODhBOCw4LDAsMCwwLDIzOC43NSwxMjMuNzFaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BracketsAngleIcon";
 
 /** @deprecated Use BracketsAngleIcon */
 export const BracketsAngle = I;
-export { I as BracketsAngleIcon };
+export { I as BracketsAngleIcon }

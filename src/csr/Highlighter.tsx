@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Highlighter";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTMuNjYsMTA2LjM0YTgsOCwwLDAsMC0xMS4zMiwwTDE5MiwxNTYuNjksMTA3LjMxLDcybDUwLjM1LTUwLjM0YTgsOCwwLDEsMC0xMS4zMi0xMS4zMkw5Niw2MC42OUExNiwxNiwwLDAsMCw5My4xOCw3OS41TDcyLDEwMC42OWExNiwxNiwwLDAsMCwwLDIyLjYyTDc2LjY5LDEyOCwxOC4zNCwxODYuMzRhOCw4LDAsMCwwLDMuMTMsMTMuMjVsNzIsMjRBNy44OCw3Ljg4LDAsMCwwLDk2LDIyNGE4LDgsMCwwLDAsNS42Ni0yLjM0TDEzNiwxODcuMzFsNC42OSw0LjY5YTE2LDE2LDAsMCwwLDIyLjYyLDBsMjEuMTktMjEuMThBMTYsMTYsMCwwLDAsMjAzLjMxLDE2OGw1MC4zNS01MC4zNEE4LDgsMCwwLDAsMjUzLjY2LDEwNi4zNFpNOTMuODQsMjA2Ljg1bC01NS0xOC4zNUw4OCwxMzkuMzEsMTI0LjY5LDE3NlpNMTUyLDE4MC42OSw4My4zMSwxMTIsMTA0LDkxLjMxLDE3Mi42OSwxNjBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "HighlighterIcon";
 
 /** @deprecated Use HighlighterIcon */
 export const Highlighter = I;
-export { I as HighlighterIcon };
+export { I as HighlighterIcon }

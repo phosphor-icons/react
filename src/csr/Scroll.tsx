@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Scroll";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05NiwxMDRhOCw4LDAsMCwxLDgtOGg2NGE4LDgsMCwwLDEsMCwxNkgxMDRBOCw4LDAsMCwxLDk2LDEwNFptOCw0MGg2NGE4LDgsMCwwLDAsMC0xNkgxMDRhOCw4LDAsMCwwLDAsMTZabTEyOCw0OGEzMiwzMiwwLDAsMS0zMiwzMkg4OGEzMiwzMiwwLDAsMS0zMi0zMlY2NGExNiwxNiwwLDAsMC0zMiwwYzAsNS43NCw0LjgzLDkuNjIsNC44OCw5LjY2aDBBOCw4LDAsMCwxLDI0LDg4YTcuODksNy44OSwwLDAsMS00Ljc5LTEuNjFoMEMxOC4wNSw4NS41NCw4LDc3LjYxLDgsNjRBMzIsMzIsMCwwLDEsNDAsMzJIMTc2YTMyLDMyLDAsMCwxLDMyLDMyVjE2OGg4YTgsOCwwLDAsMSw0LjgsMS42QzIyMiwxNzAuNDYsMjMyLDE3OC4zOSwyMzIsMTkyWk05Ni4yNiwxNzMuNDhBOC4wNyw4LjA3LDAsMCwxLDEwNCwxNjhoODhWNjRhMTYsMTYsMCwwLDAtMTYtMTZINjcuNjlBMzEuNzEsMzEuNzEsMCwwLDEsNzIsNjRWMTkyYTE2LDE2LDAsMCwwLDMyLDBjMC01Ljc0LTQuODMtOS42Mi00Ljg4LTkuNjZBNy44Miw3LjgyLDAsMCwxLDk2LjI2LDE3My40OFpNMjE2LDE5MmExMi41OCwxMi41OCwwLDAsMC0zLjIzLThoLTk0YTI2LjkyLDI2LjkyLDAsMCwxLDEuMjEsOCwzMS44MiwzMS44MiwwLDAsMS00LjI5LDE2SDIwMEExNiwxNiwwLDAsMCwyMTYsMTkyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ScrollIcon";
 
 /** @deprecated Use ScrollIcon */
 export const Scroll = I;
-export { I as ScrollIcon };
+export { I as ScrollIcon }

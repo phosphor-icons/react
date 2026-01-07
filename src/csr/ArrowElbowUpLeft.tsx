@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowElbowUpLeft";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsODBWMjI0YTgsOCwwLDAsMS0xNiwwVjg4SDY3LjMxbDM0LjM1LDM0LjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMmwtNDgtNDgtLjA2LS4wN2MtLjE2LS4xNi0uMzItLjM0LS40Ny0uNTJsLS4yMy0uMzFhMy43MSwzLjcxLDAsMCwxLS4yMy0uMzJsLS4yMy0uMzdhMi45MSwyLjkxLDAsMCwxLS4xNy0uM2MtLjA3LS4xMi0uMTMtLjI1LS4xOS0uMzhzLS4xLS4yMS0uMTUtLjMzLS4wOS0uMjUtLjE0LS4zN2wtLjEzLS4zNi0uMDktLjM5YzAtLjEzLS4wNy0uMjUtLjEtLjM3czAtLjMxLS4wNi0uNDYsMC0uMjEtLjA1LS4zMmE4LjM0LDguMzQsMCwwLDEsMC0xLjU4YzAtLjExLDAtLjIxLjA1LS4zMnMwLS4zMS4wNi0uNDYuMDYtLjI0LjEtLjM3bC4wOS0uMzkuMTMtLjM2Yy4wNS0uMTIuMDktLjI1LjE0LS4zN3MuMS0uMjIuMTUtLjMzLjEyLS4yNi4xOS0uMzhhMi45MSwyLjkxLDAsMCwxLC4xNy0uM2wuMjMtLjM3YTMuNzEsMy43MSwwLDAsMSwuMjMtLjMybC4yMy0uMzFjLjE1LS4xOC4zMS0uMzYuNDctLjUybC4wNi0uMDcsNDgtNDhhOCw4LDAsMCwxLDExLjMyLDExLjMyTDY3LjMxLDcySDE5MkE4LDgsMCwwLDEsMjAwLDgwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ArrowElbowUpLeftIcon";
 
 /** @deprecated Use ArrowElbowUpLeftIcon */
 export const ArrowElbowUpLeft = I;
-export { I as ArrowElbowUpLeftIcon };
+export { I as ArrowElbowUpLeftIcon }

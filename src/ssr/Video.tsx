@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Video";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjQuNDQsMTA1LjM0bC00OC0zMkE4LDgsMCwwLDAsMTA0LDgwdjY0YTgsOCwwLDAsMCwxMi40NCw2LjY2bDQ4LTMyYTgsOCwwLDAsMCwwLTEzLjMyWk0xMjAsMTI5LjA1Vjk1bDI1LjU4LDE3Wk0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMTY4YTE2LDE2LDAsMCwwLDE2LDE2SDIxNmExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMTYsNDBabTAsMTI4SDQwVjU2SDIxNlYxNjhabTE2LDQwYTgsOCwwLDAsMS04LDhIMzJhOCw4LDAsMCwxLDAtMTZIMjI0QTgsOCwwLDAsMSwyMzIsMjA4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "VideoIcon";
 
 /** @deprecated Use VideoIcon */
 export const Video = I;
-export { I as VideoIcon };
+export { I as VideoIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChalkboardTeacher";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDUzLjM5YTgsOCwwLDAsMCw3LjIzLTQuNTcsNDgsNDgsMCwwLDEsODYuNzYsMCw4LDgsMCwwLDAsNy4yMyw0LjU3SDIxNmExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMTYsNDBaTTgwLDE0NGEyNCwyNCwwLDEsMSwyNCwyNEEyNCwyNCwwLDAsMSw4MCwxNDRabTEzNiw1NkgxNTkuNDNhNjQuMzksNjQuMzksMCwwLDAtMjguODMtMjYuMTYsNDAsNDAsMCwxLDAtNTMuMiwwQTY0LjM5LDY0LjM5LDAsMCwwLDQ4LjU3LDIwMEg0MFY1NkgyMTZaTTU2LDk2VjgwYTgsOCwwLDAsMSw4LThIMTkyYTgsOCwwLDAsMSw4LDh2OTZhOCw4LDAsMCwxLTgsOEgxNzZhOCw4LDAsMCwxLDAtMTZoOFY4OEg3MnY4YTgsOCwwLDAsMS0xNiwwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ChalkboardTeacherIcon";
 
 /** @deprecated Use ChalkboardTeacherIcon */
 export const ChalkboardTeacher = I;
-export { I as ChalkboardTeacherIcon };
+export { I as ChalkboardTeacherIcon }

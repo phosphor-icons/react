@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MagnetStraight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBIMTYwYTE2LDE2LDAsMCwwLTE2LDE2djg4YTE2LDE2LDAsMCwxLTMyLDBWNTZBMTYsMTYsMCwwLDAsOTYsNDBINTZBMTYsMTYsMCwwLDAsNDAsNTZ2ODhhODgsODgsMCwwLDAsODgsODhoLjY3YzQ4LjE1LS4zNiw4Ny4zMy00MC4yOSw4Ny4zMy04OVY1NkExNiwxNiwwLDAsMCwyMDAsNDBabTAsMTZWODhIMTYwVjU2Wk05Niw1NlY4OEg1NlY1NlptMzIuNTUsMTYwQTcyLDcyLDAsMCwxLDU2LDE0NFYxMDRIOTZ2NDBhMzIsMzIsMCwwLDAsNjQsMFYxMDRoNDB2MzlDMjAwLDE4MywxNjgsMjE1LjcxLDEyOC41NSwyMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "MagnetStraightIcon";
 
 /** @deprecated Use MagnetStraightIcon */
 export const MagnetStraight = I;
-export { I as MagnetStraightIcon };
+export { I as MagnetStraightIcon }

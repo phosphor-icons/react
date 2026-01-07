@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Spinner";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsMzJWNjRhOCw4LDAsMCwxLTE2LDBWMzJhOCw4LDAsMCwxLDE2LDBabTM3LjI1LDU4Ljc1YTgsOCwwLDAsMCw1LjY2LTIuMzVsMjIuNjMtMjIuNjJhOCw4LDAsMCwwLTExLjMyLTExLjMyTDE2Ny42LDc3LjA5YTgsOCwwLDAsMCw1LjY1LDEzLjY2Wk0yMjQsMTIwSDE5MmE4LDgsMCwwLDAsMCwxNmgzMmE4LDgsMCwwLDAsMC0xNlptLTQ1LjA5LDQ3LjZhOCw4LDAsMCwwLTExLjMxLDExLjMxbDIyLjYyLDIyLjYzYTgsOCwwLDAsMCwxMS4zMi0xMS4zMlpNMTI4LDE4NGE4LDgsMCwwLDAtOCw4djMyYTgsOCwwLDAsMCwxNiwwVjE5MkE4LDgsMCwwLDAsMTI4LDE4NFpNNzcuMDksMTY3LjYsNTQuNDYsMTkwLjIyYTgsOCwwLDAsMCwxMS4zMiwxMS4zMkw4OC40LDE3OC45MUE4LDgsMCwwLDAsNzcuMDksMTY3LjZaTTcyLDEyOGE4LDgsMCwwLDAtOC04SDMyYTgsOCwwLDAsMCwwLDE2SDY0QTgsOCwwLDAsMCw3MiwxMjhaTTY1Ljc4LDU0LjQ2QTgsOCwwLDAsMCw1NC40Niw2NS43OEw3Ny4wOSw4OC40QTgsOCwwLDAsMCw4OC40LDc3LjA5WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SpinnerIcon";
 
 /** @deprecated Use SpinnerIcon */
 export const Spinner = I;
-export { I as SpinnerIcon };
+export { I as SpinnerIcon }

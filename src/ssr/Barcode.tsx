@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Barcode";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNDhWODhhOCw4LDAsMCwxLTE2LDBWNTZIMTg0YTgsOCwwLDAsMSwwLTE2aDQwQTgsOCwwLDAsMSwyMzIsNDhaTTcyLDIwMEg0MFYxNjhhOCw4LDAsMCwwLTE2LDB2NDBhOCw4LDAsMCwwLDgsOEg3MmE4LDgsMCwwLDAsMC0xNlptMTUyLTQwYTgsOCwwLDAsMC04LDh2MzJIMTg0YTgsOCwwLDAsMCwwLDE2aDQwYTgsOCwwLDAsMCw4LThWMTY4QTgsOCwwLDAsMCwyMjQsMTYwWk0zMiw5NmE4LDgsMCwwLDAsOC04VjU2SDcyYTgsOCwwLDAsMCwwLTE2SDMyYTgsOCwwLDAsMC04LDhWODhBOCw4LDAsMCwwLDMyLDk2Wk04MCw4MGE4LDgsMCwwLDAtOCw4djgwYTgsOCwwLDAsMCwxNiwwVjg4QTgsOCwwLDAsMCw4MCw4MFptMTA0LDg4Vjg4YTgsOCwwLDAsMC0xNiwwdjgwYTgsOCwwLDAsMCwxNiwwWk0xNDQsODBhOCw4LDAsMCwwLTgsOHY4MGE4LDgsMCwwLDAsMTYsMFY4OEE4LDgsMCwwLDAsMTQ0LDgwWm0tMzIsMGE4LDgsMCwwLDAtOCw4djgwYTgsOCwwLDAsMCwxNiwwVjg4QTgsOCwwLDAsMCwxMTIsODBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BarcodeIcon";
 
 /** @deprecated Use BarcodeIcon */
 export const Barcode = I;
-export { I as BarcodeIcon };
+export { I as BarcodeIcon }

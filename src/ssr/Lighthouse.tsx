@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Lighthouse";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsODBhOCw4LDAsMCwwLTgsOHYxNkgxODguODVMMTg0LDU1LjJBOCw4LDAsMCwwLDE4MS4zMiw1MEwxMzguNDQsMTEuODhsLS4yLS4xN2ExNiwxNiwwLDAsMC0yMC40OCwwbC0uMi4xN0w3NC42OCw1MEE4LDgsMCwwLDAsNzIsNTUuMkw2Ny4xNSwxMDRINTZWODhhOCw4LDAsMCwwLTE2LDB2MjRhOCw4LDAsMCwwLDgsOEg2NS41NGwtOS40Nyw5NC40OEExNiwxNiwwLDAsMCw3MiwyMzJIMTg0YTE2LDE2LDAsMCwwLDE1LjkyLTE3LjU2TDE5MC40NiwxMjBIMjA4YTgsOCwwLDAsMCw4LThWODhBOCw4LDAsMCwwLDIwOCw4MFpNMTI4LDI0bDI3LDI0SDEwMVpNODcuMjQsNjRoODEuNTJsNCw0MEgxMzZWODhhOCw4LDAsMCwwLTE2LDB2MTZIODMuMjNaTTcyLDIxNmw0LTQwSDE4MGw0LDQwWm0xMDYuMzktNTZINzcuNjFsNC00MGg5Mi43NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "LighthouseIcon";
 
 /** @deprecated Use LighthouseIcon */
 export const Lighthouse = I;
-export { I as LighthouseIcon };
+export { I as LighthouseIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CaretDoubleLeft";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDUuNjYsMjAyLjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMmwtODAtODBhOCw4LDAsMCwxLDAtMTEuMzJsODAtODBhOCw4LDAsMCwxLDExLjMyLDExLjMyTDEzMS4zMSwxMjhaTTUxLjMxLDEyOGw3NC4zNS03NC4zNGE4LDgsMCwwLDAtMTEuMzItMTEuMzJsLTgwLDgwYTgsOCwwLDAsMCwwLDExLjMybDgwLDgwYTgsOCwwLDAsMCwxMS4zMi0xMS4zMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CaretDoubleLeftIcon";
 
 /** @deprecated Use CaretDoubleLeftIcon */
 export const CaretDoubleLeft = I;
-export { I as CaretDoubleLeftIcon };
+export { I as CaretDoubleLeftIcon }

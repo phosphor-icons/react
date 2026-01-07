@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/UserSquare";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTk2LDEyMGEzMiwzMiwwLDEsMSwzMiwzMkEzMiwzMiwwLDAsMSw5NiwxMjBaTTY4LjY3LDIwOEE2NC4zNiw2NC4zNiwwLDAsMSw4Ny44LDE4Mi4yYTY0LDY0LDAsMCwxLDgwLjQsMEE2NC4zNiw2NC4zNiwwLDAsMSwxODcuMzMsMjA4Wk0yMDgsMjA4aC0zLjY3YTc5LjksNzkuOSwwLDAsMC00Ni42OC01MC4yOSw0OCw0OCwwLDEsMC01OS4zLDBBNzkuOSw3OS45LDAsMCwwLDUxLjY3LDIwOEg0OFY0OEgyMDhWMjA4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "UserSquareIcon";
 
 /** @deprecated Use UserSquareIcon */
 export const UserSquare = I;
-export { I as UserSquareIcon };
+export { I as UserSquareIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ToteSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzYsNjkuNEExNi4xMywxNi4xMywwLDAsMCwyMjMuOTIsNjRIMTc2YTQ4LDQ4LDAsMCwwLTk2LDBIMzIuMDhhMTYuMTMsMTYuMTMsMCwwLDAtMTIsNS40LDE2LDE2LDAsMCwwLTMuOTIsMTIuNDhsMTQuMjYsMTIwYTE2LDE2LDAsMCwwLDE2LDE0LjEySDIwOS42N2ExNiwxNiwwLDAsMCwxNi0xNC4xMmwxNC4yNi0xMjBBMTYsMTYsMCwwLDAsMjM2LDY5LjRaTTEyOCwzMmEzMiwzMiwwLDAsMSwzMiwzMkg5NkEzMiwzMiwwLDAsMSwxMjgsMzJabTgxLjc2LDE2OGEuMTMuMTMsMCwwLDEtLjA5LDBINDYuMjVMMzIuMDgsODBIMjI0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ToteSimpleIcon";
 
 /** @deprecated Use ToteSimpleIcon */
 export const ToteSimple = I;
-export { I as ToteSimpleIcon };
+export { I as ToteSimpleIcon }

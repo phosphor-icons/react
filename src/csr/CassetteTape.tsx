@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CassetteTape";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhIMzJBMTYsMTYsMCwwLDAsMTYsNjRWMTkyYTE2LDE2LDAsMCwwLDE2LDE2SDIyNGExNiwxNiwwLDAsMCwxNi0xNlY2NEExNiwxNiwwLDAsMCwyMjQsNDhaTTgwLDE5MmwxMi0xNmg3MmwxMiwxNlptMTQ0LDBIMTk2bC0yMS42LTI4LjhBOCw4LDAsMCwwLDE2OCwxNjBIODhhOCw4LDAsMCwwLTYuNCwzLjJMNjAsMTkySDMyVjY0SDIyNFYxOTJaTTE3Niw4MEg4MGEzMiwzMiwwLDAsMCwwLDY0aDk2YTMyLDMyLDAsMCwwLDAtNjRaTTE0OC4zLDk2YTMxLjkyLDMxLjkyLDAsMCwwLDAsMzJIMTA3LjdhMzEuOTIsMzEuOTIsMCwwLDAsMC0zMlpNNjQsMTEyYTE2LDE2LDAsMSwxLDE2LDE2QTE2LDE2LDAsMCwxLDY0LDExMlptMTEyLDE2YTE2LDE2LDAsMSwxLDE2LTE2QTE2LDE2LDAsMCwxLDE3NiwxMjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CassetteTapeIcon";
 
 /** @deprecated Use CassetteTapeIcon */
 export const CassetteTape = I;
-export { I as CassetteTapeIcon };
+export { I as CassetteTapeIcon }

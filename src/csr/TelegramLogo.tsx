@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TelegramLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjguODgsMjYuMTlhOSw5LDAsMCwwLTkuMTYtMS41N0wxNy4wNiwxMDMuOTNhMTQuMjIsMTQuMjIsMCwwLDAsMi40MywyNy4yMUw3MiwxNDEuNDVWMjAwYTE1LjkyLDE1LjkyLDAsMCwwLDEwLDE0LjgzLDE1LjkxLDE1LjkxLDAsMCwwLDE3LjUxLTMuNzNsMjUuMzItMjYuMjZMMTY1LDIyMGExNS44OCwxNS44OCwwLDAsMCwxMC41MSw0LDE2LjMsMTYuMywwLDAsMCw1LS43OSwxNS44NSwxNS44NSwwLDAsMCwxMC42Ny0xMS42M0wyMzEuNzcsMzVBOSw5LDAsMCwwLDIyOC44OCwyNi4xOVptLTYxLjE0LDM2TDc4LjE1LDEyNi4zNWwtNDkuNi05LjczWk04OCwyMDBWMTUyLjUybDI0Ljc5LDIxLjc0Wm04Ny41Myw4TDkyLjg1LDEzNS41bDExOS04NS4yOVoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "TelegramLogoIcon";
 
 /** @deprecated Use TelegramLogoIcon */
 export const TelegramLogo = I;
-export { I as TelegramLogoIcon };
+export { I as TelegramLogoIcon }

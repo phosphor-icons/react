@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/UserGear";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDQsMTU3LjY4YTY4LDY4LDAsMSwwLTcxLjksMGMtMjAuNjUsNi43Ni0zOS4yMywxOS4zOS01NC4xNywzNy4xN2E4LDgsMCwxLDAsMTIuMjQsMTAuM0M1MC4yNSwxODEuMTksNzcuOTEsMTY4LDEwOCwxNjhzNTcuNzUsMTMuMTksNzcuODcsMzcuMTVhOCw4LDAsMCwwLDEyLjI2LTEwLjNDMTgzLjE4LDE3Ny4wNywxNjQuNiwxNjQuNDQsMTQ0LDE1Ny42OFpNNTYsMTAwYTUyLDUyLDAsMSwxLDUyLDUyQTUyLjA2LDUyLjA2LDAsMCwxLDU2LDEwMFptMTk2LjI1LDQzLjA3LTQuNjYtMi42OWEyMy42LDIzLjYsMCwwLDAsMC04Ljc2bDQuNjYtMi42OWE4LDgsMCwxLDAtOC0xMy44NmwtNC42NywyLjdhMjMuOTIsMjMuOTIsMCwwLDAtNy41OC00LjM5VjEwOGE4LDgsMCwwLDAtMTYsMHY1LjM4YTIzLjkyLDIzLjkyLDAsMCwwLTcuNTgsNC4zOWwtNC42Ny0yLjdhOCw4LDAsMSwwLTgsMTMuODZsNC42NiwyLjY5YTIzLjYsMjMuNiwwLDAsMCwwLDguNzZsLTQuNjYsMi42OWE4LDgsMCwwLDAsOCwxMy44Nmw0LjY3LTIuN2EyMy45MiwyMy45MiwwLDAsMCw3LjU4LDQuMzlWMTY0YTgsOCwwLDAsMCwxNiwwdi01LjM4YTIzLjkyLDIzLjkyLDAsMCwwLDcuNTgtNC4zOWw0LjY3LDIuN2E3LjkyLDcuOTIsMCwwLDAsNCwxLjA3LDgsOCwwLDAsMCw0LTE0LjkzWk0yMTYsMTM2YTgsOCwwLDEsMSw4LDhBOCw4LDAsMCwxLDIxNiwxMzZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "UserGearIcon";
 
 /** @deprecated Use UserGearIcon */
 export const UserGear = I;
-export { I as UserGearIcon };
+export { I as UserGearIcon }

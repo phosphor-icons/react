@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChartPolar";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm04Ny42Myw5NkgxOTEuNDhBNjQuMSw2NC4xLDAsMCwwLDEzNiw2NC41MlY0MC4zN0E4OC4xMyw4OC4xMywwLDAsMSwyMTUuNjMsMTIwWk0xMjAsMTIwSDgwLjY4QTQ4LjA5LDQ4LjA5LDAsMCwxLDEyMCw4MC42OFptMCwxNnYzOS4zMkE0OC4wOSw0OC4wOSwwLDAsMSw4MC42OCwxMzZabTE2LDBoMzkuMzJBNDguMDksNDguMDksMCwwLDEsMTM2LDE3NS4zMlptMC0xNlY4MC42OEE0OC4wOSw0OC4wOSwwLDAsMSwxNzUuMzIsMTIwWk0xMjAsNDAuMzdWNjQuNTJBNjQuMSw2NC4xLDAsMCwwLDY0LjUyLDEyMEg0MC4zN0E4OC4xMyw4OC4xMywwLDAsMSwxMjAsNDAuMzdaTTQwLjM3LDEzNkg2NC41MkE2NC4xLDY0LjEsMCwwLDAsMTIwLDE5MS40OHYyNC4xNUE4OC4xMyw4OC4xMywwLDAsMSw0MC4zNywxMzZaTTEzNiwyMTUuNjNWMTkxLjQ4QTY0LjEsNjQuMSwwLDAsMCwxOTEuNDgsMTM2aDI0LjE1QTg4LjEzLDg4LjEzLDAsMCwxLDEzNiwyMTUuNjNaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ChartPolarIcon";
 
 /** @deprecated Use ChartPolarIcon */
 export const ChartPolar = I;
-export { I as ChartPolarIcon };
+export { I as ChartPolarIcon }

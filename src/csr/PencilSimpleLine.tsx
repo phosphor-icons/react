@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PencilSimpleLine";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjcuMzIsNzMuMzcsMTgyLjYzLDI4LjY5YTE2LDE2LDAsMCwwLTIyLjYzLDBMMzYuNjksMTUyQTE1Ljg2LDE1Ljg2LDAsMCwwLDMyLDE2My4zMVYyMDhhMTYsMTYsMCwwLDAsMTYsMTZIMjE2YTgsOCwwLDAsMCwwLTE2SDExNS4zMmwxMTItMTEyQTE2LDE2LDAsMCwwLDIyNy4zMiw3My4zN1pNOTIuNjksMjA4SDQ4VjE2My4zMWw4OC04OEwxODAuNjksMTIwWk0xOTIsMTA4LjY5LDE0Ny4zMiw2NGwyNC0yNEwyMTYsODQuNjlaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "PencilSimpleLineIcon";
 
 /** @deprecated Use PencilSimpleLineIcon */
 export const PencilSimpleLine = I;
-export { I as PencilSimpleLineIcon };
+export { I as PencilSimpleLineIcon }

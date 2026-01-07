@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Robot";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDhIMTM2VjE2YTgsOCwwLDAsMC0xNiwwVjQ4SDU2QTMyLDMyLDAsMCwwLDI0LDgwVjE5MmEzMiwzMiwwLDAsMCwzMiwzMkgyMDBhMzIsMzIsMCwwLDAsMzItMzJWODBBMzIsMzIsMCwwLDAsMjAwLDQ4Wm0xNiwxNDRhMTYsMTYsMCwwLDEtMTYsMTZINTZhMTYsMTYsMCwwLDEtMTYtMTZWODBBMTYsMTYsMCwwLDEsNTYsNjRIMjAwYTE2LDE2LDAsMCwxLDE2LDE2Wm0tNTItNTZIOTJhMjgsMjgsMCwwLDAsMCw1Nmg3MmEyOCwyOCwwLDAsMCwwLTU2Wm0tMjQsMTZ2MjRIMTE2VjE1MlpNODAsMTY0YTEyLDEyLDAsMCwxLDEyLTEyaDh2MjRIOTJBMTIsMTIsMCwwLDEsODAsMTY0Wm04NCwxMmgtOFYxNTJoOGExMiwxMiwwLDAsMSwwLDI0Wk03MiwxMDhhMTIsMTIsMCwxLDEsMTIsMTJBMTIsMTIsMCwwLDEsNzIsMTA4Wm04OCwwYTEyLDEyLDAsMSwxLDEyLDEyQTEyLDEyLDAsMCwxLDE2MCwxMDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "RobotIcon";
 
 /** @deprecated Use RobotIcon */
 export const Robot = I;
-export { I as RobotIcon };
+export { I as RobotIcon }

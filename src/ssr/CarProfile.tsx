@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CarProfile";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTEySDIxMS4zMUwxNjgsNjguNjlBMTUuODYsMTUuODYsMCwwLDAsMTU2LjY5LDY0SDQ0LjI4QTE2LDE2LDAsMCwwLDMxLDcxLjEyTDEuMzQsMTE1LjU2QTguMDcsOC4wNywwLDAsMCwwLDEyMHY0OGExNiwxNiwwLDAsMCwxNiwxNkgzM2EzMiwzMiwwLDAsMCw2MiwwaDY2YTMyLDMyLDAsMCwwLDYyLDBoMTdhMTYsMTYsMCwwLDAsMTYtMTZWMTI4QTE2LDE2LDAsMCwwLDI0MCwxMTJaTTQ0LjI4LDgwSDE1Ni42OWwzMiwzMkgyM1pNNjQsMTkyYTE2LDE2LDAsMSwxLDE2LTE2QTE2LDE2LDAsMCwxLDY0LDE5MlptMTI4LDBhMTYsMTYsMCwxLDEsMTYtMTZBMTYsMTYsMCwwLDEsMTkyLDE5MlptNDgtMjRIMjIzYTMyLDMyLDAsMCwwLTYyLDBIOTVhMzIsMzIsMCwwLDAtNjIsMEgxNlYxMjhIMjQwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CarProfileIcon";
 
 /** @deprecated Use CarProfileIcon */
 export const CarProfile = I;
-export { I as CarProfileIcon };
+export { I as CarProfileIcon }

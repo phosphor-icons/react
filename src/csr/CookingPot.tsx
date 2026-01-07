@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CookingPot";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCw0OFYxNmE4LDgsMCwwLDEsMTYsMFY0OGE4LDgsMCwwLDEtMTYsMFptNDAsOGE4LDgsMCwwLDAsOC04VjE2YTgsOCwwLDAsMC0xNiwwVjQ4QTgsOCwwLDAsMCwxMjgsNTZabTMyLDBhOCw4LDAsMCwwLDgtOFYxNmE4LDgsMCwwLDAtMTYsMFY0OEE4LDgsMCwwLDAsMTYwLDU2Wm05Mi44LDQ2LjRMMjI0LDEyNHY2MGEzMiwzMiwwLDAsMS0zMiwzMkg2NGEzMiwzMiwwLDAsMS0zMi0zMlYxMjRMMy4yLDEwMi40YTgsOCwwLDAsMSw5LjYtMTIuOEwzMiwxMDRWODBhOCw4LDAsMCwxLDgtOEgyMTZhOCw4LDAsMCwxLDgsOHYyNGwxOS4yLTE0LjRhOCw4LDAsMCwxLDkuNiwxMi44Wk0yMDgsODhINDh2OTZhMTYsMTYsMCwwLDAsMTYsMTZIMTkyYTE2LDE2LDAsMCwwLDE2LTE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CookingPotIcon";
 
 /** @deprecated Use CookingPotIcon */
 export const CookingPot = I;
-export { I as CookingPotIcon };
+export { I as CookingPotIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArticleNyTimes";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsOTZIMjMyYTgsOCwwLDAsMSwwLDE2SDEyOGE4LDgsMCwwLDEsMC0xNlptMTA0LDMySDEyOGE4LDgsMCwwLDAsMCwxNkgyMzJhOCw4LDAsMCwwLDAtMTZabTAsMzJIODBhOCw4LDAsMCwwLDAsMTZIMjMyYTgsOCwwLDAsMCwwLTE2Wm0wLDMySDgwYTgsOCwwLDAsMCwwLDE2SDIzMmE4LDgsMCwwLDAsMC0xNlpNOTYsMTQ0YTgsOCwwLDAsMCwwLTE2SDg4VjY0aDMydjhhOCw4LDAsMCwwLDE2LDBWNTZhOCw4LDAsMCwwLTgtOEgzMmE4LDgsMCwwLDAtOCw4VjcyYTgsOCwwLDAsMCwxNiwwVjY0SDcydjY0SDY0YTgsOCwwLDAsMCwwLDE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ArticleNyTimesIcon";
 
 /** @deprecated Use ArticleNyTimesIcon */
 export const ArticleNyTimes = I;
-export { I as ArticleNyTimesIcon };
+export { I as ArticleNyTimesIcon }

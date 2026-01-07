@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Subtract";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzQuNjMsODEuMzVhODAsODAsMCwxLDAtOTMuMjgsOTMuMjgsODAsODAsMCwxLDAsOTMuMjgtOTMuMjhaTTIyNCwxNjBjMCwxLjUyLS4wNywzLS4xOCw0LjUxbC01MC01MEE4MC4xNCw4MC4xNCwwLDAsMCwxNzYsOTgsNjMuODEsNjMuODEsMCwwLDEsMjI0LDE2MFptLTc3LjQtMi4wOSw1Mi42MSw1Mi42MkE2NCw2NCwwLDAsMSwxODMsMjE5LjdsLTUxLjg2LTUxLjg2QTgwLjUsODAuNSwwLDAsMCwxNDYuNiwxNTcuOTFabTExLjMxLTExLjMxYTgwLjUsODAuNSwwLDAsMCw5LjkzLTE1LjQ0TDIxOS43LDE4M2E2NCw2NCwwLDAsMS05LjE3LDE2LjE5Wk0zMiw5NmE2NCw2NCwwLDEsMSw2NCw2NEE2NC4wNyw2NC4wNywwLDAsMSwzMiw5NlpNOTgsMTc2YTgwLjE0LDgwLjE0LDAsMCwwLDE2LjUtMi4xM2w1MCw1MGMtMS40OS4xMS0zLC4xOC00LjUxLjE4QTYzLjgxLDYzLjgxLDAsMCwxLDk4LDE3NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "SubtractIcon";
 
 /** @deprecated Use SubtractIcon */
 export const Subtract = I;
-export { I as SubtractIcon };
+export { I as SubtractIcon }

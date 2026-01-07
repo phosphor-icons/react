@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Eraser";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjUsODAuNCwxODMuNiwzOWEyNCwyNCwwLDAsMC0zMy45NCwwTDMxLDE1Ny42NmEyNCwyNCwwLDAsMCwwLDMzLjk0bDMwLjA2LDMwLjA2QTgsOCwwLDAsMCw2Ni43NCwyMjRIMjE2YTgsOCwwLDAsMCwwLTE2aC04NC43TDIyNSwxMTQuMzRBMjQsMjQsMCwwLDAsMjI1LDgwLjRaTTEwOC42OCwyMDhINzAuMDVMNDIuMzMsMTgwLjI4YTgsOCwwLDAsMSwwLTExLjMxTDk2LDExNS4zMSwxNDguNjksMTY4Wm0xMDUtMTA1TDE2MCwxNTYuNjksMTA3LjMxLDEwNCwxNjEsNTAuMzRhOCw4LDAsMCwxLDExLjMyLDBsNDEuMzgsNDEuMzhhOCw4LDAsMCwxLDAsMTEuMzFaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "EraserIcon";
 
 /** @deprecated Use EraserIcon */
 export const Eraser = I;
-export { I as EraserIcon };
+export { I as EraserIcon }

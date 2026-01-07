@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Onigiri";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzEuNTMsMTQ2LjU3LDE3NS42OCw1MC42NmwtLjExLS4xOWE1Niw1NiwwLDAsMC05NS4xNCwwbC0uMTEuMTlMMjQuNDcsMTQ2LjU3QTU2LDU2LDAsMCwwLDcyLjA5LDIzMkgxODMuOTFhNTYsNTYsMCwwLDAsNDcuNjItODUuNDNaTTE2MCwyMTZIOTZWMTY4aDY0Wm01OC44Ni0yMC41NUEzOS40OSwzOS40OSwwLDAsMSwxODMuOTEsMjE2SDE3NlYxNjhhMTYsMTYsMCwwLDAtMTYtMTZIOTZhMTYsMTYsMCwwLDAtMTYsMTZ2NDhINzIuMDlhNDAsNDAsMCwwLDEtMzQtNjEuMDksMiwyLDAsMCwwLC4xMS0uMmw1NS44NS05NS45YTQwLDQwLDAsMCwxLDY3Ljg0LDBsNTUuODUsOTUuOWEyLDIsMCwwLDAsLjExLjJBMzkuNSwzOS41LDAsMCwxLDIxOC44NSwxOTUuNDVaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "OnigiriIcon";
 
 /** @deprecated Use OnigiriIcon */
 export const Onigiri = I;
-export { I as OnigiriIcon };
+export { I as OnigiriIcon }

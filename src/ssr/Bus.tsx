@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Bus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMzJINzJBMzIsMzIsMCwwLDAsNDAsNjRWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDgwYTE2LDE2LDAsMCwwLDE2LTE2VjE5Mmg2NHYxNmExNiwxNiwwLDAsMCwxNiwxNmgyNGExNiwxNiwwLDAsMCwxNi0xNlY2NEEzMiwzMiwwLDAsMCwxODQsMzJaTTU2LDE3NlYxMjBIMjAwdjU2Wm0wLTk2SDIwMHYyNEg1NlpNNzIsNDhIMTg0YTE2LDE2LDAsMCwxLDE2LDE2SDU2QTE2LDE2LDAsMCwxLDcyLDQ4Wm04LDE2MEg1NlYxOTJIODBabTk2LDBWMTkyaDI0djE2Wm0tNzItNjBhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTA0LDE0OFptNzIsMGExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwxNzYsMTQ4Wm03Mi02OHYyNGE4LDgsMCwwLDEtMTYsMFY4MGE4LDgsMCwwLDEsMTYsMFpNMjQsODB2MjRhOCw4LDAsMCwxLTE2LDBWODBhOCw4LDAsMCwxLDE2LDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BusIcon";
 
 /** @deprecated Use BusIcon */
 export const Bus = I;
-export { I as BusIcon };
+export { I as BusIcon }

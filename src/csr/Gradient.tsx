@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Gradient";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNCwxMDRhOCw4LDAsMCwxLDgtOGg4MGE4LDgsMCwwLDEsMCwxNkgzMkE4LDgsMCwwLDEsMjQsMTA0Wm0yMDAtOEgxNDRhOCw4LDAsMCwwLDAsMTZoODBhOCw4LDAsMCwwLDAtMTZaTTcyLDEzNkgzMmE4LDgsMCwwLDAsMCwxNkg3MmE4LDgsMCwwLDAsMC0xNlptMTUyLDBIMTg0YTgsOCwwLDAsMCwwLDE2aDQwYTgsOCwwLDAsMCwwLTE2Wk05NiwxNDRhOCw4LDAsMCwwLDgsOGg0OGE4LDgsMCwwLDAsMC0xNkgxMDRBOCw4LDAsMCwwLDk2LDE0NFpNNTYsMTc2SDMyYTgsOCwwLDAsMCwwLDE2SDU2YTgsOCwwLDAsMCwwLTE2Wm01NiwwSDg4YTgsOCwwLDAsMCwwLDE2aDI0YTgsOCwwLDAsMCwwLTE2Wm01NiwwSDE0NGE4LDgsMCwwLDAsMCwxNmgyNGE4LDgsMCwwLDAsMC0xNlptNTYsMEgyMDBhOCw4LDAsMCwwLDAsMTZoMjRhOCw4LDAsMCwwLDAtMTZaTTMyLDcySDIyNGE4LDgsMCwwLDAsMC0xNkgzMmE4LDgsMCwwLDAsMCwxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "GradientIcon";
 
 /** @deprecated Use GradientIcon */
 export const Gradient = I;
-export { I as GradientIcon };
+export { I as GradientIcon }

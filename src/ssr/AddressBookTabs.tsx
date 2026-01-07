@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/AddressBookTabs";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabS0xNiw3MmgxNnY0OEgxOTJabTE2LTE2SDE5MlY0OGgxNlpNNDgsNDhIMTc2VjIwOEg0OFpNMjA4LDIwOEgxOTJWMTY4aDE2djQwWm0tNTYuMjUtNDJhMzkuNzYsMzkuNzYsMCwwLDAtMTcuMTktMjMuMzQsMzIsMzIsMCwxLDAtNDUuMTIsMEEzOS44NCwzOS44NCwwLDAsMCw3Mi4yNSwxNjZhOCw4LDAsMCwwLDE1LjUsNGMyLjY0LTEwLjI1LDEzLjA2LTE4LDI0LjI1LTE4czIxLjYyLDcuNzMsMjQuMjUsMThhOCw4LDAsMSwwLDE1LjUtNFpNOTYsMTIwYTE2LDE2LDAsMSwxLDE2LDE2QTE2LDE2LDAsMCwxLDk2LDEyMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "AddressBookTabsIcon";
 
 /** @deprecated Use AddressBookTabsIcon */
 export const AddressBookTabs = I;
-export { I as AddressBookTabsIcon };
+export { I as AddressBookTabsIcon }

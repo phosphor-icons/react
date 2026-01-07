@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Carrot";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNjRIMjAzLjMxbDI2LjM1LTI2LjM0YTgsOCwwLDAsMC0xMS4zMi0xMS4zMkwxOTIsNTIuNjlWMjRhOCw4LDAsMCwwLTE2LDBWNTYuNTdhNjQsNjQsMCwwLDAtNzcuMiwxMC4xMmwwLDAsMCwwLDAsMGMtNDAuMSwzOS4zOS03MC4yNSwxMzMuMDgtNzMuMTksMTQyLjQ1YTE2LDE2LDAsMCwwLDIxLjI2LDIxLjI2YzkuMzctMi45NCwxMDMuMTgtMzMuMTMsMTQyLjQ3LTczLjIxQTY0LDY0LDAsMCwwLDE5OS40Myw4MEgyMzJhOCw4LDAsMCwwLDAtMTZabS01NC4xMiw4MmMtOC45NCw5LjEyLTIxLjI1LDE3LjgtMzQuODUsMjUuNzNsLTI1LjM4LTI1LjM5YTgsOCwwLDAsMC0xMS4zMiwxMS4zMmwyMi4wOSwyMi4wOWMtNDAuODcsMjEuMTktODYuMzIsMzUuNDItODcsMzUuNjNBNy45Myw3LjkzLDAsMCwwLDQwLDIxNmE3LjkzLDcuOTMsMCwwLDAsLjU5LTEuNDFjLjI5LS45MywyOC04OS41OCw2NC0xMzAuNjdsMzMuNzcsMzMuNzdhOCw4LDAsMCwwLDExLjMyLTExLjMyTDExNi4xOCw3Mi44OEE0OCw0OCwwLDAsMSwxNzcuODgsMTQ2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CarrotIcon";
 
 /** @deprecated Use CarrotIcon */
 export const Carrot = I;
-export { I as CarrotIcon };
+export { I as CarrotIcon }

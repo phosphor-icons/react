@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CursorText";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMjA4YTgsOCwwLDAsMS04LDhIMTYwYTQwLDQwLDAsMCwxLTMyLTE2LDQwLDQwLDAsMCwxLTMyLDE2SDgwYTgsOCwwLDAsMSwwLTE2SDk2YTI0LDI0LDAsMCwwLDI0LTI0VjEzNkgxMDRhOCw4LDAsMCwxLDAtMTZoMTZWODBBMjQsMjQsMCwwLDAsOTYsNTZIODBhOCw4LDAsMCwxLDAtMTZIOTZhNDAsNDAsMCwwLDEsMzIsMTYsNDAsNDAsMCwwLDEsMzItMTZoMTZhOCw4LDAsMCwxLDAsMTZIMTYwYTI0LDI0LDAsMCwwLTI0LDI0djQwaDE2YTgsOCwwLDAsMSwwLDE2SDEzNnY0MGEyNCwyNCwwLDAsMCwyNCwyNGgxNkE4LDgsMCwwLDEsMTg0LDIwOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CursorTextIcon";
 
 /** @deprecated Use CursorTextIcon */
 export const CursorText = I;
-export { I as CursorTextIcon };
+export { I as CursorTextIcon }

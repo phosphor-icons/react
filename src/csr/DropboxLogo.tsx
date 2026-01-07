@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/DropboxLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzYuNTUsMTQ5LjQyLDE5NC4wNSwxMjBsNDIuNS0yOS40MmE4LDgsMCwwLDAsMC0xMy4xNmwtNTItMzZhOCw4LDAsMCwwLTkuMSwwTDEyOCw3NC4yNyw4MC41NSw0MS40MmE4LDgsMCwwLDAtOS4xLDBsLTUyLDM2YTgsOCwwLDAsMCwwLDEzLjE2TDYyLDEyMGwtNDIuNSwyOS40MmE4LDgsMCwwLDAsMCwxMy4xNmw1MiwzNmE4LDgsMCwwLDAsOS4xLDBMMTI4LDE2NS43M2w0Ny40NSwzMi44NWE4LDgsMCwwLDAsOS4xLDBsNTItMzZhOCw4LDAsMCwwLDAtMTMuMTZaTTEyOCwxNDYuMjcsOTAuMDUsMTIwbDM4LTI2LjI3TDE2NiwxMjBabTUyLTg4LjU0TDIxOCw4NCwxODAsMTEwLjI3LDE0Mi4wNSw4NFptLTEwNCwwTDExNCw4NCw3NiwxMTAuMjcsMzguMDUsODRabTAsMTI0LjU0TDM4LjA1LDE1NmwzOC0yNi4yN0wxMTQsMTU2Wm0xMDQsMEwxNDIuMDUsMTU2LDE4MCwxMjkuNzMsMjE4LDE1NlptLTIxLjUzLDI0LjY0YTgsOCwwLDAsMS0yLDExLjEzbC0yMy44OSwxNi41NGE4LDgsMCwwLDEtOS4xLDBMOTkuNTYsMjE4YTgsOCwwLDAsMSw5LjEtMTMuMTZMMTI4LDIxOC4yN2wxOS4zNC0xMy4zOUE4LDgsMCwwLDEsMTU4LjQ3LDIwNi45MVoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "DropboxLogoIcon";
 
 /** @deprecated Use DropboxLogoIcon */
 export const DropboxLogo = I;
-export { I as DropboxLogoIcon };
+export { I as DropboxLogoIcon }

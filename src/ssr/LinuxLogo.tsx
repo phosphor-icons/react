@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LinuxLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjksMjE0LjI1QTgsOCwwLDAsMSwyMTcuNzYsMjEzQzIxNi4zOSwyMTEuMjcsMTg0LDE2OS44NiwxODQsODhBNTYsNTYsMCwwLDAsNzIsODhjMCw4MS44Ni0zMi4zNywxMjMuMjctMzMuNzUsMTI1YTgsOCwwLDAsMS0xMi41MS0xMGMuMTUtLjIsNy42OS05LjksMTUuMTMtMjguNzRDNDcuNzcsMTU2LjgsNTYsMTI3LjY0LDU2LDg4YTcyLDcyLDAsMCwxLDE0NCwwYzAsMzkuNjQsOC4yMyw2OC44LDE1LjEzLDg2LjI4LDcuNDgsMTguOTQsMTUuMDYsMjguNjQsMTUuMTQsMjguNzRBOCw4LDAsMCwxLDIyOSwyMTQuMjVaTTEwMCw4OGExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCwxMDAsODhabTY4LDEyYTEyLDEyLDAsMSwwLTEyLDEyQTEyLDEyLDAsMCwwLDE2OCwxMDBaTTk5LjU4LDEyOC44NGE4LDgsMCwwLDAtNy4xNSwxNC4zMWwzMiwxNmE3Ljk0LDcuOTQsMCwwLDAsNy4xNSwwbDMyLTE2YTgsOCwwLDAsMC03LjE2LTE0LjMxTDEyOCwxNDMuMDVaTTEyOCwxNzZhNTQuMDcsNTQuMDcsMCwwLDAtNDcsMjguMTEsOCw4LDAsMSwwLDE0LDcuNzgsMzcuMzUsMzcuMzUsMCwwLDEsNjYsMCw4LDgsMCwwLDAsMTQtNy43OEE1NC4wNyw1NC4wNywwLDAsMCwxMjgsMTc2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "LinuxLogoIcon";
 
 /** @deprecated Use LinuxLogoIcon */
 export const LinuxLogo = I;
-export { I as LinuxLogoIcon };
+export { I as LinuxLogoIcon }

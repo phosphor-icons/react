@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Alien";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTZhOTYuMTEsOTYuMTEsMCwwLDAtOTYsOTZjMCwyNCwxMi41Niw1NS4wNiwzMy42MSw4MywyMS4xOCwyOC4xNSw0NC41LDQ1LDYyLjM5LDQ1czQxLjIxLTE2LjgxLDYyLjM5LTQ1YzIxLjA1LTI4LDMzLjYxLTU5LDMzLjYxLTgzQTk2LjExLDk2LjExLDAsMCwwLDEyOCwxNlptNDkuNjEsMTY5LjQyQzE2MC4yNCwyMDguNDksMTQwLjMxLDIyNCwxMjgsMjI0cy0zMi4yNC0xNS41MS00OS42MS0zOC41OEM1OS42NSwxNjAuNSw0OCwxMzIuMzcsNDgsMTEyYTgwLDgwLDAsMCwxLDE2MCwwQzIwOCwxMzIuMzcsMTk2LjM1LDE2MC41LDE3Ny42MSwxODUuNDJaTTEyMCwxMzZBNDAsNDAsMCwwLDAsODAsOTZhMTYsMTYsMCwwLDAtMTYsMTYsNDAsNDAsMCwwLDAsNDAsNDBBMTYsMTYsMCwwLDAsMTIwLDEzNlpNODAsMTEyYTI0LDI0LDAsMCwxLDI0LDI0aDBBMjQsMjQsMCwwLDEsODAsMTEyWm05Ni0xNmE0MCw0MCwwLDAsMC00MCw0MCwxNiwxNiwwLDAsMCwxNiwxNiw0MCw0MCwwLDAsMCw0MC00MEExNiwxNiwwLDAsMCwxNzYsOTZabS0yNCw0MGEyNCwyNCwwLDAsMSwyNC0yNEEyNCwyNCwwLDAsMSwxNTIsMTM2Wm0wLDQ4YTgsOCwwLDAsMS04LDhIMTEyYTgsOCwwLDAsMSwwLTE2aDMyQTgsOCwwLDAsMSwxNTIsMTg0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "AlienIcon";
 
 /** @deprecated Use AlienIcon */
 export const Alien = I;
-export { I as AlienIcon };
+export { I as AlienIcon }

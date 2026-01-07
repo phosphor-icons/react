@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ClipboardText";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMTUyYTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwxNTJabS04LTQwSDk2YTgsOCwwLDAsMCwwLDE2aDY0YTgsOCwwLDAsMCwwLTE2Wm01Ni02NFYyMTZhMTYsMTYsMCwwLDEtMTYsMTZINTZhMTYsMTYsMCwwLDEtMTYtMTZWNDhBMTYsMTYsMCwwLDEsNTYsMzJIOTIuMjZhNDcuOTIsNDcuOTIsMCwwLDEsNzEuNDgsMEgyMDBBMTYsMTYsMCwwLDEsMjE2LDQ4Wk05Niw2NGg2NGEzMiwzMiwwLDAsMC02NCwwWk0yMDAsNDhIMTczLjI1QTQ3LjkzLDQ3LjkzLDAsMCwxLDE3Niw2NHY4YTgsOCwwLDAsMS04LDhIODhhOCw4LDAsMCwxLTgtOFY2NGE0Ny45Myw0Ny45MywwLDAsMSwyLjc1LTE2SDU2VjIxNkgyMDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ClipboardTextIcon";
 
 /** @deprecated Use ClipboardTextIcon */
 export const ClipboardText = I;
-export { I as ClipboardTextIcon };
+export { I as ClipboardTextIcon }

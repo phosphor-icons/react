@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/DiceSix";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMzJINjRBMzIsMzIsMCwwLDAsMzIsNjRWMTkyYTMyLDMyLDAsMCwwLDMyLDMySDE5MmEzMiwzMiwwLDAsMCwzMi0zMlY2NEEzMiwzMiwwLDAsMCwxOTIsMzJabTE2LDE2MGExNiwxNiwwLDAsMS0xNiwxNkg2NGExNiwxNiwwLDAsMS0xNi0xNlY2NEExNiwxNiwwLDAsMSw2NCw0OEgxOTJhMTYsMTYsMCwwLDEsMTYsMTZaTTEwNCw4NEExMiwxMiwwLDEsMSw5Miw3MiwxMiwxMiwwLDAsMSwxMDQsODRabTcyLDBhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTc2LDg0Wm0tNzIsNDRhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTA0LDEyOFptNzIsMGExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwxNzYsMTI4Wm0tNzIsNDRhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTA0LDE3MlptNzIsMGExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwxNzYsMTcyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "DiceSixIcon";
 
 /** @deprecated Use DiceSixIcon */
 export const DiceSix = I;
-export { I as DiceSixIcon };
+export { I as DiceSixIcon }

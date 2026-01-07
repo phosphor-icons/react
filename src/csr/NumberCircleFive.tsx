@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NumberCircleFive";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlpNMTE4Ljc4LDg4bC00LjE5LDI1LjE0QTM4LjgsMzguOCwwLDAsMSwxMjQsMTEyYTM2LDM2LDAsMCwxLDAsNzIsMzUuNTQsMzUuNTQsMCwwLDEtMjUuNzEtMTAuNCw4LDgsMCwxLDEsMTEuNDItMTEuMkExOS43MywxOS43MywwLDAsMCwxMjQsMTY4YTIwLDIwLDAsMCwwLDAtNDAsMTkuNzMsMTkuNzMsMCwwLDAtMTQuMjksNS42LDgsOCwwLDAsMS0xMy42LTYuOTJsOC00OEE4LDgsMCwwLDEsMTEyLDcyaDQwYTgsOCwwLDAsMSwwLDE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "NumberCircleFiveIcon";
 
 /** @deprecated Use NumberCircleFiveIcon */
 export const NumberCircleFive = I;
-export { I as NumberCircleFiveIcon };
+export { I as NumberCircleFiveIcon }

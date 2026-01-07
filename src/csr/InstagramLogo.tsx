@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/InstagramLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsODBhNDgsNDgsMCwxLDAsNDgsNDhBNDguMDUsNDguMDUsMCwwLDAsMTI4LDgwWm0wLDgwYTMyLDMyLDAsMSwxLDMyLTMyQTMyLDMyLDAsMCwxLDEyOCwxNjBaTTE3NiwyNEg4MEE1Ni4wNiw1Ni4wNiwwLDAsMCwyNCw4MHY5NmE1Ni4wNiw1Ni4wNiwwLDAsMCw1Niw1Nmg5NmE1Ni4wNiw1Ni4wNiwwLDAsMCw1Ni01NlY4MEE1Ni4wNiw1Ni4wNiwwLDAsMCwxNzYsMjRabTQwLDE1MmE0MCw0MCwwLDAsMS00MCw0MEg4MGE0MCw0MCwwLDAsMS00MC00MFY4MEE0MCw0MCwwLDAsMSw4MCw0MGg5NmE0MCw0MCwwLDAsMSw0MCw0MFpNMTkyLDc2YTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE5Miw3NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "InstagramLogoIcon";
 
 /** @deprecated Use InstagramLogoIcon */
 export const InstagramLogo = I;
-export { I as InstagramLogoIcon };
+export { I as InstagramLogoIcon }

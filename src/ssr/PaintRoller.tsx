@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PaintRoller";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsODhIMjE2VjY0YTE2LDE2LDAsMCwwLTE2LTE2SDQ4QTE2LDE2LDAsMCwwLDMyLDY0Vjg4SDE2YTgsOCwwLDAsMCwwLDE2SDMydjI0YTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlYxMDRoMTZ2NTBMMTMxLjYsMTgyLjY1QTE2LjA3LDE2LjA3LDAsMCwwLDEyMCwxOTh2MzRhOCw4LDAsMCwwLDE2LDBWMTk4bDEwMC40LTI4LjY4QTE2LjA3LDE2LjA3LDAsMCwwLDI0OCwxNTRWMTA0QTE2LDE2LDAsMCwwLDIzMiw4OFptLTMyLDQwSDQ4VjY0SDIwMHY2NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PaintRollerIcon";
 
 /** @deprecated Use PaintRollerIcon */
 export const PaintRoller = I;
-export { I as PaintRollerIcon };
+export { I as PaintRollerIcon }

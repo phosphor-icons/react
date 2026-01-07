@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/DropSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzQsNDcuNzVhMjU0LjE5LDI1NC4xOSwwLDAsMC00MS40NS0zOC4zLDgsOCwwLDAsMC05LjE4LDBBMjU0LjE5LDI1NC4xOSwwLDAsMCw4Miw0Ny43NUM1NC41MSw3OS4zMiw0MCwxMTIuNiw0MCwxNDRhODgsODgsMCwwLDAsMTc2LDBDMjE2LDExMi42LDIwMS40OSw3OS4zMiwxNzQsNDcuNzVaTTEyOCwyMTZhNzIuMDgsNzIuMDgsMCwwLDEtNzItNzJjMC01Ny4yMyw1NS40Ny0xMDUsNzItMTE4LDE2LjUzLDEzLDcyLDYwLjc1LDcyLDExOEE3Mi4wOCw3Mi4wOCwwLDAsMSwxMjgsMjE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "DropSimpleIcon";
 
 /** @deprecated Use DropSimpleIcon */
 export const DropSimple = I;
-export { I as DropSimpleIcon };
+export { I as DropSimpleIcon }

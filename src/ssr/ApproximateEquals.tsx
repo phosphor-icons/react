@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ApproximateEquals";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjIuMTYsMTUzLjI2YTgsOCwwLDAsMS0xLDExLjI1Yy0xNy4zNiwxNC4zOC0zMi44NiwxOS40OS00NywxOS40OS0xOC41OCwwLTM0LjgyLTguODEtNDkuOTMtMTctMjUuMzUtMTMuNzUtNDcuMjQtMjUuNjMtNzkuMDcuNzRhOCw4LDAsMSwxLTEwLjIyLTEyLjNjNDAuMTctMzMuMjcsNzAuMzItMTYuOTIsOTYuOTMtMi40OCwyNS4zNSwxMy43NSw0Ny4yNCwyNS42Miw3OS4wNy0uNzVBOCw4LDAsMCwxLDIyMi4xNiwxNTMuMjZabS0xNzctNDkuNDZjMzEuODMtMjYuMzcsNTMuNzItMTQuNSw3OS4wNy0uNzUsMTUuMTEsOC4yLDMxLjM1LDE3LDQ5LjkzLDE3LDE0LjE0LDAsMjkuNjQtNS4xMSw0Ny0xOS40OWE4LDgsMCwxLDAtMTAuMjItMTIuM2MtMzEuODMsMjYuMzctNTMuNzIsMTQuNDktNzkuMDcuNzQtMjYuNjEtMTQuNDMtNTYuNzYtMzAuNzktOTYuOTMsMi40OEE4LDgsMCwwLDAsNDUuMTEsMTAzLjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ApproximateEqualsIcon";
 
 /** @deprecated Use ApproximateEqualsIcon */
 export const ApproximateEquals = I;
-export { I as ApproximateEqualsIcon };
+export { I as ApproximateEqualsIcon }

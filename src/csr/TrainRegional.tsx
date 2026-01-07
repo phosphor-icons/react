@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TrainRegional";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjMuNzIsMTE3LjksMjAxLjMzLDM1Ljc5QTE2LDE2LDAsMCwwLDE4NS44OSwyNEg3MC4xMUExNiwxNiwwLDAsMCw1NC42NywzNS43OUwzMi4yOCwxMTcuOWE4LjA4LDguMDgsMCwwLDAsMCw0LjJsMjIuMzksODIuMTFBMTYsMTYsMCwwLDAsNzAuMTEsMjE2SDgwTDY1LjYsMjM1LjJhOCw4LDAsMSwwLDEyLjgsOS42TDEwMCwyMTZoNTZsMjEuNiwyOC44YTgsOCwwLDEsMCwxMi44LTkuNkwxNzYsMjE2aDkuODlhMTYsMTYsMCwwLDAsMTUuNDQtMTEuNzlsMjIuMzktODIuMTFBOC4wOCw4LjA4LDAsMCwwLDIyMy43MiwxMTcuOVpNNzAuMTEsNDBIMTg1Ljg5TDIwNiwxMTMuNjlsLTc4LDE0LjE4TDUwLDExMy42OVptLTE5LDkwLjE0TDEyMCwxNDIuNjhWMjAwSDcwLjExWk0xODUuODksMjAwSDEzNlYxNDIuNjhsNjguOTQtMTIuNTRaTTg4LDg4YTgsOCwwLDAsMSw4LThoNjRhOCw4LDAsMCwxLDAsMTZIOTZBOCw4LDAsMCwxLDg4LDg4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TrainRegionalIcon";
 
 /** @deprecated Use TrainRegionalIcon */
 export const TrainRegional = I;
-export { I as TrainRegionalIcon };
+export { I as TrainRegionalIcon }

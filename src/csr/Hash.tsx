@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Hash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsODhIMTc1LjRsOC40Ny00Ni41N2E4LDgsMCwwLDAtMTUuNzQtMi44NmwtOSw0OS40M0gxMTEuNGw4LjQ3LTQ2LjU3YTgsOCwwLDAsMC0xNS43NC0yLjg2TDk1LjE0LDg4SDQ4YTgsOCwwLDAsMCwwLDE2SDkyLjIzTDgzLjUsMTUySDMyYTgsOCwwLDAsMCwwLDE2SDgwLjZsLTguNDcsNDYuNTdhOCw4LDAsMCwwLDYuNDQsOS4zQTcuNzksNy43OSwwLDAsMCw4MCwyMjRhOCw4LDAsMCwwLDcuODYtNi41N2w5LTQ5LjQzSDE0NC42bC04LjQ3LDQ2LjU3YTgsOCwwLDAsMCw2LjQ0LDkuM0E3Ljc5LDcuNzksMCwwLDAsMTQ0LDIyNGE4LDgsMCwwLDAsNy44Ni02LjU3bDktNDkuNDNIMjA4YTgsOCwwLDAsMCwwLTE2SDE2My43N2w4LjczLTQ4SDIyNGE4LDgsMCwwLDAsMC0xNlptLTc2LjUsNjRIOTkuNzdsOC43My00OGg0Ny43M1oiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "HashIcon";
 
 /** @deprecated Use HashIcon */
 export const Hash = I;
-export { I as HashIcon };
+export { I as HashIcon }

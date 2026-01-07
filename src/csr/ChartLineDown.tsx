@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChartLineDown";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMjA4YTgsOCwwLDAsMS04LDhIMzJhOCw4LDAsMCwxLTgtOFY0OGE4LDgsMCwwLDEsMTYsMFY2MC42OWw1Niw1NiwyNi4zNC0yNi4zNWE4LDgsMCwwLDEsMTEuMzIsMEwxOTIsMTQ4LjY5VjEyOGE4LDgsMCwwLDEsMTYsMHY0MGE3LDcsMCwwLDEsMCwuOGMwLC4xMSwwLC4yMS0uMDUuMzJzMCwuMy0uMDcuNDZhMi44MywyLjgzLDAsMCwxLS4wOS4zN2MwLC4xMy0uMDYuMjYtLjEuMzlzLS4wOC4yMy0uMTIuMzVsLS4xNC4zOS0uMTUuMzFjLS4wNi4xMy0uMTIuMjctLjE5LjRzLS4xMS4xOC0uMTYuMjhsLS4yNC4zOS0uMjEuMjgtLjI2LjM1Yy0uMTEuMTQtLjI0LjI3LS4zNi40bC0uMTYuMTgtLjE3LjE1YTQuODMsNC44MywwLDAsMS0uNDIuMzcsMy45MiwzLjkyLDAsMCwxLS4zMi4yNWwtLjMuMjItLjM4LjIzYTIuOTEsMi45MSwwLDAsMS0uMy4xN2wtLjM3LjE5LS4zNC4xNS0uMzYuMTNhMi44NCwyLjg0LDAsMCwxLS4zOC4xM2wtLjM2LjFjLS4xNCwwLS4yNi4wNy0uNC4wOWwtLjQyLjA3LS4zNS4wNWE3LDcsMCwwLDEtLjc5LDBIMTYwYTgsOCwwLDAsMSwwLTE2aDIwLjY5TDEyOCwxMDcuMzFsLTI2LjM0LDI2LjM1YTgsOCwwLDAsMS0xMS4zMiwwTDQwLDgzLjMxVjIwMEgyMjRBOCw4LDAsMCwxLDIzMiwyMDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ChartLineDownIcon";
 
 /** @deprecated Use ChartLineDownIcon */
 export const ChartLineDown = I;
-export { I as ChartLineDownIcon };
+export { I as ChartLineDownIcon }

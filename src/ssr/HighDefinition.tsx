@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HighDefinition";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsNzJIMTUyYTgsOCwwLDAsMC04LDh2OTZhOCw4LDAsMCwwLDgsOGgyNGE1Niw1NiwwLDAsMCwwLTExMlptMCw5NkgxNjBWODhoMTZhNDAsNDAsMCwwLDEsMCw4MFptLTY0LDhWMTM2SDU2djQwYTgsOCwwLDAsMS0xNiwwVjgwYTgsOCwwLDAsMSwxNiwwdjQwaDU2VjgwYTgsOCwwLDAsMSwxNiwwdjk2YTgsOCwwLDAsMS0xNiwwWk0yNCw0OGE4LDgsMCwwLDEsOC04SDIyNGE4LDgsMCwwLDEsMCwxNkgzMkE4LDgsMCwwLDEsMjQsNDhaTTIzMiwyMDhhOCw4LDAsMCwxLTgsOEgzMmE4LDgsMCwwLDEsMC0xNkgyMjRBOCw4LDAsMCwxLDIzMiwyMDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "HighDefinitionIcon";
 
 /** @deprecated Use HighDefinitionIcon */
 export const HighDefinition = I;
-export { I as HighDefinitionIcon };
+export { I as HighDefinitionIcon }

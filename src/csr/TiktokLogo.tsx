@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TiktokLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNzJhNDguMDUsNDguMDUsMCwwLDEtNDgtNDgsOCw4LDAsMCwwLTgtOEgxMjhhOCw4LDAsMCwwLTgsOFYxNTZhMjAsMjAsMCwxLDEtMjguNTctMTguMDhBOCw4LDAsMCwwLDk2LDEzMC42OVY4OGE4LDgsMCwwLDAtOS40LTcuODhDNTAuOTEsODYuNDgsMjQsMTE5LjEsMjQsMTU2YTc2LDc2LDAsMCwwLDE1MiwwVjExNi4yOUExMDMuMjUsMTAzLjI1LDAsMCwwLDIyNCwxMjhhOCw4LDAsMCwwLDgtOFY4MEE4LDgsMCwwLDAsMjI0LDcyWm0tOCwzOS42NGE4Ny4xOSw4Ny4xOSwwLDAsMS00My4zMy0xNi4xNUE4LDgsMCwwLDAsMTYwLDEwMnY1NGE2MCw2MCwwLDAsMS0xMjAsMGMwLTI1LjksMTYuNjQtNDkuMTMsNDAtNTcuNnYyNy42N0EzNiwzNiwwLDEsMCwxMzYsMTU2VjMyaDI0LjVBNjQuMTQsNjQuMTQsMCwwLDAsMjE2LDg3LjVaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "TiktokLogoIcon";
 
 /** @deprecated Use TiktokLogoIcon */
 export const TiktokLogo = I;
-export { I as TiktokLogoIcon };
+export { I as TiktokLogoIcon }

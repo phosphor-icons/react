@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Bluetooth";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTYuOCwxNjkuNiwxNDEuMzMsMTI4LDE5Ni44LDg2LjRhOCw4LDAsMCwwLDAtMTIuOGwtNjQtNDhBOCw4LDAsMCwwLDEyMCwzMnY4MEw2OC44LDczLjZhOCw4LDAsMCwwLTkuNiwxMi44TDExNC42NywxMjgsNTkuMiwxNjkuNmE4LDgsMCwxLDAsOS42LDEyLjhMMTIwLDE0NHY4MGE4LDgsMCwwLDAsMTIuOCw2LjRsNjQtNDhhOCw4LDAsMCwwLDAtMTIuOFpNMTM2LDQ4bDQyLjY3LDMyTDEzNiwxMTJabTAsMTYwVjE0NGw0Mi42NywzMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BluetoothIcon";
 
 /** @deprecated Use BluetoothIcon */
 export const Bluetooth = I;
-export { I as BluetoothIcon };
+export { I as BluetoothIcon }

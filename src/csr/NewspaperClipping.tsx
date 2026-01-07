@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NewspaperClipping";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMjE2YTgsOCwwLDAsMCwxMS41OCw3LjE1TDY0LDIwOC45NGwyOC40MiwxNC4yMWE4LDgsMCwwLDAsNy4xNiwwTDEyOCwyMDguOTRsMjguNDIsMTQuMjFhOCw4LDAsMCwwLDcuMTYsMEwxOTIsMjA4Ljk0bDI4LjQyLDE0LjIxQTgsOCwwLDAsMCwyMzIsMjE2VjU2QTE2LDE2LDAsMCwwLDIxNiw0MFptMCwxNjMuMDYtMjAuNDItMTAuMjJhOCw4LDAsMCwwLTcuMTYsMEwxNjAsMjA3LjA2bC0yOC40Mi0xNC4yMmE4LDgsMCwwLDAtNy4xNiwwTDk2LDIwNy4wNiw2Ny41OCwxOTIuODRhOCw4LDAsMCwwLTcuMTYsMEw0MCwyMDMuMDZWNTZIMjE2Wk0xMzYsMTEyYTgsOCwwLDAsMSw4LThoNDhhOCw4LDAsMCwxLDAsMTZIMTQ0QTgsOCwwLDAsMSwxMzYsMTEyWm0wLDMyYTgsOCwwLDAsMSw4LThoNDhhOCw4LDAsMCwxLDAsMTZIMTQ0QTgsOCwwLDAsMSwxMzYsMTQ0Wk02NCwxNjhoNDhhOCw4LDAsMCwwLDgtOFY5NmE4LDgsMCwwLDAtOC04SDY0YTgsOCwwLDAsMC04LDh2NjRBOCw4LDAsMCwwLDY0LDE2OFptOC02NGgzMnY0OEg3MloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "NewspaperClippingIcon";
 
 /** @deprecated Use NewspaperClippingIcon */
 export const NewspaperClipping = I;
-export { I as NewspaperClippingIcon };
+export { I as NewspaperClippingIcon }

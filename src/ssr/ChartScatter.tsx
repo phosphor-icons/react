@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChartScatter";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMjA4YTgsOCwwLDAsMS04LDhIMzJhOCw4LDAsMCwxLTgtOFY0OGE4LDgsMCwwLDEsMTYsMFYyMDBIMjI0QTgsOCwwLDAsMSwyMzIsMjA4Wk0xMzIsMTYwYTEyLDEyLDAsMSwwLTEyLTEyQTEyLDEyLDAsMCwwLDEzMiwxNjBabS0yNC01NkExMiwxMiwwLDEsMCw5Niw5MiwxMiwxMiwwLDAsMCwxMDgsMTA0Wk03NiwxNzZhMTIsMTIsMCwxLDAtMTItMTJBMTIsMTIsMCwwLDAsNzYsMTc2Wm05Ni00OGExMiwxMiwwLDEsMC0xMi0xMkExMiwxMiwwLDAsMCwxNzIsMTI4Wm0yNC00MGExMiwxMiwwLDEsMC0xMi0xMkExMiwxMiwwLDAsMCwxOTYsODhabS0yMCw3NmExMiwxMiwwLDEsMCwxMi0xMkExMiwxMiwwLDAsMCwxNzYsMTY0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ChartScatterIcon";
 
 /** @deprecated Use ChartScatterIcon */
 export const ChartScatter = I;
-export { I as ChartScatterIcon };
+export { I as ChartScatterIcon }

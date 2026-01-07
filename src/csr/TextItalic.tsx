@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TextItalic";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNTZhOCw4LDAsMCwxLTgsOEgxNTcuNzdMMTE1LjEsMTkySDE0NGE4LDgsMCwwLDEsMCwxNkg2NGE4LDgsMCwwLDEsMC0xNkg5OC4yM0wxNDAuOSw2NEgxMTJhOCw4LDAsMCwxLDAtMTZoODBBOCw4LDAsMCwxLDIwMCw1NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "TextItalicIcon";
 
 /** @deprecated Use TextItalicIcon */
 export const TextItalic = I;
-export { I as TextItalicIcon };
+export { I as TextItalicIcon }

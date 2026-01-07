@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FireTruck";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTUuNDMsMTE3bC0xNC0zNUExNS45MywxNS45MywwLDAsMCwyMjYuNTgsNzJIMTkyVjY0YTgsOCwwLDAsMC0xNiwwVjE2NC4zMUEzMi4xMSwzMi4xMSwwLDAsMCwxNjEsMTg0SDExMWEzMiwzMiwwLDAsMC02MiwwSDMyVjEzNmE4LDgsMCwwLDAtMTYsMHY0OGExNiwxNiwwLDAsMCwxNiwxNkg0OWEzMiwzMiwwLDAsMCw2MiwwaDUwYTMyLDMyLDAsMCwwLDYyLDBoMTdhMTYsMTYsMCwwLDAsMTYtMTZWMTIwQTcuOTIsNy45MiwwLDAsMCwyNTUuNDMsMTE3Wk0yMjYuNTgsODhsOS42LDI0SDE5MlY4OFpNODAsMjA4YTE2LDE2LDAsMSwxLDE2LTE2QTE2LDE2LDAsMCwxLDgwLDIwOFptMTEyLDBhMTYsMTYsMCwxLDEsMTYtMTZBMTYsMTYsMCwwLDEsMTkyLDIwOFptMzEtMjRhMzIuMDYsMzIuMDYsMCwwLDAtMzEtMjRWMTI4aDQ4djU2Wk0yNCw5NmE4LDgsMCwwLDAsMCwxNkgxNTJhOCw4LDAsMCwwLDAtMTZIMTM2VjcyaDE2YTgsOCwwLDAsMCwwLTE2SDI0YTgsOCwwLDAsMCwwLDE2SDQwVjk2Wm05NiwwSDk2VjcyaDI0Wk01Niw3Mkg4MFY5Nkg1NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "FireTruckIcon";
 
 /** @deprecated Use FireTruckIcon */
 export const FireTruck = I;
-export { I as FireTruckIcon };
+export { I as FireTruckIcon }

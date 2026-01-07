@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Memory";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNTZIMjRBMTYsMTYsMCwwLDAsOCw3MlYyMDBhOCw4LDAsMCwwLDE2LDBWMTg0SDQwdjE2YTgsOCwwLDAsMCwxNiwwVjE4NEg3MnYxNmE4LDgsMCwwLDAsMTYsMFYxODRoMTZ2MTZhOCw4LDAsMCwwLDE2LDBWMTg0aDE2djE2YTgsOCwwLDAsMCwxNiwwVjE4NGgxNnYxNmE4LDgsMCwwLDAsMTYsMFYxODRoMTZ2MTZhOCw4LDAsMCwwLDE2LDBWMTg0aDE2djE2YTgsOCwwLDAsMCwxNiwwVjcyQTE2LDE2LDAsMCwwLDIzMiw1NlpNMjQsNzJIMjMydjk2SDI0Wm04OCw4MGE4LDgsMCwwLDAsOC04Vjk2YTgsOCwwLDAsMC04LThINDhhOCw4LDAsMCwwLTgsOHY0OGE4LDgsMCwwLDAsOCw4Wk01NiwxMDRoNDh2MzJINTZabTg4LDQ4aDY0YTgsOCwwLDAsMCw4LThWOTZhOCw4LDAsMCwwLTgtOEgxNDRhOCw4LDAsMCwwLTgsOHY0OEE4LDgsMCwwLDAsMTQ0LDE1MlptOC00OGg0OHYzMkgxNTJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "MemoryIcon";
 
 /** @deprecated Use MemoryIcon */
 export const Memory = I;
-export { I as MemoryIcon };
+export { I as MemoryIcon }

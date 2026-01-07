@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Crosshair";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTIwaC04LjM0QTk2LjE0LDk2LjE0LDAsMCwwLDEzNiwzMi4zNFYyNGE4LDgsMCwwLDAtMTYsMHY4LjM0QTk2LjE0LDk2LjE0LDAsMCwwLDMyLjM0LDEyMEgyNGE4LDgsMCwwLDAsMCwxNmg4LjM0QTk2LjE0LDk2LjE0LDAsMCwwLDEyMCwyMjMuNjZWMjMyYTgsOCwwLDAsMCwxNiwwdi04LjM0QTk2LjE0LDk2LjE0LDAsMCwwLDIyMy42NiwxMzZIMjMyYTgsOCwwLDAsMCwwLTE2Wm0tOTYsODcuNlYyMDBhOCw4LDAsMCwwLTE2LDB2Ny42QTgwLjE1LDgwLjE1LDAsMCwxLDQ4LjQsMTM2SDU2YTgsOCwwLDAsMCwwLTE2SDQ4LjRBODAuMTUsODAuMTUsMCwwLDEsMTIwLDQ4LjRWNTZhOCw4LDAsMCwwLDE2LDBWNDguNEE4MC4xNSw4MC4xNSwwLDAsMSwyMDcuNiwxMjBIMjAwYTgsOCwwLDAsMCwwLDE2aDcuNkE4MC4xNSw4MC4xNSwwLDAsMSwxMzYsMjA3LjZaTTEyOCw4OGE0MCw0MCwwLDEsMCw0MCw0MEE0MCw0MCwwLDAsMCwxMjgsODhabTAsNjRhMjQsMjQsMCwxLDEsMjQtMjRBMjQsMjQsMCwwLDEsMTI4LDE1MloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CrosshairIcon";
 
 /** @deprecated Use CrosshairIcon */
 export const Crosshair = I;
-export { I as CrosshairIcon };
+export { I as CrosshairIcon }

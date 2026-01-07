@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BatteryWarning";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTYsOTZ2NjRhOCw4LDAsMCwxLTE2LDBWOTZhOCw4LDAsMCwxLDE2LDBaTTIyNCw4MHY5NmEyNCwyNCwwLDAsMS0yNCwyNEgzMkEyNCwyNCwwLDAsMSw4LDE3NlY4MEEyNCwyNCwwLDAsMSwzMiw1NkgyMDBBMjQsMjQsMCwwLDEsMjI0LDgwWm0tMTYsMGE4LDgsMCwwLDAtOC04SDMyYTgsOCwwLDAsMC04LDh2OTZhOCw4LDAsMCwwLDgsOEgyMDBhOCw4LDAsMCwwLDgtOFptLTkyLDUyYTgsOCwwLDAsMCw4LThWOTZhOCw4LDAsMCwwLTE2LDB2MjhBOCw4LDAsMCwwLDExNiwxMzJabTAsMTJhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsMTE2LDE0NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BatteryWarningIcon";
 
 /** @deprecated Use BatteryWarningIcon */
 export const BatteryWarning = I;
-export { I as BatteryWarningIcon };
+export { I as BatteryWarningIcon }

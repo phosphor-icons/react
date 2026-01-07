@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LastfmLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMTYwYTQwLDQwLDAsMCwxLTQwLDQwSDE5MC41N2E1Ni4yMiw1Ni4yMiwwLDAsMS01MC43NS0zMi4zMmwtMzAuMTQtNjQuNkE0MC4xNSw0MC4xNSwwLDAsMCw3My40Myw4MEg2NGE0MCw0MCwwLDAsMC00MCw0MHYyNGE0MCw0MCwwLDAsMCw0MCw0MGg4YTMyLDMyLDAsMCwwLDI5LjM0LTE5LjJBOCw4LDAsMSwxLDExNiwxNzEuMiw0OCw0OCwwLDAsMSw3MiwyMDBINjRBNTYuMDYsNTYuMDYsMCwwLDEsOCwxNDRWMTIwQTU2LjA2LDU2LjA2LDAsMCwxLDY0LDY0aDkuNDNhNTYuMjIsNTYuMjIsMCwwLDEsNTAuNzUsMzIuMzJsMzAuMTQsNjQuNkE0MC4xNSw0MC4xNSwwLDAsMCwxOTAuNTcsMTg0SDIwOGEyNCwyNCwwLDAsMCwwLTQ4SDE4OGEzNiwzNiwwLDAsMSwwLTcyaDIwYTMyLDMyLDAsMCwxLDMyLDMyLDgsOCwwLDAsMS0xNiwwLDE2LDE2LDAsMCwwLTE2LTE2SDE4OGEyMCwyMCwwLDAsMCwwLDQwaDIwQTQwLDQwLDAsMCwxLDI0OCwxNjBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "LastfmLogoIcon";
 
 /** @deprecated Use LastfmLogoIcon */
 export const LastfmLogo = I;
-export { I as LastfmLogoIcon };
+export { I as LastfmLogoIcon }

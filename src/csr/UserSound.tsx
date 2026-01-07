@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/UserSound";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDQsMTY1LjY4YTY4LDY4LDAsMSwwLTcxLjksMGMtMjAuNjUsNi43Ni0zOS4yMywxOS4zOS01NC4xNywzNy4xN2E4LDgsMCwwLDAsMTIuMjUsMTAuM0M1MC4yNSwxODkuMTksNzcuOTEsMTc2LDEwOCwxNzZzNTcuNzUsMTMuMTksNzcuODgsMzcuMTVhOCw4LDAsMSwwLDEyLjI1LTEwLjNDMTgzLjE4LDE4NS4wNywxNjQuNiwxNzIuNDQsMTQ0LDE2NS42OFpNNTYsMTA4YTUyLDUyLDAsMSwxLDUyLDUyQTUyLjA2LDUyLjA2LDAsMCwxLDU2LDEwOFpNMjA3LjM2LDY1LjZhMTA4LjM2LDEwOC4zNiwwLDAsMSwwLDg0LjgsOCw4LDAsMCwxLTcuMzYsNC44Niw4LDgsMCwwLDEtNy4zNi0xMS4xNSw5Mi4yNiw5Mi4yNiwwLDAsMCwwLTcyLjIyLDgsOCwwLDAsMSwxNC43Mi02LjI5Wk0yNDgsMTA4YTEzOSwxMzksMCwwLDEtMTEuMjksNTUuMTUsOCw4LDAsMCwxLTE0LjctNi4zLDEyNC40MywxMjQuNDMsMCwwLDAsMC05Ny43LDgsOCwwLDEsMSwxNC43LTYuM0ExMzksMTM5LDAsMCwxLDI0OCwxMDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "UserSoundIcon";
 
 /** @deprecated Use UserSoundIcon */
 export const UserSound = I;
-export { I as UserSoundIcon };
+export { I as UserSoundIcon }

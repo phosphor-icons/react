@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/UsersThree";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDQuOCwxNTAuNGE4LDgsMCwwLDEtMTEuMi0xLjZBNTEuNiw1MS42LDAsMCwwLDE5MiwxMjhhOCw4LDAsMCwxLTcuMzctNC44OSw4LDgsMCwwLDEsMC02LjIyQTgsOCwwLDAsMSwxOTIsMTEyYTI0LDI0LDAsMSwwLTIzLjI0LTMwLDgsOCwwLDEsMS0xNS41LTRBNDAsNDAsMCwxLDEsMjE5LDExNy41MWE2Ny45NCw2Ny45NCwwLDAsMSwyNy40MywyMS42OEE4LDgsMCwwLDEsMjQ0LjgsMTUwLjRaTTE5MC45MiwyMTJhOCw4LDAsMSwxLTEzLjg0LDgsNTcsNTcsMCwwLDAtOTguMTYsMCw4LDgsMCwxLDEtMTMuODQtOCw3Mi4wNiw3Mi4wNiwwLDAsMSwzMy43NC0yOS45Miw0OCw0OCwwLDEsMSw1OC4zNiwwQTcyLjA2LDcyLjA2LDAsMCwxLDE5MC45MiwyMTJaTTEyOCwxNzZhMzIsMzIsMCwxLDAtMzItMzJBMzIsMzIsMCwwLDAsMTI4LDE3NlpNNzIsMTIwYTgsOCwwLDAsMC04LThBMjQsMjQsMCwxLDEsODcuMjQsODJhOCw4LDAsMSwwLDE1LjUtNEE0MCw0MCwwLDEsMCwzNywxMTcuNTEsNjcuOTQsNjcuOTQsMCwwLDAsOS42LDEzOS4xOWE4LDgsMCwxLDAsMTIuOCw5LjYxQTUxLjYsNTEuNiwwLDAsMSw2NCwxMjgsOCw4LDAsMCwwLDcyLDEyMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "UsersThreeIcon";
 
 /** @deprecated Use UsersThreeIcon */
 export const UsersThree = I;
-export { I as UsersThreeIcon };
+export { I as UsersThreeIcon }

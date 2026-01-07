@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HighHeel";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzEsMTU2LjE5LDE4MCwxNDQuNyw2OS42NiwzNC4zNGE4LDgsMCwwLDAtMTEuNTYuMjZDMzYuMTEsNTguNjQsMjQsODksMjQsMTIwdjcyYTE2LDE2LDAsMCwwLDE2LDE2SDcyYTE2LDE2LDAsMCwwLDE2LTE2VjE0My4wNmMyLjQ5LDEuNDUsNC45NCwzLDcuMzQsNC42NGExMTIuNDUsMTEyLjQ1LDAsMCwxLDQwLjU1LDUwLjM5QTE1LjksMTUuOSwwLDAsMCwxNTAuNzIsMjA4SDI0MGExNiwxNiwwLDAsMCwxNi0xNnYtNC43M0EzMS43MiwzMS43MiwwLDAsMCwyMzEsMTU2LjE5Wk03MiwxOTJINDBWMTI4LjI5YTExMC44OCwxMTAuODgsMCwwLDEsMzIsNy4xMlptMTY4LDBIMTUwLjY4YTEyOC4zNiwxMjguMzYsMCwwLDAtNDYuMjctNTcuNDYsMTI2LjksMTI2LjksMCwwLDAtNjQuMTItMjIuMjZBMTEwLjY3LDExMC42NywwLDAsMSw2NC40Niw1MS43OEwxNzAuMzQsMTU3LjY2YTgsOCwwLDAsMCwzLjksMi4xNGw1My4yNCwxMkExNS44MSwxNS44MSwwLDAsMSwyNDAsMTg3LjMxWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "HighHeelIcon";
 
 /** @deprecated Use HighHeelIcon */
 export const HighHeel = I;
-export { I as HighHeelIcon };
+export { I as HighHeelIcon }

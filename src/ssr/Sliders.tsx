@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Sliders";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik02NCwxMDVWNDBhOCw4LDAsMCwwLTE2LDB2NjVhMzIsMzIsMCwwLDAsMCw2MnY0OWE4LDgsMCwwLDAsMTYsMFYxNjdhMzIsMzIsMCwwLDAsMC02MlptLTgsNDdhMTYsMTYsMCwxLDEsMTYtMTZBMTYsMTYsMCwwLDEsNTYsMTUyWm04MC05NVY0MGE4LDgsMCwwLDAtMTYsMFY1N2EzMiwzMiwwLDAsMCwwLDYydjk3YTgsOCwwLDAsMCwxNiwwVjExOWEzMiwzMiwwLDAsMCwwLTYyWm0tOCw0N2ExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwxMjgsMTA0Wm0xMDQsNjRhMzIuMDYsMzIuMDYsMCwwLDAtMjQtMzFWNDBhOCw4LDAsMCwwLTE2LDB2OTdhMzIsMzIsMCwwLDAsMCw2MnYxN2E4LDgsMCwwLDAsMTYsMFYxOTlBMzIuMDYsMzIuMDYsMCwwLDAsMjMyLDE2OFptLTMyLDE2YTE2LDE2LDAsMSwxLDE2LTE2QTE2LDE2LDAsMCwxLDIwMCwxODRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "SlidersIcon";
 
 /** @deprecated Use SlidersIcon */
 export const Sliders = I;
-export { I as SlidersIcon };
+export { I as SlidersIcon }

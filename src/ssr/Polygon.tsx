@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Polygon";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuNjQsNDkuMzZhMzIsMzIsMCwwLDAtNDUuMjYsMGgwYTMxLjksMzEuOSwwLDAsMC01LjE2LDYuNzZMMTUyLDQ4LjQyQTMyLDMyLDAsMCwwLDk3LjM3LDI1LjM2aDBhMzIuMDYsMzIuMDYsMCwwLDAtNS43NiwzNy40MUw1Ny42Nyw5My4zMmEzMi4wNSwzMi4wNSwwLDAsMC00MC4zMSw0LjA1aDBhMzIsMzIsMCwwLDAsNDIuODksNDcuNDFsNzAsNTEuMzZhMzIsMzIsMCwxLDAsNDcuNTctMTQuNjlsMjcuMzktNzcuNTlxMS4zOC4xMiwyLjc2LjEyYTMyLDMyLDAsMCwwLDIyLjYzLTU0LjYyWm0tMTIyLTEyLjY5aDBhMTYsMTYsMCwxLDEsMCwyMi42NEExNiwxNiwwLDAsMSwxMDguNjgsMzYuNjdabS04MCw5NC42NWExNiwxNiwwLDAsMSwwLTIyLjY0aDBhMTYsMTYsMCwxLDEsMCwyMi42NFptMTQyLjY1LDg4YTE2LDE2LDAsMCwxLTIyLjYzLTIyLjYzaDBhMTYsMTYsMCwxLDEsMjIuNjMsMjIuNjNabS04LjU1LTQzLjE4YTMyLDMyLDAsMCwwLTIzLDcuMDhsLTcwLTUxLjM2YTMyLjE3LDMyLjE3LDAsMCwwLTEuMzQtMjYuNjVsMzMuOTUtMzAuNTVhMzIsMzIsMCwwLDAsNDUuNDctMTAuODFMMTc2LDcxLjU2YTMyLDMyLDAsMCwwLDE0LjEyLDI3Wm01Ni41Ni05Mi44NEExNiwxNiwwLDEsMSwxOTYuNyw2MC42OGgwYTE2LDE2LDAsMCwxLDIyLjYzLDIyLjYzWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PolygonIcon";
 
 /** @deprecated Use PolygonIcon */
 export const Polygon = I;
-export { I as PolygonIcon };
+export { I as PolygonIcon }

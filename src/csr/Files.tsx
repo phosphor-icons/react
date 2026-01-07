@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Files";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsNjYuMzRsLTQwLTQwQTgsOCwwLDAsMCwxNjgsMjRIODhBMTYsMTYsMCwwLDAsNzIsNDBWNTZINTZBMTYsMTYsMCwwLDAsNDAsNzJWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDE2OGExNiwxNiwwLDAsMCwxNi0xNlYyMDBoMTZhMTYsMTYsMCwwLDAsMTYtMTZWNzJBOCw4LDAsMCwwLDIxMy42Niw2Ni4zNFpNMTY4LDIxNkg1NlY3Mmg3Ni42OUwxNjgsMTA3LjMxdjg0LjUzYzAsLjA2LDAsLjExLDAsLjE2czAsLjEsMCwuMTZWMjE2Wm0zMi0zMkgxODRWMTA0YTgsOCwwLDAsMC0yLjM0LTUuNjZsLTQwLTQwQTgsOCwwLDAsMCwxMzYsNTZIODhWNDBoNzYuNjlMMjAwLDc1LjMxWm0tNTYtMzJhOCw4LDAsMCwxLTgsOEg4OGE4LDgsMCwwLDEsMC0xNmg0OEE4LDgsMCwwLDEsMTQ0LDE1MlptMCwzMmE4LDgsMCwwLDEtOCw4SDg4YTgsOCwwLDAsMSwwLTE2aDQ4QTgsOCwwLDAsMSwxNDQsMTg0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FilesIcon";
 
 /** @deprecated Use FilesIcon */
 export const Files = I;
-export { I as FilesIcon };
+export { I as FilesIcon }

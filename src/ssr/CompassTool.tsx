@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CompassTool";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTUuMTIsMTIzLjY0YTgsOCwwLDEsMC0xNC4yNC03LjI4LDc5LjU4LDc5LjU4LDAsMCwxLTMzLjA4LDMzLjVsLTE2LjU4LTM3LjMyQTQwLDQwLDAsMCwwLDEzNiw0MC44VjI0YTgsOCwwLDAsMC0xNiwwVjQwLjhhNDAsNDAsMCwwLDAtMTUuMjIsNzEuNzRMNTYuNjksMjIwLjc1YTgsOCwwLDEsMCwxNC42Miw2LjVsMjUuMTQtNTYuNTZBOTUuNDgsOTUuNDgsMCwwLDAsMTI4LDE3NmE5OS4xMyw5OS4xMywwLDAsMCwzMS42LTUuMjFsMjUuMDksNTYuNDZhOCw4LDAsMCwwLDE0LjYyLTYuNWwtMjUtNTYuMjVBOTUuODEsOTUuODEsMCwwLDAsMjE1LjEyLDEyMy42NFpNMTI4LDU2YTI0LDI0LDAsMSwxLTI0LDI0QTI0LDI0LDAsMCwxLDEyOCw1NlptMCwxMDRhNzkuNTIsNzkuNTIsMCwwLDEtMjUtNGwxNi40Mi0zNi45NGEzOS44MSwzOS44MSwwLDAsMCwxNy4yLDBsMTYuNDgsMzcuMDZBODMuMjEsODMuMjEsMCwwLDEsMTI4LDE2MFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CompassToolIcon";
 
 /** @deprecated Use CompassToolIcon */
 export const CompassTool = I;
-export { I as CompassToolIcon };
+export { I as CompassToolIcon }

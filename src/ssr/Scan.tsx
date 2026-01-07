@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Scan";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDBWODBhOCw4LDAsMCwxLTE2LDBWNDhIMTc2YTgsOCwwLDAsMSwwLTE2aDQwQTgsOCwwLDAsMSwyMjQsNDBaTTgwLDIwOEg0OFYxNzZhOCw4LDAsMCwwLTE2LDB2NDBhOCw4LDAsMCwwLDgsOEg4MGE4LDgsMCwwLDAsMC0xNlptMTM2LTQwYTgsOCwwLDAsMC04LDh2MzJIMTc2YTgsOCwwLDAsMCwwLDE2aDQwYTgsOCwwLDAsMCw4LThWMTc2QTgsOCwwLDAsMCwyMTYsMTY4Wk00MCw4OGE4LDgsMCwwLDAsOC04VjQ4SDgwYTgsOCwwLDAsMCwwLTE2SDQwYTgsOCwwLDAsMC04LDhWODBBOCw4LDAsMCwwLDQwLDg4Wk04MCw3Mmg5NmE4LDgsMCwwLDEsOCw4djk2YTgsOCwwLDAsMS04LDhIODBhOCw4LDAsMCwxLTgtOFY4MEE4LDgsMCwwLDEsODAsNzJabTgsOTZoODBWODhIODhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ScanIcon";
 
 /** @deprecated Use ScanIcon */
 export const Scan = I;
-export { I as ScanIcon };
+export { I as ScanIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LinkedinLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMjRINDBBMTYsMTYsMCwwLDAsMjQsNDBWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDIxNmExNiwxNiwwLDAsMCwxNi0xNlY0MEExNiwxNiwwLDAsMCwyMTYsMjRabTAsMTkySDQwVjQwSDIxNlYyMTZaTTk2LDExMnY2NGE4LDgsMCwwLDEtMTYsMFYxMTJhOCw4LDAsMCwxLDE2LDBabTg4LDI4djM2YTgsOCwwLDAsMS0xNiwwVjE0MGEyMCwyMCwwLDAsMC00MCwwdjM2YTgsOCwwLDAsMS0xNiwwVjExMmE4LDgsMCwwLDEsMTUuNzktMS43OEEzNiwzNiwwLDAsMSwxODQsMTQwWk0xMDAsODRBMTIsMTIsMCwxLDEsODgsNzIsMTIsMTIsMCwwLDEsMTAwLDg0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "LinkedinLogoIcon";
 
 /** @deprecated Use LinkedinLogoIcon */
 export const LinkedinLogo = I;
-export { I as LinkedinLogoIcon };
+export { I as LinkedinLogoIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Folders";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNjRIMTU0LjY3TDEyNi45Myw0My4yYTE2LjEyLDE2LjEyLDAsMCwwLTkuNi0zLjJINzJBMTYsMTYsMCwwLDAsNTYsNTZWNzJINDBBMTYsMTYsMCwwLDAsMjQsODhWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDE5Mi44OUExNS4xMywxNS4xMywwLDAsMCwyMDgsMjAwLjg5VjE4NGgxNi44OUExNS4xMywxNS4xMywwLDAsMCwyNDAsMTY4Ljg5VjgwQTE2LDE2LDAsMCwwLDIyNCw2NFpNMTkyLDIwMEg0MFY4OEg4NS4zM2wyOS44NywyMi40QTgsOCwwLDAsMCwxMjAsMTEyaDcyWm0zMi0zMkgyMDhWMTEyYTE2LDE2LDAsMCwwLTE2LTE2SDEyMi42N0w5NC45Myw3NS4yYTE2LjEyLDE2LjEyLDAsMCwwLTkuNi0zLjJINzJWNTZoNDUuMzNMMTQ3LjIsNzguNEE4LDgsMCwwLDAsMTUyLDgwaDcyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FoldersIcon";
 
 /** @deprecated Use FoldersIcon */
 export const Folders = I;
-export { I as FoldersIcon };
+export { I as FoldersIcon }

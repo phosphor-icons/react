@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CloudArrowDown";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMTI4YTg3LjM0LDg3LjM0LDAsMCwxLTE3LjYsNTIuODEsOCw4LDAsMSwxLTEyLjgtOS42MkE3MS4zNCw3MS4zNCwwLDAsMCwyMzIsMTI4YTcyLDcyLDAsMCwwLTE0NCwwLDgsOCwwLDAsMS0xNiwwLDg4LDg4LDAsMCwxLDMuMjktMjMuODhDNzQuMiwxMDQsNzMuMSwxMDQsNzIsMTA0YTQ4LDQ4LDAsMCwwLDAsOTZIOTZhOCw4LDAsMCwxLDAsMTZINzJBNjQsNjQsMCwxLDEsODEuMjksODguNjgsODgsODgsMCwwLDEsMjQ4LDEyOFptLTY5LjY2LDQyLjM0TDE2MCwxODguNjlWMTI4YTgsOCwwLDAsMC0xNiwwdjYwLjY5bC0xOC4zNC0xOC4zNWE4LDgsMCwwLDAtMTEuMzIsMTEuMzJsMzIsMzJhOCw4LDAsMCwwLDExLjMyLDBsMzItMzJhOCw4LDAsMCwwLTExLjMyLTExLjMyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CloudArrowDownIcon";
 
 /** @deprecated Use CloudArrowDownIcon */
 export const CloudArrowDown = I;
-export { I as CloudArrowDownIcon };
+export { I as CloudArrowDownIcon }

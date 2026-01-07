@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Translate";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDcuMTUsMjEyLjQybC01Ni0xMTJhOCw4LDAsMCwwLTE0LjMxLDBsLTIxLjcxLDQzLjQzQTg4LDg4LDAsMCwxLDEwOCwxMjYuOTMsMTAzLjY1LDEwMy42NSwwLDAsMCwxMzUuNjksNjRIMTYwYTgsOCwwLDAsMCwwLTE2SDEwNFYzMmE4LDgsMCwwLDAtMTYsMFY0OEgzMmE4LDgsMCwwLDAsMCwxNmg4Ny42M0E4Ny43Niw4Ny43NiwwLDAsMSw5NiwxMTYuMzVhODcuNzQsODcuNzQsMCwwLDEtMTktMzEsOCw4LDAsMSwwLTE1LjA4LDUuMzRBMTAzLjYzLDEwMy42MywwLDAsMCw4NCwxMjdhODcuNTUsODcuNTUsMCwwLDEtNTIsMTcsOCw4LDAsMCwwLDAsMTYsMTAzLjQ2LDEwMy40NiwwLDAsMCw2NC0yMi4wOCwxMDQuMTgsMTA0LjE4LDAsMCwwLDUxLjQ0LDIxLjMxbC0yNi42LDUzLjE5YTgsOCwwLDAsMCwxNC4zMSw3LjE2TDE0OC45NCwxOTJoNzAuMTFsMTMuNzksMjcuNThBOCw4LDAsMCwwLDI0MCwyMjRhOCw4LDAsMCwwLDcuMTUtMTEuNThaTTE1Ni45NCwxNzYsMTg0LDEyMS44OSwyMTEuMDUsMTc2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TranslateIcon";
 
 /** @deprecated Use TranslateIcon */
 export const Translate = I;
-export { I as TranslateIcon };
+export { I as TranslateIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ThermometerCold";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDguOTEsNzcuNzJsLTIwLDYuNDksMTIuMzQsMTdhOCw4LDAsMSwxLTEyLjk0LDkuNEwyMTYsOTMuNjFsLTEyLjM0LDE3YTgsOCwwLDAsMS0xMi45NC05LjRsMTIuMzQtMTctMjAtNi40OUE4LDgsMCwwLDEsMTg4LDYyLjVMMjA4LDY5VjQ4YTgsOCwwLDAsMSwxNiwwVjY5bDIwLTYuNDlhOCw4LDAsMCwxLDQuOTUsMTUuMjJaTTE1MiwxODRhMzIsMzIsMCwxLDEtNDAtMzFWMTIwYTgsOCwwLDAsMSwxNiwwdjMzQTMyLjA2LDMyLjA2LDAsMCwxLDE1MiwxODRabS0xNiwwYTE2LDE2LDAsMSwwLTE2LDE2QTE2LDE2LDAsMCwwLDEzNiwxODRabTQ4LDBBNjQsNjQsMCwxLDEsODAsMTM0VjQ4YTQwLDQwLDAsMCwxLDgwLDB2ODZBNjQuMDgsNjQuMDgsMCwwLDEsMTg0LDE4NFptLTE2LDBhNDguMDgsNDguMDgsMCwwLDAtMjAuNTgtMzkuNEE4LDgsMCwwLDEsMTQ0LDEzOFY0OGEyNCwyNCwwLDAsMC00OCwwdjkwYTgsOCwwLDAsMS0zLjQyLDYuNTZBNDgsNDgsMCwxLDAsMTY4LDE4NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ThermometerColdIcon";
 
 /** @deprecated Use ThermometerColdIcon */
 export const ThermometerCold = I;
-export { I as ThermometerColdIcon };
+export { I as ThermometerColdIcon }

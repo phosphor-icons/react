@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowsOutLineVertical";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTgsOCwwLDAsMS04LDhINDBhOCw4LDAsMCwxLDAtMTZIMjE2QTgsOCwwLDAsMSwyMjQsMTI4Wk0xMDEuNjYsNTMuNjYsMTIwLDM1LjMxVjk2YTgsOCwwLDAsMCwxNiwwVjM1LjMxbDE4LjM0LDE4LjM1YTgsOCwwLDAsMCwxMS4zMi0xMS4zMmwtMzItMzJhOCw4LDAsMCwwLTExLjMyLDBsLTMyLDMyYTgsOCwwLDAsMCwxMS4zMiwxMS4zMlptNTIuNjgsMTQ4LjY4TDEzNiwyMjAuNjlWMTYwYTgsOCwwLDAsMC0xNiwwdjYwLjY5bC0xOC4zNC0xOC4zNWE4LDgsMCwwLDAtMTEuMzIsMTEuMzJsMzIsMzJhOCw4LDAsMCwwLDExLjMyLDBsMzItMzJhOCw4LDAsMCwwLTExLjMyLTExLjMyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ArrowsOutLineVerticalIcon";
 
 /** @deprecated Use ArrowsOutLineVerticalIcon */
 export const ArrowsOutLineVertical = I;
-export { I as ArrowsOutLineVerticalIcon };
+export { I as ArrowsOutLineVerticalIcon }

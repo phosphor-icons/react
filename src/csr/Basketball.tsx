@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Basketball";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wk02MCw3Mi4xN0E4Ny4yLDg3LjIsMCwwLDEsNzkuNjMsMTIwSDQwLjM3QTg3LjU0LDg3LjU0LDAsMCwxLDYwLDcyLjE3Wk0xMzYsMTIwVjQwLjM3YTg3LjU5LDg3LjU5LDAsMCwxLDQ4LjY4LDIwLjM3QTEwMy4wNiwxMDMuMDYsMCwwLDAsMTYwLjMsMTIwWm0tMTYsMEg5NS43QTEwMy4wNiwxMDMuMDYsMCwwLDAsNzEuMzIsNjAuNzQsODcuNTksODcuNTksMCwwLDEsMTIwLDQwLjM3Wk03OS42MywxMzZBODcuMiw4Ny4yLDAsMCwxLDYwLDE4My44Myw4Ny41NCw4Ny41NCwwLDAsMSw0MC4zNywxMzZabTE2LjA3LDBIMTIwdjc5LjYzYTg3LjU5LDg3LjU5LDAsMCwxLTQ4LjY4LTIwLjM3QTEwMy4wOSwxMDMuMDksMCwwLDAsOTUuNywxMzZabTQwLjMsMGgyNC4zYTEwMy4wOSwxMDMuMDksMCwwLDAsMjQuMzgsNTkuMjZBODcuNTksODcuNTksMCwwLDEsMTM2LDIxNS42M1ptNDAuMzcsMGgzOS4yNkE4Ny41NCw4Ny41NCwwLDAsMSwxOTYsMTgzLjgzLDg3LjIsODcuMiwwLDAsMSwxNzYuMzcsMTM2Wm0wLTE2QTg3LjIsODcuMiwwLDAsMSwxOTYsNzIuMTcsODcuNTQsODcuNTQsMCwwLDEsMjE1LjYzLDEyMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BasketballIcon";
 
 /** @deprecated Use BasketballIcon */
 export const Basketball = I;
-export { I as BasketballIcon };
+export { I as BasketballIcon }

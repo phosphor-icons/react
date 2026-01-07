@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FlowerTulip";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNDhhODcuNDgsODcuNDgsMCwwLDAtMzUuMzYsNy40M2MtMTUuMS0yNS4zNy0zOS45Mi0zOC00MS4wNi0zOC41OWE4LDgsMCwwLDAtNy4xNiwwYy0xLjE0LjU4LTI2LDEzLjIyLTQxLjA2LDM4LjU5QTg3LjQ4LDg3LjQ4LDAsMCwwLDQ4LDQ4YTgsOCwwLDAsMC04LDhWOTZhODguMTEsODguMTEsMCwwLDAsODAsODcuNjN2MzUuNDNMODMuNTgsMjAwLjg0YTgsOCwwLDEsMC03LjE2LDE0LjMybDQ4LDI0YTgsOCwwLDAsMCw3LjE2LDBsNDgtMjRhOCw4LDAsMCwwLTcuMTYtMTQuMzJMMTM2LDIxOS4wNlYxODMuNjNBODguMTEsODguMTEsMCwwLDAsMjE2LDk2VjU2QTgsOCwwLDAsMCwyMDgsNDhaTTEyMCwxNjcuNTZBNzIuMSw3Mi4xLDAsMCwxLDU2LDk2VjY0LjQ0QTcyLjEsNzIuMSwwLDAsMSwxMjAsMTM2Wm04LTY4LjJBODguNCw4OC40LDAsMCwwLDk3LjM2LDYzLjE5YzkuNTctMTUuNzksMjQtMjUuOSwzMC42NC0zMCw2LjY1LDQuMDgsMjEuMDgsMTQuMTksMzAuNjQsMzBBODguNDYsODguNDYsMCwwLDAsMTI4LDk5LjM2Wk0yMDAsOTZhNzIuMSw3Mi4xLDAsMCwxLTY0LDcxLjU2VjEzNmE3Mi4xLDcyLjEsMCwwLDEsNjQtNzEuNTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FlowerTulipIcon";
 
 /** @deprecated Use FlowerTulipIcon */
 export const FlowerTulip = I;
-export { I as FlowerTulipIcon };
+export { I as FlowerTulipIcon }

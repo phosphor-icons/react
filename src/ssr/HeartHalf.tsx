@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HeartHalf";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjkuNDcsNTYuNzlhOCw4LDAsMCwwLTIuOTQtMTUuNzNDMTUwLjQyLDQ0LjA4LDEzNyw1Mi4xOCwxMjgsNjRjLTExLjI2LTE1LTI5LjM2LTI0LTUwLTI0YTYyLjA3LDYyLjA3LDAsMCwwLTYyLDYyYzAsNzAsMTAzLjc5LDEyNi42NywxMDguMjEsMTI5YTcuOTMsNy45MywwLDAsMCw3LjU4LDBoMGEzMzIuNTcsMzMyLjU3LDAsMCwwLDQxLjA5LTI3LjIyLDgsOCwwLDEsMC05Ljc2LTEyLjY3Yy0xMC4zMSw3Ljk0LTIwLDE0LjM3LTI3LjEyLDE4LjgyVjgxLjdDMTQxLjg0LDY4Ljc1LDE1My45NCw1OS43LDE2OS40Nyw1Ni43OVpNMTIwLDIxMEM5My41OCwxOTMuNDEsMzIsMTQ5LjcxLDMyLDEwMkE0Ni4wNiw0Ni4wNiwwLDAsMSw3OCw1NmMxOC45MSwwLDM0Ljg2LDkuNzgsNDIsMjUuNjRaTTIzMi41NSwxMDRhOC44NSw4Ljg1LDAsMCwxLS44OSwwLDgsOCwwLDAsMS03Ljk0LTcuMTIsNDUuODgsNDUuODgsMCwwLDAtMjAuMTctMzMuMTQsOCw4LDAsMSwxLDguOS0xMy4yOSw2MS44Myw2MS44MywwLDAsMSwyNy4xNyw0NC42N0E4LDgsMCwwLDEsMjMyLjU1LDEwNFptLTIuMDksMzUuNjJjLTUuNjcsMTEuMzctMTMuOTQsMjMtMjQuNTksMzQuNDlhOCw4LDAsMSwxLTExLjc0LTEwLjg2YzkuNjEtMTAuNCwxNy0yMC43NSwyMi0zMC43N2E4LDgsMCwxLDEsMTQuMzEsNy4xNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "HeartHalfIcon";
 
 /** @deprecated Use HeartHalfIcon */
 export const HeartHalf = I;
-export { I as HeartHalfIcon };
+export { I as HeartHalfIcon }

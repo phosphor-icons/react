@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChefHat";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTEyYTU2LjA2LDU2LjA2LDAsMCwwLTU2LTU2Yy0xLjc3LDAtMy41NC4xLTUuMjkuMjZhNTYsNTYsMCwwLDAtMTAxLjQyLDBDNzUuNTQsNTYuMSw3My43Nyw1Niw3Miw1NkE1Niw1NiwwLDAsMCw0OCwxNjIuNTlWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDE5MmExNiwxNiwwLDAsMCwxNi0xNlYxNjIuNTlBNTYuMDksNTYuMDksMCwwLDAsMjQwLDExMlptLTQ4LDk2SDY0VjE2Ny40MmE1NS40OSw1NS40OSwwLDAsMCw4LC41OEgxODRhNTUuNDksNTUuNDksMCwwLDAsOC0uNThabS04LTU2SDE3MC4yNWw1LjUxLTIyLjA2YTgsOCwwLDAsMC0xNS41Mi0zLjg4TDE1My43NSwxNTJIMTM2VjEyOGE4LDgsMCwwLDAtMTYsMHYyNEgxMDIuMjVsLTYuNDktMjUuOTRhOCw4LDAsMSwwLTE1LjUyLDMuODhMODUuNzUsMTUySDcyYTQwLDQwLDAsMCwxLDAtODBsLjU4LDBBNTUuMjEsNTUuMjEsMCwwLDAsNzIsODBhOCw4LDAsMCwwLDE2LDAsNDAsNDAsMCwwLDEsODAsMCw4LDgsMCwwLDAsMTYsMCw1NS4yMSw1NS4yMSwwLDAsMC0uNTgtOGwuNTgsMGE0MCw0MCwwLDAsMSwwLDgwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ChefHatIcon";
 
 /** @deprecated Use ChefHatIcon */
 export const ChefHat = I;
-export { I as ChefHatIcon };
+export { I as ChefHatIcon }

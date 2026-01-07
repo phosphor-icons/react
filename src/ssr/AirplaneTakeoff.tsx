@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/AirplaneTakeoff";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMjE2YTgsOCwwLDAsMS04LDhIMjRhOCw4LDAsMCwxLDAtMTZIMTY4QTgsOCwwLDAsMSwxNzYsMjE2Wk0yNDcuODYsOTMuMTVhOCw4LDAsMCwxLTMuNzYsNS4zOWwtMTQ3LjQxLDg4YTQwLjE4LDQwLjE4LDAsMCwxLTIwLjI2LDUuNTIsMzkuNzgsMzkuNzgsMCwwLDEtMjcuMjgtMTAuODdsLS4xMi0uMTJMMTMsMTQ1LjhhMTYsMTYsMCwwLDEsNC40OS0yNi4yMWwzLTEuNDdhOCw4LDAsMCwxLDYuMDgtLjRsMjguMjYsOS41NEw3NSwxMTUuMDYsNTMuMTcsOTMuODdBMTYsMTYsMCwwLDEsNTcuNyw2Ny40bC4zMi0uMTMsNy4xNS0yLjcxYTgsOCwwLDAsMSw1LjU5LDBMMTI0LjcsODQuMzgsMTc2LjI3LDUzLjZhMzkuODIsMzkuODIsMCwwLDEsNTEuMjgsOS4xMmwuMTIuMTUsMTguNjQsMjMuODlBOCw4LDAsMCwxLDI0Ny44Niw5My4xNVptLTE5Ljc0LTMuNy0xMy0xNi42N2EyMy44OCwyMy44OCwwLDAsMC0zMC42OC01LjQybC01NC44LDMyLjcyYTguMDYsOC4wNiwwLDAsMS02Ljg3LjY0TDY4LDgwLjU4bC00LDEuNTMuMjEuMkw5My41NywxMTAuOGE4LDgsMCwwLDEtMS40MywxMi41OEw1OS45MywxNDIuODdhOCw4LDAsMCwxLTYuNy43M2wtMjguNjctOS42Ny0uMTkuMS0uMzcuMTdhLjcxLjcxLDAsMCwxLC4xMy4xMmwzNiwzNS4yNmEyMy44NSwyMy44NSwwLDAsMCwyOC40MiwzLjE4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "AirplaneTakeoffIcon";
 
 /** @deprecated Use AirplaneTakeoffIcon */
 export const AirplaneTakeoff = I;
-export { I as AirplaneTakeoffIcon };
+export { I as AirplaneTakeoffIcon }

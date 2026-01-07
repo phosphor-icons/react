@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Devices";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNzJIMjA4VjY0YTI0LDI0LDAsMCwwLTI0LTI0SDQwQTI0LDI0LDAsMCwwLDE2LDY0djk2YTI0LDI0LDAsMCwwLDI0LDI0SDE1MnY4YTI0LDI0LDAsMCwwLDI0LDI0aDQ4YTI0LDI0LDAsMCwwLDI0LTI0Vjk2QTI0LDI0LDAsMCwwLDIyNCw3MlpNNDAsMTY4YTgsOCwwLDAsMS04LThWNjRhOCw4LDAsMCwxLDgtOEgxODRhOCw4LDAsMCwxLDgsOHY4SDE3NmEyNCwyNCwwLDAsMC0yNCwyNHY3MlptMTkyLDI0YTgsOCwwLDAsMS04LDhIMTc2YTgsOCwwLDAsMS04LThWOTZhOCw4LDAsMCwxLDgtOGg0OGE4LDgsMCwwLDEsOCw4Wm0tOTYsMTZhOCw4LDAsMCwxLTgsOEg4OGE4LDgsMCwwLDEsMC0xNmg0MEE4LDgsMCwwLDEsMTM2LDIwOFptODAtOTZhOCw4LDAsMCwxLTgsOEgxOTJhOCw4LDAsMCwxLDAtMTZoMTZBOCw4LDAsMCwxLDIxNiwxMTJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "DevicesIcon";
 
 /** @deprecated Use DevicesIcon */
 export const Devices = I;
-export { I as DevicesIcon };
+export { I as DevicesIcon }

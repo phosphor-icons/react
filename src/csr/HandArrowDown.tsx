@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HandArrowDown";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuMzMsMTQxLjA2YTI0LjQsMjQuNCwwLDAsMC0yMS4yNC00LjIzbC00MS44NCw5LjYyQTI4LDI4LDAsMCwwLDE0MCwxMTJIODkuOTRhMzEuODIsMzEuODIsMCwwLDAtMjIuNjMsOS4zN0w0NC42OSwxNDRIMTZBMTYsMTYsMCwwLDAsMCwxNjB2NDBhMTYsMTYsMCwwLDAsMTYsMTZIMTIwYTcuOTMsNy45MywwLDAsMCwxLjk0LS4yNGw2NC0xNmE2Ljk0LDYuOTQsMCwwLDAsMS4xOS0uNEwyMjYsMTgyLjgybC40NC0uMmEyNC42LDI0LjYsMCwwLDAsMy45My00MS41NlpNMTYsMTYwSDQwdjQwSDE2Wm0yMDMuNDMsOC4yMS0zOCwxNi4xOEwxMTksMjAwSDU2VjE1NS4zMWwyMi42My0yMi42MkExNS44NiwxNS44NiwwLDAsMSw4OS45NCwxMjhIMTQwYTEyLDEyLDAsMCwxLDAsMjRIMTEyYTgsOCwwLDAsMCwwLDE2aDMyYTguMzIsOC4zMiwwLDAsMCwxLjc5LS4ybDY3LTE1LjQxLjMxLS4wOGE4LjYsOC42LDAsMCwxLDYuMywxNS45Wk0xNTQuMzQsNzcuNjZhOCw4LDAsMCwxLDExLjMyLTExLjMyTDE4NCw4NC42OVYyNGE4LDgsMCwwLDEsMTYsMFY4NC42OWwxOC4zNC0xOC4zNWE4LDgsMCwwLDEsMTEuMzIsMTEuMzJsLTMyLDMyYTgsOCwwLDAsMS0xMS4zMiwwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "HandArrowDownIcon";
 
 /** @deprecated Use HandArrowDownIcon */
 export const HandArrowDown = I;
-export { I as HandArrowDownIcon };
+export { I as HandArrowDownIcon }

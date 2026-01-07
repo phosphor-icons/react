@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Detective";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMTEySDIyMC4wOGwtNDcuNS02NS40MWExNiwxNiwwLDAsMC0yNS4zMS0uNzJsLTEyLjg1LDE0LjktLjIuMjNhNy45NSw3Ljk1LDAsMCwxLTEyLjQ0LDBsLS4yLS4yMy0xMi44NS0xNC45YTE2LDE2LDAsMCwwLTI1LjMxLjcyTDM1LjkyLDExMkg4YTgsOCwwLDAsMCwwLDE2SDI0OGE4LDgsMCwwLDAsMC0xNlpNOTYuMzQsNTZsLjE5LjIzLDEyLjg1LDE0Ljg5YTI0LDI0LDAsMCwwLDM3LjI0LDBsMTIuODUtMTQuODljLjA2LS4wOC4xLS4xNS4xNy0uMjNsNDAuNjYsNTZINTUuNjlaTTE4MCwxNDRhMzYsMzYsMCwwLDAtMzUuNzcsMzJIMTExLjc3YTM2LDM2LDAsMSwwLTEuODMsMTZoMzYuMTJBMzYsMzYsMCwxLDAsMTgwLDE0NFpNNzYsMjAwYTIwLDIwLDAsMSwxLDIwLTIwQTIwLDIwLDAsMCwxLDc2LDIwMFptMTA0LDBhMjAsMjAsMCwxLDEsMjAtMjBBMjAsMjAsMCwwLDEsMTgwLDIwMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "DetectiveIcon";
 
 /** @deprecated Use DetectiveIcon */
 export const Detective = I;
-export { I as DetectiveIcon };
+export { I as DetectiveIcon }

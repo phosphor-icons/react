@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Pause";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMzJIMTYwYTE2LDE2LDAsMCwwLTE2LDE2VjIwOGExNiwxNiwwLDAsMCwxNiwxNmg0MGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDAsMzJabTAsMTc2SDE2MFY0OGg0MFpNOTYsMzJINTZBMTYsMTYsMCwwLDAsNDAsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDk2YTE2LDE2LDAsMCwwLDE2LTE2VjQ4QTE2LDE2LDAsMCwwLDk2LDMyWm0wLDE3Nkg1NlY0OEg5NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PauseIcon";
 
 /** @deprecated Use PauseIcon */
 export const Pause = I;
-export { I as PauseIcon };
+export { I as PauseIcon }

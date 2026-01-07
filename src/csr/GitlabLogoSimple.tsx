@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GitlabLogoSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuMTUsMTE3LjEsMjEwLjI1LDQxYTExLjk0LDExLjk0LDAsMCwwLTIyLjc5LTEuMTFMMTY5Ljc4LDg4SDg2LjIyTDY4LjU0LDM5Ljg3QTExLjk0LDExLjk0LDAsMCwwLDQ1Ljc1LDQxTDI1Ljg1LDExNy4xYTU3LjE5LDU3LjE5LDAsMCwwLDIyLDYxbDczLjI3LDUxLjc2YTExLjkxLDExLjkxLDAsMCwwLDEzLjc0LDBsNzMuMjctNTEuNzZBNTcuMTksNTcuMTksMCwwLDAsMjMwLjE1LDExNy4xWk0xOTguOTEsMTY1LDEyOCwyMTUuMDksNTcuMDksMTY1YTQxLjEsNDEuMSwwLDAsMS0xNS43NS00My44NEw1OCw1Ny41LDczLjEzLDk4Ljc2QTgsOCwwLDAsMCw4MC42NCwxMDRoOTQuNzJhOCw4LDAsMCwwLDcuNTEtNS4yNEwxOTgsNTcuNWwxNi42Myw2My42NUE0MS4xLDQxLjEsMCwwLDEsMTk4LjkxLDE2NVoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "GitlabLogoSimpleIcon";
 
 /** @deprecated Use GitlabLogoSimpleIcon */
 export const GitlabLogoSimple = I;
-export { I as GitlabLogoSimpleIcon };
+export { I as GitlabLogoSimpleIcon }

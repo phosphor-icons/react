@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Seatbelt";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzIsNjhhNDQsNDQsMCwxLDAtNDQsNDRBNDQuMDUsNDQuMDUsMCwwLDAsMTcyLDY4Wk0xMjgsOTZhMjgsMjgsMCwxLDEsMjgtMjhBMjgsMjgsMCwwLDEsMTI4LDk2Wm04MCwxMjhhOCw4LDAsMCwxLTgsOEg1NmE4LDgsMCwwLDEtNS4yOS0xNGw5OC4wNy04Ni41NGE2NCw2NCwwLDAsMC04NCw1MC4zM0E4LDgsMCwwLDEsNDksMTc5LjI1YTgwLDgwLDAsMCwxLDExMy4xNi01OS41OUwxODYuNzEsOThhOCw4LDAsMCwxLDEwLjU4LDEyTDc3LjE2LDIxNkgyMDBBOCw4LDAsMCwxLDIwOCwyMjRabS0xNC4yNy03Ny42MkE3OS42LDc5LjYsMCwwLDEsMjA4LDE5MmE4LDgsMCwwLDEtMTYsMCw2My42Nyw2My42NywwLDAsMC0xMS40MS0zNi40OSw4LDgsMCwwLDEsMTMuMTQtOS4xM1oiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "SeatbeltIcon";
 
 /** @deprecated Use SeatbeltIcon */
 export const Seatbelt = I;
-export { I as SeatbeltIcon };
+export { I as SeatbeltIcon }

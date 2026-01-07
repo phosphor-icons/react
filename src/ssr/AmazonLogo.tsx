@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/AmazonLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMTY4djMyYTgsOCwwLDAsMS0xNiwwVjE4Ny4zMWwtMi4yMSwyLjIyQzIyNi42OSwxOTIuOSwxODkuNDQsMjMyLDEyOCwyMzJjLTYyLjg0LDAtMTAwLjM4LTQwLjkxLTEwMS45NS00Mi42NUE4LDgsMCwwLDEsMzgsMTc4LjY1QzM4LjI3LDE3OSw3Mi41LDIxNiwxMjgsMjE2czg5LjczLTM3LDkwLjA3LTM3LjM2YTMuODUsMy44NSwwLDAsMSwuMjctLjNsMi4zNS0yLjM0SDIwOGE4LDgsMCwwLDEsMC0xNmgzMkE4LDgsMCwwLDEsMjQ4LDE2OFpNMTYwLDk0LjUzVjg0QTM2LDM2LDAsMCwwLDkxLjkyLDY3LjY0YTgsOCwwLDAsMS0xNC4yNS03LjI4QTUyLDUyLDAsMCwxLDE3Niw4NHY5MmE4LDgsMCwwLDEtMTYsMHYtNi41M2E1Miw1MiwwLDEsMSwwLTc0Ljk0Wk0xNjAsMTMyYTM2LDM2LDAsMSwwLTM2LDM2QTM2LDM2LDAsMCwwLDE2MCwxMzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "AmazonLogoIcon";
 
 /** @deprecated Use AmazonLogoIcon */
 export const AmazonLogo = I;
-export { I as AmazonLogoIcon };
+export { I as AmazonLogoIcon }

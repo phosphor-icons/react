@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CellTower";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzUuMTYsODQuNDJhOCw4LDAsMCwwLTE0LjMyLDBsLTcyLDE0NGE4LDgsMCwwLDAsMTQuMzEsNy4xNkw3NywyMDhoMTAyLjFsMTMuNzksMjcuNThBOCw4LDAsMCwwLDIwMCwyNDBhOCw4LDAsMCwwLDcuMTUtMTEuNThaTTEyOCwxMDUuODksMTU1LjA2LDE2MEgxMDAuOTRaTTg1LDE5Mmw4LTE2aDcwLjFsOCwxNlptNzQuNTQtOTguMjZhMzIsMzIsMCwxLDAtNjMsMCw4LDgsMCwxLDEtMTUuNzQsMi44NSw0OCw0OCwwLDEsMSw5NC40NiwwLDgsOCwwLDAsMS03Ljg2LDYuNTgsOC43NCw4Ljc0LDAsMCwxLTEuNDMtLjEzQTgsOCwwLDAsMSwxNTkuNDksOTMuNzRaTTY0LjE1LDEzNi4yMWE4MCw4MCwwLDEsMSwxMjcuNywwLDgsOCwwLDAsMS0xMi43Ni05LjY1LDY0LDY0LDAsMSwwLTEwMi4xOCwwLDgsOCwwLDAsMS0xMi43Niw5LjY1WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CellTowerIcon";
 
 /** @deprecated Use CellTowerIcon */
 export const CellTower = I;
-export { I as CellTowerIcon };
+export { I as CellTowerIcon }

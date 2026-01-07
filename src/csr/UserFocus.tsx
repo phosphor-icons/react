@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/UserFocus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDBWNzZhOCw4LDAsMCwxLTE2LDBWNDhIMTgwYTgsOCwwLDAsMSwwLTE2aDM2QTgsOCwwLDAsMSwyMjQsNDBabS04LDEzMmE4LDgsMCwwLDAtOCw4djI4SDE4MGE4LDgsMCwwLDAsMCwxNmgzNmE4LDgsMCwwLDAsOC04VjE4MEE4LDgsMCwwLDAsMjE2LDE3MlpNNzYsMjA4SDQ4VjE4MGE4LDgsMCwwLDAtMTYsMHYzNmE4LDgsMCwwLDAsOCw4SDc2YTgsOCwwLDAsMCwwLTE2Wk00MCw4NGE4LDgsMCwwLDAsOC04VjQ4SDc2YTgsOCwwLDAsMCwwLTE2SDQwYTgsOCwwLDAsMC04LDhWNzZBOCw4LDAsMCwwLDQwLDg0Wm0xMzYsOTJhOCw4LDAsMCwxLTYuNDEtMy4xOSw1Miw1MiwwLDAsMC04My4yLDAsOCw4LDAsMSwxLTEyLjgtOS42MkE2Ny45NCw2Ny45NCwwLDAsMSwxMDEsMTQxLjUxYTQwLDQwLDAsMSwxLDUzLjk0LDAsNjcuOTQsNjcuOTQsMCwwLDEsMjcuNDMsMjEuNjhBOCw4LDAsMCwxLDE3NiwxNzZabS00OC00MGEyNCwyNCwwLDEsMC0yNC0yNEEyNCwyNCwwLDAsMCwxMjgsMTM2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "UserFocusIcon";
 
 /** @deprecated Use UserFocusIcon */
 export const UserFocus = I;
-export { I as UserFocusIcon };
+export { I as UserFocusIcon }

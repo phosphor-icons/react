@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Repeat";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNCwxMjhBNzIuMDgsNzIuMDgsMCwwLDEsOTYsNTZIMjA0LjY5TDE5NC4zNCw0NS42NmE4LDgsMCwwLDEsMTEuMzItMTEuMzJsMjQsMjRhOCw4LDAsMCwxLDAsMTEuMzJsLTI0LDI0YTgsOCwwLDAsMS0xMS4zMi0xMS4zMkwyMDQuNjksNzJIOTZhNTYuMDYsNTYuMDYsMCwwLDAtNTYsNTYsOCw4LDAsMCwxLTE2LDBabTIwMC04YTgsOCwwLDAsMC04LDgsNTYuMDYsNTYuMDYsMCwwLDEtNTYsNTZINTEuMzFsMTAuMzUtMTAuMzRhOCw4LDAsMCwwLTExLjMyLTExLjMybC0yNCwyNGE4LDgsMCwwLDAsMCwxMS4zMmwyNCwyNGE4LDgsMCwwLDAsMTEuMzItMTEuMzJMNTEuMzEsMjAwSDE2MGE3Mi4wOCw3Mi4wOCwwLDAsMCw3Mi03MkE4LDgsMCwwLDAsMjI0LDEyMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "RepeatIcon";
 
 /** @deprecated Use RepeatIcon */
 export const Repeat = I;
-export { I as RepeatIcon };
+export { I as RepeatIcon }

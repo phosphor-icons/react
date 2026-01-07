@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/DotsNine";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik03Miw2MEExMiwxMiwwLDEsMSw2MCw0OCwxMiwxMiwwLDAsMSw3Miw2MFptNTYtMTJhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsMTI4LDQ4Wm02OCwyNGExMiwxMiwwLDEsMC0xMi0xMkExMiwxMiwwLDAsMCwxOTYsNzJaTTYwLDExNmExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCw2MCwxMTZabTY4LDBhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsMTI4LDExNlptNjgsMGExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCwxOTYsMTE2Wk02MCwxODRhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsNjAsMTg0Wm02OCwwYTEyLDEyLDAsMSwwLDEyLDEyQTEyLDEyLDAsMCwwLDEyOCwxODRabTY4LDBhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsMTk2LDE4NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "DotsNineIcon";
 
 /** @deprecated Use DotsNineIcon */
 export const DotsNine = I;
-export { I as DotsNineIcon };
+export { I as DotsNineIcon }

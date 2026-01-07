@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FolderSimpleDashed";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNCw4MFY2NEExNiwxNiwwLDAsMSw0MCw0OEg5My4zM2ExNi4xMiwxNi4xMiwwLDAsMSw5LjYsMy4yTDEzMi44LDczLjZhOCw4LDAsMSwxLTkuNiwxMi44TDkzLjMzLDY0SDQwVjgwYTgsOCwwLDAsMS0xNiwwWk04OCwyMDBINDB2LThhOCw4LDAsMCwwLTE2LDB2OC42MkExNS40LDE1LjQsMCwwLDAsMzkuMzgsMjE2SDg4YTgsOCwwLDAsMCwwLTE2Wm03MiwwSDEyOGE4LDgsMCwwLDAsMCwxNmgzMmE4LDgsMCwwLDAsMC0xNlptNjQtNTZhOCw4LDAsMCwwLTgsOHY0OEgyMDBhOCw4LDAsMCwwLDAsMTZoMTYuODlBMTUuMTMsMTUuMTMsMCwwLDAsMjMyLDIwMC44OVYxNTJBOCw4LDAsMCwwLDIyNCwxNDRabS04LTcySDE2OGE4LDgsMCwwLDAsMCwxNmg0OHYyNGE4LDgsMCwwLDAsMTYsMFY4OEExNiwxNiwwLDAsMCwyMTYsNzJaTTMyLDE2MGE4LDgsMCwwLDAsOC04VjEyMGE4LDgsMCwwLDAtMTYsMHYzMkE4LDgsMCwwLDAsMzIsMTYwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FolderSimpleDashedIcon";
 
 /** @deprecated Use FolderSimpleDashedIcon */
 export const FolderSimpleDashed = I;
-export { I as FolderSimpleDashedIcon, I as FolderSimpleDottedIcon };
+export { I as FolderSimpleDashedIcon, I as FolderSimpleDottedIcon }

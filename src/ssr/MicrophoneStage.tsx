@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MicrophoneStage";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMTZBNzIuMDcsNzIuMDcsMCwwLDAsOTYsODhhNzMuMjksNzMuMjksMCwwLDAsLjYzLDkuNDJMMjcuMTIsMTkyLjIyQTE1LjkzLDE1LjkzLDAsMCwwLDI4LjcxLDIxM0w0MywyMjcuMjlhMTUuOTMsMTUuOTMsMCwwLDAsMjAuNzgsMS41OWw5NC44MS02OS41M0E3My4yOSw3My4yOSwwLDAsMCwxNjgsMTYwYTcyLDcyLDAsMSwwLDAtMTQ0Wm01Niw3MmE1NS43Miw1NS43MiwwLDAsMS0xMS4xNiwzMy41MkwxMzQuNDksNDMuMTZBNTYsNTYsMCwwLDEsMjI0LDg4Wk01NC4zMiwyMTYsNDAsMjAxLjY4LDEwMi4xNCwxMTdBNzIuMzcsNzIuMzcsMCwwLDAsMTM5LDE1My44NlpNMTEyLDg4YTU1LjY3LDU1LjY3LDAsMCwxLDExLjE2LTMzLjUxbDc4LjM0LDc4LjM0QTU2LDU2LDAsMCwxLDExMiw4OFptLTIuMzUsNTguMzRhOCw4LDAsMCwxLDAsMTEuMzFsLTgsOGE4LDgsMCwxLDEtMTEuMzEtMTEuMzFsOC04QTgsOCwwLDAsMSwxMDkuNjcsMTQ2LjMzWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "MicrophoneStageIcon";
 
 /** @deprecated Use MicrophoneStageIcon */
 export const MicrophoneStage = I;
-export { I as MicrophoneStageIcon };
+export { I as MicrophoneStageIcon }

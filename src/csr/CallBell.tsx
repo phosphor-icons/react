@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CallBell";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNCwxODRIMjMyYTgsOCwwLDAsMCwwLTE2aC04VjE1MmE5Ni4xMiw5Ni4xMiwwLDAsMC04OC05NS42NlY0MGgxNmE4LDgsMCwwLDAsMC0xNkgxMDRhOCw4LDAsMCwwLDAsMTZoMTZWNTYuMzRBOTYuMTIsOTYuMTIsMCwwLDAsMzIsMTUydjE2SDI0YTgsOCwwLDAsMCwwLDE2Wm0yNC0zMmE4MCw4MCwwLDAsMSwxNjAsMHYxNkg0OFptMTkyLDU2YTgsOCwwLDAsMS04LDhIMjRhOCw4LDAsMCwxLDAtMTZIMjMyQTgsOCwwLDAsMSwyNDAsMjA4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CallBellIcon";
 
 /** @deprecated Use CallBellIcon */
 export const CallBell = I;
-export { I as CallBellIcon };
+export { I as CallBellIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TextIndent";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTgsOCwwLDAsMS04LDhIMTEyYTgsOCwwLDAsMSwwLTE2SDIxNkE4LDgsMCwwLDEsMjI0LDEyOFpNMTEyLDcySDIxNmE4LDgsMCwwLDAsMC0xNkgxMTJhOCw4LDAsMCwwLDAsMTZaTTIxNiwxODRINDBhOCw4LDAsMCwwLDAsMTZIMjE2YTgsOCwwLDAsMCwwLTE2Wk0zNC4zNCwxNDEuNjZhOCw4LDAsMCwwLDExLjMyLDBsNDAtNDBhOCw4LDAsMCwwLDAtMTEuMzJsLTQwLTQwQTgsOCwwLDAsMCwzNC4zNCw2MS42Nkw2OC42OSw5NiwzNC4zNCwxMzAuMzRBOCw4LDAsMCwwLDM0LjM0LDE0MS42NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "TextIndentIcon";
 
 /** @deprecated Use TextIndentIcon */
 export const TextIndent = I;
-export { I as TextIndentIcon };
+export { I as TextIndentIcon }

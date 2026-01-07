@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Desktop";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNDBINDhBMjQsMjQsMCwwLDAsMjQsNjRWMTc2YTI0LDI0LDAsMCwwLDI0LDI0aDcydjE2SDk2YTgsOCwwLDAsMCwwLDE2aDY0YTgsOCwwLDAsMCwwLTE2SDEzNlYyMDBoNzJhMjQsMjQsMCwwLDAsMjQtMjRWNjRBMjQsMjQsMCwwLDAsMjA4LDQwWk00OCw1NkgyMDhhOCw4LDAsMCwxLDgsOHY4MEg0MFY2NEE4LDgsMCwwLDEsNDgsNTZaTTIwOCwxODRINDhhOCw4LDAsMCwxLTgtOFYxNjBIMjE2djE2QTgsOCwwLDAsMSwyMDgsMTg0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "DesktopIcon";
 
 /** @deprecated Use DesktopIcon */
 export const Desktop = I;
-export { I as DesktopIcon };
+export { I as DesktopIcon }

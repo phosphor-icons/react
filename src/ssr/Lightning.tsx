@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Lightning";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTUuNzksMTE4LjE3YTgsOCwwLDAsMC01LTUuNjZMMTUzLjE4LDkwLjlsMTQuNjYtNzMuMzNhOCw4LDAsMCwwLTEzLjY5LTdsLTExMiwxMjBhOCw4LDAsMCwwLDMsMTNsNTcuNjMsMjEuNjFMODguMTYsMjM4LjQzYTgsOCwwLDAsMCwxMy42OSw3bDExMi0xMjBBOCw4LDAsMCwwLDIxNS43OSwxMTguMTdaTTEwOS4zNywyMTRsMTAuNDctNTIuMzhhOCw4LDAsMCwwLTUtOS4wNkw2MiwxMzIuNzFsODQuNjItOTAuNjZMMTM2LjE2LDk0LjQzYTgsOCwwLDAsMCw1LDkuMDZsNTIuOCwxOS44WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "LightningIcon";
 
 /** @deprecated Use LightningIcon */
 export const Lightning = I;
-export { I as LightningIcon };
+export { I as LightningIcon }

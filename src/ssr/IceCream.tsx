@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/IceCream";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsOTcuMzdWOTZBODAsODAsMCwwLDAsNDgsOTZ2MS4zN0EyNCwyNCwwLDAsMCw1NiwxNDRoMy4yOWw1NC44Miw5NS45NGExNiwxNiwwLDAsMCwyNy43OCwwTDE5Ni43MSwxNDRIMjAwYTI0LDI0LDAsMCwwLDgtNDYuNjNaTTc3LjcxLDE0NEg5Ny4wN2w0MC42MSw3MS4wNkwxMjgsMjMyWm01Ny4wOCwwLDIxLjc1LDM4LjA2LTkuNjUsMTYuODhMMTE1LjUsMTQ0Wm0zMSwyMS45NEwxNTMuMjEsMTQ0aDI1LjA4Wk0yMDAsMTI4SDU2YTgsOCwwLDAsMSwwLTE2LDgsOCwwLDAsMCw4LThWOTZhNjQsNjQsMCwwLDEsMTI4LDB2OGE4LDgsMCwwLDAsOCw4LDgsOCwwLDAsMSwwLDE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "IceCreamIcon";
 
 /** @deprecated Use IceCreamIcon */
 export const IceCream = I;
-export { I as IceCreamIcon };
+export { I as IceCreamIcon }

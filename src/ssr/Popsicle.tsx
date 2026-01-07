@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Popsicle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsOEE3Mi4wOCw3Mi4wOCwwLDAsMCw1Niw4MHY5NmExNiwxNiwwLDAsMCwxNiwxNmgzMnY0MGEyNCwyNCwwLDAsMCw0OCwwVjE5MmgzMmExNiwxNiwwLDAsMCwxNi0xNlY4MEE3Mi4wOCw3Mi4wOCwwLDAsMCwxMjgsOFptOCwyMjRhOCw4LDAsMCwxLTE2LDBWMTkyaDE2Wm00OC01Nkg3MlY4MGE1Niw1NiwwLDAsMSwxMTIsMHY5NlpNMTIwLDcydjgwYTgsOCwwLDAsMS0xNiwwVjcyYTgsOCwwLDAsMSwxNiwwWm0zMiwwdjgwYTgsOCwwLDAsMS0xNiwwVjcyYTgsOCwwLDAsMSwxNiwwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PopsicleIcon";
 
 /** @deprecated Use PopsicleIcon */
 export const Popsicle = I;
-export { I as PopsicleIcon };
+export { I as PopsicleIcon }

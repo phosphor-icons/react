@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TennisBall";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDEuNTcsNTQuNDZhMTA0LDEwNCwwLDEsMCwwLDE0Ny4wOEExMDMuNCwxMDMuNCwwLDAsMCwyMDEuNTcsNTQuNDZaTTY1Ljc1LDY1Ljc3YTg3LjYzLDg3LjYzLDAsMCwxLDUzLjY2LTI1LjMxQTg3LjMxLDg3LjMxLDAsMCwxLDk0LDk0LjA2YTg3LjQyLDg3LjQyLDAsMCwxLTUzLjYyLDI1LjM1QTg3LjU4LDg3LjU4LDAsMCwxLDY1Ljc1LDY1Ljc3Wk00MC4zMywxMzUuNDhhMTAzLjI5LDEwMy4yOSwwLDAsMCw2NS0zMC4xMSwxMDMuMjQsMTAzLjI0LDAsMCwwLDMwLjEzLTY1LDg3Ljc4LDg3Ljc4LDAsMCwxLDgwLjE4LDgwLjE0LDEwNCwxMDQsMCwwLDAtOTUuMTYsOTUuMSw4Ny43OCw4Ny43OCwwLDAsMS04MC4xOC04MC4xNFptMTQ5LjkyLDU0Ljc1YTg3LjY5LDg3LjY5LDAsMCwxLTUzLjY2LDI1LjMxLDg4LDg4LDAsMCwxLDc5LTc4Ljk1QTg3LjU4LDg3LjU4LDAsMCwxLDE5MC4yNSwxOTAuMjNaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "TennisBallIcon";
 
 /** @deprecated Use TennisBallIcon */
 export const TennisBall = I;
-export { I as TennisBallIcon };
+export { I as TennisBallIcon }

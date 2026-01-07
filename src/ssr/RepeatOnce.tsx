@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/RepeatOnce";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNCwxMjhBNzIuMDgsNzIuMDgsMCwwLDEsOTYsNTZIMjA0LjY5TDE5NC4zNCw0NS42NmE4LDgsMCwwLDEsMTEuMzItMTEuMzJsMjQsMjRhOCw4LDAsMCwxLDAsMTEuMzJsLTI0LDI0YTgsOCwwLDAsMS0xMS4zMi0xMS4zMkwyMDQuNjksNzJIOTZhNTYuMDYsNTYuMDYsMCwwLDAtNTYsNTYsOCw4LDAsMCwxLTE2LDBabTIwMC04YTgsOCwwLDAsMC04LDgsNTYuMDYsNTYuMDYsMCwwLDEtNTYsNTZINTEuMzFsMTAuMzUtMTAuMzRhOCw4LDAsMCwwLTExLjMyLTExLjMybC0yNCwyNGE4LDgsMCwwLDAsMCwxMS4zMmwyNCwyNGE4LDgsMCwwLDAsMTEuMzItMTEuMzJMNTEuMzEsMjAwSDE2MGE3Mi4wOCw3Mi4wOCwwLDAsMCw3Mi03MkE4LDgsMCwwLDAsMjI0LDEyMFptLTg4LDQwYTgsOCwwLDAsMCw4LThWMTA0YTgsOCwwLDAsMC0xMS41OC03LjE2bC0xNiw4YTgsOCwwLDEsMCw3LjE2LDE0LjMxbDQuNDItMi4yMVYxNTJBOCw4LDAsMCwwLDEzNiwxNjBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "RepeatOnceIcon";
 
 /** @deprecated Use RepeatOnceIcon */
 export const RepeatOnce = I;
-export { I as RepeatOnceIcon };
+export { I as RepeatOnceIcon }

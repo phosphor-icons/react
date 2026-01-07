@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Backspace";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINjguNTNhMTYuMDgsMTYuMDgsMCwwLDAtMTMuNzIsNy43N0w5LjE0LDEyMy44OGE4LDgsMCwwLDAsMCw4LjI0bDQ1LjY3LDc2LjExQTE2LjA4LDE2LjA4LDAsMCwwLDY4LjUzLDIxNkgyMTZhMTYsMTYsMCwwLDAsMTYtMTZWNTZBMTYsMTYsMCwwLDAsMjE2LDQwWk02MS42NywyMDQuMTIsNjguNTMsMjAwaDBaTTIxNiwyMDBINjguNTNsLTQzLjItNzIsNDMuMi03MkgyMTZaTTEwNi4zNCwxNDYuMzQsMTI0LjY5LDEyOGwtMTguMzUtMTguMzRhOCw4LDAsMCwxLDExLjMyLTExLjMyTDEzNiwxMTYuNjlsMTguMzQtMTguMzVhOCw4LDAsMCwxLDExLjMyLDExLjMyTDE0Ny4zMSwxMjhsMTguMzUsMTguMzRhOCw4LDAsMCwxLTExLjMyLDExLjMyTDEzNiwxMzkuMzFsLTE4LjM0LDE4LjM1YTgsOCwwLDAsMS0xMS4zMi0xMS4zMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BackspaceIcon";
 
 /** @deprecated Use BackspaceIcon */
 export const Backspace = I;
-export { I as BackspaceIcon };
+export { I as BackspaceIcon }

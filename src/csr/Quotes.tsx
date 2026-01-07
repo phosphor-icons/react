@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Quotes";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDAsNTZINDBBMTYsMTYsMCwwLDAsMjQsNzJ2NjRhMTYsMTYsMCwwLDAsMTYsMTZoNjB2OGEzMiwzMiwwLDAsMS0zMiwzMiw4LDgsMCwwLDAsMCwxNiw0OC4wNSw0OC4wNSwwLDAsMCw0OC00OFY3MkExNiwxNiwwLDAsMCwxMDAsNTZabTAsODBINDBWNzJoNjBaTTIxNiw1NkgxNTZhMTYsMTYsMCwwLDAtMTYsMTZ2NjRhMTYsMTYsMCwwLDAsMTYsMTZoNjB2OGEzMiwzMiwwLDAsMS0zMiwzMiw4LDgsMCwwLDAsMCwxNiw0OC4wNSw0OC4wNSwwLDAsMCw0OC00OFY3MkExNiwxNiwwLDAsMCwyMTYsNTZabTAsODBIMTU2VjcyaDYwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "QuotesIcon";
 
 /** @deprecated Use QuotesIcon */
 export const Quotes = I;
-export { I as QuotesIcon };
+export { I as QuotesIcon }

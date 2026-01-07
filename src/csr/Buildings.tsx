@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Buildings";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMjA4SDIyNFY5NmExNiwxNiwwLDAsMC0xNi0xNkgxNDRWMzJhMTYsMTYsMCwwLDAtMjQuODgtMTMuMzJMMzkuMTIsNzJBMTYsMTYsMCwwLDAsMzIsODUuMzRWMjA4SDE2YTgsOCwwLDAsMCwwLDE2SDI0MGE4LDgsMCwwLDAsMC0xNlpNMjA4LDk2VjIwOEgxNDRWOTZaTTQ4LDg1LjM0LDEyOCwzMlYyMDhINDhaTTExMiwxMTJ2MTZhOCw4LDAsMCwxLTE2LDBWMTEyYTgsOCwwLDEsMSwxNiwwWm0tMzIsMHYxNmE4LDgsMCwwLDEtMTYsMFYxMTJhOCw4LDAsMSwxLDE2LDBabTAsNTZ2MTZhOCw4LDAsMCwxLTE2LDBWMTY4YTgsOCwwLDAsMSwxNiwwWm0zMiwwdjE2YTgsOCwwLDAsMS0xNiwwVjE2OGE4LDgsMCwwLDEsMTYsMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BuildingsIcon";
 
 /** @deprecated Use BuildingsIcon */
 export const Buildings = I;
-export { I as BuildingsIcon };
+export { I as BuildingsIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PaintBrushBroad";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMjRINzJBNDAsNDAsMCwwLDAsMzIsNjR2NzJhMjQsMjQsMCwwLDAsMjQsMjRoNDhsLTcuODksNDYuNjdBOC40Miw4LjQyLDAsMCwwLDk2LDIwOGEzMiwzMiwwLDAsMCw2NCwwLDguNDIsOC40MiwwLDAsMC0uMTEtMS4zM0wxNTIsMTYwaDQ4YTI0LDI0LDAsMCwwLDI0LTI0VjMyQTgsOCwwLDAsMCwyMTYsMjRaTTcyLDQwSDE3NlY4MGE4LDgsMCwwLDAsMTYsMFY0MGgxNnY2NEg0OFY2NEEyNCwyNCwwLDAsMSw3Miw0MFpNMjAwLDE0NEgxNTJhMTYsMTYsMCwwLDAtMTUuODQsMTguMjZsMCwuMkwxNDQsMjA4LjZhMTYsMTYsMCwwLDEtMzIsMGw3LjgtNDYuMTQsMC0uMkExNiwxNiwwLDAsMCwxMDQsMTQ0SDU2YTgsOCwwLDAsMS04LThWMTIwSDIwOHYxNkE4LDgsMCwwLDEsMjAwLDE0NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PaintBrushBroadIcon";
 
 /** @deprecated Use PaintBrushBroadIcon */
 export const PaintBrushBroad = I;
-export { I as PaintBrushBroadIcon };
+export { I as PaintBrushBroadIcon }

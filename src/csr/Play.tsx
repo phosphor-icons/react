@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Play";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIuNCwxMTQuNDksODguMzIsMjYuMzVhMTYsMTYsMCwwLDAtMTYuMi0uM0ExNS44NiwxNS44NiwwLDAsMCw2NCwzOS44N1YyMTYuMTNBMTUuOTQsMTUuOTQsMCwwLDAsODAsMjMyYTE2LjA3LDE2LjA3LDAsMCwwLDguMzYtMi4zNUwyMzIuNCwxNDEuNTFhMTUuODEsMTUuODEsMCwwLDAsMC0yN1pNODAsMjE1Ljk0VjQwbDE0My44Myw4OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PlayIcon";
 
 /** @deprecated Use PlayIcon */
 export const Play = I;
-export { I as PlayIcon };
+export { I as PlayIcon }

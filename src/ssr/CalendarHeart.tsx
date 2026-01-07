@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CalendarHeart";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJIMTg0VjI0YTgsOCwwLDAsMC0xNiwwdjhIODhWMjRhOCw4LDAsMCwwLTE2LDB2OEg0OEExNiwxNiwwLDAsMCwzMiw0OFYyMDhhMTYsMTYsMCwwLDAsMTYsMTZIMjA4YTE2LDE2LDAsMCwwLDE2LTE2VjQ4QTE2LDE2LDAsMCwwLDIwOCwzMlptMCwxNzZINDhWNDhINzJ2OGE4LDgsMCwwLDAsMTYsMFY0OGg4MHY4YTgsOCwwLDAsMCwxNiwwVjQ4aDI0VjIwOFpNMTUyLDg4YTMxLjkxLDMxLjkxLDAsMCwwLTI0LDEwLjg2QTMyLDMyLDAsMCwwLDcyLDEyMGMwLDM2LjUyLDUwLjI4LDYyLjA4LDUyLjQyLDYzLjE2YTgsOCwwLDAsMCw3LjE2LDBDMTMzLjcyLDE4Mi4wOCwxODQsMTU2LjUyLDE4NCwxMjBBMzIsMzIsMCwwLDAsMTUyLDg4Wm0tMjQsNzguOTNjLTEzLjc5LTcuNzktNDAtMjYuNzUtNDAtNDYuOTNhMTYsMTYsMCwwLDEsMzIsMCw4LDgsMCwwLDAsMTYsMCwxNiwxNiwwLDAsMSwzMiwwQzE2OCwxNDAuMTksMTQxLjc5LDE1OS4xNSwxMjgsMTY2LjkzWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CalendarHeartIcon";
 
 /** @deprecated Use CalendarHeartIcon */
 export const CalendarHeart = I;
-export { I as CalendarHeartIcon };
+export { I as CalendarHeartIcon }

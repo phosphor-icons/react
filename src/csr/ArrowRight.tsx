@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowRight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuNjYsMTMzLjY2bC03Miw3MmE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMTk2LjY5LDEzNkg0MGE4LDgsMCwwLDEsMC0xNkgxOTYuNjlMMTM4LjM0LDYxLjY2YTgsOCwwLDAsMSwxMS4zMi0xMS4zMmw3Miw3MkE4LDgsMCwwLDEsMjIxLjY2LDEzMy42NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ArrowRightIcon";
 
 /** @deprecated Use ArrowRightIcon */
 export const ArrowRight = I;
-export { I as ArrowRightIcon };
+export { I as ArrowRightIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Rainbow";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMTY4djE2YTgsOCwwLDAsMS0xNiwwVjE2OGE0MCw0MCwwLDAsMC04MCwwdjE2YTgsOCwwLDAsMS0xNiwwVjE2OGE1Niw1NiwwLDAsMSwxMTIsMFpNMTI4LDgwYTg4LjEsODguMSwwLDAsMC04OCw4OHYxNmE4LDgsMCwwLDAsMTYsMFYxNjhhNzIsNzIsMCwwLDEsMTQ0LDB2MTZhOCw4LDAsMCwwLDE2LDBWMTY4QTg4LjEsODguMSwwLDAsMCwxMjgsODBabTAtMzJBMTIwLjEzLDEyMC4xMywwLDAsMCw4LDE2OHYxNmE4LDgsMCwwLDAsMTYsMFYxNjhhMTA0LDEwNCwwLDAsMSwyMDgsMHYxNmE4LDgsMCwwLDAsMTYsMFYxNjhBMTIwLjEzLDEyMC4xMywwLDAsMCwxMjgsNDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "RainbowIcon";
 
 /** @deprecated Use RainbowIcon */
 export const Rainbow = I;
-export { I as RainbowIcon };
+export { I as RainbowIcon }

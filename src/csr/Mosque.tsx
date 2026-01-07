@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Mosque";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTIzLjg0LDIzLjg0LDAsMCwwLTgsMS4zOFYxMjhjMC00MS43OC0zMS4wNy02Mi40Ni01My43Ni03Ny41NkMxNDguMTYsNDEuMDYsMTM2LDMzLDEzNiwyNGE4LDgsMCwwLDAtMTYsMGMwLDktMTIuMTYsMTcuMDYtMjYuMjQsMjYuNDRDNzEuMDcsNjUuNTQsNDAsODYuMjIsNDAsMTI4djEuMzhBMjQsMjQsMCwwLDAsOCwxNTJ2NTZhOCw4LDAsMCwwLDgsOEg4MGE4LDgsMCwwLDAsOC04VjE3NmE4LDgsMCwwLDEsMTYsMHYzMmE4LDgsMCwwLDAsOCw4aDMyYTgsOCwwLDAsMCw4LThWMTc2YTgsOCwwLDAsMSwxNiwwdjMyYTgsOCwwLDAsMCw4LDhoNjRhOCw4LDAsMCwwLDgtOFYxNTJBMjQsMjQsMCwwLDAsMjI0LDEyOFpNMTAyLjYzLDYzLjc2YzkuNjctNi40NCwxOS0xMi42OCwyNS4zNy0yMCw2LjM0LDcuMzUsMTUuNywxMy41OSwyNS4zNywyMCwyMCwxMy4zMiw0Mi40OCwyOC4yOSw0Ni4xMSw1Ni4yNGgtMTQzQzYwLjE1LDkyLjA1LDgyLjYsNzcuMDgsMTAyLjYzLDYzLjc2Wk0yNCwxNTJhOCw4LDAsMCwxLDE2LDB2NDhIMjRabTEzNiwwYTI0LDI0LDAsMCwwLTI0LDI0djI0SDEyMFYxNzZhMjQsMjQsMCwwLDAtNDgsMHYyNEg1NlYxMzZIMjAwdjY0SDE4NFYxNzZBMjQsMjQsMCwwLDAsMTYwLDE1MlptNzIsNDhIMjE2VjE1MmE4LDgsMCwwLDEsMTYsMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "MosqueIcon";
 
 /** @deprecated Use MosqueIcon */
 export const Mosque = I;
-export { I as MosqueIcon };
+export { I as MosqueIcon }

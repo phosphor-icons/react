@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Stethoscope";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjAsMTYwYTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDIyMCwxNjBabS00LjU1LDM5LjI5QTQ4LjA4LDQ4LjA4LDAsMCwxLDE2OCwyNDBIMTQ0YTQ4LjA1LDQ4LjA1LDAsMCwxLTQ4LTQ4VjE1MS40OUE2NCw2NCwwLDAsMSw0MCw4OFY0MGE4LDgsMCwwLDEsOC04SDcyYTgsOCwwLDAsMSwwLDE2SDU2Vjg4YTQ4LDQ4LDAsMCwwLDQ4LjY0LDQ4YzI2LjExLS4zNCw0Ny4zNi0yMi4yNSw0Ny4zNi00OC44M1Y0OEgxMzZhOCw4LDAsMCwxLDAtMTZoMjRhOCw4LDAsMCwxLDgsOFY4Ny4xN2MwLDMyLjg0LTI0LjUzLDYwLjI5LTU2LDY0LjMxVjE5MmEzMiwzMiwwLDAsMCwzMiwzMmgyNGEzMi4wNiwzMi4wNiwwLDAsMCwzMS4yMi0yNSw0MCw0MCwwLDEsMSwxNi4yMy4yN1pNMjMyLDE2MGEyNCwyNCwwLDEsMC0yNCwyNEEyNCwyNCwwLDAsMCwyMzIsMTYwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "StethoscopeIcon";
 
 /** @deprecated Use StethoscopeIcon */
 export const Stethoscope = I;
-export { I as StethoscopeIcon };
+export { I as StethoscopeIcon }

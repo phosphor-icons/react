@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Boules";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm01Ni4yOCwzNi40MUw2MC40LDE4NC4yOEE4OC4zMyw4OC4zMywwLDAsMSw1MC4yMSwxNjkuMUwxNjkuMSw1MC4yMUE4Ny44LDg3LjgsMCwwLDEsMTg0LjI4LDYwLjQxWm0xMS4zMSwxMS4zMWE4Ny44LDg3LjgsMCwwLDEsMTAuMiwxNS4xOEw4Ni45LDIwNS43OWE4Ny44LDg3LjgsMCwwLDEtMTUuMTgtMTAuMlpNMTI4LDQwYTg3LjgxLDg3LjgxLDAsMCwxLDI1LjA1LDMuNjRMNDMuNjQsMTUzLjA1QTg4LDg4LDAsMCwxLDEyOCw0MFptMCwxNzZhODcuODEsODcuODEsMCwwLDEtMjUtMy42NEwyMTIuMzYsMTAzQTg4LDg4LDAsMCwxLDEyOCwyMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BoulesIcon";
 
 /** @deprecated Use BoulesIcon */
 export const Boules = I;
-export { I as BoulesIcon };
+export { I as BoulesIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SelectionForeground";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik02NCwyMTZhOCw4LDAsMCwxLTgsOEg0OGExNiwxNiwwLDAsMS0xNi0xNnYtOGE4LDgsMCwwLDEsMTYsMHY4aDhBOCw4LDAsMCwxLDY0LDIxNlptNDgtOEg5NmE4LDgsMCwwLDAsMCwxNmgxNmE4LDgsMCwwLDAsMC0xNlpNNDAsMTY4YTgsOCwwLDAsMCw4LThWMTQ0YTgsOCwwLDAsMC0xNiwwdjE2QTgsOCwwLDAsMCw0MCwxNjhabTEyOCwyNGE4LDgsMCwwLDAtOCw4djhoLThhOCw4LDAsMCwwLDAsMTZoOGExNiwxNiwwLDAsMCwxNi0xNnYtOEE4LDgsMCwwLDAsMTY4LDE5MlptMC04MGE4LDgsMCwwLDAsOC04Vjk2YTE2LDE2LDAsMCwwLTE2LTE2aC04YTgsOCwwLDAsMCwwLDE2aDh2OEE4LDgsMCwwLDAsMTY4LDExMlpNNTYsODBINDhBMTYsMTYsMCwwLDAsMzIsOTZ2OGE4LDgsMCwwLDAsMTYsMFY5Nmg4YTgsOCwwLDAsMCwwLTE2Wk0yMDgsMzJIOTZBMTYsMTYsMCwwLDAsODAsNDhWODhhNC40NCw0LjQ0LDAsMCwwLDAsLjU1QTgsOCwwLDAsMCw4OCw5NmgyNGE4LDgsMCwwLDAsMC0xNkg5NlY0OEgyMDhWMTYwSDE3NlYxNDRhOCw4LDAsMCwwLTE2LDB2MjRhOCw4LDAsMCwwLDgsOGg0MGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "SelectionForegroundIcon";
 
 /** @deprecated Use SelectionForegroundIcon */
 export const SelectionForeground = I;
-export { I as SelectionForegroundIcon };
+export { I as SelectionForegroundIcon }

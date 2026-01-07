@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CurrencyNgn";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTM2SDIwMFYxMjBoMTZhOCw4LDAsMCwwLDAtMTZIMjAwVjQ2YTgsOCwwLDAsMC0xNiwwdjU4SDExOS40Mkw3MC4zMSw0MS4wOEE4LDgsMCwwLDAsNTYsNDZ2NThINDBhOCw4LDAsMCwwLDAsMTZINTZ2MTZINDBhOCw4LDAsMCwwLDAsMTZINTZ2NThhOCw4LDAsMCwwLDE2LDBWMTUyaDY0LjU4bDQ5LjExLDYyLjkyQTgsOCwwLDAsMCwxOTIsMjE4YTcuOCw3LjgsMCwwLDAsMi42LS40NEE4LDgsMCwwLDAsMjAwLDIxMFYxNTJoMTZhOCw4LDAsMCwwLDAtMTZabS0zMi0xNnYxNkgxNDQuMzlMMTMxLjksMTIwWk03Miw2OS4yNSw5OS4xMiwxMDRINzJaTTcyLDEzNlYxMjBoMzkuNjFsMTIuNDksMTZabTExMiw1MC43NUwxNTYuODgsMTUySDE4NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CurrencyNgnIcon";
 
 /** @deprecated Use CurrencyNgnIcon */
 export const CurrencyNgn = I;
-export { I as CurrencyNgnIcon };
+export { I as CurrencyNgnIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MapPinSimpleArea";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjAsMTAzLjJWMTc2YTgsOCwwLDAsMCwxNiwwVjEwMy4yYTQwLDQwLDAsMSwwLTE2LDBaTTEyOCw0MGEyNCwyNCwwLDEsMS0yNCwyNEEyNCwyNCwwLDAsMSwxMjgsNDBaTTI0MCwxNzZjMCwzMS4xOC01Ny43MSw0OC0xMTIsNDhTMTYsMjA3LjE4LDE2LDE3NmMwLTcuNzQsMy44MS0xOS4xMywyMi0yOS40MSwxMi4yNi02Ljk0LDI5LjEyLTEyLjI3LDQ4Ljc3LTE1LjQyQTgsOCwwLDEsMSw4OS4yNywxNDdjLTE3LjU0LDIuODItMzMsNy42My00My40MiwxMy41NUMzNy4wNSwxNjUuNSwzMiwxNzEuMTQsMzIsMTc2YzAsMTMuMzYsMzYuNTIsMzIsOTYsMzJzOTYtMTguNjQsOTYtMzJjMC00Ljg2LTUuMDUtMTAuNS0xMy44NS0xNS40OS0xMC40Ni01LjkyLTI1Ljg4LTEwLjczLTQzLjQyLTEzLjU1YTgsOCwwLDEsMSwyLjU0LTE1Ljc5YzE5LjY1LDMuMTUsMzYuNTEsOC40OCw0OC43NywxNS40MkMyMzYuMTksMTU2Ljg3LDI0MCwxNjguMjYsMjQwLDE3NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "MapPinSimpleAreaIcon";
 
 /** @deprecated Use MapPinSimpleAreaIcon */
 export const MapPinSimpleArea = I;
-export { I as MapPinSimpleAreaIcon };
+export { I as MapPinSimpleAreaIcon }

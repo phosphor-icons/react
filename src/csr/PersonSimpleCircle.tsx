@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PersonSimpleCircle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlpNMTEyLDgwYTE2LDE2LDAsMSwxLDE2LDE2QTE2LDE2LDAsMCwxLDExMiw4MFptNzIsMzJhOCw4LDAsMCwxLTgsOEgxMzZ2MTMuNThsMzAuNjYsNDZhOCw4LDAsMCwxLTEzLjMyLDguODhsLTI1LjM0LTM4LTI1LjM0LDM4YTgsOCwwLDEsMS0xMy4zMi04Ljg4bDMwLjY2LTQ2VjEyMEg4MGE4LDgsMCwwLDEsMC0xNmg5NkE4LDgsMCwwLDEsMTg0LDExMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PersonSimpleCircleIcon";
 
 /** @deprecated Use PersonSimpleCircleIcon */
 export const PersonSimpleCircle = I;
-export { I as PersonSimpleCircleIcon };
+export { I as PersonSimpleCircleIcon }

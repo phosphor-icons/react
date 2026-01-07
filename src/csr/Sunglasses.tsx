@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Sunglasses";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBhOCw4LDAsMCwwLDAsMTYsMTYsMTYsMCwwLDEsMTYsMTZ2NTZINDBWNzJBMTYsMTYsMCwwLDEsNTYsNTZhOCw4LDAsMCwwLDAtMTZBMzIsMzIsMCwwLDAsMjQsNzJ2OTJhNDQsNDQsMCwwLDAsODgsMFYxNDRoMzJ2MjBhNDQsNDQsMCwwLDAsODgsMFY3MkEzMiwzMiwwLDAsMCwyMDAsNDBabTEyLjYzLDEzNy4zMUwxNzkuMzEsMTQ0SDIxNnYyMEEyNy44LDI3LjgsMCwwLDEsMjEyLjYzLDE3Ny4zMVpNNDAsMTY0VjE0Ny4zMWw0MS4zMSw0MS4zMkEyOCwyOCwwLDAsMSw0MCwxNjRabTU2LDBhMjcuOCwyNy44LDAsMCwxLTMuMzcsMTMuMzFMNTkuMzEsMTQ0SDk2Wm02NCwwVjE0Ny4zMWw0MS4zMSw0MS4zMkEyOCwyOCwwLDAsMSwxNjAsMTY0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SunglassesIcon";
 
 /** @deprecated Use SunglassesIcon */
 export const Sunglasses = I;
-export { I as SunglassesIcon };
+export { I as SunglassesIcon }

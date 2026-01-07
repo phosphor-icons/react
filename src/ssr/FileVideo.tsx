@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FileVideo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsODIuMzRsLTU2LTU2QTgsOCwwLDAsMCwxNTIsMjRINTZBMTYsMTYsMCwwLDAsNDAsNDB2NzJhOCw4LDAsMCwwLDE2LDBWNDBoODhWODhhOCw4LDAsMCwwLDgsOGg0OFYyMTZoLThhOCw4LDAsMCwwLDAsMTZoOGExNiwxNiwwLDAsMCwxNi0xNlY4OEE4LDgsMCwwLDAsMjEzLjY2LDgyLjM0Wk0xNjAsNTEuMzEsMTg4LjY5LDgwSDE2MFpNMTU1Ljg4LDE0NWE4LDgsMCwwLDAtOC4xMi4yMmwtMTkuOTUsMTIuNDZBMTYsMTYsMCwwLDAsMTEyLDE0NEg0OGExNiwxNiwwLDAsMC0xNiwxNnY0OGExNiwxNiwwLDAsMCwxNiwxNmg2NGExNiwxNiwwLDAsMCwxNS44MS0xMy42OGwxOS45NSwxMi40NkE4LDgsMCwwLDAsMTYwLDIxNlYxNTJBOCw4LDAsMCwwLDE1NS44OCwxNDVaTTExMiwyMDhINDhWMTYwaDY0djQ4Wm0zMi02LjQzLTE2LTEwVjE3Ni40M2wxNi0xMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "FileVideoIcon";
 
 /** @deprecated Use FileVideoIcon */
 export const FileVideo = I;
-export { I as FileVideoIcon };
+export { I as FileVideoIcon }

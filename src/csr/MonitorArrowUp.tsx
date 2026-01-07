@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MonitorArrowUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNDBINDhBMjQsMjQsMCwwLDAsMjQsNjRWMTc2YTI0LDI0LDAsMCwwLDI0LDI0SDIwOGEyNCwyNCwwLDAsMCwyNC0yNFY2NEEyNCwyNCwwLDAsMCwyMDgsNDBabTgsMTM2YTgsOCwwLDAsMS04LDhINDhhOCw4LDAsMCwxLTgtOFY2NGE4LDgsMCwwLDEsOC04SDIwOGE4LDgsMCwwLDEsOCw4Wm0tNDgsNDhhOCw4LDAsMCwxLTgsOEg5NmE4LDgsMCwwLDEsMC0xNmg2NEE4LDgsMCwwLDEsMTY4LDIyNFpNMTU3LjY2LDEwNi4zNGE4LDgsMCwwLDEtMTEuMzIsMTEuMzJMMTM2LDEwNy4zMVYxNTJhOCw4LDAsMCwxLTE2LDBWMTA3LjMxbC0xMC4zNCwxMC4zNWE4LDgsMCwwLDEtMTEuMzItMTEuMzJsMjQtMjRhOCw4LDAsMCwxLDExLjMyLDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "MonitorArrowUpIcon";
 
 /** @deprecated Use MonitorArrowUpIcon */
 export const MonitorArrowUp = I;
-export { I as MonitorArrowUpIcon };
+export { I as MonitorArrowUpIcon }

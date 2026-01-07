@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TruckTrailer";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsOTYuOFY5NmE1Ni4wNiw1Ni4wNiwwLDAsMC01Ni01NmgtOGExNiwxNiwwLDAsMC0xNiwxNlYxNzZIMTI4VjcyYTgsOCwwLDAsMC04LThIMTZBMTYsMTYsMCwwLDAsMCw4MFYxODRhMzIsMzIsMCwwLDAsNTYsMjEuMTNBMzIsMzIsMCwwLDAsMTExLDE5Mmg4MmEzMiwzMiwwLDAsMCw2My04VjEzNkE0MC4wNyw0MC4wNywwLDAsMCwyMjQsOTYuOFpNMTYwLDU2aDhhNDAsNDAsMCwwLDEsNDAsNDB2OGE4LDgsMCwwLDAsOCw4LDI0LDI0LDAsMCwxLDI0LDI0djIwLjMxQTMxLjcxLDMxLjcxLDAsMCwwLDIyNCwxNTJhMzIuMDYsMzIuMDYsMCwwLDAtMzEsMjRIMTYwWk0xMTIsODB2OTZoLTFhMzIsMzIsMCwwLDAtNTUtMTMuMTMsMzEuOSwzMS45LDAsMCwwLTQwLTYuNTZWODBaTTMyLDIwMGExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwzMiwyMDBabTQ4LDBhMTYsMTYsMCwxLDEsMTYtMTZBMTYsMTYsMCwwLDEsODAsMjAwWm0xNDQsMGExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwyMjQsMjAwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TruckTrailerIcon";
 
 /** @deprecated Use TruckTrailerIcon */
 export const TruckTrailer = I;
-export { I as TruckTrailerIcon };
+export { I as TruckTrailerIcon }

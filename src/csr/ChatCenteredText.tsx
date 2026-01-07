@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChatCenteredText";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCwxMDRhOCw4LDAsMCwxLDgtOGg2NGE4LDgsMCwwLDEsMCwxNkg5NkE4LDgsMCwwLDEsODgsMTA0Wm04LDQwaDY0YTgsOCwwLDAsMCwwLTE2SDk2YTgsOCwwLDAsMCwwLDE2Wk0yMzIsNTZWMTg0YTE2LDE2LDAsMCwxLTE2LDE2SDE1NS41N2wtMTMuNjgsMjMuOTRhMTYsMTYsMCwwLDEtMjcuNzgsMEwxMDAuNDMsMjAwSDQwYTE2LDE2LDAsMCwxLTE2LTE2VjU2QTE2LDE2LDAsMCwxLDQwLDQwSDIxNkExNiwxNiwwLDAsMSwyMzIsNTZabS0xNiwwSDQwVjE4NGg2NS4wN2E4LDgsMCwwLDEsNyw0bDE2LDI4LDE2LTI4YTgsOCwwLDAsMSw3LTRIMjE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ChatCenteredTextIcon";
 
 /** @deprecated Use ChatCenteredTextIcon */
 export const ChatCenteredText = I;
-export { I as ChatCenteredTextIcon };
+export { I as ChatCenteredTextIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/QrCode";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDQsNDBINTZBMTYsMTYsMCwwLDAsNDAsNTZ2NDhhMTYsMTYsMCwwLDAsMTYsMTZoNDhhMTYsMTYsMCwwLDAsMTYtMTZWNTZBMTYsMTYsMCwwLDAsMTA0LDQwWm0wLDY0SDU2VjU2aDQ4djQ4Wm0wLDMySDU2YTE2LDE2LDAsMCwwLTE2LDE2djQ4YTE2LDE2LDAsMCwwLDE2LDE2aDQ4YTE2LDE2LDAsMCwwLDE2LTE2VjE1MkExNiwxNiwwLDAsMCwxMDQsMTM2Wm0wLDY0SDU2VjE1Mmg0OHY0OFpNMjAwLDQwSDE1MmExNiwxNiwwLDAsMC0xNiwxNnY0OGExNiwxNiwwLDAsMCwxNiwxNmg0OGExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMDAsNDBabTAsNjRIMTUyVjU2aDQ4djQ4Wm0tNjQsNzJWMTQ0YTgsOCwwLDAsMSwxNiwwdjMyYTgsOCwwLDAsMS0xNiwwWm04MC0xNmE4LDgsMCwwLDEtOCw4SDE4NHY0MGE4LDgsMCwwLDEtOCw4SDE0NGE4LDgsMCwwLDEsMC0xNmgyNFYxNDRhOCw4LDAsMCwxLDE2LDB2OGgyNEE4LDgsMCwwLDEsMjE2LDE2MFptMCwzMnYxNmE4LDgsMCwwLDEtMTYsMFYxOTJhOCw4LDAsMCwxLDE2LDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "QrCodeIcon";
 
 /** @deprecated Use QrCodeIcon */
 export const QrCode = I;
-export { I as QrCodeIcon };
+export { I as QrCodeIcon }

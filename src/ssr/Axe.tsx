@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Axe";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTUuMTUsOTcuNzJBMTYsMTYsMCwwLDAsMjQyLDg2Ljk0YTEzNi40NiwxMzYuNDYsMCwwLDEtNTEuNjUtMThsMTAuMzEtMTAuM2EyNSwyNSwwLDAsMC0zNS4zMi0zNS4zMmwtMTMuMiwxMy4yMWMtMi4zMy0yLjgtMy44MS00Ljg0LTQuNDEtNS42OWExNiwxNiwwLDAsMC0yNC40MS0yLjE1TDg0LjY4LDY3LjM2YTE2LDE2LDAsMCwwLDIuMTQsMjQuNGMuODYuNiwyLjksMi4wOCw1LjcsNC40MUw3LjMxLDE4MS4zN2EyNSwyNSwwLDAsMCwzNS4zMiwzNS4zMmw4Mi4zLTgyLjMxYTEzNi42MywxMzYuNjMsMCwwLDEsMTgsNTEuNjUsMTYsMTYsMCwwLDAsMTAuNzcsMTMuMTIsMTYuMjEsMTYuMjEsMCwwLDAsNS4xNS44NSwxNS44OCwxNS44OCwwLDAsMCwxMS4yNi00LjY5bDgxLjE4LTgxLjE5QTE1Ljg2LDE1Ljg2LDAsMCwwLDI1NS4xNSw5Ny43MlpNMTc2LjY5LDM0LjYzYTksOSwwLDEsMSwxMi42OCwxMi42OEwxNzYuODIsNTkuODZBMTUyLjUsMTUyLjUsMCwwLDEsMTYzLjEsNDguMjFaTTMxLjMxLDIwNS4zN2E5LDksMCwxLDEtMTIuNjgtMTIuNjhsODUuNTgtODUuNThhMTUwLjg5LDE1MC44OSwwLDAsMSwxMS42NSwxMy43MVpNMTU4LjgsMTgzLjkyQzE1MCwxMTguMjksMTAxLjUyLDgyLjUyLDk2LDc4LjY3TDEzNC42Niw0MGMzLjg2LDUuNSwzOS42Myw1NCwxMDUuMjUsNjIuNzhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "AxeIcon";
 
 /** @deprecated Use AxeIcon */
 export const Axe = I;
-export { I as AxeIcon };
+export { I as AxeIcon }

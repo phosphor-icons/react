@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowSquareUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTAsMTc2SDQ4VjQ4SDIwOFpNOTAuMzQsMTI1LjY2YTgsOCwwLDAsMSwwLTExLjMybDMyLTMyYTgsOCwwLDAsMSwxMS4zMiwwbDMyLDMyYTgsOCwwLDAsMS0xMS4zMiwxMS4zMkwxMzYsMTA3LjMxVjE2OGE4LDgsMCwwLDEtMTYsMFYxMDcuMzFsLTE4LjM0LDE4LjM1QTgsOCwwLDAsMSw5MC4zNCwxMjUuNjZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ArrowSquareUpIcon";
 
 /** @deprecated Use ArrowSquareUpIcon */
 export const ArrowSquareUp = I;
-export { I as ArrowSquareUpIcon };
+export { I as ArrowSquareUpIcon }

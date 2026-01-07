@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Golf";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMTAwYTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE3NiwxMDBabS00NCwyMGExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCwxMzIsMTIwWm04NC0yNEE4OCw4OCwwLDEsMSwxMjgsOCw4OC4xLDg4LjEsMCwwLDEsMjE2LDk2Wm0tMTYsMGE3Miw3MiwwLDEsMC03Miw3MkE3Mi4wOCw3Mi4wOCwwLDAsMCwyMDAsOTZabS0zNC44Niw5Ni41M0MxNTIsMTk3LjU2LDEzOS44NSwyMDAsMTI4LDIwMHMtMjQtMi40NC0zNy4xNC03LjQ3YTgsOCwwLDEsMC01LjcyLDE0Ljk0QTEyNS45MSwxMjUuOTEsMCwwLDAsMTIwLDIxNS42OFYyNDhhOCw4LDAsMCwwLDE2LDBWMjE1LjY4YTEyNS45MSwxMjUuOTEsMCwwLDAsMzQuODYtOC4yMSw4LDgsMCwxLDAtNS43Mi0xNC45NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "GolfIcon";
 
 /** @deprecated Use GolfIcon */
 export const Golf = I;
-export { I as GolfIcon };
+export { I as GolfIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Moped";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTI4YTM5LjMsMzkuMywwLDAsMC02LjI3LjVMMTc1LjQ5LDM3LjE5QTgsOCwwLDAsMCwxNjgsMzJIMTM2YTgsOCwwLDAsMCwwLDE2aDI2LjQ2bDMyLjMsODYuMTNhNDAuMTMsNDAuMTMsMCwwLDAtMTgsMjUuODdIMTM2LjU0bC0yNS02Ni44MUE4LDgsMCwwLDAsMTA0LDg4SDI0YTgsOCwwLDAsMCwwLDE2aDh2MTMuMzlBNTYuMTIsNTYuMTIsMCwwLDAsMCwxNjhhOCw4LDAsMCwwLDgsOGg4LjhhNDAsNDAsMCwwLDAsNzguNCwwaDgxLjZBNDAsNDAsMCwxLDAsMjE2LDEyOFpNNDIuNjcsMTMwLjI3QTgsOCwwLDAsMCw0OCwxMjIuNzNWMTA0SDk4LjQ2bDIxLDU2SDE2LjgxQTQwLjA3LDQwLjA3LDAsMCwxLDQyLjY3LDEzMC4yN1pNNTYsMTkyYTI0LDI0LDAsMCwxLTIyLjYyLTE2SDc4LjYyQTI0LDI0LDAsMCwxLDU2LDE5MlptMTYwLDBhMjQsMjQsMCwwLDEtMTUuNDMtNDIuMzZsNy45NCwyMS4xN2E4LDgsMCwwLDAsMTUtNS42MkwyMTUuNTUsMTQ0SDIxNmEyNCwyNCwwLDAsMSwwLDQ4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "MopedIcon";
 
 /** @deprecated Use MopedIcon */
 export const Moped = I;
-export { I as MopedIcon };
+export { I as MopedIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MicrosoftWordLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMjRINzJBMTYsMTYsMCwwLDAsNTYsNDBWNjRINDBBMTYsMTYsMCwwLDAsMjQsODB2OTZhMTYsMTYsMCwwLDAsMTYsMTZINTZ2MjRhMTYsMTYsMCwwLDAsMTYsMTZIMjAwYTE2LDE2LDAsMCwwLDE2LTE2VjQwQTE2LDE2LDAsMCwwLDIwMCwyNFptLTQwLDgwaDQwdjQ4SDE2MFpNNzIsNDBIMjAwVjg4SDE2MFY4MGExNiwxNiwwLDAsMC0xNi0xNkg3MlpNNDAsODBIMTQ0djc5LjgzYzAsLjA2LDAsLjExLDAsLjE3czAsLjExLDAsLjE3VjE3Nkg0MFpNNzIsMjE2VjE5Mmg3MmExNiwxNiwwLDAsMCwxNi0xNnYtOGg0MHY0OFptLTMuNzYtNjIuMDYtMTItNDhhOCw4LDAsMSwxLDE1LjUyLTMuODhsNi43NiwyNyw2LjMyLTEyLjY2YTgsOCwwLDAsMSwxNC4zMiwwbDYuMzIsMTIuNjYsNi43Ni0yN2E4LDgsMCwwLDEsMTUuNTIsMy44OGwtMTIsNDhhOCw4LDAsMCwxLTYuODksNiw4LjQ2LDguNDYsMCwwLDEtLjg3LjA1LDgsOCwwLDAsMS03LjE2LTQuNDJMOTIsMTM3Ljg5bC04Ljg0LDE3LjY5YTgsOCwwLDAsMS0xNC45Mi0xLjY0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "MicrosoftWordLogoIcon";
 
 /** @deprecated Use MicrosoftWordLogoIcon */
 export const MicrosoftWordLogo = I;
-export { I as MicrosoftWordLogoIcon };
+export { I as MicrosoftWordLogoIcon }

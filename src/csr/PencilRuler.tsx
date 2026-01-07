@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PencilRuler";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJIMTYwYTE2LDE2LDAsMCwwLTE2LDE2VjIwOGExNiwxNiwwLDAsMCwxNiwxNmg0OGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTAsMTc2SDE2MFYxNzZoMjRhOCw4LDAsMCwwLDAtMTZIMTYwVjEzNmgyNGE4LDgsMCwwLDAsMC0xNkgxNjBWOTZoMjRhOCw4LDAsMCwwLDAtMTZIMTYwVjQ4aDQ4VjIwOFpNNzcuNjYsMjYuMzRhOCw4LDAsMCwwLTExLjMyLDBsLTMyLDMyQTgsOCwwLDAsMCwzMiw2NFYyMDhhMTYsMTYsMCwwLDAsMTYsMTZIOTZhMTYsMTYsMCwwLDAsMTYtMTZWNjRhOCw4LDAsMCwwLTIuMzQtNS42NlpNNDgsMTc2VjgwSDY0djk2Wk04MCw4MEg5NnY5Nkg4MFpNNzIsNDMuMzEsOTIuNjksNjRINTEuMzFaTTQ4LDIwOFYxOTJIOTZ2MTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "PencilRulerIcon";
 
 /** @deprecated Use PencilRulerIcon */
 export const PencilRuler = I;
-export { I as PencilRulerIcon };
+export { I as PencilRulerIcon }

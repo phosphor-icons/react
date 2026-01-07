@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AlignRight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDBWMjE2YTgsOCwwLDAsMS0xNiwwVjQwYTgsOCwwLDAsMSwxNiwwWk0xOTIsNjR2NDBhMTYsMTYsMCwwLDEtMTYsMTZIODBhMTYsMTYsMCwwLDEtMTYtMTZWNjRBMTYsMTYsMCwwLDEsODAsNDhoOTZBMTYsMTYsMCwwLDEsMTkyLDY0Wm0tMTYsMEg4MHY0MGg5NlptMTYsODh2NDBhMTYsMTYsMCwwLDEtMTYsMTZINDBhMTYsMTYsMCwwLDEtMTYtMTZWMTUyYTE2LDE2LDAsMCwxLDE2LTE2SDE3NkExNiwxNiwwLDAsMSwxOTIsMTUyWm0tMTYsMEg0MHY0MEgxNzZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "AlignRightIcon";
 
 /** @deprecated Use AlignRightIcon */
 export const AlignRight = I;
-export { I as AlignRightIcon };
+export { I as AlignRightIcon }

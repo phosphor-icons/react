@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CloudSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01My45MiwzNC42MkE4LDgsMCwxLDAsNDIuMDgsNDUuMzhMODEuMzIsODguNTVsLS4wNi4xMkE2NSw2NSwwLDAsMCw3Miw4OGE2NCw2NCwwLDAsMCwwLDEyOGg4OGE4Ny4zNCw4Ny4zNCwwLDAsMCwzMS44LTUuOTNsMTAuMjgsMTEuMzFhOCw4LDAsMSwwLDExLjg0LTEwLjc2Wk0xNjAsMjAwSDcyYTQ4LDQ4LDAsMCwxLDAtOTZjMS4xLDAsMi4yLDAsMy4zLjEyQTg4LjQsODguNCwwLDAsMCw3MiwxMjhhOCw4LDAsMCwwLDE2LDAsNzIuMjUsNzIuMjUsMCwwLDEsNS4wNi0yNi41NGw4Nyw5NS43QTcxLjY2LDcxLjY2LDAsMCwxLDE2MCwyMDBabTg4LTcyYTg3Ljg5LDg3Ljg5LDAsMCwxLTIyLjM1LDU4LjYxQTgsOCwwLDAsMSwyMTMuNzEsMTc2LDcyLDcyLDAsMCwwLDExNy4zNyw3MGE4LDgsMCwwLDEtOS40OC0xMi44OUE4OCw4OCwwLDAsMSwyNDgsMTI4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CloudSlashIcon";
 
 /** @deprecated Use CloudSlashIcon */
 export const CloudSlash = I;
-export { I as CloudSlashIcon };
+export { I as CloudSlashIcon }

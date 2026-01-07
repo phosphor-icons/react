@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/NumberTwo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMjA4YTgsOCwwLDAsMS04LDhIODhhOCw4LDAsMCwxLTYuNC0xMi44bDcxLjk0LTk1LjkyYTMyLDMyLDAsMSwwLTUxLjEtMzguNTMsMzIuNSwzMi41LDAsMCwwLTMuNzgsNi40NkE4LDgsMCwxLDEsODQsNjguOGE0OCw0OCwwLDEsMSw4Mi4zMyw0OC4wOUwxMDQsMjAwaDY0QTgsOCwwLDAsMSwxNzYsMjA4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "NumberTwoIcon";
 
 /** @deprecated Use NumberTwoIcon */
 export const NumberTwo = I;
-export { I as NumberTwoIcon };
+export { I as NumberTwoIcon }

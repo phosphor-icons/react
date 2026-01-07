@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PhosphorLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsMzJINzJhOCw4LDAsMCwwLTgsOFYxNjhhODAuMDksODAuMDksMCwwLDAsODAsODAsOCw4LDAsMCwwLDgtOFYxNzZhNzIsNzIsMCwwLDAsMC0xNDRaTTgwLDcwLjU0LDEzMC4zMiwxNjBIODBabTU2LDY2LjkyTDg1LjY4LDQ4SDEzNlpNODAuNTEsMTc2SDEzNnY1NS41QTY0LjE0LDY0LjE0LDAsMCwxLDgwLjUxLDE3NlpNMTUyLDE2MFY0OGE1Niw1NiwwLDAsMSwwLDExMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PhosphorLogoIcon";
 
 /** @deprecated Use PhosphorLogoIcon */
 export const PhosphorLogo = I;
-export { I as PhosphorLogoIcon };
+export { I as PhosphorLogoIcon }

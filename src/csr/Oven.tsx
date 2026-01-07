@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Oven";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTAsMTc2SDQ4VjQ4SDIwOFYyMDhaTTcyLDc2QTEyLDEyLDAsMSwxLDg0LDg4LDEyLDEyLDAsMCwxLDcyLDc2Wm00NCwwYTEyLDEyLDAsMSwxLDEyLDEyQTEyLDEyLDAsMCwxLDExNiw3NlptNDQsMGExMiwxMiwwLDEsMSwxMiwxMkExMiwxMiwwLDAsMSwxNjAsNzZabTI0LDI4SDcyYTgsOCwwLDAsMC04LDh2NzJhOCw4LDAsMCwwLDgsOEgxODRhOCw4LDAsMCwwLDgtOFYxMTJBOCw4LDAsMCwwLDE4NCwxMDRabS04LDcySDgwVjEyMGg5NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "OvenIcon";
 
 /** @deprecated Use OvenIcon */
 export const Oven = I;
-export { I as OvenIcon };
+export { I as OvenIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SneakerMove";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzEuMTYsMTY2LjYzbC0yOC42My0xNC4zMUE0Ny43NCw0Ny43NCwwLDAsMSwxNzYsMTA5LjM5VjgwYTgsOCwwLDAsMC04LTgsNDguMDUsNDguMDUsMCwwLDEtNDgtNDgsOCw4LDAsMCwwLTEyLjgzLTYuMzdMMzAuMTMsNzZsLS4yLjE2YTE2LDE2LDAsMCwwLTEuMjQsMjMuNzVMMTQyLjQsMjEzLjY2YTgsOCwwLDAsMCw1LjY2LDIuMzRIMjI0YTE2LDE2LDAsMCwwLDE2LTE2VjE4MC45NEExNS45MiwxNS45MiwwLDAsMCwyMzEuMTYsMTY2LjYzWk0yMjQsMjAwSDE1MS4zN0w0MCw4OC42M2wxMi44Ny05Ljc2LDM4Ljc5LDM4Ljc5QTgsOCwwLDAsMCwxMDMsMTA2LjM0TDY1Ljc0LDY5LjExbDQwLTMwLjMxQTY0LjE1LDY0LjE1LDAsMCwwLDE2MCw4Ny41djIxLjg5YTYzLjY1LDYzLjY1LDAsMCwwLDM1LjM4LDU3LjI0TDIyNCwxODAuOTRaTTcwLjgsMTg0SDMyYTgsOCwwLDAsMSwwLTE2SDcwLjhhOCw4LDAsMSwxLDAsMTZabTQwLDI0YTgsOCwwLDAsMS04LDhINDhhOCw4LDAsMCwxLDAtMTZoNTQuOEE4LDgsMCwwLDEsMTEwLjgsMjA4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SneakerMoveIcon";
 
 /** @deprecated Use SneakerMoveIcon */
 export const SneakerMove = I;
-export { I as SneakerMoveIcon };
+export { I as SneakerMoveIcon }

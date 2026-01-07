@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GoogleChromeLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE2YTg4LDg4LDAsMCwxLDczLjcyLDQwSDEyOGE0OC4wOCw0OC4wOCwwLDAsMC00NS42LDMzbC0yMy4wOC00MEE4Ny44OSw4Ny44OSwwLDAsMSwxMjgsNDBabTMyLDg4YTMyLDMyLDAsMSwxLTMyLTMyQTMyLDMyLDAsMCwxLDE2MCwxMjhaTTQwLDEyOGE4Ny40NCw4Ny40NCwwLDAsMSw5LjU2LTM5Ljg2TDg2LjQzLDE1MmMuMDYuMS4xMy4xOS4xOS4yOEE0OCw0OCwwLDAsMCwxMzcuODIsMTc1bC0yMy4xLDQwQTg4LjE0LDg4LjE0LDAsMCwxLDQwLDEyOFptOTIuNjksODcuODdMMTY5LjU3LDE1MmMuMDgtLjE0LjE0LS4yOC4yMi0uNDJhNDcuODgsNDcuODgsMCwwLDAtNi01NS41OEgyMTBhODgsODgsMCwwLDEtNzcuMjksMTE5Ljg3WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "GoogleChromeLogoIcon";
 
 /** @deprecated Use GoogleChromeLogoIcon */
 export const GoogleChromeLogo = I;
-export { I as GoogleChromeLogoIcon };
+export { I as GoogleChromeLogoIcon }

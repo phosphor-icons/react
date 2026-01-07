@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MarkerCircle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDEuNTQsNTQuNDZBMTA0LDEwNCwwLDAsMCw1NC40NiwyMDEuNTQsMTA0LDEwNCwwLDAsMCwyMDEuNTQsNTQuNDZaTTg4LDIwNi4zN1YxNzZoODB2MzAuMzdBODguMzgsODguMzgsMCwwLDEsODgsMjA2LjM3Wk0xMDQsMTQ0aDQ4djE2SDEwNFptMTQtMTYsMTAtNDhoMGwxMCw0OFptNzIuMjIsNjIuMjNjLTIsMi00LjA4LDMuODctNi4yMiw1LjY0VjE3NmExNiwxNiwwLDAsMC0xNi0xNlYxNDRhMTYsMTYsMCwwLDAtMTMuNjEtMTUuOEwxNDMuNjYsNzYuNzRhMTYsMTYsMCwwLDAtMzEuMzIsMEwxMDEuNjEsMTI4LjJBMTYsMTYsMCwwLDAsODgsMTQ0djE2YTE2LDE2LDAsMCwwLTE2LDE2djE5Ljg3Yy0yLjE0LTEuNzctNC4yMi0zLjY0LTYuMjItNS42NGE4OCw4OCwwLDEsMSwxMjQuNDQsMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "MarkerCircleIcon";
 
 /** @deprecated Use MarkerCircleIcon */
 export const MarkerCircle = I;
-export { I as MarkerCircleIcon };
+export { I as MarkerCircleIcon }

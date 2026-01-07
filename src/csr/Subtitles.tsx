@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Subtitles";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhIMzJBMTYsMTYsMCwwLDAsMTYsNjRWMTkyYTE2LDE2LDAsMCwwLDE2LDE2SDIyNGExNiwxNiwwLDAsMCwxNi0xNlY2NEExNiwxNiwwLDAsMCwyMjQsNDhabTAsMTQ0SDMyVjY0SDIyNFYxOTJaTTQ4LDEzNmE4LDgsMCwwLDEsOC04SDcyYTgsOCwwLDAsMSwwLDE2SDU2QTgsOCwwLDAsMSw0OCwxMzZabTE2MCwwYTgsOCwwLDAsMS04LDhIMTA0YTgsOCwwLDAsMSwwLTE2aDk2QTgsOCwwLDAsMSwyMDgsMTM2Wm0tNDgsMzJhOCw4LDAsMCwxLTgsOEg1NmE4LDgsMCwwLDEsMC0xNmg5NkE4LDgsMCwwLDEsMTYwLDE2OFptNDgsMGE4LDgsMCwwLDEtOCw4SDE4NGE4LDgsMCwwLDEsMC0xNmgxNkE4LDgsMCwwLDEsMjA4LDE2OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "SubtitlesIcon";
 
 /** @deprecated Use SubtitlesIcon */
 export const Subtitles = I;
-export { I as SubtitlesIcon };
+export { I as SubtitlesIcon }

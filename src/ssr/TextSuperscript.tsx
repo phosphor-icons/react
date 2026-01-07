@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TextSuperscript";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMTQ0YTgsOCwwLDAsMS04LDhIMTkyYTgsOCwwLDAsMS02LjQtMTIuOGw0My4xNy01Ny41NWExNiwxNiwwLDEsMC0yNy44Ni0xNSw4LDgsMCwwLDEtMTUuMDktNS4zMywzMiwzMiwwLDEsMSw1NS43NCwyOS45MkwyMDgsMTM2aDMyQTgsOCwwLDAsMSwyNDgsMTQ0Wk0xNDkuMjQsNzRhOCw4LDAsMCwwLTExLjI5LjhMOTIsMTI3Ljc5bC00NS45NS01M0E4LDgsMCwwLDAsMzQsODUuMjRMODEuNDEsMTQwLDM0LDE5NC43NmE4LDgsMCwwLDAsMTIuMSwxMC40OGw0Ni01Myw0NS45NSw1M2E4LDgsMCwxLDAsMTIuMS0xMC40OEwxMDIuNTksMTQwbDQ3LjQ2LTU0Ljc2QTgsOCwwLDAsMCwxNDkuMjQsNzRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "TextSuperscriptIcon";
 
 /** @deprecated Use TextSuperscriptIcon */
 export const TextSuperscript = I;
-export { I as TextSuperscriptIcon };
+export { I as TextSuperscriptIcon }

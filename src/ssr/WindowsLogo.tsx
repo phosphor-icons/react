@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/WindowsLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTM2SDEyOGE4LDgsMCwwLDAtOCw4djU3LjQ1YTgsOCwwLDAsMCw2LjU3LDcuODhsODAsMTQuNTRBNy42MSw3LjYxLDAsMCwwLDIwOCwyMjRhOCw4LDAsMCwwLDgtOFYxNDRBOCw4LDAsMCwwLDIwOCwxMzZabS04LDcwLjQxLTY0LTExLjYzVjE1Mmg2NFpNOTYsMTM2SDMyYTgsOCwwLDAsMC04LDh2NDBhOCw4LDAsMCwwLDYuNTcsNy44N2w2NCwxMS42NGE4LjU0LDguNTQsMCwwLDAsMS40My4xMyw4LDgsMCwwLDAsOC04VjE0NEE4LDgsMCwwLDAsOTYsMTM2Wm0tOCw1MC4wNS00OC04LjczVjE1Mkg4OFpNMjEzLjEzLDMzLjg2YTgsOCwwLDAsMC02LjU2LTEuNzNsLTgwLDE0LjU1QTgsOCwwLDAsMCwxMjAsNTQuNTVWMTEyYTgsOCwwLDAsMCw4LDhoODBhOCw4LDAsMCwwLDgtOFY0MEE4LDgsMCwwLDAsMjEzLjEzLDMzLjg2Wk0yMDAsMTA0SDEzNlY2MS4yMmw2NC0xMS42M1pNMTAxLjEzLDU0LjIyYTgsOCwwLDAsMC02LjU2LTEuNzNsLTY0LDExLjY0QTgsOCwwLDAsMCwyNCw3MnY0MGE4LDgsMCwwLDAsOCw4SDk2YTgsOCwwLDAsMCw4LThWNjAuMzZBOCw4LDAsMCwwLDEwMS4xMyw1NC4yMlpNODgsMTA0SDQwVjc4LjY4TDg4LDcwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "WindowsLogoIcon";
 
 /** @deprecated Use WindowsLogoIcon */
 export const WindowsLogo = I;
-export { I as WindowsLogoIcon };
+export { I as WindowsLogoIcon }

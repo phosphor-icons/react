@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Peace";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm04OCwxMDRhODcuNDgsODcuNDgsMCwwLDEtMTEuNjQsNDMuN0wxMzYsMTIzLjg0VjQwLjM3QTg4LjExLDg4LjExLDAsMCwxLDIxNiwxMjhaTTEyMCw0MC4zN3Y4My40N0w1MS42NCwxNzEuN0E4OCw4OCwwLDAsMSwxMjAsNDAuMzdaTTYwLjg0LDE4NC43OSwxMjAsMTQzLjM3djcyLjI2QTg3Ljg1LDg3Ljg1LDAsMCwxLDYwLjg0LDE4NC43OVpNMTM2LDIxNS42M1YxNDMuMzdsNTkuMTYsNDEuNDJBODcuODUsODcuODUsMCwwLDEsMTM2LDIxNS42M1oiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PeaceIcon";
 
 /** @deprecated Use PeaceIcon */
 export const Peace = I;
-export { I as PeaceIcon };
+export { I as PeaceIcon }

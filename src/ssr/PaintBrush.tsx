@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PaintBrush";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMzJhOCw4LDAsMCwwLTgtOGMtNDQuMDgsMC04OS4zMSw0OS43MS0xMTQuNDMsODIuNjNBNjAsNjAsMCwwLDAsMzIsMTY0YzAsMzAuODgtMTkuNTQsNDQuNzMtMjAuNDcsNDUuMzdBOCw4LDAsMCwwLDE2LDIyNEg5MmE2MCw2MCwwLDAsMCw1Ny4zNy03Ny41N0MxODIuMywxMjEuMzEsMjMyLDc2LjA4LDIzMiwzMlpNOTIsMjA4SDM0LjYzQzQxLjM4LDE5OC40MSw0OCwxODMuOTIsNDgsMTY0YTQ0LDQ0LDAsMSwxLDQ0LDQ0Wm0zMi40Mi05NC40NXE1LjE0LTYuNjYsMTAuMDktMTIuNTVBNzYuMjMsNzYuMjMsMCwwLDEsMTU1LDEyMS40OXEtNS45LDQuOTQtMTIuNTUsMTAuMDlBNjAuNTQsNjAuNTQsMCwwLDAsMTI0LjQyLDExMy41NVptNDIuNy0yLjY4YTkyLjU3LDkyLjU3LDAsMCwwLTIyLTIyYzMxLjc4LTM0LjUzLDU1Ljc1LTQ1LDY5LjktNDcuOTFDMjEyLjE3LDU1LjEyLDIwMS42NSw3OS4wOSwxNjcuMTIsMTEwLjg3WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PaintBrushIcon";
 
 /** @deprecated Use PaintBrushIcon */
 export const PaintBrush = I;
-export { I as PaintBrushIcon };
+export { I as PaintBrushIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GitPullRequest";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDQsNjRBMzIsMzIsMCwxLDAsNjQsOTV2NjZhMzIsMzIsMCwxLDAsMTYsMFY5NUEzMi4wNiwzMi4wNiwwLDAsMCwxMDQsNjRaTTU2LDY0QTE2LDE2LDAsMSwxLDcyLDgwLDE2LDE2LDAsMCwxLDU2LDY0Wk04OCwxOTJhMTYsMTYsMCwxLDEtMTYtMTZBMTYsMTYsMCwwLDEsODgsMTkyWm0xMjAtMzFWMTEwLjYzYTIzLjg1LDIzLjg1LDAsMCwwLTctMTdMMTYzLjMxLDU2SDE5MmE4LDgsMCwwLDAsMC0xNkgxNDRhOCw4LDAsMCwwLTgsOFY5NmE4LDgsMCwwLDAsMTYsMFY2Ny4zMUwxODkuNjYsMTA1YTgsOCwwLDAsMSwyLjM0LDUuNjZWMTYxYTMyLDMyLDAsMSwwLDE2LDBabS04LDQ3YTE2LDE2LDAsMSwxLDE2LTE2QTE2LDE2LDAsMCwxLDIwMCwyMDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "GitPullRequestIcon";
 
 /** @deprecated Use GitPullRequestIcon */
 export const GitPullRequest = I;
-export { I as GitPullRequestIcon };
+export { I as GitPullRequestIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HourglassSimpleHigh";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTEuMTgsMTk2LjU2LDEzOS41NywxMjhsNzEuNjEtNjguNTZhMS41OSwxLjU5LDAsMCwxLC4xMy0uMTNBMTYsMTYsMCwwLDAsMjAwLDMySDU2QTE2LDE2LDAsMCwwLDQ0LjcsNTkuMzFsLjEyLjEzTDExNi40MywxMjgsNDQuODIsMTk2LjU2bC0uMTIuMTNBMTYsMTYsMCwwLDAsNTYsMjI0SDIwMGExNiwxNiwwLDAsMCwxMS4zMi0yNy4zMUExLjU5LDEuNTksMCwwLDEsMjExLjE4LDE5Ni41NlpNNTYsNDhoMHYwWk04OS40Myw4MGg3Ny4xNEwxMjgsMTE2LjkyWk0yMDAsNDhsLTE2LjcsMTZINzIuNzJMNTYsNDhaTTU2LDIwOGw3Mi02OC45MkwyMDAsMjA4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "HourglassSimpleHighIcon";
 
 /** @deprecated Use HourglassSimpleHighIcon */
 export const HourglassSimpleHigh = I;
-export { I as HourglassSimpleHighIcon };
+export { I as HourglassSimpleHighIcon }

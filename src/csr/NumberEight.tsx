@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NumberEight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTUuNTUsMTE5LjI3YTQ4LDQ4LDAsMSwwLTU1LjEsMCw1Niw1NiwwLDEsMCw1NS4xLDBaTTk2LDgwYTMyLDMyLDAsMSwxLDMyLDMyQTMyLDMyLDAsMCwxLDk2LDgwWm0zMiwxMjhhNDAsNDAsMCwxLDEsNDAtNDBBNDAsNDAsMCwwLDEsMTI4LDIwOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "NumberEightIcon";
 
 /** @deprecated Use NumberEightIcon */
 export const NumberEight = I;
-export { I as NumberEightIcon };
+export { I as NumberEightIcon }

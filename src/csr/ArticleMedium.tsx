@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArticleMedium";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01NiwxMzZhOCw4LDAsMCwxLTgsOEgyNGE4LDgsMCwwLDEsMC0xNmg4VjY0SDI0YTgsOCwwLDAsMSwwLTE2SDQwdjBhOCw4LDAsMCwxLDYuNzgsMy43NEw4MCwxMDQuOTFsMzMuMjItNTMuMTVBOCw4LDAsMCwxLDEyMCw0OHYwaDE2YTgsOCwwLDAsMSwwLDE2aC04djY0aDhhOCw4LDAsMCwxLDAsMTZIMTEyYTgsOCwwLDAsMSwwLTE2VjgzLjg5TDg2Ljc4LDEyNC4yNGE4LDgsMCwwLDEtMTMuNTYsMEw0OCw4My44OVYxMjhBOCw4LDAsMCwxLDU2LDEzNlptMTEyLTI0aDY0YTgsOCwwLDAsMCwwLTE2SDE2OGE4LDgsMCwwLDAsMCwxNlptNjQsMTZIMTY4YTgsOCwwLDAsMCwwLDE2aDY0YTgsOCwwLDAsMCwwLTE2Wm0wLDMySDgwYTgsOCwwLDAsMCwwLDE2SDIzMmE4LDgsMCwwLDAsMC0xNlptMCwzMkg4MGE4LDgsMCwwLDAsMCwxNkgyMzJhOCw4LDAsMCwwLDAtMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ArticleMediumIcon";
 
 /** @deprecated Use ArticleMediumIcon */
 export const ArticleMedium = I;
-export { I as ArticleMediumIcon };
+export { I as ArticleMediumIcon }

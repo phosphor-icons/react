@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PushPin";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzUuMzIsODEuMzcsMTc0LjYzLDIwLjY5YTE2LDE2LDAsMCwwLTIyLjYzLDBMOTguMzcsNzQuNDljLTEwLjY2LTMuMzQtMzUtNy4zNy02MC40LDEzLjE0YTE2LDE2LDAsMCwwLTEuMjksMjMuNzhMODUsMTU5LjcxLDQyLjM0LDIwMi4zNGE4LDgsMCwwLDAsMTEuMzIsMTEuMzJMOTYuMjksMTcxbDQ4LjI5LDQ4LjI5QTE2LDE2LDAsMCwwLDE1NS45LDIyNGMuMzgsMCwuNzUsMCwxLjEzLDBhMTUuOTMsMTUuOTMsMCwwLDAsMTEuNjQtNi4zM2MxOS42NC0yNi4xLDE3Ljc1LTQ3LjMyLDEzLjE5LTYwTDIzNS4zMywxMDRBMTYsMTYsMCwwLDAsMjM1LjMyLDgxLjM3Wk0yMjQsOTIuNjloMGwtNTcuMjcsNTcuNDZhOCw4LDAsMCwwLTEuNDksOS4yMmM5LjQ2LDE4LjkzLTEuOCwzOC41OS05LjM0LDQ4LjYyTDQ4LDEwMC4wOGMxMi4wOC05Ljc0LDIzLjY0LTEyLjMxLDMyLjQ4LTEyLjMxQTQwLjEzLDQwLjEzLDAsMCwxLDk2LjgxLDkxYTgsOCwwLDAsMCw5LjI1LTEuNTFMMTYzLjMyLDMyLDIyNCw5Mi42OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PushPinIcon";
 
 /** @deprecated Use PushPinIcon */
 export const PushPin = I;
-export { I as PushPinIcon };
+export { I as PushPinIcon }

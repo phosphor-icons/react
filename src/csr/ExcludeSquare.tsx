@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ExcludeSquare";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTYwVjk2YTgsOCwwLDAsMC04LThIMTY4VjQwYTgsOCwwLDAsMC04LThINDBhOCw4LDAsMCwwLTgsOFY5NmgwdjY0YTgsOCwwLDAsMCw4LDhIODh2NDhhOCw4LDAsMCwwLDgsOEgyMTZhOCw4LDAsMCwwLDgtOFYxNjBabS02MC42OSw0OC00MC00MGgzMy4zOGw0MCw0MFpNNDgsNTkuMzFsNDAsNDB2MzMuMzhsLTQwLTQwWk05Mi42OSw0OGw0MCw0MEg5OS4zMWwtNDAtNDBaTTEwNCwxNTJoMFYxMDRoNDh2NDhabTY0LDQuNjlWMTIzLjMxbDQwLDQwdjMzLjM4Wm00MC0xNkwxNzEuMzEsMTA0SDIwOFptLTU2LTU2TDExNS4zMSw0OEgxNTJaTTQ4LDExNS4zMSw4NC42OSwxNTJINDhabTU2LDU2TDE0MC42OSwyMDhIMTA0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ExcludeSquareIcon";
 
 /** @deprecated Use ExcludeSquareIcon */
 export const ExcludeSquare = I;
-export { I as ExcludeSquareIcon };
+export { I as ExcludeSquareIcon }

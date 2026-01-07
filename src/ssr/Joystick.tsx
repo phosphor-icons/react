@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Joystick";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTQ0SDEzNlY5NS4xOWE0MCw0MCwwLDEsMC0xNiwwVjE0NEg0OGExNiwxNiwwLDAsMC0xNiwxNnY0OGExNiwxNiwwLDAsMCwxNiwxNkgyMDhhMTYsMTYsMCwwLDAsMTYtMTZWMTYwQTE2LDE2LDAsMCwwLDIwOCwxNDRaTTEwNCw1NmEyNCwyNCwwLDEsMSwyNCwyNEEyNCwyNCwwLDAsMSwxMDQsNTZaTTIwOCwyMDhINDhWMTYwSDIwOHY0OFptLTQwLTk2aDMyYTgsOCwwLDAsMSwwLDE2SDE2OGE4LDgsMCwwLDEsMC0xNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "JoystickIcon";
 
 /** @deprecated Use JoystickIcon */
 export const Joystick = I;
-export { I as JoystickIcon };
+export { I as JoystickIcon }

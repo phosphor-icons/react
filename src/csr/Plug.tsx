@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Plug";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzcuNjYsNjYuMzRhOCw4LDAsMCwwLTExLjMyLDBMMTkyLDEwMC42OSwxNTUuMzEsNjRsMzQuMzUtMzQuMzRhOCw4LDAsMSwwLTExLjMyLTExLjMyTDE0NCw1Mi42OSwxMTcuNjYsMjYuMzRhOCw4LDAsMCwwLTExLjMyLDExLjMyTDExMi42OSw0NGwtNTMsNTNhNDAsNDAsMCwwLDAsMCw1Ni41N2wxNS43MSwxNS43MUwyNi4zNCwyMTguMzRhOCw4LDAsMCwwLDExLjMyLDExLjMybDQ5LjA5LTQ5LjA5LDE1LjcxLDE1LjcxYTQwLDQwLDAsMCwwLDU2LjU3LDBsNTMtNTMsNi4zNCw2LjM1YTgsOCwwLDAsMCwxMS4zMi0xMS4zMkwyMDMuMzEsMTEybDM0LjM1LTM0LjM0QTgsOCwwLDAsMCwyMzcuNjYsNjYuMzRaTTE0Ny43MiwxODVhMjQsMjQsMCwwLDEtMzMuOTUsMEw3MSwxNDIuMjNhMjQsMjQsMCwwLDEsMC0zMy45NWw1My01M0wyMDAuNjksMTMyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PlugIcon";
 
 /** @deprecated Use PlugIcon */
 export const Plug = I;
-export { I as PlugIcon };
+export { I as PlugIcon }

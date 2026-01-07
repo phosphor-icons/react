@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MusicNotesMinus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNDhhOCw4LDAsMCwxLTgsOEgxNzZhOCw4LDAsMCwxLDAtMTZoNDhBOCw4LDAsMCwxLDIzMiw0OFpNMjE2LDg4djc2YTM2LDM2LDAsMSwxLTE2LTI5LjkyVjg4YTgsOCwwLDAsMSwxNiwwWm0tMTYsNzZhMjAsMjAsMCwxLDAtMjAsMjBBMjAsMjAsMCwwLDAsMjAwLDE2NFpNODgsMTEwLjI1VjE5NmEzNiwzNiwwLDEsMS0xNi0yOS45MlY1NmE4LDgsMCwwLDEsNi4wNi03Ljc2bDU2LTE0YTgsOCwwLDAsMSwzLjg4LDE1LjUyTDg4LDYyLjI1djMxLjVsNzAuMDYtMTcuNTFhOCw4LDAsMCwxLDMuODgsMTUuNTJaTTcyLDE5NmEyMCwyMCwwLDEsMC0yMCwyMEEyMCwyMCwwLDAsMCw3MiwxOTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "MusicNotesMinusIcon";
 
 /** @deprecated Use MusicNotesMinusIcon */
 export const MusicNotesMinus = I;
-export { I as MusicNotesMinusIcon };
+export { I as MusicNotesMinusIcon }

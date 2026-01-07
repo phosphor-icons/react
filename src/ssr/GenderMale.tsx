@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GenderMale";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMzJIMTY4YTgsOCwwLDAsMCwwLDE2aDI4LjY5TDE1NC42Miw5MC4wN2E4MCw4MCwwLDEsMCwxMS4zMSwxMS4zMUwyMDgsNTkuMzJWODhhOCw4LDAsMCwwLDE2LDBWNDBBOCw4LDAsMCwwLDIxNiwzMlpNMTQ5LjI0LDE5Ny4yOWE2NCw2NCwwLDEsMSwwLTkwLjUzQTY0LjEsNjQuMSwwLDAsMSwxNDkuMjQsMTk3LjI5WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "GenderMaleIcon";
 
 /** @deprecated Use GenderMaleIcon */
 export const GenderMale = I;
-export { I as GenderMaleIcon };
+export { I as GenderMaleIcon }

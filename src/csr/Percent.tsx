@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Percent";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDUuNjYsNjEuNjRsLTE0NCwxNDRhOCw4LDAsMCwxLTExLjMyLTExLjMybDE0NC0xNDRhOCw4LDAsMCwxLDExLjMyLDExLjMxWk01MC41NCwxMDEuNDRhMzYsMzYsMCwwLDEsNTAuOTItNTAuOTFoMGEzNiwzNiwwLDAsMS01MC45Miw1MC45MVpNNTYsNzZBMjAsMjAsMCwxLDAsOTAuMTQsNjEuODRoMEEyMCwyMCwwLDAsMCw1Niw3NlpNMjE2LDE4MGEzNiwzNiwwLDEsMS0xMC41NC0yNS40NmgwQTM1Ljc2LDM1Ljc2LDAsMCwxLDIxNiwxODBabS0xNiwwYTIwLDIwLDAsMSwwLTUuODYsMTQuMTRBMTkuODcsMTkuODcsMCwwLDAsMjAwLDE4MFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PercentIcon";
 
 /** @deprecated Use PercentIcon */
 export const Percent = I;
-export { I as PercentIcon };
+export { I as PercentIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HandPointing";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTYsODhhMjcuODYsMjcuODYsMCwwLDAtMTMuMzUsMy4zOUEyOCwyOCwwLDAsMCwxNDQsNzQuN1Y0NGEyOCwyOCwwLDAsMC01NiwwdjgwbC0zLjgyLTYuMTNBMjgsMjgsMCwwLDAsMzUuNzMsMTQ2bDQuNjcsOC4yM0M3NC44MSwyMTQuODksODkuMDUsMjQwLDEzNiwyNDBhODguMSw4OC4xLDAsMCwwLDg4LTg4VjExNkEyOCwyOCwwLDAsMCwxOTYsODhabTEyLDY0YTcyLjA4LDcyLjA4LDAsMCwxLTcyLDcyYy0zNy42MywwLTQ3Ljg0LTE4LTgxLjY4LTc3LjY4bC00LjY5LTguMjcsMC0uMDVBMTIsMTIsMCwwLDEsNTQsMTIxLjYxYTExLjg4LDExLjg4LDAsMCwxLDYtMS42LDEyLDEyLDAsMCwxLDEwLjQxLDYsMS43NiwxLjc2LDAsMCwwLC4xNC4yM2wxOC42NywzMEE4LDgsMCwwLDAsMTA0LDE1MlY0NGExMiwxMiwwLDAsMSwyNCwwdjY4YTgsOCwwLDAsMCwxNiwwVjEwMGExMiwxMiwwLDAsMSwyNCwwdjIwYTgsOCwwLDAsMCwxNiwwdi00YTEyLDEyLDAsMCwxLDI0LDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "HandPointingIcon";
 
 /** @deprecated Use HandPointingIcon */
 export const HandPointing = I;
-export { I as HandPointingIcon };
+export { I as HandPointingIcon }

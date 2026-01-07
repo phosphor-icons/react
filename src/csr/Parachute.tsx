@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Parachute";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTIwQTEwNC4xMiwxMDQuMTIsMCwwLDAsMTI4LDE2aDBBMTA0LjEyLDEwNC4xMiwwLDAsMCwyNCwxMjBhNy45NCw3Ljk0LDAsMCwwLDMuMDUsNi4yNy45My45MywwLDAsMCwuMTUuMTNMMTIwLDE5NnYyMGgtOGE4LDgsMCwwLDAsMCwxNmgzMmE4LDgsMCwwLDAsMC0xNmgtOFYxOTZsOTIuOC02OS42aDBBOCw4LDAsMCwwLDIzMiwxMjBabS0xNi4zNi04SDE3NS44M2MtMS41NC0zNy45NS0xMy45MS02Mi40My0yNS4xMS03N0E4OC4yLDg4LjIsMCwwLDEsMjE1LjY0LDExMlpNMTI4LDM0YTc2Ljg5LDc2Ljg5LDAsMCwxLDEzLjg4LDE2LjIyQzE0OS40OSw2MiwxNTguNDUsODEuODcsMTU5LjgyLDExMkg5Ni4xOGMxLjM3LTMwLjEzLDEwLjMzLTUwLDE3Ljk0LTYxLjc0QTc2LjkyLDc2LjkyLDAsMCwxLDEyOCwzNFptMjYuNCw5NEwxMjgsMTc1LjUzLDEwMS42LDEyOFptLTcxLjExLDAsMTkuNSwzNS4wOUw1NiwxMjhabTg5LjQyLDBIMjAwbC00Ni43OSwzNS4wOVpNMTA1LjI4LDM1Yy0xMS4yLDE0LjU3LTIzLjU3LDM5LjA1LTI1LjExLDc3SDQwLjM2QTg4LjIsODguMiwwLDAsMSwxMDUuMjgsMzVaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ParachuteIcon";
 
 /** @deprecated Use ParachuteIcon */
 export const Parachute = I;
-export { I as ParachuteIcon };
+export { I as ParachuteIcon }

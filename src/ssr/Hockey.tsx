@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Hockey";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTUySDEzMC45TDM4LjEsNDIuODJBOCw4LDAsMCwwLDI1LjksNTMuMThMMTU5LjUxLDIxMC4zNkExNiwxNiwwLDAsMCwxNzEuNywyMTZIMjI0YTE2LDE2LDAsMCwwLDE2LTE2VjE2OEExNiwxNiwwLDAsMCwyMjQsMTUyWm0tNzkuNSwxNkgxOTJ2MzJIMTcxLjdaTTIyNCwyMDBIMjA4VjE2OGgxNlpNMTEyLjE4LDE3OS41NWE4LDgsMCwwLDAtMTEuMjcuOTFMODQuMywyMDBINjRWMTY4SDg1LjJhOCw4LDAsMCwwLDAtMTZIMzJhMTYsMTYsMCwwLDAtMTYsMTZ2MzJhMTYsMTYsMCwwLDAsMTYsMTZIODQuM2ExNiwxNiwwLDAsMCwxMi4xOS01LjY0bDE2LjYxLTE5LjUzQTgsOCwwLDAsMCwxMTIuMTgsMTc5LjU1Wk0zMiwxNjhINDh2MzJIMzJabTExNy45LTQ1LjE4LDY4LTgwYTgsOCwwLDAsMSwxMi4yLDEwLjM2bC02OCw4MGE4LDgsMCwxLDEtMTIuMi0xMC4zNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "HockeyIcon";
 
 /** @deprecated Use HockeyIcon */
 export const Hockey = I;
-export { I as HockeyIcon };
+export { I as HockeyIcon }

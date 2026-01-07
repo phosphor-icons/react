@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/RoadHorizon";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzUuOTIsMTk5QTgsOCwwLDAsMSwyMjUsMTk1LjkyTDE1NS4zMiw3MkgxMzZ2OGE4LDgsMCwwLDEtMTYsMFY3MkgxMDAuNjhMMzEsMTk1LjkyQTgsOCwwLDAsMSwxNywxODguMDhMODIuMzIsNzJIMjRhOCw4LDAsMCwxLDAtMTZIMjMyYTgsOCwwLDAsMSwwLDE2SDE3My42OEwyMzksMTg4LjA4QTgsOCwwLDAsMSwyMzUuOTIsMTk5Wk0xMjgsMTEyYTgsOCwwLDAsMC04LDh2MTZhOCw4LDAsMCwwLDE2LDBWMTIwQTgsOCwwLDAsMCwxMjgsMTEyWm0wLDU2YTgsOCwwLDAsMC04LDh2MTZhOCw4LDAsMCwwLDE2LDBWMTc2QTgsOCwwLDAsMCwxMjgsMTY4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "RoadHorizonIcon";
 
 /** @deprecated Use RoadHorizonIcon */
 export const RoadHorizon = I;
-export { I as RoadHorizonIcon };
+export { I as RoadHorizonIcon }

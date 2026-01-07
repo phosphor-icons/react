@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MediumLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik03Miw2NGE2NCw2NCwwLDEsMCw2NCw2NEE2NC4wNyw2NC4wNywwLDAsMCw3Miw2NFptMCwxMTJhNDgsNDgsMCwxLDEsNDgtNDhBNDguMDUsNDguMDUsMCwwLDEsNzIsMTc2Wk0xODQsNjRjLTUuNjgsMC0xNi40LDIuNzYtMjQuMzIsMjEuMjVDMTU0LjczLDk2LjgsMTUyLDExMiwxNTIsMTI4czIuNzMsMzEuMiw3LjY4LDQyLjc1QzE2Ny42LDE4OS4yNCwxNzguMzIsMTkyLDE4NCwxOTJzMTYuNC0yLjc2LDI0LjMyLTIxLjI1QzIxMy4yNywxNTkuMiwyMTYsMTQ0LDIxNiwxMjhzLTIuNzMtMzEuMi03LjY4LTQyLjc1QzIwMC40LDY2Ljc2LDE4OS42OCw2NCwxODQsNjRabTAsMTEyYy01LjY0LDAtMTYtMTguMjItMTYtNDhzMTAuMzYtNDgsMTYtNDgsMTYsMTguMjIsMTYsNDhTMTg5LjY0LDE3NiwxODQsMTc2Wk0yNDgsNzJWMTg0YTgsOCwwLDAsMS0xNiwwVjcyYTgsOCwwLDAsMSwxNiwwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "MediumLogoIcon";
 
 /** @deprecated Use MediumLogoIcon */
 export const MediumLogo = I;
-export { I as MediumLogoIcon };
+export { I as MediumLogoIcon }

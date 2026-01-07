@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/EscalatorDown";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzAuMzQsODUuNjZhOCw4LDAsMCwxLDExLjMyLTExLjMyTDE5Miw4NC42OVY0OGE4LDgsMCwwLDEsMTYsMFY4NC42OWwxMC4zNC0xMC4zNWE4LDgsMCwwLDEsMTEuMzIsMTEuMzJsLTI0LDI0YTgsOCwwLDAsMS0xMS4zMiwwWk0yNDAsMTYwdjQwYTE2LDE2LDAsMCwxLTE2LDE2SDE2OGE4LDgsMCwwLDEtNS44OC0yLjU3TDY4LjUsMTEySDMyQTE2LDE2LDAsMCwxLDE2LDk2VjU2QTE2LDE2LDAsMCwxLDMyLDQwSDg4YTgsOCwwLDAsMSw1Ljg4LDIuNTdMMTg3LjUsMTQ0SDIyNEExNiwxNiwwLDAsMSwyNDAsMTYwWm0tMTYsMEgxODRhOCw4LDAsMCwxLTUuODgtMi41N0w4NC41LDU2SDMyVjk2SDcyYTgsOCwwLDAsMSw1Ljg4LDIuNTdMMTcxLjUsMjAwSDIyNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "EscalatorDownIcon";
 
 /** @deprecated Use EscalatorDownIcon */
 export const EscalatorDown = I;
-export { I as EscalatorDownIcon };
+export { I as EscalatorDownIcon }

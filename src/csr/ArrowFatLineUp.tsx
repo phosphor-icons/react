@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowFatLineUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjkuNjYsMTE0LjM0bC05Ni05NmE4LDgsMCwwLDAtMTEuMzIsMGwtOTYsOTZBOCw4LDAsMCwwLDMyLDEyOEg3MnY1NmE4LDgsMCwwLDAsOCw4aDk2YTgsOCwwLDAsMCw4LThWMTI4aDQwYTgsOCwwLDAsMCw1LjY2LTEzLjY2Wk0xNzYsMTEyYTgsOCwwLDAsMC04LDh2NTZIODhWMTIwYTgsOCwwLDAsMC04LThINTEuMzFMMTI4LDM1LjMxLDIwNC42OSwxMTJabTgsMTA0YTgsOCwwLDAsMS04LDhIODBhOCw4LDAsMCwxLDAtMTZoOTZBOCw4LDAsMCwxLDE4NCwyMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ArrowFatLineUpIcon";
 
 /** @deprecated Use ArrowFatLineUpIcon */
 export const ArrowFatLineUp = I;
-export { I as ArrowFatLineUpIcon };
+export { I as ArrowFatLineUpIcon }

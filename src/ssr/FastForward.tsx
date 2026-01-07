@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FastForward";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDguNjcsMTE0LjY2LDE2MC40OCw1OC41QTE1LjkxLDE1LjkxLDAsMCwwLDEzNiw3MS44NHYzNy4zTDU2LjQ4LDU4LjVBMTUuOTEsMTUuOTEsMCwwLDAsMzIsNzEuODRWMTg0LjE2QTE1LjkyLDE1LjkyLDAsMCwwLDU2LjQ4LDE5Ny41TDEzNiwxNDYuODZ2MzcuM2ExNS45MiwxNS45MiwwLDAsMCwyNC40OCwxMy4zNGw4OC4xOS01Ni4xNmExNS44LDE1LjgsMCwwLDAsMC0yNi42OFpNNDgsMTgzLjk0VjcyLjA3TDEzNS44MiwxMjhabTEwNCwwVjcyLjA3TDIzOS44MiwxMjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FastForwardIcon";
 
 /** @deprecated Use FastForwardIcon */
 export const FastForward = I;
-export { I as FastForwardIcon };
+export { I as FastForwardIcon }

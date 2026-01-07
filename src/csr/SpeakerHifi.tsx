@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SpeakerHifi";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMjRINjRBMTYsMTYsMCwwLDAsNDgsNDBWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDE5MmExNiwxNiwwLDAsMCwxNi0xNlY0MEExNiwxNiwwLDAsMCwxOTIsMjRabTAsMTkySDY0VjQwSDE5MlpNMTE2LDc2YTEyLDEyLDAsMSwxLDEyLDEyQTEyLDEyLDAsMCwxLDExNiw3NlptMTIsMTE2YTQwLDQwLDAsMSwwLTQwLTQwQTQwLDQwLDAsMCwwLDEyOCwxOTJabTAtNjRhMjQsMjQsMCwxLDEtMjQsMjRBMjQsMjQsMCwwLDEsMTI4LDEyOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "SpeakerHifiIcon";
 
 /** @deprecated Use SpeakerHifiIcon */
 export const SpeakerHifi = I;
-export { I as SpeakerHifiIcon };
+export { I as SpeakerHifiIcon }

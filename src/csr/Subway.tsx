@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Subway";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsOTZWMjA4YTgsOCwwLDAsMS0xNiwwVjk2YTU2LjA2LDU2LjA2LDAsMCwwLTU2LTU2SDEwNEE1Ni4wNiw1Ni4wNiwwLDAsMCw0OCw5NlYyMDhhOCw4LDAsMCwxLTE2LDBWOTZhNzIuMDgsNzIuMDgsMCwwLDEsNzItNzJoNDhBNzIuMDgsNzIuMDgsMCwwLDEsMjI0LDk2Wm0tNDAsMHY3MmEyNCwyNCwwLDAsMS0xOS4yOSwyMy41M2wyLjQ1LDQuODlhOCw4LDAsMCwxLTE0LjMyLDcuMTZMMTQ3LjA2LDE5MkgxMDguOTRsLTUuNzgsMTEuNThhOCw4LDAsMCwxLTE0LjMyLTcuMTZsMi40NS00Ljg5QTI0LDI0LDAsMCwxLDcyLDE2OFY5NkEyNCwyNCwwLDAsMSw5Niw3Mmg2NEEyNCwyNCwwLDAsMSwxODQsOTZaTTg4LDk2djQ4aDgwVjk2YTgsOCwwLDAsMC04LThIOTZBOCw4LDAsMCwwLDg4LDk2Wm0zMiw2NHYxNmgxNlYxNjBaTTk2LDE3Nmg4VjE2MEg4OHY4QTgsOCwwLDAsMCw5NiwxNzZabTcyLTh2LThIMTUydjE2aDhBOCw4LDAsMCwwLDE2OCwxNjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "SubwayIcon";
 
 /** @deprecated Use SubwayIcon */
 export const Subway = I;
-export { I as SubwayIcon };
+export { I as SubwayIcon }

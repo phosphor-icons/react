@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CodepenLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzUuNzksODlsLTEwNC01NmE4LDgsMCwwLDAtNy41OCwwbC0xMDQsNTZBOCw4LDAsMCwwLDE2LDk2djY0YTgsOCwwLDAsMCw0LjIxLDcuMDVsMTA0LDU2YTgsOCwwLDAsMCw3LjU4LDBsMTA0LTU2QTgsOCwwLDAsMCwyNDAsMTYwVjk2QTgsOCwwLDAsMCwyMzUuNzksODlaTTIyNCwxNDYuNjEsMTg5LjQ1LDEyOCwyMjQsMTA5LjM5Wm0tNTEuNDMtMjcuN0wxMzYsOTkuMjJWNTMuMzlMMjE1LjEzLDk2Wm0tNDQuNTcsMjRMMTAwLjMsMTI4LDEyOCwxMTMuMDksMTU1LjcsMTI4Wm0tOC04OS41MlY5OS4yMkw4My40MywxMTguOTEsNDAuODcsOTZabS04OCw1Nkw2Ni41NSwxMjgsMzIsMTQ2LjYxWm01MS40MywyNy43TDEyMCwxNTYuNzh2NDUuODNMNDAuODcsMTYwWk0xMzYsMjAyLjYxVjE1Ni43OGwzNi41Ny0xOS42OUwyMTUuMTMsMTYwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CodepenLogoIcon";
 
 /** @deprecated Use CodepenLogoIcon */
 export const CodepenLogo = I;
-export { I as CodepenLogoIcon };
+export { I as CodepenLogoIcon }

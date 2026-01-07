@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Volleyball";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm04MS43NCwxMzYuNThhODgsODgsMCwwLDEtOTMuNDksMy43OEwxMzIuNjIsMTM2aDgzQTg3LjE2LDg3LjE2LDAsMCwxLDIwOS43NCwxNjAuNThaTTkxLjEyLDQ4LjExYTg3LjU3LDg3LjU3LDAsMCwxLDI0LjIyLTcuMiw4OCw4OCwwLDAsMSw1MCw3OS4wOUgxMzIuNjJaTTIxNS42MywxMjBIMTgxLjM3YTEwNC4xOCwxMDQuMTgsMCwwLDAtMzUuNzgtNzguMjNBODguMTgsODguMTgsMCwwLDEsMjE1LjYzLDEyMFpNNzcuMjcsNTYuMTMsOTQuMzksODUuNzhhMTA0LjE0LDEwNC4xNCwwLDAsMC00OS44Niw3MC4wOUE4Ny45NSw4Ny45NSwwLDAsMSw3Ny4yNyw1Ni4xM1pNNTguOSwxODIuNDNhODgsODgsMCwwLDEsNDMuNDktODIuNzlMMTE4Ljc2LDEyOCw3Ny4yNywxOTkuODdBODguNjIsODguNjIsMCwwLDEsNTguOSwxODIuNDNaTTEyOCwyMTZhODcuNSw4Ny41LDAsMCwxLTM2Ljg4LTguMTFsMTcuMTMtMjkuNjdhMTA0LjIzLDEwNC4yMywwLDAsMCw4NS41Myw4LjE3QTg3LjgxLDg3LjgxLDAsMCwxLDEyOCwyMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "VolleyballIcon";
 
 /** @deprecated Use VolleyballIcon */
 export const Volleyball = I;
-export { I as VolleyballIcon };
+export { I as VolleyballIcon }

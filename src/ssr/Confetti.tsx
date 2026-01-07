@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Confetti";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMTEuNDksNTIuNjNhMTUuOCwxNS44LDAsMCwwLTI2LDUuNzdMMzMsMjAyLjc4QTE1LjgzLDE1LjgzLDAsMCwwLDQ3Ljc2LDIyNGExNiwxNiwwLDAsMCw1LjQ2LTFsMTQ0LjM3LTUyLjVhMTUuOCwxNS44LDAsMCwwLDUuNzgtMjZabS04LjMzLDEzNS4yMS0zNS0zNSwxMy4xNi0zNi4yMSw1OC4wNSw1OC4wNVptLTU1LDIwLDE0LTM4LjQxLDI0LjQ1LDI0LjQ1Wk0xNTYsMTY4LjY0LDg3LjM2LDEwMGwxMy0zNS44Nyw5MS40Myw5MS40M1pNMTYwLDcyYTM3LjgsMzcuOCwwLDAsMSwzLjg0LTE1LjU4QzE2OS4xNCw0NS44MywxNzkuMTQsNDAsMTkyLDQwYzYuNywwLDExLTIuMjksMTMuNjUtNy4yMUEyMiwyMiwwLDAsMCwyMDgsMjMuOTQsOCw4LDAsMCwxLDIyNCwyNGMwLDEyLjg2LTguNTIsMzItMzIsMzItNi43LDAtMTEsMi4yOS0xMy42NSw3LjIxQTIyLDIyLDAsMCwwLDE3Niw3Mi4wNiw4LDgsMCwwLDEsMTYwLDcyWk0xMzYsNDBWMTZhOCw4LDAsMCwxLDE2LDBWNDBhOCw4LDAsMCwxLTE2LDBabTEwMS42Niw4Mi4zNGE4LDgsMCwxLDEtMTEuMzIsMTEuMzFsLTE2LTE2YTgsOCwwLDAsMSwxMS4zMi0xMS4zMlptNC44Ny00Mi43NS0yNCw4YTgsOCwwLDAsMS01LjA2LTE1LjE4bDI0LThhOCw4LDAsMCwxLDUuMDYsMTUuMThaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ConfettiIcon";
 
 /** @deprecated Use ConfettiIcon */
 export const Confetti = I;
-export { I as ConfettiIcon };
+export { I as ConfettiIcon }

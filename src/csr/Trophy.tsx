@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Trophy";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNjRIMjA4VjQ4YTgsOCwwLDAsMC04LThINTZhOCw4LDAsMCwwLTgsOFY2NEgyNEExNiwxNiwwLDAsMCw4LDgwVjk2YTQwLDQwLDAsMCwwLDQwLDQwaDMuNjVBODAuMTMsODAuMTMsMCwwLDAsMTIwLDE5MS42MVYyMTZIOTZhOCw4LDAsMCwwLDAsMTZoNjRhOCw4LDAsMCwwLDAtMTZIMTM2VjE5MS41OGMzMS45NC0zLjIzLDU4LjQ0LTI1LjY0LDY4LjA4LTU1LjU4SDIwOGE0MCw0MCwwLDAsMCw0MC00MFY4MEExNiwxNiwwLDAsMCwyMzIsNjRaTTQ4LDEyMEEyNCwyNCwwLDAsMSwyNCw5NlY4MEg0OHYzMnEwLDQsLjM5LDhabTE0NC04LjljMCwzNS41Mi0yOSw2NC42NC02NCw2NC45YTY0LDY0LDAsMCwxLTY0LTY0VjU2SDE5MlpNMjMyLDk2YTI0LDI0LDAsMCwxLTI0LDI0aC0uNWE4MS44MSw4MS44MSwwLDAsMCwuNS04LjlWODBoMjRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "TrophyIcon";
 
 /** @deprecated Use TrophyIcon */
 export const Trophy = I;
-export { I as TrophyIcon };
+export { I as TrophyIcon }

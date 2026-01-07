@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CaretCircleUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlptNDUuNjYtNzcuNjZhOCw4LDAsMCwxLTExLjMyLDExLjMyTDEyOCwxMTUuMzEsOTMuNjYsMTQ5LjY2YTgsOCwwLDAsMS0xMS4zMi0xMS4zMmw0MC00MGE4LDgsMCwwLDEsMTEuMzIsMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CaretCircleUpIcon";
 
 /** @deprecated Use CaretCircleUpIcon */
 export const CaretCircleUp = I;
-export { I as CaretCircleUpIcon };
+export { I as CaretCircleUpIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LockLaminated";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsODBIMTc2VjU2YTQ4LDQ4LDAsMCwwLTk2LDBWODBINDhBMTYsMTYsMCwwLDAsMzIsOTZWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY5NkExNiwxNiwwLDAsMCwyMDgsODBaTTQ4LDEyOEgyMDh2MTZINDhabTAsMzJIMjA4djE2SDQ4Wk05Niw1NmEzMiwzMiwwLDAsMSw2NCwwVjgwSDk2Wk0yMDgsOTZ2MTZINDhWOTZabTAsMTEySDQ4VjE5MkgyMDh2MTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "LockLaminatedIcon";
 
 /** @deprecated Use LockLaminatedIcon */
 export const LockLaminated = I;
-export { I as LockLaminatedIcon };
+export { I as LockLaminatedIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/IdentificationCard";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMTEyYTgsOCwwLDAsMS04LDhIMTUyYTgsOCwwLDAsMSwwLTE2aDQwQTgsOCwwLDAsMSwyMDAsMTEyWm0tOCwyNEgxNTJhOCw4LDAsMCwwLDAsMTZoNDBhOCw4LDAsMCwwLDAtMTZabTQwLTgwVjIwMGExNiwxNiwwLDAsMS0xNiwxNkg0MGExNiwxNiwwLDAsMS0xNi0xNlY1NkExNiwxNiwwLDAsMSw0MCw0MEgyMTZBMTYsMTYsMCwwLDEsMjMyLDU2Wk0yMTYsMjAwVjU2SDQwVjIwMEgyMTZabS04MC4yNi0zNGE4LDgsMCwxLDEtMTUuNSw0Yy0yLjYzLTEwLjI2LTEzLjA2LTE4LTI0LjI1LTE4cy0yMS42MSw3Ljc0LTI0LjI1LDE4YTgsOCwwLDEsMS0xNS41LTQsMzkuODQsMzkuODQsMCwwLDEsMTcuMTktMjMuMzQsMzIsMzIsMCwxLDEsNDUuMTIsMEEzOS43NiwzOS43NiwwLDAsMSwxMzUuNzUsMTY2Wk05NiwxMzZhMTYsMTYsMCwxLDAtMTYtMTZBMTYsMTYsMCwwLDAsOTYsMTM2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "IdentificationCardIcon";
 
 /** @deprecated Use IdentificationCardIcon */
 export const IdentificationCard = I;
-export { I as IdentificationCardIcon };
+export { I as IdentificationCardIcon }

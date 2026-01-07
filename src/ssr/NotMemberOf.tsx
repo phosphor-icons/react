@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/NotMemberOf";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuMzgsMzQuMDhhOCw4LDAsMCwwLTExLjMuNTRMMTk3LjE5LDQwSDEyOEE4OCw4OCwwLDAsMCw2My4xNiwxODcuNDNMNDIuMDgsMjEwLjYyYTgsOCwwLDEsMCwxMS44NCwxMC43Nkw3NSwxOTguMkE4Ny41LDg3LjUsMCwwLDAsMTI4LDIxNmg3MmE4LDgsMCwwLDAsMC0xNkgxMjhhNzEuNjMsNzEuNjMsMCwwLDEtNDIuMTgtMTMuN0wxMzEuNTQsMTM2SDIwMGE4LDgsMCwwLDAsMC0xNkgxNDYuMDhsNjcuODQtNzQuNjJBOCw4LDAsMCwwLDIxMy4zOCwzNC4wOFpNNzQsMTc1LjUzQTcxLjY5LDcxLjY5LDAsMCwxLDU2LjQ2LDEzNmg1My40NlpNNTYuNDYsMTIwQTcyLjA4LDcyLjA4LDAsMCwxLDEyOCw1Nmg1NC42NGwtNTguMTgsNjRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "NotMemberOfIcon";
 
 /** @deprecated Use NotMemberOfIcon */
 export const NotMemberOf = I;
-export { I as NotMemberOfIcon };
+export { I as NotMemberOfIcon }

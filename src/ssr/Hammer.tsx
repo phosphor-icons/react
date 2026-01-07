@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Hammer";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTEuMzQsMTEyLDE4My44OCw0NC4wOGE5Ni4xLDk2LjEsMCwwLDAtMTM1Ljc3LDBsLS4wOS4wOUwzNC4yNSw1OC40QTgsOCwwLDAsMCw0NS43NCw2OS41M0w1OS40Nyw1NS4zNWE3OS45Miw3OS45MiwwLDAsMSwxOC43MS0xMy45TDEyNC42OCw4OGwtOTYsOTZhMTYsMTYsMCwwLDAsMCwyMi42M2wyMC42OSwyMC42OWExNiwxNiwwLDAsMCwyMi42MywwbDk2LTk2LDE0LjM0LDE0LjM0aDBMMjAwLDE2My4zYTE2LDE2LDAsMCwwLDIyLjYzLDBsMjguNjktMjguNjlBMTYsMTYsMCwwLDAsMjUxLjM0LDExMlpNNjAuNjgsMjE2LDQwLDE5NS4zMWw2OC02OEwxMjguNjgsMTQ4Wk0xNjIuMzQsMTE0LjMyLDE0MCwxMzYuNjcsMTE5LjMxLDExNmwyMi4zNS0yMi4zNWE4LDgsMCwwLDAsMC0xMS4zMkw5NC4zMiwzNWE4MCw4MCwwLDAsMSw3OC4yMywyMC40MWw0NC4yMiw0NC41MUwxODgsMTI4LjY2bC0xNC4zNC0xNC4zNEE4LDgsMCwwLDAsMTYyLjM0LDExNC4zMlptNDksMzcuNjYtMTItMTJMMjI4LDExMS4yNWwxMiwxMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "HammerIcon";
 
 /** @deprecated Use HammerIcon */
 export const Hammer = I;
-export { I as HammerIcon };
+export { I as HammerIcon }

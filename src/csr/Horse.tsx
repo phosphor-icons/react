@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Horse";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsMTAwYTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDEzNiwxMDBabTk2LDI5LjQ4QTEwNC4yOSwxMDQuMjksMCwwLDEsMTMwLjEsMjMybC0yLjE3LDBhMTAzLjMyLDEwMy4zMiwwLDAsMS02OS4yNi0yNkE4LDgsMCwxLDEsNjkuMzQsMTk0YTg0LjcxLDg0LjcxLDAsMCwwLDIwLjEsMTMuMzdMMTE2LDE3MC44NGMtMjIuNzgtOS44My00Ny40Ny01LjY1LTYxLjQtMy4yOUEzMS44NCwzMS44NCwwLDAsMSwyMy4zLDE1NC43MmwtLjMtLjQzLTEzLjc4LTIyYTgsOCwwLDAsMSwyLjU5LTExLjA1TDExMiw1OS41M1YzMmE4LDgsMCwwLDEsOC04aDhBMTA0LDEwNCwwLDAsMSwyMzIsMTI5LjQ4Wm0tMTYtLjIyQTg4LDg4LDAsMCwwLDEyOCw0MFY2NGE4LDgsMCwwLDEtMy44MSw2LjgxTDI3LjA2LDEzMC41OWw5LjM2LDE1QTE1LjkyLDE1LjkyLDAsMCwwLDUyLDE1MS43N2MxNi0yLjcsNDguNzctOC4yNCw3OC4wNyw4LjE4QTQwLjA2LDQwLjA2LDAsMCwwLDE2OCwxMjBhOCw4LDAsMCwxLDE2LDAsNTYuMDcsNTYuMDcsMCwwLDEtNTEuOCw1NS44M2wtMjcuMTEsMzcuMjhBOTAuODksOTAuODksMCwwLDAsMTI5Ljc4LDIxNiw4OC4yOSw4OC4yOSwwLDAsMCwyMTYsMTI5LjI2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "HorseIcon";
 
 /** @deprecated Use HorseIcon */
 export const Horse = I;
-export { I as HorseIcon };
+export { I as HorseIcon }

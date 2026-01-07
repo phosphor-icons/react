@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Network";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTEySDEzNlY4OGg4YTE2LDE2LDAsMCwwLDE2LTE2VjQwYTE2LDE2LDAsMCwwLTE2LTE2SDExMkExNiwxNiwwLDAsMCw5Niw0MFY3MmExNiwxNiwwLDAsMCwxNiwxNmg4djI0SDI0YTgsOCwwLDAsMCwwLDE2SDU2djMySDQ4YTE2LDE2LDAsMCwwLTE2LDE2djMyYTE2LDE2LDAsMCwwLDE2LDE2SDgwYTE2LDE2LDAsMCwwLDE2LTE2VjE3NmExNiwxNiwwLDAsMC0xNi0xNkg3MlYxMjhIMTg0djMyaC04YTE2LDE2LDAsMCwwLTE2LDE2djMyYTE2LDE2LDAsMCwwLDE2LDE2aDMyYTE2LDE2LDAsMCwwLDE2LTE2VjE3NmExNiwxNiwwLDAsMC0xNi0xNmgtOFYxMjhoMzJhOCw4LDAsMCwwLDAtMTZaTTExMiw0MGgzMlY3MkgxMTJaTTgwLDIwOEg0OFYxNzZIODBabTEyOCwwSDE3NlYxNzZoMzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "NetworkIcon";
 
 /** @deprecated Use NetworkIcon */
 export const Network = I;
-export { I as NetworkIcon };
+export { I as NetworkIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FireExtinguisher";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTguMyw0OC4zNGwtNjAuNjgtMTguMiwzMC0xNUE4LDgsMCwwLDAsMTgwLjQyLjg1TDEzNCwyNC4wNWE4MC4wOCw4MC4wOCwwLDAsMC03OCw4MFYyMDhhOCw4LDAsMCwwLDE2LDBWMTc2SDg4djU2YTE2LDE2LDAsMCwwLDE2LDE2aDY0YTE2LDE2LDAsMCwwLDE2LTE2VjEwNGE0OC4wNyw0OC4wNywwLDAsMC00MC00Ny4zMlY0Mi43NWw2OS43LDIwLjkxYTgsOCwwLDEsMCw0LjYtMTUuMzJaTTcyLDE2MFYxMDRhNjQuMDcsNjQuMDcsMCwwLDEsNTYtNjMuNDhWNTYuNjhBNDguMDcsNDguMDcsMCwwLDAsODgsMTA0djU2Wm05Niw3MkgxMDRWMTc2aDY0djU2Wm0wLTEyOHY1NkgxMDRWMTA0YTMyLDMyLDAsMCwxLDY0LDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FireExtinguisherIcon";
 
 /** @deprecated Use FireExtinguisherIcon */
 export const FireExtinguisher = I;
-export { I as FireExtinguisherIcon };
+export { I as FireExtinguisherIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HardHat";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTUyVjEzNmE5Ni4zNyw5Ni4zNywwLDAsMC02NC05MC41MVY0MGExNiwxNiwwLDAsMC0xNi0xNkgxMTJBMTYsMTYsMCwwLDAsOTYsNDB2NS40OUE5Ni4zNyw5Ni4zNywwLDAsMCwzMiwxMzZ2MTZhMTYsMTYsMCwwLDAtMTYsMTZ2MjRhMTYsMTYsMCwwLDAsMTYsMTZIMjI0YTE2LDE2LDAsMCwwLDE2LTE2VjE2OEExNiwxNiwwLDAsMCwyMjQsMTUyWm0tMTYtMTZ2MTZIMTYwVjYyLjY3QTgwLjM2LDgwLjM2LDAsMCwxLDIwOCwxMzZaTTE0NCw0MFYxNTJIMTEyVjQwWk00OCwxMzZBODAuMzYsODAuMzYsMCwwLDEsOTYsNjIuNjdWMTUySDQ4Wm0xNzYsNTZIMzJWMTY4SDIyNHYyNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "HardHatIcon";
 
 /** @deprecated Use HardHatIcon */
 export const HardHat = I;
-export { I as HardHatIcon };
+export { I as HardHatIcon }

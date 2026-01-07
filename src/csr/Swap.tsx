@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Swap";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhWMTUyYTE2LDE2LDAsMCwxLTE2LDE2SDk5LjMxbDEwLjM1LDEwLjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMmwtMjQtMjRhOCw4LDAsMCwxLDAtMTEuMzJsMjQtMjRhOCw4LDAsMCwxLDExLjMyLDExLjMyTDk5LjMxLDE1MkgyMDhWNDhIOTZ2OGE4LDgsMCwwLDEtMTYsMFY0OEExNiwxNiwwLDAsMSw5NiwzMkgyMDhBMTYsMTYsMCwwLDEsMjI0LDQ4Wk0xNjgsMTkyYTgsOCwwLDAsMC04LDh2OEg0OFYxMDRIMTU2LjY5bC0xMC4zNSwxMC4zNGE4LDgsMCwwLDAsMTEuMzIsMTEuMzJsMjQtMjRhOCw4LDAsMCwwLDAtMTEuMzJsLTI0LTI0YTgsOCwwLDAsMC0xMS4zMiwxMS4zMkwxNTYuNjksODhINDhhMTYsMTYsMCwwLDAtMTYsMTZWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDE2MGExNiwxNiwwLDAsMCwxNi0xNnYtOEE4LDgsMCwwLDAsMTY4LDE5MloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "SwapIcon";
 
 /** @deprecated Use SwapIcon */
 export const Swap = I;
-export { I as SwapIcon };
+export { I as SwapIcon }

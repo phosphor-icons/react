@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SpeakerHigh";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTUuNTEsMjQuODFhOCw4LDAsMCwwLTguNDIuODhMNzcuMjUsODBIMzJBMTYsMTYsMCwwLDAsMTYsOTZ2NjRhMTYsMTYsMCwwLDAsMTYsMTZINzcuMjVsNjkuODQsNTQuMzFBOCw4LDAsMCwwLDE2MCwyMjRWMzJBOCw4LDAsMCwwLDE1NS41MSwyNC44MVpNMzIsOTZINzJ2NjRIMzJaTTE0NCwyMDcuNjQsODgsMTY0LjA5VjkxLjkxbDU2LTQzLjU1Wm01NC0xMDYuMDhhNDAsNDAsMCwwLDEsMCw1Mi44OCw4LDgsMCwwLDEtMTItMTAuNTgsMjQsMjQsMCwwLDAsMC0zMS43Miw4LDgsMCwwLDEsMTItMTAuNThaTTI0OCwxMjhhNzkuOSw3OS45LDAsMCwxLTIwLjM3LDUzLjM0LDgsOCwwLDAsMS0xMS45Mi0xMC42Nyw2NCw2NCwwLDAsMCwwLTg1LjMzLDgsOCwwLDEsMSwxMS45Mi0xMC42N0E3OS44Myw3OS44MywwLDAsMSwyNDgsMTI4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SpeakerHighIcon";
 
 /** @deprecated Use SpeakerHighIcon */
 export const SpeakerHigh = I;
-export { I as SpeakerHighIcon };
+export { I as SpeakerHighIcon }

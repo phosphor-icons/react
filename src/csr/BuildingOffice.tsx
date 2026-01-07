@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BuildingOffice";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMjA4SDIzMlY5NmE4LDgsMCwwLDAsMC0xNkgxODRWNDhhOCw4LDAsMCwwLDAtMTZINDBhOCw4LDAsMCwwLDAsMTZWMjA4SDI0YTgsOCwwLDAsMCwwLDE2SDI0OGE4LDgsMCwwLDAsMC0xNlpNMjE2LDk2VjIwOEgxODRWOTZaTTU2LDQ4SDE2OFYyMDhIMTQ0VjE2MGE4LDgsMCwwLDAtOC04SDg4YTgsOCwwLDAsMC04LDh2NDhINTZabTcyLDE2MEg5NlYxNjhoMzJaTTcyLDgwYTgsOCwwLDAsMSw4LThIOTZhOCw4LDAsMCwxLDAsMTZIODBBOCw4LDAsMCwxLDcyLDgwWm00OCwwYTgsOCwwLDAsMSw4LThoMTZhOCw4LDAsMCwxLDAsMTZIMTI4QTgsOCwwLDAsMSwxMjAsODBaTTcyLDEyMGE4LDgsMCwwLDEsOC04SDk2YTgsOCwwLDAsMSwwLDE2SDgwQTgsOCwwLDAsMSw3MiwxMjBabTQ4LDBhOCw4LDAsMCwxLDgtOGgxNmE4LDgsMCwwLDEsMCwxNkgxMjhBOCw4LDAsMCwxLDEyMCwxMjBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BuildingOfficeIcon";
 
 /** @deprecated Use BuildingOfficeIcon */
 export const BuildingOffice = I;
-export { I as BuildingOfficeIcon };
+export { I as BuildingOfficeIcon }

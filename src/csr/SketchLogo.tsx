@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SketchLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDYsOTguNzNsLTU2LTY0QTgsOCwwLDAsMCwxODQsMzJINzJhOCw4LDAsMCwwLTYsMi43M2wtNTYsNjRhOCw4LDAsMCwwLC4xNywxMC43M2wxMTIsMTIwYTgsOCwwLDAsMCwxMS43LDBsMTEyLTEyMEE4LDgsMCwwLDAsMjQ2LDk4LjczWk0yMjIuMzcsOTZIMTgwTDE0NCw0OGgzNi4zN1pNNzQuNTgsMTEybDMwLjEzLDc1LjMzTDM0LjQxLDExMlptODkuNiwwTDEyOCwyMDIuNDYsOTEuODIsMTEyWk05Niw5NmwzMi00Mi42N0wxNjAsOTZabTg1LjQyLDE2aDQwLjE3bC03MC4zLDc1LjMzWk03NS42Myw0OEgxMTJMNzYsOTZIMzMuNjNaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "SketchLogoIcon";
 
 /** @deprecated Use SketchLogoIcon */
 export const SketchLogo = I;
-export { I as SketchLogoIcon };
+export { I as SketchLogoIcon }

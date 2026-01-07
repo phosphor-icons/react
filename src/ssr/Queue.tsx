@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Queue";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0zMiw2NGE4LDgsMCwwLDEsOC04SDIxNmE4LDgsMCwwLDEsMCwxNkg0MEE4LDgsMCwwLDEsMzIsNjRabTEwNCw1Nkg0MGE4LDgsMCwwLDAsMCwxNmg5NmE4LDgsMCwwLDAsMC0xNlptMCw2NEg0MGE4LDgsMCwwLDAsMCwxNmg5NmE4LDgsMCwwLDAsMC0xNlptMTEyLTI0YTgsOCwwLDAsMS0zLjc2LDYuNzhsLTY0LDQwQTgsOCwwLDAsMSwxNjgsMjAwVjEyMGE4LDgsMCwwLDEsMTIuMjQtNi43OGw2NCw0MEE4LDgsMCwwLDEsMjQ4LDE2MFptLTIzLjA5LDBMMTg0LDEzNC40M3Y1MS4xNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "QueueIcon";
 
 /** @deprecated Use QueueIcon */
 export const Queue = I;
-export { I as QueueIcon };
+export { I as QueueIcon }

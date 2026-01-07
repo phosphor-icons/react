@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AirplaneTaxiing";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsOTZIMTQ3LjMyTDEwMS42Niw1MC4zNEE4LDgsMCwwLDAsOTYsNDhIODhBMTYsMTYsMCwwLDAsNzIuODMsNjkuMDZsOSwyNi45NEg1OS4zMkwzNy42Niw3NC4zNEE4LDgsMCwwLDAsMzIsNzJIMjRBMTYsMTYsMCwwLDAsOC42OSw5Mi42bDE0LjA3LDQ2Ljg5QTM5Ljc1LDM5Ljc1LDAsMCwwLDYxLjA3LDE2OEgyNDBhOCw4LDAsMCwwLDgtOFYxMzZBNDAsNDAsMCwwLDAsMjA4LDk2Wm0yNCw1Nkg2MS4wN2EyMy44NSwyMy44NSwwLDAsMS0yMy0xNy4xTDI0LDg4aDQuNjhsMjEuNjYsMjEuNjZBOCw4LDAsMCwwLDU2LDExMmgzNi45YTgsOCwwLDAsMCw3LjU5LTEwLjUzTDg4LDY0aDQuNjhsNDUuNjYsNDUuNjZBOCw4LDAsMCwwLDE0NCwxMTJoNjRhMjQsMjQsMCwwLDEsMjQsMjRabS04LDQ4YTE2LDE2LDAsMSwxLTE2LTE2QTE2LDE2LDAsMCwxLDIyNCwyMDBabS05NiwwYTE2LDE2LDAsMSwxLTE2LTE2QTE2LDE2LDAsMCwxLDEyOCwyMDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "AirplaneTaxiingIcon";
 
 /** @deprecated Use AirplaneTaxiingIcon */
 export const AirplaneTaxiing = I;
-export { I as AirplaneTaxiingIcon };
+export { I as AirplaneTaxiingIcon }

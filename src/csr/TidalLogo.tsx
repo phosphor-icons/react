@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TidalLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTMuNjYsOTAuMzRsLTQwLTQwYTgsOCwwLDAsMC0xMS4zMiwwTDE2OCw4NC42OSwxMzMuNjYsNTAuMzRhOCw4LDAsMCwwLTExLjMyLDBMODgsODQuNjksNTMuNjYsNTAuMzRhOCw4LDAsMCwwLTExLjMyLDBsLTQwLDQwYTgsOCwwLDAsMCwwLDExLjMybDQwLDQwYTgsOCwwLDAsMCwxMS4zMiwwTDg4LDEwNy4zMSwxMTYuNjksMTM2LDgyLjM0LDE3MC4zNGE4LDgsMCwwLDAsMCwxMS4zMmw0MCw0MGE4LDgsMCwwLDAsMTEuMzIsMGw0MC00MGE4LDgsMCwwLDAsMC0xMS4zMkwxMzkuMzEsMTM2LDE2OCwxMDcuMzFsMzQuMzQsMzQuMzVhOCw4LDAsMCwwLDExLjMyLDBsNDAtNDBBOCw4LDAsMCwwLDI1My42Niw5MC4zNFpNNDgsMTI0LjY5LDE5LjMxLDk2LDQ4LDY3LjMxLDc2LjY5LDk2Wm04MCw4MEw5OS4zMSwxNzYsMTI4LDE0Ny4zMSwxNTYuNjksMTc2Wm0wLTgwTDk5LjMxLDk2LDEyOCw2Ny4zMSwxNTYuNjksOTZabTgwLDBMMTc5LjMxLDk2LDIwOCw2Ny4zMSwyMzYuNjksOTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "TidalLogoIcon";
 
 /** @deprecated Use TidalLogoIcon */
 export const TidalLogo = I;
-export { I as TidalLogoIcon };
+export { I as TidalLogoIcon }

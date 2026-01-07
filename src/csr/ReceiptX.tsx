@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ReceiptX";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMjA4YTgsOCwwLDAsMCwxMS41OCw3LjE1TDY0LDIwMC45NGwyOC40MiwxNC4yMWE4LDgsMCwwLDAsNy4xNiwwTDEyOCwyMDAuOTRsMjguNDIsMTQuMjFhOCw4LDAsMCwwLDcuMTYsMEwxOTIsMjAwLjk0bDI4LjQyLDE0LjIxQTgsOCwwLDAsMCwyMzIsMjA4VjU2QTE2LDE2LDAsMCwwLDIxNiw0MFptMCwxNTUuMDYtMjAuNDItMTAuMjJhOCw4LDAsMCwwLTcuMTYsMEwxNjAsMTk5LjA2bC0yOC40Mi0xNC4yMmE4LDgsMCwwLDAtNy4xNiwwTDk2LDE5OS4wNiw2Ny41OCwxODQuODRhOCw4LDAsMCwwLTcuMTYsMEw0MCwxOTUuMDZWNTZIMjE2Wk05OC4zNCwxMzguMzQsMTE2LjY5LDEyMCw5OC4zNCwxMDEuNjZhOCw4LDAsMCwxLDExLjMyLTExLjMyTDEyOCwxMDguNjlsMTguMzQtMTguMzVhOCw4LDAsMCwxLDExLjMyLDExLjMyTDEzOS4zMSwxMjBsMTguMzUsMTguMzRhOCw4LDAsMCwxLTExLjMyLDExLjMyTDEyOCwxMzEuMzFsLTE4LjM0LDE4LjM1YTgsOCwwLDAsMS0xMS4zMi0xMS4zMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ReceiptXIcon";
 
 /** @deprecated Use ReceiptXIcon */
 export const ReceiptX = I;
-export { I as ReceiptXIcon };
+export { I as ReceiptXIcon }

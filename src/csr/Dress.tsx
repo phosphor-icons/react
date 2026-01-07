@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Dress";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTQuNywyMDkuN2ExLjg5LDEuODksMCwwLDAtLjExLS4yNWwtNDUuNDgtOTYuODYsMjAuNS0zMi4xOGExLjc0LDEuNzQsMCwwLDAsLjExLS4xOCwxNiwxNiwwLDAsMCwwLTE2LjQ2Yy0uMDktLjE2LS4yLS4zMi0uMy0uNDdMMTY4LDMyLjdWOGE4LDgsMCwwLDAtMTYsMFYzMi40MkwxNDYuNzQsMzlhMjQsMjQsMCwwLDEtMzcuNDgsMEwxMDQsMzIuNDJWOEE4LDgsMCwwLDAsODgsOFYzMi43TDY2LjU4LDYzLjNjLS4xLjE1LS4yMS4zMS0uMy40N2ExNiwxNiwwLDAsMCwwLDE2LjQ2LDEuNzQsMS43NCwwLDAsMCwuMTEuMThsMjAuNSwzMi4xOEw0MS40MSwyMDkuNDVhMS44OSwxLjg5LDAsMCwwLS4xMS4yNUExNiwxNiwwLDAsMCw1NiwyMzJIMjAwYTE2LDE2LDAsMCwwLDE0LjcxLTIyLjNaTTgwLDcyLDk2LjQzLDQ4LjU3bC4zMy40MmE0MCw0MCwwLDAsMCw2Mi40OCwwbC4zMy0uNDJMMTc2LDcybC0yMC4zOCwzMkgxMDAuMzlaTTU2LDIxNmw0NS4wNy05Nmg1My44NEwyMDAsMjE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "DressIcon";
 
 /** @deprecated Use DressIcon */
 export const Dress = I;
-export { I as DressIcon };
+export { I as DressIcon }

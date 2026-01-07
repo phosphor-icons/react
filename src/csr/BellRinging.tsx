@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BellRinging";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNzEuMWE4LDgsMCwwLDEtMTAuNzgtMy40Miw5NC4xMyw5NC4xMywwLDAsMC0zMy40Ni0zNi45MSw4LDgsMCwxLDEsOC41NC0xMy41NCwxMTEuNDYsMTExLjQ2LDAsMCwxLDM5LjEyLDQzLjA5QTgsOCwwLDAsMSwyMjQsNzEuMVpNMzUuNzEsNzJhOCw4LDAsMCwwLDcuMS00LjMyQTk0LjEzLDk0LjEzLDAsMCwxLDc2LjI3LDMwLjc3YTgsOCwwLDEsMC04LjU0LTEzLjU0QTExMS40NiwxMTEuNDYsMCwwLDAsMjguNjEsNjAuMzIsOCw4LDAsMCwwLDM1LjcxLDcyWm0xODYuMSwxMDMuOTRBMTYsMTYsMCwwLDEsMjA4LDIwMEgxNjcuMmE0MCw0MCwwLDAsMS03OC40LDBINDhhMTYsMTYsMCwwLDEtMTMuNzktMjQuMDZDNDMuMjIsMTYwLjM5LDQ4LDEzOC4yOCw0OCwxMTJhODAsODAsMCwwLDEsMTYwLDBDMjA4LDEzOC4yNywyMTIuNzgsMTYwLjM4LDIyMS44MSwxNzUuOTRaTTE1MC42MiwyMDBIMTA1LjM4YTI0LDI0LDAsMCwwLDQ1LjI0LDBaTTIwOCwxODRjLTEwLjY0LTE4LjI3LTE2LTQyLjQ5LTE2LTcyYTY0LDY0LDAsMCwwLTEyOCwwYzAsMjkuNTItNS4zOCw1My43NC0xNiw3MloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BellRingingIcon";
 
 /** @deprecated Use BellRingingIcon */
 export const BellRinging = I;
-export { I as BellRingingIcon };
+export { I as BellRingingIcon }

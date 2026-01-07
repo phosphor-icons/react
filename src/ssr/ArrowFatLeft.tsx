@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowFatLeft";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNzJIMTI4VjMyYTgsOCwwLDAsMC0xMy42Ni01LjY2bC05Niw5NmE4LDgsMCwwLDAsMCwxMS4zMmw5Niw5NkE4LDgsMCwwLDAsMTI4LDIyNFYxODRoODBhMTYsMTYsMCwwLDAsMTYtMTZWODhBMTYsMTYsMCwwLDAsMjA4LDcyWm0wLDk2SDEyMGE4LDgsMCwwLDAtOCw4djI4LjY5TDM1LjMxLDEyOCwxMTIsNTEuMzFWODBhOCw4LDAsMCwwLDgsOGg4OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ArrowFatLeftIcon";
 
 /** @deprecated Use ArrowFatLeftIcon */
 export const ArrowFatLeft = I;
-export { I as ArrowFatLeftIcon };
+export { I as ArrowFatLeftIcon }

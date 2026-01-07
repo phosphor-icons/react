@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BoundingBox";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsOTZhMTYsMTYsMCwwLDAsMTYtMTZWNDhhMTYsMTYsMCwwLDAtMTYtMTZIMTc2YTE2LDE2LDAsMCwwLTE2LDE2djhIOTZWNDhBMTYsMTYsMCwwLDAsODAsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWODBBMTYsMTYsMCwwLDAsNDgsOTZoOHY2NEg0OGExNiwxNiwwLDAsMC0xNiwxNnYzMmExNiwxNiwwLDAsMCwxNiwxNkg4MGExNiwxNiwwLDAsMCwxNi0xNnYtOGg2NHY4YTE2LDE2LDAsMCwwLDE2LDE2aDMyYTE2LDE2LDAsMCwwLDE2LTE2VjE3NmExNiwxNiwwLDAsMC0xNi0xNmgtOFY5NlpNMTc2LDQ4aDMyVjgwSDE3NlpNNDgsNDhIODBWNjMuOWEuNTEuNTEsMCwwLDAsMCwuMlY4MEg0OFpNODAsMjA4SDQ4VjE3Nkg4MHYxNS45YS41MS41MSwwLDAsMCwwLC4yVjIwOFptMTI4LDBIMTc2VjE3NmgzMlptLTI0LTQ4aC04YTE2LDE2LDAsMCwwLTE2LDE2djhIOTZ2LThhMTYsMTYsMCwwLDAtMTYtMTZINzJWOTZoOEExNiwxNiwwLDAsMCw5Niw4MFY3Mmg2NHY4YTE2LDE2LDAsMCwwLDE2LDE2aDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BoundingBoxIcon";
 
 /** @deprecated Use BoundingBoxIcon */
 export const BoundingBox = I;
-export { I as BoundingBoxIcon };
+export { I as BoundingBoxIcon }

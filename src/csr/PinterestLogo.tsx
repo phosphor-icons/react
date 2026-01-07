@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PinterestLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTEyYzAsMjIuNTctNy45LDQzLjItMjIuMjMsNTguMTFDMTg4LjM5LDE4NCwxNzAuMjUsMTkyLDE1MiwxOTJjLTE3Ljg4LDAtMjkuODItNS44Ni0zNy40My0xMmwtMTAuNzgsNDUuODJBOCw4LDAsMCwxLDk2LDIzMmE4LjI0LDguMjQsMCwwLDEtMS44NC0uMjEsOCw4LDAsMCwxLTYtOS42MmwzMi0xMzZhOCw4LDAsMCwxLDE1LjU4LDMuNjZsLTE2LjksNzEuOEMxMjIsMTY2LDEzMS4zLDE3NiwxNTIsMTc2YzI3LjUzLDAsNTYtMjMuOTQsNTYtNjRBNzIsNzIsMCwxLDAsNzMuNjMsMTQ4YTgsOCwwLDAsMS0xMy44NSw4QTg4LDg4LDAsMSwxLDIyNCwxMTJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "PinterestLogoIcon";
 
 /** @deprecated Use PinterestLogoIcon */
 export const PinterestLogo = I;
-export { I as PinterestLogoIcon };
+export { I as PinterestLogoIcon }

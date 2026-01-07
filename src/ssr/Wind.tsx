@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Wind";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMTg0YTMyLDMyLDAsMCwxLTMyLDMyYy0xMy43LDAtMjYuOTUtOC45My0zMS41LTIxLjIyYTgsOCwwLDAsMSwxNS01LjU2QzEzNy43NCwxOTUuMjcsMTQ1LDIwMCwxNTIsMjAwYTE2LDE2LDAsMCwwLDAtMzJINDBhOCw4LDAsMCwxLDAtMTZIMTUyQTMyLDMyLDAsMCwxLDE4NCwxODRabS02NC04MGEzMiwzMiwwLDAsMCwwLTY0Yy0xMy43LDAtMjYuOTUsOC45My0zMS41LDIxLjIyYTgsOCwwLDAsMCwxNSw1LjU2QzEwNS43NCw2MC43MywxMTMsNTYsMTIwLDU2YTE2LDE2LDAsMCwxLDAsMzJIMjRhOCw4LDAsMCwwLDAsMTZabTg4LTMyYy0xMy43LDAtMjYuOTUsOC45My0zMS41LDIxLjIyYTgsOCwwLDAsMCwxNSw1LjU2QzE5My43NCw5Mi43MywyMDEsODgsMjA4LDg4YTE2LDE2LDAsMCwxLDAsMzJIMzJhOCw4LDAsMCwwLDAsMTZIMjA4YTMyLDMyLDAsMCwwLDAtNjRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "WindIcon";
 
 /** @deprecated Use WindIcon */
 export const Wind = I;
-export { I as WindIcon };
+export { I as WindIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CircleNotch";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTI4YTEwNCwxMDQsMCwwLDEtMjA4LDBjMC00MSwyMy44MS03OC4zNiw2MC42Ni05NS4yN2E4LDgsMCwwLDEsNi42OCwxNC41NEM2MC4xNSw2MS41OSw0MCw5My4yNyw0MCwxMjhhODgsODgsMCwwLDAsMTc2LDBjMC0zNC43My0yMC4xNS02Ni40MS01MS4zNC04MC43M2E4LDgsMCwwLDEsNi42OC0xNC41NEMyMDguMTksNDkuNjQsMjMyLDg3LDIzMiwxMjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CircleNotchIcon";
 
 /** @deprecated Use CircleNotchIcon */
 export const CircleNotch = I;
-export { I as CircleNotchIcon };
+export { I as CircleNotchIcon }

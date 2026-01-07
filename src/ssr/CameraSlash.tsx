@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CameraSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01My45MiwzNC42MkE4LDgsMCwxLDAsNDIuMDgsNDUuMzhMNTEuNzMsNTZINDhBMjQsMjQsMCwwLDAsMjQsODBWMTkyYTI0LDI0LDAsMCwwLDI0LDI0SDE5Ny4xOWw0Ljg5LDUuMzhhOCw4LDAsMSwwLDExLjg0LTEwLjc2Wm01MS42Niw4MC42MSwzNyw0MC42OUEyNy43MSwyNy43MSwwLDAsMSwxMjgsMTYwYTI4LDI4LDAsMCwxLTIyLjQyLTQ0Ljc3Wk00OCwyMDBhOCw4LDAsMCwxLTgtOFY4MGE4LDgsMCwwLDEsOC04SDY2LjI4bDI4LjQxLDMxLjI2QTQ0LDQ0LDAsMCwwLDEyOCwxNzZhNDQuMjEsNDQuMjEsMCwwLDAsMjUuNDQtOC4xMkwxODIuNjQsMjAwWk0yMzIsODBWMTg2YTgsOCwwLDAsMS0xNiwwVjgwYTgsOCwwLDAsMC04LThIMTc2YTgsOCwwLDAsMS02LjY1LTMuNTZMMTU1LjcxLDQ4SDEwMC4yNGE4LDgsMCwwLDEtMTIuOTEtOS40MmwyLTNBOCw4LDAsMCwxLDk2LDMyaDY0YTgsOCwwLDAsMSw2LjY2LDMuNTZMMTgwLjI4LDU2SDIwOEEyNCwyNCwwLDAsMSwyMzIsODBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CameraSlashIcon";
 
 /** @deprecated Use CameraSlashIcon */
 export const CameraSlash = I;
-export { I as CameraSlashIcon };
+export { I as CameraSlashIcon }

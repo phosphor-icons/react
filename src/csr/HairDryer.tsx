@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HairDryer";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsODhhMzIsMzIsMCwxLDAtMzIsMzJBMzIsMzIsMCwwLDAsMjAwLDg4Wm0tMzIsMTZhMTYsMTYsMCwxLDEsMTYtMTZBMTYsMTYsMCwwLDEsMTY4LDEwNFptOS40MiwxMDIuNjJMMjA5LDEzNy4wN0E2NCw2NCwwLDAsMCwxNjgsMjRhOC40LDguNCwwLDAsMC0xLjMyLjExTDI5LjM3LDQ3QTE2LDE2LDAsMCwwLDE2LDYyLjc4djUwLjQ0QTE2LDE2LDAsMCwwLDI5LjM3LDEyOUwxMjgsMTQ1LjQ0VjIwMGExNiwxNiwwLDAsMCwxNiwxNiw0MCw0MCwwLDAsMCw0MCw0MGgxNmE4LDgsMCwwLDAsMC0xNkgxODRhMjQsMjQsMCwwLDEtMjQtMjRoMi44NUExNiwxNiwwLDAsMCwxNzcuNDIsMjA2LjYyWk0zMiw2Mi43OCwxNjguNjQsNDBhNDgsNDgsMCwwLDEsMCw5NkwzMiwxMTMuMjNabTEzNC42OCw4OS4xMUE4LjQsOC40LDAsMCwwLDE2OCwxNTJhNjMuOSw2My45LDAsMCwwLDE3LjgyLTIuNTRsLTIzLDUwLjU0SDE0NFYxNDguMTFaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "HairDryerIcon";
 
 /** @deprecated Use HairDryerIcon */
 export const HairDryer = I;
-export { I as HairDryerIcon };
+export { I as HairDryerIcon }

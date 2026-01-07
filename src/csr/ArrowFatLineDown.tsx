@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowFatLineDown";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzEuMzksMTMyLjk0QTgsOCwwLDAsMCwyMjQsMTI4SDE4NFY3MmE4LDgsMCwwLDAtOC04SDgwYTgsOCwwLDAsMC04LDh2NTZIMzJhOCw4LDAsMCwwLTUuNjYsMTMuNjZsOTYsOTZhOCw4LDAsMCwwLDExLjMyLDBsOTYtOTZBOCw4LDAsMCwwLDIzMS4zOSwxMzIuOTRaTTEyOCwyMjAuNjksNTEuMzEsMTQ0SDgwYTgsOCwwLDAsMCw4LThWODBoODB2NTZhOCw4LDAsMCwwLDgsOGgyOC42OVpNNzIsNDBhOCw4LDAsMCwxLDgtOGg5NmE4LDgsMCwwLDEsMCwxNkg4MEE4LDgsMCwwLDEsNzIsNDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ArrowFatLineDownIcon";
 
 /** @deprecated Use ArrowFatLineDownIcon */
 export const ArrowFatLineDown = I;
-export { I as ArrowFatLineDownIcon };
+export { I as ArrowFatLineDownIcon }

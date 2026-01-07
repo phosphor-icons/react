@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Bread";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsODBhNDAsNDAsMCwwLDAtNDAtNDBINDhhNDAsNDAsMCwwLDAtMTYsNzYuNjVWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlYxMTYuNjVBNDAuMDYsNDAuMDYsMCwwLDAsMjQwLDgwWk00OCwxMjBhOCw4LDAsMCwwLDAtMTYsMjQsMjQsMCwwLDEsMC00OGg5NmEyNCwyNCwwLDAsMSwwLDQ4LDgsOCwwLDAsMCwwLDE2djgwSDQ4Wm0xNTItMTZhOCw4LDAsMCwwLDAsMTZ2ODBIMTYwVjExNi42NUE0MCw0MCwwLDAsMCwxNzYsNTZoMjRhMjQsMjQsMCwwLDEsMCw0OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BreadIcon";
 
 /** @deprecated Use BreadIcon */
 export const Bread = I;
-export { I as BreadIcon };
+export { I as BreadIcon }

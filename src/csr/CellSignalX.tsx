@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CellSignalX";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsMTk0LjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMkwxODQsMTg3LjMxbC0xOC4zNCwxOC4zNWE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMTcyLjY5LDE3NmwtMTguMzUtMTguMzRhOCw4LDAsMCwxLDExLjMyLTExLjMyTDE4NCwxNjQuNjlsMTguMzQtMTguMzVhOCw4LDAsMCwxLDExLjMyLDExLjMyTDE5NS4zMSwxNzZaTTE2MCwxMjBhOCw4LDAsMCwwLDgtOFY3MmE4LDgsMCwwLDAtMTYsMHY0MEE4LDgsMCwwLDAsMTYwLDEyMFptNDAsMGE4LDgsMCwwLDAsOC04VjMyYTgsOCwwLDAsMC0xNiwwdjgwQTgsOCwwLDAsMCwyMDAsMTIwWm0tODAtMTZhOCw4LDAsMCwwLTgsOHY4OGE4LDgsMCwwLDAsMTYsMFYxMTJBOCw4LDAsMCwwLDEyMCwxMDRaTTgwLDE0NGE4LDgsMCwwLDAtOCw4djQ4YTgsOCwwLDAsMCwxNiwwVjE1MkE4LDgsMCwwLDAsODAsMTQ0Wk00MCwxODRhOCw4LDAsMCwwLTgsOHY4YTgsOCwwLDAsMCwxNiwwdi04QTgsOCwwLDAsMCw0MCwxODRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CellSignalXIcon";
 
 /** @deprecated Use CellSignalXIcon */
 export const CellSignalX = I;
-export { I as CellSignalXIcon };
+export { I as CellSignalXIcon }

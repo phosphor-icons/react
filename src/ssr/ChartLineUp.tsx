@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChartLineUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMjA4YTgsOCwwLDAsMS04LDhIMzJhOCw4LDAsMCwxLTgtOFY0OGE4LDgsMCwwLDEsMTYsMFYxNTYuNjlsNTAuMzQtNTAuMzVhOCw4LDAsMCwxLDExLjMyLDBMMTI4LDEzMi42OSwxODAuNjksODBIMTYwYTgsOCwwLDAsMSwwLTE2aDQwYTgsOCwwLDAsMSw4LDh2NDBhOCw4LDAsMCwxLTE2LDBWOTEuMzFsLTU4LjM0LDU4LjM1YTgsOCwwLDAsMS0xMS4zMiwwTDk2LDEyMy4zMWwtNTYsNTZWMjAwSDIyNEE4LDgsMCwwLDEsMjMyLDIwOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ChartLineUpIcon";
 
 /** @deprecated Use ChartLineUpIcon */
 export const ChartLineUp = I;
-export { I as ChartLineUpIcon };
+export { I as ChartLineUpIcon }

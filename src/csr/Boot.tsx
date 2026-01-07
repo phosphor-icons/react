@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Boot";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMTEySDE2MFY1NmExNiwxNiwwLDAsMC0xNi0xNkgzMmE4LDgsMCwwLDAtNy40NywxMC44NmMxMS4wNiwyOC44NCw4Ljc2LDgzLjcxLS4yMiwxMTQuOTNBOC4yNSw4LjI1LDAsMCwwLDI0LDE2OHYzMmExNiwxNiwwLDAsMCwxNiwxNkg2Ni4xMWExNiwxNiwwLDAsMCw3LjE2LTEuNjlMODUuODksMjA4aDE2LjIybDEyLjYyLDYuMzFhMTYsMTYsMCwwLDAsNy4xNiwxLjY5aDI4LjIyYTE2LDE2LDAsMCwwLDcuMTYtMS42OUwxNjkuODksMjA4aDE2LjIybDEyLjYyLDYuMzFhMTYsMTYsMCwwLDAsNy4xNiwxLjY5SDIzMmExNiwxNiwwLDAsMCwxNi0xNlYxNjhBNTYuMDYsNTYuMDYsMCwwLDAsMTkyLDExMlpNNDIuODYsNTZIMTQ0VjgwSDExMmE4LDgsMCwwLDAsMCwxNmgzMnYxNkgxMTJhOCw4LDAsMCwwLDAsMTZoODBhNDAuMDcsNDAuMDcsMCwwLDEsMzkuMiwzMkg0Mi4yNUM0OSwxMjkuMTYsNTAuNDEsODUuODMsNDIuODYsNTZaTTIzMiwyMDBIMjA1Ljg5bC0xMi42Mi02LjMxYTE2LDE2LDAsMCwwLTcuMTYtMS42OUgxNjkuODlhMTYsMTYsMCwwLDAtNy4xNiwxLjY5TDE1MC4xMSwyMDBIMTIxLjg5bC0xMi42Mi02LjMxYTE2LDE2LDAsMCwwLTcuMTYtMS42OUg4NS44OWExNiwxNiwwLDAsMC03LjE2LDEuNjlMNjYuMTEsMjAwSDQwVjE3NkgyMzJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BootIcon";
 
 /** @deprecated Use BootIcon */
 export const Boot = I;
-export { I as BootIcon };
+export { I as BootIcon }

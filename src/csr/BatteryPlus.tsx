@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BatteryPlus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsMTI4YTgsOCwwLDAsMS04LDhIMTI0djIwYTgsOCwwLDAsMS0xNiwwVjEzNkg4OGE4LDgsMCwwLDEsMC0xNmgyMFYxMDBhOCw4LDAsMCwxLDE2LDB2MjBoMjBBOCw4LDAsMCwxLDE1MiwxMjhabTcyLTQ4djk2YTI0LDI0LDAsMCwxLTI0LDI0SDMyQTI0LDI0LDAsMCwxLDgsMTc2VjgwQTI0LDI0LDAsMCwxLDMyLDU2SDIwMEEyNCwyNCwwLDAsMSwyMjQsODBabS0xNiwwYTgsOCwwLDAsMC04LThIMzJhOCw4LDAsMCwwLTgsOHY5NmE4LDgsMCwwLDAsOCw4SDIwMGE4LDgsMCwwLDAsOC04Wm00MCw4YTgsOCwwLDAsMC04LDh2NjRhOCw4LDAsMCwwLDE2LDBWOTZBOCw4LDAsMCwwLDI0OCw4OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BatteryPlusIcon";
 
 /** @deprecated Use BatteryPlusIcon */
 export const BatteryPlus = I;
-export { I as BatteryPlusIcon };
+export { I as BatteryPlusIcon }

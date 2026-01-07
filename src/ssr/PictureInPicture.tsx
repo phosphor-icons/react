@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PictureInPicture";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDhINDBBMTYsMTYsMCwwLDAsMjQsNjRWMTkyYTE2LDE2LDAsMCwwLDE2LDE2SDIxNmExNiwxNiwwLDAsMCwxNi0xNlY2NEExNiwxNiwwLDAsMCwyMTYsNDhaTTQwLDY0SDIxNnY1NkgxMzZhOCw4LDAsMCwwLTgsOHY2NEg0MFpNMjE2LDE5MkgxNDRWMTM2aDcydjU2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PictureInPictureIcon";
 
 /** @deprecated Use PictureInPictureIcon */
 export const PictureInPicture = I;
-export { I as PictureInPictureIcon };
+export { I as PictureInPictureIcon }

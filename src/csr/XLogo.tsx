@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/XLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTQuNzUsMjExLjcxbC02Mi42LTk4LjM4LDYxLjc3LTY3Ljk1YTgsOCwwLDAsMC0xMS44NC0xMC43NkwxNDMuMjQsOTkuMzQsMTAyLjc1LDM1LjcxQTgsOCwwLDAsMCw5NiwzMkg0OGE4LDgsMCwwLDAtNi43NSwxMi4zbDYyLjYsOTguMzctNjEuNzcsNjhhOCw4LDAsMSwwLDExLjg0LDEwLjc2bDU4Ljg0LTY0LjcyLDQwLjQ5LDYzLjYzQTgsOCwwLDAsMCwxNjAsMjI0aDQ4YTgsOCwwLDAsMCw2Ljc1LTEyLjI5Wk0xNjQuMzksMjA4LDYyLjU3LDQ4aDI5TDE5My40MywyMDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "XLogoIcon";
 
 /** @deprecated Use XLogoIcon */
 export const XLogo = I;
-export { I as XLogoIcon };
+export { I as XLogoIcon }

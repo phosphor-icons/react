@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Sphere";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm04OCwxMDRjMCw2LTE3LDE2LjIzLTQ4Ljc3LDIxLjE3LjUxLTcsLjc3LTE0LjA4Ljc3LTIxLjE3LDAtMzIuMjQtNS4zNS02NC43Mi0xNS43NC04NC42QTg4LjE3LDg4LjE3LDAsMCwxLDIxNiwxMjhaTTEyOCw0MGM4LjE1LDAsMjQsMzEuMDYsMjQsODgsMCw4LjI0LS4zNCwxNS45Mi0uOTMsMjMuMDctNy4xNS41OS0xNC44My45My0yMy4wNy45My01Ni45NCwwLTg4LTE1Ljg1LTg4LTI0QTg4LjEsODguMSwwLDAsMSwxMjgsNDBaTTQzLjQsMTUyLjI2QzYzLjI4LDE2Mi42NSw5NS43NiwxNjgsMTI4LDE2OGM3LjA5LDAsMTQuMTktLjI2LDIxLjE3LS43N0MxNDQuMjMsMTk5LDEzNCwyMTYsMTI4LDIxNkE4OC4xNyw4OC4xNywwLDAsMSw0My40LDE1Mi4yNlpNMTUyLjI2LDIxMi42YzYuMjktMTIsMTAuNzMtMjguNjcsMTMuMjYtNDcuMDgsMTguNDEtMi41MywzNS03LDQ3LjA4LTEzLjI2QTg4LjQsODguNCwwLDAsMSwxNTIuMjYsMjEyLjZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "SphereIcon";
 
 /** @deprecated Use SphereIcon */
 export const Sphere = I;
-export { I as SphereIcon };
+export { I as SphereIcon }

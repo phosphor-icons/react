@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Cheese";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMzJhNy44MSw3LjgxLDAsMCwwLTIuMy4zNGwtMTYwLDQ4aDBBOCw4LDAsMCwwLDE2LDg4djI0YTgsOCwwLDAsMCw4LDhoOGExNi4wOCwxNi4wOCwwLDAsMSwxNiwxNS42OUExNS42LDE1LjYsMCwwLDEsNDMuNDIsMTQ3YTE2Ljg3LDE2Ljg3LDAsMCwxLTEyLDUuMDVIMjRhOCw4LDAsMCwwLTgsOHYzMmE4LDgsMCwwLDAsOCw4SDIyNGExNiwxNiwwLDAsMCwxNi0xNlY4OEE1Ni4wNiw1Ni4wNiwwLDAsMCwxODQsMzJabTEuMTIsMTZhNDAuMDYsNDAuMDYsMCwwLDEsMzguMDcsMzJINzguNTFaTTE5MiwxMDRhMjQsMjQsMCwxLDEtNDYuNjItOGg0NS4yNEEyMy44NiwyMy44NiwwLDAsMSwxOTIsMTA0Wk04OCwxODRhMjQsMjQsMCwwLDEsNDgsMFptMTM2LDBIMTUyYTQwLDQwLDAsMCwwLTgwLDBIMzJWMTY4YTMzLDMzLDAsMCwwLDIyLjg0LTkuODVBMzEuMzksMzEuMzksMCwwLDAsNjQsMTM1LjM4LDMyLjE1LDMyLjE1LDAsMCwwLDMyLDEwNFY5Nmg5Ni44MWE0MCw0MCwwLDEsMCw3OC4zOCwwSDIyNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CheeseIcon";
 
 /** @deprecated Use CheeseIcon */
 export const Cheese = I;
-export { I as CheeseIcon };
+export { I as CheeseIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TextHFive";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsNTZWMTc2YTgsOCwwLDAsMS0xNiwwVjEyNEg0OHY1MmE4LDgsMCwwLDEtMTYsMFY1NmE4LDgsMCwwLDEsMTYsMHY1Mmg4OFY1NmE4LDgsMCwwLDEsMTYsMFptNjAsODhhMzguOCwzOC44LDAsMCwwLTkuNDEsMS4xNEwyMDYuNzgsMTIwSDI0MGE4LDgsMCwwLDAsMC0xNkgyMDBhOCw4LDAsMCwwLTcuODksNi42OGwtOCw0OGE4LDgsMCwwLDAsMTMuNiw2LjkyQTE5LjczLDE5LjczLDAsMCwxLDIxMiwxNjBhMjAsMjAsMCwwLDEsMCw0MCwxOS43MywxOS43MywwLDAsMS0xNC4yOS01LjYsOCw4LDAsMSwwLTExLjQyLDExLjJBMzUuNTQsMzUuNTQsMCwwLDAsMjEyLDIxNmEzNiwzNiwwLDAsMCwwLTcyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TextHFiveIcon";
 
 /** @deprecated Use TextHFiveIcon */
 export const TextHFive = I;
-export { I as TextHFiveIcon };
+export { I as TextHFiveIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SteamLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wk0xMTcuMzksMTg1LjkybDYyLTUwLjU1YTM2LDM2LDAsMSwwLTUxLjE0LTUwLjIzbC00Myw1Mi43M0w0NS4yOCw5OEE4OCw4OCwwLDEsMSw0MCwxMjhhODkuNTYsODkuNTYsMCwwLDEsLjgtMTEuODhsMzQuNTcsMzQuNTdhMjgsMjgsMCwwLDAsNDIsMzUuMjNabTQuMTktNjcuMzdhMzYuMTgsMzYuMTgsMCwwLDAsMjMuODcsMjMuODdsLTE4LjI2LDE0Ljg5YTI4LjExLDI4LjExLDAsMCwwLTIwLjUtMjAuNVpNMTU2LDEyOGEyMCwyMCwwLDEsMSwyMC0yMEEyMCwyMCwwLDAsMSwxNTYsMTI4Wm0tNTYsMjRhMTIsMTIsMCwxLDEtMTIsMTJBMTIsMTIsMCwwLDEsMTAwLDE1MloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "SteamLogoIcon";
 
 /** @deprecated Use SteamLogoIcon */
 export const SteamLogo = I;
-export { I as SteamLogoIcon };
+export { I as SteamLogoIcon }

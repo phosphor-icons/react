@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/IdentificationBadge";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik03NS4xOSwxOTguNGE4LDgsMCwwLDAsMTEuMjEtMS42LDUyLDUyLDAsMCwxLDgzLjIsMCw4LDgsMCwxLDAsMTIuOC05LjZBNjcuODgsNjcuODgsMCwwLDAsMTU1LDE2NS41MWE0MCw0MCwwLDEsMC01My45NCwwQTY3Ljg4LDY3Ljg4LDAsMCwwLDczLjYsMTg3LjIsOCw4LDAsMCwwLDc1LjE5LDE5OC40Wk0xMjgsMTEyYTI0LDI0LDAsMSwxLTI0LDI0QTI0LDI0LDAsMCwxLDEyOCwxMTJabTcyLTg4SDU2QTE2LDE2LDAsMCwwLDQwLDQwVjIxNmExNiwxNiwwLDAsMCwxNiwxNkgyMDBhMTYsMTYsMCwwLDAsMTYtMTZWNDBBMTYsMTYsMCwwLDAsMjAwLDI0Wm0wLDE5Mkg1NlY0MEgyMDBaTTg4LDY0YTgsOCwwLDAsMSw4LThoNjRhOCw4LDAsMCwxLDAsMTZIOTZBOCw4LDAsMCwxLDg4LDY0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "IdentificationBadgeIcon";
 
 /** @deprecated Use IdentificationBadgeIcon */
 export const IdentificationBadge = I;
-export { I as IdentificationBadgeIcon };
+export { I as IdentificationBadgeIcon }

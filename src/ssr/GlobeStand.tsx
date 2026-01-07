@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GlobeStand";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsMTg0YTgwLDgwLDAsMSwwLTgwLTgwQTgwLjA5LDgwLjA5LDAsMCwwLDEzNiwxODRabTAtMTQ0YTY0LDY0LDAsMSwxLTY0LDY0QTY0LjA3LDY0LjA3LDAsMCwxLDEzNiw0MFptNzcuNzcsMTMzLjVhOCw4LDAsMCwxLS4yMywxMS4zMkExMTEuMjQsMTExLjI0LDAsMCwxLDE0NCwyMTUuNzJWMjMyaDI0YTgsOCwwLDAsMSwwLDE2SDEwNGE4LDgsMCwwLDEsMC0xNmgyNFYyMTUuNzFBMTEyLDExMiwwLDAsMSw1NS4xOCwyNi40Niw4LDgsMCwxLDEsNjYuNzIsMzcuNTQsOTYsOTYsMCwwLDAsMjAyLjQ2LDE3My4yOCw4LDgsMCwwLDEsMjEzLjc3LDE3My41WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "GlobeStandIcon";
 
 /** @deprecated Use GlobeStandIcon */
 export const GlobeStand = I;
-export { I as GlobeStandIcon };
+export { I as GlobeStandIcon }

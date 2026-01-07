@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Headset";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDEuODksNTQuNjZBMTAzLjQzLDEwMy40MywwLDAsMCwxMjguNzksMjRIMTI4QTEwNCwxMDQsMCwwLDAsMjQsMTI4djU2YTI0LDI0LDAsMCwwLDI0LDI0SDY0YTI0LDI0LDAsMCwwLDI0LTI0VjE0NGEyNCwyNCwwLDAsMC0yNC0yNEg0MC4zNkE4OC4xMiw4OC4xMiwwLDAsMSwxOTAuNTQsNjUuOTMsODcuMzksODcuMzksMCwwLDEsMjE1LjY1LDEyMEgxOTJhMjQsMjQsMCwwLDAtMjQsMjR2NDBhMjQsMjQsMCwwLDAsMjQsMjRoMjRhMjQsMjQsMCwwLDEtMjQsMjRIMTM2YTgsOCwwLDAsMCwwLDE2aDU2YTQwLDQwLDAsMCwwLDQwLTQwVjEyOEExMDMuNDEsMTAzLjQxLDAsMCwwLDIwMS44OSw1NC42NlpNNjQsMTM2YTgsOCwwLDAsMSw4LDh2NDBhOCw4LDAsMCwxLTgsOEg0OGE4LDgsMCwwLDEtOC04VjEzNlptMTI4LDU2YTgsOCwwLDAsMS04LThWMTQ0YTgsOCwwLDAsMSw4LThoMjR2NTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "HeadsetIcon";
 
 /** @deprecated Use HeadsetIcon */
 export const Headset = I;
-export { I as HeadsetIcon };
+export { I as HeadsetIcon }

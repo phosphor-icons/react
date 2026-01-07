@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FolderSimpleStar";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjA4YTgsOCwwLDAsMS04LDhINDBhMTYsMTYsMCwwLDEtMTYtMTZWNjRBMTYsMTYsMCwwLDEsNDAsNDhIOTMuMzNhMTYuMTIsMTYuMTIsMCwwLDEsOS42LDMuMkwxMzAuNjcsNzJIMjE2YTE2LDE2LDAsMCwxLDE2LDE2djMyYTgsOCwwLDAsMS0xNiwwVjg4SDEyOGE4LDgsMCwwLDEtNC44LTEuNkw5My4zMyw2NEg0MFYyMDBoODBBOCw4LDAsMCwxLDEyOCwyMDhabTEwOS4wOS00MC4yMi0yMi41MSwxOC41OSw2Ljg1LDI3LjcxYTgsOCwwLDAsMS0xMS44Miw4LjgxTDE4NCwyMDcuODJsLTI1LjYxLDE1LjA3YTgsOCwwLDAsMS0xMS44Mi04LjgxbDYuODUtMjcuNzEtMjIuNTEtMTguNTlhOCw4LDAsMCwxLDQuNDctMTQuMTRsMjkuODQtMi4zMSwxMS40My0yNi41YTgsOCwwLDAsMSwxNC43LDBsMTEuNDMsMjYuNSwyOS44NCwyLjMxYTgsOCwwLDAsMSw0LjQ3LDE0LjE0Wm0tMjUuNDcuMjgtMTQuODktMS4xNWE4LDgsMCwwLDEtNi43My00LjhsLTYtMTMuOTItNiwxMy45MmE4LDgsMCwwLDEtNi43Myw0LjhsLTE0Ljg5LDEuMTUsMTEuMTEsOS4xOGE4LDgsMCwwLDEsMi42OCw4LjA5bC0zLjUsMTQuMTIsMTMuMjctNy44MWE4LDgsMCwwLDEsOC4xMiwwbDEzLjI3LDcuODEtMy41LTE0LjEyYTgsOCwwLDAsMSwyLjY4LTguMDlaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FolderSimpleStarIcon";
 
 /** @deprecated Use FolderSimpleStarIcon */
 export const FolderSimpleStar = I;
-export { I as FolderSimpleStarIcon };
+export { I as FolderSimpleStarIcon }

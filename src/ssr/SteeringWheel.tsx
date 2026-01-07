@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SteeringWheel";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTUyYTEyLDEyLDAsMSwxLDEyLTEyQTEyLDEyLDAsMCwxLDEyOCwxNTJabTEwNC0yNEExMDQsMTA0LDAsMSwxLDEyOCwyNCwxMDQuMTEsMTA0LjExLDAsMCwxLDIzMiwxMjhaTTQwLDEyOHYuMzNhMTM1LjkzLDEzNS45MywwLDAsMSwxNzYsMFYxMjhhODgsODgsMCwwLDAtMTc2LDBabTY3LjUsODUuNThMOTAuNDUsMTY4SDQ5LjYzQTg4LjM1LDg4LjM1LDAsMCwwLDEwNy41LDIxMy41OFpNMTI4LDIxNmMuODMsMCwxLjY2LDAsMi40OSwwbDIwLjA3LTUzLjU3YTE2LjA3LDE2LjA3LDAsMCwxLDE1LTEwLjM5aDQ3LjEyYy4zOC0xLjMxLjcyLTIuNjQsMS00YTEyMCwxMjAsMCwwLDAtMTcxLjQsMGMuMzEsMS4zNC42NSwyLjY3LDEsNEg5MC40NWExNi4wOCwxNi4wOCwwLDAsMSwxNSwxMC40bDIwLDUzLjU2QzEyNi4zMSwyMTYsMTI3LjE1LDIxNiwxMjgsMjE2Wm03OC4zNy00OEgxNjUuNTVsLTE3LjA5LDQ1LjU5QTg4LjM0LDg4LjM0LDAsMCwwLDIwNi4zNywxNjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "SteeringWheelIcon";
 
 /** @deprecated Use SteeringWheelIcon */
 export const SteeringWheel = I;
-export { I as SteeringWheelIcon };
+export { I as SteeringWheelIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CircleHalfTilt";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDEuNTQsNTQuNDZBMTA0LDEwNCwwLDAsMCw1NC40NiwyMDEuNTQsMTA0LDEwNCwwLDAsMCwyMDEuNTQsNTQuNDZaTTE4NCwxOTUuODdhODcuMTYsODcuMTYsMCwwLDEtMTYsMTAuNVY5OS4zMWwxNi0xNlptLTgwLTMyLjU2LDE2LTE2djY4LjI4YTg4LjM3LDg4LjM3LDAsMCwxLTE2LTNaTTg4LDIwNi4zN2E4Nyw4NywwLDAsMS0xNi4zLTEwLjc2TDg4LDE3OS4zMVptNDgtNzUuMDYsMTYtMTZ2OTcuMzJhODguMzcsODguMzcsMCwwLDEtMTYsM1pNNDAsMTI4QTg4LDg4LDAsMCwxLDE4NC4zLDYwLjM5TDYwLjM4LDE4NC4zMUE4Ny4zNCw4Ny4zNCwwLDAsMSw0MCwxMjhabTE2MCw1MC41OVY3Ny40MWE4OCw4OCwwLDAsMSwwLDEwMS4xOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CircleHalfTiltIcon";
 
 /** @deprecated Use CircleHalfTiltIcon */
 export const CircleHalfTilt = I;
-export { I as CircleHalfTiltIcon };
+export { I as CircleHalfTiltIcon }

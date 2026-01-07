@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TrafficCone";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMjA4SDIxMy42OUwxNTMuNDIsMzQuNzVBMTYsMTYsMCwwLDAsMTM4LjMxLDI0SDExNy42OWExNiwxNiwwLDAsMC0xNS4xMSwxMC43NEw0Mi4zMSwyMDhIMjRhOCw4LDAsMCwwLDAsMTZIMjMyYTgsOCwwLDAsMCwwLTE2Wk05NS40MywxMDRoNjUuMTRsMTYuNyw0OEg3OC43M1ptMjIuMjYtNjRoMjAuNjJMMTU1LDg4SDEwMVpNNzMuMTcsMTY4SDE4Mi44M2wxMy45Miw0MEg1OS4yNVoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "TrafficConeIcon";
 
 /** @deprecated Use TrafficConeIcon */
 export const TrafficCone = I;
-export { I as TrafficConeIcon };
+export { I as TrafficConeIcon }

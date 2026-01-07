@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TextHThree";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsNTZWMTc2YTgsOCwwLDAsMS0xNiwwVjEyNEg0OHY1MmE4LDgsMCwwLDEtMTYsMFY1NmE4LDgsMCwwLDEsMTYsMHY1Mmg4OFY1NmE4LDgsMCwwLDEsMTYsMFptNzMuNTIsOTAuNjMsMjEtMzBBOCw4LDAsMCwwLDI0MCwxMDRIMTkyYTgsOCwwLDAsMCwwLDE2aDMyLjYzbC0xOS4xOCwyNy40MUE4LDgsMCwwLDAsMjEyLDE2MGEyMCwyMCwwLDEsMS0xNC4yOSwzNCw4LDgsMCwxLDAtMTEuNDIsMTEuMTlBMzYsMzYsMCwwLDAsMjQ4LDE4MCwzNi4wNywzNi4wNywwLDAsMCwyMjUuNTIsMTQ2LjYzWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TextHThreeIcon";
 
 /** @deprecated Use TextHThreeIcon */
 export const TextHThree = I;
-export { I as TextHThreeIcon };
+export { I as TextHThreeIcon }

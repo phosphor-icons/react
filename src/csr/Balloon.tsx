@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Balloon";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTZhODguMSw4OC4xLDAsMCwwLTg4LDg4YzAsMjMuNDMsOS40LDQ5LjQyLDI1LjEzLDY5LjUsMTIuMDgsMTUuNDEsMjYuNSwyNiw0MS45MSwzMS4wOUw5Ni42NSwyMjguODVBOCw4LDAsMCwwLDEwNCwyNDBoNDhhOCw4LDAsMCwwLDcuMzUtMTEuMTVMMTQ5LDIwNC41OWMxNS40LTUuMDcsMjkuODMtMTUuNjgsNDEuOTEtMzEuMDlDMjA2LjYsMTUzLjQyLDIxNiwxMjcuNDMsMjE2LDEwNEE4OC4xLDg4LjEsMCwwLDAsMTI4LDE2Wm0xMS44NywyMDhIMTE2LjEzbDYuOTQtMTYuMTljMS42NC4xMiwzLjI4LjE5LDQuOTMuMTlzMy4yOS0uMDcsNC45My0uMTlabTM4LjQtNjAuMzdDMTYzLjk0LDE4MS45MywxNDYuMDksMTkyLDEyOCwxOTJzLTM1Ljk0LTEwLjA3LTUwLjI3LTI4LjM3QzY0LjEyLDE0Ni4yNyw1NiwxMjQsNTYsMTA0YTcyLDcyLDAsMCwxLDE0NCwwQzIwMCwxMjQsMTkxLjg4LDE0Ni4yNywxNzguMjcsMTYzLjYzWm0tMS01OS43NEE4LjUyLDguNTIsMCwwLDEsMTc2LDEwNGE4LDgsMCwwLDEtNy44OC02LjY4LDQxLjI5LDQxLjI5LDAsMCwwLTMzLjQzLTMzLjQzLDgsOCwwLDEsMSwyLjY0LTE1Ljc4LDU3LjUsNTcuNSwwLDAsMSw0Ni41Nyw0Ni41N0E4LDgsMCwwLDEsMTc3LjMyLDEwMy44OVoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BalloonIcon";
 
 /** @deprecated Use BalloonIcon */
 export const Balloon = I;
-export { I as BalloonIcon };
+export { I as BalloonIcon }

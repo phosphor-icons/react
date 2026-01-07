@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/NumberSquareNine";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTAsMTc2SDQ4VjQ4SDIwOFYyMDhaTTE0Niw3Ni44MkEzNiwzNiwwLDEsMCwxMjcuOTQsMTQ0cS45NCwwLDEuODktLjA2bC0xNi43LDI4YTgsOCwwLDAsMCwyLjc3LDExLDgsOCwwLDAsMCwxMS0yLjc3bDMyLjI0LTU0LC4wNy0uMWgwQTM2LjA1LDM2LjA1LDAsMCwwLDE0Niw3Ni44MlpNMTQ1LjMzLDExOGwwLDBBMjAsMjAsMCwxLDEsMTM4LDkwLjY4LDIwLDIwLDAsMCwxLDE0NS4zMSwxMThaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "NumberSquareNineIcon";
 
 /** @deprecated Use NumberSquareNineIcon */
 export const NumberSquareNine = I;
-export { I as NumberSquareNineIcon };
+export { I as NumberSquareNineIcon }

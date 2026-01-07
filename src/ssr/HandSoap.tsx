@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HandSoap";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsOTYuOFY4OGEzMiwzMiwwLDAsMC0zMi0zMkgxMzZWMzJoMzJhOCw4LDAsMCwxLDgsOCw4LDgsMCwwLDAsMTYsMCwyNCwyNCwwLDAsMC0yNC0yNEgxMDRhOCw4LDAsMCwwLDAsMTZoMTZWNTZIMTA0QTMyLDMyLDAsMCwwLDcyLDg4djguOEE0MC4wNyw0MC4wNywwLDAsMCw0MCwxMzZ2ODBhMTYsMTYsMCwwLDAsMTYsMTZIMjAwYTE2LDE2LDAsMCwwLDE2LTE2VjEzNkE0MC4wNyw0MC4wNywwLDAsMCwxODQsOTYuOFpNMTA0LDcyaDQ4YTE2LDE2LDAsMCwxLDE2LDE2djhIODhWODhBMTYsMTYsMCwwLDEsMTA0LDcyWm05NiwxNDRINTZWMTM2YTI0LDI0LDAsMCwxLDI0LTI0aDk2YTI0LDI0LDAsMCwxLDI0LDI0djgwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "HandSoapIcon";
 
 /** @deprecated Use HandSoapIcon */
 export const HandSoap = I;
-export { I as HandSoapIcon };
+export { I as HandSoapIcon }

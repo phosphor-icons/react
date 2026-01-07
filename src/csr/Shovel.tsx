@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Shovel";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDUuNjYsNTguMzRsLTQ4LTQ4YTgsOCwwLDAsMC0xMS4zMiwxMS4zMkwyMDQuNjksNDBsLTcxLDcxTDk5LjMxLDc2LjY4YTE2LDE2LDAsMCwwLTIyLjYyLDBsLTU2LDU2QTE1Ljg5LDE1Ljg5LDAsMCwwLDE2LDE0NHY4MGExNiwxNiwwLDAsMCwxNiwxNmg4MGExNS44NiwxNS44NiwwLDAsMCwxMS4zMS00LjY5bDU2LTU2YTE2LDE2LDAsMCwwLDAtMjIuNjJMMTQ1LDEyMi4zNGw3MS03MSwxOC4zNCwxOC4zNWE4LDgsMCwwLDAsMTEuMzItMTEuMzJaTTE2OCwxNjhsLTU2LDU2SDMyVjE0NEw4OCw4OGwzNC4zNCwzNC4zNC00MCw0MGE4LDgsMCwwLDAsMTEuMzIsMTEuMzJsNDAtNDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ShovelIcon";
 
 /** @deprecated Use ShovelIcon */
 export const Shovel = I;
-export { I as ShovelIcon };
+export { I as ShovelIcon }

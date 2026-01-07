@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MapPinPlus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTZhODguMSw4OC4xLDAsMCwwLTg4LDg4YzAsMzEuNCwxNC41MSw2NC42OCw0Miw5Ni4yNWEyNTQuMTksMjU0LjE5LDAsMCwwLDQxLjQ1LDM4LjMsOCw4LDAsMCwwLDkuMTgsMEEyNTQuMTksMjU0LjE5LDAsMCwwLDE3NCwyMDAuMjVjMjcuNDUtMzEuNTcsNDItNjQuODUsNDItOTYuMjVBODguMSw4OC4xLDAsMCwwLDEyOCwxNlptMCwyMDZjLTE2LjUzLTEzLTcyLTYwLjc1LTcyLTExOGE3Miw3MiwwLDAsMSwxNDQsMEMyMDAsMTYxLjIzLDE0NC41MywyMDksMTI4LDIyMlptNDAtMTE4YTgsOCwwLDAsMS04LDhIMTM2djI0YTgsOCwwLDAsMS0xNiwwVjExMkg5NmE4LDgsMCwwLDEsMC0xNmgyNFY3MmE4LDgsMCwwLDEsMTYsMFY5NmgyNEE4LDgsMCwwLDEsMTY4LDEwNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "MapPinPlusIcon";
 
 /** @deprecated Use MapPinPlusIcon */
 export const MapPinPlus = I;
-export { I as MapPinPlusIcon };
+export { I as MapPinPlusIcon }

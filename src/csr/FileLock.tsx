@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FileLock";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjAsMTc2aC04di00YTI4LDI4LDAsMCwwLTU2LDB2NEg0OGE4LDgsMCwwLDAtOCw4djQwYTgsOCwwLDAsMCw4LDhoNzJhOCw4LDAsMCwwLDgtOFYxODRBOCw4LDAsMCwwLDEyMCwxNzZabS00OC00YTEyLDEyLDAsMCwxLDI0LDB2NEg3MlptNDAsNDRINTZWMTkyaDU2Wk0yMTMuNjYsODIuMzRsLTU2LTU2QTgsOCwwLDAsMCwxNTIsMjRINTZBMTYsMTYsMCwwLDAsNDAsNDB2ODhhOCw4LDAsMCwwLDE2LDBWNDBoODhWODhhOCw4LDAsMCwwLDgsOGg0OFYyMTZIMTYwYTgsOCwwLDAsMCwwLDE2aDQwYTE2LDE2LDAsMCwwLDE2LTE2Vjg4QTgsOCwwLDAsMCwyMTMuNjYsODIuMzRaTTE2MCw1MS4zMSwxODguNjksODBIMTYwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FileLockIcon";
 
 /** @deprecated Use FileLockIcon */
 export const FileLock = I;
-export { I as FileLockIcon };
+export { I as FileLockIcon }

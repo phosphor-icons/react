@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SoundcloudLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNCwxMjB2NDhhOCw4LDAsMCwxLTE2LDBWMTIwYTgsOCwwLDAsMSwxNiwwWk00OCw4OGE4LDgsMCwwLDAtOCw4djk2YTgsOCwwLDAsMCwxNiwwVjk2QTgsOCwwLDAsMCw0OCw4OFptMzItOGE4LDgsMCwwLDAtOCw4VjE5MmE4LDgsMCwwLDAsMTYsMFY4OEE4LDgsMCwwLDAsODAsODBabTMyLTMyYTgsOCwwLDAsMC04LDhWMTkyYTgsOCwwLDAsMCwxNiwwVjU2QTgsOCwwLDAsMCwxMTIsNDhabTExMC44NCw1OC4zNEE4MCw4MCwwLDAsMCwxNDQsNDBhOCw4LDAsMCwwLDAsMTYsNjMuNzYsNjMuNzYsMCwwLDEsNjMuNjgsNTcuNTMsOCw4LDAsMCwwLDYuNDQsN0EzMiwzMiwwLDAsMSwyMDgsMTg0SDE0NGE4LDgsMCwwLDAsMCwxNmg2NGE0OCw0OCwwLDAsMCwxNC44NC05My42NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "SoundcloudLogoIcon";
 
 /** @deprecated Use SoundcloudLogoIcon */
 export const SoundcloudLogo = I;
-export { I as SoundcloudLogoIcon };
+export { I as SoundcloudLogoIcon }

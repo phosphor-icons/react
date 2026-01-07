@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/AndroidLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMTQ4YTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE3NiwxNDhaTTkyLDEzNmExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCw5MiwxMzZabTE0OCwyNHYyNGExNiwxNiwwLDAsMS0xNiwxNkgzMmExNiwxNiwwLDAsMS0xNi0xNlYxNjEuMTNBMTEzLjM4LDExMy4zOCwwLDAsMSw1MS40LDc4LjcyTDI2LjM0LDUzLjY2QTgsOCwwLDAsMSwzNy42Niw0Mi4zNEw2My44Miw2OC41YTExMS40MywxMTEuNDMsMCwwLDEsMTI4LjU1LS4xOWwyNi0yNmE4LDgsMCwwLDEsMTEuMzIsMTEuMzJMMjA0LjgyLDc4LjVjLjc1LjcxLDEuNSwxLjQzLDIuMjQsMi4xN0ExMTEuMjUsMTExLjI1LDAsMCwxLDI0MCwxNjBabS0xNiwwYTk2LDk2LDAsMCwwLTk2LTk2aC0uMzRDNzQuOTEsNjQuMTgsMzIsMTA3Ljc1LDMyLDE2MS4xM1YxODRIMjI0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "AndroidLogoIcon";
 
 /** @deprecated Use AndroidLogoIcon */
 export const AndroidLogo = I;
-export { I as AndroidLogoIcon };
+export { I as AndroidLogoIcon }

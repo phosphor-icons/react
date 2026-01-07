@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ShirtFolded";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBIMTc5LjMxTDE2NS42NiwyNi4zNGgwQTgsOCwwLDAsMCwxNjAsMjRIOTZhOCw4LDAsMCwwLTUuNjYsMi4zNGgwTDc2LjY5LDQwSDU2QTE2LDE2LDAsMCwwLDQwLDU2VjIwOGExNiwxNiwwLDAsMCwxNiwxNkgyMDBhMTYsMTYsMCwwLDAsMTYtMTZWNTZBMTYsMTYsMCwwLDAsMjAwLDQwWk0xMjgsNjUuNTgsMTExLDQwaDM0LjFabTMzLjI0LTIxTDE2OCw1MS4zMVYxMDRMMTM4LjU3LDc4LjU2Wk04OCw1MS4zMWw2Ljc2LTYuNzUsMjIuNjcsMzRMODgsMTA0Wk01Niw1Nkg3MnY0OGExNS44NSwxNS44NSwwLDAsMCw5LjIxLDE0LjQ5QTE2LjEsMTYuMSwwLDAsMCw4OCwxMjBhMTUuODksMTUuODksMCwwLDAsMTAuMi0zLjczLjUyLjUyLDAsMCwwLC4xMS0uMUwxMjAsOTcuNDhWMjA4SDU2Wk0yMDAsMjA4SDEzNlY5Ny40OGwyMS42NSwxOC43YS41Mi41MiwwLDAsMCwuMTEuMUExNS44OSwxNS44OSwwLDAsMCwxNjgsMTIwYTE2LjEsMTYuMSwwLDAsMCw2LjgzLTEuNTRBMTUuODUsMTUuODUsMCwwLDAsMTg0LDEwNFY1NmgxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ShirtFoldedIcon";
 
 /** @deprecated Use ShirtFoldedIcon */
 export const ShirtFolded = I;
-export { I as ShirtFoldedIcon };
+export { I as ShirtFoldedIcon }

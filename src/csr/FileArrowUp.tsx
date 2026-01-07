@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FileArrowUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsODIuMzRsLTU2LTU2QTgsOCwwLDAsMCwxNTIsMjRINTZBMTYsMTYsMCwwLDAsNDAsNDBWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlY4OEE4LDgsMCwwLDAsMjEzLjY2LDgyLjM0Wk0xNjAsNTEuMzEsMTg4LjY5LDgwSDE2MFpNMjAwLDIxNkg1NlY0MGg4OFY4OGE4LDgsMCwwLDAsOCw4aDQ4VjIxNlptLTQyLjM0LTc3LjY2YTgsOCwwLDAsMS0xMS4zMiwxMS4zMkwxMzYsMTM5LjMxVjE4NGE4LDgsMCwwLDEtMTYsMFYxMzkuMzFsLTEwLjM0LDEwLjM1YTgsOCwwLDAsMS0xMS4zMi0xMS4zMmwyNC0yNGE4LDgsMCwwLDEsMTEuMzIsMFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "FileArrowUpIcon";
 
 /** @deprecated Use FileArrowUpIcon */
 export const FileArrowUp = I;
-export { I as FileArrowUpIcon };
+export { I as FileArrowUpIcon }

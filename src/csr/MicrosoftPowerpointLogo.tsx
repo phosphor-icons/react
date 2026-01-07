@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MicrosoftPowerpointLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05Niw5Nkg4MGE4LDgsMCwwLDAtOCw4djQ4YTgsOCwwLDAsMCwxNiwwdi04aDhhMjQsMjQsMCwwLDAsMC00OFptMCwzMkg4OFYxMTJoOGE4LDgsMCwwLDEsMCwxNlpNMTM2LDI0QTEwNC4zMywxMDQuMzMsMCwwLDAsNTQsNjRINDBBMTYsMTYsMCwwLDAsMjQsODB2OTZhMTYsMTYsMCwwLDAsMTYsMTZINTRBMTA0LDEwNCwwLDEsMCwxMzYsMjRabTg3LjYzLDk2SDE2MFY4MGExNiwxNiwwLDAsMC0xNi0xNlY0MC4zN0E4OC4xMyw4OC4xMywwLDAsMSwyMjMuNjMsMTIwWk0xMjgsNDAuMzdWNjRINzUuNjNBODguMzYsODguMzYsMCwwLDEsMTI4LDQwLjM3Wk00MCw4MEgxNDR2NDcuOWEuNTEuNTEsMCwwLDAsMCwuMlYxNzZINDBabTg4LDExMnYyMy42M0E4OC4zNiw4OC4zNiwwLDAsMSw3NS42MywxOTJabTE2LDIzLjYzVjE5MmExNiwxNiwwLDAsMCwxNi0xNlYxMzZoNjMuNjNBODguMTMsODguMTMsMCwwLDEsMTQ0LDIxNS42M1oiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "MicrosoftPowerpointLogoIcon";
 
 /** @deprecated Use MicrosoftPowerpointLogoIcon */
 export const MicrosoftPowerpointLogo = I;
-export { I as MicrosoftPowerpointLogoIcon };
+export { I as MicrosoftPowerpointLogoIcon }

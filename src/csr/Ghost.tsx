@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Ghost";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMTIsMTE2YTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDExMiwxMTZabTQ0LTEyYTEyLDEyLDAsMSwwLDEyLDEyQTEyLDEyLDAsMCwwLDE1NiwxMDRabTY4LDE2djk2YTgsOCwwLDAsMS0xMy4wNyw2LjE5bC0yNC4yNi0xOS44NUwxNjIuNCwyMjIuMTlhOCw4LDAsMCwxLTEwLjEzLDBMMTI4LDIwMi4zNGwtMjQuMjcsMTkuODVhOCw4LDAsMCwxLTEwLjEzLDBMNjkuMzMsMjAyLjM0LDQ1LjA3LDIyMi4xOUE4LDgsMCwwLDEsMzIsMjE2VjEyMGE5Niw5NiwwLDAsMSwxOTIsMFptLTE2LDBhODAsODAsMCwwLDAtMTYwLDB2NzkuMTJsMTYuMjctMTMuMzFhOCw4LDAsMCwxLDEwLjEzLDBsMjQuMjcsMTkuODUsMjQuMjYtMTkuODVhOCw4LDAsMCwxLDEwLjE0LDBsMjQuMjYsMTkuODUsMjQuMjctMTkuODVhOCw4LDAsMCwxLDEwLjEzLDBMMjA4LDE5OS4xMloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "GhostIcon";
 
 /** @deprecated Use GhostIcon */
 export const Ghost = I;
-export { I as GhostIcon };
+export { I as GhostIcon }

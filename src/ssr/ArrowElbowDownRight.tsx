@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowElbowDownRight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuNjYsMTgxLjY2bC00OCw0OGE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMTk2LjY5LDE4NEg3MmE4LDgsMCwwLDEtOC04VjMyYTgsOCwwLDAsMSwxNiwwVjE2OEgxOTYuNjlsLTM0LjM1LTM0LjM0YTgsOCwwLDAsMSwxMS4zMi0xMS4zMmw0OCw0OEE4LDgsMCwwLDEsMjIxLjY2LDE4MS42NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ArrowElbowDownRightIcon";
 
 /** @deprecated Use ArrowElbowDownRightIcon */
 export const ArrowElbowDownRight = I;
-export { I as ArrowElbowDownRightIcon };
+export { I as ArrowElbowDownRightIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TreeStructure";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsMTEyaDQ4YTE2LDE2LDAsMCwwLDE2LTE2VjQ4YTE2LDE2LDAsMCwwLTE2LTE2SDE2MGExNiwxNiwwLDAsMC0xNiwxNlY2NEgxMjhhMjQsMjQsMCwwLDAtMjQsMjR2MzJINzJ2LThBMTYsMTYsMCwwLDAsNTYsOTZIMjRBMTYsMTYsMCwwLDAsOCwxMTJ2MzJhMTYsMTYsMCwwLDAsMTYsMTZINTZhMTYsMTYsMCwwLDAsMTYtMTZ2LThoMzJ2MzJhMjQsMjQsMCwwLDAsMjQsMjRoMTZ2MTZhMTYsMTYsMCwwLDAsMTYsMTZoNDhhMTYsMTYsMCwwLDAsMTYtMTZWMTYwYTE2LDE2LDAsMCwwLTE2LTE2SDE2MGExNiwxNiwwLDAsMC0xNiwxNnYxNkgxMjhhOCw4LDAsMCwxLTgtOFY4OGE4LDgsMCwwLDEsOC04aDE2Vjk2QTE2LDE2LDAsMCwwLDE2MCwxMTJaTTU2LDE0NEgyNFYxMTJINTZ2MzJabTEwNCwxNmg0OHY0OEgxNjBabTAtMTEyaDQ4Vjk2SDE2MFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "TreeStructureIcon";
 
 /** @deprecated Use TreeStructureIcon */
 export const TreeStructure = I;
-export { I as TreeStructureIcon };
+export { I as TreeStructureIcon }

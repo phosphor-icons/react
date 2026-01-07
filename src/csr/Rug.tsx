@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Rug";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMTZhOCw4LDAsMCwwLTgsOFY0MEgxNjBWMjRhOCw4LDAsMCwwLTE2LDBWNDBIMTEyVjI0YTgsOCwwLDAsMC0xNiwwVjQwSDY0VjI0YTgsOCwwLDAsMC0xNiwwVjIzMmE4LDgsMCwwLDAsMTYsMFYyMTZIOTZ2MTZhOCw4LDAsMCwwLDE2LDBWMjE2aDMydjE2YTgsOCwwLDAsMCwxNiwwVjIxNmgzMnYxNmE4LDgsMCwwLDAsMTYsMFYyNEE4LDgsMCwwLDAsMjAwLDE2Wk02NCw1NkgxOTJWMjAwSDY0Wm02NCwxMjBhOCw4LDAsMCwwLDYuODYtMy44OGwyNC00MGE4LDgsMCwwLDAsMC04LjI0bC0yNC00MGE4LDgsMCwwLDAtMTMuNzIsMGwtMjQsNDBhOCw4LDAsMCwwLDAsOC4yNGwyNCw0MEE4LDgsMCwwLDAsMTI4LDE3NlptMC03Mi40NUwxNDIuNjcsMTI4LDEyOCwxNTIuNDUsMTEzLjMzLDEyOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "RugIcon";
 
 /** @deprecated Use RugIcon */
 export const Rug = I;
-export { I as RugIcon };
+export { I as RugIcon }

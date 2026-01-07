@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PaperPlaneRight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzEuODcsMTE0bC0xNjgtOTUuODlBMTYsMTYsMCwwLDAsNDAuOTIsMzcuMzRMNzEuNTUsMTI4LDQwLjkyLDIxOC42N0ExNiwxNiwwLDAsMCw1NiwyNDBhMTYuMTUsMTYuMTUsMCwwLDAsNy45My0yLjFsMTY3LjkyLTk2LjA1YTE2LDE2LDAsMCwwLC4wNS0yNy44OVpNNTYsMjI0YS41Ni41NiwwLDAsMCwwLS4xMkw4NS43NCwxMzZIMTQ0YTgsOCwwLDAsMCwwLTE2SDg1Ljc0TDU2LjA2LDMyLjE2QS40Ni40NiwwLDAsMCw1NiwzMmwxNjgsOTUuODNaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "PaperPlaneRightIcon";
 
 /** @deprecated Use PaperPlaneRightIcon */
 export const PaperPlaneRight = I;
-export { I as PaperPlaneRightIcon };
+export { I as PaperPlaneRightIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FunnelSimpleX";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMTQ0SDY0YTgsOCwwLDAsMSwwLTE2SDE5MmE4LDgsMCwwLDEsMCwxNlptNDAtNjRIMjRhOCw4LDAsMCwwLDAsMTZIMjMyYTgsOCwwLDAsMCwwLTE2Wk0xMjgsMTc2SDEwNGE4LDgsMCwwLDAsMCwxNmgyNGE4LDgsMCwwLDAsMC0xNlptOTMuNjYtNS42NmE4LDgsMCwwLDAtMTEuMzIsMEwxOTIsMTg4LjY5bC0xOC4zNC0xOC4zNWE4LDgsMCwwLDAtMTEuMzIsMTEuMzJMMTgwLjY5LDIwMGwtMTguMzUsMTguMzRhOCw4LDAsMCwwLDExLjMyLDExLjMyTDE5MiwyMTEuMzFsMTguMzQsMTguMzVhOCw4LDAsMCwwLDExLjMyLTExLjMyTDIwMy4zMSwyMDBsMTguMzUtMTguMzRBOCw4LDAsMCwwLDIyMS42NiwxNzAuMzRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FunnelSimpleXIcon";
 
 /** @deprecated Use FunnelSimpleXIcon */
 export const FunnelSimpleX = I;
-export { I as FunnelSimpleXIcon };
+export { I as FunnelSimpleXIcon }

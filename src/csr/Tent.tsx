@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Tent";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTUuMzEsMTg4Ljc1bC02NC0xNDRBOCw4LDAsMCwwLDE4NCw0MEg3MmE4LDgsMCwwLDAtNy4yNyw0LjY5LjIxLjIxLDAsMCwwLDAsLjA2bDAsLjEyLDAsMEwuNjksMTg4Ljc1QTgsOCwwLDAsMCw4LDIwMEgyNDhhOCw4LDAsMCwwLDcuMzEtMTEuMjVaTTY0LDE4NEgyMC4zMUw2NCw4NS43Wm0xNiwwVjg1LjdMMTIzLjY5LDE4NFptNjEuMiwwTDg0LjMxLDU2SDE3OC44bDU2Ljg5LDEyOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "TentIcon";
 
 /** @deprecated Use TentIcon */
 export const Tent = I;
-export { I as TentIcon };
+export { I as TentIcon }

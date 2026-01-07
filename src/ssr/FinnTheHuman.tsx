@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FinnTheHuman";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMTA0SDg4YTQwLDQwLDAsMCwwLTQwLDQwdjhhNDAsNDAsMCwwLDAsNDAsNDBoODBhNDAsNDAsMCwwLDAsNDAtNDB2LThBNDAsNDAsMCwwLDAsMTY4LDEwNFptMjQsNDhhMjQsMjQsMCwwLDEtMjQsMjRIODhhMjQsMjQsMCwwLDEtMjQtMjR2LThhMjQsMjQsMCwwLDEsMjQtMjRoODBhMjQsMjQsMCwwLDEsMjQsMjRaTTIwOCw0MGEzMi4wNiwzMi4wNiwwLDAsMC0zMSwyNEg3OWEzMiwzMiwwLDAsMC02Myw4djgwYTcyLjA4LDcyLjA4LDAsMCwwLDcyLDcyaDgwYTcyLjA4LDcyLjA4LDAsMCwwLDcyLTcyVjcyQTMyLDMyLDAsMCwwLDIwOCw0MFptMTYsMTEyYTU2LjA2LDU2LjA2LDAsMCwxLTU2LDU2SDg4YTU2LjA2LDU2LjA2LDAsMCwxLTU2LTU2VjcyYTE2LDE2LDAsMCwxLDMyLDAsOCw4LDAsMCwwLDgsOEgxODRhOCw4LDAsMCwwLDgtOCwxNiwxNiwwLDAsMSwzMiwwWm0tMTIwLTRhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTA0LDE0OFptNzIsMGExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwxNzYsMTQ4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FinnTheHumanIcon";
 
 /** @deprecated Use FinnTheHumanIcon */
 export const FinnTheHuman = I;
-export { I as FinnTheHumanIcon };
+export { I as FinnTheHumanIcon }

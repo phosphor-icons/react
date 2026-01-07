@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Export";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTEydjk2YTE2LDE2LDAsMCwxLTE2LDE2SDU2YTE2LDE2LDAsMCwxLTE2LTE2VjExMkExNiwxNiwwLDAsMSw1Niw5Nkg4MGE4LDgsMCwwLDEsMCwxNkg1NnY5NkgyMDBWMTEySDE3NmE4LDgsMCwwLDEsMC0xNmgyNEExNiwxNiwwLDAsMSwyMTYsMTEyWk05My42Niw2OS42NiwxMjAsNDMuMzFWMTM2YTgsOCwwLDAsMCwxNiwwVjQzLjMxbDI2LjM0LDI2LjM1YTgsOCwwLDAsMCwxMS4zMi0xMS4zMmwtNDAtNDBhOCw4LDAsMCwwLTExLjMyLDBsLTQwLDQwQTgsOCwwLDAsMCw5My42Niw2OS42NloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ExportIcon";
 
 /** @deprecated Use ExportIcon */
 export const Export = I;
-export { I as ExportIcon };
+export { I as ExportIcon }

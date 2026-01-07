@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/WhatsappLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODcuNTgsMTQ0Ljg0bC0zMi0xNmE4LDgsMCwwLDAtOCwuNWwtMTQuNjksOS44YTQwLjU1LDQwLjU1LDAsMCwxLTE2LTE2bDkuOC0xNC42OWE4LDgsMCwwLDAsLjUtOGwtMTYtMzJBOCw4LDAsMCwwLDEwNCw2NGE0MCw0MCwwLDAsMC00MCw0MCw4OC4xLDg4LjEsMCwwLDAsODgsODgsNDAsNDAsMCwwLDAsNDAtNDBBOCw4LDAsMCwwLDE4Ny41OCwxNDQuODRaTTE1MiwxNzZhNzIuMDgsNzIuMDgsMCwwLDEtNzItNzJBMjQsMjQsMCwwLDEsOTkuMjksODAuNDZsMTEuNDgsMjNMMTAxLDExOGE4LDgsMCwwLDAtLjczLDcuNTEsNTYuNDcsNTYuNDcsMCwwLDAsMzAuMTUsMzAuMTVBOCw4LDAsMCwwLDEzOCwxNTVsMTQuNjEtOS43NCwyMywxMS40OEEyNCwyNCwwLDAsMSwxNTIsMTc2Wk0xMjgsMjRBMTA0LDEwNCwwLDAsMCwzNi4xOCwxNzYuODhMMjQuODMsMjEwLjkzYTE2LDE2LDAsMCwwLDIwLjI0LDIwLjI0bDM0LjA1LTExLjM1QTEwNCwxMDQsMCwxLDAsMTI4LDI0Wm0wLDE5MmE4Ny44Nyw4Ny44NywwLDAsMS00NC4wNi0xMS44MSw4LDgsMCwwLDAtNi41NC0uNjdMNDAsMjE2LDUyLjQ3LDE3OC42YTgsOCwwLDAsMC0uNjYtNi41NEE4OCw4OCwwLDEsMSwxMjgsMjE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "WhatsappLogoIcon";
 
 /** @deprecated Use WhatsappLogoIcon */
 export const WhatsappLogo = I;
-export { I as WhatsappLogoIcon };
+export { I as WhatsappLogoIcon }

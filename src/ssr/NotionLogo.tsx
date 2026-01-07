@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/NotionLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBIMTY4YTgsOCwwLDAsMCwwLDE2aDE2VjE3Ni44NUwxMTEsNDQuMTRBOCw4LDAsMCwwLDEwNCw0MEg0MGE4LDgsMCwwLDAsMCwxNkg1NlYyMDBINDBhOCw4LDAsMCwwLDAsMTZIODhhOCw4LDAsMCwwLDAtMTZINzJWNzkuMTVsNzMsMTMyLjcxYTgsOCwwLDAsMCw3LDQuMTRoNDBhOCw4LDAsMCwwLDgtOFY1NmgxNmE4LDgsMCwwLDAsMC0xNlpNNzcuNTMsNTZIOTkuMjdsNzkuMiwxNDRIMTU2LjczWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "NotionLogoIcon";
 
 /** @deprecated Use NotionLogoIcon */
 export const NotionLogo = I;
-export { I as NotionLogoIcon };
+export { I as NotionLogoIcon }

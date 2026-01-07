@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChatSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01My45MiwzNC42MkE4LDgsMCwxLDAsNDIuMDgsNDUuMzhMNDQuNDYsNDhINDBBMTYsMTYsMCwwLDAsMjQsNjRWMjI0YTE1Ljg1LDE1Ljg1LDAsMCwwLDkuMjQsMTQuNUExNi4xMywxNi4xMywwLDAsMCw0MCwyNDBhMTUuOTQsMTUuOTQsMCwwLDAsMTAuMjYtMy43OGwuMDgtLjA3TDgzLDIwOEgxODkuOTJsMTIuMTYsMTMuMzhhOCw4LDAsMSwwLDExLjg0LTEwLjc2Wk04MCwxOTJhOCw4LDAsMCwwLTUuMjMsMS45NUw0MCwyMjRWNjRINTlMMTc1LjM3LDE5MlpNMjMyLDY0VjE4NmE4LDgsMCwwLDEtMTYsMFY2NEgxMDUuNzlhOCw4LDAsMCwxLDAtMTZIMjE2QTE2LDE2LDAsMCwxLDIzMiw2NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ChatSlashIcon";
 
 /** @deprecated Use ChatSlashIcon */
 export const ChatSlash = I;
-export { I as ChatSlashIcon };
+export { I as ChatSlashIcon }

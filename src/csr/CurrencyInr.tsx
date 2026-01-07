@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CurrencyInr";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsODBhOCw4LDAsMCwxLTgsOEgxNjcuODVjLjA5LDEuMzIuMTUsMi42NS4xNSw0YTYwLjA3LDYwLjA3LDAsMCwxLTYwLDYwSDkyLjY5bDcyLjY5LDY2LjA4YTgsOCwwLDEsMS0xMC43NiwxMS44NGwtODgtODBBOCw4LDAsMCwxLDcyLDEzNmgzNmE0NC4wNSw0NC4wNSwwLDAsMCw0NC00NGMwLTEuMzUtLjA3LTIuNjgtLjE5LTRINzJhOCw4LDAsMCwxLDAtMTZoNzUuMTdBNDQsNDQsMCwwLDAsMTA4LDQ4SDcyYTgsOCwwLDAsMSwwLTE2SDIwMGE4LDgsMCwwLDEsMCwxNkgxNDguNzRhNjAuMTMsNjAuMTMsMCwwLDEsMTUuODIsMjRIMjAwQTgsOCwwLDAsMSwyMDgsODBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CurrencyInrIcon";
 
 /** @deprecated Use CurrencyInrIcon */
 export const CurrencyInr = I;
-export { I as CurrencyInrIcon };
+export { I as CurrencyInrIcon }

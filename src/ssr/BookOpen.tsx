@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BookOpen";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNDhIMTYwYTQwLDQwLDAsMCwwLTMyLDE2QTQwLDQwLDAsMCwwLDk2LDQ4SDI0YTgsOCwwLDAsMC04LDhWMjAwYTgsOCwwLDAsMCw4LDhIOTZhMjQsMjQsMCwwLDEsMjQsMjQsOCw4LDAsMCwwLDE2LDAsMjQsMjQsMCwwLDEsMjQtMjRoNzJhOCw4LDAsMCwwLDgtOFY1NkE4LDgsMCwwLDAsMjMyLDQ4Wk05NiwxOTJIMzJWNjRIOTZhMjQsMjQsMCwwLDEsMjQsMjRWMjAwQTM5LjgxLDM5LjgxLDAsMCwwLDk2LDE5MlptMTI4LDBIMTYwYTM5LjgxLDM5LjgxLDAsMCwwLTI0LDhWODhhMjQsMjQsMCwwLDEsMjQtMjRoNjRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BookOpenIcon";
 
 /** @deprecated Use BookOpenIcon */
 export const BookOpen = I;
-export { I as BookOpenIcon };
+export { I as BookOpenIcon }

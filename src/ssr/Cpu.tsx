@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Cpu";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsOTZIMTA0YTgsOCwwLDAsMC04LDh2NDhhOCw4LDAsMCwwLDgsOGg0OGE4LDgsMCwwLDAsOC04VjEwNEE4LDgsMCwwLDAsMTUyLDk2Wm0tOCw0OEgxMTJWMTEyaDMyWm04OCwwSDIxNlYxMTJoMTZhOCw4LDAsMCwwLDAtMTZIMjE2VjU2YTE2LDE2LDAsMCwwLTE2LTE2SDE2MFYyNGE4LDgsMCwwLDAtMTYsMFY0MEgxMTJWMjRhOCw4LDAsMCwwLTE2LDBWNDBINTZBMTYsMTYsMCwwLDAsNDAsNTZWOTZIMjRhOCw4LDAsMCwwLDAsMTZINDB2MzJIMjRhOCw4LDAsMCwwLDAsMTZINDB2NDBhMTYsMTYsMCwwLDAsMTYsMTZIOTZ2MTZhOCw4LDAsMCwwLDE2LDBWMjE2aDMydjE2YTgsOCwwLDAsMCwxNiwwVjIxNmg0MGExNiwxNiwwLDAsMCwxNi0xNlYxNjBoMTZhOCw4LDAsMCwwLDAtMTZabS0zMiw1Nkg1NlY1NkgyMDB2OTUuODdzMCwuMDksMCwuMTMsMCwuMDksMCwuMTNWMjAwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "CpuIcon";
 
 /** @deprecated Use CpuIcon */
 export const Cpu = I;
-export { I as CpuIcon };
+export { I as CpuIcon }

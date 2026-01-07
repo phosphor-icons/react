@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/DropSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01My45MiwzNC42MkE4LDgsMCwxLDAsNDIuMDgsNDUuMzhMNjQuNzIsNzAuMjlDNDguMzIsOTUsNDAsMTE5Ljc4LDQwLDE0NGE4OCw4OCwwLDAsMCwxNDkuMjEsNjMuMjJsMTIuODcsMTQuMTZhOCw4LDAsMSwwLDExLjg0LTEwLjc2Wk0xMjgsMjE2YTcyLjA4LDcyLjA4LDAsMCwxLTcyLTcyYzAtMTkuOTMsNi42OC00MC41NywxOS44Ni02MS40NkwxNzguNDMsMTk1LjM2QTcxLjg0LDcxLjg0LDAsMCwxLDEyOCwyMTZaTTkwLDUwLjUxYTgsOCwwLDAsMS0uMjctMTEuMzFBMjQ3LjgsMjQ3LjgsMCwwLDEsMTIzLjQxLDkuNDVhOCw4LDAsMCwxLDkuMTgsMEMxMzYsMTEuODMsMjE2LDY4LjcsMjE2LDE0NGE4OC4wOCw4OC4wOCwwLDAsMS0zLjE1LDIzLjQsOCw4LDAsMCwxLTcuNzEsNS44OEE3Ljc5LDcuNzksMCwwLDEsMjAzLDE3M2E4LDgsMCwwLDEtNS41OS05LjgzQTcyLjU1LDcyLjU1LDAsMCwwLDIwMCwxNDRjMC01Ny4yNC01NS40OC0xMDUtNzItMTE4YTI1Mi4yMywyNTIuMjMsMCwwLDAtMjYuNjYsMjQuMjNBOCw4LDAsMCwxLDkwLDUwLjUxWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "DropSlashIcon";
 
 /** @deprecated Use DropSlashIcon */
 export const DropSlash = I;
-export { I as DropSlashIcon };
+export { I as DropSlashIcon }

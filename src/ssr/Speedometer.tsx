@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Speedometer";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMTQuMzQsMTU0LjM0bDk2LTk2YTgsOCwwLDAsMSwxMS4zMiwxMS4zMmwtOTYsOTZhOCw4LDAsMCwxLTExLjMyLTExLjMyWk0xMjgsODhhNjMuOSw2My45LDAsMCwxLDIwLjQ0LDMuMzMsOCw4LDAsMSwwLDUuMTEtMTUuMTZBODAsODAsMCwwLDAsNDguNDksMTYwLjg4LDgsOCwwLDAsMCw1Ni40MywxNjhjLjI5LDAsLjU5LDAsLjg5LS4wNWE4LDgsMCwwLDAsNy4wNy04LjgzQTY0LjkyLDY0LjkyLDAsMCwxLDY0LDE1Miw2NC4wNyw2NC4wNywwLDAsMSwxMjgsODhabTk5Ljc0LDEzYTgsOCwwLDAsMC0xNC4yNCw3LjMsOTYuMjcsOTYuMjcsMCwwLDEsNSw3NS43MWwtMTgxLjEtLjA3QTk2LjI0LDk2LjI0LDAsMCwxLDEyOCw1NmguODhhOTUsOTUsMCwwLDEsNDIuODIsMTAuNUE4LDgsMCwxLDAsMTc5LDUyLjI3YTExMiwxMTIsMCwwLDAtMTU2LjY2LDEzN0ExNi4wNywxNi4wNywwLDAsMCwzNy40NiwyMDBIMjE4LjUzYTE2LDE2LDAsMCwwLDE1LjExLTEwLjcxLDExMi4zNSwxMTIuMzUsMCwwLDAtNS45LTg4LjNaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "SpeedometerIcon";
 
 /** @deprecated Use SpeedometerIcon */
 export const Speedometer = I;
-export { I as SpeedometerIcon };
+export { I as SpeedometerIcon }

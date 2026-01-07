@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Pen";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjcuMzIsNzMuMzcsMTgyLjYzLDI4LjY5YTE2LDE2LDAsMCwwLTIyLjYzLDBMMzYuNjksMTUyQTE1Ljg2LDE1Ljg2LDAsMCwwLDMyLDE2My4zMVYyMDhhMTYsMTYsMCwwLDAsMTYsMTZIOTIuNjlBMTUuODYsMTUuODYsMCwwLDAsMTA0LDIxOS4zMWw4My42Ny04My42NiwzLjQ4LDEzLjktMzYuOCwzNi43OWE4LDgsMCwwLDAsMTEuMzEsMTEuMzJsNDAtNDBhOCw4LDAsMCwwLDIuMTEtNy42bC02LjktMjcuNjFMMjI3LjMyLDk2QTE2LDE2LDAsMCwwLDIyNy4zMiw3My4zN1pNNDgsMTc5LjMxLDc2LjY5LDIwOEg0OFptNDgsMjUuMzhMNTEuMzEsMTYwLDEzNiw3NS4zMSwxODAuNjksMTIwWm05Ni05NkwxNDcuMzIsNjRsMjQtMjRMMjE2LDg0LjY5WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PenIcon";
 
 /** @deprecated Use PenIcon */
 export const Pen = I;
-export { I as PenIcon };
+export { I as PenIcon }

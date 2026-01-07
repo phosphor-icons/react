@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Boat";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuMDYsMTEwLjU5LDIwOCwxMDYuMjNWNTZhMTYsMTYsMCwwLDAtMTYtMTZIMTM2VjI0YTgsOCwwLDAsMC0xNiwwVjQwSDY0QTE2LDE2LDAsMCwwLDQ4LDU2djUwLjIzbC0xMy4wNiw0LjM2QTE2LDE2LDAsMCwwLDI0LDEyNS43N1YxNTJjMCw2MS41NCw5Ny44OSw4Ni43MiwxMDIuMDYsODcuNzZhOCw4LDAsMCwwLDMuODgsMEMxMzQuMTEsMjM4LjcyLDIzMiwyMTMuNTQsMjMyLDE1MlYxMjUuNzdBMTYsMTYsMCwwLDAsMjIxLjA2LDExMC41OVpNNjQsNTZIMTkydjQ0LjlMMTMwLjUzLDgwLjQxYTgsOCwwLDAsMC01LjA2LDBMNjQsMTAwLjlabTE1Miw5NmMwLDI0LjkxLTIzLjY4LDQzLTQzLjU1LDUzLjgzQTIyOC4xMywyMjguMTMsMCwwLDEsMTI4LDIyMy43MiwyMjYuODUsMjI2Ljg1LDAsMCwxLDgzLjgxLDIwNkM0Ny42LDE4Ni4zNSw0MCwxNjUuNzksNDAsMTUyVjEyNS43N0wxMjAsOTkuMVYxNjhhOCw4LDAsMCwwLDE2LDBWOTkuMWw4MCwyNi42N1oiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BoatIcon";
 
 /** @deprecated Use BoatIcon */
 export const Boat = I;
-export { I as BoatIcon };
+export { I as BoatIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LetterCircleV";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlpNMTY3LjQzLDk5bC0zMiw4MGE4LDgsMCwwLDEtMTQuODYsMGwtMzItODBBOCw4LDAsMCwxLDEwMy40Myw5M0wxMjgsMTU0LjQ2LDE1Mi41Nyw5M0E4LDgsMCwxLDEsMTY3LjQzLDk5WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "LetterCircleVIcon";
 
 /** @deprecated Use LetterCircleVIcon */
 export const LetterCircleV = I;
-export { I as LetterCircleVIcon };
+export { I as LetterCircleVIcon }

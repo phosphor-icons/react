@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AlignTopSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJhOCw4LDAsMCwxLTgsOEg1NmE4LDgsMCwwLDEsMC0xNkgyMDBBOCw4LDAsMCwxLDIwOCwzMlpNMTc2LDcyVjIyNGExNiwxNiwwLDAsMS0xNiwxNkg5NmExNiwxNiwwLDAsMS0xNi0xNlY3MkExNiwxNiwwLDAsMSw5Niw1Nmg2NEExNiwxNiwwLDAsMSwxNzYsNzJabS0xNiwwSDk2VjIyNGg2NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "AlignTopSimpleIcon";
 
 /** @deprecated Use AlignTopSimpleIcon */
 export const AlignTopSimple = I;
-export { I as AlignTopSimpleIcon };
+export { I as AlignTopSimpleIcon }

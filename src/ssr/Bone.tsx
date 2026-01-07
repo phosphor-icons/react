@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Bone";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzEuNjcsNjAuODlhMzUuODIsMzUuODIsMCwwLDAtMjMuODItMTIuNzQsMzYsMzYsMCwxLDAtNjYuMzcsMjIuOTIuMjUuMjUsMCwwLDEsMCwuMDhMNzEuMTcsMTQxLjUxczAsMC0uMSwwYTM2LDM2LDAsMSwwLTIyLjkyLDY2LjM3LDM2LDM2LDAsMSwwLDY2LjM3LTIyLjkyLjU0LjU0LDAsMCwxLDAtLjA4bDcwLjM1LTcwLjM2czAsMCwuMSwwYTM2LDM2LDAsMCwwLDQ2Ljc0LTUzLjYzWk0yMTkuMSw5Ny4xNmEyMCwyMCwwLDAsMS0yNS42NywzLjgsMTYsMTYsMCwwLDAtMTkuODgsMi4xOWwtNzAuNCw3MC40QTE2LDE2LDAsMCwwLDEwMSwxOTMuNDNhMjAsMjAsMCwxLDEtMzYuNzUsNy41LDgsOCwwLDAsMC03LjkxLTkuMjQsOC41LDguNSwwLDAsMC0xLjIzLjFBMjAsMjAsMCwxLDEsNjIuNTcsMTU1YTE2LDE2LDAsMCwwLDE5Ljg4LTIuMTlsNzAuNC03MC40QTE2LDE2LDAsMCwwLDE1NSw2Mi41N2EyMCwyMCwwLDEsMSwzNi43NS03LjUsOCw4LDAsMCwwLDkuMTQsOS4xNCwyMCwyMCwwLDAsMSwxOC4xNywzM1oiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BoneIcon";
 
 /** @deprecated Use BoneIcon */
 export const Bone = I;
-export { I as BoneIcon };
+export { I as BoneIcon }

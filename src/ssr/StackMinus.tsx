@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/StackMinus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuOTEsMTI0QTgsOCwwLDAsMSwyMjgsMTM0LjkxbC05Niw1NmE4LDgsMCwwLDEtOC4wNiwwbC05Ni01NkE4LDgsMCwwLDEsMzYsMTIxLjA5bDkyLDUzLjY1LDkyLTUzLjY1QTgsOCwwLDAsMSwyMzAuOTEsMTI0Wk0yNCw4MGE4LDgsMCwwLDEsNC02LjkxbDk2LTU2YTgsOCwwLDAsMSw4LjA2LDBsOTYsNTZhOCw4LDAsMCwxLDAsMTMuODJsLTk2LDU2YTgsOCwwLDAsMS04LjA2LDBsLTk2LTU2QTgsOCwwLDAsMSwyNCw4MFptMjMuODgsMEwxMjgsMTI2Ljc0LDIwOC4xMiw4MCwxMjgsMzMuMjZaTTIzMiwxOTJIMTg0YTgsOCwwLDAsMCwwLDE2aDQ4YTgsOCwwLDAsMCwwLTE2Wm0tOTIsMjMuNzYtMTIsN0wzNiwxNjkuMDlBOCw4LDAsMCwwLDI4LDE4Mi45MWw5Niw1NmE4LDgsMCwwLDAsOC4wNiwwbDE2LTkuMzNBOCw4LDAsMSwwLDE0MCwyMTUuNzZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "StackMinusIcon";
 
 /** @deprecated Use StackMinusIcon */
 export const StackMinus = I;
-export { I as StackMinusIcon };
+export { I as StackMinusIcon }

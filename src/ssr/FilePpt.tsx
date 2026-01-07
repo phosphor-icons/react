@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FilePpt";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTUyYTgsOCwwLDAsMS04LDhIMjA0djQ4YTgsOCwwLDAsMS0xNiwwVjE2MEgxNzZhOCw4LDAsMCwxLDAtMTZoNDBBOCw4LDAsMCwxLDIyNCwxNTJaTTkyLDE3MmEyOCwyOCwwLDAsMS0yOCwyOEg1NnY4YTgsOCwwLDAsMS0xNiwwVjE1MmE4LDgsMCwwLDEsOC04SDY0QTI4LDI4LDAsMCwxLDkyLDE3MlptLTE2LDBhMTIsMTIsMCwwLDAtMTItMTJINTZ2MjRoOEExMiwxMiwwLDAsMCw3NiwxNzJabTg0LDBhMjgsMjgsMCwwLDEtMjgsMjhoLTh2OGE4LDgsMCwwLDEtMTYsMFYxNTJhOCw4LDAsMCwxLDgtOGgxNkEyOCwyOCwwLDAsMSwxNjAsMTcyWm0tMTYsMGExMiwxMiwwLDAsMC0xMi0xMmgtOHYyNGg4QTEyLDEyLDAsMCwwLDE0NCwxNzJaTTQwLDExMlY0MEExNiwxNiwwLDAsMSw1NiwyNGg5NmE4LDgsMCwwLDEsNS42NiwyLjM0bDU2LDU2QTgsOCwwLDAsMSwyMTYsODh2MjRhOCw4LDAsMCwxLTE2LDBWOTZIMTUyYTgsOCwwLDAsMS04LThWNDBINTZ2NzJhOCw4LDAsMCwxLTE2LDBaTTE2MCw4MGgyOC42OUwxNjAsNTEuMzFaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FilePptIcon";
 
 /** @deprecated Use FilePptIcon */
 export const FilePpt = I;
-export { I as FilePptIcon };
+export { I as FilePptIcon }

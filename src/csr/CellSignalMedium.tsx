@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CellSignalMedium";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTEydjg4YTgsOCwwLDAsMS0xNiwwVjExMmE4LDgsMCwwLDEsMTYsMFpNODAsMTQ0YTgsOCwwLDAsMC04LDh2NDhhOCw4LDAsMCwwLDE2LDBWMTUyQTgsOCwwLDAsMCw4MCwxNDRaTTQwLDE4NGE4LDgsMCwwLDAtOCw4djhhOCw4LDAsMCwwLDE2LDB2LThBOCw4LDAsMCwwLDQwLDE4NFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "CellSignalMediumIcon";
 
 /** @deprecated Use CellSignalMediumIcon */
 export const CellSignalMedium = I;
-export { I as CellSignalMediumIcon };
+export { I as CellSignalMediumIcon }

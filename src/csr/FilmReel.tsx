@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FilmReel";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMjE2SDE4My4zNkExMDMuOTUsMTAzLjk1LDAsMSwwLDEyOCwyMzJIMjMyYTgsOCwwLDAsMCwwLTE2Wk00MCwxMjhhODgsODgsMCwxLDEsODgsODhBODguMSw4OC4xLDAsMCwxLDQwLDEyOFptODgtMjRhMjQsMjQsMCwxLDAtMjQtMjRBMjQsMjQsMCwwLDAsMTI4LDEwNFptMC0zMmE4LDgsMCwxLDEtOCw4QTgsOCwwLDAsMSwxMjgsNzJabTI0LDEwNGEyNCwyNCwwLDEsMC0yNCwyNEEyNCwyNCwwLDAsMCwxNTIsMTc2Wm0tMzIsMGE4LDgsMCwxLDEsOCw4QTgsOCwwLDAsMSwxMjAsMTc2Wm01Ni0yNGEyNCwyNCwwLDEsMC0yNC0yNEEyNCwyNCwwLDAsMCwxNzYsMTUyWm0wLTMyYTgsOCwwLDEsMS04LDhBOCw4LDAsMCwxLDE3NiwxMjBaTTgwLDEwNGEyNCwyNCwwLDEsMCwyNCwyNEEyNCwyNCwwLDAsMCw4MCwxMDRabTAsMzJhOCw4LDAsMSwxLDgtOEE4LDgsMCwwLDEsODAsMTM2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "FilmReelIcon";
 
 /** @deprecated Use FilmReelIcon */
 export const FilmReel = I;
-export { I as FilmReelIcon };
+export { I as FilmReelIcon }

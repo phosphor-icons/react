@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Aperture";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDEuNTQsNTQuNDZBMTA0LDEwNCwwLDAsMCw1NC40NiwyMDEuNTQsMTA0LDEwNCwwLDAsMCwyMDEuNTQsNTQuNDZaTTE5MC4yMyw2NS43OGE4OC4xOCw4OC4xOCwwLDAsMSwxMSwxMy40OEwxNjcuNTUsMTE5LDEzOS42Myw0MC43OEE4Ny4zNCw4Ny4zNCwwLDAsMSwxOTAuMjMsNjUuNzhaTTE1NS41OSwxMzNsLTE4LjE2LDIxLjM3LTI3LjU5LTVMMTAwLjQxLDEyM2wxOC4xNi0yMS4zNywyNy41OSw1Wk02NS43Nyw2NS43OGE4Ny4zNCw4Ny4zNCwwLDAsMSw1Ni42Ni0yNS41OWwxNy41MSw0OUw1OC4zLDc0LjMyQTg4LDg4LDAsMCwxLDY1Ljc3LDY1Ljc4Wk00Ni42NSwxNjEuNTRhODguNDEsODguNDEsMCwwLDEsMi41My03Mi42Mmw1MS4yMSw5LjM1Wm0xOS4xMiwyOC42OGE4OC4xOCw4OC4xOCwwLDAsMS0xMS0xMy40OEw4OC40NSwxMzdsMjcuOTIsNzguMThBODcuMzQsODcuMzQsMCwwLDEsNjUuNzcsMTkwLjIyWm0xMjQuNDYsMGE4Ny4zNCw4Ny4zNCwwLDAsMS01Ni42NiwyNS41OWwtMTcuNTEtNDksODEuNjQsMTQuOTFBODgsODgsMCwwLDEsMTkwLjIzLDE5MC4yMlptLTM0LjYyLTMyLjQ5LDUzLjc0LTYzLjI3YTg4LjQxLDg4LjQxLDAsMCwxLTIuNTMsNzIuNjJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ApertureIcon";
 
 /** @deprecated Use ApertureIcon */
 export const Aperture = I;
-export { I as ApertureIcon };
+export { I as ApertureIcon }

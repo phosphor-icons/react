@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SelectionInverse";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsMjE2YTgsOCwwLDAsMS04LDhIMTEyYTgsOCwwLDAsMSwwLTE2aDMyQTgsOCwwLDAsMSwxNTIsMjE2Wk00MCwxNTJhOCw4LDAsMCwwLDgtOFYxMTJhOCw4LDAsMCwwLTE2LDB2MzJBOCw4LDAsMCwwLDQwLDE1MlptMzIsNTZINDhWMTg0YTgsOCwwLDAsMC0xNiwwdjI0YTE2LDE2LDAsMCwwLDE2LDE2SDcyYTgsOCwwLDAsMCwwLTE2Wk0yMjQsNDhWMjA4YTE2LDE2LDAsMCwxLTE2LDE2SDE4NGE4LDgsMCwwLDEsMC0xNmgxMi42OUw0OCw1OS4zMVY3MmE4LDgsMCwwLDEtMTYsMFY0OEExNiwxNiwwLDAsMSw0OCwzMkgyMDhBMTYsMTYsMCwwLDEsMjI0LDQ4Wm0tMTYsMEg1OS4zMUwyMDgsMTk2LjY5WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SelectionInverseIcon";
 
 /** @deprecated Use SelectionInverseIcon */
 export const SelectionInverse = I;
-export { I as SelectionInverseIcon };
+export { I as SelectionInverseIcon }

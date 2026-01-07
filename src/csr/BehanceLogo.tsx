@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BehanceLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsODBhOCw4LDAsMCwxLDgtOGg2NGE4LDgsMCwwLDEsMCwxNkgxNjhBOCw4LDAsMCwxLDE2MCw4MFptLTI0LDc4YTQyLDQyLDAsMCwxLTQyLDQySDMyYTgsOCwwLDAsMS04LThWNjRhOCw4LDAsMCwxLDgtOEg5MGEzOCwzOCwwLDAsMSwyNS42NSw2NkE0Miw0MiwwLDAsMSwxMzYsMTU4Wk00MCwxMTZIOTBhMjIsMjIsMCwwLDAsMC00NEg0MFptODAsNDJhMjYsMjYsMCwwLDAtMjYtMjZINDB2NTJIOTRBMjYsMjYsMCwwLDAsMTIwLDE1OFptMTI4LTZhOCw4LDAsMCwxLTgsOEgxNjlhMzIsMzIsMCwwLDAsNTYuNTksMTEuMiw4LDgsMCwwLDEsMTIuOCw5LjYxQTQ4LDQ4LDAsMSwxLDI0OCwxNTJabS0xNy04YTMyLDMyLDAsMCwwLTYyLDBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "BehanceLogoIcon";
 
 /** @deprecated Use BehanceLogoIcon */
 export const BehanceLogo = I;
-export { I as BehanceLogoIcon };
+export { I as BehanceLogoIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CubeFocus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNDhWODhhOCw4LDAsMCwxLTE2LDBWNTZIMTg0YTgsOCwwLDAsMSwwLTE2aDQwQTgsOCwwLDAsMSwyMzIsNDhaTTcyLDIwMEg0MFYxNjhhOCw4LDAsMCwwLTE2LDB2NDBhOCw4LDAsMCwwLDgsOEg3MmE4LDgsMCwwLDAsMC0xNlptMTUyLTQwYTgsOCwwLDAsMC04LDh2MzJIMTg0YTgsOCwwLDAsMCwwLDE2aDQwYTgsOCwwLDAsMCw4LThWMTY4QTgsOCwwLDAsMCwyMjQsMTYwWk0zMiw5NmE4LDgsMCwwLDAsOC04VjU2SDcyYTgsOCwwLDAsMCwwLTE2SDMyYTgsOCwwLDAsMC04LDhWODhBOCw4LDAsMCwwLDMyLDk2Wk0xODgsMTY3bC01NiwzMmE4LDgsMCwwLDEtNy45NCwwTDY4LDE2N0E4LDgsMCwwLDEsNjQsMTYwVjk2YTgsOCwwLDAsMSw0LTdsNTYtMzJhOCw4LDAsMCwxLDcuOTQsMGw1NiwzMmE4LDgsMCwwLDEsNCw3djY0QTgsOCwwLDAsMSwxODgsMTY3Wk04OC4xMiw5NiwxMjgsMTE4Ljc5LDE2Ny44OCw5NiwxMjgsNzMuMjFaTTgwLDE1NS4zNmw0MCwyMi44NVYxMzIuNjRMODAsMTA5Ljc5Wm05NiwwVjEwOS43OWwtNDAsMjIuODV2NDUuNTdaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CubeFocusIcon";
 
 /** @deprecated Use CubeFocusIcon */
 export const CubeFocus = I;
-export { I as CubeFocusIcon };
+export { I as CubeFocusIcon }

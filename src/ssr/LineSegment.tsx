@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LineSegment";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTQuNjQsNDEuMzZhMzIsMzIsMCwwLDAtNTAuMiwzOC44OUw4MC4yNSwxNjQuNDRhMzIuMDYsMzIuMDYsMCwwLDAtMzguODksNC45NGgwYTMyLDMyLDAsMSwwLDUwLjIsNi4zN2w4NC4xOS04NC4xOWEzMiwzMiwwLDAsMCwzOC44OS01MC4yWm0tMTM5LjMzLDE2MmExNiwxNiwwLDAsMS0yMi42NC0yMi42NGgwYTE2LDE2LDAsMCwxLDIyLjYzLDBoMEExNiwxNiwwLDAsMSw3NS4zMSwyMDMuMzNabTEyOC0xMjhhMTYsMTYsMCwxLDEsMC0yMi42M0ExNiwxNiwwLDAsMSwyMDMuMzMsNzUuM1oiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "LineSegmentIcon";
 
 /** @deprecated Use LineSegmentIcon */
 export const LineSegment = I;
-export { I as LineSegmentIcon };
+export { I as LineSegmentIcon }

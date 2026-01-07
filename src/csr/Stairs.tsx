@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Stairs";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMjRINTZBMTYsMTYsMCwwLDAsNDAsNDBWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlY0MEExNiwxNiwwLDAsMCwyMDAsMjRaTTE1MiwxNDRoNDh2MjRIMTEyVjE0NFptOC0xNlYxMDRoNDB2MjRabTQwLTg4Vjg4SDE1MmE4LDgsMCwwLDAtOCw4djMySDEwNGE4LDgsMCwwLDAtOCw4djMySDU2VjQwWm0wLDE3Nkg1NlYxODRIMjAwdjMyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "StairsIcon";
 
 /** @deprecated Use StairsIcon */
 export const Stairs = I;
-export { I as StairsIcon };
+export { I as StairsIcon }

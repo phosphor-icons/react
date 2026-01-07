@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BatteryVerticalEmpty";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCw4YTgsOCwwLDAsMSw4LThoNjRhOCw4LDAsMCwxLDAsMTZIOTZBOCw4LDAsMCwxLDg4LDhaTTIwMCw1NlYyMjRhMjQsMjQsMCwwLDEtMjQsMjRIODBhMjQsMjQsMCwwLDEtMjQtMjRWNTZBMjQsMjQsMCwwLDEsODAsMzJoOTZBMjQsMjQsMCwwLDEsMjAwLDU2Wm0tMTYsMGE4LDgsMCwwLDAtOC04SDgwYTgsOCwwLDAsMC04LDhWMjI0YTgsOCwwLDAsMCw4LDhoOTZhOCw4LDAsMCwwLDgtOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BatteryVerticalEmptyIcon";
 
 /** @deprecated Use BatteryVerticalEmptyIcon */
 export const BatteryVerticalEmpty = I;
-export { I as BatteryVerticalEmptyIcon };
+export { I as BatteryVerticalEmptyIcon }

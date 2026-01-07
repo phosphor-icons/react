@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CloudMoon";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzIsNzJhNzYuNDUsNzYuNDUsMCwwLDAtMTIuMzYsMUE3MS45Myw3MS45MywwLDAsMCwxMDQuMTcsOS44M2E4LDgsMCwwLDAtOS41OSw5LjU4QTU2LjA1LDU2LjA1LDAsMCwxLDQwLDg4YTU2LjQ1LDU2LjQ1LDAsMCwxLTEyLjU5LTEuNDIsOCw4LDAsMCwwLTkuNTksOS41OSw3Mi4yMiw3Mi4yMiwwLDAsMCwzMi4yOSw0NS4wNkE1Miw1MiwwLDAsMCw5MiwyMjRoODBhNzYsNzYsMCwwLDAsMC0xNTJaTTM3LjM3LDEwNGMuODcsMCwxLjc1LDAsMi42MywwYTcyLjA4LDcyLjA4LDAsMCwwLDcyLTcyYzAtLjg5LDAtMS43OCwwLTIuNjdhNTUuNjMsNTUuNjMsMCwwLDEsMzIsNDgsNzYuMjgsNzYuMjgsMCwwLDAtNDMsNDMuNEE1Miw1MiwwLDAsMCw2MiwxMjkuNTksNTYuMjIsNTYuMjIsMCwwLDEsMzcuMzcsMTA0Wk0xNzIsMjA4SDkyYTM2LDM2LDAsMSwxLDQuNzgtNzEuNjljLS4zNywyLjM3LS42Myw0Ljc5LS43Nyw3LjIzYTgsOCwwLDAsMCwxNiwuOTIsNTguOTEsNTguOTEsMCwwLDEsMS44OC0xMS44MWMwLS4xNi4wOS0uMzIuMTItLjQ4QTYwLjA2LDYwLjA2LDAsMSwxLDE3MiwyMDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CloudMoonIcon";
 
 /** @deprecated Use CloudMoonIcon */
 export const CloudMoon = I;
-export { I as CloudMoonIcon };
+export { I as CloudMoonIcon }

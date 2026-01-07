@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Barbell";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMTIwaC04Vjg4YTE2LDE2LDAsMCwwLTE2LTE2SDIwOFY2NGExNiwxNiwwLDAsMC0xNi0xNkgxNjhhMTYsMTYsMCwwLDAtMTYsMTZ2NTZIMTA0VjY0QTE2LDE2LDAsMCwwLDg4LDQ4SDY0QTE2LDE2LDAsMCwwLDQ4LDY0djhIMzJBMTYsMTYsMCwwLDAsMTYsODh2MzJIOGE4LDgsMCwwLDAsMCwxNmg4djMyYTE2LDE2LDAsMCwwLDE2LDE2SDQ4djhhMTYsMTYsMCwwLDAsMTYsMTZIODhhMTYsMTYsMCwwLDAsMTYtMTZWMTM2aDQ4djU2YTE2LDE2LDAsMCwwLDE2LDE2aDI0YTE2LDE2LDAsMCwwLDE2LTE2di04aDE2YTE2LDE2LDAsMCwwLDE2LTE2VjEzNmg4YTgsOCwwLDAsMCwwLTE2Wk0zMiwxNjhWODhINDh2ODBabTU2LDI0SDY0VjY0SDg4VjE5MlptMTA0LDBIMTY4VjY0aDI0VjE3NS44MmMwLC4wNiwwLC4xMiwwLC4xOHMwLC4xMiwwLC4xOFYxOTJabTMyLTI0SDIwOFY4OGgxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BarbellIcon";
 
 /** @deprecated Use BarbellIcon */
 export const Barbell = I;
-export { I as BarbellIcon };
+export { I as BarbellIcon }

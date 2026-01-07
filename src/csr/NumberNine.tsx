@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NumberNine";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsNDBhNTYsNTYsMCwxLDAsMTUuNjIsMTA5Ljc3TDExMywyMDQuMDdBOCw4LDAsMSwwLDEyNywyMTEuOTJsNDkuNTUtODhBNTYsNTYsMCwwLDAsMTI4LDQwWm0wLDk2YTQwLDQwLDAsMSwxLDQwLTQwQTQwLDQwLDAsMCwxLDEyOCwxMzZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "NumberNineIcon";
 
 /** @deprecated Use NumberNineIcon */
 export const NumberNine = I;
-export { I as NumberNineIcon };
+export { I as NumberNineIcon }

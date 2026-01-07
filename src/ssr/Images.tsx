@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Images";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINzJBMTYsMTYsMCwwLDAsNTYsNTZWNzJINDBBMTYsMTYsMCwwLDAsMjQsODhWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDE4NGExNiwxNiwwLDAsMCwxNi0xNlYxODRoMTZhMTYsMTYsMCwwLDAsMTYtMTZWNTZBMTYsMTYsMCwwLDAsMjE2LDQwWk03Miw1NkgyMTZ2NjIuNzVsLTEwLjA3LTEwLjA2YTE2LDE2LDAsMCwwLTIyLjYzLDBsLTIwLDIwLTQ0LTQ0YTE2LDE2LDAsMCwwLTIyLjYyLDBMNzIsMTA5LjM3Wk0xODQsMjAwSDQwVjg4SDU2djgwYTE2LDE2LDAsMCwwLDE2LDE2SDE4NFptMzItMzJINzJWMTMybDM2LTM2LDQ5LjY2LDQ5LjY2YTgsOCwwLDAsMCwxMS4zMSwwTDE5NC42MywxMjAsMjE2LDE0MS4zOFYxNjhaTTE2MCw4NGExMiwxMiwwLDEsMSwxMiwxMkExMiwxMiwwLDAsMSwxNjAsODRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "ImagesIcon";
 
 /** @deprecated Use ImagesIcon */
 export const Images = I;
-export { I as ImagesIcon };
+export { I as ImagesIcon }

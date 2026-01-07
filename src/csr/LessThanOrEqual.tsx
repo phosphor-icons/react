@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/LessThanOrEqual";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik00MCwxMDRhOCw4LDAsMCwxLDUuMjMtNy41bDE1Mi01NmE4LDgsMCwwLDEsNS41MywxNUw3MS4xNCwxMDRsMTMxLjYyLDQ4LjQ5QTgsOCwwLDAsMSwyMDAsMTY4YTguMTMsOC4xMywwLDAsMS0yLjc3LS40OWwtMTUyLTU2QTgsOCwwLDAsMSw0MCwxMDRabTE2MCw4OEg0OGE4LDgsMCwwLDAsMCwxNkgyMDBhOCw4LDAsMCwwLDAtMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "LessThanOrEqualIcon";
 
 /** @deprecated Use LessThanOrEqualIcon */
 export const LessThanOrEqual = I;
-export { I as LessThanOrEqualIcon };
+export { I as LessThanOrEqualIcon }

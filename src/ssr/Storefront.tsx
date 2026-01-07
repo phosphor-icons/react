@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Storefront";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsOTZhNy44OSw3Ljg5LDAsMCwwLS4zLTIuMkwyMTcuMzUsNDMuNkExNi4wNywxNi4wNywwLDAsMCwyMDIsMzJINTRBMTYuMDcsMTYuMDcsMCwwLDAsMzguNjUsNDMuNkwyNC4zMSw5My44QTcuODksNy44OSwwLDAsMCwyNCw5NmgwdjE2YTQwLDQwLDAsMCwwLDE2LDMydjcyYTgsOCwwLDAsMCw4LDhIMjA4YTgsOCwwLDAsMCw4LThWMTQ0YTQwLDQwLDAsMCwwLDE2LTMyVjk2Wk01NCw0OEgyMDJsMTEuNDIsNDBINDIuNjFabTUwLDU2aDQ4djhhMjQsMjQsMCwwLDEtNDgsMFptLTE2LDB2OGEyNCwyNCwwLDAsMS0zNS4xMiwyMS4yNiw3Ljg4LDcuODgsMCwwLDAtMS44Mi0xLjA2QTI0LDI0LDAsMCwxLDQwLDExMnYtOFpNMjAwLDIwOEg1NlYxNTEuMmE0MC41Nyw0MC41NywwLDAsMCw4LC44LDQwLDQwLDAsMCwwLDMyLTE2LDQwLDQwLDAsMCwwLDY0LDAsNDAsNDAsMCwwLDAsMzIsMTYsNDAuNTcsNDAuNTcsMCwwLDAsOC0uOFptNC45My03NS44YTguMDgsOC4wOCwwLDAsMC0xLjgsMS4wNUEyNCwyNCwwLDAsMSwxNjgsMTEydi04aDQ4djhBMjQsMjQsMCwwLDEsMjA0LjkzLDEzMi4yWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "StorefrontIcon";
 
 /** @deprecated Use StorefrontIcon */
 export const Storefront = I;
-export { I as StorefrontIcon };
+export { I as StorefrontIcon }

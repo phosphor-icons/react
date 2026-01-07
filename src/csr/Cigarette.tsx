@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Cigarette";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4SDMyYTE2LDE2LDAsMCwwLTE2LDE2djMyYTE2LDE2LDAsMCwwLDE2LDE2SDIyNGExNiwxNiwwLDAsMCwxNi0xNlYxNDRBMTYsMTYsMCwwLDAsMjI0LDEyOFpNMzIsMTQ0SDgwdjMySDMyWm0xOTIsMzJIOTZWMTQ0SDIyNHYzMlpNMjAxLDYwLjA4YzgtMTQuMjMsNy40Mi0yMS43MSw2LjM2LTI0LjkxYTcuNzksNy43OSwwLDAsMC0yLjY0LTMuODYsOCw4LDAsMSwxLDYuNS0xNC42MiwyMi41NywyMi41NywwLDAsMSwxMS4zMiwxMy40NGMzLjM2LDEwLjE0LjgxLDIyLjg1LTcuNiwzNy43OS04LDE0LjIzLTcuNDIsMjEuNzItNi4zNiwyNC45MWE3Ljc5LDcuNzksMCwwLDAsMi42NCwzLjg2LDgsOCwwLDEsMS02LjUsMTQuNjIsMjIuNTcsMjIuNTcsMCwwLDEtMTEuMzItMTMuNDRDMTkwLjA3LDg3LjczLDE5Mi42Miw3NSwyMDEsNjAuMDhabS00MCwwYzgtMTQuMjMsNy40Mi0yMS43MSw2LjM2LTI0LjkxYTcuNzksNy43OSwwLDAsMC0yLjY0LTMuODYsOCw4LDAsMSwxLDYuNS0xNC42MiwyMi41NywyMi41NywwLDAsMSwxMS4zMiwxMy40NGMzLjM2LDEwLjE0LjgxLDIyLjg1LTcuNiwzNy43OS04LDE0LjIzLTcuNDIsMjEuNzItNi4zNiwyNC45MWE3Ljc5LDcuNzksMCwwLDAsMi42NCwzLjg2LDgsOCwwLDEsMS02LjUsMTQuNjIsMjIuNTcsMjIuNTcsMCwwLDEtMTEuMzItMTMuNDRDMTUwLjA3LDg3LjczLDE1Mi42Miw3NSwxNjEsNjAuMDhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CigaretteIcon";
 
 /** @deprecated Use CigaretteIcon */
 export const Cigarette = I;
-export { I as CigaretteIcon };
+export { I as CigaretteIcon }

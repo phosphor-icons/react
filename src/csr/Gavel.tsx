@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Gavel";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDMuMzIsMTE2LjY5bC0xNi0xNmExNiwxNiwwLDAsMC0yMC44NC0xLjUzTDE1Ni44NCw0OS41MmExNiwxNiwwLDAsMC0xLjUyLTIwLjg0bC0xNi0xNmExNiwxNiwwLDAsMC0yMi42MywwbC02NCw2NGExNiwxNiwwLDAsMCwwLDIyLjYzbDE2LDE2YTE2LDE2LDAsMCwwLDIwLjgzLDEuNTJMOTYuNjksMTI0LDMxLjMxLDE4OS4zOEEyNSwyNSwwLDAsMCw2Ni42MywyMjQuN0wxMzIsMTU5LjMybDcuMTcsNy4xNmExNiwxNiwwLDAsMCwxLjUyLDIwLjg0bDE2LDE2YTE2LDE2LDAsMCwwLDIyLjYzLDBsNjQtNjRBMTYsMTYsMCwwLDAsMjQzLjMyLDExNi42OVpNODAsMTA0LDY0LDg4bDY0LTY0LDE2LDE2Wk01NS4zMiwyMTMuMzhhOSw5LDAsMCwxLTEyLjY5LDAsOSw5LDAsMCwxLDAtMTIuNjhMMTA4LDEzNS4zMiwxMjAuNjksMTQ4Wk0xMDEsMTA1LjY2LDE0NS42Niw2MSwxOTUsMTEwLjM0LDE1MC4zNSwxNTVaTTE2OCwxOTJsLTE2LTE2LDQtNGgwbDU2LTU2aDBsNC00LDE2LDE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "GavelIcon";
 
 /** @deprecated Use GavelIcon */
 export const Gavel = I;
-export { I as GavelIcon };
+export { I as GavelIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PersonSimpleHike";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsODBhMzIsMzIsMCwxLDAtMzItMzJBMzIsMzIsMCwwLDAsMTUyLDgwWm0wLTQ4YTE2LDE2LDAsMSwxLTE2LDE2QTE2LDE2LDAsMCwxLDE1MiwzMlptNDgsMTEydjg4YTgsOCwwLDAsMS0xNiwwVjE1MS42NmMtMjUuNzUtMi4yNS0zNC4zNS0xNS41Mi00Mi0yNy4zNi0yLjg1LTQuMzktNS41Ni04LjU3LTkuMTMtMTIuMTlsLTEzLjQsMzAuODEsMzcuMiwyNi41N0E4LDgsMCwwLDEsMTYwLDE3NnY1NmE4LDgsMCwwLDEtMTYsMFYxODAuMTJsLTMxLjA3LTIyLjJMNzkuMzQsMjM1LjE5QTgsOCwwLDAsMSw3MiwyNDBhNy44NCw3Ljg0LDAsMCwxLTMuMTktLjY3LDgsOCwwLDAsMS00LjE0LTEwLjUyTDEyMi4xOSw5Ni41YTgsOCwwLDAsMSwxMS0zLjkyLDQwLjkyLDQwLjkyLDAsMCwxLDgsNS40N2M2LjM3LDUuNTIsMTAuNTEsMTEuOTEsMTQuMTYsMTcuNTUsNy42OCwxMS44NCwxMy4yMiwyMC40LDM2LjYsMjAuNEE4LDgsMCwwLDEsMjAwLDE0NFpNNzIsMTUyYTgsOCwwLDAsMCw3LjM1LTQuODVsMjQtNTZhOCw4LDAsMCwwLTQuMi0xMC41bC0yOC0xMmE4LDgsMCwwLDAtMTAuNSw0LjJsLTI0LDU2YTgsOCwwLDAsMCw0LjIsMTAuNWwyOCwxMkE4LDgsMCwwLDAsNzIsMTUyWk01NC41MSwxMjcuOCw3Mi4yLDg2LjVsMTMuMyw1LjdMNjcuOCwxMzMuNDlaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "PersonSimpleHikeIcon";
 
 /** @deprecated Use PersonSimpleHikeIcon */
 export const PersonSimpleHike = I;
-export { I as PersonSimpleHikeIcon };
+export { I as PersonSimpleHikeIcon }

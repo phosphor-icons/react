@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FileCloud";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsODIuMzRsLTU2LTU2QTgsOCwwLDAsMCwxNTIsMjRINTZBMTYsMTYsMCwwLDAsNDAsNDB2ODhhOCw4LDAsMCwwLDE2LDBWNDBoODhWODhhOCw4LDAsMCwwLDgsOGg0OFYyMTZIMTc2YTgsOCwwLDAsMCwwLDE2aDI0YTE2LDE2LDAsMCwwLDE2LTE2Vjg4QTgsOCwwLDAsMCwyMTMuNjYsODIuMzRaTTE2MCw1MS4zMSwxODguNjksODBIMTYwWk0xMDgsMTI4YTUyLDUyLDAsMCwwLTQ4LDMyLDM2LDM2LDAsMCwwLDAsNzJoNDhhNTIsNTIsMCwwLDAsMC0xMDRabTAsODhINjBhMjAsMjAsMCwwLDEtMy44MS0zOS42NCw4LDgsMCwwLDAsMTYsLjM2LDM4LDM4LDAsMCwxLDEuMDYtNi4wOSw3LjU2LDcuNTYsMCwwLDAsLjI3LTFBMzYsMzYsMCwxLDEsMTA4LDIxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "FileCloudIcon";
 
 /** @deprecated Use FileCloudIcon */
 export const FileCloud = I;
-export { I as FileCloudIcon };
+export { I as FileCloudIcon }

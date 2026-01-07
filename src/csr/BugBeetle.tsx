@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BugBeetle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTUyaDE2YTgsOCwwLDAsMCwwLTE2SDIwOFYxMjBoMTZhOCw4LDAsMCwwLDAtMTZIMjA3LjZhNzkuNzYsNzkuNzYsMCwwLDAtMjEuNDQtNDYuODVsMTkuNS0xOS40OWE4LDgsMCwwLDAtMTEuMzItMTEuMzJsLTIwLjI5LDIwLjNhNzkuNzQsNzkuNzQsMCwwLDAtOTIuMSwwTDYxLjY2LDI2LjM0QTgsOCwwLDAsMCw1MC4zNCwzNy42NmwxOS41LDE5LjQ5QTc5Ljc2LDc5Ljc2LDAsMCwwLDQ4LjQsMTA0SDMyYTgsOCwwLDAsMCwwLDE2SDQ4djE2SDMyYTgsOCwwLDAsMCwwLDE2SDQ4djhjMCwyLjcuMTQsNS4zNy40LDhIMzJhOCw4LDAsMCwwLDAsMTZINTEuNjhhODAsODAsMCwwLDAsMTUyLjY0LDBIMjI0YTgsOCwwLDAsMCwwLTE2SDIwNy42Yy4yNi0yLjYzLjQtNS4zLjQtOFpNMTI4LDQ4YTY0LjA3LDY0LjA3LDAsMCwxLDYzLjQ4LDU2aC0xMjdBNjQuMDcsNjQuMDcsMCwwLDEsMTI4LDQ4Wm04LDE3NS40OFYxNDRhOCw4LDAsMCwwLTE2LDB2NzkuNDhBNjQuMDcsNjQuMDcsMCwwLDEsNjQsMTYwVjEyMEgxOTJ2NDBBNjQuMDcsNjQuMDcsMCwwLDEsMTM2LDIyMy40OFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "BugBeetleIcon";
 
 /** @deprecated Use BugBeetleIcon */
 export const BugBeetle = I;
-export { I as BugBeetleIcon };
+export { I as BugBeetleIcon }

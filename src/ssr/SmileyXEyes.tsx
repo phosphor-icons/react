@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SmileyXEyes";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlptNjEuNjYtOTMuNjZhOCw4LDAsMCwxLTExLjMyLDExLjMyTDE2OCwxMjMuMzFsLTEwLjM0LDEwLjM1YTgsOCwwLDAsMS0xMS4zMi0xMS4zMkwxNTYuNjksMTEybC0xMC4zNS0xMC4zNGE4LDgsMCwwLDEsMTEuMzItMTEuMzJMMTY4LDEwMC42OWwxMC4zNC0xMC4zNWE4LDgsMCwwLDEsMTEuMzIsMTEuMzJMMTc5LjMxLDExMlptLTgwLTIwLjY4TDk5LjMxLDExMmwxMC4zNSwxMC4zNGE4LDgsMCwwLDEtMTEuMzIsMTEuMzJMODgsMTIzLjMxLDc3LjY2LDEzMy42NmE4LDgsMCwwLDEtMTEuMzItMTEuMzJMNzYuNjksMTEyLDY2LjM0LDEwMS42NkE4LDgsMCwwLDEsNzcuNjYsOTAuMzRMODgsMTAwLjY5LDk4LjM0LDkwLjM0YTgsOCwwLDAsMSwxMS4zMiwxMS4zMlpNMTQwLDE4MGExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwxNDAsMTgwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SmileyXEyesIcon";
 
 /** @deprecated Use SmileyXEyesIcon */
 export const SmileyXEyes = I;
-export { I as SmileyXEyesIcon };
+export { I as SmileyXEyesIcon }

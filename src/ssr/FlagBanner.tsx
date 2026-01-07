@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FlagBanner";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzguNzYsNTEuNzNBOCw4LDAsMCwwLDIzMiw0OEg0MGE4LDgsMCwwLDAtNS42NiwxMy42Nkw3Ni42OSwxMDQsMzQuMzQsMTQ2LjM0QTgsOCwwLDAsMCw0MCwxNjBIMTczLjYybC0yOC44NCw2MC41NmE4LDgsMCwxLDAsMTQuNDQsNi44OGw4MC0xNjhBOCw4LDAsMCwwLDIzOC43Niw1MS43M1pNMTgxLjIzLDE0NEg1OS4zMWwzNC4zNS0zNC4zNGE4LDgsMCwwLDAsMC0xMS4zMkw1OS4zMSw2NGgxNjBaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FlagBannerIcon";
 
 /** @deprecated Use FlagBannerIcon */
 export const FlagBanner = I;
-export { I as FlagBannerIcon };
+export { I as FlagBannerIcon }

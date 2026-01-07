@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SquareHalfBottom";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBINTZBMTYsMTYsMCwwLDAsNDAsNTZWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMDAsNDBabTAsMTZ2NjRINTZWNTZabS05Niw4MHY2NEg4OFYxMzZabTE2LDBoMTZ2NjRIMTIwWm0zMiwwaDE2djY0SDE1MlptLTk2LDBINzJ2NjRINTZabTE0NCw2NEgxODRWMTM2aDE2djY0WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SquareHalfBottomIcon";
 
 /** @deprecated Use SquareHalfBottomIcon */
 export const SquareHalfBottom = I;
-export { I as SquareHalfBottomIcon };
+export { I as SquareHalfBottomIcon }

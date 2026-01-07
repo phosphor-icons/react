@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Pepper";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjcuMjcsNDAuNDJBNDAuMDYsNDAuMDYsMCwwLDAsMTI4LDhhOCw4LDAsMCwwLDAsMTYsMjQsMjQsMCwwLDEsMjIuODUsMTYuNjZBNjQuMDgsNjQuMDgsMCwwLDAsOTYsMTA0YzAsNDYuNzUtMjUuNzUsNzgtNzYuNTMsOTNhMTYsMTYsMCwwLDAsMS43NywzMS4xM0EyNjQuOCwyNjQuOCwwLDAsMCw2Ni43NSwyMzJjNDAuNzgsMCw4Ni4xNi05LjE1LDExNy41My0zNS40NkMyMTAuNjQsMTc0LjQ0LDIyNCwxNDMuMywyMjQsMTA0aDBBNjQuMDcsNjQuMDcsMCwwLDAsMTY3LjI3LDQwLjQyWk0xNjAsNTZhNDguMDcsNDguMDcsMCwwLDEsNDUuMzcsMzIuMzdMMTkyLDk1LDE2My41OCw4MC44M2E4LDgsMCwwLDAtNy4xNiwwTDEyOCw5NWwtMTMuMzctNi42OEE0OC4wOCw0OC4wOCwwLDAsMSwxNjAsNTZabTE0LDEyOC4zYy0xOCwxNS4wNy00My42LDI1LjI2LTc0LjEyLDI5LjQ3QTI1NC4wOCwyNTQuMDgsMCwwLDEsMjQsMjEyLjM3aDB2MGM1Ny4yMy0xNi44Nyw4Ny42My01NCw4OC0xMDcuNDJsMTIuNDQsNi4yMmE4LDgsMCwwLDAsNy4xNiwwTDE2MCw5Ni45M2wyOC40MiwxNC4yMWE4LDgsMCwwLDAsNy4xNiwwbDEyLjQxLTYuMkMyMDcuNzgsMTM4Ljg0LDE5Ni4zNSwxNjUuNTQsMTc0LDE4NC4yOVoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PepperIcon";
 
 /** @deprecated Use PepperIcon */
 export const Pepper = I;
-export { I as PepperIcon };
+export { I as PepperIcon }

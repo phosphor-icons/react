@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GitDiff";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMTIsMTUyYTgsOCwwLDAsMC04LDh2MjguNjlMNjYuMzQsMTUxQTgsOCwwLDAsMSw2NCwxNDUuMzdWOTVhMzIsMzIsMCwxLDAtMTYsMHY1MC4zOGEyMy44NSwyMy44NSwwLDAsMCw3LDE3TDkyLjY5LDIwMEg2NGE4LDgsMCwwLDAsMCwxNmg0OGE4LDgsMCwwLDAsOC04VjE2MEE4LDgsMCwwLDAsMTEyLDE1MlpNNDAsNjRBMTYsMTYsMCwxLDEsNTYsODAsMTYsMTYsMCwwLDEsNDAsNjRabTE2OCw5N1YxMTAuNjNhMjMuODUsMjMuODUsMCwwLDAtNy0xN0wxNjMuMzEsNTZIMTkyYTgsOCwwLDAsMCwwLTE2SDE0NGE4LDgsMCwwLDAtOCw4Vjk2YTgsOCwwLDAsMCwxNiwwVjY3LjMxTDE4OS42NiwxMDVhOCw4LDAsMCwxLDIuMzQsNS42NlYxNjFhMzIsMzIsMCwxLDAsMTYsMFptLTgsNDdhMTYsMTYsMCwxLDEsMTYtMTZBMTYsMTYsMCwwLDEsMjAwLDIwOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "GitDiffIcon";
 
 /** @deprecated Use GitDiffIcon */
 export const GitDiff = I;
-export { I as GitDiffIcon };
+export { I as GitDiffIcon }

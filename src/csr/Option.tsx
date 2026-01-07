@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Option";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTkyYTgsOCwwLDAsMS04LDhIMTYwLjk0YTE1LjkyLDE1LjkyLDAsMCwxLTE0LjMxLTguODRMOTUuMDYsODhIMzJhOCw4LDAsMCwxLDAtMTZIOTUuMDZhMTUuOTIsMTUuOTIsMCwwLDEsMTQuMzEsOC44NEwxNjAuOTQsMTg0SDIyNEE4LDgsMCwwLDEsMjMyLDE5MlpNMTUyLDg4aDcyYTgsOCwwLDAsMCwwLTE2SDE1MmE4LDgsMCwwLDAsMCwxNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "OptionIcon";
 
 /** @deprecated Use OptionIcon */
 export const Option = I;
-export { I as OptionIcon };
+export { I as OptionIcon }

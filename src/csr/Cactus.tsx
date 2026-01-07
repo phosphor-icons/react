@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Cactus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMjA4SDE2OFYxODRoNGE2OC4wNyw2OC4wNywwLDAsMCw2OC02OCwyOCwyOCwwLDAsMC01NiwwLDEyLDEyLDAsMCwxLTEyLDEyaC00VjU2YTQwLDQwLDAsMCwwLTgwLDBWODhIODRBMTIsMTIsMCwwLDEsNzIsNzZhMjgsMjgsMCwwLDAtNTYsMCw2OC4wNyw2OC4wNywwLDAsMCw2OCw2OGg0djY0SDQwYTgsOCwwLDAsMCwwLDE2SDIxNmE4LDgsMCwwLDAsMC0xNlpNOTYsMTI4SDg0QTUyLjA2LDUyLjA2LDAsMCwxLDMyLDc2YTEyLDEyLDAsMCwxLDI0LDAsMjgsMjgsMCwwLDAsMjgsMjhIOTZhOCw4LDAsMCwwLDgtOFY1NmEyNCwyNCwwLDAsMSw0OCwwdjgwYTgsOCwwLDAsMCw4LDhoMTJhMjgsMjgsMCwwLDAsMjgtMjgsMTIsMTIsMCwwLDEsMjQsMCw1Mi4wNiw1Mi4wNiwwLDAsMS01Miw1MkgxNjBhOCw4LDAsMCwwLTgsOHYzMkgxMDRWMTM2QTgsOCwwLDAsMCw5NiwxMjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CactusIcon";
 
 /** @deprecated Use CactusIcon */
 export const Cactus = I;
-export { I as CactusIcon };
+export { I as CactusIcon }

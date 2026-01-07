@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Sailboat";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDcuMjEsMTcyLjUzQTgsOCwwLDAsMCwyNDAsMTY4SDE0NFYxNDRoNzJhOCw4LDAsMCwwLDUuOTItMTMuMzhMMTQ0LDQ0LjkxVjhhOCw4LDAsMCwwLTE0LjIxLTVsLTEwNCwxMjhBOCw4LDAsMCwwLDMyLDE0NGg5NnYyNEgxNmE4LDgsMCwwLDAtNi4yNSwxM2wyOS42LDM3YTE1LjkzLDE1LjkzLDAsMCwwLDEyLjQ5LDZIMjA0LjE2YTE1LjkzLDE1LjkzLDAsMCwwLDEyLjQ5LTZsMjkuNi0zN0E4LDgsMCwwLDAsMjQ3LjIxLDE3Mi41M1pNMTk3LjkyLDEyOEgxNDRWNjguNjlaTTQ4LjgxLDEyOCwxMjgsMzAuNTNWMTI4Wm0xNTUuMzUsODBINTEuODRsLTE5LjItMjRIMjIzLjM2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SailboatIcon";
 
 /** @deprecated Use SailboatIcon */
 export const Sailboat = I;
-export { I as SailboatIcon };
+export { I as SailboatIcon }

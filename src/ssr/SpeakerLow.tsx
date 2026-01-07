@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SpeakerLow";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTUuNTEsMjQuODFhOCw4LDAsMCwwLTguNDIuODhMNzcuMjUsODBIMzJBMTYsMTYsMCwwLDAsMTYsOTZ2NjRhMTYsMTYsMCwwLDAsMTYsMTZINzcuMjVsNjkuODQsNTQuMzFBOCw4LDAsMCwwLDE2MCwyMjRWMzJBOCw4LDAsMCwwLDE1NS41MSwyNC44MVpNMzIsOTZINzJ2NjRIMzJaTTE0NCwyMDcuNjQsODgsMTY0LjA5VjkxLjkxbDU2LTQzLjU1Wk0yMDgsMTI4YTM5LjkzLDM5LjkzLDAsMCwxLTEwLDI2LjQ2LDgsOCwwLDAsMS0xMi0xMC41OCwyNCwyNCwwLDAsMCwwLTMxLjcyLDgsOCwwLDEsMSwxMi0xMC41OEE0MCw0MCwwLDAsMSwyMDgsMTI4WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "SpeakerLowIcon";
 
 /** @deprecated Use SpeakerLowIcon */
 export const SpeakerLow = I;
-export { I as SpeakerLowIcon };
+export { I as SpeakerLowIcon }

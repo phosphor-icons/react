@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GpsFix";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTIwSDIxNS42M0E4OC4xMyw4OC4xMywwLDAsMCwxMzYsNDAuMzdWMTZhOCw4LDAsMCwwLTE2LDBWNDAuMzdBODguMTMsODguMTMsMCwwLDAsNDAuMzcsMTIwSDE2YTgsOCwwLDAsMCwwLDE2SDQwLjM3QTg4LjEzLDg4LjEzLDAsMCwwLDEyMCwyMTUuNjNWMjQwYTgsOCwwLDAsMCwxNiwwVjIxNS42M0E4OC4xMyw4OC4xMywwLDAsMCwyMTUuNjMsMTM2SDI0MGE4LDgsMCwwLDAsMC0xNlpNMTI4LDIwMGE3Miw3MiwwLDEsMSw3Mi03MkE3Mi4wOCw3Mi4wOCwwLDAsMSwxMjgsMjAwWm0wLTExMmE0MCw0MCwwLDEsMCw0MCw0MEE0MCw0MCwwLDAsMCwxMjgsODhabTAsNjRhMjQsMjQsMCwxLDEsMjQtMjRBMjQsMjQsMCwwLDEsMTI4LDE1MloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "GpsFixIcon";
 
 /** @deprecated Use GpsFixIcon */
 export const GpsFix = I;
-export { I as GpsFixIcon };
+export { I as GpsFixIcon }

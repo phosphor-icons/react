@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HandSwipeLeft";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTQwdjM2YzAsMjUuNTktOC40OSw0Mi44NS04Ljg1LDQzLjU4QTgsOCwwLDAsMSwyMDAsMjI0YTcuOSw3LjksMCwwLDEtMy41Ny0uODUsOCw4LDAsMCwxLTMuNTgtMTAuNzNjLjA2LS4xMiw3LjE2LTE0LjgxLDcuMTYtMzYuNDJWMTQwYTEyLDEyLDAsMCwwLTI0LDB2NGE4LDgsMCwwLDEtMTYsMFYxMjRhMTIsMTIsMCwwLDAtMjQsMHYxMmE4LDgsMCwwLDEtMTYsMFY2OGExMiwxMiwwLDAsMC0yNCwwVjE3NmE4LDgsMCwwLDEtMTQuNzksNC4yM2wtMTguNjgtMzAtLjE0LS4yM0ExMiwxMiwwLDEsMCw0MS42LDE2Mkw3MC44OSwyMTJBOCw4LDAsMSwxLDU3LjA4LDIyMGwtMjkuMzItNTBhMjgsMjgsMCwwLDEsNDguNDEtMjguMTdMODAsMTQ4VjY4YTI4LDI4LDAsMCwxLDU2LDBWOTguN2EyOCwyOCwwLDAsMSwzOC42NSwxNi42OUEyOCwyOCwwLDAsMSwyMTYsMTQwWm0zMi05MkgxOTUuMzFsMTguMzQtMTguMzRhOCw4LDAsMCwwLTExLjMxLTExLjMybC0zMiwzMmE4LDgsMCwwLDAsMCwxMS4zMmwzMiwzMmE4LDgsMCwwLDAsMTEuMzEtMTEuMzJMMTk1LjMxLDY0SDI0OGE4LDgsMCwwLDAsMC0xNloiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "HandSwipeLeftIcon";
 
 /** @deprecated Use HandSwipeLeftIcon */
 export const HandSwipeLeft = I;
-export { I as HandSwipeLeftIcon };
+export { I as HandSwipeLeftIcon }

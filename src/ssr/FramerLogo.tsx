@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FramerLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTA0VjQwYTgsOCwwLDAsMC04LThINTZhOCw4LDAsMCwwLTUuMzEsMTRMMTA3LDk2SDU2YTgsOCwwLDAsMC04LDh2NjRhOCw4LDAsMCwwLDIuMzQsNS42Nmw3Miw3MkE4LDgsMCwwLDAsMTM2LDI0MFYxNzZoNjRhOCw4LDAsMCwwLDUuMzEtMTRMMTQ5LDExMmg1MUE4LDgsMCwwLDAsMjA4LDEwNFptLTI5LDU2SDEyOGE4LDgsMCwwLDAtOCw4djUyLjY5bC01Ni01NlYxMTJoNjFabTEzLTY0SDEzMUw3Nyw0OEgxOTJaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "FramerLogoIcon";
 
 /** @deprecated Use FramerLogoIcon */
 export const FramerLogo = I;
-export { I as FramerLogoIcon };
+export { I as FramerLogoIcon }

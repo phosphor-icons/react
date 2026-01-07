@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PersonSimpleTaiChi";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsODBBMzIsMzIsMCwxLDAsOTYsNDgsMzIsMzIsMCwwLDAsMTI4LDgwWm0wLTQ4YTE2LDE2LDAsMSwxLTE2LDE2QTE2LDE2LDAsMCwxLDEyOCwzMlptOTYsNzJhOCw4LDAsMCwxLTgsOEgxMzZ2MjYuNzJsNTEuMTUsMjEuOTNBOCw4LDAsMCwxLDE5MiwxNjh2NDhhOCw4LDAsMCwxLTE2LDBWMTczLjI4bC00Ni40NS0xOS45MUw1My4zNSwyMjJhOCw4LDAsMSwxLTEwLjctMTEuOUwxMjAsMTQwLjQ0VjExMkg0MGE4LDgsMCwwLDEsMC0xNkgyMTZBOCw4LDAsMCwxLDIyNCwxMDRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "PersonSimpleTaiChiIcon";
 
 /** @deprecated Use PersonSimpleTaiChiIcon */
 export const PersonSimpleTaiChi = I;
-export { I as PersonSimpleTaiChiIcon };
+export { I as PersonSimpleTaiChiIcon }

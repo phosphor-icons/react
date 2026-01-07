@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CowboyHat";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTIwYTgsOCwwLDAsMC02Ljc4LDMuNzZBMTc5LjksMTc5LjksMCwwLDEsMTk1LjQxLDE0M0wxNzguMzIsNTMuMDdhMTYsMTYsMCwwLDAtMjUuNzItOS41NWwtLjEzLjFMMTI4LDY0LDEwMy41Myw0My42MmwtLjEzLS4xYTE2LDE2LDAsMCwwLTI1LjcyLDkuNTNMNjAuNTksMTQzYTE3OS4yNywxNzkuMjcsMCwwLDEtMTMuODEtMTkuMjVBOCw4LDAsMCwwLDQwLDEyMGE0MCw0MCwwLDAsMCwwLDgwSDIxNmE0MCw0MCwwLDAsMCwwLTgwWk05My40MSw1NiwxMTcuODgsNzYuNGwuMTIuMWExNS45MiwxNS45MiwwLDAsMCwyMCwwbC4xMi0uMUwxNjIuNTksNTZsMTMuNjgsNzJINzkuNzNaTTQwLDE4NGEyNCwyNCwwLDAsMS00LjE0LTQ3LjY0QzUxLjI4LDE1OS44Myw2Ny43MywxNzQuNjUsODIuNCwxODRabTg4LDBjLS4zMywwLTI1LjQ5LS40LTUzLjg2LTI2LjZMNzYuNjgsMTQ0SDE3OS4zMWwyLjU0LDEzLjM1YTExMy4yOCwxMTMuMjgsMCwwLDEtMjcuMzUsMTlDMTM5LjEsMTgzLjc3LDEyOC4wNiwxODQsMTI4LDE4NFptODgsMEgxNzMuNmMxNC42Ny05LjM1LDMxLjEyLTI0LjE3LDQ2LjU0LTQ3LjY0QTI0LDI0LDAsMCwxLDIxNiwxODRaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "CowboyHatIcon";
 
 /** @deprecated Use CowboyHatIcon */
 export const CowboyHat = I;
-export { I as CowboyHatIcon };
+export { I as CowboyHatIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MusicNoteSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTAuMyw1Ni4zNGwtODAtMjRBOCw4LDAsMCwwLDEyMCw0MFYxNDguMjZBNDgsNDgsMCwxLDAsMTM2LDE4NFY1MC43NWw2OS43LDIwLjkxYTgsOCwwLDEsMCw0LjYtMTUuMzJaTTg4LDIxNmEzMiwzMiwwLDEsMSwzMi0zMkEzMiwzMiwwLDAsMSw4OCwyMTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "MusicNoteSimpleIcon";
 
 /** @deprecated Use MusicNoteSimpleIcon */
 export const MusicNoteSimple = I;
-export { I as MusicNoteSimpleIcon };
+export { I as MusicNoteSimpleIcon }

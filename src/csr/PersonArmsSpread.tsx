@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PersonArmsSpread";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsNDBhMzIsMzIsMCwxLDAtMzIsMzJBMzIsMzIsMCwwLDAsMTYwLDQwWk0xMjgsNTZhMTYsMTYsMCwxLDEsMTYtMTZBMTYsMTYsMCwwLDEsMTI4LDU2Wk0yMzEuNSw4Ny43MUExOS42MiwxOS42MiwwLDAsMCwyMTIsNzJINDRhMjAsMjAsMCwwLDAtOC4zOCwzOC4xNmwuMTMsMCw1MC43NSwyMi4zNS0yMSw3OS43MkEyMCwyMCwwLDAsMCwxMDIsMjI4LjhsMjYtNDQuODcsMjYsNDQuODdhMjAsMjAsMCwwLDAsMzYuNC0xNi41MmwtMjEtNzkuNzIsNTAuNzUtMjIuMzUuMTMsMEExOS42NCwxOS42NCwwLDAsMCwyMzEuNSw4Ny43MVptLTE3LjgsNy45LTU2LjkzLDI1LjA2YTgsOCwwLDAsMC00LjUxLDkuMzZMMTc1LjEzLDIxN2E3LDcsMCwwLDAsLjQ5LDEuMzUsNCw0LDAsMCwxLTUsNS40NSw0LDQsMCwwLDEtMi4yNS0yLjA3LDYuMzEsNi4zMSwwLDAsMC0uMzQtLjYzTDEzNC45MiwxNjRhOCw4LDAsMCwwLTEzLjg0LDBMODgsMjIxLjA1YTYuMzEsNi4zMSwwLDAsMC0uMzQuNjMsNCw0LDAsMCwxLTIuMjUsMi4wNyw0LDQsMCwwLDEtNS01LjQ1LDcsNywwLDAsMCwuNDktMS4zNUwxMDMuNzQsMTMwYTgsOCwwLDAsMC00LjUxLTkuMzZMNDIuMyw5NS42MUE0LDQsMCwwLDEsNDQsODhIMjEyYTQsNCwwLDAsMSwxLjczLDcuNjFaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "PersonArmsSpreadIcon";
 
 /** @deprecated Use PersonArmsSpreadIcon */
 export const PersonArmsSpread = I;
-export { I as PersonArmsSpreadIcon };
+export { I as PersonArmsSpreadIcon }

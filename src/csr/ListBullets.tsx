@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ListBullets";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04MCw2NGE4LDgsMCwwLDEsOC04SDIxNmE4LDgsMCwwLDEsMCwxNkg4OEE4LDgsMCwwLDEsODAsNjRabTEzNiw1Nkg4OGE4LDgsMCwwLDAsMCwxNkgyMTZhOCw4LDAsMCwwLDAtMTZabTAsNjRIODhhOCw4LDAsMCwwLDAsMTZIMjE2YTgsOCwwLDAsMCwwLTE2Wk00NCw1MkExMiwxMiwwLDEsMCw1Niw2NCwxMiwxMiwwLDAsMCw0NCw1MlptMCw2NGExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCw0NCwxMTZabTAsNjRhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsNDQsMTgwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ListBulletsIcon";
 
 /** @deprecated Use ListBulletsIcon */
 export const ListBullets = I;
-export { I as ListBulletsIcon };
+export { I as ListBulletsIcon }

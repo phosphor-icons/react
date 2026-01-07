@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Visor";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODMuMDUsNTZINzJBNzIsNzIsMCwwLDAsLjA4LDEzMS40YzEuNjksMzYuNjksMzEuNzYsNjYuNzksNjguNDUsNjguNTIsMTUuODUuNzQsMzItNS45LDQ5LjM4LTIwLjNhMTUuODgsMTUuODgsMCwwLDEsMjAuMjQsMEMxNDguNzIsMTg4LjM5LDE2NSwyMDAsMTg0LDIwMGE3Miw3MiwwLDAsMCw3Mi03Mi45NUMyNTUuNDksODcuODcsMjIyLjc2LDU2LDE4My4wNSw1NlptNDAuODEsMTExLjM0QTU1LjYzLDU1LjYzLDAsMCwxLDE4NCwxODRjLTEzLjg4LDAtMjctOS41MS0zNS42NS0xNi42N2EzMS45MSwzMS45MSwwLDAsMC00MC42NSwwQzkzLjUyLDE3OSw4MC45NCwxODQuNDksNjkuMjgsMTgzLjk0YTU2LjM2LDU2LjM2LDAsMCwxLTUzLjIyLTUzLjI4QTU2LDU2LDAsMCwxLDcyLDcySDE4My4wNWMzMSwwLDU2LjU1LDI0Ljc5LDU2Ljk1LDU1LjI1QTU1LjY2LDU1LjY2LDAsMCwxLDIyMy44NiwxNjcuMzRaTTE4NCw5NmE4LDgsMCwwLDEtOCw4SDgwYTgsOCwwLDAsMSwwLTE2aDk2QTgsOCwwLDAsMSwxODQsOTZaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "VisorIcon";
 
 /** @deprecated Use VisorIcon */
 export const Visor = I;
-export { I as VisorIcon };
+export { I as VisorIcon }

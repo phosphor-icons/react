@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowsVertical";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjUuNjYsMTk0LjM0YTgsOCwwLDAsMSwwLDExLjMybC0zMiwzMmE4LDgsMCwwLDEtMTEuMzIsMGwtMzItMzJhOCw4LDAsMCwxLDExLjMyLTExLjMyTDEyMCwyMTIuNjlWNDMuMzFMMTAxLjY2LDYxLjY2QTgsOCwwLDAsMSw5MC4zNCw1MC4zNGwzMi0zMmE4LDgsMCwwLDEsMTEuMzIsMGwzMiwzMmE4LDgsMCwwLDEtMTEuMzIsMTEuMzJMMTM2LDQzLjMxVjIxMi42OWwxOC4zNC0xOC4zNUE4LDgsMCwwLDEsMTY1LjY2LDE5NC4zNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ArrowsVerticalIcon";
 
 /** @deprecated Use ArrowsVerticalIcon */
 export const ArrowsVertical = I;
-export { I as ArrowsVerticalIcon };
+export { I as ArrowsVerticalIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowBendDoubleUpRight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjkuNjYsMTA5LjY2bC00OCw0OGE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMjEyLjY5LDEwNCwxNzAuMzQsNjEuNjZhOCw4LDAsMCwxLDExLjMyLTExLjMybDQ4LDQ4QTgsOCwwLDAsMSwyMjkuNjYsMTA5LjY2Wm0tNDgtMTEuMzItNDgtNDhhOCw4LDAsMCwwLTExLjMyLDExLjMyTDE1Ni42OSw5NkgxMjhBMTA0LjExLDEwNC4xMSwwLDAsMCwyNCwyMDBhOCw4LDAsMCwwLDE2LDAsODguMSw4OC4xLDAsMCwxLDg4LTg4aDI4LjY5bC0zNC4zNSwzNC4zNGE4LDgsMCwwLDAsMTEuMzIsMTEuMzJsNDgtNDhBOCw4LDAsMCwwLDE4MS42Niw5OC4zNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "ArrowBendDoubleUpRightIcon";
 
 /** @deprecated Use ArrowBendDoubleUpRightIcon */
 export const ArrowBendDoubleUpRight = I;
-export { I as ArrowBendDoubleUpRightIcon };
+export { I as ArrowBendDoubleUpRightIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Church";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjguMTIsMTQ1LjE0LDE5MiwxMjMuNDdWMTA0YTgsOCwwLDAsMC00LTdMMTM2LDY3LjM2VjQ4aDE2YTgsOCwwLDAsMCwwLTE2SDEzNlYxNmE4LDgsMCwwLDAtMTYsMFYzMkgxMDRhOCw4LDAsMCwwLDAsMTZoMTZWNjcuMzZMNjgsOTcuMDVhOCw4LDAsMCwwLTQsN3YxOS40N0wyNy44OCwxNDUuMTRBOCw4LDAsMCwwLDI0LDE1MnY2NGE4LDgsMCwwLDAsOCw4aDgwYTgsOCwwLDAsMCw4LThWMTY4YTgsOCwwLDAsMSwxNiwwdjQ4YTgsOCwwLDAsMCw4LDhoODBhOCw4LDAsMCwwLDgtOFYxNTJBOCw4LDAsMCwwLDIyOC4xMiwxNDUuMTRaTTQwLDE1Ni41M2wyNC0xNC40VjIwOEg0MFpNMTI4LDE0NGEyNCwyNCwwLDAsMC0yNCwyNHY0MEg4MFYxMDguNjRsNDgtMjcuNDMsNDgsMjcuNDNWMjA4SDE1MlYxNjhBMjQsMjQsMCwwLDAsMTI4LDE0NFptODgsNjRIMTkyVjE0Mi4xM2wyNCwxNC40WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "ChurchIcon";
 
 /** @deprecated Use ChurchIcon */
 export const Church = I;
-export { I as ChurchIcon };
+export { I as ChurchIcon }

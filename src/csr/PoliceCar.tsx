@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PoliceCar";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTA0SDIyOC42NEwyMDEuMjUsNTYuMDZBMTYsMTYsMCwwLDAsMTg3LjM2LDQ4SDY4LjY0YTE2LDE2LDAsMCwwLTEzLjg5LDguMDZMMjcuMzYsMTA0SDE2YTgsOCwwLDAsMCwwLDE2aDh2ODBhMTYsMTYsMCwwLDAsMTYsMTZINjRhMTYsMTYsMCwwLDAsMTYtMTZWMTg0aDk2djE2YTE2LDE2LDAsMCwwLDE2LDE2aDI0YTE2LDE2LDAsMCwwLDE2LTE2VjEyMGg4YTgsOCwwLDAsMCwwLTE2Wk02OC42NCw2NEgxODcuMzZsMjIuODUsNDBINDUuNzlaTTY0LDIwMEg0MFYxODRINjRabTEyOCwwVjE4NGgyNHYxNlptMjQtMzJINDBWMTIwSDIxNlpNNTYsMTQ0YTgsOCwwLDAsMSw4LThIODBhOCw4LDAsMCwxLDAsMTZINjRBOCw4LDAsMCwxLDU2LDE0NFptMTEyLDBhOCw4LDAsMCwxLDgtOGgxNmE4LDgsMCwwLDEsMCwxNkgxNzZBOCw4LDAsMCwxLDE2OCwxNDRaTTk2LDI0YTgsOCwwLDAsMSw4LThoNDhhOCw4LDAsMCwxLDAsMTZIMTA0QTgsOCwwLDAsMSw5NiwyNFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PoliceCarIcon";
 
 /** @deprecated Use PoliceCarIcon */
 export const PoliceCar = I;
-export { I as PoliceCarIcon };
+export { I as PoliceCarIcon }

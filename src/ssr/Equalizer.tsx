@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Equalizer";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04MCw5NmE4LDgsMCwwLDEtOCw4SDI0YTgsOCwwLDAsMSwwLTE2SDcyQTgsOCwwLDAsMSw4MCw5NlptLTgsMjRIMjRhOCw4LDAsMCwwLDAsMTZINzJhOCw4LDAsMCwwLDAtMTZabTAsMzJIMjRhOCw4LDAsMCwwLDAsMTZINzJhOCw4LDAsMCwwLDAtMTZabTAsMzJIMjRhOCw4LDAsMCwwLDAsMTZINzJhOCw4LDAsMCwwLDAtMTZabTgwLTY0SDEwNGE4LDgsMCwwLDAsMCwxNmg0OGE4LDgsMCwwLDAsMC0xNlptMCwzMkgxMDRhOCw4LDAsMCwwLDAsMTZoNDhhOCw4LDAsMCwwLDAtMTZabTAsMzJIMTA0YTgsOCwwLDAsMCwwLDE2aDQ4YTgsOCwwLDAsMCwwLTE2Wm04MC05NkgxODRhOCw4LDAsMCwwLDAsMTZoNDhhOCw4LDAsMCwwLDAtMTZaTTE4NCw3Mmg0OGE4LDgsMCwwLDAsMC0xNkgxODRhOCw4LDAsMCwwLDAsMTZabTQ4LDQ4SDE4NGE4LDgsMCwwLDAsMCwxNmg0OGE4LDgsMCwwLDAsMC0xNlptMCwzMkgxODRhOCw4LDAsMCwwLDAsMTZoNDhhOCw4LDAsMCwwLDAtMTZabTAsMzJIMTg0YTgsOCwwLDAsMCwwLDE2aDQ4YTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "EqualizerIcon";
 
 /** @deprecated Use EqualizerIcon */
 export const Equalizer = I;
-export { I as EqualizerIcon };
+export { I as EqualizerIcon }

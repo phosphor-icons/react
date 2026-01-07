@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Tilde";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjIuMjMsMTMwLjU5Yy0xNC41MSwxOC0yOC44NCwyNy42LTQzLjgsMjkuMTdhNDMsNDMsMCwwLDEtNC41LjI0Yy0xOS4zLDAtMzUuMzktMTMuMS01MS0yNS44LTE0LjkxLTEyLjE0LTI5LTIzLjYxLTQzLjctMjItMTAuNTEsMS4xLTIxLjMxLDguNzItMzMsMjMuMjhhOCw4LDAsMCwxLTEyLjQ2LTEwYzE0LjUxLTE4LDI4Ljg0LTI3LjYsNDMuOC0yOS4xNywyMS4zMi0yLjI1LDM4LjY5LDExLjg5LDU1LjQ4LDI1LjU2LDE0LjkxLDEyLjE0LDI5LDIzLjYyLDQzLjcsMjIsMTAuNTEtMS4xLDIxLjMxLTguNzIsMzMtMjMuMjhhOCw4LDAsMSwxLDEyLjQ2LDEwWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "TildeIcon";
 
 /** @deprecated Use TildeIcon */
 export const Tilde = I;
-export { I as TildeIcon };
+export { I as TildeIcon }

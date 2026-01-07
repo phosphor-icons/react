@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Panorama";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDEuNzUsNTEuMzJhMTUuODgsMTUuODgsMCwwLDAtMTMuODYtMi43N2wtMy40OC45NEMyMDUuNjEsNTQuNTYsMTcwLjYxLDY0LDEyOCw2NFM1MC4zOSw1NC41NiwzMS41OSw0OS40OWwtMy40OC0uOTRBMTYsMTYsMCwwLDAsOCw2NFYxOTJhMTYsMTYsMCwwLDAsMTYsMTYsMTYuMjIsMTYuMjIsMCwwLDAsNC4xOC0uNTVsMy4xOC0uODZDNTAuMTMsMjAxLjQ5LDg1LjE3LDE5MiwxMjgsMTkyczc3Ljg3LDkuNDksOTYuNjksMTQuNTlsMy4xOC44NkExNiwxNiwwLDAsMCwyNDgsMTkyVjY0QTE1LjksMTUuOSwwLDAsMCwyNDEuNzUsNTEuMzJaTTI3LjQyLDY0LjkzQzQ2Ljk0LDcwLjIsODMuMjcsODAsMTI4LDgwczgxLjA2LTkuOCwxMDAuNTgtMTUuMDdMMjMyLDY0VjE4Mi43NmwtNTguMDctNTguMDdhMTYsMTYsMCwwLDAtMjIuNjMsMGwtMjAsMjAtNDQtNDRhMTYsMTYsMCwwLDAtMjIuNjIsMEwyNCwxNDEuMzdWNjRaTTIxMy44NCwxODcuMjFhMzkxLjIyLDM5MS4yMiwwLDAsMC00OS05TDE0Mi42MywxNTZsMjAtMjBaTTI3LjEzLDE5MS4xNCwyNCwxOTJWMTY0bDUyLTUyLDY0LjI1LDY0LjI1cS02LS4yNC0xMi4yNS0uMjVDODMsMTc2LDQ1LjI4LDE4Ni4yMywyNy4xMywxOTEuMTRaTTE5MiwxMDhhMTIsMTIsMCwxLDEsMTIsMTJBMTIsMTIsMCwwLDEsMTkyLDEwOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PanoramaIcon";
 
 /** @deprecated Use PanoramaIcon */
 export const Panorama = I;
-export { I as PanoramaIcon };
+export { I as PanoramaIcon }

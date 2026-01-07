@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PenNibStraight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjIuMzMsMTIzLjg5Yy0uMDYtLjEzLS4xMi0uMjYtLjE5LS4zOEwxOTIsNjkuOVYzMmExNiwxNiwwLDAsMC0xNi0xNkg4MEExNiwxNiwwLDAsMCw2NCwzMlY2OS45MkwzMy44NiwxMjMuNTFjLS4wNy4xMi0uMTMuMjUtLjIuMzhhMTUuOTQsMTUuOTQsMCwwLDAsMS40NiwxNi41N2wuMTEuMTQsODYuNDQsMTEyLjI4YTgsOCwwLDAsMCwxMi42NywwTDIyMC43NywxNDAuNmwuMTEtLjE0QTE1LjkyLDE1LjkyLDAsMCwwLDIyMi4zMywxMjMuODlaTTE3NiwzMlY2NEg4MFYzMlpNMTI4LDE0NGExMiwxMiwwLDEsMSwxMi0xMkExMiwxMiwwLDAsMSwxMjgsMTQ0Wm04LDgwLjVWMTU4LjgzYTI4LDI4LDAsMSwwLTE2LDB2NjUuNjZMNDgsMTMxLDc2LjY5LDgwSDE3OS4zMkwyMDgsMTMxWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "PenNibStraightIcon";
 
 /** @deprecated Use PenNibStraightIcon */
 export const PenNibStraight = I;
-export { I as PenNibStraightIcon };
+export { I as PenNibStraightIcon }

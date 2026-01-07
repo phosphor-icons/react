@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NotSubsetOf";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuMzgsMzQuMDhhOCw4LDAsMCwwLTExLjMuNTRMMTk3LjE5LDQwSDEyOEE4OCw4OCwwLDAsMCw2My4xNiwxODcuNDNMNDIuMDgsMjEwLjYyYTgsOCwwLDEsMCwxMS44NCwxMC43Nkw3NSwxOTguMkE4Ny41LDg3LjUsMCwwLDAsMTI4LDIxNmg3MmE4LDgsMCwwLDAsMC0xNkgxMjhhNzEuNjMsNzEuNjMsMCwwLDEtNDIuMTgtMTMuN0wyMTMuOTIsNDUuMzhBOCw4LDAsMCwwLDIxMy4zOCwzNC4wOFpNNTYsMTI4YTcyLjA4LDcyLjA4LDAsMCwxLDcyLTcyaDU0LjY0TDc0LDE3NS41M0E3MS42OSw3MS42OSwwLDAsMSw1NiwxMjhaIi8+PC9zdmc+)
@@ -20,4 +22,4 @@ I.displayName = "NotSubsetOfIcon";
 
 /** @deprecated Use NotSubsetOfIcon */
 export const NotSubsetOf = I;
-export { I as NotSubsetOfIcon };
+export { I as NotSubsetOfIcon }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MouseScroll";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDQsMTZIMTEyQTY0LjA3LDY0LjA3LDAsMCwwLDQ4LDgwdjk2YTY0LjA3LDY0LjA3LDAsMCwwLDY0LDY0aDMyYTY0LjA3LDY0LjA3LDAsMCwwLDY0LTY0VjgwQTY0LjA3LDY0LjA3LDAsMCwwLDE0NCwxNlptNDgsMTYwYTQ4LjA1LDQ4LjA1LDAsMCwxLTQ4LDQ4SDExMmE0OC4wNSw0OC4wNSwwLDAsMS00OC00OFY4MGE0OC4wNSw0OC4wNSwwLDAsMSw0OC00OGgzMmE0OC4wNSw0OC4wNSwwLDAsMSw0OCw0OFpNMTM2LDgzLjMxdjg5LjM4bDEwLjM0LTEwLjM1YTgsOCwwLDAsMSwxMS4zMiwxMS4zMmwtMjQsMjRhOCw4LDAsMCwxLTExLjMyLDBsLTI0LTI0YTgsOCwwLDAsMSwxMS4zMi0xMS4zMkwxMjAsMTcyLjY5VjgzLjMxTDEwOS42Niw5My42NkE4LDgsMCwwLDEsOTguMzQsODIuMzRsMjQtMjRhOCw4LDAsMCwxLDExLjMyLDBsMjQsMjRhOCw4LDAsMCwxLTExLjMyLDExLjMyWiIvPjwvc3ZnPg==)
@@ -20,4 +22,4 @@ I.displayName = "MouseScrollIcon";
 
 /** @deprecated Use MouseScrollIcon */
 export const MouseScroll = I;
-export { I as MouseScrollIcon };
+export { I as MouseScrollIcon }

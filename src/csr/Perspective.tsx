@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Perspective";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTIwSDIyNFY0OGExNiwxNiwwLDAsMC0xOC44Ni0xNS43NGwtMTYwLDI5LjA5QTE2LDE2LDAsMCwwLDMyLDc3LjA5VjEyMEgxNmE4LDgsMCwwLDAsMCwxNkgzMnY0Mi45MWExNiwxNiwwLDAsMCwxMy4xNCwxNS43NGwxNjAsMjkuMDlBMTYuNDcsMTYuNDcsMCwwLDAsMjA4LDIyNGExNiwxNiwwLDAsMCwxNi0xNlYxMzZoMTZhOCw4LDAsMCwwLDAtMTZaTTQ4LDc3LjA5LDIwOCw0OHY3Mkg0OFpNMjA4LDIwOCw0OCwxNzguOTFWMTM2SDIwOFoiLz48L3N2Zz4=)
@@ -20,4 +22,4 @@ I.displayName = "PerspectiveIcon";
 
 /** @deprecated Use PerspectiveIcon */
 export const Perspective = I;
-export { I as PerspectiveIcon };
+export { I as PerspectiveIcon }
