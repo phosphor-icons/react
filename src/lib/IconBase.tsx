@@ -1,5 +1,6 @@
-import * as React from "react";
+"use client";
 import type { ReactElement } from "react";
+import * as React from "react";
 import { IconContext } from "./context";
 import { IconProps, IconWeight } from "./types";
 
