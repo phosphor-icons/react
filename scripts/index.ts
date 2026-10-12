@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import chalk from "chalk";
 import * as Core from "../core/src/index";
+import { transformJSX } from "./transform";
 
 const { IconStyle, icons } = Core;
 
@@ -80,25 +81,6 @@ function generatePreview(contents: string) {
     `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256" fill="#000"><rect width="256" height="256" fill="#FFF" rx="40" ry="40"/>`
   );
   return Buffer.from(preview).toString("base64");
-}
-
-function transformJSX(contents: string) {
-  return contents
-    .replace(/^.*<\?xml.*?\>/g, "")
-    .replace(/<svg.*?>/g, "")
-    .replace(/<\/svg>/g, "")
-    .replace(
-      /<rect width="25[\d,\.]+" height="25[\d,\.]+" fill="none".*?\/>/g,
-      ""
-    )
-    .replace(/<title.*?/, "")
-    .replace(/"#0+"/g, "{color}")
-    .replace(/currentColor/g, "{color}")
-    .replace(/fill\-rule/g, "fillRule")
-    .replace(/stroke-linecap/g, "strokeLinecap")
-    .replace(/stroke-linejoin/g, "strokeLinejoin")
-    .replace(/stroke-width/g, "strokeWidth")
-    .replace(/stroke-miterlimit/g, "strokeMiterlimit");
 }
 
 export function verifyIcons(icons: AssetMap) {
