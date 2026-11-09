@@ -9,6 +9,7 @@ import {
   CSR_PATH,
   SSR_PATH,
   DEFS_PATH,
+  WEIGHTS_PATH,
   INDEX_PATH,
   WEIGHTS,
   readAssetsFromDisk,
@@ -59,6 +60,11 @@ function generateComponents(icons: AssetMap) {
   }
   fs.mkdirSync(SSR_PATH);
 
+  if (fs.existsSync(WEIGHTS_PATH)) {
+    fs.rmSync(WEIGHTS_PATH, { recursive: true });
+  }
+  fs.mkdirSync(WEIGHTS_PATH);
+
   for (let key in icons) {
     const icon = icons[key];
     const name = pascalize(key);
@@ -74,6 +80,21 @@ ${Object.entries(icon)
   .map(([weight, { jsx }]) => `["${weight}", <>${jsx.trim()}</>]`)
   .join(",")}
 ]);
+`;
+
+    // The same weights, each as a named export, so an app can import only the
+    // weights it uses. Nothing imports this module by default.
+    let weightsString = `\
+/* GENERATED FILE */
+import * as React from "react";
+import type { ReactElement } from "react";
+
+${Object.entries(icon)
+  .map(
+    ([weight, { jsx }]) =>
+      `export const ${weight}: ReactElement = <>${jsx.trim()}</>;`
+  )
+  .join("\n")}
 `;
 
     let doc = `
@@ -134,6 +155,9 @@ export { I as ${name}Icon${
         flag: "w",
       });
       fs.writeFileSync(path.join(DEFS_PATH, `${name}.tsx`), defString, {
+        flag: "w",
+      });
+      fs.writeFileSync(path.join(WEIGHTS_PATH, `${name}.tsx`), weightsString, {
         flag: "w",
       });
       console.log(`${chalk.inverse.green(" DONE ")} ${name}`);

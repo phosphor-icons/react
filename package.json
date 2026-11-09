@@ -31,6 +31,10 @@
       "types": "./dist/csr/*.d.ts",
       "require": "./dist/index.cjs.js"
     },
+    "./dist/weights/*": {
+      "types": "./dist/weights/*.d.ts",
+      "import": "./dist/weights/*.es.js"
+    },
     "./dist/lib/*": {
       "import": "./dist/lib/*.es.js",
       "types": "./dist/lib/*.d.ts",
@@ -85,7 +89,7 @@
   "packageManager": "pnpm@10.6.3",
   "scripts": {
     "serve": "vite serve ./example",
-    "build": "vite build",
+    "build": "vite build && vite build -c vite.weights.config.ts",
     "test": "vitest",
     "assemble": "tsx scripts/assemble.ts",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,vue}\" \"./example/**/*.{js,jsx,ts,tsx,json,vue}\" \"./scripts/**/*.{mjs, js,jsx,ts,tsx,json,vue}\""

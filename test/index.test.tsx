@@ -84,6 +84,51 @@ describe("All icon weights render", () => {
   });
 });
 
+describe("Weight exports match their icons", () => {
+  const definitions = import.meta.glob("../src/defs/*.tsx");
+  const weightModules = import.meta.glob<Record<IconWeight, ReactElement>>(
+    "../src/weights/*.tsx",
+    { eager: true }
+  );
+  const weights: IconWeight[] = [
+    "thin",
+    "light",
+    "regular",
+    "bold",
+    "fill",
+    "duotone",
+  ];
+  const fileName = (path: string) => path.split("/").pop();
+  const iconsByName = new Map(allIcons);
+
+  it("every icon has a module that exports its six weights", () => {
+    expect(Object.keys(weightModules).map(fileName).sort()).toEqual(
+      Object.keys(definitions).map(fileName).sort()
+    );
+    Object.values(weightModules).forEach((exports) => {
+      expect(Object.keys(exports).sort()).toEqual([...weights].sort());
+    });
+  });
+
+  Object.entries(weightModules).forEach(([path, exports]) => {
+    const name = path.match(/\/weights\/(\w+)\.tsx$/)![1];
+    const TestIcon = iconsByName.get(`${name}Icon`)!;
+
+    weights.forEach((weight) => {
+      it(`${name} [${weight}] renders the same as ${name}Icon`, () => {
+        const single = render(
+          <IconBase
+            weight={weight}
+            weights={new Map([[weight, exports[weight]]])}
+          />
+        );
+        const full = render(<TestIcon weight={weight} />);
+        expect(single.container.innerHTML).toBe(full.container.innerHTML);
+      });
+    });
+  });
+});
+
 describe("Custom icons can be rendered", () => {
   const weights = new Map<IconWeight, ReactElement>([
     [

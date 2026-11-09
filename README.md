@@ -209,6 +209,32 @@ export default CustomIcon;
 
 If Custom Icons are intended to be used in [React Server Components](#react-server-components-and-ssr), use `<SSRBase />` instead of `<IconBase />` as the render component.
 
+### Only the Weights You Use
+
+Each icon component includes all six weights, since its `weight` can change at runtime. If your app draws an icon in fewer weights, build it the same way as a [Custom Icon](#custom-icons), from `@phosphor-icons/react/dist/weights/<Icon>`. That module exports each weight of the icon by name. When your bundler tree-shakes, as production builds do, it leaves out the weights you don't import:
+
+```tsx
+import { forwardRef, ReactElement } from "react";
+import { Icon, IconBase, IconWeight } from "@phosphor-icons/react";
+import { regular, fill } from "@phosphor-icons/react/dist/weights/Heart";
+
+const weights = new Map<IconWeight, ReactElement>([
+  ["regular", regular],
+  ["fill", fill],
+]);
+
+const HeartIcon: Icon = forwardRef((props, ref) => (
+  <IconBase ref={ref} {...props} weights={weights} />
+));
+
+HeartIcon.displayName = "HeartIcon";
+
+export default HeartIcon;
+```
+
+> [!NOTE]
+> A weight you leave out draws an empty `<svg>`, with no warning. Include every weight the icon can receive, from props or from an `IconContext` (`regular` by default). Use it in place of `HeartIcon`: an app that imports both ships the icon twice. These modules are ES modules only.
+
 <!-- BEGIN_LINKS -->
 ## Our Projects
 
